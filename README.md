@@ -18,7 +18,7 @@ Command: Modern Operations의 UI, 지도 지명, 장비 설명, 시나리오 브
 
 저장된 번역을 화면 표시 전에 불러옵니다. 별도의 실시간 번역 모델이나 번역 서버는 필요하지 않습니다. 기계 번역 초안과 수동 교정이 혼재하므로 오역·영어 잔존·표시 오류가 있을 수 있습니다.
 
-메인 지도 단축키 메뉴는 기능별 아이콘·한글 설명·단축키가 있는 버튼으로 표시합니다. 기존 클릭 동작을 유지하며 선택·비활성 상태를 구분합니다.
+메인 지도 단축키 메뉴는 **게임 원본 버튼의 배경·테두리·아이콘을 유지하고 글자 영역만 한글로 교체**합니다. 설치 시 사용자 게임의 이미지로 한글 버튼 13개를 생성해 `CMO-Korean/buttons-original-ko-v1`에 저장합니다. 게임에서는 저장된 이미지를 한 번 읽어 재사용하며, 화면을 그릴 때 번역하거나 이미지를 다시 생성하지 않습니다. 원본 이미지 파일은 변경하지 않고 배포 ZIP에도 포함하지 않습니다. 기존 클릭 동작과 선택·비활성 표시는 게임의 기본 처리를 유지합니다.
 
 ### 다운로드 및 설치
 
@@ -85,7 +85,7 @@ An unofficial Korean localization patch for Command: Modern Operations, covering
 
 Translations are loaded from stored dictionaries before display. No live translation model or translation server is required. Machine-generated drafts and manual corrections are mixed; mistranslations, untranslated text and display issues remain.
 
-The main map shortcut toolbar uses buttons with function icons, Korean labels and shortcut keys. Existing click actions are preserved, with distinct selected and disabled states.
+The main map shortcut toolbar **preserves the original game button backgrounds, borders and icons, replacing only the lettering area with Korean**. During installation, 13 localized images are generated from the user’s local game assets and saved under `CMO-Korean/buttons-original-ko-v1`. The game loads these once and reuses them; no translation or image generation occurs during rendering. Original image files are not modified or included in the ZIP. Native click handling and selected/disabled rendering are retained.
 
 ### Download and installation
 
@@ -109,7 +109,7 @@ If an earlier patch is installed, restore it using that version's `Restore.cmd` 
 
 Close the game and run `Restore.cmd`, or `Restore.ps1 -GamePath 'your game path'`. Backups remain under `CMO-Korean/backup` in the game directory.
 
-The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies individual files. The patch passed 60 automated checks plus GDI/DirectWrite display checks. This does not mean every in-game screen and scenario has been tested with this release.
+The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies individual files. The patch passed 60 automated checks plus GDI/DirectWrite display checks. Additional checks verify unchanged original icon/border pixels, preserved button behavior and only 13 image loads over 1,001 preparation calls. This does not mean every in-game screen and scenario has been tested with this release.
 
 ### Package scope
 

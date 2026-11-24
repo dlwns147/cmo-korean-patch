@@ -13,3 +13,14 @@
 - 메인 지도 단축키 메뉴를 기능별 벡터 아이콘·한글 설명·단축키가 있는 버튼으로 표시합니다.
 - 마우스 강조, 눌림, 선택, 비활성 상태를 구분합니다. 기존 클릭 처리와 단축키는 유지합니다.
 - 게임 이미지 파일을 재배포하지 않고 코드로 도형을 그립니다.
+
+## 원본 디자인의 한글 이미지 버튼 / Original-style Korean image buttons
+
+- 앞선 벡터 버튼 디자인을 원본 이미지 기반으로 교체했습니다. 아이콘·테두리·배경은 유지하고 글자 영역만 바꿉니다.
+- 설치 시 로컬 원본에서 13개 이미지를 생성합니다. 원본·생성 이미지는 ZIP에 포함하지 않습니다.
+- 런타임은 이미지를 한 번 로드해 재사용합니다. 기존 게임 렌더러와 클릭·선택·비활성 상태를 유지합니다.
+- Replace the earlier vector design with locally generated original-style buttons. Generation occurs during installation; original and generated images are not distributed. Cached images are reused without per-frame generation.
+- Pixel preservation, state/click behavior and one-time image loading tests passed. Full in-game visual verification remains pending.
+
+- 자동·수동 공격 버튼의 영어 글자 픽셀이 배경에 복사되어 가로줄이 생기던 문제를 수정했습니다. 13개 이미지 전체를 확인했습니다.
+- Fixed horizontal artifacts on attack buttons by sampling a verified blank background column. All 13 generated images were visually inspected.
