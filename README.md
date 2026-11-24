@@ -12,6 +12,8 @@ Contact / 연락처: [lsj000777@naver.com](mailto:lsj000777@naver.com)
 
 ### 소개
 
+이 프로젝트는 **OpenAI Codex를 활용하여 개발 및 번역 작업을 진행했습니다.** 모드 코드 작성·수정, 번역 문구 교정, 테스트 및 배포 패키지 정리에 Codex의 도움을 받았습니다. 번역 초안 생성에는 아래에 명시한 NLLB 모델도 사용했습니다.
+
 Command: Modern Operations의 UI, 지도 지명, 장비 설명, 시나리오 브리핑을 한국어로 표시하는 비공식 패치입니다. 제작사 또는 퍼블리셔와 제휴하거나 승인을 받은 공식 번역이 아닙니다. 무료·비상업 목적으로 제공하며 유료 판매나 유료 접근을 목적으로 하지 않습니다.
 
 저장된 번역을 화면 표시 전에 불러옵니다. 별도의 실시간 번역 모델이나 번역 서버는 필요하지 않습니다. 기계 번역 초안과 수동 교정이 혼재하므로 오역·영어 잔존·표시 오류가 있을 수 있습니다.
@@ -74,6 +76,8 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 ## English
 
 ### About
+
+This project was **developed with assistance from OpenAI Codex**. Codex assisted with writing and updating the mod code, revising translations, testing, and preparing the distribution package. The NLLB model listed below was also used to generate draft translations.
 
 An unofficial Korean localization patch for Command: Modern Operations, covering UI text, map labels, equipment descriptions and scenario briefings. It is not affiliated with or officially endorsed by the developer or publisher. The project is provided free of charge for non-commercial purposes, with no paid access or sale intended.
 
