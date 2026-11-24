@@ -1,0 +1,133 @@
+# CMO Korean Patch / 커맨드: 모던 오퍼레이션스 한국어 패치
+
+**Unofficial · Free & non-commercial · Preview / 비공식 · 무료·비상업 · 검수 중**
+
+Maintainer / 관리자: [dlwns147](https://github.com/dlwns147)  
+Repository / 저장소: https://github.com/dlwns147/cmo-korean-patch  
+Contact / 연락처: [lsj000777@naver.com](mailto:lsj000777@naver.com)
+
+---
+
+## 한국어
+
+### 소개
+
+Command: Modern Operations의 UI, 지도 지명, 장비 설명, 시나리오 브리핑을 한국어로 표시하는 비공식 패치입니다. 제작사 또는 퍼블리셔와 제휴하거나 승인을 받은 공식 번역이 아닙니다. 무료·비상업 목적으로 제공하며 유료 판매나 유료 접근을 목적으로 하지 않습니다.
+
+저장된 번역을 화면 표시 전에 불러옵니다. 별도의 실시간 번역 모델이나 번역 서버는 필요하지 않습니다. 기계 번역 초안과 수동 교정이 혼재하므로 오역·영어 잔존·표시 오류가 있을 수 있습니다.
+
+### 다운로드 및 설치
+
+저장소의 [downloads 폴더](https://github.com/dlwns147/cmo-korean-patch/tree/main/downloads)에서 `CMO-Korean-v0.2-translation-only.zip`을 선택하고 **Download raw file**로 받으세요. GitHub의 소스 코드 ZIP 대신 이 설치용 ZIP을 사용합니다. 다운로드 후 압축을 완전히 풉니다.
+
+1. 게임을 종료합니다.
+2. `Install.cmd`를 실행합니다. 기본 Steam 경로를 사용합니다.
+3. 게임을 평소처럼 실행합니다.
+
+다른 경로에 설치했다면 PowerShell에서 실행합니다.
+
+```powershell
+.\Install.ps1 -GamePath 'D:\SteamLibrary\steamapps\common\Command - Modern Operations'
+```
+
+검증 대상은 **Windows 64비트, CMO v1.10 / 빌드 1900.24**입니다. Windows PowerShell 5.1과 .NET Framework 4.x를 사용합니다. 설치기는 게임 실행 파일 해시를 검사하며 다른 빌드는 거부합니다. 다른 AppDomainManager 모드 또는 기존 Harmony DLL과 충돌할 수도 있습니다. 접근 권한 오류가 있을 때만 설치기를 관리자 권한으로 실행하세요.
+
+기존 패치를 사용 중이면 기존 버전의 `Restore.cmd`로 먼저 복원합니다. 게임 업데이트로 파일이 변경되어 복원이 거부되면 강제로 덮어쓰지 마세요. 원본 백업은 삭제하지 마세요.
+
+### 제거 및 검증
+
+게임을 종료한 후 `Restore.cmd`를 실행합니다. 사용자 지정 경로에서는 `Restore.ps1 -GamePath '게임 경로'`를 사용합니다. 원본 백업은 게임 폴더의 `CMO-Korean/backup`에 유지됩니다.
+
+ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `SHA256SUMS.txt`는 개별 파일 검증용입니다. 자동 검사 60개와 GDI/DirectWrite 표시 검사를 통과했습니다. 이 배포 버전의 모든 실제 게임 화면과 전체 시나리오를 검증했다는 뜻은 아닙니다.
+
+### 포함·제외 범위
+
+- 한국어 사전, 번역 표시 DLL 및 필수 Harmony 라이브러리, 번역 장비 설명, 지도 지명, 런처 한국어 리소스, 설치·복원 도구를 포함합니다.
+- 영어 설명 본문 6,267개를 제거하고 UI·시나리오 사전의 원문 조회 키를 SHA-256 해시로 변경했습니다. 사용자 게임에서 얻은 원문을 해시로 대조합니다.
+- HTML 파일 348개와 내부 이미지, 게임 실행 파일·전투 DB·원본 시나리오·세이브·DLC 원본·번역 모델을 배포하지 않습니다.
+- 약어, 장비 식별자, 공개 지명 데이터, 자료 출처는 남을 수 있습니다. 모든 영문자를 제거한 파일이라는 의미는 아닙니다.
+- HTML 교체를 제외해 일부 이미지 속 글자와 기존 HTML 수동 수정분의 번역 범위가 줄어들 수 있습니다. 사전에 없는 문장은 자동으로 새로 번역하지 않습니다.
+
+### 저작권·라이선스 및 비상업 목적
+
+이 저장소 전체에 MIT 등 단일 오픈소스 라이선스를 부여하지 않습니다. 직접 작성된 코드, 게임 번역물, 외부 라이브러리와 데이터의 권리는 구분됩니다.
+
+| 구성요소 | 조건 및 출처 |
+|---|---|
+| CMO 게임 원문과 번역물 | 원문과 관련 권리는 각 권리자에게 있습니다. [CMO EULA](https://store.steampowered.com//eula/1076160_eula_0)와 [퍼블리셔 모드 정책](https://www6.slitherine.com/terms-of-use)이 적용될 수 있습니다. 이 패치에 대한 서면 배포 승인을 확보했다고 주장하지 않습니다. |
+| 커뮤니티 시나리오 번역 | 개별 작성자의 권리와 배포 조건을 존중합니다. 포괄 재배포 허락이 확인된 것으로 표시하지 않습니다. |
+| Harmony 2.4.3 | MIT, Copyright (c) 2017 Andreas Pardeike. `HARMONY-LICENSE.txt`의 저작권·허락문을 유지합니다. [원 라이선스](https://github.com/pardeike/Harmony/blob/master/LICENSE) |
+| GeoNames | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [GeoNames 데이터](https://download.geonames.org/export/dump/readme.txt)의 도시명·좌표를 사용하고 한국어 표기를 교정·음차했습니다. |
+| Natural Earth | [퍼블릭 도메인](https://www.naturalearthdata.com/about/terms-of-use/). 지도 지명을 한국어로 변환했습니다. |
+| NLLB-200 distilled 600M | 번역 초안 생성에 사용한 모델은 [CC BY-NC 4.0](https://huggingface.co/facebook/nllb-200-distilled-600M)입니다. 모델과 엔진은 배포하지 않습니다. 모델 라이선스가 번역 출력 전체에 자동 적용되거나 원문의 권리를 대체한다고 주장하지 않습니다. |
+
+**비상업 배포와 영어 원문·이미지 제거만으로 번역물의 배포 허락이 자동으로 생기지는 않습니다.** 전체 번역물에 대한 권리 확인은 완료되지 않았습니다. 자세한 구성요소 출처는 `THIRD-PARTY.md`를 참조하세요.
+
+### 권리 문제 제기 및 비공개 전환
+
+**저작권·라이선스 문제가 제기되거나 권리자의 요청이 있는 경우, 확인을 위해 해당 저장소를 비공개로 전환하고 배포를 중단하겠습니다.** 이후 해당 자료의 삭제·수정 또는 권리자의 안내에 따른 조치를 진행하겠습니다. 연락 시 문제가 되는 파일·문구와 권리 관계를 알려 주세요. 비공개 전환으로 이미 다운로드되거나 복제된 사본까지 회수할 수 있는 것은 아닙니다.
+
+문의: **lsj000777@naver.com** · GitHub: **dlwns147**
+
+---
+
+## English
+
+### About
+
+An unofficial Korean localization patch for Command: Modern Operations, covering UI text, map labels, equipment descriptions and scenario briefings. It is not affiliated with or officially endorsed by the developer or publisher. The project is provided free of charge for non-commercial purposes, with no paid access or sale intended.
+
+Translations are loaded from stored dictionaries before display. No live translation model or translation server is required. Machine-generated drafts and manual corrections are mixed; mistranslations, untranslated text and display issues remain.
+
+### Download and installation
+
+Open the [downloads folder](https://github.com/dlwns147/cmo-korean-patch/tree/main/downloads), select `CMO-Korean-v0.2-translation-only.zip`, and use **Download raw file**. Use this installer ZIP rather than GitHub's source archive. Extract it completely.
+
+1. Close the game.
+2. Run `Install.cmd`, which uses the default Steam installation path.
+3. Launch the game normally.
+
+For a custom path, run:
+
+```powershell
+.\Install.ps1 -GamePath 'D:\SteamLibrary\steamapps\common\Command - Modern Operations'
+```
+
+Tested target: **64-bit Windows, CMO v1.10 / build 1900.24**, using Windows PowerShell 5.1 and .NET Framework 4.x. The installer checks the game executable hash and rejects other builds. Other AppDomainManager mods or an existing Harmony DLL may conflict. Run the installer as administrator only if file access is denied.
+
+If an earlier patch is installed, restore it using that version's `Restore.cmd` first. Do not force replacement when restoration refuses files changed by a game update, and do not delete the original backups.
+
+### Uninstallation and validation
+
+Close the game and run `Restore.cmd`, or `Restore.ps1 -GamePath 'your game path'`. Backups remain under `CMO-Korean/backup` in the game directory.
+
+The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies individual files. The patch passed 60 automated checks plus GDI/DirectWrite display checks. This does not mean every in-game screen and scenario has been tested with this release.
+
+### Package scope
+
+- Includes Korean dictionaries, the localization DLL and required Harmony library, translated equipment descriptions, map labels, launcher resources and installation/restoration scripts.
+- Removes English description bodies from 6,267 files. UI/scenario lookup keys use SHA-256 hashes instead of stored English source passages. Source text is read from the user's game for matching.
+- Excludes 348 HTML files and their embedded images, game executables, combat databases, original scenario/save files, original DLC files and translation models.
+- Abbreviations, equipment identifiers, public geographic names and attribution references may still contain English.
+- Omitting replacement HTML may reduce coverage of text embedded in images and some previously edited HTML. Unknown text is not translated automatically at runtime.
+
+### Copyright, licenses and non-commercial purpose
+
+No blanket MIT or other open-source license is granted to the entire repository. Original code, translated game content, third-party libraries and datasets have distinct rights.
+
+| Component | Terms and attribution |
+|---|---|
+| CMO source content and translations | Relevant rights remain with their respective holders. See the [CMO EULA](https://store.steampowered.com//eula/1076160_eula_0) and [publisher's mod policy](https://www6.slitherine.com/terms-of-use). Written distribution approval for this patch is not claimed. |
+| Community-scenario translations | Individual authors' rights and distribution conditions must be respected. Blanket redistribution permission has not been established. |
+| Harmony 2.4.3 | MIT, Copyright (c) 2017 Andreas Pardeike. The copyright and permission notice is included in `HARMONY-LICENSE.txt`. [Upstream license](https://github.com/pardeike/Harmony/blob/master/LICENSE) |
+| GeoNames | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). City names and coordinates come from [GeoNames](https://download.geonames.org/export/dump/readme.txt); Korean names were corrected or transliterated. |
+| Natural Earth | [Public domain](https://www.naturalearthdata.com/about/terms-of-use/). Geographic labels were translated into Korean. |
+| NLLB-200 distilled 600M | The model used to generate draft translations is [CC BY-NC 4.0](https://huggingface.co/facebook/nllb-200-distilled-600M). Model weights and the engine are not distributed. We do not claim its license automatically governs all generated text or replaces rights in the original content. |
+
+**Non-commercial distribution and removal of English originals/images do not automatically grant permission to distribute translations.** Rights clearance for all translated content is not complete. See `THIRD-PARTY.md` for further attribution.
+
+### Rights concerns and repository visibility
+
+**If a copyright or licensing concern is raised, or a rights holder requests action, I will make this repository private and suspend distribution while reviewing the issue.** I will then remove or amend the relevant material, or take action in accordance with the rights holder's guidance. Please identify the affected files/passages and relevant rights when contacting me. Making the repository private cannot recall copies already downloaded or cloned.
+
+Contact: **lsj000777@naver.com** · GitHub: **dlwns147**
