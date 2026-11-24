@@ -18,6 +18,8 @@ Command: Modern Operations의 UI, 지도 지명, 장비 설명, 시나리오 브
 
 저장된 번역을 화면 표시 전에 불러옵니다. 별도의 실시간 번역 모델이나 번역 서버는 필요하지 않습니다. 기계 번역 초안과 수동 교정이 혼재하므로 오역·영어 잔존·표시 오류가 있을 수 있습니다.
 
+메인 지도 단축키 메뉴는 기능별 아이콘·한글 설명·단축키가 있는 버튼으로 표시합니다. 기존 클릭 동작을 유지하며 선택·비활성 상태를 구분합니다.
+
 ### 다운로드 및 설치
 
 저장소의 [downloads 폴더](https://github.com/dlwns147/cmo-korean-patch/tree/main/downloads)에서 `CMO-Korean-v0.2-translation-only.zip`을 선택하고 **Download raw file**로 받으세요. GitHub의 소스 코드 ZIP 대신 이 설치용 ZIP을 사용합니다. 다운로드 후 압축을 완전히 풉니다.
@@ -82,6 +84,8 @@ This project was **developed with assistance from OpenAI Codex**. Codex assisted
 An unofficial Korean localization patch for Command: Modern Operations, covering UI text, map labels, equipment descriptions and scenario briefings. It is not affiliated with or officially endorsed by the developer or publisher. The project is provided free of charge for non-commercial purposes, with no paid access or sale intended.
 
 Translations are loaded from stored dictionaries before display. No live translation model or translation server is required. Machine-generated drafts and manual corrections are mixed; mistranslations, untranslated text and display issues remain.
+
+The main map shortcut toolbar uses buttons with function icons, Korean labels and shortcut keys. Existing click actions are preserved, with distinct selected and disabled states.
 
 ### Download and installation
 
