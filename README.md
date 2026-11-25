@@ -52,6 +52,10 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 - 약어, 장비 식별자, 공개 지명 데이터, 자료 출처는 남을 수 있습니다. 모든 영문자를 제거한 파일이라는 의미는 아닙니다.
 - HTML 교체를 제외해 일부 이미지 속 글자와 기존 HTML 수동 수정분의 번역 범위가 줄어들 수 있습니다. 사전에 없는 문장은 자동으로 새로 번역하지 않습니다.
 
+### 번역 검수 현황 — 2026-11-26
+
+기존 사전 62,742개를 자동 검사하고, Codex가 원문을 직접 읽어 47개 문단을 교정했습니다. 장비 설명 595개 파일의 2,579개 문단 위치와 시나리오 문구에 반영했습니다. 니미츠급·타이콘데로가급·로스앤젤레스급·F-16 등의 설명에서 문장 누락과 군사용어 오역을 수정했습니다. 새 로컬 번역 모델은 사용하지 않았습니다. **전체 문장의 직접 검수는 아직 완료되지 않았습니다.** 이 수치는 전수 수동 검수나 완전 번역을 뜻하지 않습니다. 게임을 재시작하면 갱신된 시나리오 사전을 읽습니다.
+
 ### 저작권·라이선스 및 비상업 목적
 
 이 저장소 전체에 MIT 등 단일 오픈소스 라이선스를 부여하지 않습니다. 직접 작성된 코드, 게임 번역물, 외부 라이브러리와 데이터의 권리는 구분됩니다.
@@ -118,6 +122,10 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 - Excludes 348 HTML files and their embedded images, game executables, combat databases, original scenario/save files, original DLC files and translation models.
 - Abbreviations, equipment identifiers, public geographic names and attribution references may still contain English.
 - Omitting replacement HTML may reduce coverage of text embedded in images and some previously edited HTML. Unknown text is not translated automatically at runtime.
+
+### Translation review status — 2026-11-26
+
+The existing 62,742-entry dictionary was automatically screened. Codex directly revised 47 source paragraphs, updating 2,579 equipment-description paragraph occurrences across 595 files, as well as scenario text. Corrections address omissions and military terminology in descriptions including the Nimitz, Ticonderoga and Los Angeles classes and the F-16. No new local translation model was used. **A complete direct review of all text is still pending.** These counts do not represent full manual coverage. Restart the game to load the updated scenario dictionary.
 
 ### Copyright, licenses and non-commercial purpose
 

@@ -24,3 +24,10 @@
 
 - 자동·수동 공격 버튼의 영어 글자 픽셀이 배경에 복사되어 가로줄이 생기던 문제를 수정했습니다. 13개 이미지 전체를 확인했습니다.
 - Fixed horizontal artifacts on attack buttons by sampling a verified blank background column. All 13 generated images were visually inspected.
+
+## 2026-11-26 — Codex 직접 문맥 교정 / Direct contextual revisions
+
+- 사전 전체 자동 검사 후 47개 문단을 직접 교정했습니다. DB 설명 595개 파일, 2,579개 문단 위치에 반영했습니다.
+- 센서·무장·항속 성능 누락, 사격통제·흘수·대항군·탄약고 등의 오역을 교정했습니다.
+- 기존 원문 해시 방식과 영어 본문 미배포 구조를 유지했습니다. 새 로컬 모델은 사용하지 않았습니다.
+- Directly revised 47 paragraphs; updated 2,579 DB paragraph occurrences across 595 files. Original-text hashes remain in use. Full direct review remains incomplete.
