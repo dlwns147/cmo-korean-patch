@@ -54,7 +54,7 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 
 ### 번역 검수 현황 — 2026-11-26
 
-기존 사전 62,742개를 자동 검사하고, Codex가 원문을 직접 읽어 47개 문단을 교정했습니다. 장비 설명 595개 파일의 2,579개 문단 위치와 시나리오 문구에 반영했습니다. 니미츠급·타이콘데로가급·로스앤젤레스급·F-16 등의 설명에서 문장 누락과 군사용어 오역을 수정했습니다. 새 로컬 번역 모델은 사용하지 않았습니다. **전체 문장의 직접 검수는 아직 완료되지 않았습니다.** 이 수치는 전수 수동 검수나 완전 번역을 뜻하지 않습니다. 게임을 재시작하면 갱신된 시나리오 사전을 읽습니다.
+기존 사전 62,742개를 자동 검사하고, Codex가 원문을 직접 읽어 74개 문단을 교정했습니다. 장비 설명 731개 파일의 3,831개 문단 위치와 시나리오 문구에 반영했습니다. 니미츠급·타이콘데로가급·로스앤젤레스급·알레이 버크급·F-16·F/A-18·P-3 등의 설명에서 문장 누락과 군사용어 오역을 수정했습니다. 새 로컬 번역 모델은 사용하지 않았습니다. **전체 문장의 직접 검수는 아직 완료되지 않았습니다.** 이 수치는 전수 수동 검수나 완전 번역을 뜻하지 않습니다. 게임을 재시작하면 갱신된 시나리오 사전을 읽습니다.
 
 ### 저작권·라이선스 및 비상업 목적
 
@@ -125,7 +125,7 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 
 ### Translation review status — 2026-11-26
 
-The existing 62,742-entry dictionary was automatically screened. Codex directly revised 47 source paragraphs, updating 2,579 equipment-description paragraph occurrences across 595 files, as well as scenario text. Corrections address omissions and military terminology in descriptions including the Nimitz, Ticonderoga and Los Angeles classes and the F-16. No new local translation model was used. **A complete direct review of all text is still pending.** These counts do not represent full manual coverage. Restart the game to load the updated scenario dictionary.
+The existing 62,742-entry dictionary was automatically screened. Codex directly revised 74 source paragraphs, updating 3,831 equipment-description paragraph occurrences across 731 files, as well as scenario text. Corrections address omissions and military terminology in descriptions including the Nimitz, Ticonderoga and Los Angeles and Arleigh Burke classes, and the F-16, F/A-18 and P-3. No new local translation model was used. **A complete direct review of all text is still pending.** These counts do not represent full manual coverage. Restart the game to load the updated scenario dictionary.
 
 ### Copyright, licenses and non-commercial purpose
 

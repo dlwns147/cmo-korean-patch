@@ -31,3 +31,10 @@
 - 센서·무장·항속 성능 누락, 사격통제·흘수·대항군·탄약고 등의 오역을 교정했습니다.
 - 기존 원문 해시 방식과 영어 본문 미배포 구조를 유지했습니다. 새 로컬 모델은 사용하지 않았습니다.
 - Directly revised 47 paragraphs; updated 2,579 DB paragraph occurrences across 595 files. Original-text hashes remain in use. Full direct review remains incomplete.
+
+## 2026-11-26 — 추가 직접 교정 / Further direct review
+
+- F/A-18·P-3·알레이 버크급 및 F-16 센서·무장 설명 27개 문단을 추가 교정했습니다. 186개 파일의 1,252개 문단 위치에 적용했습니다.
+- 무장·센서 목록의 누락을 보완하고 비행 성능·정비 용어와 과거 운용 현황의 표현을 다듬었습니다.
+- Directly revised 27 additional paragraphs, updating 1,252 occurrences across 186 files. Restored weapon/sensor details and clarified flight-performance, maintenance and historical-service wording.
+- 로컬 번역 모델 미사용. 전체 직접 검수는 진행 중입니다. No local translation model used; full direct review remains incomplete.
