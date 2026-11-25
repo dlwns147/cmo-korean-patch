@@ -48,13 +48,17 @@
   "full_manual_review_complete": false,
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
-    "method": "Direct Codex source-based rewriting; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 3892,
+    "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
+    "reviewed_source_entries": 3950,
+    "review_outcomes": {
+      "modified": 3919,
+      "retained": 31
+    },
     "changed_from_base": {
-      "ko.tsv": 9,
-      "scenario-ko.b64.tsv": 3890,
-      "db_files": 1791,
-      "db_paragraphs": 2277
+      "ko.tsv": 18,
+      "scenario-ko.b64.tsv": 3926,
+      "db_files": 1858,
+      "db_paragraphs": 2348
     },
     "source_recovery": {
       "matched": {
@@ -65,7 +69,7 @@
       "unique_candidates": 992799
     },
     "validation": {
-      "runtime_first_lookup_passed": 3892,
+      "runtime_first_lookup_passed": 3950,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false
