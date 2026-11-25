@@ -2,16 +2,16 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 4110,
+    "reviewed_source_entries": 4450,
     "review_outcomes": {
-      "modified": 3945,
-      "retained": 165
+      "modified": 4006,
+      "retained": 444
     },
     "changed_from_base": {
-      "ko.tsv": 44,
-      "scenario-ko.b64.tsv": 3973,
-      "db_files": 1933,
-      "db_paragraphs": 2429
+      "ko.tsv": 100,
+      "scenario-ko.b64.tsv": 4105,
+      "db_files": 1935,
+      "db_paragraphs": 2432
     },
     "source_recovery": {
       "matched": {
@@ -22,12 +22,18 @@
       "unique_candidates": 992799
     },
     "validation": {
-      "runtime_first_lookup_passed": 4110,
+      "runtime_first_lookup_passed": 4450,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
-      "in_game_visual_check": false
+      "in_game_visual_check": false,
+      "scenario_context_priority_regression_passed": true
     },
-    "full_manual_review_complete": false
+    "full_manual_review_complete": false,
+    "runtime_change": {
+      "description": "Prefer exact scenario dictionary matches before generic UI translations in TranslateScenario; UI lookup remains unchanged",
+      "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
+      "reproduction_script": "tools/fix-scenario-priority.py"
+    }
   },
   "entries": [
     {
@@ -32909,6 +32915,2726 @@
       "review": "direct-source-review",
       "batch": "revisions-126.tsv",
       "previous_translation_sha256": "b60b22849f69ddbec2a78444ba68a42a5ebdfd7ed825be41fa811b690f5c04a6"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "67a9a556da3a609f4a36560c6d52b31361577f8e42fe1d61cb1bf1d749158481",
+      "translation": "스웨덴",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "7b6909027599c735bb28c10557fdce232df47fa4c9bf5a82fa045977b226aad1"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "69da9691cb9da7693766cd0a449186c7df555cdd451c850056d1d936f94d0f73",
+      "translation": "거리",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "51e49276d394c94f94a86eaa2b013a45a998361109341d049951f9489895efe7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "69fdb867f7345db96f4d0996b17713cd3d198ab5d7c17f0a6f2a24d3986ef0b2",
+      "translation": "4. 행정·군수지원: 변경 사항 없음.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "8c9b1de0481c53738941705dd096992834f559bb9db02068c68493cffed88445"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6c30cbcf2cf78733bbef13b60d08e470cb7cbbe9b4b8e64ef5b4ad54b3d24f49",
+      "translation": "파키스탄",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "f006c28fb5db8ff4ab0d95e6dd28cba3545ed4c308da597c9a4767e77513b52d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6e10953f3e4ca159285c03a116d60c5086727c958dc25b31c39848ffea1dcdfe",
+      "translation": "열기",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "2668bc818e5bb92383e10eda13c33daaac9eb267906aae71b48ac507176b6e9e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6ea03a4aea4e1dc5815040831bdc249ef44eaff3caf5bc980b25bf3308a90abe",
+      "translation": "표적 목록",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "08ea7f7b7a241dcbe1331d448299d6f86aef60cd2081c24f63fa063531db58a7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6f554eb6397f3d101d7474458accf15c751f99bd3a2304a259dd0edaacaf36af",
+      "translation": "특수 행동",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "f15700eb0970e1250cee22dad7d0b20ce9c7c55da74f247ad7df39e117583375"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6f5f909efa621177b9222b4dbbaeefa9636e4b7674a5af2f6173b091207b35aa",
+      "translation": "홍해",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "5b08c2e12f7845bfcd4bb984a1fc5bff660f58e0a9a31056d4d70c3fad2ba789"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6f7ff4acccd61fe80539752818c1939c59dd08afba8f015038e5a85bb1d60985",
+      "translation": "산호해",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "2b1357bb6899dee248321b35dee208d90398f70c82762af94b965445763867a3"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6fe2ed9fd9146249bef4c23d94090d471057100e749eb8dfc1076ea40bc6f48f",
+      "translation": "과테말라",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "b4adf88e722e31e9966d4a3845792d918413044ad2d73b20afec3f418d655435"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "70847af69e59b1d80e6b18dd38700142445fdf706606b4454f8de37e6f2253ed",
+      "translation": "승무원",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "662a49264e779b56857dc45cc705bd6bf9fa0d53d6636114ebe0ecc14e38fb5f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "709276c8392f940bfd855824583be68f48be48f22a303008784cc51aebc2c08f",
+      "translation": "개요",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "dc015df639b9ffb5aa6b2a5cd68c606c9726129faa61c17dcf988c81a0073c33"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "70b7699b877f7242a4cdb2b22b608644634ec71b5343de498019a6b341bd2ad4",
+      "translation": "노르웨이해",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "18e2a190411d089334a3bf77add5c1e66c83412f3ffb3ed3d706200db81bde6a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "71424b71052cc0cd108f3cee413bd3921173506e3bbce48d98bdb358d72747bb",
+      "translation": "대만 해군 미사일정 전대는 언제든 출격할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "1d24317afc637d74dfa32f5196e8d2edf0913a43e141ae0d9621f0df19f9454f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "723ee43de64f91187eac563ea7cffec709c65a31b22be65c5e9a480d72156aa9",
+      "translation": "가봉",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "82f0341869ad6fd192e6f5bac19caa7a8eb69309e4ea8f2f98e75917e05f354d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7262f89fd916dbb7eee825773d697ce9c93e74bb2d3e6d2cd74d85146e1e7c94",
+      "translation": "탄자니아",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "a5a5c0c7437fb46bdd4fd873437dbf91c5e09ab43eb84ba324930c00a54931d6"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7274b6e3ea15401a66f561442a1f9589daec487386230c46677bb8f3d8984642",
+      "translation": "레바논",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "06b5cbf8d5b02558dfb6110c7a25d171c33724e645e21dc5bd2fd2ff20f83ea3"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "735b84d88ad633118083e49f00603ece3e0caf572ed9028bd69fcd33d94700d5",
+      "translation": "핀란드만",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "559621eb5468c27690fe3db6fc9d3bc72b3e0e4553818d5c52045e56d8149f82"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "743adb3910ad63b8d7ac7fdd90acd72198b2299dab7ebe4e35ae737a9de67804",
+      "translation": "쿠바",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "4436ccb34176c169ca7afd74c51c61eed284f7f1f2e7472012763a345a8be6f0"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7443c187e83a3d650ff869ca9fee044478eb425a200c4cd82969bebd9d728999",
+      "translation": "스람해",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "a0d4b2747aa0f289221e4db1f3e54b4b0c675e4b2f2e6c6f868ae7be11ee6d3e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "74d79e3585e39388f19691e7a818176597f88a6a30b2738110683b765284e581",
+      "translation": "인도양",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "0cd676193c9a94ffcd476c936a6c73537f7c45e355ad1b6ff3a5be47cbe3c6e4"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "74dc4b485158ef973dd72fdcf7a8650182b34f84bc2e5e0c8f450b9a42f91adc",
+      "translation": "작게",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "28fa29ac1fa6e31c998625c06f53a493e48cf6583708d092032f8a7e6e876012"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "751137c90c81803c70371fa3a5712cad894887bac4e76a7c1a8e5c759280f8af",
+      "translation": "‘구역 유효성 검사’ 버튼을 클릭하세요. ‘경고! 구역 유효성 검사 실패’ 메시지가 나타나면 목록의 위·아래 화살표로 기준점 순서를 바꿔 사각형이 되도록 조정하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "9627babe1702f121c43229874f0ba854a762bd026716a9a416ed3a381072ff89"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7514ed4b6d265d5b92929b7a0284f8b98d8e9e77bf26fbf319f12a19946d8faa",
+      "translation": "‘Strike 2’의 출격 준비가 끝났습니다. 이륙을 명령하고 표적 방향으로 이동시키세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "2427a60139c9db1aa8263586e387bcce27a38be671a21353691f3427eec39b7f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "754cf25109e7eab154d5729c956cf1251802656b47d3e75e2bb6af312efb3298",
+      "translation": "항공기 방풍·방우 시설 (중형 항공기 1대)",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "b3be77bcbf35a1b1e5e2ea163d910896e33a462bd6508ee41a81d11ed306c82c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "754d821df9dfeec5e193babc70086aed1d0d56b415d07c527fb231abce445293",
+      "translation": "페르시아만",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "37343edee4c4e42f879a8b5ef9abd9eddf93304e2336f96ca668a5e7c54e0062"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "774df469483e2e1c714d65512760e2b1be4be2b0c1d22539b8386ee2c10cc2ff",
+      "translation": "튀르키예",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "3e35df70de927ae20faf19481d6bfbb7efa717d3f1f7fece4b02d8c0ae7c4e9f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "78532b626e71177e016f57a4a03c952c96b40952031c20893965256101593b87",
+      "translation": "임무",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "fcf4ae6aca9b45dda7cb689af3bc13b0a707b1164307ee0e1e0b6cb8199dde04"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "78b028313ac66424c892ffc84eb31dee8eb14b843f345528885a0b5673b02dcc",
+      "translation": "네팔",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "9af85d04dc73439100026de73c6b48a56877962528b9f541fd0161d5e10e5c59"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7b567c0a338dfbb194a9b7a3ff64d53c445e3a20c69afd577842409f3bdd2527",
+      "translation": "‘Strike #3’이 이륙했으니 교리를 조금 조정해 보겠습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "9b72dc25015c7c0b40bfc82f29b6d30bd37a622cceebb96c4d99229c7aa16308"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7bdba5d37c1e69519065de5c0a135dd7278abe046949a6b8ed05b660dad4a798",
+      "translation": "정비",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "5ac0e2da531dcfd538c8f496540f70121f12aa0c52ce99f55b31b224246025d4"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7bfab6c61f7782c3e365e62af6893210c76baaae9c8f15320512d797bb6fa66e",
+      "translation": "참고 사항",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "10d1f34a51f1f434b20c78bd97e7a02a803f356d18a5c1f5c20818092dfb9de3"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7c05412937946ed6d9aa957b205f8132fca7354576e8184018e378c46dfa0bbb",
+      "translation": "‘Strike #1’ 항공기를 오른쪽 클릭하고 메뉴에서 ‘개별 출격’을 선택하세요. 항공기 운용(Air Ops) 창 하단의 ‘개별 출격’ 버튼을 눌러도 됩니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "623a9766069bcccb3fedde1afe107a67afa9550888c19860c21d21940577e255"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7c099db665cb2172a33c5ecd26d8f19c0426645a2ee1136f26f99456e159e135",
+      "translation": "미국",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "23ed1f9ea4944fc3c4133d4b82816a1c2d67e77e278f412db488d1743b5e27b7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7c48dd672a68098c3a9dac57805004a146db39c8d60c81d091537ee9c4a76054",
+      "translation": "중간",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "541d1ddb952f8fbf865afb5cfd25e737146f9cd4e2d249cf5906a513145a81bd"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7c8107bd5c185722e9bd48bc83c92683214422556edb9604fa01c3d52f54564c",
+      "translation": "수동",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "536c26ea0a31013ea9e711169e82c053d3e562fd47b22b7cd4a7af681e7e7415"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7cf0e0d0e1a2f78acaebf410b90ec7f541b183cbde932592515a66b576021da2",
+      "translation": "이제 상단의 ‘유닛’ 탭을 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "efd6971a89326cc9ae7fc3fa6c78ab547a82beaf24a6332539eaa570a96c2208"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7e5590ea74a7db52282dae08ad48b979286d987564f842141ca142c02d167f93",
+      "translation": "Command 설명서의 상륙 및 공중 투하 항목을 확인하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "148e28a1eea9925c3bf6fe9b386bee52dd1e4640910fe2910a45f2976d1a4ad7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7e8a4b2e33611538db534f55e4e335a9ed41506c43ac408729012756d5b36264",
+      "translation": "지부티",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "d720f6bb7567ea93938bc1870cb4a5111cf2ea053b50b377393f496c5583a202"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7f7c6daf3243ebe3e371728108d5c12033a486f4b7c6d0eaaf827139d673708a",
+      "translation": "유닛 보기로 전환하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-127.tsv",
+      "previous_translation_sha256": "8af26ca289346038ba1c9aec11ee80bf22893bb669be54210ca5c7a45cf72588"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7fa94d58a367b9d8fc567572758e84eaf451d58fdbf66739372422ff8e937741",
+      "translation": "카보베르데",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "a260db19bc9e48c6a1b82c129b873c6de384b293ed72c38c1b8811eafc078c4f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7fc6d53baada4c6332ce57e81fdbc5e247373fa33525b5a1260b31157b969e30",
+      "translation": "‘접촉 보고’를 클릭하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "fc2646683d54b6205df3a30ed94aa48aa709359b3a4b98bc160949e543584f69"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8010f7b83031c363e2b2824ee1e0ad1328a3208d71727808350fb9ed1212fdf4",
+      "translation": "추적·교전 구역",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "b97d53a5f175fcfc7e6ed05c6ef1bda46f6e26ec5ee13a3742454cd603753219"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "80876437641a4f1972959f180a58386a96670700495568fd7dca4fbf97225be4",
+      "translation": "사격 보류",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "849ea64151bcc245e3f695cd2a5e84016e82c90d1557926ae09e39caf37bb8c5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "80c69aaaa505a090e3acc3c99931d03d64b3c96cec87b868ede204f1b432b4e8",
+      "translation": "아라비아해",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "064f0344eb458223f76dff68c3cc145b7b4e5ca21ec9c189533e8d8f914dc4e9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "80ec9c5b3bd94388b8a56a883f3725d60fd82ec9ad939c78f69a49e4add16ced",
+      "translation": "접촉 회피",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "b61935a362f7c63e79eb8264255f8b5b71e4c0183e77e118b2250639c07a2517"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "80f94363dda91582b5caf1c02a1cd61745212be4aa57bc14d150388b4d412673",
+      "translation": "오스트레일리아",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "ca508a6fbe0acd11643fcdcf723969e195b41aaecf892071116f6ccd1d518e8d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "818ad9aba1c5124d297855bc25b874f83e616d6b9ff691fc0094325c245cb2b3",
+      "translation": "역사적 배경",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "82376783bfb46e8dad9347384d1e9f24d987463a53674e1c68e20916d5f0aaff"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "81b996ee20f0c91a77ec8fd9b478fa0247597a519a9ffcaea1541df5b0274fd4",
+      "translation": "라마트다비드 북쪽의 레이더 3기 중 하나를 선택하고 F9를 누르세요. ‘방사통제 준수(Unit obeys EMCON)’를 해제한 뒤 ‘레이더’를 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "fe6cc0b8189595cf0c69987f7657259c50af8c54670ae92e026925a5388c2900"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8270c57d74c0ed8b9f7618f74b103877d02e601730591f3ec1dd34a987619b1b",
+      "translation": "센서",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "e8b0f084e4743e272141a46d64b2725d511d554c43d9dc00bbb2acee970ce478"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "82a13f46dd02c304e228fd163259cf310817d2653f0fc209a75205b9a3d38568",
+      "translation": "일본",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "da6b9174cdf15e47fe0a80d5d971bb28dbe34a8cf559739b13028cea800e70d3"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8367a3f013ae6d48ea8d655025c55bae13ea3a29520b34833e04dddb99b37f0a",
+      "translation": "임무 목표",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "e1046b21cce470c01a3cfdd1de46987baf0820622ad6fbc650967aed72436861"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "855fb9a1b8e4bf0d06346ebf16959174d0fc7fcbfa145f19badb56f91bbdb6f0",
+      "translation": "교전규칙",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "79d33644c26b283ba8b9ee29847b6e2f83fd114d2bf8d06abf6a87dc7c0176dd"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8775c3251c59b7645cafc43ec61f64681de18fc88653c4c7dd92fbe172424b7a",
+      "translation": "기뢰 제거",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "ff669df00664123c752cd0e7dcea5cdaa7421a1e2c2c905e37ba0d37cda62a50"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8794e1ce7de2e38ca86a94c570333d9dbe5c655bf65d61a9fb8609784f75d8c4",
+      "translation": "주기장 (중형 항공기 4대)",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "d54491502a7a3a3fbb3bf70a56d7e8b9a19d36a58ee9243f5937d028bed6c6ee"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "87c236d23828c93a1e0b8988dc0e1a3ac6c88dce7a4098e17e3583a26a0019db",
+      "translation": "북대서양",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "78bd0231dc15ba638ee8085c511948788a1419a0693852d20aa20dc5c3a750da"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "87ca2a35f8958a7520d10af93a37d1983f00ae0a86d3be335a42c81be6cf4886",
+      "translation": "표적",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "7ab8c7a1c6b05548517409026361b5efc1692e502ad62ebed69ccc97e80c6ccd"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "881650b391aa4661e8dfcd24503c62132071de452cbe249c4040344a8aa7556d",
+      "translation": "5초마다",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "9a3af551e1c122663d946313c8fe34c7fdf2e583ba8863a6a04a06c3b9e619ff"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "89dbf71048801678ca4abfbaa3ea8f7c651aae193357a3e23d68e21512cd07f5",
+      "translation": "기본값",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "10ccf42a824aaa496258cd6a6c2518ef04a58f5c280557cfaa4ce4e684f7d162"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8a3c3942502fd425e2de5d5d560c236ffad572cd603e4ea1ba5f58f3e18243dd",
+      "translation": "속도를 미속으로 낮추고, 필요하면 접촉물 방향으로 침로를 바꿔 접근하며 확인하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "6b9f371cd18c81f9c9d464ba5e4200d09c6094ab9598a78b7986f46ffb86948f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8a6bff1d2788115c01ff83bd53eefb3eee20bdda8d97193f6b440e2287a45191",
+      "translation": "업데이트 확인",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "a97573d07e0cfc21d16bc7a22dc21bdbafc13efa8b665feef50f1b87000ba718"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8af0f3a288e435f0e1488800f926af2bedfef78d130f184442f37512a12b14c9",
+      "translation": "아이슬란드",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "b3dfe05d8eae8c4515ab1a913216dec014b7d13bcff2bf18a9e3b9189d063a0f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8bcc419b8f9eed8b08d8acf9e2be3c8ac3aded589a5a7181d05645e73dbf613a",
+      "translation": "모로코",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "38a88481f1e953c28a27cb40c4e9a1f38c1ed1b10220ffb68eb32856337149db"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8bff64768ae870fe0e5f2c28de9f1c3402d3b6544523119551f9b3433a16c77d",
+      "translation": "부탄",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "fcce9b3161d12446cb8b407f35be9acf8e77610e2aa63eb934a01cea3ebd4c09"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8c03fccc20e9e71b84c1c896bd6498987b3ba4bc7c340b9a3ec2e8dbea329e0f",
+      "translation": "캄보디아",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "d8c681c34fb06f13e7447a5c80285222ff5484012ca71c5300c967d802426955"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8c2e4a035f5f3d218f87211a0ba367ef05fc2242510559807ef03969dd091b32",
+      "translation": "상태",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "e10195a1239fb321327bafbe0397ebfcf7f0985a6e3bc28661a65132025b6808"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8c3ab8a82dc4f1142dcc744ab661e763dd552c8dc7fa841a8e2a8d7d9a5d8f5f",
+      "translation": "비행 계획",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "c37988c173237bf198e29167f1060f136f5107efadea075189844c6b6e7d310b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8d76252cdd3c447925a59c028f6a2fe87bbbe296e665d8afd545469568ff624a",
+      "translation": "잠수함",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "7a39b2d809dc0354909683620b4f1caedfe07ff87d619127f3c9ca36abf73824"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8d984729749a8f1a941af2943d548f3698a651057dbc40d0492708809af4c211",
+      "translation": "- 건투를 빕니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "10b60bf856ed71d6c05c245802ff262e3c917593a41d2bcda6a457f56985e82a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8e3fabcb9e0a2a4123df022683620c10e8060c5d910e6dab29eb710deffbe703",
+      "translation": "라이베리아",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "f53735a46afa50ab893c64c06b4fff4051707ea9c87fc31efb982e26ac9d6f29"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8e9589bb04052231a9f0982faa44f2759eb1a3644a4c06083ccddd08fe0a0bcf",
+      "translation": "우크라이나",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "1279cbcff354d502d3f4f6e396c022e9743eb2b0bf56f66519196600e915e465"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8fae7bc103cdfbe12416292e5b6cec719fb53e2167f0ecb7ff637ed3f2c8fbe3",
+      "translation": "승리 조건",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "b0a797cb0a2c626055adda6726b2e61910b53dc991928fd0dca13a950c77b03a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "8fe7376bac4aa7376599932c956d11d088c4848743b8f9c95894fe1a47d9d97b",
+      "translation": "상단의 ‘유닛’ 탭을 선택하세요. 기본적으로 이 탭이 선택되어 있습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "be9af3ea0f4e31c57692002f24c89ccf74f24d2295b86dfe0a7c88cdea3cbd6d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9046d5887fc90d1b1ad790caaeaa778278fc86cece3ab3d55ad26ddfad861584",
+      "translation": "술루해",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "09d4f723c2b83803427dc683a640ffe2155d02fc9d13092c981e45dc38f83cc6"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9073b10da43c032209317a775537f1e4b61ba2abc8f8a9315c9f51e541f482d9",
+      "translation": "분",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "ca4a187881dbf529d05eb168ececcc3eaea6a98a08fa96011760842aea4c04d3"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "912a0334363e88e844e443d2b4d91c0224068290567ca36c23948f59ea16bee3",
+      "translation": "통킹만",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "038569f422a2e8a6084df683fd15b360788ef9b17709a8405ff7239a84665a0e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "91717bfeeab512c680f70e7df74ec62216a06f48ca23b37bd01b850324fe8a3f",
+      "translation": "범주에서 ‘작전 패키지’를 선택한 뒤 임무 분류와 종류, 상위 임무 풀을 지정하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "3f633248f62d19fe8f342da124d2cfcd6f3f39f06b259860c659a71043838bb5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "91a4b12a6720029f30f9d014e99577dcd6eca87dbded727a78a79e9f4ae2139e",
+      "translation": "평양의 북한 정보본부와 중앙통신청사를 완전히 파괴해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "eb68d4fed48cb93c1b8570bcd0d59cb4af7d478b78acd04a4f1a605f5cc44396"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "91bc4942e34106a992e482524fca6a6764344812ff35e746c1d6557b30d1c9af",
+      "translation": "독일",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "9d9072d23070636e84831b802d0b4f571578cee2f50cddece4e3e24d44483d6e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "91d667d7f30ebf25d035885fa6c60b41b4c55d3d4a5299f2ea306762bf0fe663",
+      "translation": "기지 복귀 (RTB)",
+      "review": "direct-source-review",
+      "batch": "revisions-128.tsv",
+      "previous_translation_sha256": "02bcfab1aa24e59e11df2e80250ca7e39bf4816ed289620b35e96c08097d95db"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "928d94a02e1f770cb1b10ab6127e8b72904d9c761ec2e2af556fce349dc5850d",
+      "translation": "공격 전자방해",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "87c774c82c6cb87135520d899aa4c98bd12f4b7fad96082a713ec93b1f97d422"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9296ab1968ef84f6612a23b70cb9277e0c0c3da70cc7a80260d9d8a60ea1d48c",
+      "translation": "카리브해",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "dc0a1fc962cad19f9b8282e7c3663755e5aee0724a75f3e19cffd7a5008c365b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "92c6361a41564f4fbb0b56168c1994a1aa6ee68d91057eee2fe1ee432c267032",
+      "translation": "접촉물",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "2cd114594c9e4bd0783a8731808e1c02f26eebd4c958b0d63ef42864a8127200"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "934504b33310d9edd6f8e52301cb1b5457c80799fee53ccb90b5a537db545436",
+      "translation": "- 오늘 임무는 방어가 삼엄한 유류 저장시설을 공격하는 것이다. 주변에는 연료탱크와 트럭이 다수 모여 있다. 혼란스러운 전장 환경을 재현하기 위해 아군은 전투기에 탑재된 센서만 사용할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "2cefb386b0267cbe697996eb46a585273edc61f637490cb3d33cd4b47b47369b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "93f1b1b625030710f7fb98871fd7215b84fe34561b0704abac4e9f64badfdb43",
+      "translation": "행정·군수지원",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "33d16249824cf534bd3fd946294f3dd6ed8b242a66da5f6bc8fc993f70ce1c92"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "943325747528c638e904d95718fb0b5bd41a6116b1a70bf4971f4848022e49a2",
+      "translation": "아제르바이잔",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "6dcfd55e0fd26bbdd4c5bec61c2d024b65a7b71c455ece1edba48e86df4eebff"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "944f6693e2fbb504a699061f0802441d20313bf9099586854a02b495a456fe3b",
+      "translation": "체코",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "de05b8e0e1057281eba8ea05d69ee2f3920132f40e4182a09f5ac490411bd8cc"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9496869a7a1f1ba1902bec7c87596bfdcfb4afaefc910a0ae6f7c50a3c706809",
+      "translation": "영국 해협",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "14068e10d5a7b8011d6e56a51b6bb9028965a724bbdb7e21d0c464c30ed2a3c7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "94ee059335e587e501cc4bf90613e0814f00a7b08bc7c648fd865a2af6a22cc2",
+      "translation": "시험",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "ff65dc582ce71198934bfed655ff2266b49d5737df301cac6c7862f9b59d8dfc"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9501e436fc740f5840a437557d006f617659c4f6455921b14b1aa3bff87ebded",
+      "translation": "모잠비크",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "79e55aa5275913825015d68712a992250a82415f7033aa2e29a089784624075a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9549fab4bbd182439fb4aee86c9eab6bf1f30bcd2555ceb49320dafc4f724319",
+      "translation": "‘Strike #1’이 이륙했으므로 이제 공격 명령을 내릴 수 있습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "e6c19a7014a2806ae5bbee56a84d0284fefe15869b171ce98d28593bd5816dd4"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "95a634d71ac2a153bb191b8bc6a61ca2c9b53c046335b72b5c76aaec44f013a1",
+      "translation": "북해",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "d39b4a957905a2d2c0d75bac6f9e91a6e43f562c6416b0b72cb6b4295796a705"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9612769f08f06e720b4bcc60763aa7e8d71c2ce2ce3546444e309158bdbff840",
+      "translation": "출격",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "88864bd9df4ad2041f26c38ffb1b1cf9f04316193b0c0dd7cb30f269a8edc210"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "964b01c40811f8e6c0e496deb9ef07c80c4ee06f9726b04a632212b621e5c1ad",
+      "translation": "‘경유점 삽입’ 버튼을 클릭하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "5b950c020955611a34f7a02810eeb6e729082376959aca29a1389f6a81fa0f8d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "965089cbb93436e034075ec07aaacbd9b8ffd9e4a7515aec783befeb9e5c58a9",
+      "translation": "함정에서 발사한 요격탄으로 접근 중인 미사일을 격추한 최초의 사례다.",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "3b732c8f03fef02ad84f6b6710e2ca38e26744d9894f6fadda3e77d15dbbfc6d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9666ec171b4bc9b2278c00654cb6ace05dbe9f1aa26ba0eefe769b962473f49d",
+      "translation": "지상공격",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "7e7cfb3c87b43dd0449751bcb0242d2804e97e6054fc76e0be74a1aa972e9002"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "96a0a0ebc554706987fd45697dd6495da21074759a68dfd44089b332b9d6e82e",
+      "translation": "활주로 진입지점 (초대형 항공기)",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "01fb663ae6f5ab6f755a8359884d712d05ee231bb41a6595b85943a49430d91c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "96f24622818a2b6c5604a71b12dcfde673b8f2a8abc3e1a94261b80e93897bb8",
+      "translation": "니카라과",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "3977bc639fdb74d0b02764fe25da9cb4123f857a8798092a88bb8d4dc2036156"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "975968bff7e1570b5ad72f5e19081a1caabccf41a3d71a9618ceeeb3f2dc9aba",
+      "translation": "마다가스카르",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "1619f5b23ffaedcdf13bbe5f650b978cb00bf4b922ebe4dae9e81c25d790531c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "976788f11b78e179c810b97a159971687d062d6a8cb0bc43201adf8d39c1c8d5",
+      "translation": "알제리",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "5956eba454d4ea2d77849b35a5b06970bbee6f452d8ec1d7d32acb007e8fb191"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "97b5ba8171bacd1018156f387132479edf2c7230b145d9183aa81c46097c7107",
+      "translation": "재무장 중",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "5a65f0e0fe1afec2a1cb3deefc769b9d2bf785a2cfb4b1ea357b111cb81a71ec"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "987f41d71e141b0f7d280b464731ae68ed73d343f3b34b7fd9de3e674ead6a4c",
+      "translation": "이동",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "83b651b85e13a22556de8bf75e768a0141aa45b58239072aa2d11e3a7ed4172a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "989798cc403cbcb8ed482a03e1d67cf8f941d542c4fe251163164aa6ac57af12",
+      "translation": "수단",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "b81b5284bee9a41765d779b2b6216da8854674ac307526a47a168416779b2e4c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "98dd21a040542a132b06734686b03b1958525e6a4e096afa632e7a4a7c037b95",
+      "translation": "보통",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "666599febd987f532ea6ab000ee16ee7d5838beed690d2f9b174aab30ce78307"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9938fc190ea1fa888c37a9b61d9a4f0d33d5e2250fef6dfdf32cc020196446e7",
+      "translation": "‘게임’ 메뉴를 열고 ‘진영 교리·방사통제·무장 사용 기준(Side Doctrine, EMCON, WRA)’을 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "64c6e3cd3ae598c8361e8ecbb976bc5bcc836df9eb0620f70b7e128ec38a0af4"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "99c26e270e615e61dd48a509de0b75d688174741faab65f1521fec56df0ff25a",
+      "translation": "플레이 안내:",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "8d51f69759a479f4b2f658d4a6d30cca160a17c5dfe841f02a27cfe1fcc48ed1"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9a14f8bf55dea16ea4e00ad1fbb6d9bab14629d2ed376d112976177b4a89a6f5",
+      "translation": "제공권 장악",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "d7c8ee2300a9d0a0f8229f50d03501ebc0441b80fad5e42dc2457ff5093ea021"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9a7d0627500e0ce9be45a3e077c22253b7122a524ffd4d62f650cf8cde596885",
+      "translation": "이탈리아",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "8b69efcf3a7584d0aaf58411585c712cb3457d490cd2f4020f2f0cd97e1a2fa5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9ad2826869e142070e929b983731da08a6e1fe86c7e1d712b0f46ed704def797",
+      "translation": "종류: 구축함.",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "58df7c8d712958390a672077844f5452345c5039ff820187028462a49a6cc795"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9b69c0332974f78ce8ca0665cc3e8fd5145816bb976bee92f0e2990cefb94e32",
+      "translation": "상황",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "946f8147acaaf499e924272e089f3e0d915b5e8ee06ee5a95d8e91f1c06e9d5c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9ba98a0966350d0c4e2126294da4d380860fb5bd4c8da8cdc0eaadf96f1906e5",
+      "translation": "시나리오 종료",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "edbaca4010c1eb68d2bc1a6690939b524dedbfce7d908f4c0d87b0681aea9556"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9c9a2496f99b88e701ffe4739a2d01a827be4571b9f8097164d051e4ae994d98",
+      "translation": "제작자 안내",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "734d917a4ea858dd8727d34e32e5d080165700d746508a708292a7055334cab0"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9cc321f4bc2c5cf87f118affe6cd414049541237e1d8bd735c4f02cbf8eb173b",
+      "translation": "길이",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "75aba55303fbffdfc7bf0f459e11da2bc88ab3726dc023f48909994c656faaeb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9cc358405149db607ff830a16f0b4b21f7366e3c99ec00d52800acebe21b231c",
+      "translation": "설명",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "8c3f651d3083e63da64415c1d9ad8198bcaabfcdceeab546f4fa261e557b70d8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9cc3a043b6a91d450bc371346440544bbf9393ad1cf3122c1f37da242992f72e",
+      "translation": "지우기",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "c8dbc399b9247135f3ebfc81316e8a24f560b689901127cc2a50ad5388708314"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9d040969bb612b1225b95bff5b24d0c00d6be683a835ed40b81a1e3f9557e073",
+      "translation": "피해",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "eeb61bc5c7fb3a10dc0b4359f87de8a7c9d4cfbfd39776948348ef472ca415c7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9dede740593d3f9591520c91e87606a46fb664db6ec33f6b9a8384dda5261e01",
+      "translation": "Ctrl+Shift+F9를 누르고 방사통제(EMCON) 탭의 레이더 항목을 ‘활성’으로 설정하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "474d730fb30083c7c03597ab6673f20ed94758252efc3f4efaa8aa8bcaafdb9a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9e0d5d5acc31833bf0a2742095c0482f6f2fa0b007e3c7caf333e83240cbd4d6",
+      "translation": "공중",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "d220d25c27c5b5b14de089e05c478e3aa8f46c7d9a0f9bbb4428897d0488c800"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9e2c6d461359c5adb61e545abcb78e0e6f01a4f344dec0f3129f2d50e0ffb8c7",
+      "translation": "대한민국",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "67c72f2a2a64c676a2cea9efaddaf5ab6f0f16ef01b45d6cdf9e2af5c4df711b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9e7cc4829848b3dae7392834edff89076e65eedfddfdfebd4e19b518a6571b98",
+      "translation": "종류: 구축함(DD).",
+      "review": "direct-source-review",
+      "batch": "revisions-129.tsv",
+      "previous_translation_sha256": "aa9effdfe7760fef97a02471842483cd273e37854931614554341bcc3aa3b594"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "83b12c2216efb4fdc924e1deb5182e905e4926ed0c1c324d467107f46d5a26a9",
+      "translation": "맑음",
+      "review": "direct-source-review",
+      "batch": "revisions-130.tsv",
+      "previous_translation_sha256": "1d84ecc728982721c23949b0dd63aedc7b719ba5a8e61a37677392f3affb6200"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9e86507450059c0ff382961e8b3270692ca7342e5402ec3ac2a45f53e283b81f",
+      "translation": "차드",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "246f5fbf2f26e252aaaf12d69cce4182e5c91ad59176668310db8ab885255365"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9fb0a9a59b6a9580a4e05df53301343b16c049957ddae7e35f9c553c8c35af9a",
+      "translation": "교전규칙",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "79d33644c26b283ba8b9ee29847b6e2f83fd114d2bf8d06abf6a87dc7c0176dd"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9fd76391b2d1ce1602de1a932ca822e3dfda392195509aaac6f56514b0c30a7a",
+      "translation": "폭탄",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "4e542379da6dae44010440cef8086916657cb7c3f7e586022500e50f85ea14ac"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "9fe1c20e0761b3a21ce623af69dc8ad1c7b4fe6d343fcf8c1717bcb3de675bc9",
+      "translation": "도미니카 연방",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "4357c9e234f5aec5419ac901b3814ba0fdde80734a5c80ce01afbba6b9bbebc0"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a014e24714e28e7403b2646e403c89d907e38b25d1fa0de0be0c8aa52283f291",
+      "translation": "호위함",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "94a9be68a5778df4d9ea1a0e6f1457165666afc0caaa99c7863e0561a9f50d4e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a081e07b9a06b9d53a68a5188c113233d099d77721ee2cbaf389fadc9f817315",
+      "translation": "수량",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "4a12f9833048db20fbc03cf5142a53d2bda5552e04a3c0bb0adc48169ee78bd9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a0e4670e267742b4156d0d9b535727aafd92e50595dfc6bf71e62d6d8e1c5906",
+      "translation": "시나리오 종료",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "edbaca4010c1eb68d2bc1a6690939b524dedbfce7d908f4c0d87b0681aea9556"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a15533cf9849193299b356bae7d781cc5b6484a91783b16228705d658b8d9794",
+      "translation": "흑해",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "7c1972190515c3a50064cc74fa7532c65e81841b5fa93a1633df1788c6c60769"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a227629e80b19ff854c41ee85a73d181237af501fc2b919ef3cdf1ba60ed6e7d",
+      "translation": "타이만",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "66bde74195d2a4e7cc4d2b59964edc949bd09004bbb975f57cf83ecc416db4cc"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a253ff09c5a8678e1fd1962b2c329245e139e45f9cc6ced4e5d7ad42c4108fc0",
+      "translation": "새로 만들기",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "61cbfb012ecb088539415c30160ae0218c5345ece4fa0623a189617669d08ea8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a3201958b4e6be8fcf2e362753461d3ea2e1a216c1651fd04c287a1e32596573",
+      "translation": "항공기",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "2fe36b446b8bf07f76c5b8a39ad08fef852f6e18f8dc3346e62af67a98c785e7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a3645fecee23c88e6afd536ad90fabebce3b2073d56bba57072a668446ea2697",
+      "translation": "소나",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "33388b5b7cf07c9c9f88a422c290cee162d4b23fc67b396bf6a9d914b38fd8b6"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a3f9d03e6879f85dc37a41a944b12e1b3745994245154848c927cb2580bfb54b",
+      "translation": "북태평양",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "919ad015a1d514f68b283d20fb0a7dcff9ea10ece4297ddf718546ca1c362c80"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a4215b215495d43461c8bbfb91355c105c8818a49452aefc852791e283095126",
+      "translation": "HARM·CBU 무장을 탑재한 F/A-18 2대를 출격시키세요. 레이더에는 CBU 집속탄을 투하하고 SA-2에는 HARM 대레이더 미사일을 발사하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "1d3eb599a204fb81ecf236a3b6974a8d6c4f64613ae118aad0181970d580a112"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a42b8352b4c79f604f3ca0f8c703cbd08f648e86099ec682ce98bd4a11286741",
+      "translation": "지원",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "0e7cfc63937a14176353649c8722176f3395046c0aa3b523f13c623fee3c15f1"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a49e5ae168cfd1afcd15d36b3382e1cf6b7ee19a4f8a65977453b980830d7799",
+      "translation": "베트남",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "7828e86d4b195798f3be93ef16cb52b9a864c2ccdc94c87425e258fe235374a9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a5635d11de0f0ff1d8822dfb2796883af1f0114fcf89656a55da9ecbba78aa41",
+      "translation": "이제 지원 임무에 사용할 기준점 2개를 배치해야 합니다. ‘임무 및 기준점’ 메뉴로 돌아가 ‘기준점 추가’를 선택하세요. Ctrl을 누른 채 마우스 오른쪽 버튼을 클릭한 뒤 ‘기준점 추가’를 선택해도 됩니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "33b8cac2eb3543576c144dbfe15f74a2ed842d7d94abf11701bb72343f752ab0"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a5be7247a4f2c8ee9a2933bf58c44f8da8e4c2031f0828e3c5b3095d8d37e7b0",
+      "translation": "시에라리온",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "08fc8c7d300ba635867ee5f96d416def9028b221ed75e1c1b903a448331c81cc"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a5d1898b1d7ccf21e178fc428f5473f781ebaf96e4861b57445b49f69abf24d9",
+      "translation": "통신 장비",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "9e934be508a94aa1ffe59399d2c05139a3a8a517a9973df60d1d4c684d576e48"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a60ffbb10dc4cf25ca492a4f7f05751e488c53719cbeccacaabe41c2db88c4a3",
+      "translation": "점수",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "276516218c1cd12752625e1c759b0db2a4225dbfb52a0b6621239e390e82fc2f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a761ee59faa6358902f5b6aef69caea293eb30595a7cdc67a1433068d4df4bd2",
+      "translation": "기니",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "dcb527a848cd3f4a9a2ad6e28b0e96e60aca9d1554c81c57d944e0c7197601e5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a7b1b6e0c4dd38edf3ef030806c5f5c5836c6519753c0d9dbcf780dcc6d83746",
+      "translation": "일",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a7d118b91bbacf374409fdb554524980735ccf1cef2f4df5730f36993df5d055",
+      "translation": "솔로몬 제도",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "78923d0da2a7ac68c40b279b2f6f1b10a3cc9fc045b6f0536b80a328b2710940"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a899fda69c64255cebd20cac726f57dd5ec37877dc2fff02976dccd02ba31bae",
+      "translation": "기준점 Echo로 항로를 설정하고 최대 속력으로 이동하세요. 이동 중 위치가 노출되지 않도록 소나는 수동 모드로 설정하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "d4c316f57b957e3e2a4ffa5af4533edc954f288211b4f12cb2f286e0bf97e8b1"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a8c32a4da87dbdae4088bda7befe49f43013ed4b215d81ed0e59088239cb4665",
+      "translation": "이란",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "3ca1f4cbf299caa8539ecb679e367af13d5a68358bd31469779f7d2c6617ed95"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a90bab6ff81b3d09accdbc2acdc138b578c6c3f9275fd39f24576c2aeb78a1f5",
+      "translation": "유형",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "5cf2792b3fab357833fbe130aac4664a39e2eb340f49e0ec1d6938e6494f94dc"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "a9e153ee4bba25399f1e4e4ece065ef4dcc877c084fb53a367b1411b36c8fbeb",
+      "translation": "참가",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "78d338afc294d4e6c5108cc5f273f2adca7aebc1a77781eb439559b65e409bb3"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "aa3763944353c8f0c6d6a3a0790796ed615194a6add5ec877852dffdb34fe810",
+      "translation": "알바니아",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "2b8775c675ad70c43b75c2b9cf74b9a0c09687a3624156a75f11b71fc5cf2dcc"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "aacf94b7be62f4948e03aa845eeab5649eed97292900c2b9d9c934fc852d23e4",
+      "translation": "사격 보류",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "849ea64151bcc245e3f695cd2a5e84016e82c90d1557926ae09e39caf37bb8c5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "aad6faa6418dde8fa0effc532c01a6b3001f63cf10b07158e0bd8955fe0c7178",
+      "translation": "위치",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "6c0b9dd710ab0fde0a72b7e27e9e8eedd48f92b9dc0a01ef0a0eb3e55a73df19"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "abd79dcaedbc8a44257a84b0688984f1442e03da55325dfaae64b0af63f0c78e",
+      "translation": "화물 하역",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "b83f647058550d052f730440274dfe0c72706d9e29314b8a9e32f45d3f0195e9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ac1376f2b29705bc9b47eacf86f4e1484617a3633c131c38cac0770d8068d292",
+      "translation": "작전 구역에 별다른 강수는 예상되지 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "093fecff6db27fc47f8d60fa894ef933226de6071f6c98192763f05f5c8f4439"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "acc00cfb5e487ec305cd20a46a9e1eac2ab941dfcb42ad16f92388ac7c806dfe",
+      "translation": "건투를 빕니다",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "2f3ae0aa5e5d0eac49cc7bdd2b2a0e7b6a8f798880385a820e8988fefabe87ae"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ad8d698573fcb090121f2003187e82cec33f5596e4ee2279d6c6fb7b61dc0179",
+      "translation": "취소",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "aeadf6c8eeab33b063b9f6c99b87ef741aaafd9856e1c1c1c23856e552c7698d",
+      "translation": "5. 지휘·통제: 가. 방사통제(EMCON) C단계 — 전파 방사 제한 없음.",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "37abbafeb57aa0ef1ff75f5b88e33f24e3e7c44d503a7133141dcebf3b81b3a7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "afa52caf7fb6375f5977fcef309e03d212238ac4b6ac0dd6556c7125a52b82f3",
+      "translation": "고도",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "c3efa9fac6e246a52b8281e7130445b22a8ee4f8ffe8210fc3e93aa1eac509fe"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b0943e2cec5bb70ad634ee83bc74bc0c1f954d6ee08f6ab97183c0ed80bfbfc9",
+      "translation": "배경",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "d643b25289201a43324e233c4d2f709a495495decc0cc7f4a1c6761b80e76507"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b0a9b0088810af363794151b8c41b73ae4a3451235ba317e09980e6b0d4e3f70",
+      "translation": "안다만해",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "9d590801d94c978627376261db90acebd9eb882871c3941061cfe03274e02c0b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b145e882b919f0a69bbd3c50df66ea8c7996348ba805784ffc230bb4bf415560",
+      "translation": "에스토니아",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "8c46b8797e6370b965580c126c1c25495e572c1f315f3c3c4f641cf67939e048"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b14c7ee3012ccdb18d4c97ec87b90dee4f9180c959454a6ed0d2cbd5ba105df3",
+      "translation": "종류: 유도탄 구축함.",
+      "review": "direct-source-review",
+      "batch": "revisions-131.tsv",
+      "previous_translation_sha256": "128f0680b5ef8c878c5cf3506b532fe9beb313dfd0ba5a334dbd3073df5c7132"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b15f584799e6d595cd91f88524a58fb6d0b4ea073d79cc381048d1f3ba660225",
+      "translation": "일반",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "512989791c19de3fcf9c18e11580d2895d2a146264cc803e52c86bede3453e4e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b16533c9691d251ec8a6a52a3b2a1559ed6342cb25dad44e547fd49abe841607",
+      "translation": "오만",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "f698713f45091726685fd217caeebf0c3d8e919bb24bce1ed93130ef8adbe8f5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b16acfbaa6eb28a1a69f53c779c7aa58b0feae1f5dd226725c9d1f9ceb1fb0de",
+      "translation": "왼쪽 위 목록에서 ‘Strike #2’ 유닛을 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "5595ab285a1d048a7f1b1fa682a5709998ca643ad30e5b75fd135b4610eb9338"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b17aa1d0d443609d39dfcfe5569f240f4a2a538ea7d80bc18601f822e3f4405a",
+      "translation": "노던 인페르노",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "e79876448cbd775ca3c11bec2c231452adf1688a316142307a38d04751a31a3e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b1e51a7e66213fe5b212ff858ff015e02f3d3da108ba20b1a3814df4f443d94b",
+      "translation": "시나리오 설명",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "a586492d015f07cf33a3bdf14e95b041c4d0fecd731570000e51739bc34fa75e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b260765f64b1f9282153ed306e193a6d3d44b540ce7f7c64d73fa08d4081428c",
+      "translation": "항공기 엄체호 (대형 항공기 1대)",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "29384b593a33e4ab763c927e2732c0c9c82dd3c75a6661d5d6e8469111cc8310"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b2622b9d0ccffcf5542cce0f59047a2d0e3df2df605bd0cbe0be5e2033f8489a",
+      "translation": "가운데 목록에서 GBU-31을 선택하세요. 기총소사는 나중에 하겠습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "c1a2b7b78be542e82b519dc84b29162810cb754994deda337de3c8f298986088"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b28a0fbb4d49767c3de90f2914b3c1e47df8859485cd934e44bf4f9881c74aa5",
+      "translation": "이리호",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "99927a307d7ed3c4dbaaa60a13bed96f325854623177dbd8b5d1e3d3b59e6c37"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b2c35783578567ed887386bbf730e4580933083b90c254787ca1e377561e8733",
+      "translation": "에게해",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "da012f2b4c6c53edeb11d21bba8c1630b10f785bed99a559ed521b25a8ee4ae9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3",
+      "translation": "높음",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "5327dee9abb508b44aba0760533b044906204225531924908bbebcfc33a160d1"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b48717e4273d710b8d687e349f227ed7bc47ca40c8e173d4f4fa64a585e14022",
+      "translation": "키리바시",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "49f75c986cc6a95343ac0078efd21340e815ffacc22b61c69a4e486d84e5e1cc"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b5a5680228ef4a4a7d01874bec6040d4c6b7b4056f0f7a2a789cbe2540542e23",
+      "translation": "항공기를 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "ed3062b188e805714dbbc31e474e08d8b19cc1fce3316e0081e403dbaa14d581"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b5eece412f6f822d8842d613c214ebe475f9ba39466b4eee0b784aabc72dc494",
+      "translation": "태국",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "d5964389dbf52084b20a86e2e35060da5dac1f6bd05c803f3ff0845013982c85"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b732e67b8496989c469a23f2539ce6e02784f4361d6d68da8828bf89ce34f71b",
+      "translation": "건투를 빕니다!",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "17c596b4a86621bce302df1fb696db9c3be8ebc4ff6ab3dbc0284d8aeda19a82"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b776768d79b5ab08d0bc76a3a7befbda93809bd5f968157ccedffa7a1685a13d",
+      "translation": "활주로 진입지점 (대형 항공기)",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "a95b07963ced4c8768c9645e50cb8f72c90a1a948087e6e2b36b758e1cd81f6c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b7c2e6615752a20ecafed497cc32b200c1f36e929c81e77a6058508b5192139c",
+      "translation": "‘Strike #3’ 항공기를 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "60b8d25a5a9295b3a31bb71b17d40d80376d49357816fbf3f8984cf398c1a173"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b7caf7be585c5dd3978900f6ce1aaa63d140b6dd777a373d42ef3c22d43bbbbb",
+      "translation": "페루",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "60bbc49599a11b5c01c5f8cc7a52af615f7174d6ae83e1109a902dcedf799b2c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b83c68e3af82165d235c321101f24a74343eb91431c519dd1c39c1bab0ca5c99",
+      "translation": "탄도 미사일",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "aba13c4e8acd1d377ad84cc9eea4da8ee71b6157f7bcbbe30fdd533325efad5c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b876ede0e778697f282d1b96824f5747b0e5851a147577ef73f056286c55179a",
+      "translation": "러시아",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "534947f8bc8b94de700f624fb54ba4e1e94ea26e3846e8a3e490762aea3d27f7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b880f9e32940c73fb00669a7e446d75972253395db8f8fb5cf813fdd9c3a62e5",
+      "translation": "코모로",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "b96174e49447c772afbd325098278d1cb302e8b9915c1d015b9141874e189b05"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b887f3f632de921cb1456f95cb6c60b67a8571754f1d551b5ee00fc0f5ae6c36",
+      "translation": "항공모함",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "bcf3991b734a41e9b1540546f9d2fb22ddbef309c7df8d2f7ea4ce50dc74581a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b8eb5173e6108fd1210c7daf38b8b275b6a837708314091359f756c6d99e15e5",
+      "translation": "별도 명령이 없는 한, 공격받았을 때만 반격하십시오.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "c09d34c259b49ab2888897822c5f03ad078590978b3bd734ff46718c5ccaed0a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b91e5d5b7c8051435a706bd0aed4e2dc8e8da8344b2a7a48995a84cfb2b14697",
+      "translation": "아드리아해",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "0629ea7696170a5cbd0e14885c87b1d0f1809a9b7c501af199c5f81646b24966"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "b9c1360943ffa43d4f2f79f0523231f7f1ac3bb7311ed1901086f1a396c06cf8",
+      "translation": "북한",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "a9482efe959b0f237ffe1dd6bd936b6abca41a8f7a2bcb4a4379b5eea654c446"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ba2cbd4d2d0c0575480eaa106f3584742b17664dde5bdaddfe666632ba54365f",
+      "translation": "편집기",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "444ad021ad504c695028c0e8bd8d35384b9736ffc36d20a40e5b813b7a097ab5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ba57871e46a206f3cdafc338f3a7f252e42aeaadad57a549632f9a6744129ad0",
+      "translation": "카메룬",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "69609a8f383227be4af09d3dea2dd1152947f30592c92458a0c6d9b8c2f6d06c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ba90e7180328fa6380a0818e5d9ab565fc652ceba95017ec0af2b601923afeb5",
+      "translation": "헝가리",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "8fa1f45c3109bff11cb850a87f7224a3d5cb7497b991f48bde00f480b4da1a85"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "babfe184162e13a1a541ed3bae20a109e3e9dd89192414d3855d681ebac7468a",
+      "translation": "기지 복귀",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "3de1e457019723bf11f6e1a543784c4f336dd9c13c4c98e0ebc078f070dcc8b2"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bae78f2f14ab574b9c40b715d325ed54ece2973e9fb99e2d7c08e5e539384b57",
+      "translation": "제20.02임무전대에 승선한 제26해병상륙부대",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "799263fbd0a9ae0ceb873ba3237559f4c639c245795a10dbc67b7de2e2296182"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "baed9edffdb7fd4b37678bfc371c1ac661a5ea1d20e20f59bde751a5df7b1932",
+      "translation": "전투공중초계",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "6be068c4e82c232e14c759cd89411d00b8e23978a70f65f4582e406be75808eb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "baf1cdc4f3c9da7e73f92e6f9d8bb7cab38f19d70ee440e0f1a1bc8807049e94",
+      "translation": "임무",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "fcf4ae6aca9b45dda7cb689af3bc13b0a707b1164307ee0e1e0b6cb8199dde04"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "baf5069a45117d8939422604a09fccf380dce9b5af4bebaf66268a3b4123b849",
+      "translation": "튀르키예 해병대 상륙공격단",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "d8acb18c26187d5c5f7e701ea57fac7fbb6db2ebadf55eb5201fb80f21d3a9d6"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bb460e56b9ee448d9c862d33a4e44ed181425a0fa259b15933086a5bddaf0414",
+      "translation": "이제 임무 풀에 속할 작전 패키지를 만들 차례입니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "b8a7cf264c7d07bae6e06516a7cc7f0878c5058a771e2a574363c0ff1c394995"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bb6a385e3cc6a9104c13498926037cd697e6dd2ca3982a4d4e5812573405151f",
+      "translation": "함급 / 기종",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "23eed4e3308bac892d8cb22ee7fd84fdf5204bc4eb378ee9f133060d90d0098a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bbc1e7907d81a3501ec31b73483c7d63ec5e9f45b351d6d81275fb67c955ce4b",
+      "translation": "숙련",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "76e2e3f71655e8cd0039bade4857e2f802e338d5cc36ceec8dee6ee4c85e41b1"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bc0c8dd4413d322639041d43d601078ab5d6e9b6b46fbc66acf810f059a36199",
+      "translation": "‘비행 계획 사용’ 확인란을 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "a802f343d2a51f195f47103c197aabb154d4798d48473a399277efa96d1756bb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bc2d003df42628e4faf47751063735d48479b7ff2a7335b72f87e7208a624e40",
+      "translation": "항공기가 이륙하거나 착륙할 수 없습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "66248711738e29e9ba94a93a225a4f0f9a8cf1899f6b4bf6792b5e4499f02acb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bcd9987d91e93b401be530d05d081b89de6d630713a12377aa033e14a97b67b0",
+      "translation": "리비아",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "03aa68b79d0fb7c2be8bd86cb65a08f11045b3cc009bb704a96c9041e65f666c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bcdc9d50f2beb5590a5ca57ef5ac88598dc4409c37ff290d37542822ed286c19",
+      "translation": "위성",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "4d8589c5fcfeb2c65ce7bb0c500b872dca8c1e6b0839c71f424ff082eb42a486"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bd006b42bb31cb6dc9663fefe9cd340819340e395704bbed6e0e800baf5697af",
+      "translation": "최정예",
+      "review": "direct-source-review",
+      "batch": "revisions-132.tsv",
+      "previous_translation_sha256": "9feca09c74c4f3a5bab41c721f8a61496fbdc05560249f9511117120451abe58"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bd6a83fa7f5fbc3290aa836cfc7f2fd45a121c95a5f9155eed772bb42ded0542",
+      "translation": "타이완 해협",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "8f6af53fa1e1f0d6bd2dbd5544c5d6e00905e4ca64813dd48f2edaeae9bedc6e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "be94ddd592d577194f09d4393d5b0587ec295565b083dc243315d0dc570f8abc",
+      "translation": "승조원",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "2ce5849fa1f545760f0965c758a6cbe158709bdb20fb1ccd8e618e5cc9e7749c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "bfb321b6c92cabbc4036560da7e132b2fef6f804944b0490f642e09dbcea4b5c",
+      "translation": "‘비행 계획 생성·갱신’ 버튼을 클릭하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "e19a41fdd662144a8d26636be66d6ae9a28b949121f470635a0d591943724d89"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c02669f404961c27082116f6847ae6f3f4903509cd3575ab1dedede7ce50c6d5",
+      "translation": "조지아",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "a208737aaf7fb54de37e03885828911a092bedeab5a91e6ed313aa0465c24372"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c132d72ba3567f58ca0ca70955b26e318aee04efe6481925051a9e9f1166976c",
+      "translation": "향후 24~36시간 동안 구름이 드문드문 낄 것으로 예상된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "0973a927846e42986da0c6f2116b363c325f5c108e43712fe6d8d096831d45d7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c14d9f6c00b8ab1e9567224620cd672e40324cbc6639461d5e149889b6f3fdfc",
+      "translation": "F-16I 편대가 이륙했으므로, 이제 공중 레이더를 운용하는 조기경보기(AEW)와 공중 전자방해기(ECM)를 위한 지원 임무를 만들어야 합니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "42a947f8af0b43eae570d68943ebb2078126d6ae2dd41cd1fb419056ee785952"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c16a2bec2b99511b88f66214936324b6bbfb889919d60719bc89c0534df1d3c1",
+      "translation": "작전 환경",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "58e836dae6a073e9a7a8916fa685bde58f8a862a4c36fea6f6cb440999365f4b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c210bfdf28cec3d9edb636d798e0f2aaf0d1cfda0b7f8d469b1a40650686ec02",
+      "translation": "저장",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "5fb926229090001c0a61d0ca8909524ecbe038017748f156cfb17d813cc20660"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c227085409df7c0b0ab3f164e27606fbbe4620594bdf16c4cfd4024d5210bd5e",
+      "translation": "뉴질랜드",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "5cadb542fe27d9324a7b8c1adee655ea1381b5d2ceb806e8c1f213287e4bb816"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c355f0fc815c11c188d5869b0f68325aead218b586699d67169c553393bd9954",
+      "translation": "온두라스",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "feb40ffd3a9e3d6231443aecae91a3af30e4b77b483518bda780d590e3b0f702"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c415bf87cad4a2924a23392abff4a7321c10cf3f89d97ae723e1dad4f209f049",
+      "translation": "최소",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "01eebd534919bc92eb7cb7de3779c0eecf8a127fc843f197112d06094f23291c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c4393a618f86785dae11decd89164ce7e14f15f25e7640506e1d0ea3d33ce0e2",
+      "translation": "시나리오 안내",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "6c39cfd94fceb801f4fb666da024f93534ff8b32c63e72fd76409efcecae1b32"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c44f3f03e16273852ced3135e09ded1de4404d6959e78a32cdacf9a5b4da646a",
+      "translation": "승무원:",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "5a49661cba4290f0e74e2ab5cce5d646ca5279fced8341bb5f32cd9860371dfb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c50f84279aee77e0eba5c6ae2d52bb3b64fcd05ed9293b756db3545fb94b170b",
+      "translation": "건투를 빕니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "3e9076804cf87e8910982dba6a70ec4cf1929143d67e4005d5a201a45fd70767"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c59f9e0ac6f7bf7bc02a8fb33690e941ac3d6cae25f0282e0991ae1536d98fe2",
+      "translation": "실제로 이런 전술 타격에 전략폭격기까지 동원되는 경우는 매우 드뭅니다. 이번에는 폭격기를 지상에 남겨 둔 채 같은 작전을 다시 수행해 보세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "d8b09b735a1774771e50560772f92e736edcda7b03720a921e71ae27748610d5"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c627c09c14e58e44bc51622dac392958ec88244e414b508020634f53cfcd1e69",
+      "translation": "없음",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c6e91f661959b9af9379136f02a9e4acc2aef9ddaaaaefff192eca3e5816bb82",
+      "translation": "기뢰 부설",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "b4b2814c3d70176bfaec570ec41a1a549b52e2199d4d1d7677809c13b8a83246"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c77d231aa6d343b0ed6bf72e5df23b248708e5c9d063e568bd8634372702592d",
+      "translation": "주파수",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "d5a468e2a038249a546f0493cb3b6c494d25ad59bf27c12022038df24b87a3d0"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c7db6cc930c2e7e90e2b4a1720c8a25fa4e7dbd3916ec86248e53dd1e5d468e4",
+      "translation": "민간",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "549c5f4865414b3a09bde3dabc6f28a815252669fa464fd93d81bab6983e6acb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c87ff0585a8030d05a59ad1089cb8863233fdde4ebcce867b2056981379529a5",
+      "translation": "발트해",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "738368c14bd28de4696ac72627217c2d293040c2619c4e4d083796d55dd18639"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c8a69a9337e0bc3296bc34d49c807d377306c8a41a3ee43d739270cb4fe33bdb",
+      "translation": "하단의 ‘이 종류의 무장 모두 할당’을 클릭하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "79dce4476377c84db26ca18294143595ed72f1eaa67545d87af2cff3455dd86a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c8cadaf7416d68cd4b357f4babe1952f4028da0f2eec14d4b08fc11a75241553",
+      "translation": "중국 정규군 전력과 교전하지 마십시오.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "71fde76123385bc3a268a542e89b701570d2a66c65c10ef7f1ef25b69c900544"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c8ccd88246c5403743805a4849f20a4990eed27859afeb686caf49738aa348ba",
+      "translation": "체공",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "bcdf9da43a2bbb871c9844392ee9fb0f454f7d253e2de81df512d42d2ca0ef69"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c93d7d191e5693c617b5c12f6a80801624fb06fcea3765ed1bd95c259a79677d",
+      "translation": "보안 등급: 일급비밀, NATO 공유 허용//N03510//",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "00275d54eaaa78bf4b5e851fbd37ba7f0ee1467b196c3621f480e1e4a980f917"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "c9730168f4263ede9e4bcd40a63ada97e1fdd86146505a8a59ee8293075ff489",
+      "translation": "남중국해",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "48dcb5647218d92c2f4f2100186c2d9e5868a6389b425ef294878715956cb379"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ca64165686ff4da29c90d8d2c6ab999caf9be89b3d31b5e5efbfd77a1a465596",
+      "translation": "리투아니아",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "51078cab77c88f2d7e51e577198842750ad0f63cc03d49f4e9f05f4479acfd2a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ca7a03fcc19c6270db566555d2d847195160d8d9c48ec268f71adfb5ab924fdf",
+      "translation": "‘Strike #2’ 항공기를 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "c979023fc968e301fcbc6d3ce4e3c947540b1b16e4ee7d53001a5e4ed47d8ceb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ca87f57dc24a69ed1acc45ad511a1205306c94b66753044842fb020f0c9953f1",
+      "translation": "수중",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "511fbc6361bd76d2fa98422214580e55b5b12606ce01a02d99ab4b9ccc82ba6e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "cb287aa36c85abf60dc60e3673e466957fd2699459f15326e1fc5971061c9523",
+      "translation": "잠수함",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "7a39b2d809dc0354909683620b4f1caedfe07ff87d619127f3c9ca36abf73824"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "cbd4caf263a118d7521b2879cd56345d87eafe3d091efe364dd34c04949815a4",
+      "translation": "라트비아",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "da31d5c6d8864f903627c163dcebbdff53afdaaf64e8b9e1940cd6e6f41fafbb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "cd73844dc24b442f56a123489541daa8336265d8e121d288d6660f6ffb42d881",
+      "translation": "노르웨이",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "1e05c424129b064dc4c4d8ffaadbf4f703265c4955dbe0a04ecc64d7c9b2b053"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ce1dcbf743fc9616e274c2a8db123edbcc1de6fa65100850a9dcc08bd67815a7",
+      "translation": "임무와 비행 편대를 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "7a5659ba6d629a3bf3efb4d48e4cf668bc9ac5078b8cada11f11168daa3ba4cb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ce9ee40c4122e4fba40545ad22a3fd6cbde5f07a1ea797fa13d097c5e29fd3e5",
+      "translation": "대항군 승무원들의 기량은 매우 뛰어납니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "808c835be8efb322a203ce83429ec5b8dc7bf2ad43a4f0665312f3aeb1259f52"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "cee7d44c864c6e801c30a85404a9f5d7c56f5cca4fa6df5f39cccb5940cd2556",
+      "translation": "이동 비행",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "1ba0dfbfb17afe1be2ee6ee5daf9e1f12060a5e26a491ea22ab1589b68fde806"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "cf596be2bc31adfcf05467008c13add6f086d05d9f780cfa796c7a1c8e74515a",
+      "translation": "나. 부대 편성 및 임무: 지휘관 재량에 따름.",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "bc3b38b03be30e45b6d0275e3b42bc4a5da87eae732a5bf460fc736738f0666d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "cf6e35f8509f55e801b1448056b9f5a686b0dde208a1db17ca4cb15452ede603",
+      "translation": "제2상륙구역 병력 배정:",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "5347b7c9cac7865c6cd55966cb7697b32999978dcb3dc10ea1f910013c34ced2"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "cf7a405710788f072a078bbc4ced751a1b8c05e1bb34666f0defc0ba296103e0",
+      "translation": "스카게라크 해협",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "ba4c8a78d96a85672e0901c67accf3ca8908371aadc330e7800078352a36f277"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d013eacec5b77183a3382496977e304a0773e56a3af15f7f3a57571fae597b6c",
+      "translation": "오스트리아",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "6df84863189507b1cfd0aa2428fe558ce8f2882cf3594b8e4b4fc411bea4f585"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d0a8fc7218c66ef030750bea3195ee576e3701d2d31770597bf1e8e20c5850c9",
+      "translation": "방글라데시",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "cfe9fc05330a5c4f30708311021cf9c9e9e99a593ab721be9566d76220ac07c8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d0b1a869600d21076a3fa8b5f52546e55920588ce73dfb7e56ca9dc08bdcaf3e",
+      "translation": "설정",
+      "review": "direct-source-review",
+      "batch": "revisions-133.tsv",
+      "previous_translation_sha256": "115bced49291a6a0df971e8cd50b00fad1ea43e34be6d37b41f7128b3cf6a65d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d0d6efb188ea82c3cd3bc1b51990653384d7611ec990f74abce48a766fc10e37",
+      "translation": "명령",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "1f12b8e23dfddbba4682526c4aa0daf9bb341d6ed3c861170d58309902511e57"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d19135d611ffffd306bef2face58ca4b1c12416409ecb27e7fed18c4c8d86bbd",
+      "translation": "전자방해 장비",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "288d59cacaa7dec751346740781d9e9819e87bba8250d263b4e1665ac9fa6a0f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d278fd21743d091b62e0cb003c7ac1c73de41670dfdb58be2ca45b0a2c4143f5",
+      "translation": "‘Mission 2’의 기준점(RP)을 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "f4756d4523adfee88d5991bf5155334498f358ee40f633b3c2de7e99ae6b0442"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d28d713d838bbfedb839b10fbbefb256876714d2ebd5fb4886aceb577bbc8a82",
+      "translation": "방사통제(EMCON) C단계 — 전파 방사 제한 없음",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "de2904843a68c6b7d8f7c37770e6325fb970e8161aa8fcd05cc1b9ddda66a00c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d2f51da6e0551ac9bd39a8c11c3f81c0b57f28535766d47647b0ef595b04573f",
+      "translation": "중립 전력",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "df8ea84865b19fa3dc9819e836e4357295f10e362353d8caa7a3aa40f8e91fbb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d3627b80a6a9f91674677fbec15ede5290f8508d6cffccf0b83868c3f69c6239",
+      "translation": "적대 표적으로 식별된 대상에 한해 선제공격을 허가합니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "c22c7042ecda4bfe60169e1bf6efa821e78f25620325d82b24e1ca2662b5e2b7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d36b4b60545c93bd5f3257fc735106dc7dd7ea3c059e2ac99b52390d2a7193ff",
+      "translation": "쿠웨이트",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "ee888de6148f379effaa3c366d24d53ae1c0db57b49bdb061e50666ec18a9377"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d438686e54df812d53df373e2ca6a962d0c9197dc869310499748cbe7af5de26",
+      "translation": "불러오기",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "898b71a2e088148acc69951b61a067117bec89ef6ba4fa3bb4c081c6fdacd83d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d4b5cf590dccce87eb3107d3fb8709495dd532647160c5b70d48dad1c58e5552",
+      "translation": "미식별",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "696b6d0e6d6dbd16199ebfd66c510b5e67369212529b3726e74213fa7a1e36ef"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d4c318996539a3e2d6bf456df46bb702da31a307a6aba03672fbaa6161e8a81f",
+      "translation": "요르단",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "edd566485adad88652a986f36d63206b5aedfcd8291b7dcc1c0d9b8785463f7b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d5a88f712c019f3f549414e8375cda9d8e0d0da274a61f961b96de5fb19e434e",
+      "translation": "나이지리아",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "802be2801aea3456fe01935dfb8e58a886eaf2af5dca8d4580042c0cde95ac3c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d5e2b3962e0b2fa505eeb6b7b954b7867ff7c13a6210a5a2690ca7373cb38612",
+      "translation": "성능",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "3bae56d5ba5080d1295703a7b8b455741e9b72d73a6ebf8d5a42da3833e9b886"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d62d1188658378caa564aebda8cdeb4c868791594cd43c03ac1d9fb85a2ea5ec",
+      "translation": "정찰",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "ced6a0595830847de3d6fc32c5a39c6171d7efbf1055acdf8b8315f7991d723b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d65e9f163cafca703c850e27bea80bdb3eca6218987cb3724114fc2a5db55647",
+      "translation": "항공기 엄체호 (중형 항공기 1대)",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "c47c0dfe5b1e9f1ca92c0ae35d22067add5ab4e17af41f707752440a397b399f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d683909610bc12c3d35b0bb5da9e38a14b4ae1fd0312907904901e97c81f697c",
+      "translation": "싱가포르 해협",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "d78cddd4dbe2b417481c5c611d65ca345e29aa5226472c05f1bfdde0ffef1b93"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d854cd66edcf053487d631947980f0a1bba35b76b19c752c3804565dfdcdc9dd",
+      "translation": "인도네시아",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "5b327576fae8b359a6cf54397b7d44349f75989f90a9b58271cb933e4a192026"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d87c236e10f186fac9fc4cfbb4fb583e4e75d0e6c7766c13a33e520724bd7bf4",
+      "translation": "탄약고",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "842de4520e71123c6f4e6b9f85339e0ee4897faa78922e76aa13223ecab3580f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d8a134df9aa0a3196e8e02ce778ad4fc475d92b331f4c4f74552d7a407cc47be",
+      "translation": "특별 메시지",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "1a20948343031c705bdb85133c3902ef0d037b732e4ef1cd9167c144984d3803"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d8a7bbf31fad4dcca287ea85f8aec7d138fdcbd646533b3d21bc2d6c56960e41",
+      "translation": "싱가포르",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "8a500678bba19a3bd2f4df2018d2515a647d814ffab01b1bc934fc54b9a6cef7"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "d9f7d76a4d0a8445e259d8776bcdcfd08d5a5646790dffd6961c6953fc548034",
+      "translation": "급유기 / 급유함",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "5b8140c4b23dc326b2b55f83792fa2f2de85a9155bddd2feb2f307b5c893abf8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "da0f561f1d6eeb0efa1059b8f1e99f616f0c9e2227b122648bfc340832acdb20",
+      "translation": "남수단",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "b45c082b0a2047fea1dbbe58d176ec8d11a2ccd93bafc139fa74a65b760dbdbb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "dadb5f6e6a2769189d12527a7fcedaf0f01931ca4ab58aaa0a48924f3b6a8953",
+      "translation": "카타르",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "170a2c9bbe9863dc1bccc8086f751301edba2a02ac50f1ccbe7715245ca33181"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "dcde99c4978c2e4c757c0022cafd8832837228bc285bb26ccba6d80ea78133d9",
+      "translation": "임무 상태",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "08faa837e0f9fdb880b0bb3fd359792404a998fd6da9735316b976b9fa509857"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "dcebf70622a02d54ec1a5c03267d0033c6f6e9cb53364b8940ac17c0ca1d3cb9",
+      "translation": "비행 중",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "fa8d23399e7a9ab4c02b55652f6c91dff9f16abce922a225bfb84125992abbd2"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ddadd1fb4789a921a074f0e00945f97b7ff4ba2e4098be8a68c77402a5b87dc8",
+      "translation": "레이더",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "5b604817730cee26b9b5b30ddc1575166c51cef4809edf8531604d14e3d47d65"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ddeb126aa8dc9b7e88d02a92c22594bf5a15d30dd9ac281ce8905e5bbe36ccdb",
+      "translation": "플레이 안내",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "2e7ca401641218902974f5fb5b4991869486396074a8dfe06c204a5ebce4b092"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "de71a5c66878de521b1c2e3840ccff5b2e3bcd9d4a79658d5d252c0924d20614",
+      "translation": "성공적인 작전을 기원합니다!",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "2f18f1f7c43a31edaa7615d7a4c92203ea8e3168b84aae68217012353b150916"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "de936ccbad0cab62c97e245eab203b18b9cd1c245d4aa9706407f87e33f85197",
+      "translation": "벵골만",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "e3e3f52cd7716ce2685cd57800cff50079faf17b003cda40b08bb90085fc3bc6"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "de9894b6889f1010612c649653ad754ed3244ad8f9c44f4a38f8e85e992b0f67",
+      "translation": "우루과이",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "e8e480f71c163004115c3a14b2a4f15fc9a0f5dc7903cb08d04b0da466c51964"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "defb1f1110ddb5b4b9805eb25491041438faa02e76b19352ebe975d63ac2d915",
+      "translation": "종류: 유도탄 구축함(DDG).",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "770cf722daeb5f4ec6141dd7619516279e7ecc0ad68455fc4a76b6f6efdd5e58"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e0e1e1ebdd662ef0c6af6312d9364b9e60878aac0ef9dc398f473a6e714dfdb3",
+      "translation": "아일랜드",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "6851498283bebfb3fac032049722a57002715da22ee0fc8b791f50372d0768a2"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e15ba573586353db902df46f9b027ebd1b2cd17bc802edb654d617057d51c9a2",
+      "translation": "향후 12~24시간 동안 맑은 날씨가 예상된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "2b94b3ad2a36fd3b693f2ce8fcb61b07a8d29326c5a2113f78b19286c977a7aa"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e20c15187d19bc8410d80a34d6c3eeeb3601e6eac5978d2ef8c4594129af4182",
+      "translation": "사격 제한 — 확인된 적에 한해 사격",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "278b35291a7fa572166a9847750ef1b21b2257797e7de71c050ebc3fa0b555d8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e2220ace54b5605cdfdd4fb5675d0aa92dbdff523ca9cbe7ff88e7633d030621",
+      "translation": "아군",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "55c35f36a1a8c45b5fad1d77d4246d2423b4efe2288591a2150710579ebc4109"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e26faeb9084ef42785781ba518f659fe6492ec8722fc66b1e59655ab1af8ea17",
+      "translation": "우간다",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "edc28f6557c35c0004195b811534e479b02d7827d0472dd1203404c9f8a57ead"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e3cc57e193d6512e6debf0e925febe757e87e85d66150a2f212aa8641940b027",
+      "translation": "현재",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "72d2bae2a744d54f09405071ab5d322573eb61c4e368d2ed3590599490d4205d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e3e016bd6deeedbf07fefad4e963a614847c36ac1a669f5cd1a5c2f0e5f1ad6d",
+      "translation": "유형:",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "07f3522822724325dac0eb17d90657733f9a10f51f30beb835f07aa9d81dc282"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e3f8f1fd2d5e2bb6a1ea6892e3669f70a8a2bdb6d170f9ae03cec9499dbedf24",
+      "translation": "시리아",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "a3a37d9cdcb2c30cdf6fd8222eb82b3bde3dd45dfcd60b7d0efc360bc92623d8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e51b62920c28c98e8bb740480356d555acf6037d04be7db9184a761e7728dd3e",
+      "translation": "동해",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "2ab4c5c9378e2c39097659644da96e0cf7dc479f7c92d0720aff08858d495797"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e6c1747e63ab53cb4be01b80002c1e1c9dba6fab58dd4a89353670cf5aa0216c",
+      "translation": "제1상륙구역 병력 배정:",
+      "review": "direct-source-review",
+      "batch": "revisions-134.tsv",
+      "previous_translation_sha256": "229637e79ca9da449a7fb58f8fd29ee22cea9bf204dc0d17e29b1c3f0473d67c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e7e838e31e092b7b94a9d96dbf725b35a73e1346bb704187fc4cc508038596a1",
+      "translation": "임무 구역 체류",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "c328a8867143d782e4cd134b1d9b0016e94937e5551b8f9b39f382ee013e739e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e7f60067a0844d8d2fad988a3e6e0d9b0aaec50af68d48a61050443d67881e67",
+      "translation": "항공기 운용",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "70a9f3207299b875d14f74c0f96658ac62747ff8e6be45aee0ea2a1b47162b77"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e8144b1fafeed56bf5a74f043944cc8953e1e93533f04a492b73616fa2a872df",
+      "translation": "무장",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "9793e13f14dfb640ce30551ce85ec7a631a1a03c81c68a74444031209a9b5a43"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e84d58c23f897b28a644e01bcb6d74365e2dcd1c1fa02a3cbda917617db2e6a7",
+      "translation": "‘Target 1’을 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "289e970551170037af33d138ac5e648eab13970f6b9d786cfe6599d66b3b2473"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e89a33934d328737a050f145d85535a890f73304faede6aa19ea7f453d2a25da",
+      "translation": "생물",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "453ebe6e6b381547575adcd47ae55265ba5d5ab748a7eda24e30cbcf5995fcf8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e8a01133b1351e5fa434167135400d1998d3daa8ce74e3dd9bb57582fa4d7b97",
+      "translation": "켜짐",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "f4a53b277b13a4a556b58e306d414bbb37144a43ea430bc304778a705007cbb9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e8ac2f83ec8b5324c9868488ab6dc45c9549f8b3201b8ffb57699c680d3db865",
+      "translation": "투르크메니스탄",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "adae171ed7034732b47d4b6eb7623dd7a9cef69d1ee91c1a39098821f8563344"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e8e083e163b7805edf719191676d04f808d72337710ca4c82e9919a78ed74834",
+      "translation": "대함공격",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "1054377ca73802acea345981e87df171e480dd3e77f034c3715985e6e30f9a27"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "e9038edcec1c222a7a274a12eb9f377fed203f8d20d16bb61cd341efa9e583a5",
+      "translation": "‘비행 계획 생성·갱신’ 버튼을 클릭하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "e19a41fdd662144a8d26636be66d6ae9a28b949121f470635a0d591943724d89"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ea18504b75a66b6b00dcd30d246609016fd53c47234d693f25737661f840c44d",
+      "translation": "방사통제",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "05746681b9b21e5f79e7a206e9be852458f399bc8d9382c1183eff7a568edb65"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "eaa589322731009980d99891b5c7850ac5172dda7cdf73a533ab403332d7e944",
+      "translation": "이름",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "253d1510caf5362045ce50b1bdc33758fc4b3fd6ddc552d8dc0619784bd9c7d1"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ead57860be5223a30a14eb258066f17dbfb424e405a6e050f493fb61b1596e6e",
+      "translation": "1970년대에 도입된 레드 플래그 훈련은 미 공군의 실전적 훈련 수준을 크게 높였다. 초기 레드 플래그 훈련을 다루는 이 시나리오에서 미 공군 전투비행대대는 고도로 훈련된 대항군에 맞서 방어가 삼엄한 목표를 공격해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "56539041c4a123cefc3b71fb5165b4f24bd6ddf587eee1c7f82f303009937b30"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "eb21b19caa18e564ac94ba9ae0afedcaa797e1ff71f884bd212e4a98c95d9bda",
+      "translation": "협조 사항",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "01557bde9cead342eb9e9ca7e5cfafc2226908722479a28d28abd5a1ec4d0870"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ebd293e02c29446d82d4d0ec3459c81b69393f07654f47759db6ea6b6b1ed1d2",
+      "translation": "지속 시간",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "68ef15c0d7cc7ecf7736c625942fce02beaff7af734715ac7e202b53c6967256"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ebe248755dddc539bb60443475bab7260b2d9e54cdad2865a71de2c4fc12a2fa",
+      "translation": "일반적인 포대는 발사대 6기와 요격탄 50발로 구성된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "bcd10353a152508e1f327141a9419f73b4370a8b6582c92bf833d2c054bde14f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ec23ec33f7207ded724388c4bf9a2e985259a2cf5ef13196fce293406eb63dd8",
+      "translation": "임무 종료",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "ac4e37a4c9eb6d8615bc7c0900220f456aff7bf8f7876311f11ed5430ccbcd68"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ec4ecc14f8b5a115c21370091bb6cea51fa87a8cc1fcc19369a03758d7ef3c1c",
+      "translation": "위치",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "6c0b9dd710ab0fde0a72b7e27e9e8eedd48f92b9dc0a01ef0a0eb3e55a73df19"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ed8499a7686eccdad1cdf43be11ded5434e7e645cfa629660769ac0a526923f7",
+      "translation": "임무 시작",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "f2be0665408e6606c77476c2ab75a6121b107698f93378cff61279d29f80fd5a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "edd39a9593b6e781a2f36375153655e79d9fd38e4592f8f4d88488d40e97c9b4",
+      "translation": "도미니카 공화국",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "7ddbdf5e58e8f6a8734defef4b6621c179638256af46068a05e316ce2001454f"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "edfc35e6e560ee23173db62e2c9e9d1e66f46434062f833c03da013ff6b5cb54",
+      "translation": "공중 요격",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "cece1409b9122efbfbb53580bd7b1121a09b88ec8ec48921245d4e5f5220eb60"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ee146ea5db06e8a9f1e0a6ba9b726beaed6eaf2c484f7c45f67b6e5d14b0f3b6",
+      "translation": "군용 최대 추력",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "979e20c1e6a3a6931ba56b900c4cbc8ce41865b301459f9367c6b26e0673227e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ef56404e7df10052788ad4d16246385bb0ff98821b8582d629de533e38a2da34",
+      "translation": "비행장",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "35dd98b6fc55f3327f10678aae7b98c111ed8feed090c07c7a7c5a100b1d4dcb"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f0ad9a79b2629eda7fe5ca27d48e0e0cc463c0b72df1115e59afd07f7e6e7413",
+      "translation": "베네수엘라",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "145f797468d4d273ccaeb36523f67adb862da124bd69c2883eab4d391e4cb15b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f101cae85208040c3fb43e68ba2d1cad0f46c9ca8e580e9fe5dd33b23cd140f4",
+      "translation": "진행 안내",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "4cc6963dc84e8a033fe21e1bdb42237c573a9697226f8243aad3e9e4a98129c8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f110459a5ada7ffc33e37c7153e406dd58666f8dc1718484b086c2def318ae75",
+      "translation": "급유",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "b1964434824d76d18564e8cb9c3f3493600783fb5096d2608cf15233f8c41118"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f13a1ed0cf3c4197ec8f4301b169908f52e45cab428eb604f79aab4a4b10dee3",
+      "translation": "닫기",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "1e8c10206f5b35bd96122e14038b5afd38e326a758874332b3931d6db9b25259"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f1728a6972e71e782732362fce9886ef33d0ae0dd5706264a62001677b7d3fe0",
+      "translation": "그리스",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "88c4d93a9c0e1a2917562a93d43fd51d385ea43fb76ed62e178eaf7e83d7d45c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f1e4863c0ec0500f98c380314c634907825773eca850f49dd28b1350265cb6d9",
+      "translation": "‘Strike #3’을 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "ff4da79ecf4681025f60e16d09cea22235a0a13d9d1c9d1f8578d16e8c5e982d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f25e03c4bababd7eba03e252d5b5ffd3c9d072146d4e7b5704c0ef39deb29bd2",
+      "translation": "동부 지중해",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "d3e39e970544eeedab9d4fc90f57beda5528013053378269f7b8748702ee7cf9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f27cbacd2e881cd515cd9fdf689904e4490ef3c9c37adf1cc473f5fa92b32251",
+      "translation": "다. 협조 사항: 변경 사항 없음.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "dd4329fec383dc426319a334532b63c3d4ec709eedeca7113bd3762bfd2be8d0"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f27f17e3f0632792bbe214cd86906910e331cfe9fd9d8349d4130431d92ba1aa",
+      "translation": "발사",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "72463a0110fd2dd80f481e1646e7d2aea69f6b8834f820224d480fc212fd9575"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f28d066ad4d9a0f80fdb298d2b62f86316599d787a183de9d8bf6a6943a98836",
+      "translation": "이 미사일의 대형 탄두는 3,000톤급 구축함을 침몰시키거나 심각한 피해를 입힐 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "66c32e44a5107b65e23a52ef9254a6c0a6ed20851ca3046c7ef4f9a8606b0310"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f295551b43e652a9bd86118e9241e3a0ff1d140a7095aafd5a936e5a85c1ffc8",
+      "translation": "구축함",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "fad63c9d9fadab4ad17e1c590a8a5977a74cb430ef26bf795b75b90918f8d809"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f2acff024a69764dcbeede468addef5e22eb224558be429fa877bf92698d0942",
+      "translation": "브루나이",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "fbf146a2c364d308f1af266cc81810b22ba5eebd9a6e1896ddfd821a2116aaad"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f2c769a135b01409761ec4f4d5a7f144d7648e7254147714d527c0d453759a9b",
+      "translation": "탐지",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "034046945b115ab158b8f2040d4d4f28c3cab377b8a9b08a2a309121d1144f07"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f2ed88605da276bf3b88464e65b4ad83c10e35f216ff8275e38fbe736d7380b4",
+      "translation": "활주로 (2600m)",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "130db0c093b2260bb4fddcbccbe66dc0df8a772fc0fdaa0799de08ce4c92d170"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f47d482d89610a2faf3ee5af3849d05eee698beb0fa04deb56326adf0a458adb",
+      "translation": "타격",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "035fbb69e1bf87792f1669179d16a1f7e2fc31c409d37ea6e2fee70b1028e877"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f505de845a722f70a52fea971c05fd86ea6a7285f8b0fce08027afe97f3bd29e",
+      "translation": "‘Strike #6’ 항공기를 선택하세요.",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "89a7374d376dbd6a9e911c96c4720126f145969abf420d28919a2792d0a6c362"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f53a7ab988e2f4624beb96812afd0bc56a8f1743e97d5ac7b33a85c0be131471",
+      "translation": "플레이",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "090d01d21758dfb6a62a72a9497d1df4293b939022d3c3649012070399338a46"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f57ebfa378880b20515843f43208208cf2550185639c906caa515da1ca63f320",
+      "translation": "바렌츠해",
+      "review": "direct-source-review",
+      "batch": "revisions-135.tsv",
+      "previous_translation_sha256": "1bdadd369c68289c949946815a16943a9b9fc71088f8fa3232bf4e4b71f60254"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f708f5ce739c96c3dabb3c3b1d7662da1343c58b68625233a491b43a8e0f3f35",
+      "translation": "경도",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "da76920a29c9ddc03e974a3371fd773854bb9e96869cab6354724a4708ff5c9c"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f7aa6e14c99970b4bf94f36b78d644f152b4c94c77c7d79f11222a42eda88994",
+      "translation": "아르헨티나",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "7545f9df327fb4015b80e664fa0b9c39b6c001a6c9a2ce6dba7e816dbbd1c51e"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f82ecbb5e510588c497d4cd055f5846140db9787b83838aee00808f0a5065d71",
+      "translation": "접촉물",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "2cd114594c9e4bd0783a8731808e1c02f26eebd4c958b0d63ef42864a8127200"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f8929fed8f0112944163064bce39c020eeefaee2a78515fcf2ac006b8317daf2",
+      "translation": "인도",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "d50a5cd867e1cb271a68405e42a1ce573230c38a2b7a3c00b03587275deb5e15"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f9171164593756e56fb197327b529a4955590566560dbe62d586bff41be9d297",
+      "translation": "예",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "2eb73fba696e2fe4ea0a206ed3d21758e35c7594905d6181d9c34ff19556b17a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "f9c3edfdaa57d33f3b3f2d487a97b838c2c568bcf6c64d2d012770f38a5e93c1",
+      "translation": "용량",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "e6ac1362406cc066d352d504e3d324627a09e24bf38ee79623046b59cab748d2"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "facf147605b3ffe248c6904eeb386ee5307569947e020ef096e2359a17e30cae",
+      "translation": "필리핀",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "37cacb5bfaa688b2ae11dbed44fe68789ebd2f1dfa419ea125069d7ab1569bc4"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fbe4d8082c7119c317013c9591b698b6d4dcb0e6c0be0bb99be0f6ff9169b1c5",
+      "translation": "이제 가용 전력을 살펴보겠습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "fc0ba227e9c9885017ae1249b6c9b6e8852847dabefe58002954862f1b3db238"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fce097ae0a04c8217326d005bb2f85d3b61f01a3df1aeee67b1b2a70c51d5cec",
+      "translation": "키프로스",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "031220cfb028eb1d30f205381210bb122700770b67f74c2317a4da56187fa395"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fd78246df04f793d036c2a643ea0747a19cfb2d95a5a19e2e0a7cf08d604f720",
+      "translation": "멕시코만",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "00b830143ca40dda41f597411fa8c808baec0dca7f274fb5a677a5e378229bb0"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fd8d9ac1036f141c39d223db1d7bc571643f028a81b73a5463433060c9ec8bac",
+      "translation": "초계",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "48852eaa7c15e9545a1f67de64fd67aa72c3812b93374b7085b0266c5c26f646"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fdc0f73b7b4b3425c5077c33d89cf144bf2255b1c1652bd24b91f9edb4698129",
+      "translation": "시간",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "4692cef5ac69eb37bd5301ef63f765f04421250f52b6eee6c966e0b1840395a9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fdfa2bc0ddbf957b88a981b1c0c052ee1cf5fecaa21020d0b2370cc8a6f8571e",
+      "translation": "몰타",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "bc8436783455284c04b4f28e8daaed53d4fe087e93b9835c2d2e80d2a5a47d13"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fe0947ca86ec169a828af5212ba39c2af8e74ac039b150b303a2125bc477c3bd",
+      "translation": "포르투갈",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "9b656e88293529b452fa3c80328df7ebe5ef4cc88ca2f1ef9718f73c127cad82"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "fe1482792327d18f5c73579b96d825266149d5e3c8522a6cddfbd90b0215f80e",
+      "translation": "임무 수행",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "295047b47d2abcdf40c645344e26faca08f6c8b1642fcb8d56377d38fdc12ce3"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "ffc639ab8fd2ebb3d297a8102122f314bbdc7b7c1188609e93130005cb487895",
+      "translation": "사우디아라비아",
+      "review": "direct-source-review",
+      "batch": "revisions-136.tsv",
+      "previous_translation_sha256": "80a86a43e8c7da3fcc50fd0266d4a5fa1df4b02bb92a12c9ffe3e4cb9785c170"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "059a32b7bcc3f481684c812dd4ee8e84b6c4cda96d9d9dd83c5bea31b2326a2b",
+      "translation": "자체 방어 장비로 채프·플레어 발사기 2기와 탈레스 스콜피온 전자방해 장비를 갖추고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-137.tsv",
+      "previous_translation_sha256": "f2959e767f9c4fcfcccb0fd2b77ed6c0c3cbc2bf250cdd8b1104a251ebba2814"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "54199b461c1b2ad2c8d34510c98a104bb80ead42b372a5ee3a8ae397e7a953c7",
+      "translation": "항공기 격납고 (대형 항공기 2대)",
+      "review": "direct-source-review",
+      "batch": "revisions-137.tsv",
+      "previous_translation_sha256": "4a298e56e0f1cdc9581d72fbb852ccc60c7eb7f85edb7947ef856e9eb5422143"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "559f83d8cb5612b466a8ff9d91c564ae0c09c780f93418c6c943b5f34d472586",
+      "translation": "축치해",
+      "review": "direct-source-review",
+      "batch": "revisions-137.tsv",
+      "previous_translation_sha256": "84138b40e186a02d5c150912e1e86a237692fa5ec68d6664a717cd1a823ebc21"
     }
   ]
 }
