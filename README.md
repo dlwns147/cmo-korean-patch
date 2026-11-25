@@ -159,3 +159,7 @@ No blanket MIT or other open-source license is granted to the entire repository.
 **If a copyright or licensing concern is raised, or a rights holder requests action, I will make this repository private and suspend distribution while reviewing the issue.** I will then remove or amend the relevant material, or take action in accordance with the rights holder's guidance. Please identify the affected files/passages and relevant rights when contacting me. Making the repository private cannot recall copies already downloaded or cloned.
 
 Contact: **lsj000777@naver.com** · GitHub: **dlwns147**
+
+### 원문 대조 추가 검수 진행 상황
+
+게임 원문과 사전 키의 SHA-256을 대조해 추가 검수를 진행하고 있습니다. 이번 작업에서는 435개 원문 항목을 직접 수정하고 실제 번역 조회 함수로 검증했습니다. 전체 검수 완료를 의미하지 않으며, 이전 검수 통계와 중복될 수 있으므로 합산하지 않습니다. 상세 수정 기록은 [추가 검수 기록](reviews/2026-11-26-direct-review.json)에 보관합니다. 영어 원문은 로컬 검수에만 사용하며 배포하지 않습니다.

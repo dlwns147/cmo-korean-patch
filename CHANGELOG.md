@@ -49,3 +49,12 @@
 - Inventoried 71,229 unique entries and addressed 2,388 through direct rewriting, table restoration and source-constrained terminology edits. Updated 4,110 paragraph positions across 2,037 DB files and 90 UI entries.
 - Reviewed 783 short scenario strings and 53 severe-omission candidates; audited 640 workshop scenarios and added 53 missing lookup entries. Updated stale whitespace variants and resolved four punctuation-related glossary fallbacks.
 - Passed 2,392 first-call lookup checks, the existing 60 automated checks and GDI/DirectWrite checks. Full manual coverage and all-screen visual verification remain incomplete.
+
+## 2026-11-26 — 원문 해시 대조 기반 추가 검수
+
+- 로컬 게임 원문을 SHA-256으로 대조하여 검수했습니다. 현재 추가 검수분은 435개 원문 항목입니다.
+- 시나리오 사전 435개, UI 사전 1개, DB 176개 파일의 184개 문단을 갱신했습니다.
+- 교전 금지·허가 조건, 군수·편제 용어, 함정·항공기 수량 및 누락된 제원을 문맥에 맞게 교정했습니다.
+- 수정 항목 435개의 실제 번역 조회 함수 검사를 통과했습니다. 사전 키와 DB 문단 구조를 유지했습니다.
+- 전체 직접 검수는 진행 중이며, 이 수치는 이번 추가 검수분만 나타냅니다. 이전 검수와의 중복을 제거한 전체 완료 건수는 아닙니다. 실제 게임 화면 검증은 수행하지 않았습니다.
+- Restored source associations by hashing local game text and directly rewrote 435 source entries. All 435 runtime lookup checks passed. Full direct review remains incomplete.

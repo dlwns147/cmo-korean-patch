@@ -45,5 +45,31 @@
     "parse_errors": 0,
     "note": "Exact lookup coverage only. Whole-paragraph and structured translation paths may cover some missing text nodes. Lua, briefing attachments and full manual review are not included."
   },
-  "full_manual_review_complete": false
+  "full_manual_review_complete": false,
+  "incremental_direct_review": {
+    "base_commit": "e5e47f8",
+    "method": "Direct Codex source-based rewriting; no translation model or blanket terminology replacement",
+    "reviewed_source_entries": 435,
+    "changed_from_base": {
+      "ko.tsv": 1,
+      "scenario-ko.b64.tsv": 435,
+      "db_files": 176,
+      "db_paragraphs": 184
+    },
+    "source_recovery": {
+      "matched": {
+        "ko.tsv": 544,
+        "scenario-ko.b64.tsv": 60406
+      },
+      "total": 64976,
+      "unique_candidates": 992799
+    },
+    "validation": {
+      "runtime_first_lookup_passed": 435,
+      "dictionary_keys_preserved": true,
+      "database_paragraph_alignment_preserved": true,
+      "in_game_visual_check": false
+    },
+    "full_manual_review_complete": false
+  }
 }
