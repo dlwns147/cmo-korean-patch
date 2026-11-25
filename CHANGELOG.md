@@ -52,9 +52,9 @@
 
 ## 2026-11-26 — 원문 해시 대조 기반 추가 검수
 
-- 로컬 게임 원문을 SHA-256으로 대조하여 검수했습니다. 현재 추가 검수분은 3,002개 원문 항목입니다.
-- 시나리오 사전 3,000개, UI 사전 9개, DB 1,259개 파일의 1,566개 문단을 갱신했습니다.
+- 로컬 게임 원문을 SHA-256으로 대조하여 검수했습니다. 현재 추가 검수분은 3,047개 원문 항목입니다.
+- 시나리오 사전 3,045개, UI 사전 9개, DB 1,273개 파일의 1,582개 문단을 갱신했습니다.
 - 교전 금지·허가 조건, 군수·편제 용어, 함정·항공기 수량 및 누락된 제원을 문맥에 맞게 교정했습니다.
-- 수정 항목 3,002개의 실제 번역 조회 함수 검사를 통과했습니다. 사전 키와 DB 문단 구조를 유지했습니다.
+- 수정 항목 3,047개의 실제 번역 조회 함수 검사를 통과했습니다. 사전 키와 DB 문단 구조를 유지했습니다.
 - 전체 직접 검수는 진행 중이며, 이 수치는 이번 추가 검수분만 나타냅니다. 이전 검수와의 중복을 제거한 전체 완료 건수는 아닙니다. 실제 게임 화면 검증은 수행하지 않았습니다.
-- Restored source associations by hashing local game text and directly rewrote 3,002 source entries. All 3,002 runtime lookup checks passed. Full direct review remains incomplete.
+- Restored source associations by hashing local game text and directly rewrote 3,047 source entries. All 3,047 runtime lookup checks passed. Full direct review remains incomplete.
