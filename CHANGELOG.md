@@ -38,3 +38,14 @@
 - 무장·센서 목록의 누락을 보완하고 비행 성능·정비 용어와 과거 운용 현황의 표현을 다듬었습니다.
 - Directly revised 27 additional paragraphs, updating 1,252 occurrences across 186 files. Restored weapon/sensor details and clarified flight-performance, maintenance and historical-service wording.
 - 로컬 번역 모델 미사용. 전체 직접 검수는 진행 중입니다. No local translation model used; full direct review remains incomplete.
+
+## 2026-11-26 — 검수 범위 확대 / Expanded review
+
+- UI·지도·시나리오·DB의 고유 항목 71,229개를 목록화했습니다. 전수 직접 검수 완료를 의미하지 않습니다.
+- 2,388개 항목에 문맥 교정·제원표 복원·원문 조건부 용어 교정을 반영했습니다. DB 2,037개 파일, 4,110개 문단 위치 및 UI 90개 항목을 갱신했습니다.
+- 짧은 시나리오 문구 783개와 심한 누락 후보 53개를 대조했습니다. 창작마당 팩 640개 시나리오를 조회 검사하고 누락 문구 53개를 추가했습니다.
+- 공백 차이로 남아 있던 오래된 사전 키도 갱신했습니다. 문장 끝 구두점에 따른 UI 사전 우선순위 문제 4건을 수정했습니다.
+- 2,392개 첫 호출 조회, 기존 자동 검사 60개 및 GDI/DirectWrite 검사를 통과했습니다. 전체 자연스러움 검수와 전 화면 실기 검증은 아직 미완료입니다.
+- Inventoried 71,229 unique entries and addressed 2,388 through direct rewriting, table restoration and source-constrained terminology edits. Updated 4,110 paragraph positions across 2,037 DB files and 90 UI entries.
+- Reviewed 783 short scenario strings and 53 severe-omission candidates; audited 640 workshop scenarios and added 53 missing lookup entries. Updated stale whitespace variants and resolved four punctuation-related glossary fallbacks.
+- Passed 2,392 first-call lookup checks, the existing 60 automated checks and GDI/DirectWrite checks. Full manual coverage and all-screen visual verification remain incomplete.

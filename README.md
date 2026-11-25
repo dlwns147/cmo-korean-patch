@@ -54,7 +54,13 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 
 ### 번역 검수 현황 — 2026-11-26
 
-기존 사전 62,742개를 자동 검사하고, Codex가 원문을 직접 읽어 74개 문단을 교정했습니다. 장비 설명 731개 파일의 3,831개 문단 위치와 시나리오 문구에 반영했습니다. 니미츠급·타이콘데로가급·로스앤젤레스급·알레이 버크급·F-16·F/A-18·P-3 등의 설명에서 문장 누락과 군사용어 오역을 수정했습니다. 새 로컬 번역 모델은 사용하지 않았습니다. **전체 문장의 직접 검수는 아직 완료되지 않았습니다.** 이 수치는 전수 수동 검수나 완전 번역을 뜻하지 않습니다. 게임을 재시작하면 갱신된 시나리오 사전을 읽습니다.
+UI·지도 사전·시나리오 사전·DB 설명에서 중복을 제거한 71,229개 항목을 목록화하고 자동 검사했습니다. 이번 확장 작업은 2,388개 항목을 대상으로 문맥 교정, 제원표 복원, 원문 조건부 용어 수정을 반영했습니다. DB 2,037개 파일의 4,110개 문단 위치와 UI 90개 항목을 갱신했습니다. 시나리오의 교전·사격 금지 조건, 부대 편제, 탐색구조 절차와 긴 무장·센서 설명의 누락을 보완했습니다. 원문 자체가 손상된 부분은 추측하지 않고 표시했습니다.
+
+Codex가 직접 문장을 작성하고 검수했으며 새 로컬 번역 모델은 사용하지 않았습니다. **전체 직접 검수는 아직 완료되지 않았습니다.** 현재 검수 기록은 직접 검수 1,214개, 용어만 교정한 항목 1,275개이며, 나머지 68,740개는 이 검수 기록에서 직접 검수 완료로 표시하지 않았습니다. 깨진 문자와 어색한 기계번역이 여전히 남아 있습니다. 자동 검사·용어 수정은 문장 전체의 의미와 자연스러움을 검수한 것과 다릅니다.
+
+Community Scenario Pack 640개의 제목·브리핑 HTML 텍스트 7,250개를 조회 검사하고 누락 문구 53개를 추가했습니다. 사전과 정확히 일치하지 않는 19개는 약어·저자명·이메일·문장 조각 등을 포함합니다. 이 검사는 Lua 메시지나 첨부 문서 전체의 한글화·검수 완료를 뜻하지 않습니다.
+
+기존 자동 검사 60개, GDI/DirectWrite 첫 표시 검사와 저장된 번역의 첫 호출 검사 2,392개를 통과했습니다. 실제 게임 전 화면의 재검증은 완료되지 않았습니다. 게임을 재시작하면 갱신된 사전을 읽습니다. 세부 현황은 [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json)에 기록했습니다.
 
 ### 저작권·라이선스 및 비상업 목적
 
@@ -125,7 +131,13 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 
 ### Translation review status — 2026-11-26
 
-The existing 62,742-entry dictionary was automatically screened. Codex directly revised 74 source paragraphs, updating 3,831 equipment-description paragraph occurrences across 731 files, as well as scenario text. Corrections address omissions and military terminology in descriptions including the Nimitz, Ticonderoga and Los Angeles and Arleigh Burke classes, and the F-16, F/A-18 and P-3. No new local translation model was used. **A complete direct review of all text is still pending.** These counts do not represent full manual coverage. Restart the game to load the updated scenario dictionary.
+A total of 71,229 unique entries across the UI, map and scenario dictionaries and DB descriptions were inventoried and automatically screened. This expanded pass addresses 2,388 entries through contextual rewriting, performance-table restoration and source-constrained terminology corrections. It updates 4,110 paragraph positions across 2,037 DB files and 90 UI entries. Corrections restore engagement restrictions, unit composition, rescue procedures and omitted equipment details. Damaged source text is explicitly identified rather than reconstructed by guesswork.
+
+Codex directly authored and reviewed the wording; no new local translation model was used. **The complete direct review is unfinished.** The current ledger records 1,214 directly reviewed entries and 1,275 terminology-only corrections; the remaining 68,740 entries have not been marked directly reviewed in this ledger. Corrupted characters and awkward machine translations remain. Automatic screening and terminology edits do not constitute full semantic or stylistic review.
+
+An exact-lookup audit covered 7,250 title/briefing HTML text nodes across 640 Community Scenario Pack scenarios, adding 53 missing translations. The remaining 19 unmatched nodes include acronyms, author names, email addresses and sentence fragments. This audit does not establish complete translation or review of Lua messages and briefing attachments.
+
+Validation passed the existing 60 automated checks, GDI/DirectWrite first-display checks and 2,392 first-call saved-translation checks. A full visual recheck of every game screen is still pending. Restart the game to load the updated dictionaries. See [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json) for the recorded scope and results.
 
 ### Copyright, licenses and non-commercial purpose
 

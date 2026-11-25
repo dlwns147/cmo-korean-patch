@@ -1,38 +1,49 @@
 {
   "date": "2026-11-26",
-  "method": "Direct contextual revision by Codex; no new local translation model used",
-  "audited_cache_entries": 62742,
-  "automatic_review_candidates": 3062,
-  "directly_revised_unique_paragraphs": 74,
-  "db_files_updated": 731,
-  "db_paragraph_occurrences_updated": 3831,
-  "remaining_db_paragraphs_not_directly_reviewed": 9146,
-  "full_manual_review_complete": false,
-  "cache_entries": 62760,
-  "batches": [
-    {
-      "date": "2026-11-26",
-      "method": "Direct contextual revision by Codex; no new local translation model used",
-      "audited_cache_entries": 62742,
-      "automatic_review_candidates": 3062,
-      "directly_revised_unique_paragraphs": 47,
-      "db_files_updated": 595,
-      "db_paragraph_occurrences_updated": 2579,
-      "remaining_db_paragraphs_not_reviewed_in_this_pass": 9173,
-      "full_manual_review_complete": false,
-      "cache_entries": 62753
+  "method": "Codex direct contextual review and source-constrained terminology correction; no local model inference",
+  "unique_revised_entries_this_round": 2388,
+  "scenario_or_db_lookup_entries_changed": 2302,
+  "ui_entries_reviewed": 90,
+  "db_files_updated_this_round": 2037,
+  "db_paragraph_positions_changed_this_round": 4110,
+  "validation": {
+    "existing_automated_checks_passed": 60,
+    "GDI_first_paint": true,
+    "DirectWrite_first_layout": true,
+    "saved_translation_first_call_checks_passed": 2392
+  },
+  "coverage": {
+    "date": "2026-11-26",
+    "unique_entries_enumerated": 71229,
+    "domain_counts": {
+      "scenario-cache": 63004,
+      "database": 12098,
+      "ui": 1972,
+      "map": 4517
     },
-    {
-      "date": "2026-11-26",
-      "method": "Direct contextual revision by Codex; no new local translation model used",
-      "audited_cache_entries": 62742,
-      "automatic_review_candidates": 3062,
-      "directly_revised_unique_paragraphs": 27,
-      "db_files_updated": 186,
-      "db_paragraph_occurrences_updated": 1252,
-      "remaining_db_paragraphs_not_directly_reviewed": 9146,
-      "full_manual_review_complete": false,
-      "cache_entries": 62760
-    }
-  ]
+    "status_counts": {
+      "pending-direct-review": 68740,
+      "direct-reviewed": 1214,
+      "terminology-only": 1275
+    },
+    "remaining_flags": {
+      "corrupted-text": 3824,
+      "suspect-term:스쿼드": 520,
+      "suspect-term:파업": 60,
+      "suspect-term:서비스 천장": 4
+    },
+    "db_long_paragraphs_enumerated": 9250,
+    "db_long_paragraphs_direct_reviewed": 234,
+    "db_source_translation_conflicts_excluding_citations": 0,
+    "full_manual_review_complete": false,
+    "scope_note": "Existing local dictionaries and DB paragraphs enumerated; live runtime and every workshop document are not fully manually reviewed."
+  },
+  "workshop_title_and_briefing_lookup_audit": {
+    "scenario_files": 640,
+    "unique_title_and_html_text_nodes": 7250,
+    "without_exact_dictionary_entry": 19,
+    "parse_errors": 0,
+    "note": "Exact lookup coverage only. Whole-paragraph and structured translation paths may cover some missing text nodes. Lua, briefing attachments and full manual review are not included."
+  },
+  "full_manual_review_complete": false
 }
