@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9002,
+    "reviewed_source_entries": 9014,
     "review_outcomes": {
-      "modified": 7620,
+      "modified": 7632,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7637,
+      "scenario-ko.b64.tsv": 7649,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9014,
+      "runtime_first_lookup_passed": 9026,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -72076,6 +72076,102 @@
       "review": "direct-source-review",
       "batch": "revisions-392.tsv",
       "previous_translation_sha256": "1a93fffcc2670d39a3805da43c31a7f8b169a9953c547b55ebdd3f1b4f655eaa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "278e967cb413c165400bcad43562b4f57f06dd8719ac5a7f76ae7f338be1ed3f",
+      "translation": "베네수엘라 군용 선박에 대한 무기사용규칙(WRA)은 사격 보류이며, 자위 목적일 때만 사격한다. 단, 공격을 받으면 확인된 적에 한해 사격하는 상태로 전환되어 적으로 식별된 전력에 사격할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "4a5ae2a489717154f9bf81646b0e4473509aed7d3209dd4891c315e6e5b65f5f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ef28191396d5e211fb8d5eff627ab74e89f270b70e8c54e625a82c09850b1e74",
+      "translation": "임무는 후방에서 따라오는 지원 수송선단의 진로를 확보하는 것이다. 이 선단에는 식량과 예비부품, 고국의 재건을 돕고자 하는 미국 시민 수천 명이 실려 있다. 라틴 연방이 온갖 선전을 쏟아내고 있지만 실제로 우리를 공격할지는 불확실하므로, 현재는 사격 보류 상태를 유지한다. 또한 라틴 연방은 쿠바에서 핵무기를 확보했으며, 자국 영토 어디든 공격받으면 이를 사용하겠다는 뜻을 분명히 했다. 따라서 당분간 라틴 연방의 어떠한 기지도 공격하지 않아야 한다. 전파방사통제(EMCON)는 지휘관의 재량에 맡긴다. 전파를 적극적으로 사용하며 진출할지, 전파 침묵을 유지하며 은밀하게 접근할지 선택할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "dec271bfe71d6b51320e46c5e5fdc281498e351150a9e873decce048fd29336b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1225e5b052a12bc413e5c1231379d4abff125cc76c80bcccb3f2efc44c445033",
+      "translation": "다음 세부 조건에 유의해야 한다. 공군기지를 설치하려면 LHA 아메리카의 오스프리(Panther 1~5)를 참조점 931~934로 둘러싸인 착륙구역으로 이동시켜 30분 동안 머물게 해야 한다. Panther 1~5의 이름을 변경해서는 안 된다! 모든 기체가 착륙구역에서 연속 30분 동안 머물러야 하며, 그렇지 않으면 공군기지가 생성되지 않는다! 성공하면 항공기를 이 기지로 이동시킬 수 있다. 이 기지는 시나리오의 제한시간 안에 다른 방법으로 확보할 수 있는 기지보다 목표에 가깝다. 기지 설치 후에는 이를 유지하기 위한 기본적인 군수지원 조건을 충족해야 한다. 미 해군 함정 루이스 B. 풀러는 참조점 973~975로 둘러싸인 구역에 계속 머물러야 한다. 이 조건을 지키지 않으면 육상 기지의 기능이 점차 저하되어 결국 작동하지 않게 된다. 게임에서는 기지가 제거된다. 해상기지 역할을 하는 함정들을 보호하면 공군기지를 유지할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "7bfdeec6df24909074ead42258a4f34695a5bf0fca691ab2f38ad77abbe50cb4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fdc681de5a2c073156df1d33469c9a77f018ef9cfd8546203570c8f9d3dd8ce4",
+      "translation": "소련 수상함과 잠수함을 격침하면 점수를 얻지만, 사격하기 전에 임무를 정확히 이해해야 한다. 사격으로 아군의 위치가 드러난다면 득보다 실이 클 수 있다. AI가 아니라 플레이어가 사격 여부를 결정하도록 사격 보류 상태로 설정되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "6415e1fa6b8efb7d08a968712e2bd155fbdeb9618e4e4d83b21d87d53ee20c98"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8e8e44f5dd522875f6fd04d8ce12092c23132456e105ab3b4994f61ba5388eb6",
+      "translation": "이 새로운 교리 설정은 원하지 않는 상황에서 여러 급유기가 서로 임의로 급유하는 것을 방지한다. 다만 이번에는 급유기 간 급유가 필요하므로, 임무 편집기에서 임무 교리 창을 열고 급유 교리를 '항상'으로 설정해야 한다. 또한 1.11 업데이트부터는 아무 동작도 일어나지 않는 이유를 메시지 로그에서 확인할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "f6dc7ed2bdda8f8960500dcc9dc72e432e5097c8c32d2b708a2db41c99ae13f6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "258c31361acae76fd41d36bdb677db036f7fb8b4b2a565ef4c0ea1b272624464",
+      "translation": "E. 교전규칙: 사격 보류 상태를 그대로 유지한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "e6890ac63e757ee769f1ad1eb1d6bb23146b17f08ba8bd62ac020d908489fade"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4954882850e139f4788cb0b8753c2603f9394211e50ba9ea9f2d8b12a9799ab2",
+      "translation": "{5} 교전규칙: 다음 추가 사항과 함께 통상적인 평시 교전규칙을 적용한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "0e446b7a490b6b392c6f6ff75957e3aee2598cda0e5725a65df2b65b40b07985"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8ff11acd674acf8667ddb78da70c2b26b8078ff2ec3ac85fff9196d797e2f9c9",
+      "translation": "H) 부수적 피해와 모든 민간인 사상자 발생을 피해야 한다. 교전규칙은 확인된 적에 한해 사격하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "117cdc1899d76b63ab004bcc5b81fd20ccf6040872218aedbf3ef011ad199520"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "39d46e30492cc1514b617f5c504a3e8696fb9bacad994bba60db019a8b11d820",
+      "translation": "F. 인도네시아 부대에 대한 무기사용규칙(WRA)은 사격 보류이다. 자위 목적일 때만 사격한다. 인도네시아 측이 먼저 적대행위를 시작하면 확인된 적에 한해 사격하는 상태로 전환한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "da0d6a5cdc09dd7895bbee262aeff546f2e925212cfc674d799b7d15d3dcf51c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2764bd692c75537454f0b99f3de317571c109263f7ef63e4622d932da61635b1",
+      "translation": "교전규칙: 확인된 적에 한해 사격한다. 단, 선박 승선 작전 및 하마스를 상대로 하는 작전은 예외이다. 공격을 받으면 대응사격할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "4f644d58ce8adce415119e2ae88050707c16318175765a92754e8b5d68e0239a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "79db0831f42681f6adc86b9427dc3b420f89bfba1b4989fbf30b61614869a9dc",
+      "translation": "수상 접촉은 확인된 적에 한해 사격하고, 공중 접촉에는 자유 사격을 적용한다. 발트해는 비행 및 항행 금지구역으로 선포되었다. 민간 항공기는 없을 것으로 예상되지만, 선박은 여전히 해역에 남아 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "03573c3e9804e8cb79046ce73c17e2bf6ce5531cf1fba37bc4a0781dd728b3d8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cc3053db98bd86b6e2ec66b2bab6c42be59531ab763f28c4d6f3ac95b87371fd",
+      "translation": "어떤 대가를 치르더라도 쿠바의 타격 능력을 무력화해야 한다. 쿠바는 관타나모만을 공격하지 않았으며, 우리는 이를 우호적인 의사 표시로 보고 있다. 우리가 쿠바의 지상 목표를 공격하지 않으면 쿠바도 우리 기지를 점령하지 않을 것이다. 어떠한 경우에도 쿠바의 공군기지나 지대공미사일 진지를 공격해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-393.tsv",
+      "previous_translation_sha256": "959978403051a97dcd5662a851cdc1f304327336392b46e408d8cc93a9a58655"
     }
   ],
   "whole_db_paragraphs": [
