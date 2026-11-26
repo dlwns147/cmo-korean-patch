@@ -49,16 +49,16 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 8991,
+    "reviewed_source_entries": 8992,
     "review_outcomes": {
-      "modified": 7609,
+      "modified": 7610,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7626,
-      "db_files": 3965,
-      "db_paragraphs": 7435
+      "scenario-ko.b64.tsv": 7627,
+      "db_files": 3969,
+      "db_paragraphs": 7448
     },
     "source_recovery": {
       "matched": {
@@ -70,7 +70,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9003,
+      "runtime_first_lookup_passed": 9004,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -83,7 +83,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 24,
+    "additional_whole_db_paragraph_reviews": 29,
     "supplemental_source_entries": 12,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -91,12 +91,12 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 697,
-      "pending_locations": 697,
-      "covered_associations": 2131,
+      "unique_pending_whole_paragraphs": 691,
+      "pending_locations": 691,
+      "covered_associations": 2138,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 172
+    "whole_db_paragraph_applications": 182
   }
 }
