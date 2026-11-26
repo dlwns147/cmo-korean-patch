@@ -59,14 +59,14 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 | 항목 | 현재 검증 결과 |
 |---|---:|
 | 기존 UI·시나리오 사전 항목 | 64,976 |
-| 원문을 직접 읽고 검수한 기존 사전 항목 | 8,976 |
-| 번역 수정 / 기존 번역 유지 | 7,594 / 1,382 |
-| 이번 직접 검수에서 아직 다루지 않은 기존 사전 항목 | 56,000 |
+| 원문을 직접 읽고 검수한 기존 사전 항목 | 8,980 |
+| 번역 수정 / 기존 번역 유지 | 7,598 / 1,382 |
+| 이번 직접 검수에서 아직 다루지 않은 기존 사전 항목 | 55,996 |
 | 기존 사전에 없던 원문 보충 | 12 |
-| 실제 DLL 번역 조회 검사 | 8,988건 통과 |
+| 실제 DLL 번역 조회 검사 | 8,992건 통과 |
 | HTML 문맥 변환 검사 | 136건 통과 |
 
-별도로 DB 전체 원문 16개 문단을 검수하고, 문단 해시가 일치하는 162개 위치에 적용했다. 위 사전 항목과 중복될 수 있어 합산하지 않는다. 지도 지명, 미복구 원문, 시나리오의 추가 메시지·첨부 문서도 전체 검수 범위에 남아 있다. 사전 검수 비율이 프로젝트 전체 완료율을 뜻하지는 않는다.
+별도로 DB 전체 원문 18개 문단을 검수하고, 문단 해시가 일치하는 164개 위치에 적용했다. 위 사전 항목과 중복될 수 있어 합산하지 않는다. 지도 지명, 미복구 원문, 시나리오의 추가 메시지·첨부 문서도 전체 검수 범위에 남아 있다. 사전 검수 비율이 프로젝트 전체 완료율을 뜻하지는 않는다.
 
 현재 교정은 별도 번역 모델을 호출하지 않고 Codex가 로컬 게임 원문과 문맥을 읽어 직접 작성한다. 기존 기계번역 초안이 아직 남아 있으며, 초안에 사용한 모델은 아래 출처 표에 기록했다. 설명·브리핑의 문체는 **다체(~한다/~이다)**로 통일하며, 이미 검수한 문장에도 소급 적용 중이다. 어미만 자동으로 치환하지 않고 가능·허가·의무·금지를 구분해 수정한다. UI 이름은 자연스러운 명사형을 사용한다. 문체 재검수는 아직 완료되지 않았다.
 
@@ -143,9 +143,9 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 
 ### Translation review status — 2026-11-26
 
-**Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 8,976 of 64,976 existing UI/scenario dictionary entries: 7,594 revised and 1,382 retained. Another 56,000 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
+**Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 8,980 of 64,976 existing UI/scenario dictionary entries: 7,598 revised and 1,382 retained. Another 55,996 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
 
-There are 12 supplemental source entries and 16 separately reviewed whole DB paragraphs applied at 162 source-hash-matching locations. The DB count can overlap dictionary reviews. All 8,988 runtime lookup cases and 136 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
+There are 12 supplemental source entries and 18 separately reviewed whole DB paragraphs applied at 164 source-hash-matching locations. The DB count can overlap dictionary reviews. All 8,992 runtime lookup cases and 136 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
 
 Current revisions are written directly by Codex against local originals, without calling a separate translation model. Earlier machine-translated drafts remain. Explanatory and briefing prose is being standardized to plain declarative Korean (~한다/~이다), including previously reviewed entries. Rewrites preserve permission, obligation and prohibition; endings are not replaced automatically. Short UI labels use natural noun phrases. This style pass is incomplete. English originals are used locally and are not distributed. See [the direct-review ledger](reviews/2026-11-26-direct-review.json) and [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json).
 
@@ -172,4 +172,4 @@ Contact: **lsj000777@naver.com** · GitHub: **dlwns147**
 
 ### DB 전체 문단 추가 점검
 
-기존 검수 사전 항목과 연결된 DB 원문을 문단 단위로 다시 확인하고 있다. 전체 문단 검수가 필요한 후보는 707개이며, 원문 연결을 추가 확인할 항목은 2개다. 짧은 제목·명칭도 후보에 포함될 수 있다. 이 수치는 DB 전체의 잔여량이 아니며, 사전 잔여 항목과 겹칠 수 있어 합산하지 않는다. 사전의 짧은 조각을 검수했어도 DB 전체 문단이 자동으로 교정되는 것은 아니다. 전체 원문 해시와 문단 구조를 대조해 직접 보완한다.
+기존 검수 사전 항목과 연결된 DB 원문을 문단 단위로 다시 확인하고 있다. 전체 문단 검수가 필요한 후보는 701개이며, 원문 연결을 추가 확인할 항목은 2개다. 짧은 제목·명칭도 후보에 포함될 수 있다. 이 수치는 DB 전체의 잔여량이 아니며, 사전 잔여 항목과 겹칠 수 있어 합산하지 않는다. 사전의 짧은 조각을 검수했어도 DB 전체 문단이 자동으로 교정되는 것은 아니다. 전체 원문 해시와 문단 구조를 대조해 직접 보완한다.

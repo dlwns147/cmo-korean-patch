@@ -2,16 +2,16 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 8976,
+    "reviewed_source_entries": 8980,
     "review_outcomes": {
-      "modified": 7594,
+      "modified": 7598,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7611,
-      "db_files": 3961,
-      "db_paragraphs": 7393
+      "scenario-ko.b64.tsv": 7615,
+      "db_files": 3962,
+      "db_paragraphs": 7419
     },
     "source_recovery": {
       "matched": {
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 8988,
+      "runtime_first_lookup_passed": 8992,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 16,
+    "additional_whole_db_paragraph_reviews": 18,
     "supplemental_source_entries": 12,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -44,13 +44,13 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 707,
-      "pending_locations": 707,
-      "covered_associations": 2110,
+      "unique_pending_whole_paragraphs": 701,
+      "pending_locations": 701,
+      "covered_associations": 2120,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 162
+    "whole_db_paragraph_applications": 164
   },
   "entries": [
     {
@@ -71860,6 +71860,38 @@
       "review": "direct-source-review",
       "batch": "revisions-388.tsv",
       "previous_translation_sha256": "19b8c4fcd8a77f5bf2c83cce921ba28f8c3589e0504a662df628a458eb285ced"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bc9e35d4abbf4ff451225ed7f56e37e2d3ea1a002a3424d201b3572f5baa987c",
+      "translation": "중국 해군은 1970년대에 노후 호위함을 다수 퇴역시켰으며, 제701연구소는 이를 대체할 053H형을 개발했다. H는 대함 임무를 나타내는 Hai를 뜻한다. 초기 설계는 3연장 상자형 발사대 2기에 SY-1 대함미사일 6발을 탑재하고 100mm 함포 1문을 장비했다. NATO는 053H형에 장후 I이라는 식별명을 부여했다. 초도함은 후둥 조선소에서 건조되어 1970년대 중반 취역했다. 최소 12척이 건조되어 중국 해군 동해함대에 배치되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-389.tsv",
+      "previous_translation_sha256": "e896334d1fd8cfa9d2be0b5999f6379b48dc3b9b1a728924faad90979e5f4408"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a5b998862cc28493b6978a394d07f707ce36e0d2dd6ea6c2c44555870ced35a4",
+      "translation": "엔터프라이즈는 동급 함정이 없는 단독 함급이며, 원문 작성 당시 목조 선체의 컨스티튜션함과 푸에블로함에 이어 미 해군에서 세 번째로 오래된 현역 함정이었다. 원래는 원자로 수명과 후속함 제럴드 R. 포드의 완성 시점에 따라 2014년 또는 2015년에 퇴역할 예정이었다. 그러나 2010회계연도 국방수권법은 퇴역 시점을 2013년으로 정했다. 그때까지 연속 51년을 복무하게 되며, 이는 다른 어떤 미국 항공모함보다 긴 기간이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-389.tsv",
+      "previous_translation_sha256": "14c6eb7fd663c9a881f4380fdc66fd5bc8547435e87b5b967f9b41682d5dc0e5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a6d9824e78ef15be30eaebaa21d186695b44339eb2f50e67599df54f5c469a91",
+      "translation": "PAC-3 미사일은 접근하는 탄도미사일의 탄두 부분을 골라 조준·추적할 만큼 정확한 것으로 알려져 있다. 그러나 탄도미사일 방어 능력의 향상과 달리, 대기권 내 항공기와 공대지 미사일을 요격하는 능력은 낮다. 기존 패트리엇 미사일보다 느리고 사거리가 짧으며 폭발 탄두도 작다. 경사 발사 방식 때문에 바로 위쪽에 작은 사각이 있으며, 주로 정면에서 접근하는 위협을 요격하는 데 사용한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-389.tsv",
+      "previous_translation_sha256": "9274afa29a59be0590dea1962bacdcdf958c15c021617c88f25262b54e9f9680"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c36269d07c6ef8e0109878755627fd658e12792b78e70edd5a675ecb907d17d7",
+      "translation": "세부 사항: 지라프는 주파수 가변 저·중고도 펄스 도플러 대공탐색 레이더이자 전투통제체계로, 이동식 또는 고정식 단·중거리 방공에 사용할 수 있다. 심한 클러터와 전자방해 환경에서 저고도로 비행하는 레이더반사면적이 작은 항공기를 탐지하도록 설계되었다. 방공지휘소로 구성하면 휴대형 무전기를 통해 각 사격 포대에 공중상황 정보를 제공한다. 보통 길이 6m의 단일 쉘터에 수용하고 전지형 차량에 탑재해 높은 기동성을 확보한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-389.tsv",
+      "previous_translation_sha256": "86ae672996802a3c5846ccab65a15cdc822b68321fcc281bcbe488c579bcdbb6"
     }
   ],
   "whole_db_paragraphs": [
@@ -73284,6 +73316,24 @@
       "previous_translation_sha256": "4e79f782bbe80cd3e1769d6ee47b2d9d958601001baf8d1e7e3660897ee1b63c",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_2422.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2959.txt",
+      "paragraph_index": 1,
+      "source_sha256": "128b92eab3983b9dbee89c0e38d58061c7773e9cf99f478688f8af2ef940c692",
+      "translation": "세부 사항: AN/ALE-55는 기내 무선주파수 대응장비와 고속 광섬유 링크로 작동하는 견인식 기만체를 결합한 통합 자위체계의 일부다. 항공기 기내 체계에서 위협 신호를 받아 기만·잡음 방해 신호를 송출함으로써 적 레이더와 미사일 탐색기를 혼란시키며, 기체 바깥에서 전자방해를 수행한다. 종말 단계에 능동 레이더 유도를 사용하는 미사일을 비롯해 현대적인 모노펄스 레이더 유도 위협에 대응하도록 최적화되었다. ALE-55는 기동성이 높고 대형 전자대응 포드를 장착할 공간이 부족한 항공기를 위해 개발되었다.",
+      "previous_translation_sha256": "ee7427a1ee49511db69fc19a34a6860889cb23c0c2b3975375987e6a65624b1d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2959.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_3904.txt",
+      "paragraph_index": 1,
+      "source_sha256": "8c5dc21b2592b66c90538b6fce979484f29eb1e3d9dbeb878d0aeba222f5fae9",
+      "translation": "세부 사항: ‘형(Type)’은 일본의 공식 제식명 표기이며, 개발사업명은 G-RX6였다. 이전 89식보다 수중 타격 능력을 높이기 위해 도입되어 추진·유도 성능과 기만 대응 능력을 개선했다. 오토 연료 II 단일추진제와 펌프제트 추진방식을 사용하며, 유선유도와 능동·수동 음향유도를 결합하고 고급 표적 인식, 자기장 감지, 기만체 식별 기능을 갖춘다. 18식은 크기와 구성이 89식과 매우 비슷하지만 이러한 차세대 센서·유도 기술이 추가되었다.",
+      "previous_translation_sha256": "0d23eeb93e20c291ea45f31db7e10e80cc4246314eb262ba100afd5f675de3da",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3904.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_473.txt",
