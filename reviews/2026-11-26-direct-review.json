@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 11504,
+    "reviewed_source_entries": 11545,
     "review_outcomes": {
-      "modified": 10097,
+      "modified": 10138,
       "retained": 1407
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 10072,
+      "scenario-ko.b64.tsv": 10113,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 11522,
+      "runtime_first_lookup_passed": 11563,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 211
+      "html_context_lookup_passed": 216
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -92094,6 +92094,334 @@
       "review": "direct-source-review",
       "batch": "revisions-541.tsv",
       "previous_translation_sha256": "e7970b57ec6b0909f6f65022481392cae185690b050126d9da244c990def20e8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3114fbf70dee985cfe53093a48ee7ff65c9266620186a52040a7404b0423fd8d",
+      "translation": "잠수함은 기준점에서 1.5해리 이내에 있어야 한다. 회수하려는 SEAL 팀은",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "6fe0526d2b303ee9ff150d3dd90d1b42560e45f2d31687de2104f6476debe25d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d9a61236c20eee0ffab5b696582602eb845babae0b0ac66d8dbec0036e65922c",
+      "translation": "기준점에서 300m 이내에 있어야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "0952bfc3b1a18055a429348603144d2288f7a9d6934a42c0799ed387a979098b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f82c9110a41f6ee26d0c2a424e7b0a246dc4d94c4dd0cce2e2c42a073ca5bba2",
+      "translation": "이투루프",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "83f9b2c78980dfdbfecf6e561fa95cbfe7f3488d897f330faa02ed7b715c5f0b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1e754eb56d3460dde693f16b9599d7514d46dcf41f269ab29259e44789267620",
+      "translation": "이투루프에서 작전하는 헬리콥터를 지원하기 위해 전진 거점을 설치 중이다. 폐기된 기지를 활용하며, 위치는",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "0d8a4c293903819a6279da21e2270352da0b076e49082fa94fb4c8678ea56981"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f01eb0ab3fe93bda621fd8e9bab954ecd50a0bfba90340ac12c679ebcbd4803e",
+      "translation": "유즈노쿠릴스크다.",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "5926101b3774680eb075b70aaab862543a90dfe2a819ee255bec7ec9eee373f8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7c72fae2823927dc00192b37ed37c45d3fcccd59a7613e73ecffb606a73947a1",
+      "translation": "일본에서 불과 20마일 떨어져 있으므로 신중해야 한다. 우리 급유선인",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "f3cef5112bc5c2be8bb6e06ffa36c6d36f40ba480a4e4c77b2bf096989b49431"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ca08175e8dbf0062ce5dbf20124f4d3c26a3c4750311b57e4cd12e934418e484",
+      "translation": "VY 예고를리크",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "b97d9af4691e599969881ff5f94955d9b6b1620e94f5f898b375c46f8b40ed45"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cd3a456cda46357498f5ac8ee56d0dbd2374503b407c22a8583cf1721ae40521",
+      "translation": "는 민간 급수선으로 위장하고 있으며, 내일 이른 아침에 하역할 예정이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "43a3e15fbe76dd24fa0981a142de86e8b52873e2e8ab77f212ae23a6886a2a55"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a096352b2bbc675f6e62d2f341ea33b3246e54eb1f4084810299b93e1f9ee54d",
+      "translation": "1단계(항공작전):",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "26eb9ca47bc4488ee50fa5e1393988f1a66a79722c228b3df5cdbb68108204b2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "126e3c6506107ae4f41d6efad748268e755f6ce2b33fea1671b9b52ddcc0f4fa",
+      "translation": "속력이 빠른 헬리콥터인 시드래곤과 MH-60S를 먼저 보내 긴급 소해를 실시하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "6af826cfada60c185c91e17754e2dc866c2bc6a44560160aefa6e05e67baf491"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "95cf4e854449b053c601baea3f456e125659fa78b3625853137f5a829f0c8623",
+      "translation": "2단계(접근):",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "eeb390e9e2b9e84dada406eb2a4228c2017af22200ee15c98fc426ce185284bc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "35d37784f30b60c50747d12c82dfda16df736a8141c5a490b19f521a789ef545",
+      "translation": "무인수상정(USV)과 무인잠수정(UUV)은 속력이 느려 80마일을 직접 이동하기 어렵다. 다음 두 함정을 이동시켜야 한다:",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "8215d7d431f1fab3bb708af9f40bfa5f734d98da0f3b7c3d62ea552dcc1092b3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "357b444c9baeb28c9bf18ba2745a04d770b45a02f664d0f513473f63e8dba726",
+      "translation": "USS 풀러",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "ae73a6710fb378d203a365ba573c698f3084fbafa091d638f16710a41783a333"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6d0ff7a1aaf08e4893736b79628aaa5df7e45cc718001168a7bbcd3b8e00b8ad",
+      "translation": "LCS 프리덤",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "a4c2322015757039aa2ed1047da3fc958305f3c0851178006d5d9c0d2587281f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "db51b3c0715dd3da9ded7b0f706996217178217a8640943bc33cbf814c2ed34f",
+      "translation": "3단계(무인 전력 투입):",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "d3128f95421dd4ea9b4b4bdd3e882e1acb7a6ab1b20a696153ae7a4117584984"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9742a03cd2571860965061a1870881067f9ece904575be2cae619367a921f1a5",
+      "translation": "위치에 도착하면 UUV와 USV를 투입해 상선단이 통과할 항로의 안전성을 통계적으로 확보하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "d488c31776dff27e24ac7a74a900ef6ccb1bb4419d345574e51630e953312d3d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "14708a087fc7e6ab25d999b32318fed34e449eb801750315afbea9c80b78e49f",
+      "translation": "3. 수송선단 호위(피해 없음)",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "5cc27533a85e769b6cc8e24746bb636f3b12c6a2fa387b668ea4aabd62cd54d6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "da917a852e2dc6b31b2ee61bd6e299d42760fbba686890c5f045bd40a2aed584",
+      "translation": "이 시나리오의 설정대로라면 연료를 한 번 보충한 뒤 급유기를 앞질러 목적지로 계속 비행할 수 있다. 급유기를 미리 출격시키지 않았다면 처음부터 소량의 급유를 여러 번 반복할 것이다. F-16이 목적지까지 갈 연료가 있다고 표시되는데도 급유기를 앞질렀다가 다시 돌아와 급유받는 모습을 볼 수도 있다. 시뮬레이션이 예비 연료까지 확보하려 하기 때문이며, 이는 합리적인 행동이다. 다만 1.11 버전에는 수유기 측에서 이런 행동을 조절할 수 있는 옵션이 추가되었다. 이에 대해서는 나중에 설명한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "403e6c3a8d4d3dbb99c5cf7600a710f25b7e354409096251a861f8204ae82abb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f0da58f5e22705f5386bec311254afa58c6074e14d14fa38e258aebe236c96a3",
+      "translation": "몇 분 뒤 다음 과제를 안내하겠다.",
+      "review": "direct-source-review",
+      "batch": "revisions-542.tsv",
+      "previous_translation_sha256": "1dca1d33503a65b84e8541f80eb1820e7609c4454146d8313420d3173ed6f39e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bddb3d185ddd78a87508fabdbcc7220ddc4cc04886c787d2ece139149d561ea1",
+      "translation": "헤타페에서 활동 중인 반군의 위치를 파악하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "028ea373ea5b3aaac15dad63b291643c9fac4fadcfe22bd500408f292ebf93b7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a684757cb1209530e83b9253670b915b6b6e4801cad9c151231d3326f446a87c",
+      "translation": "헬리콥터와 특수작전정을 이용해 SEAL 팀을 집결 지점으로 보내라. 좌표는 10",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "b0b23e9aa2c3207922043bb4ad7c94ec8c5815e2f935d5bcbe3d0a1acaebc238"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "81b309082e96f2242e558b0c8c83ad855510b379de77693c9fc963a3376c63be",
+      "translation": "이며, 전술 지도에 표시되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "e6f78f2f1ed7c78e62316fb94030486f52f43e183ba17963027aa3d20050e373"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8ab269475e2fa6c3b57e0edeb31994e036f6e40448cc89e1058b1a5466e9a8a5",
+      "translation": "제6연대 제1대대(1/6)의",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "ec0fd4f0bcd8b5d2f7864d1740a7b3654305b03f08aeefe87d0da9f1f8e18089"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3c7ae263e8ab953b2c8bb9992169ddcd99b0b89d39d1fc281f3fe766ca2f8fd4",
+      "translation": "사상자 집결지(CCP)에서 사상자를 후송하라. 집결지에 더 이상 사상자가 없다는 통보를 받을 때까지 계속한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "28d54b94784d5394c430d11978a15554132dcd91fcbdaf2f1b49172533b07756"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "aef9bb47ef1e27f1738b5f84dcf451f1f2f8f47c154bfd74adbf86e49414aed1",
+      "translation": "이 임무에는 'Fleet Angels'의 SH-3를 사용하라(통보가 있을 때까지 반복 가능).",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "79d6c51ec2f7e372cde7c318969043ff1ff9ef59f168110c9fcbfb2ee8cfd215"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7ac6b1eb32ffc6bdf78d1d9eee734f58e4d5dde246b94f04a892bd127f0358c6",
+      "translation": "두 상륙전단이 도달해야 하는 잠긴 기준점의 명칭 범위는 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "7e7aedfd11cd51da97a8b99aed19e4cef825059cdce4a47e99d413778ffa7309"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0ef047dd484c6c3b6752c213f10c2dfadf82ad319f57499277dd7618e7ffb363",
+      "translation": "VP Area 1",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "5f8e0205fc2c989dc359061a69dd884a67ba94b973fde2bfd49b6745a5c52336"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9c6725dc269a48ce4b5bc78b580ccab2efbe6f3ccae64b1d44839f0cebd92fbe",
+      "translation": " ~ ",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "5317ddf8f9e359c8ca527623c18f65e837e80804c64a297393efd8f3eb34ac92"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "15aed385dd8d6c3d4d60fe2eac17ab8cbef41c2138efb54d4e6e5784acf9e240",
+      "translation": "VP Area 14",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "730d15933b39410323f517d23cc27239dc2f307da5a2c133f9402e888ffe2e37"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "448b4b9e73405dd599df7cb2e0158dc76a4cff52c1dd15b8ded39981f6a10050",
+      "translation": "상륙전단이 도달해야 하는 기준점의 명칭 범위는 다음과 같다: “",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "feac87d32783c00cccc762506725c1d188f9c056d92040f377775cd1af8b5e9d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a1781db4453bb816354ba19c3fd10246340c5264fb2e42a41f2167aa628c97d2",
+      "translation": "1” ~ “",
+      "review": "direct-source-review",
+      "batch": "revisions-543.tsv",
+      "previous_translation_sha256": "487dbfe1ed84dbbb746fd7b27fe8f9d555a94453a0103f1a576240ea0cf40a20"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "188d4f2a7d5509e5f8617d85d07e9483fd2473a54df7c4a2b2c0fbe722ffdd45",
+      "translation": "0'E(지도에 'POINT TROLL'로 표시).",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "4728a1a417a887315acd5eedec8ed110b8afa9bae042227f6c090b95b38e4b9d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e07a1670cca9cd465a50b418d909f34284256cb1939e1bbc6f6dff84bfa54e8a",
+      "translation": "A. 카탄파와 투르바를 초계 구역으로 보내는 것을 권장한다. 두 함정은 러시아 지원선을 저지하고 선장과 승조원을 체포하는 주임무를 맡는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "f2ca4a6c772ce7e47ab5e9c6b7e4670e4671551554b40a749470966cef4d83db"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c82f9293a579be53eb03f1215d94fcd567096bea5a7e1847626eb42884508b48",
+      "translation": "C. 러시아 지원선의 선장을 따르게 하려면 해당 선박 옆에 바짝 접근해야 할 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "9aaea8b01ca7e4af4077a98f97ac05c5d06539cd442525f7be01fd7f9860e404"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "938b3ef5025aa6683f57631e29168e7a2b950bf2654adbb1948771cda9ebcf14",
+      "translation": "지난 한 달간 공중기동작전에 거듭 투입된 제36",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "7916e010dcd85a91768877adeff8b7a1be500d323baf6998cd4dde240fc71f0a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "93bb75fed70675fa06fcb422a2b4ecea490f72f4c464b7cb9dde07c6f37bd909",
+      "translation": "공중강습여단은 전력이 소모된 상태다. 어젯밤 진격에 제45차량화소총연대 제3대대(3/45 MRR)가 투입되었고 아군 항공활동도 활발하다는 점을 볼 때, 적이 공중기동작전에 나설 가능성은 낮다. 소련의 표준 행군 교리에 따라 이동할 것으로 평가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "868d18659803c8e1efc276b8ca52e2b6bcd3671da72eab03d00a1963c429ffb6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "218e4a8e5f7358e9553b3430250f193275d93181042ea7cd29318d2d224667f2",
+      "translation": "상륙함(LST)의 안전한 통과와 제10해병연대 제2대대(2/10 Marines)의 안전한 포진지 확보를 위해서는 본토와 두 섬인 안되르야(ANDØRJA)·롤라(ROLLA)를 잇는 주요 연결 지점을 점령하는 것이 핵심이다(",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "c3f8e08da64fca316e41191fa74eef0c1eb7ac1c146760f24b5877102665831e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "69e13ce2c3598b860ac1ae6e3ba3129b84c78420a00d661928b4b03ada92aac3",
+      "translation": "참고: 1994년에는 두 섬을 잇는 다리가 없었다",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "697b4dfd169e1cf7d4f0fca54e63546eee6aa2c1a8b9fe1760fe160b7b2c5992"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fc8c4325d16a909fc8b0201e8df6a3de8f703e3a74253becf200943b9d188db5",
+      "translation": "). 이후 소형정으로 상륙한 보병은 텐네볼(TENNEVOLL)과 셰베이안(SJØVEGAN)의 상륙 지점을 확보해야 한다. 그러면 LST가 해안에 접안해 전차와 LAV를 하역할 수 있다. (",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "559e46790d4363607885d324fb6ad03b401737fe9fa08443c37d4e0d13b53b9a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "14cd75189a3c5337c526b9dbcd6139d0223787b1f37186070487989792c1dfc4",
+      "translation": "참고: 전차와 LAV를 하역할 때 기능이 이상하게 작동하는 것처럼 보일 수 있지만, 하역 자체는 이루어지므로 그대로 진행하면 된다",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "0ba5cd50071f74905db09ad2075113aa349bd9a1d5c6766b3a27634b3da6eca8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c82910f1e3b8ae1ef984251d7e46c97910e298e453c8ed0a7466e628fa03e7bc",
+      "translation": "). 동시에 측면을 확보하기 위해 제6해병연대 제1대대 C중대를 토비크(TOVIK)에, 대대본부를 노르드시베이엔(NORDSIVEIEN)에 상륙시켜야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-544.tsv",
+      "previous_translation_sha256": "0d3c9f642ef7c33c229acc5b338be4f77fb268229f02b5e71aaa2b0bf8ab43ea"
     }
   ],
   "whole_db_paragraphs": [
