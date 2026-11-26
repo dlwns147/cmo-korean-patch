@@ -2,16 +2,16 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9908,
+    "reviewed_source_entries": 9949,
     "review_outcomes": {
-      "modified": 8513,
+      "modified": 8554,
       "retained": 1395
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8526,
-      "db_files": 4321,
-      "db_paragraphs": 8722
+      "scenario-ko.b64.tsv": 8567,
+      "db_files": 4324,
+      "db_paragraphs": 8739
     },
     "source_recovery": {
       "matched": {
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9926,
+      "runtime_first_lookup_passed": 9967,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 186
+      "html_context_lookup_passed": 187
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 491,
+    "additional_whole_db_paragraph_reviews": 503,
     "supplemental_source_entries": 18,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -44,19 +44,19 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 229,
-      "pending_locations": 229,
-      "covered_associations": 2634,
+      "unique_pending_whole_paragraphs": 217,
+      "pending_locations": 217,
+      "covered_associations": 2648,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 1451,
+    "whole_db_paragraph_applications": 1468,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
       "effort": "medium",
-      "accepted_batches": 16,
-      "accepted_whole_paragraphs": 452,
+      "accepted_batches": 17,
+      "accepted_whole_paragraphs": 464,
       "acceptance": "Every full source and target directly compared before applying; automated checks are supplemental",
       "accepted_scenario_batches": 1,
       "accepted_scenario_paragraphs": 7
@@ -79326,6 +79326,334 @@
       "review": "direct-source-review",
       "batch": "revisions-470.tsv",
       "previous_translation_sha256": "33aebdcdf75463af3d21655327fa454e1c47bca543eae973e5c867d0917ce64d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e30e0b18a92e75f922fff52bbf8e27469a02bc5baeae450e0a84e09db5f856eb",
+      "translation": "항공기 손상 기능이 활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "8a63ff40997e6ecbc5be5f5aa9762c6c72baa4d49fc8a4adb6b054025dbb1506"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fff03ac888182f5b84d22450d062200d201a6ef1003425f5ad3c3134b06e79f4",
+      "translation": "전략공군사령부 대 소련",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "2dc6ba524bb087c07b18ce975e259301074aba016a5b74e01a83e876110a2329"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d93e99aade2a1d6bf3874260f2c64f5182d668cf6c2c170895ac87df26e8cfed",
+      "translation": "귀관이 지휘하는 부대는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "1fc3ecb510a42778963e9389217fe188c4038ff500f6e912a69dae426fa87af3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7c35fe2fd240cee33e24fc228ee7a4171329be1f0bee23b50c09604d7c6d0d4b",
+      "translation": "전략공군사령부 제308폭격비행단",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "4a693c5c150e3185e9242e90562ac3f1d5db67668145cffaa1de095da9e9796e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b881ccc3b6250fd621d82f1d329a8427d1699794f2f628110b8c3afa5e9c3b54",
+      "translation": "이다. 이 부대는 B-47E 중형폭격기를 운용하며, 평시에는 조지아주 서배너 외곽의 헌터 공군기지(AFB)에 주둔한다. 귀관은 현재 프랑스령 모로코의 시디 슬리마네 공군기지에 임시 파견된 REFLEX 작전 지휘관이기도 하다. 전쟁이 발발하면 다음 ",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "08bacf962cb4496dd6c790f5275f02e32ae6adaf3e14477ee5292c156c8f6a3e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2a80799da5c5584b19e7cfe84dc383a1cda18702e65a3b03b76b100d57c7428d",
+      "translation": " 전진기지에서 소련에 대한 핵공격을 지휘할 책임을 맡는다: 귀 비행단 일부가 주둔한 시디 슬리마네, 벤 게리르 공군기지(",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "3baacfb1e7550c2cfbc564b85c081e4f91b5430e75a39c27b16c6ce904faca3d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6c14af9ddd8ba4a52f682a93f79dbe06257ed9761257ab984bbbd85714fa6898",
+      "translation": "제19폭격비행단",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "94365dae739eaf929fbcb40c2e334db052a47f218764e3b345b6b7301cda6feb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1e7eae46a449963f9b35e746068930cad9540ead1704265a09321c3775aec5ec",
+      "translation": ", B-47 운용), 누아쇠르 공군기지(",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "04f22ab907840559fb32bc15c8f02ba0f0757f5004a14581f3e67dd66437a1f0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "708fcd109f53f441a7d3aec925693f0e0eb89263bd560dfba5f1fbb552285621",
+      "translation": "제72폭격비행단",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "6deeff056ed397594e0fcd76adc5b7e5a7c31d3be9f39b543b80811db16fe7e1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "29209f5685dd32c499aed2798157de68e3d37ffb0cb616f2aeb9aae01f66fa40",
+      "translation": ", B-36 운용). 귀관은 원래 지휘하던 전력에 더해 이들 폭격비행단의 REFLEX 파견 전력도 지휘한다. 미국 본토의 비행단장들은 폭격기의 준비가 끝나는 대로 본토 기지에서 귀관의 지휘하에 배속할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-471.tsv",
+      "previous_translation_sha256": "d413f97c7fd7a86adf19a9bbc1c5552161e47d32fae87e38c4824f64a6405c23"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b5b6f34830efeb665f26ac77e6bea97d4e92bd33ff6a963f2789fd3af7d7c1fb",
+      "translation": "F-16 편대를 선택하라. 편대 보기인지 먼저 확인하라. PageUp 키로 편대 보기와 개별 유닛 보기를 전환할 수 있다. 유닛 명령(Unit Orders)에서 급유(가능한 경우)(Refuel (if possible))를 선택한 뒤, 급유기 자동 선택(Select tanker automatically)을 클릭하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-472.tsv",
+      "previous_translation_sha256": "f01e70b632154f6fe5d4fec830e2ac8127b4f7789c96f1dadc6e3dfae9f74a1f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "398e310b9de74a80169ae56c52fadbb1bf8d1565fdd2f71c9471aaf9cb4dd0dd",
+      "translation": "제작자 주: 코미소에 있는 AC-130 건십 2대는 회송(ferry) 무장 구성으로 설정되어 있다. 이 구성에서도 무장은 그대로 탑재하므로 정상적으로 사용할 수 있다. 시나리오 제작 당시 건십(gunship) 무장 구성이 제대로 작동하지 않아 이렇게 설정했다. 또한 항공전력의 손실이 지나치게 크면 임무에서 패배할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-472.tsv",
+      "previous_translation_sha256": "eee0e721f1e1ee01c7844a6437e78ad793544fe24fc101198d17a6d14642e980"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b883f294250333eda4e351f95d6a6da194babaa702b4ebdce9ff086a0577ec03",
+      "translation": "안타깝지만 Killer #3의 기대를 저버려야 한다. 급유 붐에 연결된 항공기가 없는지 확인하라. 정상이라면 없어야 한다. 그런 다음 Quid #69를 선택하고 B 키를 눌러 기지 복귀(RTB)를 명령하라. Killer #3는 자신에게 공급할 연료가 없다는 것을 파악하고 원래 임무로 돌아간다. 아직 예비 연료가 조금 남아 있기 때문이다. 하지만 곧 복귀 한계 연료에 도달해 RTB 빙고 상태로 전환하고 기지로 돌아가는 모습을 볼 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-472.tsv",
+      "previous_translation_sha256": "e39d298491fc2b6dedfdf4e722be09ca9ea41deadd929f0b119d905b3bd8ca3d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "62beae933cd0c3c7146ba5c1db69f9f22cca5f836866e16f717bdf3e96181051",
+      "translation": "소련이 먼저 사용하지 않는 한 특수무기 사용은 허가되지 않는다. 반복한다. 소련이 먼저 사용하지 않는 한 특수무기 사용은 허가되지 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-472.tsv",
+      "previous_translation_sha256": "69565fa48d17df1a791c8f92df9d4d191f19294a092e5e5e60fb0e2040eef9b0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9c97ed3f3eab422eef4e992a7093106b3f4c592197a856a0ddb5f62dbf4307b6",
+      "translation": "앞서 했던 것처럼 지도에 기준점을 몇 개 배치하고 Ctrl+F11을 눌러 새 임무를 생성하라. 지원(Support)을 선택하고 707 급유기 2대를 배정하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-472.tsv",
+      "previous_translation_sha256": "f38bffef9bf6ef7eb589f7c9893521fcffff3b043e02d07fc3a7167122083db6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "98f84adbd92f80d2d45c1ac1ec4473db7c76cbf4b01691d93bee9373b653f81d",
+      "translation": "아군 초계정을 선택하고 F1을 눌러 자동 공격을 명령한 뒤 해적선을 클릭하라. 초계정은 자동으로 해적선을 향해 이동하며, 무장 사거리 안에 들어오면 교전한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-472.tsv",
+      "previous_translation_sha256": "b884ce4cefafb32b0da5f1e4f7b89623f669028864919d618709beca3991391d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ec03a3ada500d6e256c67c5e0f72e0cc71df00cc83807776fc1db0adb454aa9d",
+      "translation": "해적선을 발견했고 그 정체도 확실히 식별했다. 아군 초계정을 선택하고 F1을 눌러 자동 공격을 명령한 뒤 해적선을 클릭하라. 초계정은 자동으로 해적선을 향해 이동하며, 무장 사거리 안에 들어오면 교전한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-472.tsv",
+      "previous_translation_sha256": "6916554067bd537e3df3d7b7e461fec4ed97ad69241607cac51e9cce71cda89c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "82a8010bc730df9525a7cdd5f6eead4ec9da9413ac914d62eca7c5dc7c19cb9d",
+      "translation": "「Guam Strike」 임무에 배정된 H-6K Badger(무장 구성: KD-20 [CJ-10A])의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "2ab494e657ebecfca9199718bf99e86493391c18c3d4cbd2879baacf825d5d54"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c23ed083ae76d9ae9cc40819ae33c81e7a7c9e60accce243bd4c7313b527e4a",
+      "translation": "「Murted Strike 2」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "06ae2eba04966b3e872b2066f5c86e28c8a6c64db7b4c294a4564e76dc13b7c5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c85d3b19d82228d8a5469942fffce4a459f08e9e47d207489acdb5440f1ae46",
+      "translation": "「Murted Strike 3」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "775e637fbb7d5d5db94c16c45b2d54ce541d9cd046ded70c0b7ce4d1b514d4d2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7057a5a28cab418f9b1fb86e989afa75faecc82f490db25dc504ad6c1d51f995",
+      "translation": "「Murted Strike 1」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "0a7944c6929301b0d9df488dc5ed5a933219fd1f4adbc098f080c302bb60269b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7ad9a6defdd3e073c4b82625d68eab5e583c66bd9cc1ca2f04f63ae4b4104602",
+      "translation": "「A/F HELI Strike if Taken」 임무에 배정된 Z-9WA Haitun(무장 구성: AKD-10)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "1e1469bcda0b3f7f78607f04cea8ff342e8d586074663702824f390e1b574b1a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8fe08c269e2747ba495001f282ded56d630112c462ca6700e7372973d8168bff",
+      "translation": "「Murted Strike 4」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "79c7e9f889925bfe9e39f49530338b2f1cfbe70de1e413f85f0fa775152878f2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b008ceaeb29f3fe4afd06ebe22b1cb97633acb98a4f30659b6e71e853a8fdfc6",
+      "translation": "「Port strike」 임무에 배정된 MiG-21US Mongol B(무장 구성: FAB-250M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "d75d46705ca7b96f6964669e5da163f4292d5f35037766dca0d61547018aa0d3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0beee8fc1fd27351769277ebe455d2f4bc84d4096f4cc9fa7642941225691827",
+      "translation": "「Merzifon Strike 1」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "d0c79f44e1375c9d1a9d1c462ebf8e06bf5274ed6aa95ce0def4011f639d3978"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3778ccc29aa576f310e3c6cdf253268fad7dd506fca479ece72ade91e632fb3b",
+      "translation": "「Merzifon Strike 2」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "0a59c75a495551c6a77bb21bed92a033fa231c4340660268bf319dd21cebaf09"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8b31608c8def2256587172c73f052f04a34745d536d7f55fc41e658c42e2bacf",
+      "translation": "「Merzifon Strike 4」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "b56be39898bc130483ae1596c6f17a1a1daa831cb83ae0fffff6f6660a4bd916"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d44dc7a397e8964bff336d8cf701ee3179b80635dc69f1e841284f587ccc36bb",
+      "translation": "「Merzifon Strike 3」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "a15d2c3c3ddff0ce7c72a612ef5254595d2d6767daabf91988dadf597c075699"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d5811bc40f120371228ce93487a861284343adc87685b6ee10e1d4efbaf8767b",
+      "translation": "「Heavy Strike」 임무에 배정된 Tu-22KD Blinder B(무장 구성: FAB-3000M-46 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "b895fa75a6d147dfa787bbac5328636d1fd21ff6678d9d8ec14161da230f08b4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4eecf323d83a4e7208bb4fdd505af816b14437c3f6acda42b60b29ad9f8c0f84",
+      "translation": "「Bandırma Strike 4」 임무에 배정된 Tu-22KD Blinder B(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "a562e176648663aaa13103931bf034027481775a66b06cd8cf54fe7201301eaa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ae1b655645cf777a07f361a529ef89ca328d84022b73c7a61ddb42a5661bcab1",
+      "translation": "「Bandırma Strike 3」 임무에 배정된 Tu-22KD Blinder B(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "601152b2b8e476d940841c86acbb30bca24ba6a6caf63a4f9badf2079a227a06"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "02e0f1e8360db432ef095e5fef0afc52a4484c308683499f951534e900f334b0",
+      "translation": "「Eskisehir Strike 3」 임무에 배정된 Tu-22KD Blinder B(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "379299816ae0193b0b5220a8d35d9c340bf9779138dc5ddbd58b4ac8aed34de3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ca65243d8a155c0916aba6686e066924866784ff0bdecdff6758ea3f23648dbb",
+      "translation": "「Eskisehir Strike 4」 임무에 배정된 Tu-22KD Blinder B(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "2f76a91b01f58ef7bb3f27658bd823c5dd8c93766446a68a47b6cd9203585edf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "eda93c1aa35ac74babd38608f003ab80a2302c183bb3adaee4773862630dbdf9",
+      "translation": "「Djibouti airport strike」 임무에 배정된 Il-28 Beagle(무장 구성: FAB-500M-54 GPB)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "225f88de4fdbd096c22025accb019a45b09372bf3612b52ea197053fc4d3559c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "24806692578d05991c49aa269abfcaff1e95ca6e0ea0b7fbc7a25b8c4d29792e",
+      "translation": "「Spratly Strike」 임무에 배정된 J-10C Firebird(무장 구성: KD-88 LACM, PL-10, DECM)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "8a65181f748b4aef79fcd54814aa966083c174998f611d9d8853d30f0656dbbe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3d14f3064be613c07ca45f2a8828b7817b9ab91f2540e9767dcd6be72a2cca23",
+      "translation": "「H5 Hawk Strike」 임무에 배정된 MiG-29 Fulcrum A(무장 구성: RBK-250 Cluster Bombs)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "d609d918b482eb317a72ac30f16c6ae868a17310d16752fff42da8972cb4a8c2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "150ee9af7ca49f5a020dd4aefebe73ce70d819dc5335609521ff17bc7794d0f3",
+      "translation": "「SAM Strike 2」 임무에 배정된 MiG-19S Farmer C(무장 구성: FAB-500M-54 GPB, Long-Range)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "f3beac6c14235c61bfcdd48279d980777b2404a3b6e679472c6c16433d2b88ff"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "870a9a09e3bac29e69da39b21d8df201e6c33bfa9163a7e70235902ed692a0b4",
+      "translation": "「SAM Strike 1」 임무에 배정된 MiG-19S Farmer C(무장 구성: FAB-500M-54 GPB, Long-Range)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "a36d524615152a54a92f15ef908db22daf15840bab7a00b4680bfabaf4fc6866"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1122bb4953d64e635153661d99c8ea43601869669823cc6dda522a6b5d3cd77f",
+      "translation": "「Radar Strike 6」 임무에 배정된 MiG-19S Farmer C(무장 구성: FAB-500M-54 GPB, Long-Range)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "019ea3b04e7825adcfb85ae0172ee197a4dfc88438f3829d1379e2b28dd63579"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2e42ae14b9c23dd9eee6b38c7a8fb2cef461f4161549be3d6983be42efbeccf0",
+      "translation": "「Radar Strike 7」 임무에 배정된 MiG-19S Farmer C(무장 구성: FAB-500M-54 GPB, Long-Range)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "21b1ba27a06865bdbc801ae32633af361cab1e69b4c5035a2dbaed7ae8feb2f1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2f94d581cbfe1e6f9a56615c71e84588967b2954295a2ddc144db3408cb3554c",
+      "translation": "「Radar Strike 4」 임무에 배정된 MiG-19S Farmer C(무장 구성: FAB-500M-54 GPB, Long-Range)의 교리 설정은 공중급유(AAR)를 허용한다. 그러나 해당 무장 구성과 비행 프로파일에서 표적까지의 거리가 항공기의 최대 전투행동반경보다 짧다. 따라서 이 비행계획의 모든 경유점에서는 공중급유가 비활성화되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-473.tsv",
+      "previous_translation_sha256": "874e562124e48d8d8269ccf1f4233b8b953effee1af903bfcdb1edd824abdd82"
     }
   ],
   "whole_db_paragraphs": [
@@ -81319,6 +81647,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_1374.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Weapon_723.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f023c3db8398bf55e86b27e8916e79a93a74989b0d23e1cfeb89ea2334459649",
+      "translation": "세부 사항: 월아이 II는 방호가 강화된 표적을 격파하기 위해 이전형 AGM-62A보다 훨씬 큰 탄두를 사용한다. TV 카메라가 들어 있는 기수부, 탄두가 들어 있는 본체, 데이터링크 안테나와 제어부가 들어 있는 후방부의 세 가지 주요 조립체로 구성된다. 무장을 통제하는 항공기는 데이터링크 포드를 탑재했다. 투하된 무장은 표적을 향해 활공한다. AGM-62B는 정확도를 높이기 위해 광학 게이트를 더 작게 만든 개량형 탐색기도 사용한다. AGM-62B는 자이로 안정화 TV 카메라가 표적을 “고정 추적”하면 스스로 표적까지 유도될 수 있어, 투하 항공기가 해당 지역을 이탈할 수 있었다. 또는 필요할 경우 운용자가 수동으로 제어하여 무장을 유도할 수도 있었다. 이 무장의 원형공산오차(CEP)는 4.6~6.1m이다.",
+      "previous_translation_sha256": "fd93fed509fdec819f75bf613371d3138a31e7be6214af9fe9adf76b59146fff",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_723.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Weapon_724.txt",
       "paragraph_index": 1,
       "source_sha256": "bfaf611b94c7b70b9d138a12b0c0d38eec8a21b0e3f8594af44ff8f233852863",
@@ -82071,6 +82408,15 @@
       "source_sha256": "d66285d6f2c4ec77424898d5f34c7479b1bd6d71c7bdad815c90705852e37395",
       "translation": "세부 사항: AV-8B 해리어 II는 금속과 복합재로 제작된 아음속 공격기로, 호커 시들리 해리어의 기본 배치를 유지하며 수평안정판과 뚜렷한 하반각(아래쪽 기울기)을 지닌 견익식 주익을 갖춘다. 롤스로이스 페가수스 터보팬 엔진 1기를 탑재하며, 이 엔진에는 흡입구 2개와 터빈 가까이에 위치한 동기식 추력편향 노즐 4개가 있다. 노즐 중 2개는 엔진 앞쪽의 저온부 근처에, 나머지 2개는 뒤쪽의 고온부 근처에 있다. 이러한 배치는 엔진 노즐이 뒤쪽에만 있는 대부분의 고정익 항공기와 대조된다. 해리어 II는 저속 비행 시 조종을 위해 기수, 꼬리 및 주익 끝에 밸브로 제어하는 소형 노즐도 갖추고 있다.",
       "previous_translation_sha256": "bdc869bb4cbcbaeb08a05f1bbf4580861add1bc1baa9da73456b09de3918c750",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_157.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_157.txt",
+      "paragraph_index": 5,
+      "source_sha256": "4fcac0981be4eedb7fc27e7622f42c5d5733bc30e484b66f647fb5d2903eaa3f",
+      "translation": "해리어 II에 도입된 기술적 발전은 초기형 해리어에 비해 조종사의 업무 부담을 크게 줄인다. 초임계 날개, 스로틀과 조종간에서 손을 떼지 않고 조작하는 HOTAS 제어 원칙, 설계상 강화된 횡안정성 덕분에 항공기 자체의 조종이 더 쉬워졌다. AV-8B는 외형이 초기형 해리어와 매우 비슷하며 기본적인 작동 원리도 같다. 다만 그 원리를 훨씬 더 효과적으로 활용한다. F/A-18에서 가져온 대형 음극선관 다목적 표시장치가 조종석 계기판의 상당 부분을 차지한다. 이 장치는 레이더 경보 정보와 무장 투하·발사 점검표를 비롯한 다양한 기능을 제공한다. 조종사는 UPC/스텐셀 10B 영고도·영속도 사출좌석에 앉으며, 이는 고도 0에서 정지한 항공기에서도 사출할 수 있음을 뜻한다.",
+      "previous_translation_sha256": "7c2a45d2bbfd190c75b09e287b1bff38cc2c3fef8703016283675e40eb09be69",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_157.txt"
     },
@@ -84388,6 +84734,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4883.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_4959.txt",
+      "paragraph_index": 1,
+      "source_sha256": "8e7a59b6779c04fd1b6d136230a40527b093f4bece8661181412227e29d639d1",
+      "translation": "세부 사항: Su-30SM은 Su-30MKI 기체를 기반으로 하지만 러시아제 체계만을 탑재한다. AL-31FP 추력편향 엔진 2기를 장착하며 최대 속도는 마하 2.0이다. 기동성을 높이는 카나드와 무장 장착점 12개를 갖추고 있으며, N011M 바르스 PESA 레이더, OLS-30 적외선 탐색·추적장치, 디지털 레이더경보수신기, 내장형 전자대응 체계, 헬멧 장착 조준기를 탑재한다. R-73 및 R-77 공대공미사일, Kh-31 및 Kh-29 미사일, KAB-500 폭탄 등 다양한 무장을 운용하며, 2019년까지 UPAB-1500B와 UPAB-500B 같은 정밀 활공폭탄도 운용하게 되었다. 2019년 러시아 해군 항공부대는 해상 차단 및 연안 방어 임무를 위해 완전한 타격 능력을 갖춘 신규 제작 Su-30SM을 배치하기 시작했다. 이 파생형에 부여된 NATO 식별명은 플랭커-H이다.",
+      "previous_translation_sha256": "9a77bffcbeef520ed03e860fc22d56bf60848399a5bbee870d38f2b5971e2508",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4959.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_502.txt",
       "paragraph_index": 1,
       "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
@@ -84737,6 +85092,15 @@
       "previous_translation_sha256": "ea288712b79389cd72314602c303d4e070bc2b433fa13827296538d89c5ad8ba",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_6098.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_6157.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2c9739e21a3c32aafe1727d859aee73180259b620811839af465fd4bb6264b3b",
+      "translation": "세부 사항: 독일의 페가수스(Persistent German Airborne Surveillance System, 독일 지속 공중감시체계) 사업은 퇴역한 브레게 아틀랑티크 신호정보 수집기를 대체하고 국가 차원의 전자정찰 능력 공백을 해소하기 위해 시작되었다. 플랫폼은 항속거리, 비행고도, 탑재 능력을 고려해 선정한 봄바디어 글로벌 6000 비즈니스 제트기를 기반으로 하며, 헨솔트가 개발한 첨단 신호정보 수집체계를 탑재하도록 개조한다. 이 항공기는 원거리에서 광범위한 레이더 및 통신 신호를 감청하고, 발신원의 지리적 위치를 파악하며, 신호를 분석할 수 있다. 글로벌 6000은 롤스로이스 BR710A2-20 터보팬 엔진 2기를 장착하며, 순항속도는 마하 0.85이고 항속거리는 약 11,100km이다. 임무에는 조기경보, 전자전투서열 작성, 전략적 위협 감시가 포함된다.",
+      "previous_translation_sha256": "188d4911a4321bf857195259576052648bb1756a568ce8cd6bf021c04e4279ab",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_6157.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_6450.txt",
@@ -85225,6 +85589,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1247.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_87.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ab8779f4548ae64a58a9b540042e5963812c89c9f366e9bca949496adfb16ba5",
+      "translation": "세부 사항: GR.7은 영국 해리어 II를 추가로 발전시켜 영국 공군의 타격 임무에 맞춘 기종으로, 1990년에 실전 배치되었다. 약 21,750lbf의 추력을 내는 롤스로이스 페가수스 Mk 105 터보팬 엔진을 장착하여 수직/단거리 이착륙 운용이 가능하다. 외부 탑재물용 무장 장착점 7개를 유지하며, 중량을 줄이고 내구성을 높이기 위해 보강한 복합재 기체 구조를 갖춘다. 통합 관성항법장치(INS), 기수 장착 전방감시 적외선(FLIR) 카메라, 야간투시경과 호환되는 조종석을 갖춘다. 탑재 레이더는 없으며, 표적 획득은 광학체계에 의존한다. 방어 장비에는 내장형 레이더경보수신기와 플레어/채프 발사기가 포함되지만, 정확한 체계 모델은 확인되지 않았다.",
+      "previous_translation_sha256": "718cce5b59703102cb7c211e1a21f818064c1e1b03e0d0ad82b2660c3ccb3dc1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_87.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_896.txt",
       "paragraph_index": 2,
       "source_sha256": "730509c28f324619f4a857b75089c469dc40a971125aef9761925593b33a90e9",
@@ -85403,6 +85776,15 @@
       "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_99.txt",
+      "paragraph_index": 1,
+      "source_sha256": "876b49f403fcbeeddcabec2f2f73447c91cf76b834490924a2a620d7ae97349e",
+      "translation": "세부 사항: 토네이도 F.3은 RB199-34R Mk 104 터보팬 엔진 2기를 장착하여 최대 마하 2.2의 속도를 낼 수 있으며, 다양한 비행 영역에서 최적의 성능을 내도록 후퇴각을 25°에서 67°까지 조절하는 가변후퇴익을 갖춘다. 탐색 중 추적과 하방탐색·하방공격 기능을 지원하는 GEC-마르코니 AI.24 폭스헌터 펄스 도플러 레이더를 통합 탑재한다. 무장으로 마우저 BK-27 27mm 기관포를 갖추며, 날개 파일런에 AIM-9L 사이드와인더 4발과 동체 반매립식 장착부에 스카이플래시 중거리미사일 4발 등 공대공미사일 8발을 장착할 수 있다. 무장 장착점에는 항속거리 연장을 위한 외부 연료탱크도 탑재할 수 있다. 1991년까지 제5, 제11, 제23, 제29비행대대를 포함한 여러 영국 공군 비행대대에 완전한 작전 배치가 이루어져, 긴급대응 경계태세와 NATO 영공경계 임무를 지원했다.",
+      "previous_translation_sha256": "041f18ab0f1d4801bab4bac38035f9b6db4d0b7be948c03a98dc3120338b87dc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_99.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1135.txt",
@@ -86584,6 +86966,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_4725.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_4784.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2d62b1eb19e12f26e6322af283a4b21e9eb29a6a465b51de66f4fee979ae6df7",
+      "translation": "일반 설명: 수동 무지향성 소노부이는 넓은 주파수 범위의 수중 음향 에너지를 탐지하고, 수집한 데이터를 무선으로 감시 플랫폼에 전송하는 방식으로 작동한다. 이 소노부이는 방향 탐지 능력이 없으며, 모든 방향에서 오는 수중 주변 소음을 수집한다. 주로 대잠전(ASW)에서 수중 접촉 표적을 조기에 탐지하고 추적하는 데 사용한다. 일반적으로 넓은 해역을 감시하도록 일정한 패턴으로 배치하며, 능동 소나 체계와 다른 음향 센서를 보완한다. 설계가 단순하여 얕은 수역과 깊은 수역 모두에서 비용 효율적이고 신속한 배치가 가능하다. 수신 주파수는 파생형에 따라 다르지만, 일반적으로 잠수함 추진 소음과 해양 주변 소음을 탐지하기에 적합한 저·중주파 대역을 포함한다.",
+      "previous_translation_sha256": "365dd6550a4f29b5a19c8bd088f7d960ee42b563667e832969248c6f95f0858d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_4784.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_4949.txt",
       "paragraph_index": 1,
       "source_sha256": "f5cac48d4d7741f945e0f3855bd7242e17f255477802a3f591fbd6b713142319",
@@ -87372,6 +87763,24 @@
       "source_sha256": "6f01b455ef49019c1ecd5dfead1db9a8738f0d3c7c98ff9298c6360f8e98df4f",
       "translation": "45형 구축함은 포클랜드 전쟁에서 활약한 42형 구축함을 대체하기 위해 건조되었으며, 마지막 42형 구축함은 2013년에 퇴역했다. 영국 감사원은 ‘집중 공격’ 상황에서 45형 한 척이 함께 작전하는 42형 구축함 다섯 척보다 더 많은 표적을 동시에 추적하고 교전하며 격파할 수 있다고 보고했다. 2006년 2월 1일 데어링함 진수 이후, 전 제1해군경 앨런 웨스트 제독은 이 함정이 영국 해군 역사상 가장 뛰어난 성능의 구축함이자 세계 최고의 방공함이 될 것이라고 밝혔다. 조달 수량이 12척에서 8척으로, 결국 2008년에는 6척으로 줄어든 것은 논란을 일으켰다.",
       "previous_translation_sha256": "498fd1278dbb60195b8cb215e7ebf00ca0ac30c4eceea73ebad15221934a91d1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1442.txt",
+      "paragraph_index": 2,
+      "source_sha256": "8f24d7969f29cb3a63fbd36674cbf8741bbc8e50c40e4d87415153e6ca373b31",
+      "translation": "세부 사항: 45형 구축함은 길이 152.4m(500ft), 폭 21.2m(70ft), 흘수 7.4m(24.3ft)이다. 대체 대상인 42형보다 훨씬 크며, 배수량은 42형의 5,200톤에 비해 약 8,500톤이다. BAE 시스템스는 전통적으로 영국 국방부가 맡았던 설계 책임기관 역할을 45형에서 담당한다. 45형의 설계는 영국 해군의 레이더 반사 신호 저감 수준을 한 단계 높인다. 갑판 장비와 구명뗏목은 함정 상부구조물의 패널 뒤에 숨겨져 있어, 프랑스 라파예트급 호위함과 다소 비슷한 매우 “깔끔한” 상부구조물을 이룬다. 마스트 외부에 장착된 장비도 최소화되어 있다. 언론은 이러한 설계 덕분에 이 함정의 레이더 반사 신호가 소형 어선 수준일 것으로 추측한다.",
+      "previous_translation_sha256": "b35045d436e09b338ccaf826f94c9d7b7881c72f5d8fe7831d7d3d755c8909f5",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1442.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f24417c96bc3b4ca8d19c299ab65b74bbd52f3fb34b6e3379934fe1f565ba766",
+      "translation": "45형 구축함은 SAMPSON 능동전자주사배열 다기능 레이더와 S1850M 장거리 레이더를 사용하는 첨단 시 바이퍼(PAAMS) 방공체계를 탑재한다. PAAMS 체계는 2,000개가 넘는 표적을 추적하고 비행 중인 여러 미사일을 동시에 통제·조정할 수 있어, 어느 시점에서든 다수의 추적 표적을 요격·격파할 수 있다. 따라서 초음속 표적을 동원하더라도 포화공격으로 PAAMS 체계의 대응 능력을 압도하기는 특히 어렵다. 미국 해군대학은 SAMPSON 레이더가 음속의 3배(마하 3)로 이동하는 크리켓공 크기의 물체 1,000개를 추적할 수 있다는 견해를 제시하며, 고성능 스텔스 표적에 대한 이 체계의 대응 능력을 강조했다.",
+      "previous_translation_sha256": "efbd8c9e754c96a7e267bff5165b1b1352402b25dad9f8f25220c61e56664d60",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
     },
@@ -88196,6 +88605,24 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_2318.txt",
+      "paragraph_index": 2,
+      "source_sha256": "8f24d7969f29cb3a63fbd36674cbf8741bbc8e50c40e4d87415153e6ca373b31",
+      "translation": "세부 사항: 45형 구축함은 길이 152.4m(500ft), 폭 21.2m(70ft), 흘수 7.4m(24.3ft)이다. 대체 대상인 42형보다 훨씬 크며, 배수량은 42형의 5,200톤에 비해 약 8,500톤이다. BAE 시스템스는 전통적으로 영국 국방부가 맡았던 설계 책임기관 역할을 45형에서 담당한다. 45형의 설계는 영국 해군의 레이더 반사 신호 저감 수준을 한 단계 높인다. 갑판 장비와 구명뗏목은 함정 상부구조물의 패널 뒤에 숨겨져 있어, 프랑스 라파예트급 호위함과 다소 비슷한 매우 “깔끔한” 상부구조물을 이룬다. 마스트 외부에 장착된 장비도 최소화되어 있다. 언론은 이러한 설계 덕분에 이 함정의 레이더 반사 신호가 소형 어선 수준일 것으로 추측한다.",
+      "previous_translation_sha256": "b35045d436e09b338ccaf826f94c9d7b7881c72f5d8fe7831d7d3d755c8909f5",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_2318.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f24417c96bc3b4ca8d19c299ab65b74bbd52f3fb34b6e3379934fe1f565ba766",
+      "translation": "45형 구축함은 SAMPSON 능동전자주사배열 다기능 레이더와 S1850M 장거리 레이더를 사용하는 첨단 시 바이퍼(PAAMS) 방공체계를 탑재한다. PAAMS 체계는 2,000개가 넘는 표적을 추적하고 비행 중인 여러 미사일을 동시에 통제·조정할 수 있어, 어느 시점에서든 다수의 추적 표적을 요격·격파할 수 있다. 따라서 초음속 표적을 동원하더라도 포화공격으로 PAAMS 체계의 대응 능력을 압도하기는 특히 어렵다. 미국 해군대학은 SAMPSON 레이더가 음속의 3배(마하 3)로 이동하는 크리켓공 크기의 물체 1,000개를 추적할 수 있다는 견해를 제시하며, 고성능 스텔스 표적에 대한 이 체계의 대응 능력을 강조했다.",
+      "previous_translation_sha256": "efbd8c9e754c96a7e267bff5165b1b1352402b25dad9f8f25220c61e56664d60",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_2318.txt",
       "paragraph_index": 5,
       "source_sha256": "c759b178045fd7596e49e76e56d363e48550522e36cf36b8ae2172d08ac5699e",
       "translation": "PAAMS 방공체계의 핵심 구성요소는 아스터 15와 아스터 30으로 이루어진 아스터 미사일이다. MBDA는 아스터를 최대 사거리 120km에서 모든 유형의 고성능 공중 위협을 요격할 수 있는 ‘직격파괴형’ 미사일 요격 미사일로 설명한다. 아스터 미사일은 자율유도 방식이며 능동 RF 탐색기를 갖추어 ‘다중 교전 능력’과 ‘높은 발사율’을 바탕으로 ‘포화공격’에 대응할 수 있다. 현재 데어링급 구축함은 48셀 A50 실버 수직발사체계를 탑재하여 아스터 15와 30을 혼합해 최대 48발까지 탑재할 수 있다. 그러나 45형 구축함은 총 64셀을 수용하도록 설계되었으며, 일부 보고에서는 총 72셀을 수용할 수 있다고 한다.",
@@ -88902,6 +89329,24 @@
       "source_sha256": "6f01b455ef49019c1ecd5dfead1db9a8738f0d3c7c98ff9298c6360f8e98df4f",
       "translation": "45형 구축함은 포클랜드 전쟁에서 활약한 42형 구축함을 대체하기 위해 건조되었으며, 마지막 42형 구축함은 2013년에 퇴역했다. 영국 감사원은 ‘집중 공격’ 상황에서 45형 한 척이 함께 작전하는 42형 구축함 다섯 척보다 더 많은 표적을 동시에 추적하고 교전하며 격파할 수 있다고 보고했다. 2006년 2월 1일 데어링함 진수 이후, 전 제1해군경 앨런 웨스트 제독은 이 함정이 영국 해군 역사상 가장 뛰어난 성능의 구축함이자 세계 최고의 방공함이 될 것이라고 밝혔다. 조달 수량이 12척에서 8척으로, 결국 2008년에는 6척으로 줄어든 것은 논란을 일으켰다.",
       "previous_translation_sha256": "498fd1278dbb60195b8cb215e7ebf00ca0ac30c4eceea73ebad15221934a91d1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_604.txt",
+      "paragraph_index": 2,
+      "source_sha256": "8f24d7969f29cb3a63fbd36674cbf8741bbc8e50c40e4d87415153e6ca373b31",
+      "translation": "세부 사항: 45형 구축함은 길이 152.4m(500ft), 폭 21.2m(70ft), 흘수 7.4m(24.3ft)이다. 대체 대상인 42형보다 훨씬 크며, 배수량은 42형의 5,200톤에 비해 약 8,500톤이다. BAE 시스템스는 전통적으로 영국 국방부가 맡았던 설계 책임기관 역할을 45형에서 담당한다. 45형의 설계는 영국 해군의 레이더 반사 신호 저감 수준을 한 단계 높인다. 갑판 장비와 구명뗏목은 함정 상부구조물의 패널 뒤에 숨겨져 있어, 프랑스 라파예트급 호위함과 다소 비슷한 매우 “깔끔한” 상부구조물을 이룬다. 마스트 외부에 장착된 장비도 최소화되어 있다. 언론은 이러한 설계 덕분에 이 함정의 레이더 반사 신호가 소형 어선 수준일 것으로 추측한다.",
+      "previous_translation_sha256": "b35045d436e09b338ccaf826f94c9d7b7881c72f5d8fe7831d7d3d755c8909f5",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_604.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f24417c96bc3b4ca8d19c299ab65b74bbd52f3fb34b6e3379934fe1f565ba766",
+      "translation": "45형 구축함은 SAMPSON 능동전자주사배열 다기능 레이더와 S1850M 장거리 레이더를 사용하는 첨단 시 바이퍼(PAAMS) 방공체계를 탑재한다. PAAMS 체계는 2,000개가 넘는 표적을 추적하고 비행 중인 여러 미사일을 동시에 통제·조정할 수 있어, 어느 시점에서든 다수의 추적 표적을 요격·격파할 수 있다. 따라서 초음속 표적을 동원하더라도 포화공격으로 PAAMS 체계의 대응 능력을 압도하기는 특히 어렵다. 미국 해군대학은 SAMPSON 레이더가 음속의 3배(마하 3)로 이동하는 크리켓공 크기의 물체 1,000개를 추적할 수 있다는 견해를 제시하며, 고성능 스텔스 표적에 대한 이 체계의 대응 능력을 강조했다.",
+      "previous_translation_sha256": "efbd8c9e754c96a7e267bff5165b1b1352402b25dad9f8f25220c61e56664d60",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
     },
@@ -90445,6 +90890,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1258.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1260.txt",
+      "paragraph_index": 1,
+      "source_sha256": "e9bac4c13adf742a14f37aebf484868a4a5ed5f5099d8fcc2ab442c92dfc5acf",
+      "translation": "세부 사항: 오토마트 Mk3는 데이터링크를 갖추어 발사 플랫폼 이외의 공중 및 수상 플랫폼으로부터 표적 정보를 수신할 수 있다. 또한 향상된 전자방해 대응 기능과 GPS 유도 기능을 갖춘다. 이러한 기능은 연안 표적에 대한 미사일의 성능을 높인다. 분리 가능한 고체연료 부스터 2기로 발사 플랫폼에서 가속한 뒤 순항고도 20m까지 하강하며, 중간 비행 단계에서는 관성항법장치를 사용한다. 표적으로부터 사전에 정한 거리의 지점에 도달하면 X밴드 능동 레이더가 표적을 획득할 때까지 좌우로 주사하며 탐색한다. 이후 미사일은 해면밀착 공격 단계에 들어간다. 명중 후에는 210kg 반철갑(SAP) 탄두가 함내에서 폭발하며, 폭발력은 표적 함정의 선저를 향한다.",
+      "previous_translation_sha256": "a0b6df2a3a65076d7561c55d9f2bf4069d7767cfea4476ae71e4f23a45260167",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1260.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1278.txt",
       "paragraph_index": 1,
       "source_sha256": "02268aac95f1035fe7eeedae26636040ee88615f279e031a71efcd7486c23e02",
@@ -90704,6 +91158,15 @@
       "previous_translation_sha256": "44d33bd8e2730e1e525cba2cffc04d601556c110befdf8b69c2f08b5684ae63d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1655.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1664.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f023c3db8398bf55e86b27e8916e79a93a74989b0d23e1cfeb89ea2334459649",
+      "translation": "세부 사항: 월아이 II는 방호가 강화된 표적을 격파하기 위해 이전형 AGM-62A보다 훨씬 큰 탄두를 사용한다. TV 카메라가 들어 있는 기수부, 탄두가 들어 있는 본체, 데이터링크 안테나와 제어부가 들어 있는 후방부의 세 가지 주요 조립체로 구성된다. 무장을 통제하는 항공기는 데이터링크 포드를 탑재했다. 투하된 무장은 표적을 향해 활공한다. AGM-62B는 정확도를 높이기 위해 광학 게이트를 더 작게 만든 개량형 탐색기도 사용한다. AGM-62B는 자이로 안정화 TV 카메라가 표적을 “고정 추적”하면 스스로 표적까지 유도될 수 있어, 투하 항공기가 해당 지역을 이탈할 수 있었다. 또는 필요할 경우 운용자가 수동으로 제어하여 무장을 유도할 수도 있었다. 이 무장의 원형공산오차(CEP)는 4.6~6.1m이다.",
+      "previous_translation_sha256": "fd93fed509fdec819f75bf613371d3138a31e7be6214af9fe9adf76b59146fff",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_723.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1689.txt",
@@ -91163,6 +91626,15 @@
       "previous_translation_sha256": "7c2acf06313fd3d627dc7d71f1f764ff7c9ab5b405990cfaf2254349779e62ca",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_2450.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2478.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b24a81b42f32c4d6778389dc3539bde249dacb728580c57ff0d411e886e3a897",
+      "translation": "세부 사항: AN/SSQ-53E DIFAR는 관심 신호의 자기방위를 제공하는 수동 소노부이로, 단 2개만으로도 접촉 표적의 위치를 결정할 수 있다. 5~2,400Hz 범위에서 방향 탐지가 가능하며, 일반 청음용 무지향성 수중청음기도 갖춘다. 사전에 설정한 90, 200, 400 또는 1,000ft 수심에 전개할 수 있으며, 작동 시간은 0.5, 1, 2, 4 또는 8시간으로 사전 설정할 수 있다. 고정 수심의 천해용 무지향성(CSO) 수중청음기를 45ft 수심에 전개하여 얕은 수심의 무지향성 음향 정보를 제공한다. 해상상태 6까지 작동을 유지할 수 있다. 비행속도 30~370노트, 고도 100~30,000ft에서 투하할 수 있다. AN/SSQ-53E는 전개 후에도 운용자가 부이 설정을 변경할 수 있다.",
+      "previous_translation_sha256": "3260ec5317fa2998966338806f2bb0dcd9167cb6260a0bcee7d488b1839a6d7d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2478.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2481.txt",
@@ -91730,6 +92202,15 @@
       "previous_translation_sha256": "aa64f02e2989cad04240d6b6cd432d6b6db33506a4a50a988a9a8ccee7b21c62",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_430.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_4308.txt",
+      "paragraph_index": 1,
+      "source_sha256": "36065bc8b96d55a38c7f3595249cfaa531e21e2bc5fffc14ee932a8afb2b282f",
+      "translation": "세부 사항: 약호 “ALQ”는 미국 합동 전자장비 형식명명체계에서 항공기 탑재 전자대응 포드를 나타내며, “J/ALQ” 접두사는 일본제 파생형을 나타낸다. 여기서는 미쓰비시 전기와 NEC가 일본 자위대를 위해 제작한 파생형을 뜻한다. J/ALQ-6은 전자전용으로 개조한 플랫폼에 장착하며, 특정 레이더 대역에서 감청 및 잡음 기만을 수행할 수 있는 수신기, 안테나, 송신기를 탑재한다. 1980년대에 J/ALQ-2, -3, -4, -5 등의 파생형과 함께 개발되었으며, 일본 전자전 포드 기술의 점진적인 발전을 반영한다. 임무는 호위 전자방해를 제공하여 타격 편대나 감시 항공기를 적의 레이더 유도 위협으로부터 보호하는 것이다. 정확한 주파수 범위, 출력, 탑재 전자장비에 관한 세부 사항은 공개적으로 확인되지 않았다.",
+      "previous_translation_sha256": "0611580f1ef18b0c44334c7b8bcce9a8e3968fd1b89cd6acdeafe93db1ec27e9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_4308.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_4405.txt",
