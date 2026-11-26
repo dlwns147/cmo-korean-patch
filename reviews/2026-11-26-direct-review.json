@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9403,
+    "reviewed_source_entries": 9406,
     "review_outcomes": {
-      "modified": 8021,
+      "modified": 8024,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8036,
+      "scenario-ko.b64.tsv": 8039,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9415,
+      "runtime_first_lookup_passed": 9418,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 137
+      "html_context_lookup_passed": 138
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -75284,6 +75284,30 @@
       "review": "direct-source-review",
       "batch": "revisions-419.tsv",
       "previous_translation_sha256": "29423450b80d432004de89b78caa5ba831b976c9e00e279564e6963fcdae0f7c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f39592393ef0859cb196a52693d2cea00fb2df784b3c04ae54aa7cadb8e562f8",
+      "translation": " 단,",
+      "review": "direct-source-review",
+      "batch": "revisions-420.tsv",
+      "previous_translation_sha256": "ee1d8655d66d382b52a56d371294dee72b10a4bb089b9d96b448422ce6a64049"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fced0aaacc57064cfa6e52bef4fd51ee1003fa1297cbc2914476f1b777c7cfb6",
+      "translation": " 해당 표적이 아군 휘하 유닛에 명백한 적대 의도를 드러낸 뒤에만 사격할 수 있다. 군용기가 눈에 띄게 무장한 상태로 아군 함선 위를 비행하더라도 이는 비우호적 행위일 뿐, 적대행위로 간주하지 않는다. 미주 지역의 어떤 표적에든 탄도미사일을 발사했거나 발사 중인 미식별 잠수함에는 사격해도 된다. 사격 보류가 적용되며, 위에 명시된 적 유닛 판정 기준을 충족하지 않는 접촉물이나 유닛에는 대서양사령관(CINCLANT)의 승인 없이 실탄을 사용해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-420.tsv",
+      "previous_translation_sha256": "f9183ab15686bb8a558d55c9311570974e1712367f9bee868e2f115c9c18db9f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "11df566b13ad582cb3e81ab2b57e7c993065a5ee699332e25e2e0ec8fa8ae9da",
+      "translation": "브리핑에는 상세 명령 외에도 최초 작전 행동 전문과 남하하는 동안 수신한 통합 정보요약(INTSUM) 3건이 포함되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-420.tsv",
+      "previous_translation_sha256": "48e1273c32a8064c1a15d588690b95f457c07a558a59d55c838896a8c6020b07"
     }
   ],
   "whole_db_paragraphs": [
