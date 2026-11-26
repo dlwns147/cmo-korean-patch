@@ -57,8 +57,8 @@
     "changed_from_base": {
       "ko.tsv": 179,
       "scenario-ko.b64.tsv": 7637,
-      "db_files": 4191,
-      "db_paragraphs": 8242
+      "db_files": 4281,
+      "db_paragraphs": 8432
     },
     "source_recovery": {
       "matched": {
@@ -83,7 +83,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 299,
+    "additional_whole_db_paragraph_reviews": 389,
     "supplemental_source_entries": 12,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -91,19 +91,19 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 421,
-      "pending_locations": 421,
-      "covered_associations": 2427,
+      "unique_pending_whole_paragraphs": 331,
+      "pending_locations": 331,
+      "covered_associations": 2520,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 971,
+    "whole_db_paragraph_applications": 1161,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
       "effort": "medium",
-      "accepted_batches": 9,
-      "accepted_whole_paragraphs": 260,
+      "accepted_batches": 12,
+      "accepted_whole_paragraphs": 350,
       "acceptance": "Every full source and target directly compared before applying; automated checks are supplemental"
     }
   }
