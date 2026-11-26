@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 11573,
+    "reviewed_source_entries": 11601,
     "review_outcomes": {
-      "modified": 10166,
+      "modified": 10194,
       "retained": 1407
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 10141,
+      "scenario-ko.b64.tsv": 10168,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 11591,
+      "runtime_first_lookup_passed": 11619,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 218
+      "html_context_lookup_passed": 221
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -8514,7 +8514,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "2c0fa53b039075c6cf74d637ef6861e3348ad5a171ca98b6f081b36a5468ccf9",
-      "translation": "곤경에 빠질 수 있다. 이 기체들은 이동(Ferry) 임무를 수행 중이기 때문이다. 타격이나 초계 같은 일반 임무에서는 급유 지원 없이 항속거리를 초과하면, 교리 설정을 변경하지 않은 한 최소 귀환연료량에 도달했을 때 임무를 중단하고 기지로 돌아간다. 반면 이동 임무에서는 끝까지 목적지에 도달하려고 한다.",
+      "translation": "곤경에 빠진다. 이 기체들은 이동(Ferry) 임무를 수행 중이기 때문이다. 타격이나 초계 같은 일반 임무에서는 급유 지원 없이 항속거리를 초과하면, 교리 설정을 변경하지 않은 한 최소 귀환연료량에 도달했을 때 임무를 중단하고 기지로 돌아간다. 반면 이동 임무는",
       "review": "direct-source-review",
       "batch": "revisions-015.tsv",
       "previous_translation_sha256": "ce640596b7aba1b08208cc11534d3585f92a790426d4fcc81323cb1748b4a7d0"
@@ -92646,6 +92646,230 @@
       "review": "direct-source-review",
       "batch": "revisions-547.tsv",
       "previous_translation_sha256": "c4f1e104ae5c29d453f0c9656b4238d8b27b63ac620e284085e374d0f3f9839a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "112796213f1e378a9379bfc5df453334450c5c6ff5bc25cd151dc2ac2c58363d",
+      "translation": "기술을 이용하면 위성 데이터링크로 플랫폼 간 접촉 정보와 센서 정보를 공유할 수 있다. SATCOM을 사용하려면 잠수함이 잠망경 심도(-66피트/-20m)보다 깊이 잠수해서는 안 된다. 특별 행동 메뉴에서 'Raise SATCOM Antenna'를 찾아 'Execute'를 눌러라.",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "698541d08c5e3a18969d26e5a8279392282c029580c0252d0b28a0c5f95213e9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9f45e631d1df3adbb4c5011a38f1a49cea78c8d590d6537dbfd3c91a7c7bcd76",
+      "translation": "VHF 단시간 집중 송신",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "ee656665cc68b84ca5ebef207796867c337e8588a7c0f9b8d8b22711c316089c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dd166492bd67fa8e765e7d942b6dcc3e3a0c57443224be1ad543468663e92032",
+      "translation": "을 이용하면 다른 유닛에 권장 침로를 전달할 수 있다. 잠수함에는 수심 131피트/40m까지 VHF 무선 송신이 가능한 부유식 안테나가 장착되어 있다. 다른 유닛에 권장 침로를 보내려면 특별 행동 메뉴에서 'VHF Comms - ...'를 선택하라. 여기서 '...'는 내리려는 명령을 뜻한다. ELF, 수신 전용 VHF, Link 11 통신은 수동 방식이므로 잠수함을 노출할 위험이 없지만, VHF 단시간 집중 송신은 신호를 방사하는 능동 행위다.",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "7db518755b76222c9d8f153f76c21686e59cbc14bdc4f23335d1cb2cbce62b24"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "75b6caa832e3e386c559d8ea9b1399a368438ed68b34e8dae011754da7bedcff",
+      "translation": "잠수함과 가시선이 확보되는 위치에 있는 적 유닛은 이 신호를 탐지해 잠수함의 존재와 위치를 알아낼 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "b39b5c2dce67690fb0c1a24eca1b87687eeb40bc4d90cfceab5e43f33bc154da"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ba3163a187f7abf98722c0655d81ca5b4f6a8e09dcf13fec4f2790cd2ad49836",
+      "translation": "그 확률은 적 유닛과 잠수함 사이의 거리에 따라 달라진다. 따라서 VHF 사용을 최소화하고, 근처에 적이 없다고 확신하거나 명령 전달의 이점이 탐지 위험보다 클 때만 사용하는 것이 좋다.",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "b67cdff1563e47c425646cf3a53be345b8e5078dd77c4d06a6b5d326e63fd1e3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "69fb8cdaa3980111481b8af9a1e0a887e7c9cca67840c6c4a7df1ff7b3add3c1",
+      "translation": "레이더를 어떻게 파괴할지 생각해 보라. 사용할 수 있는 무장으로는",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "5df155cd963ee621eb05382a388757ee37802f30717dd7af9c01b2b5417099cc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e740f5562e7ce56a55028f04edbdceffea94640bb3c83cf3855c7ddce25e9317",
+      "translation": "(고속 대레이더 미사일)이 있지만, 성능이 뛰어난 귀중한 무장이며 보유량도 6발뿐이다. 사진을 확인하거나 사진 팩을 설치하지 않았다면 DB를 살펴보라. 내구도가 1이고 그토록 허술해 보이는 표적이라면 뾰족한 막대기로도 무력화할 수 있을 듯하다! HARM은 더 까다로운 표적을 위해 아껴 두어라. 이 표적에는 집속탄으로도 충분하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "ed1803f0200eacb4284d3b346c0fd89dea3de94c97d3040a0576a394b5d58f62"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "02fefaba3e0d0e8fefd7dc09e3f107b66b8a9a968b9005238aa11287e2e33c42",
+      "translation": ": 지대공미사일이다. 이전에도 상대했지만 종류가 수십 가지다. 지금 맞서는 체계의 특성과 이를 운용하는 교리를 어느 정도 이해해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-548.tsv",
+      "previous_translation_sha256": "a7d16aef8fdd445c83493b5cbc08ba6a9d5e524f192e0fd4188f619ef34d32ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bcf465ba7b679aaf66598b2d66a556c033b9976af68151762f3ae1ac25c94bfb",
+      "translation": "플레이 참고 사항",
+      "review": "direct-source-review",
+      "batch": "revisions-549.tsv",
+      "previous_translation_sha256": "21592074d02b2e9e50314c1e8eb6d4e28efff1cdba926fc07a0c051250db9de0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "23fe8926fc84fd63aa470de9f774441051ecb2b47fc813a10acb47430c1b91e0",
+      "translation": "이 시나리오는 극저주파(ELF), 초단파(VHF), Link 11을 이용한 잠수함 통신을 구현한다. VHF 단시간 집중 송신으로 NFSP-01 수송선단과 통신할 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-549.tsv",
+      "previous_translation_sha256": "b879d2e54e04a861b4b73b578c99d20e672b98e18ab56bfc24748e7d81f8ec7a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fff23290a1e284198202d374669a10a2d97ff9ae699521437283fc23daa88135",
+      "translation": "신호는 수심 1,000피트/305m까지 수신할 수 있지만, 보통 3~4글자의 부호만 전달한다. 통신부서가 이를 해독해 해당 메시지를 보고한다. 대개 더 자세한 VHF 메시지를 받기 위해 '통신 심도로 부상하라'는 내용이다. 잠수함이 1,000피트/305m보다 깊이 잠수해 있으면, 그보다 얕은 수심으로 올라와 신호를 받을 때까지 ELF 신호가 5분마다 반복된다. ELF 신호는 대체로 매우 중요하므로 수신 가능한 심도를 유지하는 것이 좋다.",
+      "review": "direct-source-review",
+      "batch": "revisions-549.tsv",
+      "previous_translation_sha256": "604411e55ed7efd68defa2e1d3cc0c59ca6289334e25c16b1940b69e6642a49e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a2a122673536aa8b181f67541578716bf264ebc590b802e15a664cf85a8c0479",
+      "translation": "초단파(VHF)",
+      "review": "direct-source-review",
+      "batch": "revisions-549.tsv",
+      "previous_translation_sha256": "53d6b4ef16f419aa012e2613d8451e74db886498f098c2056f725fbf3e709723"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cdff8c8e09d1e784062fc60adb9481a5ec350fa2ccf092959d61dc8298cfa36d",
+      "translation": "Link 11",
+      "review": "direct-source-review",
+      "batch": "revisions-549.tsv",
+      "previous_translation_sha256": "7e9b156f253155fff388de30544faad65822c690c015db88c295bbc89b377fa1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5769bc95c18840cee59f82076c06fc046e96cc887e4e954662f798f7603df3d5",
+      "translation": "ELF 수신이 가능하도록, 작전상 반드시 필요한 경우가 아니면 수심 1,000피트보다 깊이 잠수하지 말라. ELF 신호를 수신하면 즉시 통신 심도로 부상하고 VLF 안테나를 전개해 최우선 긴급 전문을 수신하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-549.tsv",
+      "previous_translation_sha256": "29b7b3a11d5c067d9d428bdf66fa61c408c24e8f3242871b7cb88bb1d1000502"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e1536f6661fad9e630c0a95b032e444bf24046841d6297acb6b9a6bce1ca5f87",
+      "translation": "ELF 수신이 가능하도록, 작전상 반드시 필요한 경우가 아니면 수심 1,000피트보다 깊이 잠수하지 말라. ELF 신호를 수신하면 즉시 통신 심도로 부상하고 VHF 안테나를 전개해 최우선 긴급 전문을 수신하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-549.tsv",
+      "previous_translation_sha256": "7ac40bf4b7f7a477c3fd0cee2ab1c6c993544a66badcd918a97c503a2f570c51"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bc1b4f38819efb6ffbc560ab4d5a25c9f9ddeb3b8a6052241d5a782a03ef8b80",
+      "translation": "하지만 급유기를 출격시키지 않으면 이 F-16들은",
+      "review": "direct-source-review",
+      "batch": "revisions-550.tsv",
+      "previous_translation_sha256": "6c2708e57165af198517f76701ed46bdf5b03a30fc70c41acf276664fcaf74d2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5092cf7bc8d733e3bb51bd93a5718f622dd1fab34a89f6c52e7ce0e8e0fb32bc",
+      "translation": "어떤 상황에서도",
+      "review": "direct-source-review",
+      "batch": "revisions-550.tsv",
+      "previous_translation_sha256": "76767d48f5ae9f519b014229f4a33cd41986f17208ee5d54460a72a2fce166a1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7fac800449d05fd0e5ab02dfa5e1aab898645167a405422e95a3ae5a27ab2e04",
+      "translation": "공중급유(AAR) 교리 설정과 관계없이 임무를 완수하려 하므로 연료가 고갈될 수 있다. 이런 특성을 항상 고려하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-550.tsv",
+      "previous_translation_sha256": "385ef2fc64c65dc1f02889a13b17a5f2a64213a4a1e6ef47a67502f0a7e67a5f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cede2b30e57f5efa761c72a87a2136feb24077e089bf28e80229cac0391151ec",
+      "translation": "주임무는 시리아군을 지원해 끝날 기미가 없는 이 내전에서 승리하도록 돕는 것이다. 수행 방식에는 어느 정도 재량이 있다. 러시아는 앞으로 최소 1년, 아마 그보다 더 오래 이곳에 머물 것이다!",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "306f7a0def5320d359bc59047ab8c28b24e3fa32e8454d1f59f374918f0a6e6b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "23ccfe9f7a97914b750fe41f9249bce3fd9ab2cf8958efab73c87472bddf262a",
+      "translation": "이 구역에 머물러 점수를 얻을 수 있는 기체는 H-6 배저 계열뿐이며, 모든 H-6 파생형이 해당한다. 구역 안에 45분간 머물 때마다 기체당 승점 10점을 얻는다. 다만 호위기를 붙일 것을 강력히 권한다!",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "3b5eb09f38847349c3c8ac3042fa3f8c0d47aa8dd2afb162ad6ca3d6c4d019d4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b967283b0a2bcd39dd752c590454563af9b8f08d118ed0a598aee6f39ac25151",
+      "translation": "지상군을 그레이트니코바르섬의 지정 기준점들이 둘러싼 구역 안에 5시간 유지하면 캠벨항을, 6시간 유지하면 INS 바즈 공군기지를 점령한다. 두 목표 모두 중국 해군 측에 승점을 제공한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "0b21a3f537dd4157abd9df83004d69c1e2ec799adcf2000ab4da031151939d65"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "11056e4c1308a7af4fa65b3fb3a881f60e3146b85a5ac705e208f03e8b9439cf",
+      "translation": "이 대체역사가 실제 역사와 갈라지는 시점은 온두라스에서 대량의 이리듐이 발견된 1955년이다. 이리듐은 다양한 산업 분야에 매우 유용하며, 희귀하고 가치도 매우 높다.",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "97300396f88e5ef30537df2bf63e48234f28cb9780ce14fa2600a61e5743e0b0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "68cbd7580916d1962d8718598023fec270023457eead35633b139d461bc5848f",
+      "translation": "총리는 07:00 언론 브리핑을 마친 뒤 대기 중이던 공군 보잉 767에 탑승해, 러시아 대통령이 주재하는 긴급회의에 직접 참석하기 위해 모스크바로 향했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "082c7d11ba872ed22909e4713fe29af6b15b317bee9ad4440ac3be916f639736"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0a53fcaa3a074e79ef13e875578d9498bb8822a57b7b0cb94ae5d48a5aa99f1b",
+      "translation": "새 공격 방식을 선택한 뒤 'CREATE or UPDATE flightplans'를 눌러라. 변경 사항이 비행계획에 반영되며, 지도와 비행계획 편집기 화면 모두 갱신된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "7677c87e5939c2a9d6d40c1b711e8aef77c03d34be805bac9d168825c5cd5b03"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6bb7167fa8d051d8077eed767b383e4bee1cdfb16bd8560bda83ffe0aa730bfa",
+      "translation": "미 공군 F-111 24대, EF-111 5대, 지원 급유기가 영국에서 출격한다. 이 중 F-111 6대와 EF-111 1대는 공중 예비기로, 이륙 약 90분 후 기지로 복귀한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "77433e38acbd8ede69f969e0c31cdbeb64ee71f340ab10f4a001a0f461818d48"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e44750e7362f46bc238891b59ab9519e470e4c63c3f5c4b98d4651c457544b10",
+      "translation": "항공기의 선회 반경까지 고려해 임무가 OPAREA 작전구역 안에서만 수행되도록 설정하라. 45분 도중 작전구역 밖으로 벗어나면 승점을 잃는다!",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "1c06db21a2a5872bba522b2b68770c58d0861de5e3e14f7b2ef21291b8bbca26"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "246e8e42573bfcafbb7cca3569eae73b3105a0905a02953b5c14187c26337897",
+      "translation": "브리핑에서 설명했듯이, 당시 소련과 북한은 이 작전구역에 유의미한 전자정보·전자지원(ELINT/ESM) 능력을 갖춘 함정을 배치하지 않았다.",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "cfcab30b6299a9b00c402083864520252ff4301cde506b7478f69da08c3863d1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8eb8abf929177f4d9006a513df51f67f34ee5552c361679ca4092d75fa3a0442",
+      "translation": "공항은 무엇으로 구성되어 있을까? 진데르 공항을 클릭하고 'V' 또는 숫자 키패드의 '9'를 눌러 개별 유닛 보기로 전환하라. 축척이 마일이 아닌 미터로 표시될 때까지 확대하라. 이 작은 공항에는 다음 시설들이 있다:",
+      "review": "direct-source-review",
+      "batch": "revisions-551.tsv",
+      "previous_translation_sha256": "65de3907bc2ad5bfc9cc7acc4f16cc59894bd50492a5f43e5fa9adf09b9e0982"
     }
   ],
   "whole_db_paragraphs": [
