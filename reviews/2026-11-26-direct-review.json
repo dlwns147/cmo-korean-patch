@@ -10,8 +10,8 @@
     "changed_from_base": {
       "ko.tsv": 179,
       "scenario-ko.b64.tsv": 7615,
-      "db_files": 3962,
-      "db_paragraphs": 7419
+      "db_files": 3965,
+      "db_paragraphs": 7427
     },
     "source_recovery": {
       "matched": {
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 18,
+    "additional_whole_db_paragraph_reviews": 24,
     "supplemental_source_entries": 12,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -44,13 +44,13 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 701,
-      "pending_locations": 701,
-      "covered_associations": 2120,
+      "unique_pending_whole_paragraphs": 695,
+      "pending_locations": 695,
+      "covered_associations": 2126,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 164
+    "whole_db_paragraph_applications": 172
   },
   "entries": [
     {
@@ -72076,6 +72076,24 @@
       "review_origin": "DB/Descriptions/CWDB/Submarine_280.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Weapon_155.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ccb80e73f0e849dabe10690f99679275701f4cb6f3573867bf83c1980cbcb59c",
+      "translation": "세부 사항: 이 탄은 장갑 관통용 성형작약 탄두와 폭발 시 살상 파편을 흩뿌리는 파편 외피를 결합한다. 탄두는 경·중장갑 차량을 격파할 수 있으며 파편 슬리브는 대인·대물 효과를 높인다. 일부 형식은 충격·지연 신관을 선택할 수 있고, 조준을 돕는 예광제를 포함하기도 한다. 중장갑 전차에 대한 효과는 전용 날개안정분리철갑탄(APFSDS)보다 낮지만, HEAT-FRAG 탄은 제병협동작전에서 더 다양한 표적에 활용할 수 있다.",
+      "previous_translation_sha256": "a8489a9c32ae335e1f24c851a668fbda189461ee078f5a861ce3902d82b2a9ae",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_155.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_38.txt",
+      "paragraph_index": 1,
+      "source_sha256": "c3d60a438b1d12b1ea6be8a2220ca411c25d592050ff74d5c5a1dca020757791",
+      "translation": "세부 사항: 항공기나 헬기에 외부 장착하는 자기이상탐지(MAD) 포드에는 고감도 자력계가 들어 있다. 탑재 항공기가 표적 구역 위를 저고도·저속으로 비행하면서 자기장의 이상을 측정한다. 잠수함의 철제 부품이 지구 자기장에 일으키는 교란을 감지해 잠항 중인 금속 선체를 탐지한다. 원문은 소나 성능이 떨어질 수 있는 얕은 바다나 연안에서 MAD가 특히 효과적이라고 설명한다. 포드의 자료를 음향 센서와 다른 대잠 센서의 정보에 통합해 잠수함 위치 추정과 추적의 정확도를 높인다.",
+      "previous_translation_sha256": "5d06449e00fbfd240298c9e607a22f9d7e76f97051f79fd112557c11f2fc3408",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_38.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_193.txt",
       "paragraph_index": 0,
       "source_sha256": "55c8b6ea806e0368fc8ac26724c08d494997d0b93d4aad74acd50086cc8fbe81",
@@ -72083,6 +72101,15 @@
       "previous_translation_sha256": "c4a8485b8b42de1b5de9ddddf8fd1301651449f96c7054a29aa308a5e6152508",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_193.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2041.txt",
+      "paragraph_index": 2,
+      "source_sha256": "9d2b61514efd400aff52efc11cff4dec94633aacb43995b75105fe52c81a46e3",
+      "translation": "GR.4는 수명 중간 개량(MLU)으로 대폭 개선된 GR.1 형식을 뜻한다. 2001년 4월 작전 운용 승인을 받았으며 2007년까지 첨단 다목적 임무를 수행하도록 개량되었다. 기존 가변익 기체를 유지하면서 모듈식 무장·센서를 탑재했고, 주익 구조는 원래 설계에서 바뀌지 않았다. 방어장비로 자위용 AIM-9L 사이드와인더, 스카이 섀도 방어 전자대응 포드, BOZ-107 채프·플레어 살포기, 레이더경보수신기를 갖췄다. 항전장비를 통해 전자대응·표적지시·정찰 포드와 다양한 무장을 동시에 탑재할 수 있었다.",
+      "previous_translation_sha256": "5e229c5bea830c534348adf50f0b5a1f6f0c92c967b8c375c5ae9377ad10fd9b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2041.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4125.txt",
@@ -72101,6 +72128,15 @@
       "previous_translation_sha256": "e482c16a64117636f68d331cbc34e0ccafdd4873b280d3f9f0430507b51859be",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_573.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_676 .txt",
+      "paragraph_index": 1,
+      "source_sha256": "f31d01063cac6c5c2ef35066d24b5427eb7dbf5c381f2c0cbba5340f4120f7c5",
+      "translation": "세부 사항: 나흐숀 에이탐 조기경보기는 걸프스트림 G550을 기반으로 이스라엘 항공우주산업(IAI)과 엘타 시스템스가 개조했다. EL/W-2085 레이더체계를 탑재하며, 원문은 동체를 따라 배치한 기체 밀착형 L대역 능동전자주사배열(AESA)이 회전식 돔 없이 전방위 360도 감시를 제공한다고 설명한다. 롤스로이스 BR710C4-11 터보팬 2기로 추진하며, 순항속도는 마하 0.85이고 항속거리는 12,500km를 넘는다. 통합 C4I 체계로 전술적 협조와 실시간 위협 추적을 수행하며, 고고도에서 장시간 임무를 지속할 수 있다.",
+      "previous_translation_sha256": "af2da618e9a6261774fee022df1f8f829533905cf937436169a447e72d6a689b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_676 .txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1244.txt",
@@ -72211,6 +72247,15 @@
       "review_origin": "DB/Descriptions/CWDB/Facility_1480.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_1949.txt",
+      "paragraph_index": 2,
+      "source_sha256": "cd5ed54c0010b06aec15b4e664695e1b54747277a665f76a12b9ab6ac59fcb5b",
+      "translation": "참고: 2S3는 소련 차량화소총사단과 전차사단의 포병연대에 배치되었으며, 연대는 각 18문을 갖춘 대대 2~3개로 구성되었다. 기동성을 높이기 위해 전선군급 포병사단 소속 일부 포병여단의 견인포도 대체했다. 여러 차례 개량·현대화를 거쳤으며 원문 작성 당시에도 러시아군에서 널리 운용 중이었다. 수출도 광범위하게 이루어져 여러 분쟁에서 실전을 경험했다. 첫 실전은 소련의 아프가니스탄 전쟁으로, 효과적이고 신뢰성 높은 포병체계임을 입증했다.",
+      "previous_translation_sha256": "fec68fd38524d3c995dac73960824c5067639a451b1c7365b399aef4c43f6f02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1949.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_383.txt",
       "paragraph_index": 2,
       "source_sha256": "34cdff2b685f1fa1bed51e7e7ec5bbda5aaa8e0a6a878726c493703552b3d1cc",
@@ -72236,6 +72281,15 @@
       "previous_translation_sha256": "6021e17526032b5155ae4e078508a4db989d33fdd85f12a7afbf662b8318de46",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1480.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_1048.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a458a402d59471fb9dc11803e8f7207c630a515de4a7ffad263b94832cda1ea0",
+      "translation": "일반 설명: 1970년대의 공격적 전자대응(OECM) 체계는 아날로그 또는 초기 디지털 기술로 적 레이더에 잡음 방해, 특정 주파수 집중 방해, 광대역 방해를 가했다. 주로 전술항공기와 함정에 탑재되어 적 방공체계의 효율을 떨어뜨렸다. 현대 체계보다 주파수 변경 능력이 제한적이고 위협 자료도 단순했지만, 냉전기 분쟁의 전자전에서 중요한 역할을 했다. 레이더경보수신기(RWR) 및 초기 전자지원(ESM) 장비와 연동해 탐지한 위협에 대응하는 전자방해가 가능했다.",
+      "previous_translation_sha256": "a9dcf57b6f3e659df3693e1925ab260b03af11b93d4dd9b21fbbd9efcbed7bf7",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_1048.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_3136.txt",
@@ -73300,6 +73354,15 @@
       "review_origin": "DB/Descriptions/CWDB/Submarine_280.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1880.txt",
+      "paragraph_index": 1,
+      "source_sha256": "c3d60a438b1d12b1ea6be8a2220ca411c25d592050ff74d5c5a1dca020757791",
+      "translation": "세부 사항: 항공기나 헬기에 외부 장착하는 자기이상탐지(MAD) 포드에는 고감도 자력계가 들어 있다. 탑재 항공기가 표적 구역 위를 저고도·저속으로 비행하면서 자기장의 이상을 측정한다. 잠수함의 철제 부품이 지구 자기장에 일으키는 교란을 감지해 잠항 중인 금속 선체를 탐지한다. 원문은 소나 성능이 떨어질 수 있는 얕은 바다나 연안에서 MAD가 특히 효과적이라고 설명한다. 포드의 자료를 음향 센서와 다른 대잠 센서의 정보에 통합해 잠수함 위치 추정과 추적의 정확도를 높인다.",
+      "previous_translation_sha256": "5d06449e00fbfd240298c9e607a22f9d7e76f97051f79fd112557c11f2fc3408",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_38.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1920.txt",
       "paragraph_index": 1,
       "source_sha256": "2d6530ec750d6d35aa1b3f013147ebd0cd186f6fca7f37646986195c793724a1",
@@ -73343,6 +73406,15 @@
       "previous_translation_sha256": "64259075af486b537c25d60726927f4e96ec88dfa636ffcdd02df333290504cb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_473.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/weapon_551.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ccb80e73f0e849dabe10690f99679275701f4cb6f3573867bf83c1980cbcb59c",
+      "translation": "세부 사항: 이 탄은 장갑 관통용 성형작약 탄두와 폭발 시 살상 파편을 흩뿌리는 파편 외피를 결합한다. 탄두는 경·중장갑 차량을 격파할 수 있으며 파편 슬리브는 대인·대물 효과를 높인다. 일부 형식은 충격·지연 신관을 선택할 수 있고, 조준을 돕는 예광제를 포함하기도 한다. 중장갑 전차에 대한 효과는 전용 날개안정분리철갑탄(APFSDS)보다 낮지만, HEAT-FRAG 탄은 제병협동작전에서 더 다양한 표적에 활용할 수 있다.",
+      "previous_translation_sha256": "a8489a9c32ae335e1f24c851a668fbda189461ee078f5a861ce3902d82b2a9ae",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_155.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_588.txt",
