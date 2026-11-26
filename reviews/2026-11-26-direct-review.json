@@ -2,16 +2,16 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 8980,
+    "reviewed_source_entries": 8991,
     "review_outcomes": {
-      "modified": 7598,
+      "modified": 7609,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7615,
+      "scenario-ko.b64.tsv": 7626,
       "db_files": 3965,
-      "db_paragraphs": 7427
+      "db_paragraphs": 7435
     },
     "source_recovery": {
       "matched": {
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 8992,
+      "runtime_first_lookup_passed": 9003,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -44,9 +44,9 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 695,
-      "pending_locations": 695,
-      "covered_associations": 2126,
+      "unique_pending_whole_paragraphs": 697,
+      "pending_locations": 697,
+      "covered_associations": 2131,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
@@ -71892,6 +71892,94 @@
       "review": "direct-source-review",
       "batch": "revisions-389.tsv",
       "previous_translation_sha256": "86ae672996802a3c5846ccab65a15cdc822b68321fcc281bcbe488c579bcdbb6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f26f2a876e199fe16f04019f4c5f7ba8bc051807581495c640c35cd37776da3",
+      "translation": "주무장인 오토 멜라라 76mm 컴팩트 양용포는 최대 사거리 10해리(원문 병기: 20km)이며, 함정·항공기와 해상·해안의 표적을 공격할 수 있다. 포술장교가 전투정보실 안에서 원격으로 통제하며 포탑 내부에는 승무원이 없다. 탄창을 재장전하지 않고 60초 동안 80발을 발사할 수 있으며, 함정의 최대 탄약 적재량은 450발이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "19e65b568af8ba4478e923d56c1e1eff24c2c9ea68e0ae7b13ca9492bb5336c3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f2818daf377c049e2d5faccd981e772d6880751ba71175aba295b10eb45c230",
+      "translation": "세부 사항: AN/SLQ-61 TDMM은 접근하는 어뢰를 탐지·분류·유인하도록 설계된 견인식 음향 대응 배열체계다. 수동 음향 센서와 탑재 처리장치를 결합해 위협을 추적하고, 대응 신호로 어뢰를 다른 방향으로 유도하거나 유도체계를 혼란시킨다. 임무 패키지 컨테이너에 수용되며 연안전투함(LCS) 각 형식의 수상 견인 모듈(STM)로 전개한다. 함정 구조나 추진체계에 미치는 영향을 최소화하면서 모듈식으로 신속히 통합하도록 개발되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "63c58c4f0a73dd48468e4f45cdf257774162fa748a21582223b48e84f54c6e48"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f2d1bbee915c99a42f9b53b170b2ca6603ebbbe6020ed4d16f46ff28aaf28ba",
+      "translation": "세부 사항: GR.9는 합동 개량·정비 사업(JUMP)에 따라 기존 GR.7 기체를 수명 중간 개량한 형식으로, 2006년 작전 운용에 들어갔다. 약 21,750파운드힘의 추력을 내는 롤스로이스 페가수스 Mk 105 터보팬을 유지해 수직·단거리 이착륙 능력을 갖췄다. 무장 장착점 7개와 복합재 구조를 유지하면서 MIL-STD-1760 무장 데이터버스, 신형 임무컴퓨터, 개량 GPS/INS, 디지털 조종석 체계를 통합했다. 레이더는 없으며 전방감시 적외선장비(FLIR)와 장착 시 외부 표적지시 포드에 의존했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "7fc95727e0a60110daa2ca61aa62234e4af5ce41ec0bf7e9edb45edf4800ea6f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f2f1c5974dcf3571654f5c9cf0c82724459ff6dce99802908019f92fa52e406",
+      "translation": "MiG-29M은 본격적인 다목적 능력을 부여해 펄크럼 A의 짧은 항속거리와 제한된 임무 능력을 일부 개선하도록 설계되었다. 신형 기체와 주익 앞전 뿌리 연장부(LERX), 전자식 비행제어체계로 높은 받음각에서의 기동성을 높였다. 중량을 줄이기 위해 알루미늄·리튬 합금으로 기체를 제작하고 복합재 사용을 늘렸다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "ac59a9ee65a01b5c0e7ead0d5bee7a551bf9e172c84d6282a475970ef97e77f5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f31e6c67d4fa18aeebcd535ee771e56993d872e9382195d71595262a4a78bf0",
+      "translation": "사흘 전 미 해군 브리스코함이 소련 정보수집함(AGI)에 들이받혀 심각한 피해를 입었다. 소련 함정은 이후 침몰했고 많은 인명피해가 발생했다. 미국과 소련 정상들의 강경 발언으로 긴장이 급격히 높아졌다. 유엔의 중재로 상황을 완화하려는 시도가 진행 중이지만 아직 성과는 없다. NATO와 바르샤바 조약기구 모두 병력을 동원했으며 전쟁이 임박한 듯하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "3c05d67751a7ffc086789de47217d3740b011c08a4eb26073ec537a5d703ce75"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f4517289f37c9e959fea5e33ac6e9a1c2179ec1f5fa10af8165cd745ba58111",
+      "translation": "미군의 E-2 호크아이는 모든 항모전투단에 전천후 공중조기경보와 지휘통제 능력을 제공한다. 이 밖에도 해상·지상 감시, 방공을 위한 함재 전투기 통제, 공격 임무 중인 타격기 통제, 해상에서 실종된 해군 항공요원과 수병의 탐색구조 임무 통제, 항공기 간 및 함정·항공기 간 무선통신 중계 등을 수행한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "14ff5193a5172d3b74c3da2e2bb081fbfd49f0f9c2a79e2c34c4fcdb4041d880"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f4811615afc47af266c480f4a25c6043edb2d75861c8696752893035eded057",
+      "translation": "30N6에서 파생된 HT-233은 항공기를 직접 조사하지 않는 한 항공기 경보수신기가 탐지·추적하기 더 어려우며, 전자방해도 훨씬 어려울 것으로 보인다. 탐지 가능한 후방 부엽이 있을 수 있지만 레이더 전방에서는 이를 포착하기 어려울 가능성이 높다. 대부분의 대레이더 미사일은 부엽 신호를 따라 유도되므로 HT-233을 파괴하려면 공격 방향과 상대 위치를 신중히 정해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "1604381b6cf0faebcdbeb9099ec63768dbe3a805a776391236fa920835df9d38"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f7c0398756f17cd6b8ba0028c2b671b2822e5a2b40b64091d4d825d0244b1a8",
+      "translation": "아르헨티나 구축함이 등대에 지나치게 가까이 접근하면 발포해도 된다. 배제구역은 전술지도에 표시되어 있으며, 이 구역에 들어오면 칠레 영해 안쪽 깊숙이 침범한 것이다. 다만 적 함포의 사거리가 아군 무장보다 길 수 있다는 점을 기억해야 한다. 성공하려면 은밀한 접근과 기습이 관건일 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "83a6644a66172a55b4d3689835baeb248147abb157487339979999227c578a6f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f8d7c9765bc865482ee5a7b3e6d03f7468098794ff46ad4c2f0641d61a63dc0",
+      "translation": "FAJ는 물에 전개되면 떠 있으면서 음향 신호를 내보내기 시작한다. 발사한 함정의 음향 특성을 모방하거나 교란 잡음으로 어뢰의 능동·수동 유도체계를 방해한다. 접근하는 어뢰를 속이거나 보호 대상 함정에서 다른 곳으로 유인하는 데 사용한다. 어뢰 교전 상황에서 위협에 앞서 미리 전개하거나 탐지 후 대응해 전개할 수 있도록 설계되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "b884f0b7c39f4850b08b2c8b945986073f6c7ae3c1b5534eebb16d0a047035a4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f9164215c117480a2d649b75248250b75397de4ee14a80ea05645bc68d5178c",
+      "translation": "세부 사항: Mk 82 AIR는 BSU-49/B 고항력 꼬리 조립체를 장착한 500파운드 폭탄이다. 꼬리에서 전개되는 ‘벌루트’ 공기주머니로 고속·저고도 투하가 가능하다. 꼬리 조립체는 풍선과 낙하산을 결합한 벌루트를 담은 저항이 작은 용기와, 용기를 열어 벌루트를 방출하는 당김줄 조립체로 구성된다. 비행 중 유입되는 공기가 벌루트를 부풀려 폭탄의 항력을 늘리므로, 투하 항공기는 폭발 피해 범위에서 벗어날 시간을 확보할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "c3b7d4267b28f6147abf08c1c2b5730be2a3a1eaa461192b0210b4b24e6bb34f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d3b5ebfa6abe1338e6057493c1117e157b061ee901417c6235435ffcd89bcac4",
+      "translation": "사흘 전 미 해군 브리스코함이 소련 정보수집함(AGI)에 들이받혀 심각한 피해를 입었다. 소련 함정은 이후 침몰했고 많은 인명피해가 발생했다. 미국과 소련 정상들의 강경 발언으로 긴장이 급격히 높아졌다. 유엔의 중재로 상황을 완화하려는 시도가 진행 중이지만 아직 성과는 없다. NATO와 바르샤바 조약기구 모두 병력을 동원했으며 전쟁이 임박한 듯하다. NATO는 쿠바 미사일 위기 이후 처음으로 데프콘 2에 들어갔다.",
+      "review": "direct-source-review",
+      "batch": "revisions-390.tsv",
+      "previous_translation_sha256": "8f098ed763627fb857ad616b915cffc962fd68751f60500c8d0289779aba8b43"
     }
   ],
   "whole_db_paragraphs": [
