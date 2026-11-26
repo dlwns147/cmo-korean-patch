@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9761,
+    "reviewed_source_entries": 9769,
     "review_outcomes": {
-      "modified": 8376,
-      "retained": 1385
+      "modified": 8382,
+      "retained": 1387
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8389,
+      "scenario-ko.b64.tsv": 8395,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9773,
+      "runtime_first_lookup_passed": 9781,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 147
+      "html_context_lookup_passed": 150
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -78148,6 +78148,70 @@
       "review": "direct-source-review",
       "batch": "revisions-445.tsv",
       "previous_translation_sha256": "d2e8a04dab10c1beb4d337bfcf848667735019f630d9d8fe5ef808da820799d1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c8353c5a24d230f48216df1426d29f8b73a37c1bb9caf59b465416ccfd9447fe",
+      "translation": "통신 지침: 수상함과 항공기는 EMCON C(전파 방사 제한 없음)를 적용한다. EMCON A(전파 방사 금지)를 적용할 함정: ",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "54682c41034d53f09f12f4d7ef01863129b8915e590502f764336da3139370f2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "066a0b5b406c89cabb3bea15de2c6a4b0088cbd54c40099d5150b1f36048cab6",
+      "translation": "통신 지침: 수상함은 EMCON C(전파 방사 제한 없음)를 적용한다. EMCON A(전파 방사 금지)를 적용할 함정: ",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "078b41f738db1a511795630b8a649889b401baaa75d3851e227019d86ff7204e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "672ad2c25bc523ee97eb1edd680e50fe414fb883845bc784bea5ec3316b4b304",
+      "translation": "샨쿠시",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "802b1541578cbf86e9fe2339dfbe5cca3c7ae994a160fc6859cc3a250652e87e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5aa34886f7f3741de8460690b636f4c8b7c2044df88e2e8adbb4f7e6f8534931",
+      "translation": "샌프란시스코",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "6ca7de82779ac7cf684af40c4e30d48991d109a4b6c39b68efcc11b97c409c22"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d47d9fb154d414c628a1e7fb022db2d2a9e1d95edea2eca86ddc3adb5a93dbd7",
+      "translation": "마이소르",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "17b9aa2d9cc21666e8bdcc130e57eb54d9d40bd88a2e7922c431dcc8db4a1516"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b17f36b1447da2952ddee2f82948aefd72fd55d9eaecbf34e61fec21cdf34761",
+      "translation": "미브타크",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "486fa87a68e1b9c463ae528b38838456680d7d55c5159c269f7a95ca78ef52e6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "406f6986991c4b57d5004cd667f6490d317d0f69ed40c442e70d223670452419",
+      "translation": "는 EMCON A(전파 방사 금지)를 유지해야 한다. 단, 이로 인해 함정이 위험에 처하는 경우는 예외다. 하체림 기지의 항공기는 EMCON C(전파 방사 제한 없음)로 자유롭게 운용해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "57da086b6b4a2cc503e95f523a5a6606517f3116a088cec353f5124540a84c43"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "19a6c59f1ca4050d7522a0f07fcd6540a1717bd73483ac37ec919dab28ae4fc8",
+      "translation": "행운을 빈다.",
+      "review": "direct-source-review",
+      "batch": "revisions-446.tsv",
+      "previous_translation_sha256": "fe48fbfe8349b19f848cf7db7952bec92ace6545097684e71e61797e6e6ca70a"
     }
   ],
   "whole_db_paragraphs": [
