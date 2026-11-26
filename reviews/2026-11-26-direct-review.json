@@ -10,8 +10,8 @@
     "changed_from_base": {
       "ko.tsv": 179,
       "scenario-ko.b64.tsv": 7637,
-      "db_files": 4148,
-      "db_paragraphs": 8060
+      "db_files": 4191,
+      "db_paragraphs": 8242
     },
     "source_recovery": {
       "matched": {
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 209,
+    "additional_whole_db_paragraph_reviews": 299,
     "supplemental_source_entries": 12,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -44,19 +44,19 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 511,
-      "pending_locations": 511,
-      "covered_associations": 2331,
+      "unique_pending_whole_paragraphs": 421,
+      "pending_locations": 421,
+      "covered_associations": 2427,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 789,
+    "whole_db_paragraph_applications": 971,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
       "effort": "medium",
-      "accepted_batches": 6,
-      "accepted_whole_paragraphs": 170,
+      "accepted_batches": 9,
+      "accepted_whole_paragraphs": 260,
       "acceptance": "Every full source and target directly compared before applying; automated checks are supplemental"
     }
   },
@@ -72152,6 +72152,15 @@
       "review_origin": "DB/Descriptions/CWDB/aircraft_1399.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_17.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_1711.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
@@ -72215,6 +72224,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_134.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_203.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_2105.txt",
       "paragraph_index": 1,
       "source_sha256": "3d221e4218e3c971c44573b90f1e1b86715773627f8105992139e6bce0f5dba9",
@@ -72224,6 +72242,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_124.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_2351.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_270.txt",
       "paragraph_index": 4,
       "source_sha256": "1cbbde9deb4d44b45b5b8044a1aec50c8015d8bf096f1c0b958fbb89eac946d8",
@@ -72231,6 +72258,51 @@
       "previous_translation_sha256": "4bd421ed8f2163f947139b24c27dd85194c245cfdddefdaaed4a9f67b1222271",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2734.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2735.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2736.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2737.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2738.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_2740.txt",
@@ -72674,6 +72746,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_128.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Ship_1579.txt",
+      "paragraph_index": 1,
+      "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
+      "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
+      "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Ship_1737.txt",
       "paragraph_index": 8,
       "source_sha256": "a8f745f3f2f4c2ffe95a3913c50b361b813743872ca4aaa27a40a0c76b19f78e",
@@ -72782,6 +72863,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Ship_834.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Ship_835.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -72796,6 +72886,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Ship_835.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -72872,6 +72971,33 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Submarine_223.txt",
+      "paragraph_index": 1,
+      "source_sha256": "bf1144bbec8ea4f3595efd181d4247396e34bae007f32ce9968e858f4d5e4d28",
+      "translation": "세부 사항: 스킵잭급의 설계는 USS 앨버코어의 설계를 바탕으로 한 성공적인 바벨급 잠수함에 기반했다. 스킵잭급의 설계는 그에 앞선 스케이트급 잠수함과 크게 달랐다. 스케이트급과 달리 이 새로운 설계는 선체를 연식비행선처럼 만들어 수중속도를 극대화했다. 이에 따라 단일 프로펠러를 방향타와 잠항타 뒤에 배치해야 했다. 이른바 ‘회전체형 선체’는 수상 내항성을 떨어뜨렸지만 수중 성능에는 필수적이었다. 스킵잭급의 선체는 함 길이 대부분에 걸쳐 내압선체와 외부 선체가 동일한 단각식 설계이기도 했다.",
+      "previous_translation_sha256": "2511e18ddd9771a6484c6b40fb4ca49d26d6aaee47245d59f3049d9e11b1c706",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Submarine_223.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Submarine_23.txt",
+      "paragraph_index": 1,
+      "source_sha256": "bf1144bbec8ea4f3595efd181d4247396e34bae007f32ce9968e858f4d5e4d28",
+      "translation": "세부 사항: 스킵잭급의 설계는 USS 앨버코어의 설계를 바탕으로 한 성공적인 바벨급 잠수함에 기반했다. 스킵잭급의 설계는 그에 앞선 스케이트급 잠수함과 크게 달랐다. 스케이트급과 달리 이 새로운 설계는 선체를 연식비행선처럼 만들어 수중속도를 극대화했다. 이에 따라 단일 프로펠러를 방향타와 잠항타 뒤에 배치해야 했다. 이른바 ‘회전체형 선체’는 수상 내항성을 떨어뜨렸지만 수중 성능에는 필수적이었다. 스킵잭급의 선체는 함 길이 대부분에 걸쳐 내압선체와 외부 선체가 동일한 단각식 설계이기도 했다.",
+      "previous_translation_sha256": "2511e18ddd9771a6484c6b40fb4ca49d26d6aaee47245d59f3049d9e11b1c706",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Submarine_223.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Submarine_24.txt",
+      "paragraph_index": 1,
+      "source_sha256": "bf1144bbec8ea4f3595efd181d4247396e34bae007f32ce9968e858f4d5e4d28",
+      "translation": "세부 사항: 스킵잭급의 설계는 USS 앨버코어의 설계를 바탕으로 한 성공적인 바벨급 잠수함에 기반했다. 스킵잭급의 설계는 그에 앞선 스케이트급 잠수함과 크게 달랐다. 스케이트급과 달리 이 새로운 설계는 선체를 연식비행선처럼 만들어 수중속도를 극대화했다. 이에 따라 단일 프로펠러를 방향타와 잠항타 뒤에 배치해야 했다. 이른바 ‘회전체형 선체’는 수상 내항성을 떨어뜨렸지만 수중 성능에는 필수적이었다. 스킵잭급의 선체는 함 길이 대부분에 걸쳐 내압선체와 외부 선체가 동일한 단각식 설계이기도 했다.",
+      "previous_translation_sha256": "2511e18ddd9771a6484c6b40fb4ca49d26d6aaee47245d59f3049d9e11b1c706",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Submarine_223.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Submarine_280.txt",
       "paragraph_index": 6,
       "source_sha256": "fbd6e4ae73d70a7747e8b19ced9f234a2e5f2fea0ac61bdd6fab13c9b57bbc1b",
@@ -72881,6 +73007,33 @@
       "review_origin": "DB/Descriptions/CWDB/Submarine_280.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Submarine_296.txt",
+      "paragraph_index": 1,
+      "source_sha256": "bf1144bbec8ea4f3595efd181d4247396e34bae007f32ce9968e858f4d5e4d28",
+      "translation": "세부 사항: 스킵잭급의 설계는 USS 앨버코어의 설계를 바탕으로 한 성공적인 바벨급 잠수함에 기반했다. 스킵잭급의 설계는 그에 앞선 스케이트급 잠수함과 크게 달랐다. 스케이트급과 달리 이 새로운 설계는 선체를 연식비행선처럼 만들어 수중속도를 극대화했다. 이에 따라 단일 프로펠러를 방향타와 잠항타 뒤에 배치해야 했다. 이른바 ‘회전체형 선체’는 수상 내항성을 떨어뜨렸지만 수중 성능에는 필수적이었다. 스킵잭급의 선체는 함 길이 대부분에 걸쳐 내압선체와 외부 선체가 동일한 단각식 설계이기도 했다.",
+      "previous_translation_sha256": "2511e18ddd9771a6484c6b40fb4ca49d26d6aaee47245d59f3049d9e11b1c706",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Submarine_223.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Submarine_297.txt",
+      "paragraph_index": 1,
+      "source_sha256": "bf1144bbec8ea4f3595efd181d4247396e34bae007f32ce9968e858f4d5e4d28",
+      "translation": "세부 사항: 스킵잭급의 설계는 USS 앨버코어의 설계를 바탕으로 한 성공적인 바벨급 잠수함에 기반했다. 스킵잭급의 설계는 그에 앞선 스케이트급 잠수함과 크게 달랐다. 스케이트급과 달리 이 새로운 설계는 선체를 연식비행선처럼 만들어 수중속도를 극대화했다. 이에 따라 단일 프로펠러를 방향타와 잠항타 뒤에 배치해야 했다. 이른바 ‘회전체형 선체’는 수상 내항성을 떨어뜨렸지만 수중 성능에는 필수적이었다. 스킵잭급의 선체는 함 길이 대부분에 걸쳐 내압선체와 외부 선체가 동일한 단각식 설계이기도 했다.",
+      "previous_translation_sha256": "2511e18ddd9771a6484c6b40fb4ca49d26d6aaee47245d59f3049d9e11b1c706",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Submarine_223.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Submarine_298.txt",
+      "paragraph_index": 1,
+      "source_sha256": "bf1144bbec8ea4f3595efd181d4247396e34bae007f32ce9968e858f4d5e4d28",
+      "translation": "세부 사항: 스킵잭급의 설계는 USS 앨버코어의 설계를 바탕으로 한 성공적인 바벨급 잠수함에 기반했다. 스킵잭급의 설계는 그에 앞선 스케이트급 잠수함과 크게 달랐다. 스케이트급과 달리 이 새로운 설계는 선체를 연식비행선처럼 만들어 수중속도를 극대화했다. 이에 따라 단일 프로펠러를 방향타와 잠항타 뒤에 배치해야 했다. 이른바 ‘회전체형 선체’는 수상 내항성을 떨어뜨렸지만 수중 성능에는 필수적이었다. 스킵잭급의 선체는 함 길이 대부분에 걸쳐 내압선체와 외부 선체가 동일한 단각식 설계이기도 했다.",
+      "previous_translation_sha256": "2511e18ddd9771a6484c6b40fb4ca49d26d6aaee47245d59f3049d9e11b1c706",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Submarine_223.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Weapon_1039.txt",
       "paragraph_index": 1,
       "source_sha256": "a84af2f1f6f861359e74e638df272d1777a0838d5552773517bee2a7ff12fc50",
@@ -72888,6 +73041,15 @@
       "previous_translation_sha256": "3297e03d7f986675cebce536f8ec175a299ae93d78b903b739e3b1ccf58ed185",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_1039.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_1040.txt",
+      "paragraph_index": 1,
+      "source_sha256": "05178b269675c2086422aa28b788dda17070f2b1c6df4f0669a0838b64f416f5",
+      "translation": "세부 사항: 115mm 대전차고폭탄(HEAT)은 금속 라이너를 갖춘 원추형 성형작약을 사용하며, 충격 시 기폭하여 사거리와 무관하게 장갑을 관통하는 고속 제트를 생성한다. 비행 중 안정성을 위해 날개안정 방식을 사용하며, 일반적으로 압전신관 또는 탄두부에서 작동하여 탄저부에서 기폭하는 신관을 사용한다. 탄두는 형식에 따라 350~450mm의 균질압연장갑을 관통할 수 있다. 운동에너지 관통탄과 달리 HEAT의 성능은 거리에 따라 저하되지 않아 장거리에서도 효과적이다. 원래 1960~1970년대 서방 주력전차에 대응하도록 설계되었지만, 현대의 반응장갑과 복합장갑을 상대로는 효과가 크게 감소한다.",
+      "previous_translation_sha256": "8b0165eb029d5c03b74895ee631c0d0939b831dabf853979d34b02e52fe3502f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_1040.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Weapon_1147.txt",
@@ -72953,6 +73115,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_1610.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Weapon_1763.txt",
+      "paragraph_index": 1,
+      "source_sha256": "1dfba9f0924273b8406d875f4f19fcf90b8df9c7b1e7892ac50d3616cd4db3e1",
+      "translation": "세부 사항: 10 kg 범용폭탄(GPB)은 일반적으로 얇은 강철 외피에 TNT나 컴포지션 B 같은 고폭약을 충전한다. 단거리 저고도 투하 비행 방식에 맞춰 설계되었으며, 부수적 피해를 최소화해야 하는 작전에 최적화되어 있다. 가벼운 중량 덕분에 경항공기나 드론이 다량을 탑재할 수 있어 공격 범위를 넓힐 수 있다. 이러한 폭탄은 흔히 탄두부 충격신관을 장착하며, 단순한 탄도 비행의 명중 정확도를 확보하기 위해 안정날개를 갖추기도 한다. 폭발력이 작아 효과는 비장갑 표적과 노출된 병력에 한정되지만, 적 진지에 대한 정밀 교란이나 제압에 유용하다.",
+      "previous_translation_sha256": "784e156200adb030f8977793f90872921d4765e31e418d52fb55ad0846720888",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_1763.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Weapon_38.txt",
       "paragraph_index": 1,
       "source_sha256": "c3d60a438b1d12b1ea6be8a2220ca411c25d592050ff74d5c5a1dca020757791",
@@ -72960,6 +73131,15 @@
       "previous_translation_sha256": "5d06449e00fbfd240298c9e607a22f9d7e76f97051f79fd112557c11f2fc3408",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_38.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_388.txt",
+      "paragraph_index": 2,
+      "source_sha256": "56794d0a25cbca619cbe04fca3794b928d60de189ab1a5b6623666d7cd017f2f",
+      "translation": "발사 후 AS.30은 수동 시선지령유도(MCLOS) 방식으로 표적을 향해 유도된다. 이 방식에서는 조종사가 자신의 항공기를 조종하는 동시에 미사일 후미의 플레어를 육안으로 추적하고 조이스틱으로 미사일을 조종하여 표적에 명중시켜야 한다. 훈련과 연습이 필요하기 때문에 이러한 유도체계는 전차 크기의 표적에 대한 명중 정확도가 제한적이다. 프랑스군이 운용한 미사일은 반자동 시선지령유도(SACLOS) 방식을 사용했다. 이 경우 운용자는 미사일이 비행하는 동안 조준장치를 계속 표적에 겨누어야 한다. 조준장치의 전자장비가 미사일을 추적하고 표적으로 유도한다.",
+      "previous_translation_sha256": "5543b3d526ddd75633e733bcb2c2614ff9f352672fe66b2534b03ac022328b0f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_388.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Weapon_412.txt",
@@ -73034,11 +73214,29 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1018.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1020.txt",
       "paragraph_index": 1,
       "source_sha256": "636cc7b718b3e11203cd225333a9fbcff0e26205066834b49aca083b0cc3fee9",
       "translation": "맥도넬 더글러스가 설계하고 초기 생산을 맡은 슈퍼 호넷은 1995년에 첫 비행을 했다. 맥도넬 더글러스와 보잉이 합병한 이듬달인 1997년 9월에 본격적인 양산이 시작되었다. 슈퍼 호넷은 1999년에 미 해군에 취역해 2006년에 퇴역한 그루먼 F-14 톰캣을 대체했으며, 기존 호넷과 함께 운용된다. 1984년부터 F/A-18A를 주력 전투기로 운용해 온 호주 공군은 노후한 F-111 전력을 대체하기 위해 2007년에 F/A-18F를 주문했다. 호주 공군의 슈퍼 호넷은 2010년 12월에 취역했다.",
       "previous_translation_sha256": "b6ca40da812bdf4e581de984c4487b76ce9e3050944c6809a4cc54e4d6e14fbe",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1020.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
@@ -73059,6 +73257,15 @@
       "previous_translation_sha256": "3e9c5013907406ad6efd10d5bc65d13d17080791e18ea816976b611e840aed00",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1059.txt",
+      "paragraph_index": 1,
+      "source_sha256": "dc513743a50c8fc8453f1fd9bb6f5d91b041f580bd04c23050f1d369e2e8a0f8",
+      "translation": "세부 사항: GR.1은 터보 유니언 RB199-34R Mk 103 터보팬 2기로 추진되며 가변후퇴익(25°~67°)을 사용하여 고고도에서 최대 마하 2.2의 속도를 냈다. 저공비행과 표적 획득을 위해 기수에 통합된 지형추적 레이더와 레이저 거리측정기/표적지시기를 갖추었다. 표준 무장은 BL755 집속폭탄, 범용폭탄, 자위용 AIM-9L 사이드와인더였다. WE.177 전술핵폭탄 탑재 인증을 받았으며, 탄약이나 연료탱크를 장착하기 위한 무장 장착점 8개가 주익 아래 4개, 동체 아래 3개, 중심선에 1개 배치되어 있었다. 방어체계는 내장형 레이더경보수신기, BOZ-107 채프/플레어 발사기, 스카이 섀도 전자대응 포드로 구성되었다.",
+      "previous_translation_sha256": "ed930deb6fd24c911ef09389f26e5528658e7d85fc64059d86a93a5cbb998b94",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1059.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1064.txt",
@@ -73106,6 +73313,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1089.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1090.txt",
       "paragraph_index": 1,
       "source_sha256": "636cc7b718b3e11203cd225333a9fbcff0e26205066834b49aca083b0cc3fee9",
@@ -73115,6 +73331,33 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1090.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1107.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1110.txt",
+      "paragraph_index": 0,
+      "source_sha256": "297c2cb60b9ca2d0b03563391f4129e83349785501c9fdb39f8056e1045109a4",
+      "translation": "록히드 P-3 오라이언은 미 해군용으로 개발되어 1960년대에 도입된 4발 터보프롭 대잠·해상감시 항공기이다. 록히드는 L-188 일렉트라 민간 여객기를 기반으로 이 항공기를 개발했다. 잠수함의 자기 탐지에 사용하는 독특한 꼬리 돌출부, 즉 ‘MAD 붐’으로 쉽게 식별할 수 있다. 오랜 기간에 걸쳐 수많은 설계 개선이 이루어졌으며, 특히 전자장비가 크게 발전했다. P-3 오라이언은 여전히 전 세계 여러 해군과 공군에서 주로 해상초계, 정찰, 대수상전 및 대잠전에 사용된다. http://en.wikipedia.org/wiki/Lockheed_P-3_Orion",
+      "previous_translation_sha256": "76e42c337713bee13e5b2d66814675dd2f2fc65b3ce37b928febaf00dbb240db",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1110.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1147.txt",
       "paragraph_index": 2,
       "source_sha256": "ffeb33f1e83312a36a599b673dff1ac920fe75ed0e6f9883d28dbad576666df8",
@@ -73122,6 +73365,15 @@
       "previous_translation_sha256": "295a8a1b0adb488ca600a0515b0fab007992746508ddb3c6716b378fff497e93",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1147.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1149.txt",
+      "paragraph_index": 1,
+      "source_sha256": "9340054966bb0bd35fd36e4eba97d51ca896842a46a1b718a30aa7d07d45b185",
+      "translation": "세부 사항: 2002년형 토네이도 F.3는 RB199-34R Mk 104 터보팬 엔진 2기와 가변후퇴익(25°~67°)을 갖추어 최대 마하 2.2의 속도를 낼 수 있었다. 다중표적 추적 및 하방탐지 능력을 강화한 AI.24 폭스헌터 레이더(스테이지 2G)를 사용했다. 무장은 내장형 마우저 BK-27 27 mm 기관포, 날개 파일런의 AIM-132 ASRAAM 단거리 미사일 4발, 동체 반매립식 장착점의 스카이플래시 중거리 미사일 4발로 구성되었다. 무장 장착점 10개를 갖춘 구성으로, 무장을 장착하지 않은 경우 외부 연료탱크를 장착할 수 있었다. CSP 개량은 ASRAAM 통합을 지원하도록 레이더 소프트웨어, 임무 컴퓨터, 조종석 표시장치를 개선했지만, 완전한 AMRAAM 운용 능력은 이후에 확보될 예정이었다.",
+      "previous_translation_sha256": "e2d5c16b734f3549ce53f099b945cc5dc7aa2a474519bcd900185f2a97e7232e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1149.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1152.txt",
@@ -73205,6 +73457,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1349.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e4781967286c30cd3dcdf6215acba88ac62f4819756a97ada55b9b6d968de33b",
+      "translation": "펄크럼 C는 원래 펄크럼 A의 짧은 항속거리를 부분적으로 보완하기 위해 조종석 뒤쪽 동체 상부를 부풀려 내부 연료탱크 용량을 늘리고, 날개 아래에 1,150리터/304갤런 연료탱크 2개를 장착할 수 있도록 설계되었다. 또한 N019M 토파즈-M 레이더를 도입하여 두 표적에 대한 동시 교전과 향상된 전파방해 내성을 제공했다. MiG-29S에 R-77(AA-12 애더) 가시거리 밖(BVR) 교전용 미사일 운용 능력을 부여하고 최대 무장 탑재량을 늘려 전투능력을 개선했다. 내부 능동 레이더 전파방해기와 개량형 적외선 탐색·추적장치(IRST)도 통합했으며, 운용 받음각을 26°에서 28°로 높여 기동성을 향상했다.",
+      "previous_translation_sha256": "72099da1901f1bcd0d1a964a75ca6ec77a2ad0241029ebaa0c7134a8c61a64b6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1349.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1353.txt",
       "paragraph_index": 3,
       "source_sha256": "1ae37ecc3ad44297be69ba551f29a4463d02ba3336c4ab1cdcbbc03adbafeacd",
@@ -73221,6 +73482,15 @@
       "previous_translation_sha256": "2b876f7d41beaddb8f11183cec3999d20823d46b12b132b1780c36fadeaa9ccb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_138.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f4fd551de4634387c7b7ab275c6ea9b6a6fea108fc45f341e00adb21ec6cdb1e",
+      "translation": "세부 사항: F-5는 1950년대 노스럽이 자체 자금으로 추진한 경전투기 사업에서 시작되었다. 설계팀은 성능과 낮은 정비비에 중점을 두고, 소형이면서 추력이 높은 제너럴 일렉트릭 J85 엔진 2기를 중심으로 작고 공기역학적 성능이 뛰어난 전투기를 설계했다. 주로 주간 제공 임무용으로 설계되었지만 지상공격 능력도 우수하다. F-5A는 1960년대 초에 실전배치되었다. 냉전기에는 미국의 동맹국들을 위해 1972년까지 800대 이상이 생산되었다. 미 공군은 경전투기의 소요를 인정하지 않았지만, F-5A를 직접 기반으로 개발한 노스럽 T-38 탤론 훈련기는 약 1,200대 조달했다.",
+      "previous_translation_sha256": "cf135a34222e6d292674a0ccdbe92ac476f7eccd5ddf4252ac0d8fac4c54df5d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_138.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1402.txt",
@@ -73277,6 +73547,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1049.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1700.txt",
+      "paragraph_index": 3,
+      "source_sha256": "b1b448c22726980acc2940130409eb8755759108bf59b6668b1b8ccb99d72fb9",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "5a4346f962dc509e7e53b219af73ce267842767d4ee85be6ba4a48b1fd69baba",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1700.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1725.txt",
       "paragraph_index": 2,
       "source_sha256": "f076b49c369275aaf25dd20d284b6444c36ee1252bb28282b1b94940c9d88c2a",
@@ -73322,6 +73601,24 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_124.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1748.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d155a8675b768fc6afe98d6f3c3e2d63db98419c701eebdbde4486df9f552610",
+      "translation": "세부 사항: F-15K는 일반적인 F-15E에는 없는 여러 특징을 갖춘 파생형이다. 여기에는 AAS-42 적외선 탐색·추적장치, 중량을 줄이고 전파방해 효과를 높이도록 맞춤 구성한 전술 전자전 체계, 야간투시장비와 호환되는 조종석, 전투기 데이터링크 체계를 갖춘 ARC-232 U/VHF 무전기, 첨단 APG-63(V)1 기계식 주사 배열 레이더가 포함된다. APG-63(V)1 레이더는 APG-63(V)3 능동전자주사배열(AESA) 레이더와 공통 디지털 처리장비를 사용하므로 안테나 교체를 통해 AESA 레이더로 개량할 수 있다. F-15K는 통합 헬멧 장착 조준체계와 AGM-84K SLAM-ER, AGM-84H 하푼 블록 II, KEPD 350 등의 무장을 갖춘다.",
+      "previous_translation_sha256": "df6cd12fb37f538d6bd252bad7bbbd3b1ad89ba9d49aedf64978de934e052e25",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1748.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1835.txt",
+      "paragraph_index": 1,
+      "source_sha256": "e3172c34ae931bf45c7fd8a11b3b87ff0d9c5f3bbc59e4594cf40cc2febc787c",
+      "translation": "세부 사항: 팰컨 20DC는 원형 팰컨 20의 동체를 연장하고 엔진을 교체한 형식으로, 베네수엘라가 1990년대 후반 신호정보(SIGINT) 플랫폼으로 개조하기 위해 선정했다. 베네수엘라 영공과 주변 지역의 레이더 및 통신 활동 감시에 맞춘 안테나 배열, 센서 페어링, 탑재 전자장비를 갖추도록 개조되었다. 제너럴 일렉트릭 CF700 터보팬 엔진 2기로 추진되며, 순항속도는 약 마하 0.80, 항속거리는 약 3,700km이다. 개조 사항에는 신호 수집, 방향 탐지, 기내 처리를 위한 전문 임무장비가 포함되지만, 구체적인 센서 모델은 공개되지 않았다.",
+      "previous_translation_sha256": "2028bdd692356422819a21211cc14945cf8ccc1db80ffdaf60ebf44b87aed787",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1835.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1866.txt",
       "paragraph_index": 2,
       "source_sha256": "58b5810f0326595f24de0d9be4a9a2d518e0fb957ccf8074a7d336167cb14291",
@@ -73329,6 +73626,24 @@
       "previous_translation_sha256": "bfb29798f9f80ea95f3772694fd822486f94416389b4907695b18df3971fd2e6",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1866.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1868.txt",
+      "paragraph_index": 1,
+      "source_sha256": "75426e34d694d25282e24c9ef21b6156892b195cc63fd76c8c4340764a66b919",
+      "translation": "세부 사항: GR.1은 터보 유니언 RB199-34R Mk 103 터보팬 2기로 추진되며 가변후퇴익(25°~67°)을 갖추어 최대 마하 2.2의 속도를 내고 지형을 바짝 따라 비행하며 공격할 수 있다. 저고도 표적 조준의 정확도를 위해 통합 지형추적 레이더와 레이저 거리측정기 및 레이저 표식 표적 탐색기(LRMTS)를 탑재한다. 1999년의 일반적인 무장은 BL755 집속탄, 1000lb 범용폭탄, JP233 활주로 사용거부용 자탄 살포기, 페이브웨이 II 레이저 유도폭탄, 자위용 AIM-9L 사이드와인더였다. 방어장비는 스카이 섀도 전자대응 포드, BOZ-107 채프/플레어 발사기, 내장형 레이더경보수신기로 구성되었다. WE.177 전술핵폭탄은 1998년에 퇴역했다.",
+      "previous_translation_sha256": "e38cfed4ce1b9b888f0ea84ce2f961943a54ffcd352e458a52c9f3784f7f47d9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1868.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1893.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "0871a350f0f8ee2835bb77a2bbaca6f0d794d79bf99d5209d394173ca0019f92",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1895.txt",
@@ -73367,6 +73682,24 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1946.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1986.txt",
+      "paragraph_index": 0,
+      "source_sha256": "631aa869773e4c1d6a1195edbea25f883efa7a60cfc9b1e56912eb045b6bc4ff",
+      "translation": "개요: 시코르스키 CH-53E 슈퍼 스탤리언은 미군에서 가장 크고 무거운 헬리콥터이다. 시코르스키 S-80이라는 명칭으로 CH-53 시 스탤리언을 기반으로 개발되었으며, 주요 변경 사항은 세 번째 엔진 추가, 주로터의 일곱 번째 블레이드 추가, 꼬리로터를 20도 기울인 것이다. 시코르스키 에어크래프트가 미 해병대를 위해 제작했다. 상대적으로 드문 MH-53E 시 드래곤은 미 해군의 장거리 소해 또는 항공 기뢰대항작전(AMCM) 임무 수요를 충족하며, 해군의 중량물 수송 임무도 수행한다. CH-53K 킹 스탤리언은 개발 중이며, 신형 엔진, 새로운 복합재 로터 블레이드, 더 넓은 객실을 갖출 예정이다.",
+      "previous_translation_sha256": "43fade7bd90e493775279e63a973db90043d79b29580a77c828068b36610d8c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1986.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1993.txt",
+      "paragraph_index": 3,
+      "source_sha256": "73bbf433f983b263f5e0f687c65391cc26b00b8811fd951a2ea7d148c0e72705",
+      "translation": "J-11B/Su-27SK는 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 PL-8 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "bd0996fa5fa3704c7e2afe8c2b6a149b9779877cde42d3eadf2790f31c14d83a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1993.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2002.txt",
       "paragraph_index": 2,
       "source_sha256": "f076b49c369275aaf25dd20d284b6444c36ee1252bb28282b1b94940c9d88c2a",
@@ -73394,6 +73727,24 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1246.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2016.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e4781967286c30cd3dcdf6215acba88ac62f4819756a97ada55b9b6d968de33b",
+      "translation": "펄크럼 C는 원래 펄크럼 A의 짧은 항속거리를 부분적으로 보완하기 위해 조종석 뒤쪽 동체 상부를 부풀려 내부 연료탱크 용량을 늘리고, 날개 아래에 1,150리터/304갤런 연료탱크 2개를 장착할 수 있도록 설계되었다. 또한 N019M 토파즈-M 레이더를 도입하여 두 표적에 대한 동시 교전과 향상된 전파방해 내성을 제공했다. MiG-29S에 R-77(AA-12 애더) 가시거리 밖(BVR) 교전용 미사일 운용 능력을 부여하고 최대 무장 탑재량을 늘려 전투능력을 개선했다. 내부 능동 레이더 전파방해기와 개량형 적외선 탐색·추적장치(IRST)도 통합했으며, 운용 받음각을 26°에서 28°로 높여 기동성을 향상했다.",
+      "previous_translation_sha256": "72099da1901f1bcd0d1a964a75ca6ec77a2ad0241029ebaa0c7134a8c61a64b6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1349.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2017.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e4781967286c30cd3dcdf6215acba88ac62f4819756a97ada55b9b6d968de33b",
+      "translation": "펄크럼 C는 원래 펄크럼 A의 짧은 항속거리를 부분적으로 보완하기 위해 조종석 뒤쪽 동체 상부를 부풀려 내부 연료탱크 용량을 늘리고, 날개 아래에 1,150리터/304갤런 연료탱크 2개를 장착할 수 있도록 설계되었다. 또한 N019M 토파즈-M 레이더를 도입하여 두 표적에 대한 동시 교전과 향상된 전파방해 내성을 제공했다. MiG-29S에 R-77(AA-12 애더) 가시거리 밖(BVR) 교전용 미사일 운용 능력을 부여하고 최대 무장 탑재량을 늘려 전투능력을 개선했다. 내부 능동 레이더 전파방해기와 개량형 적외선 탐색·추적장치(IRST)도 통합했으며, 운용 받음각을 26°에서 28°로 높여 기동성을 향상했다.",
+      "previous_translation_sha256": "72099da1901f1bcd0d1a964a75ca6ec77a2ad0241029ebaa0c7134a8c61a64b6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1349.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2041.txt",
       "paragraph_index": 2,
       "source_sha256": "9d2b61514efd400aff52efc11cff4dec94633aacb43995b75105fe52c81a46e3",
@@ -73410,6 +73761,15 @@
       "previous_translation_sha256": "d7c98fc8a255db212feee22562d139b59477cbfa9f0f8c62948173a0ff5e6210",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_205.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2057.txt",
+      "paragraph_index": 1,
+      "source_sha256": "e117336bca7eb3ff2e26c429c7813bca92ddaba1e0507014fa7a87b63ab59dad",
+      "translation": "세부 사항: 기체는 높은 강도와 가벼운 중량을 위해 금속 합금과 복합재로 제작되며, 공기역학적 배치는 ‘무미익 카나드 델타’ 형상을 채택한다. 대형 델타익은 동체 후방의 중간 높이에 장착되고, 한 쌍의 카나드(전익)는 동체 전방의 더 높은 위치이자 조종석의 뒤쪽 아래에 장착된다. 이러한 배치는 특히 저속에서 매우 높은 기동성을 제공하며, 실속속도도 낮춰 계기접근 시 더 낮은 대기속도로 비행할 수 있게 한다. 동체 위에는 대형 수직미익이 있고, 동체 아래의 소형 복부 핀은 안정성을 더욱 높인다.",
+      "previous_translation_sha256": "274d8d6b064284a1a15acf8129df15bd8c82f7f9e57ee8fb56cc85ab9e527c94",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2057.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2057.txt",
@@ -73430,6 +73790,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2107.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
+      "translation": "UH-1H의 이중 조종장치는 일반적인 헬리콥터 방식이며, 단일 유압계통이 사이클릭 조종간, 컬렉티브 레버, 반토크 페달의 조작을 보조한다. 컬렉티브 레버에는 스로틀이 내장되어 있지만, 자동으로 조절되는 로터 회전수를 제어하는 데 쓰이지 않고 엔진 시동과 정지에 사용된다. 사이클릭과 컬렉티브는 스와시플레이트로 연결되는 토크 튜브 링크를 통해 주로터 피치를 제어하며, 반토크 페달은 장력이 걸린 케이블 장치를 통해 꼬리로터 피치를 바꾼다. 일부 UH-1H는 꼬리로터 제어 케이블을 UH-1N 트윈 휴이와 유사한 토크 튜브로 교체하도록 개조되었다.",
+      "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2118.txt",
       "paragraph_index": 1,
       "source_sha256": "5a1fda898313574d6d6b4bc120de1a2bb0850ed1686c1c79bc9475d700c9aa9b",
@@ -73437,6 +73806,24 @@
       "previous_translation_sha256": "80c9e05d7fbba22825d85e69dc0d573441ec658df20d68d1df38dc06ed17008d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2118.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2123.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f4fd551de4634387c7b7ab275c6ea9b6a6fea108fc45f341e00adb21ec6cdb1e",
+      "translation": "세부 사항: F-5는 1950년대 노스럽이 자체 자금으로 추진한 경전투기 사업에서 시작되었다. 설계팀은 성능과 낮은 정비비에 중점을 두고, 소형이면서 추력이 높은 제너럴 일렉트릭 J85 엔진 2기를 중심으로 작고 공기역학적 성능이 뛰어난 전투기를 설계했다. 주로 주간 제공 임무용으로 설계되었지만 지상공격 능력도 우수하다. F-5A는 1960년대 초에 실전배치되었다. 냉전기에는 미국의 동맹국들을 위해 1972년까지 800대 이상이 생산되었다. 미 공군은 경전투기의 소요를 인정하지 않았지만, F-5A를 직접 기반으로 개발한 노스럽 T-38 탤론 훈련기는 약 1,200대 조달했다.",
+      "previous_translation_sha256": "cf135a34222e6d292674a0ccdbe92ac476f7eccd5ddf4252ac0d8fac4c54df5d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2124.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f4fd551de4634387c7b7ab275c6ea9b6a6fea108fc45f341e00adb21ec6cdb1e",
+      "translation": "세부 사항: F-5는 1950년대 노스럽이 자체 자금으로 추진한 경전투기 사업에서 시작되었다. 설계팀은 성능과 낮은 정비비에 중점을 두고, 소형이면서 추력이 높은 제너럴 일렉트릭 J85 엔진 2기를 중심으로 작고 공기역학적 성능이 뛰어난 전투기를 설계했다. 주로 주간 제공 임무용으로 설계되었지만 지상공격 능력도 우수하다. F-5A는 1960년대 초에 실전배치되었다. 냉전기에는 미국의 동맹국들을 위해 1972년까지 800대 이상이 생산되었다. 미 공군은 경전투기의 소요를 인정하지 않았지만, F-5A를 직접 기반으로 개발한 노스럽 T-38 탤론 훈련기는 약 1,200대 조달했다.",
+      "previous_translation_sha256": "cf135a34222e6d292674a0ccdbe92ac476f7eccd5ddf4252ac0d8fac4c54df5d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_138.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2137.txt",
@@ -73448,11 +73835,29 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2137.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2139.txt",
       "paragraph_index": 1,
       "source_sha256": "636cc7b718b3e11203cd225333a9fbcff0e26205066834b49aca083b0cc3fee9",
       "translation": "맥도넬 더글러스가 설계하고 초기 생산을 맡은 슈퍼 호넷은 1995년에 첫 비행을 했다. 맥도넬 더글러스와 보잉이 합병한 이듬달인 1997년 9월에 본격적인 양산이 시작되었다. 슈퍼 호넷은 1999년에 미 해군에 취역해 2006년에 퇴역한 그루먼 F-14 톰캣을 대체했으며, 기존 호넷과 함께 운용된다. 1984년부터 F/A-18A를 주력 전투기로 운용해 온 호주 공군은 노후한 F-111 전력을 대체하기 위해 2007년에 F/A-18F를 주문했다. 호주 공군의 슈퍼 호넷은 2010년 12월에 취역했다.",
       "previous_translation_sha256": "b6ca40da812bdf4e581de984c4487b76ce9e3050944c6809a4cc54e4d6e14fbe",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2139.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
@@ -73473,6 +73878,24 @@
       "previous_translation_sha256": "2b876f7d41beaddb8f11183cec3999d20823d46b12b132b1780c36fadeaa9ccb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2155.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "0871a350f0f8ee2835bb77a2bbaca6f0d794d79bf99d5209d394173ca0019f92",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2156.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "0871a350f0f8ee2835bb77a2bbaca6f0d794d79bf99d5209d394173ca0019f92",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_219.txt",
@@ -73547,6 +73970,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_24.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2478.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e117336bca7eb3ff2e26c429c7813bca92ddaba1e0507014fa7a87b63ab59dad",
+      "translation": "세부 사항: 기체는 높은 강도와 가벼운 중량을 위해 금속 합금과 복합재로 제작되며, 공기역학적 배치는 ‘무미익 카나드 델타’ 형상을 채택한다. 대형 델타익은 동체 후방의 중간 높이에 장착되고, 한 쌍의 카나드(전익)는 동체 전방의 더 높은 위치이자 조종석의 뒤쪽 아래에 장착된다. 이러한 배치는 특히 저속에서 매우 높은 기동성을 제공하며, 실속속도도 낮춰 계기접근 시 더 낮은 대기속도로 비행할 수 있게 한다. 동체 위에는 대형 수직미익이 있고, 동체 아래의 소형 복부 핀은 안정성을 더욱 높인다.",
+      "previous_translation_sha256": "274d8d6b064284a1a15acf8129df15bd8c82f7f9e57ee8fb56cc85ab9e527c94",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2057.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_253.txt",
       "paragraph_index": 3,
       "source_sha256": "1ae37ecc3ad44297be69ba551f29a4463d02ba3336c4ab1cdcbbc03adbafeacd",
@@ -73608,6 +74040,15 @@
       "previous_translation_sha256": "4bd421ed8f2163f947139b24c27dd85194c245cfdddefdaaed4a9f67b1222271",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/aircraft_2689.txt",
+      "paragraph_index": 1,
+      "source_sha256": "35297cfe110e77a518399e1b77f0306ee7cdfbc57f6455a26e6a2f044bc18d0e",
+      "translation": "세부 사항: Su-27을 기반으로 한 Su-35S는 구조 보강, 디지털 플라이바이와이어 체계, AL-41F1S(117S) 터보팬 엔진 2기를 갖추며 최대 속도는 마하 2.25이다. 무장 장착점 12개를 갖추고 이르비스-E 수동전자주사배열(PESA) 레이더, OLS-35 적외선 탐색·추적장치(IRST), L-265V 히비니-MV 전자전 체계를 탑재한다. R-77-1과 R-73M 공대공미사일, Kh-31P/A와 Kh-59MK 공대지미사일, KAB-500/1500 유도폭탄 등 다양한 무장을 운용할 수 있다. 설계상 카나드는 제외되었고 레이더 반사면적 감소 조치를 적용했지만, 스텔스 항공기는 아니다. 플랭커 M은 Su-35S의 NATO 식별명이다.",
+      "previous_translation_sha256": "b110e7d8126e0f8a1828e2cad77bb44273b859ba5a3c091bc612072fecf7c1b4",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/aircraft_2689.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_270.txt",
@@ -73845,6 +74286,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_308.txt",
+      "paragraph_index": 1,
+      "source_sha256": "9b2f0a3f23bc7d6e19047eb44e867a4cc9ed7b80a75c2108553498cdaee6a5ba",
+      "translation": "세부 사항: 1991년 걸프전의 준비 단계인 그랜비 작전 당시 토네이도 F.3 약 18대가 사우디아라비아에 신속히 전개되었다. 이 항공기들은 스테이지 1+로 개량된 폭스헌터 레이더, 개선된 엔진 설정(더 높은 터빈 블레이드 온도), 고온 환경용 타이어와 개조된 캐노피 환기장치 등의 구조적 변경 사항을 적용했다. 대응수단 개량에는 팬텀에서 가져온 AN/ALE-40 플레어 발사기와 주익 아래에 장착한 피마트 채프 포드가 포함되었다. 표준 무장은 AIM-9M 사이드와인더 4발과 스카이플래시 중거리 미사일 4발이었다. 이러한 개조는 사막 환경에서 생존성과 요격 능력을 높이는 데 목적이 있었다.",
+      "previous_translation_sha256": "e6799e8499e8e62d7ddb5c4c3c11cfb3b75db81c8121c554660d0b3e493eaa7e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_308.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_308.txt",
       "paragraph_index": 2,
       "source_sha256": "68f41d8c68ec3079d409982504aa611c51d941b1bde8266b894b07074f9eed14",
       "translation": "‘토네이도 F.3 스테이지 1+’(걸프전 개조형)는 1991년에 긴급히 적용한 작전 성능 개량을 반영한 형식으로, 레이더 냉각 및 소프트웨어 개선, 고온 환경에 맞춘 엔진 조정, 전자대응 장비 및 살포기 성능 향상을 포함한다. 엔진은 터빈 블레이드 온도를 24°C 이상 높이도록 재프로그래밍되었으며, 이에 따라 추력이 향상된 대신 엔진을 장착한 채 운용할 수 있는 기간은 줄어들었다. 날개와 캐노피 개조로 사막 작전 준비태세를 개선했지만, 가변후퇴익과 주요 기체 구조는 그대로 유지했다. 이 구성은 그랜비 작전 전 기간과 이후의 영공 경계 임무에 사용되었으며, 그 뒤 추가 개량을 거쳐 최종적으로 퇴역했다.",
@@ -73860,6 +74310,33 @@
       "previous_translation_sha256": "40a987cf497c5e98d727f30d89ac42b6652e65b3d6ac3e05a738f8294119ea53",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1725.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3224.txt",
+      "paragraph_index": 1,
+      "source_sha256": "17b8ccb61df808c9eb325e9708c52a7fcd2b85b5a87daf2b5113fc39ad772f2c",
+      "translation": "세부 사항: 2014년형 GR.4는 RB199-34R Mk 103 터보팬 엔진 2기와 가변후퇴익(25°–67°)을 유지했으며, 원문은 이를 통해 최대 마하 2.2의 고속 저고도 지형추적 비행이 가능했다고 기술한다. 항공전자장비에는 전방감시적외선장비(FLIR), GPS/INS 항법장치, 지형추적 레이더, LRMTS, 광시야각 HUD, 야간투시경(NVG) 호환 조종석, MIL-STD-1553B 데이터버스가 포함되었다. 스톰 섀도 순항미사일, 이중모드 브림스톤 미사일, 페이브웨이 IV 레이저/GPS 유도폭탄 등의 정밀유도무장과 함께 라이테닝 III 표적지시 포드 및 RAPTOR 정찰 포드를 탑재했다. 방어체계에는 마우저 BK-27 기관포, AIM-9L 사이드와인더 미사일, BOZ-107 대응수단 포드, 스카이 섀도 방어용 전자대응(DECM) 포드, 내장형 레이더경보수신기가 포함되었다.",
+      "previous_translation_sha256": "617fd97d49d27519209b781f89383a64b1561323ec0717c065ae66ad2279402d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3224.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3300.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e117336bca7eb3ff2e26c429c7813bca92ddaba1e0507014fa7a87b63ab59dad",
+      "translation": "세부 사항: 기체는 높은 강도와 가벼운 중량을 위해 금속 합금과 복합재로 제작되며, 공기역학적 배치는 ‘무미익 카나드 델타’ 형상을 채택한다. 대형 델타익은 동체 후방의 중간 높이에 장착되고, 한 쌍의 카나드(전익)는 동체 전방의 더 높은 위치이자 조종석의 뒤쪽 아래에 장착된다. 이러한 배치는 특히 저속에서 매우 높은 기동성을 제공하며, 실속속도도 낮춰 계기접근 시 더 낮은 대기속도로 비행할 수 있게 한다. 동체 위에는 대형 수직미익이 있고, 동체 아래의 소형 복부 핀은 안정성을 더욱 높인다.",
+      "previous_translation_sha256": "274d8d6b064284a1a15acf8129df15bd8c82f7f9e57ee8fb56cc85ab9e527c94",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2057.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3311.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a2171cf619165f0d189476b15f9a59e3ca826515efbe93bc32286753dc1fc86c",
+      "translation": "세부 사항: J-15S는 선양항공공사가 J-15의 복좌형으로 개발했으며, J-15 자체는 러시아 Su-33 기체를 기반으로 중국의 항공모함 운용에 맞게 대폭 개조한 항공기이다. 2013년에 처음 공개된 J-15S는 단좌형의 핵심 설계와 성능 특성을 유지하면서 복잡한 협조나 체계 관리가 필요한 임무를 지원할 두 번째 승무원을 추가했다. 터보팬 엔진 2기로 추진되며, 최대속도는 약 마하 2.0, 추정 전투행동반경은 1,300~1,500km이다. 약 10개의 무장 장착점을 갖추어 공대공·공대지 탄약과 임무 포드를 탑재할 수 있다.",
+      "previous_translation_sha256": "1f6486b9fa78ad39c2dbc03eb62543fb151deed2b447a7d16afc655415cd04ad",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3311.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3320.txt",
@@ -73934,6 +74411,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_342.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3434.txt",
       "paragraph_index": 2,
       "source_sha256": "877cd293c32c88fe267483168ace6de9717654b722f378526132abc362e81582",
@@ -73961,11 +74447,29 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3482.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3483.txt",
       "paragraph_index": 1,
       "source_sha256": "636cc7b718b3e11203cd225333a9fbcff0e26205066834b49aca083b0cc3fee9",
       "translation": "맥도넬 더글러스가 설계하고 초기 생산을 맡은 슈퍼 호넷은 1995년에 첫 비행을 했다. 맥도넬 더글러스와 보잉이 합병한 이듬달인 1997년 9월에 본격적인 양산이 시작되었다. 슈퍼 호넷은 1999년에 미 해군에 취역해 2006년에 퇴역한 그루먼 F-14 톰캣을 대체했으며, 기존 호넷과 함께 운용된다. 1984년부터 F/A-18A를 주력 전투기로 운용해 온 호주 공군은 노후한 F-111 전력을 대체하기 위해 2007년에 F/A-18F를 주문했다. 호주 공군의 슈퍼 호넷은 2010년 12월에 취역했다.",
       "previous_translation_sha256": "b6ca40da812bdf4e581de984c4487b76ce9e3050944c6809a4cc54e4d6e14fbe",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3483.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
@@ -74016,12 +74520,57 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_355.txt",
+      "paragraph_index": 3,
+      "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "0871a350f0f8ee2835bb77a2bbaca6f0d794d79bf99d5209d394173ca0019f92",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_355.txt",
       "paragraph_index": 5,
       "source_sha256": "9ebf55c9dfee050b103a0f5039e15830ca0281633d36af9a87b82dff30f71762",
       "translation": "Su-27은 반능동 레이더 유도 또는 적외선 유도 방식을 사용하는 전방위 교전 가능 중거리 미사일인 R-27R/R-27T 계열(AA-10A 알라모-A / AA-10B 알라모-B)을 탑재한다. 이 미사일의 사거리는 0.27~32해리이다. 또한 적외선 유도 방식의 전방위 교전 가능 근접전용 공대공 미사일인 R-73 계열(AA-11 아처)을 탑재하며, 사거리는 0.17~11해리이다. Su-27P와 달리 Su-27SK는 공대지 공격 능력을 갖춘다. 공대지 임무용 무장으로는 100kg, 250kg, 500kg 자유낙하 및 감속 항공폭탄, 500kg 소이탄, 25kg 및 500kg RBK 집속탄, S-8, S-13, S-24, S-25 무유도 항공로켓이 있다.",
       "previous_translation_sha256": "19a0ba3ecb18c0077fa9e4940896e3f331576bcd33cca72a1ea63d1728e26eca",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_355.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3601.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f4fd551de4634387c7b7ab275c6ea9b6a6fea108fc45f341e00adb21ec6cdb1e",
+      "translation": "세부 사항: F-5는 1950년대 노스럽이 자체 자금으로 추진한 경전투기 사업에서 시작되었다. 설계팀은 성능과 낮은 정비비에 중점을 두고, 소형이면서 추력이 높은 제너럴 일렉트릭 J85 엔진 2기를 중심으로 작고 공기역학적 성능이 뛰어난 전투기를 설계했다. 주로 주간 제공 임무용으로 설계되었지만 지상공격 능력도 우수하다. F-5A는 1960년대 초에 실전배치되었다. 냉전기에는 미국의 동맹국들을 위해 1972년까지 800대 이상이 생산되었다. 미 공군은 경전투기의 소요를 인정하지 않았지만, F-5A를 직접 기반으로 개발한 노스럽 T-38 탤론 훈련기는 약 1,200대 조달했다.",
+      "previous_translation_sha256": "cf135a34222e6d292674a0ccdbe92ac476f7eccd5ddf4252ac0d8fac4c54df5d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3602.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f4fd551de4634387c7b7ab275c6ea9b6a6fea108fc45f341e00adb21ec6cdb1e",
+      "translation": "세부 사항: F-5는 1950년대 노스럽이 자체 자금으로 추진한 경전투기 사업에서 시작되었다. 설계팀은 성능과 낮은 정비비에 중점을 두고, 소형이면서 추력이 높은 제너럴 일렉트릭 J85 엔진 2기를 중심으로 작고 공기역학적 성능이 뛰어난 전투기를 설계했다. 주로 주간 제공 임무용으로 설계되었지만 지상공격 능력도 우수하다. F-5A는 1960년대 초에 실전배치되었다. 냉전기에는 미국의 동맹국들을 위해 1972년까지 800대 이상이 생산되었다. 미 공군은 경전투기의 소요를 인정하지 않았지만, F-5A를 직접 기반으로 개발한 노스럽 T-38 탤론 훈련기는 약 1,200대 조달했다.",
+      "previous_translation_sha256": "cf135a34222e6d292674a0ccdbe92ac476f7eccd5ddf4252ac0d8fac4c54df5d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3603.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f4fd551de4634387c7b7ab275c6ea9b6a6fea108fc45f341e00adb21ec6cdb1e",
+      "translation": "세부 사항: F-5는 1950년대 노스럽이 자체 자금으로 추진한 경전투기 사업에서 시작되었다. 설계팀은 성능과 낮은 정비비에 중점을 두고, 소형이면서 추력이 높은 제너럴 일렉트릭 J85 엔진 2기를 중심으로 작고 공기역학적 성능이 뛰어난 전투기를 설계했다. 주로 주간 제공 임무용으로 설계되었지만 지상공격 능력도 우수하다. F-5A는 1960년대 초에 실전배치되었다. 냉전기에는 미국의 동맹국들을 위해 1972년까지 800대 이상이 생산되었다. 미 공군은 경전투기의 소요를 인정하지 않았지만, F-5A를 직접 기반으로 개발한 노스럽 T-38 탤론 훈련기는 약 1,200대 조달했다.",
+      "previous_translation_sha256": "cf135a34222e6d292674a0ccdbe92ac476f7eccd5ddf4252ac0d8fac4c54df5d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3658.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d155a8675b768fc6afe98d6f3c3e2d63db98419c701eebdbde4486df9f552610",
+      "translation": "세부 사항: F-15K는 일반적인 F-15E에는 없는 여러 특징을 갖춘 파생형이다. 여기에는 AAS-42 적외선 탐색·추적장치, 중량을 줄이고 전파방해 효과를 높이도록 맞춤 구성한 전술 전자전 체계, 야간투시장비와 호환되는 조종석, 전투기 데이터링크 체계를 갖춘 ARC-232 U/VHF 무전기, 첨단 APG-63(V)1 기계식 주사 배열 레이더가 포함된다. APG-63(V)1 레이더는 APG-63(V)3 능동전자주사배열(AESA) 레이더와 공통 디지털 처리장비를 사용하므로 안테나 교체를 통해 AESA 레이더로 개량할 수 있다. F-15K는 통합 헬멧 장착 조준체계와 AGM-84K SLAM-ER, AGM-84H 하푼 블록 II, KEPD 350 등의 무장을 갖춘다.",
+      "previous_translation_sha256": "df6cd12fb37f538d6bd252bad7bbbd3b1ad89ba9d49aedf64978de934e052e25",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1748.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3685.txt",
@@ -74049,6 +74598,15 @@
       "previous_translation_sha256": "b077a077da1e60587d8bdc1d578679bf9ffe7f3b7ac2cedccb61e4e2bf44c361",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_3801.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3810.txt",
+      "paragraph_index": 1,
+      "source_sha256": "34a9b4bc3e94b86e768b6d3017266a5ae315c00128bcb2f43a6b82a02997bf27",
+      "translation": "세부 사항: 2016년부터 GR.4는 ASSTA 2/CUSP 개량을 통해 광시야각 컬러 HUD와 개선된 인간-기계 인터페이스를 갖춘 현대적인 조종석 디스플레이를 도입했다. 실시간 작전 네트워크 운용을 위해 개량형 주 컴퓨터와 Link-16/MIDS 데이터링크를 장착했다. 방어 능력 개선 사항에는 디지털 미사일접근경보체계, 레이더경보수신기, 예인식 기만체 및 브라이트클라우드 능동 기만체 운용 지원이 포함되었다. 2016년 7월 영국 공군 GR.4에 브림스톤 2 미사일이 처음 실전 배치되었으며, 개선된 탐색기와 늘어난 사거리를 제공했다. 이 항공기는 이전 구성의 FLIR, GPS/INS, LRMTS, 라이테닝 III 표적지시 포드, RAPTOR 정찰 포드를 유지했다.",
+      "previous_translation_sha256": "64d3fd7700805844e237c5aba68901af716ddb4a799488b087e843fce46b2cf9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3810.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3881.txt",
@@ -74150,6 +74708,24 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_443.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4443.txt",
+      "paragraph_index": 1,
+      "source_sha256": "baf86a6381545d1e92f8d0e51da5c596fd09c318d2d5cf4557845a30eccee89e",
+      "translation": "세부 사항: 스웨덴은 1971년 SAS가 사용하던 카라벨 III 기체 2대를 도입했으며, 1973년부터 FRA의 신호정보 수집용으로 개조했다. 외국 레이더 방사를 감청하고 위치를 파악하기 위해 길어진 레이돔 기수, 카누형 동체 하부 페어링, 기수 측면 안테나 포드, 동체 상부 블레이드형 안테나 배열, 날개 끝 센서를 장착했다. 롤스로이스 에이본 RA.29 Mk 527B 터보제트 엔진 2기로 구동되었으며, 순항속도는 약 850 km/h, 실용상승한도는 약 12,000 m, 전자정보(ELINT) 임무 항속거리는 약 3,200 km였다. 각 기체에는 승무원 3명이 탑승했으며, 전용 수신기, 위치측정 체계, 데이터링크와 연동되는 여러 운용자 콘솔을 갖추었다.",
+      "previous_translation_sha256": "e2d0760a7d273d0eb6882f7297d6c725c26ac9dbc0376ece5441e5c0c5ae28b6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4443.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_4486.txt",
       "paragraph_index": 2,
       "source_sha256": "5aa08c266d7075c6d3beede67df6bd53b50f806632f7bd742194d82198887468",
@@ -74186,6 +74762,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1077.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_4514.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d155a8675b768fc6afe98d6f3c3e2d63db98419c701eebdbde4486df9f552610",
+      "translation": "세부 사항: F-15K는 일반적인 F-15E에는 없는 여러 특징을 갖춘 파생형이다. 여기에는 AAS-42 적외선 탐색·추적장치, 중량을 줄이고 전파방해 효과를 높이도록 맞춤 구성한 전술 전자전 체계, 야간투시장비와 호환되는 조종석, 전투기 데이터링크 체계를 갖춘 ARC-232 U/VHF 무전기, 첨단 APG-63(V)1 기계식 주사 배열 레이더가 포함된다. APG-63(V)1 레이더는 APG-63(V)3 능동전자주사배열(AESA) 레이더와 공통 디지털 처리장비를 사용하므로 안테나 교체를 통해 AESA 레이더로 개량할 수 있다. F-15K는 통합 헬멧 장착 조준체계와 AGM-84K SLAM-ER, AGM-84H 하푼 블록 II, KEPD 350 등의 무장을 갖춘다.",
+      "previous_translation_sha256": "df6cd12fb37f538d6bd252bad7bbbd3b1ad89ba9d49aedf64978de934e052e25",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1748.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_4547.txt",
       "paragraph_index": 1,
       "source_sha256": "3743747ef317e32a5b858791e642bd31c6c6ee7640bf65b275450fd4a918dfc2",
@@ -74211,6 +74796,15 @@
       "previous_translation_sha256": "3e9c5013907406ad6efd10d5bc65d13d17080791e18ea816976b611e840aed00",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4616.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a69f9b15397f7f1d60a53c425f37b5ccc21730012359ada07b4b46263b4ca5de",
+      "translation": "세부 사항: CSA-003 스카우트는 일반적으로 조종사 훈련과 감시에 사용되는 오스트리아제 쌍발 복합재 항공기인 다이아몬드 DA42를 기반으로 한다. 중국에서는 중국남방항공공업공사(CSAIC)가 이 기체를 전자정보(ELINT) 플랫폼으로 개조하여 신호 수집용 센서와 안테나를 장착했다. 원문에서 ‘디젤 터보프롭’으로 기술한 기존 아우스트로 엔진 AE300 2기를 그대로 사용하며, 낮은 운용비로 약 330km/h의 순항속도와 8시간 이상의 체공시간을 제공한다. 자국 지역 상공에서 위험도가 낮은 장시간 전자정보 임무를 수행하도록 설계되었으며, 탑재 체계는 통신 및 비협조적 레이더 신호원 감시에 중점을 두었다.",
+      "previous_translation_sha256": "f8fa8a57fb8814a93555dd6d303c0e5dbf17f980250a61c97dffb5fb4b756b0f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4616.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4617.txt",
@@ -74285,6 +74879,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_4696.txt",
+      "paragraph_index": 3,
+      "source_sha256": "073ffda28b58ef7d31a00b71f5812c63c74f43ea1ff6d0c3da5394d058a5bfd2",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "b8bd99d867cf0af98887b178d3a84b0ebf51a45b48455f8acae49e710963364f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4696.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_4868.txt",
       "paragraph_index": 4,
       "source_sha256": "3e0bd34b9301f447dd89102685d972e20f8264ccf96145bfdb7ea194647bc19f",
@@ -74301,6 +74904,24 @@
       "previous_translation_sha256": "507e08ce266997e48e37c8c42209febacdaa3fa81851f275d0b7d3f81aedfe9b",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4883.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_5094.txt",
+      "paragraph_index": 1,
+      "source_sha256": "784352898f4379ae00c8c5257b90d23411e6d9759dc7b9cceaf1ea33c3bb2e42",
+      "translation": "세부 사항: T.4는 페가수스 11 Mk 103 엔진 도입과 GR.3 개량이 진행되던 시기에 브리티시 에어로스페이스가 제작했으며, 1977년 영국 공군에 취역했다. 약 21,500 lbf의 추력을 내는 롤스로이스 페가수스 11 Mk 103 터보팬 엔진으로 구동된다. 복좌 조종석을 수용하고 비행 안정성을 유지하기 위해 동체를 연장하고 수직꼬리날개를 높였다. GR.3와 동일한 레이저 거리측정기 및 표적지시점 탐색기(LRMTS)를 갖추었으며, 레이더경보수신기도 탑재했다. 이 훈련기는 구성에 따라 외부 무장 장착점 5~7개를 유지했으며, 원문은 ADEN 기관포 포드를 갖춘 무장 탑재 가능 기수부도 유지했다고 기술한다. 최대속도는 약 마하 0.97이었다.",
+      "previous_translation_sha256": "260474e848304badb2f39b027eb374b93d849032e22e8e963972e9947206dcbe",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_5094.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_516.txt",
+      "paragraph_index": 0,
+      "source_sha256": "631aa869773e4c1d6a1195edbea25f883efa7a60cfc9b1e56912eb045b6bc4ff",
+      "translation": "개요: 시코르스키 CH-53E 슈퍼 스탤리언은 미군에서 가장 크고 무거운 헬리콥터이다. 시코르스키 S-80이라는 명칭으로 CH-53 시 스탤리언을 기반으로 개발되었으며, 주요 변경 사항은 세 번째 엔진 추가, 주로터의 일곱 번째 블레이드 추가, 꼬리로터를 20도 기울인 것이다. 시코르스키 에어크래프트가 미 해병대를 위해 제작했다. 상대적으로 드문 MH-53E 시 드래곤은 미 해군의 장거리 소해 또는 항공 기뢰대항작전(AMCM) 임무 수요를 충족하며, 해군의 중량물 수송 임무도 수행한다. CH-53K 킹 스탤리언은 개발 중이며, 신형 엔진, 새로운 복합재 로터 블레이드, 더 넓은 객실을 갖출 예정이다.",
+      "previous_translation_sha256": "43fade7bd90e493775279e63a973db90043d79b29580a77c828068b36610d8c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1986.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_5250.txt",
@@ -74393,6 +75014,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_5832.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_5906.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "0871a350f0f8ee2835bb77a2bbaca6f0d794d79bf99d5209d394173ca0019f92",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_5908.txt",
       "paragraph_index": 6,
       "source_sha256": "f2be655ca5c281d40b552c7cf90dcd8760613227b1810564d20dc62b59335f93",
@@ -74400,6 +75030,24 @@
       "previous_translation_sha256": "2a6a8506a3944849985074ff572e84e01550685cf3039ebb74784a4356da9539",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1049.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_5924.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "0871a350f0f8ee2835bb77a2bbaca6f0d794d79bf99d5209d394173ca0019f92",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_5925.txt",
+      "paragraph_index": 3,
+      "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 +9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "0871a350f0f8ee2835bb77a2bbaca6f0d794d79bf99d5209d394173ca0019f92",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_5925.txt",
@@ -74456,6 +75104,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_5996.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_6466.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5f6ef11de5a53509ec793d2fad86c67edc3a868836037964c7b6842e066ce375",
+      "translation": "세부 사항: F.27-400은 원래 네덜란드에서 설계되고 이후 다양한 군사 임무에 맞게 개조된 포커 F.27 프렌드십 단거리 수송기의 동체 연장형이다. 핀란드 공군은 1990년대 초 1대를 도입하여 특수임무용으로 개조했으며, 이 임무에는 공중 전자감시와 정보수집이 포함된 것으로 알려져 있다. 롤스로이스 다트 Mk 528 터보프롭 엔진 2기를 탑재했으며, 순항속도는 약 마하 0.38(약 460 km/h), 항속거리는 약 2,400 km이다. 고익 배치와 단거리 이착륙 성능을 갖춰 소규모 지방 비행장에서 운용하기에 적합하다.",
+      "previous_translation_sha256": "108e2b940b17bf21c06a63b5a7facd6c551076567ec406a43f85700262eef19c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_6466.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_676 .txt",
       "paragraph_index": 1,
       "source_sha256": "f31d01063cac6c5c2ef35066d24b5427eb7dbf5c381f2c0cbba5340f4120f7c5",
@@ -74472,6 +75129,24 @@
       "previous_translation_sha256": "b6ca40da812bdf4e581de984c4487b76ce9e3050944c6809a4cc54e4d6e14fbe",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_679.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_6895.txt",
+      "paragraph_index": 1,
+      "source_sha256": "70eae90bc43fe1dba4c8ff0456062084982bfcd81b3ef2582c7ac62aabdf2c83",
+      "translation": "세부 사항: 보잉 707-337C는 원래 민간 화물·여객 전환형으로 제작되었으며, 이후 인도가 전문 전자전/전자정보(EW/ELINT) 플랫폼으로 개조하기 위해 도입했다. 1980년대에 이스라엘의 지원을 받은 것으로 알려진 기밀 사업을 통해 개조되었으며, 실시간 정보 수집과 전자지원 임무를 위한 센서, 안테나, 작업석을 갖추었다. 주 임무는 적 레이더와 통신 신호를 감청하고 발신 위치를 파악하며 분석하여 인도의 전자전투서열 파악 능력을 높이는 것이었다. 프랫 앤드 휘트니 JT3D 터보팬 엔진 4기를 탑재했으며, 최대속도는 약 마하 0.81, 회송항속거리는 10,000km 이상이었다.",
+      "previous_translation_sha256": "aae091e89e187504be4a42752203b1bd25f0efe4c576a2b26d7692bca07576f0",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_6895.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_690.txt",
@@ -74499,6 +75174,15 @@
       "previous_translation_sha256": "cc6cf3926f48a100dad2c077a64c4c65160d8ff6328c21070f0eb0691714dfab",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_5996.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_715.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e117336bca7eb3ff2e26c429c7813bca92ddaba1e0507014fa7a87b63ab59dad",
+      "translation": "세부 사항: 기체는 높은 강도와 가벼운 중량을 위해 금속 합금과 복합재로 제작되며, 공기역학적 배치는 ‘무미익 카나드 델타’ 형상을 채택한다. 대형 델타익은 동체 후방의 중간 높이에 장착되고, 한 쌍의 카나드(전익)는 동체 전방의 더 높은 위치이자 조종석의 뒤쪽 아래에 장착된다. 이러한 배치는 특히 저속에서 매우 높은 기동성을 제공하며, 실속속도도 낮춰 계기접근 시 더 낮은 대기속도로 비행할 수 있게 한다. 동체 위에는 대형 수직미익이 있고, 동체 아래의 소형 복부 핀은 안정성을 더욱 높인다.",
+      "previous_translation_sha256": "274d8d6b064284a1a15acf8129df15bd8c82f7f9e57ee8fb56cc85ab9e527c94",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2057.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_7297.txt",
@@ -74564,6 +75248,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_753.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_818.txt",
       "paragraph_index": 1,
       "source_sha256": "786cebe6cad3d84a39cde59bcaf9234f9e8eb674a8b2b36f2108805da32e4af3",
@@ -74591,6 +75284,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_843.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e4781967286c30cd3dcdf6215acba88ac62f4819756a97ada55b9b6d968de33b",
+      "translation": "펄크럼 C는 원래 펄크럼 A의 짧은 항속거리를 부분적으로 보완하기 위해 조종석 뒤쪽 동체 상부를 부풀려 내부 연료탱크 용량을 늘리고, 날개 아래에 1,150리터/304갤런 연료탱크 2개를 장착할 수 있도록 설계되었다. 또한 N019M 토파즈-M 레이더를 도입하여 두 표적에 대한 동시 교전과 향상된 전파방해 내성을 제공했다. MiG-29S에 R-77(AA-12 애더) 가시거리 밖(BVR) 교전용 미사일 운용 능력을 부여하고 최대 무장 탑재량을 늘려 전투능력을 개선했다. 내부 능동 레이더 전파방해기와 개량형 적외선 탐색·추적장치(IRST)도 통합했으며, 운용 받음각을 26°에서 28°로 높여 기동성을 향상했다.",
+      "previous_translation_sha256": "72099da1901f1bcd0d1a964a75ca6ec77a2ad0241029ebaa0c7134a8c61a64b6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1349.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_845.txt",
       "paragraph_index": 3,
       "source_sha256": "1ae37ecc3ad44297be69ba551f29a4463d02ba3336c4ab1cdcbbc03adbafeacd",
@@ -74598,6 +75300,15 @@
       "previous_translation_sha256": "3e9c5013907406ad6efd10d5bc65d13d17080791e18ea816976b611e840aed00",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_847.txt",
+      "paragraph_index": 3,
+      "source_sha256": "073ffda28b58ef7d31a00b71f5812c63c74f43ea1ff6d0c3da5394d058a5bfd2",
+      "translation": "Su-27은 높은 기동성을 갖춘 항공기로 설계되었다. 이를 위해 공기역학적으로 불안정하도록 설계했다. 주익과 동체는 공기역학적 양력을 발생시키는 하나의 통합 구조를 이루어 높은 공력 효율과 양력계수를 제공한다. 여기에 낮은 익면하중, 높은 추력대중량비, 4중으로 다중화한 아날로그 플라이바이와이어 체계가 더해져 낮은 대기속도에서도 매우 민첩하게 기동한다. Su-27은 9.0g 기동을 지속할 수 있으며, 버블형 캐노피를 갖춘 조종석은 조종사에게 뛰어난 시야를 제공한다. 이러한 특성에 조종사의 헬멧 장착형 표적지시기, 전방위 교전이 가능한 AA-11 미사일, 30mm 기관포가 결합되어 플랭커는 우수한 근접 공중전 항공기가 된다.",
+      "previous_translation_sha256": "b8bd99d867cf0af98887b178d3a84b0ebf51a45b48455f8acae49e710963364f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4696.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_856.txt",
@@ -74616,6 +75327,15 @@
       "previous_translation_sha256": "3e9c5013907406ad6efd10d5bc65d13d17080791e18ea816976b611e840aed00",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_858.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e4781967286c30cd3dcdf6215acba88ac62f4819756a97ada55b9b6d968de33b",
+      "translation": "펄크럼 C는 원래 펄크럼 A의 짧은 항속거리를 부분적으로 보완하기 위해 조종석 뒤쪽 동체 상부를 부풀려 내부 연료탱크 용량을 늘리고, 날개 아래에 1,150리터/304갤런 연료탱크 2개를 장착할 수 있도록 설계되었다. 또한 N019M 토파즈-M 레이더를 도입하여 두 표적에 대한 동시 교전과 향상된 전파방해 내성을 제공했다. MiG-29S에 R-77(AA-12 애더) 가시거리 밖(BVR) 교전용 미사일 운용 능력을 부여하고 최대 무장 탑재량을 늘려 전투능력을 개선했다. 내부 능동 레이더 전파방해기와 개량형 적외선 탐색·추적장치(IRST)도 통합했으며, 운용 받음각을 26°에서 28°로 높여 기동성을 향상했다.",
+      "previous_translation_sha256": "72099da1901f1bcd0d1a964a75ca6ec77a2ad0241029ebaa0c7134a8c61a64b6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1349.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_896.txt",
@@ -74663,11 +75383,29 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_953.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_965.txt",
       "paragraph_index": 1,
       "source_sha256": "636cc7b718b3e11203cd225333a9fbcff0e26205066834b49aca083b0cc3fee9",
       "translation": "맥도넬 더글러스가 설계하고 초기 생산을 맡은 슈퍼 호넷은 1995년에 첫 비행을 했다. 맥도넬 더글러스와 보잉이 합병한 이듬달인 1997년 9월에 본격적인 양산이 시작되었다. 슈퍼 호넷은 1999년에 미 해군에 취역해 2006년에 퇴역한 그루먼 F-14 톰캣을 대체했으며, 기존 호넷과 함께 운용된다. 1984년부터 F/A-18A를 주력 전투기로 운용해 온 호주 공군은 노후한 F-111 전력을 대체하기 위해 2007년에 F/A-18F를 주문했다. 호주 공군의 슈퍼 호넷은 2010년 12월에 취역했다.",
       "previous_translation_sha256": "b6ca40da812bdf4e581de984c4487b76ce9e3050944c6809a4cc54e4d6e14fbe",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_965.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a6579c3d8999afc093a54fe9e854cb187a048a003075617f775a440d73390e77",
+      "translation": "슈퍼 호넷은 이전 호넷과 달리 다른 항공기에 급유하기 위한 공중급유체계(ARS), 즉 ‘버디 스토어’를 장착할 수 있도록 설계되어, KA-6D와 록히드 S-3B 바이킹 급유기의 퇴역으로 해군이 상실한 전술 공중급유기 역할을 수행한다. ARS는 중심선에 장착되는 호스 릴을 갖춘 330 미국 갤런(1,200 L) 외부 연료탱크와 480 미국 갤런(1,800 L) 외부 연료탱크 4개, 내부 연료탱크로 구성되며, 항공기의 총 연료 탑재량은 29,000 lb(13,000 kg)이다. 일반적인 임무에서는 항공단의 5분의 1이 급유 임무에 투입되며, 이 임무는 다른 임무보다 기체의 잔여 피로수명을 더 빨리 소모한다.",
+      "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
@@ -74715,6 +75453,15 @@
       "previous_translation_sha256": "eed69c4c960e594c3b5d9697212b90668b6d390b4b73f6598ad787a9cb3e4d28",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1170.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1234.txt",
+      "paragraph_index": 0,
+      "source_sha256": "e6fc53eb5171293d5006ee59dc7d2d3b6d1037c27acfbf9291b81a321b420ba4",
+      "translation": "개요: GM 403은 초고고도부터 초저고도까지 탐지할 수 있는 3차원 장거리 레이더이다. 기동성이 높은 저공비행 전술항공기부터 무인기와 같은 비전통적 소형 표적까지 폭넓게 추적하여 우수한 광역 공중상황도를 제공한다. GM 400은 1시간 안에 설치할 수 있다. 현장에 전개된 GM 400 레이더는 네트워크화된 방공조직의 일부로 연결하여 운용할 수 있으며, 원격지에서 제어할 수 있다. GM 403은 항공교통관제 능력을 제공하는 다양한 2차 레이더와 연동할 수도 있으며, 이들 레이더는 전술탄도미사일 탐지·추적 능력도 통합할 수 있다.",
+      "previous_translation_sha256": "a824c448724134ccaf1a41db5388aa4e0cc41b03e2c5be6aaa987a7b1b06b865",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1234.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1241.txt",
@@ -74933,6 +75680,24 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_1949.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_1970.txt",
+      "paragraph_index": 1,
+      "source_sha256": "536f402e6094a058fe406c95fe2a66c4acc8401442be2fe8b6e0eabdb3349260",
+      "translation": "세부 사항: BM-27 우라간은 1970년대에 개발되었으며, 서방에는 1977년 처음 포착되었다. BM-21 다연장로켓체계를 보완하는 더 긴 사거리와 강력한 위력의 로켓 발사체계로 개발되었다. 소련은 제2차 세계대전 동부전선의 경험을 바탕으로 로켓포를 매우 중시했다. BM-27은 비장갑 ZIL-135 8×8 트럭 차대에 장착된 220mm 로켓 발사관 16개로 구성된다. 로켓 발사기는 박격포의 사격 제원을 설정하는 것과 유사한 방식으로 조준한다. 로켓 16발을 약 20초 동안 연속 발사할 수 있다. 220mm 로켓의 길이는 거의 16피트이며, 이중목적 개량고폭탄(DPICM), 화학탄, 살포식 지뢰를 포함한 다양한 탄두를 장착할 수 있다.",
+      "previous_translation_sha256": "ab22dce8d8b7aa2ca122304c2c023619be5539929b925e999d613f769b2869f4",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1970.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1989.txt",
+      "paragraph_index": 2,
+      "source_sha256": "99dfad0e990a91b00be577eb9d4e8e559fcb83f7163240d9261342a9cca24d97",
+      "translation": "참고: 소련군 차량화소총중대(BTR)는 BTR 3대씩을 보유한 차량화소총소대 3개, BTR 2대를 보유한 기관총/대전차소대 1개, BTR 1대를 보유한 중대본부로 구성되며, 총 12대의 BTR을 운용한다. 차량 탑재 무장 외에도 차량화소총중대는 최대 7.62 mm 구경의 소화기를 갖추고 있으며, 각 분대는 RPG-7 대전차로켓발사기(ATGL)도 휴대한다. 기관총/대전차소대는 AT-7 색스혼 대전차유도미사일(ATGM)을 갖추고 있다. BTR 계열 병력수송장갑차(APC)는 널리 수출되었으며 다른 운용국에 의해 개조되었다. 이 계열은 소련의 아프가니스탄 침공에서 광범위하게 실전에 투입되었다. 소련군에서 운용된 BTR-70은 운용 기간 내내 여러 차례 개량과 현대화를 거쳤다.",
+      "previous_translation_sha256": "19eb9444cd4a128473e3d5ee7d2b142e9cf2abaf7b526cb4bd3f7fedcc3b100f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1989.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_2027.txt",
       "paragraph_index": 5,
       "source_sha256": "f9c06d263003fe32d8ee6db6d678c52a32cede20e8ce6f64660a283eb1f591af",
@@ -74960,6 +75725,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_1487.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_2141.txt",
+      "paragraph_index": 2,
+      "source_sha256": "263790fa0eebab8a58dba4b043cb6fc6e4fd2a27e415e855d2f09913bce7a462",
+      "translation": "DF-21은 우세한 적의 전방 전력과 군사 기반시설을 결정적으로 무력화하기 위한 개전 또는 확전 타격에 사용할 목적으로 개발되었을 가능성이 높다. 이러한 기반시설에는 군수 및 통신 거점, 역내 군사기지와 비행장, 항만 등이 포함된다. 또한 재래식 탄두를 장착한 DF-21은 분쟁 전 기간에 걸친 장거리 타격용일 수 있다. 여기에는 작전을 위해 집결하는 주요 부대 집단에 대한 선제 또는 제압 타격, 일시적으로 노출되는 작전적 가치가 높은 표적에 대한 기회 타격, 인민해방군의 합동 제병협동작전을 지원하는 직접/간접 화력지원이 포함되며, 양동 공격도 가능하다.",
+      "previous_translation_sha256": "175f44a5d8268559f5117a6c9ce762519460a15bee1439c0e7cc19b3c2e4dd38",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2141.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_2167.txt",
       "paragraph_index": 5,
       "source_sha256": "f9c06d263003fe32d8ee6db6d678c52a32cede20e8ce6f64660a283eb1f591af",
@@ -74985,6 +75759,15 @@
       "previous_translation_sha256": "26002ba31a247b2de96e025f81146bf1a1b6906b93e7f4e035bf65bc114bf1e9",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1487.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_2252.txt",
+      "paragraph_index": 1,
+      "source_sha256": "109c8d62bcac534ea066a8643841528ea0569031730a7af21ea118a98b553d15",
+      "translation": "세부 사항: JY-11B는 ‘재구성 가능한’ 송신 빔과 수신용 디지털 빔 형성(DBF)을 사용하며, AMTI와 펄스 도플러 샘플링을 비롯한 현대적인 처리 기법을 통해 저고도 탐지 능력과 우수한 해수면 탐지 능력을 제공한다. JY-11과 달리 분해 가능한 체계는 아니지만, 유압 제어식 타워로 안테나를 높여 저고도 탐지 범위를 개선할 수 있으며, 개념과 설계 면에서 독일의 TRM-S 체계나 벨라루스의 보스토크 E와 매우 유사하다. 또한 자동화 수준이 높아 신속한 대응과 독립 운용이 모두 가능하다. 무기체계에 표적지시 기능도 제공할 수 있다.",
+      "previous_translation_sha256": "1587c75d81ca0ae7af478d704876cf0189436e1938c911af53c6bde5a223b0e5",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2252.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_249.txt",
@@ -75158,6 +75941,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_1135.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_429.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7bacfc7558a8676340a76e34a1678d3783a277b0dd3aa92dda24307407b66862",
+      "translation": "9K37 SA-11 개드플라이는 9S18 ‘튜브 암’ 또는 9S18M1(NATO 명칭 ‘스노 드리프트’) 표적획득 레이더를 각 발사·추적레이더 차량(TELAR)에 탑재된 9S35 또는 9S35M1 ‘파이어 돔’ H/I 대역 추적·교전 레이더와 함께 사용한다. 스노 드리프트 표적획득 레이더의 최대 탐지거리는 85 km이며, 고도 100 m로 비행하는 항공기를 35 km 거리에서 탐지하고 그보다 낮게 비행하는 표적도 약 10~20 km 거리에서 탐지할 수 있다. 스노 드리프트는 지휘차량과 마찬가지로 TELAR와 유사한 차대에 탑재된다. 감시 레이더와 발사대 간 통신을 조정하는 통제소는 최대 6대의 이동식 발사차량(TEL)과 동시에 통신할 수 있다.",
+      "previous_translation_sha256": "8e31d6a6cc5d971d6fec7d92558cf86aabaa8561cc5393e1247ad8e201646dc7",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_429.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_46.txt",
       "paragraph_index": 2,
       "source_sha256": "34cdff2b685f1fa1bed51e7e7ec5bbda5aaa8e0a6a878726c493703552b3d1cc",
@@ -75194,6 +75986,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_1487.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_574.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a360b268cd6836827fd04ec42e876b4409dfdecbce88172d6ca6fb3bb4d5c790",
+      "translation": "세부 사항: JY-11B는 ‘재구성 가능한’ 송신 빔과 수신용 디지털 빔 형성(DBF)을 사용하며, AMTI와 펄스 도플러 샘플링을 비롯한 현대적인 처리 기법을 통해 저고도 탐지 능력과 우수한 해수면 탐지 능력을 제공한다. JY-11과 달리 분해 가능한 체계는 아니지만, 유압 제어식 타워로 안테나를 높여 저고도 탐지 범위를 개선할 수 있으며, 개념과 설계 면에서 독일의 TRM-S 체계나 벨라루스의 보스토크 E와 매우 유사하다. 또한 자동화 수준이 높아 신속한 대응과 독립 운용이 모두 가능하다. 무기체계에 표적지시 기능도 제공할 수 있다.",
+      "previous_translation_sha256": "1b720e2c1d40b27e49b3b61e5c4e43f6a5d92f8fc706360aa955d6cc60471409",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_574.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_809.txt",
       "paragraph_index": 1,
       "source_sha256": "858cd07052a6d9954ece6e07ec38eb702c475f00e1fda33880e7fadc5e97ca61",
@@ -75210,6 +76011,24 @@
       "previous_translation_sha256": "2f2c37b02694f065204a63b78d94ed9d61ae94b882e252337870d0c707dd3628",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1008.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_89.txt",
+      "paragraph_index": 2,
+      "source_sha256": "263790fa0eebab8a58dba4b043cb6fc6e4fd2a27e415e855d2f09913bce7a462",
+      "translation": "DF-21은 우세한 적의 전방 전력과 군사 기반시설을 결정적으로 무력화하기 위한 개전 또는 확전 타격에 사용할 목적으로 개발되었을 가능성이 높다. 이러한 기반시설에는 군수 및 통신 거점, 역내 군사기지와 비행장, 항만 등이 포함된다. 또한 재래식 탄두를 장착한 DF-21은 분쟁 전 기간에 걸친 장거리 타격용일 수 있다. 여기에는 작전을 위해 집결하는 주요 부대 집단에 대한 선제 또는 제압 타격, 일시적으로 노출되는 작전적 가치가 높은 표적에 대한 기회 타격, 인민해방군의 합동 제병협동작전을 지원하는 직접/간접 화력지원이 포함되며, 양동 공격도 가능하다.",
+      "previous_translation_sha256": "175f44a5d8268559f5117a6c9ce762519460a15bee1439c0e7cc19b3c2e4dd38",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2141.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_900.txt",
+      "paragraph_index": 2,
+      "source_sha256": "a01d809fdd2bb97a4eb2a6f467ce76b3504cedbca97c9c8be0d003aff7f5e41b",
+      "translation": "P-15M 미사일은 1,100 lb(513 kg) 성형작약 탄두를 장착한 아음속 함대함 대함미사일이며, 대부분 원추주사 방식의 능동 레이더 탐색기를 탑재한다. 완만하게 상승·하강하는 비행 형태를 따르며, 중간항로 순항고도는 25 m, 50 m, 250 m로 사전 설정된다. 중간항로 유도에는 관성 자동조종장치를 사용하며, 종말 탐색기는 두 종류를 사용할 수 있다. P-15TG 적외선 유도 탐색기는 양산형 P-27 / SS-N-2D 미사일에서 스네기르 M 탐색기로 대체되었으며, 널리 사용된 능동 레이더 탐색기는 전천후 운용에 쓰였다. 원문은 앞서 아음속이라고 설명한 것과 달리 초음속이라고도 기술하며, 액체연료 로켓으로 추진된다고 설명한다. 탑재 센서는 명중 지점에서 11 km 떨어진 곳에서 활성화된다.",
+      "previous_translation_sha256": "817aadcc72274efb59e882390f82d23b538e806cb308ffb4bdfd93ef56418298",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_900.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_982.txt",
@@ -75255,6 +76074,15 @@
       "previous_translation_sha256": "6e2c6d67edf0ce5d7d7599114eec1855173365f0ee04ebb52ad685c295363049",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1135.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Groundunit_2498.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ad9815779aeaa730d0d240ad3f314d66df81c6a76951c19a2fcf558faae4a384",
+      "translation": "세부 사항: AN/MPQ-53은 패트리엇 지대공미사일(SAM) 체계의 감시 및 유도 레이더이다. MPQ-53은 ‘탐지부터 격파까지’를 수행하는 체계로, 체계 컴퓨터가 밀리초 단위의 동작 주기를 생성하여 감시, 추적, 유도, 전자보호조치(EPM) 기능을 시분할 방식으로 수행한다. 원문은 최대 ‘32개 및 54개’의 서로 다른 모드를 사용할 수 있다고 기술하며, 빔은 각 목적에 맞게 조정된다. 어떤 기능도 정해진 시간 간격을 요구하지 않으므로 언제든 레이더 동작 순서를 무작위로 구성할 수 있어, 공격자의 전자대응(ECM)을 상당히 어렵게 한다. 탐색 구역은 120°이고 추적 구역은 90°이다.",
+      "previous_translation_sha256": "911402f3b9ce025280a51be8615660f93ab767a96e0e6d101885e4202ab422e7",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Groundunit_2498.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_1048.txt",
@@ -75347,6 +76175,51 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_4497.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_4658.txt",
+      "paragraph_index": 1,
+      "source_sha256": "483eb94a8ba4ef23f17e39bda92cff7fa24ac6b8c9b9d9214787fa2d6c4c09c5",
+      "translation": "일반 설명: 이러한 체계는 공동현상, 추진축 회전, 디젤/가스터빈의 특성음 등 선박이 발생시키는 소음을 모사하는 제어된 수중 음향신호를 방출한다. 기뢰대항함 뒤에 예인되거나 무인수상정에서 전개되어, 기만용 표적 신호를 생성함으로써 안전한 거리에서 음향기뢰를 작동시키고 무력화한다. 음향감응 소해는 복합감응 기뢰에 대응하기 위해 자기 또는 압력 감응 소해와 함께 사용되는 경우가 많다. 체계는 모듈식으로 구성될 수 있으며, 주파수 범위와 진폭 특성을 조정하여 소형 보트부터 대형 전투함까지 다양한 함종을 모사할 수 있다.",
+      "previous_translation_sha256": "cc7a830ddc21d0d197b0831852ab61faecfb601dd43c3feaebeb25f3cc32330c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_4658.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_4725.txt",
+      "paragraph_index": 1,
+      "source_sha256": "57e35fd1048f571de3dc9f38528f1a1b17e2a24c2cb796c29b13c0d5138848b4",
+      "translation": "일반 설명: 이 견인식 체계들은 MH-53 또는 시 드래곤 파생형과 같은 헬리콥터에서 전개하며, 자기 코일과 음향발생기를 갖춘 견인 썰매 또는 견인체로 구성된다. 자기장은 선박의 자기 신호를 모사하고, 음향 장치는 엔진과 프로펠러 소음을 모사한다. 일부 체계에는 복합감응기뢰에 대응하기 위한 압력파 모사장치가 포함될 수 있다. 소해 효과를 최적화하도록 다양한 고도와 속도로 견인하며, 일반적으로 윈치와 제어 콘솔을 갖춘 해군 헬리콥터에서 운용한다. 이 체계들은 상륙작전 구역을 준비하거나 항만과 해협의 감응기뢰를 제거하는 데 필수적이다.",
+      "previous_translation_sha256": "ee39bf65b1390a97f6e05cf4cdaa9d9349f9fda35c021d26f87645304e539f02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_4725.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5260.txt",
+      "paragraph_index": 1,
+      "source_sha256": "02852a6b0d4ed5877ae4d17e0439769bf649a4c1906788e1d0122b23ade292ec",
+      "translation": "일반 설명: 통신 감시장비는 더 광범위한 통신정보(COMINT)/전자지원수단(ESM) 체계의 일부로서 전술 및 전략 대역의 무선주파수(RF) 방사를 수동적으로 수집한다. 적군이나 중립 세력이 송신하는 음성, 데이터, 제어 신호를 식별하는 데 사용된다. 초기 아날로그 체계는 협대역 VHF/UHF 통신에 중점을 두었지만, 현대적인 디지털 변형은 위성 통신과 버스트 송신을 포함한 더 넓은 주파수 영역을 포괄한다. 방향탐지(DF) 및 신호 분류 도구와 통합되면 전파방해기, 전자전 체계 또는 정보처리 장비군에 표적 단서를 제공할 수 있다. 운용 플랫폼에는 지상차량, 고정 기지, 항공기, 무인항공기, 해상 자산이 포함된다.",
+      "previous_translation_sha256": "014171b02c98085e207b84651b2a4960cebd86c45a9a35a1041bb9ac74b8dc7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5260.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5696.txt",
+      "paragraph_index": 2,
+      "source_sha256": "a13571a34da92a6e678c59cd12f076068dc7748a4a4e4bb3a027ca9f63732b75",
+      "translation": "PESA 레이더는 전자식 빔 조향을 사용하고 부엽 수준이 매우 낮으며 주엽이 좁은 연필형 빔이므로, 항공기가 레이더의 직접 조사를 받지 않을 때는 항공기 경보수신기로 이 위상배열 레이더를 탐지하고 추적하기가 더 어렵고, 전파방해하기는 훨씬 더 어렵다. 탐지 가능한 후엽이 있을 수 있지만, 레이더 전방 구역에서는 이를 탐지하기 어려울 가능성이 높다. 대부분의 대레이더미사일은 부엽을 따라 유도되므로 PESA 레이더 파괴를 시도할 때는 교전 기하조건의 선택이 매우 중요하다. 이 레이더는 기동성이 뛰어난 3차원 탐색·표적획득 능력을 제공하지만, 안테나 높이로 인해 저고도 탐지 범위가 제한된다.",
+      "previous_translation_sha256": "c59997e76b9e6d976396fad27ee72990b43840d2392b6c3c7453da26aaa99ede",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5696.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5701.txt",
+      "paragraph_index": 1,
+      "source_sha256": "70dd968193c22e7788da2545f61d22b6aa0612f72132f0fda0005e7416419123",
+      "translation": "일반 설명: 기뢰탐색 소나는 집속 음향 펄스로 해저와 수층을 주사하여 기뢰를 식별하고 분류할 수 있는 상세 영상을 생성한다. 높은 해상도를 얻기 위해 주로 고주파로 작동하며, 일반적으로 전용 기뢰대항함(MCMV), 무인잠수정(UUV) 또는 헬리콥터에 탑재된다. 정밀한 탐지 능력으로 기뢰 무력화팀이나 로봇 체계를 유도하여 안전한 항해와 기뢰 제거를 가능하게 한다. 수동 체계와 달리 능동 송신에 전적으로 의존하므로 다양한 수중 환경에서 일관된 탐지 성능을 제공하지만, 자신의 존재를 드러낼 가능성이 있다.",
+      "previous_translation_sha256": "b33a2d6e86693a9df710869f4cb94ebeca349fb77158d5bf8edd5a7b4a755531",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5701.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_572.txt",
       "paragraph_index": 1,
       "source_sha256": "efce35e63c2f5b7dbc8cc4beebfe375bb68bc71f5b2676216e305aa16adc1660",
@@ -75354,6 +76227,42 @@
       "previous_translation_sha256": "6328390e6c3ca965445ee4dcfc5159e5750f9760b1c52131ae36c70e7c0ab6c4",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Sensor_572.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5833.txt",
+      "paragraph_index": 1,
+      "source_sha256": "02852a6b0d4ed5877ae4d17e0439769bf649a4c1906788e1d0122b23ade292ec",
+      "translation": "일반 설명: 통신 감시장비는 더 광범위한 통신정보(COMINT)/전자지원수단(ESM) 체계의 일부로서 전술 및 전략 대역의 무선주파수(RF) 방사를 수동적으로 수집한다. 적군이나 중립 세력이 송신하는 음성, 데이터, 제어 신호를 식별하는 데 사용된다. 초기 아날로그 체계는 협대역 VHF/UHF 통신에 중점을 두었지만, 현대적인 디지털 변형은 위성 통신과 버스트 송신을 포함한 더 넓은 주파수 영역을 포괄한다. 방향탐지(DF) 및 신호 분류 도구와 통합되면 전파방해기, 전자전 체계 또는 정보처리 장비군에 표적 단서를 제공할 수 있다. 운용 플랫폼에는 지상차량, 고정 기지, 항공기, 무인항공기, 해상 자산이 포함된다.",
+      "previous_translation_sha256": "014171b02c98085e207b84651b2a4960cebd86c45a9a35a1041bb9ac74b8dc7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5260.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5835.txt",
+      "paragraph_index": 1,
+      "source_sha256": "02852a6b0d4ed5877ae4d17e0439769bf649a4c1906788e1d0122b23ade292ec",
+      "translation": "일반 설명: 통신 감시장비는 더 광범위한 통신정보(COMINT)/전자지원수단(ESM) 체계의 일부로서 전술 및 전략 대역의 무선주파수(RF) 방사를 수동적으로 수집한다. 적군이나 중립 세력이 송신하는 음성, 데이터, 제어 신호를 식별하는 데 사용된다. 초기 아날로그 체계는 협대역 VHF/UHF 통신에 중점을 두었지만, 현대적인 디지털 변형은 위성 통신과 버스트 송신을 포함한 더 넓은 주파수 영역을 포괄한다. 방향탐지(DF) 및 신호 분류 도구와 통합되면 전파방해기, 전자전 체계 또는 정보처리 장비군에 표적 단서를 제공할 수 있다. 운용 플랫폼에는 지상차량, 고정 기지, 항공기, 무인항공기, 해상 자산이 포함된다.",
+      "previous_translation_sha256": "014171b02c98085e207b84651b2a4960cebd86c45a9a35a1041bb9ac74b8dc7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5260.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5840.txt",
+      "paragraph_index": 1,
+      "source_sha256": "0247f1a7aa0ddc227ec5b67e4d2d837a5d9964d4fb0fb4760c86ea9a9dbedbfc",
+      "translation": "일반 설명: 이 초기 잠망경들은 정밀 연마 광학계, 내부 프리즘, 확대렌즈를 수밀관 안에 넣어 함장이 은밀하게 수면을 관측할 수 있도록 했다. 표적 조준과 거리 추정을 위한 기본적인 십자선이나 조준선을 갖췄으며, 수동으로 조작하고 전자 부품은 없었다. 영상 품질은 주변 광량, 기상 조건, 렌즈의 광학적 투명도에 의해 제한되었다. 공통적인 특징으로는 2단계 배율(일반적으로 1.5배와 6배)과 시야 조절용 회전식 두부 반사경이 있었다. 이 잠망경들은 수상 항해, 선박 식별, 어뢰 공격 수행에 핵심적인 장비였다.",
+      "previous_translation_sha256": "0e0126cfbe451c97cf4c7fa488fdbb60bfc32555c74575e418bfe9d49a90afe6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5840.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5852.txt",
+      "paragraph_index": 1,
+      "source_sha256": "01435b39533ac98f9d1cb5df454cae8f02a5f48be668eb6f98fbb2d566a44d2b",
+      "translation": "일반 설명: 3세대 저조도 텔레비전(LLTV)을 갖춘 잠수함 잠망경은 광전자 마스트가 널리 도입되기 전 저조도 텔레비전 체계의 최종 발전형이다. 이 체계는 이전 세대보다 해상도, 대비, 감도가 향상된 광증폭 CCD 또는 CMOS 센서를 사용했다. 현대화된 잠망경 마스트에 통합되어 디지털 영상 출력, 향상된 디스플레이 호환성, 개선된 신호처리 기능을 제공함으로써 별빛이나 흐린 날씨에서도 더 선명한 영상을 확보했다. 이 세대는 능동 센서 없이도 장거리 시각 식별을 가능하게 하여 은밀한 관측에서 더욱 유연하게 활용할 수 있었다.",
+      "previous_translation_sha256": "f613d23d87dbe585903b00a29519b17298fafbd55309cf8ad6e2ceaac437072b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5852.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_6050.txt",
@@ -75401,6 +76310,33 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_6489.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_6495.txt",
+      "paragraph_index": 1,
+      "source_sha256": "02852a6b0d4ed5877ae4d17e0439769bf649a4c1906788e1d0122b23ade292ec",
+      "translation": "일반 설명: 통신 감시장비는 더 광범위한 통신정보(COMINT)/전자지원수단(ESM) 체계의 일부로서 전술 및 전략 대역의 무선주파수(RF) 방사를 수동적으로 수집한다. 적군이나 중립 세력이 송신하는 음성, 데이터, 제어 신호를 식별하는 데 사용된다. 초기 아날로그 체계는 협대역 VHF/UHF 통신에 중점을 두었지만, 현대적인 디지털 변형은 위성 통신과 버스트 송신을 포함한 더 넓은 주파수 영역을 포괄한다. 방향탐지(DF) 및 신호 분류 도구와 통합되면 전파방해기, 전자전 체계 또는 정보처리 장비군에 표적 단서를 제공할 수 있다. 운용 플랫폼에는 지상차량, 고정 기지, 항공기, 무인항공기, 해상 자산이 포함된다.",
+      "previous_translation_sha256": "014171b02c98085e207b84651b2a4960cebd86c45a9a35a1041bb9ac74b8dc7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5260.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_6496.txt",
+      "paragraph_index": 1,
+      "source_sha256": "02852a6b0d4ed5877ae4d17e0439769bf649a4c1906788e1d0122b23ade292ec",
+      "translation": "일반 설명: 통신 감시장비는 더 광범위한 통신정보(COMINT)/전자지원수단(ESM) 체계의 일부로서 전술 및 전략 대역의 무선주파수(RF) 방사를 수동적으로 수집한다. 적군이나 중립 세력이 송신하는 음성, 데이터, 제어 신호를 식별하는 데 사용된다. 초기 아날로그 체계는 협대역 VHF/UHF 통신에 중점을 두었지만, 현대적인 디지털 변형은 위성 통신과 버스트 송신을 포함한 더 넓은 주파수 영역을 포괄한다. 방향탐지(DF) 및 신호 분류 도구와 통합되면 전파방해기, 전자전 체계 또는 정보처리 장비군에 표적 단서를 제공할 수 있다. 운용 플랫폼에는 지상차량, 고정 기지, 항공기, 무인항공기, 해상 자산이 포함된다.",
+      "previous_translation_sha256": "014171b02c98085e207b84651b2a4960cebd86c45a9a35a1041bb9ac74b8dc7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5260.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_6832.txt",
+      "paragraph_index": 1,
+      "source_sha256": "7dab1f2a4280650f346be6343b205704cd5c1e7267fd0a9b7ad6cbc5d79710a1",
+      "translation": "일반 설명: 계측·특성정보(MASINT)는 레이더, 음향, 화학, 핵, 열, 전자기 센서의 데이터를 통합하며, AI 기반 분석과 실시간 처리로 성능을 높인다. 이러한 체계는 사이버-물리적 특성 신호와 미사일 발사를 포함하여 은폐되거나 스텔스성을 갖추거나 새롭게 나타나는 위협을 종합적으로 탐지, 식별, 추적한다. MASINT는 지속적인 다영역 감시를 통해 조기경보, 전장 상황인식, 조약 준수 검증을 가능하게 하여 현대전의 정보활동을 지원한다. 운용 플랫폼에는 상황 이해를 높이기 위해 네트워크화된 센서 배열을 갖춘 위성, 무인항공기, 해군 함정, 지상 기지가 포함된다.",
+      "previous_translation_sha256": "2b00d28d2a5b562c442cee9951abfe6d5a752c5486c546f102f4b55c64541a53",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_6832.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_6836.txt",
       "paragraph_index": 1,
       "source_sha256": "ca8058136a7cab6cbbe0bfa50e21a1e3c080a9acc4d3649023be4f9041a83308",
@@ -75428,6 +76364,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_7197.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_768.txt",
+      "paragraph_index": 1,
+      "source_sha256": "742c7a216546dbb3d55dd54536c87fc1b936dd5d6642730c20742bf4dca81462",
+      "translation": "일반 설명: AN/WLR-1은 레이더 방사 신호를 탐지·감청·분석하는 수동형 함정 탑재 전자지원(ESM) 체계이다. 자체적으로 신호를 방사하지 않으면서 레이더 신호의 주파수, 방향, 주사 패턴 등의 특성을 파악하여 함정이 잠재적 위협을 식별하도록 돕는다. 주로 상황인식과 위협경보에 사용되며, 전파방해기나 방어체계에 표적 정보를 제공하여 전자전 작전을 지원하고 함정의 전자전투서열 구축에 기여한다. 위협 수준이 높은 환경에서 지속적으로 운용하도록 설계되었으며, 1960년대부터 미 해군 수상함과 잠수함의 핵심 구성요소로 사용되어 왔다.",
+      "previous_translation_sha256": "b4239c9a2eb5b4881e1c21f427fce348841a0983bf3acd6a5adf835fe7088ed9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_768.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_926.txt",
       "paragraph_index": 2,
       "source_sha256": "93396ec2c667dac10f893975ebe5b9f7b94181760a97cd93abe6f15a79660c23",
@@ -75453,6 +76398,15 @@
       "previous_translation_sha256": "c96547129e375374897e9c67afa82f8f85891e8e846660bb0f7c1c8bc409b53f",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Sensor_970.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_984.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ad9815779aeaa730d0d240ad3f314d66df81c6a76951c19a2fcf558faae4a384",
+      "translation": "세부 사항: AN/MPQ-53은 패트리엇 지대공미사일(SAM) 체계의 감시 및 유도 레이더이다. MPQ-53은 ‘탐지부터 격파까지’를 수행하는 체계로, 체계 컴퓨터가 밀리초 단위의 동작 주기를 생성하여 감시, 추적, 유도, 전자보호조치(EPM) 기능을 시분할 방식으로 수행한다. 원문은 최대 ‘32개 및 54개’의 서로 다른 모드를 사용할 수 있다고 기술하며, 빔은 각 목적에 맞게 조정된다. 어떤 기능도 정해진 시간 간격을 요구하지 않으므로 언제든 레이더 동작 순서를 무작위로 구성할 수 있어, 공격자의 전자대응(ECM)을 상당히 어렵게 한다. 탐색 구역은 120°이고 추적 구역은 90°이다.",
+      "previous_translation_sha256": "911402f3b9ce025280a51be8615660f93ab767a96e0e6d101885e4202ab422e7",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Groundunit_2498.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_106.txt",
@@ -75518,6 +76472,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1076.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1079.txt",
       "paragraph_index": 8,
       "source_sha256": "a8f745f3f2f4c2ffe95a3913c50b361b813743872ca4aaa27a40a0c76b19f78e",
@@ -75534,6 +76497,15 @@
       "previous_translation_sha256": "22ae1722356b23d2773104b14ba4dc341febba005d0896807bd4e1e09eea7a34",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1737.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1084.txt",
+      "paragraph_index": 1,
+      "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
+      "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
+      "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1098.txt",
@@ -75599,6 +76571,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1119.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1131.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -75617,6 +76598,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1131.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_114.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -75631,6 +76621,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_114.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -75667,6 +76666,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1161.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -75757,6 +76765,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1168.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -75840,6 +76857,15 @@
       "previous_translation_sha256": "55c3dc5cdf4126f9e7038f3c96613bcd6eaf72734e1fe01f8c7ba4b070259bd8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1442.txt",
+      "paragraph_index": 1,
+      "source_sha256": "6f01b455ef49019c1ecd5dfead1db9a8738f0d3c7c98ff9298c6360f8e98df4f",
+      "translation": "45형 구축함은 포클랜드 전쟁에서 활약한 42형 구축함을 대체하기 위해 건조되었으며, 마지막 42형 구축함은 2013년에 퇴역했다. 영국 감사원은 ‘집중 공격’ 상황에서 45형 한 척이 함께 작전하는 42형 구축함 다섯 척보다 더 많은 표적을 동시에 추적하고 교전하며 격파할 수 있다고 보고했다. 2006년 2월 1일 데어링함 진수 이후, 전 제1해군경 앨런 웨스트 제독은 이 함정이 영국 해군 역사상 가장 뛰어난 성능의 구축함이자 세계 최고의 방공함이 될 것이라고 밝혔다. 조달 수량이 12척에서 8척으로, 결국 2008년에는 6척으로 줄어든 것은 논란을 일으켰다.",
+      "previous_translation_sha256": "498fd1278dbb60195b8cb215e7ebf00ca0ac30c4eceea73ebad15221934a91d1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1447.txt",
@@ -76175,6 +77201,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_128.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1682.txt",
+      "paragraph_index": 5,
+      "source_sha256": "5a86a35b4f46631adb8b621cf80119d910f112c8cbbeb40d1191b57e6100a0a3",
+      "translation": "054A형이 기존 054형 및 중국 인민해방군 해군의 다른 구형 함정보다 개선된 또 다른 부분은 정비·재고관리 정보체계(IS)이다. 이 체계는 필요한 부품에 관한 정보를 세부 사항까지 육상 시설이나 보급함에 자동으로 제공하여 부품을 더 신속하게 공급할 수 있도록 한다. 그 결과 정비와 수리로 인한 가동 중단 시간이 이 정보체계가 없는 구형 함정보다 크게 줄어든다. 중국 측[누구인지는 불명확]은 가동 중단 시간을 줄여 작전에 투입할 수 있는 시간을 늘린다는 이유로 이 정비·재고관리 정보체계를 또 하나의 전력 증대 요소라고 칭한다.",
+      "previous_translation_sha256": "595da3e767e2beb7e9de4fc8bdb9b24f83f75003a4e16a8393deb66f49824c16",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1682.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/ship_1692.txt",
       "paragraph_index": 5,
       "source_sha256": "7b42d2aabe9ad198a358c8e4fed41db7a33f92832805c7e46da070f9aa57c786",
@@ -76292,6 +77327,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1868.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1901.txt",
       "paragraph_index": 8,
       "source_sha256": "3e672a6d3eb1efcde12c9b2abcc83d0b55100176d8700da39be7c371b93a5778",
@@ -76328,6 +77372,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1925.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1951.txt",
       "paragraph_index": 2,
       "source_sha256": "d5c6464f80e3844a88389e9428c4b9d79c57e33511c1042142d59557f9ac2d3a",
@@ -76335,6 +77388,15 @@
       "previous_translation_sha256": "55c3dc5cdf4126f9e7038f3c96613bcd6eaf72734e1fe01f8c7ba4b070259bd8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1965.txt",
+      "paragraph_index": 5,
+      "source_sha256": "5a86a35b4f46631adb8b621cf80119d910f112c8cbbeb40d1191b57e6100a0a3",
+      "translation": "054A형이 기존 054형 및 중국 인민해방군 해군의 다른 구형 함정보다 개선된 또 다른 부분은 정비·재고관리 정보체계(IS)이다. 이 체계는 필요한 부품에 관한 정보를 세부 사항까지 육상 시설이나 보급함에 자동으로 제공하여 부품을 더 신속하게 공급할 수 있도록 한다. 그 결과 정비와 수리로 인한 가동 중단 시간이 이 정보체계가 없는 구형 함정보다 크게 줄어든다. 중국 측[누구인지는 불명확]은 가동 중단 시간을 줄여 작전에 투입할 수 있는 시간을 늘린다는 이유로 이 정비·재고관리 정보체계를 또 하나의 전력 증대 요소라고 칭한다.",
+      "previous_translation_sha256": "595da3e767e2beb7e9de4fc8bdb9b24f83f75003a4e16a8393deb66f49824c16",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1682.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1984.txt",
@@ -76364,6 +77426,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1987.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1988.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -76382,6 +77453,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1988.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1998.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -76396,6 +77476,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1998.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -76526,6 +77615,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_2295.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_2318.txt",
+      "paragraph_index": 1,
+      "source_sha256": "6f01b455ef49019c1ecd5dfead1db9a8738f0d3c7c98ff9298c6360f8e98df4f",
+      "translation": "45형 구축함은 포클랜드 전쟁에서 활약한 42형 구축함을 대체하기 위해 건조되었으며, 마지막 42형 구축함은 2013년에 퇴역했다. 영국 감사원은 ‘집중 공격’ 상황에서 45형 한 척이 함께 작전하는 42형 구축함 다섯 척보다 더 많은 표적을 동시에 추적하고 교전하며 격파할 수 있다고 보고했다. 2006년 2월 1일 데어링함 진수 이후, 전 제1해군경 앨런 웨스트 제독은 이 함정이 영국 해군 역사상 가장 뛰어난 성능의 구축함이자 세계 최고의 방공함이 될 것이라고 밝혔다. 조달 수량이 12척에서 8척으로, 결국 2008년에는 6척으로 줄어든 것은 논란을 일으켰다.",
+      "previous_translation_sha256": "498fd1278dbb60195b8cb215e7ebf00ca0ac30c4eceea73ebad15221934a91d1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_2373.txt",
       "paragraph_index": 8,
       "source_sha256": "a8f745f3f2f4c2ffe95a3913c50b361b813743872ca4aaa27a40a0c76b19f78e",
@@ -76632,6 +77730,15 @@
       "previous_translation_sha256": "dcaf3fb6ee31cc4ee00c790fd0311db1bdc2ed9e97d02660914355e6e6508410",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_2495.txt",
+      "paragraph_index": 5,
+      "source_sha256": "5a86a35b4f46631adb8b621cf80119d910f112c8cbbeb40d1191b57e6100a0a3",
+      "translation": "054A형이 기존 054형 및 중국 인민해방군 해군의 다른 구형 함정보다 개선된 또 다른 부분은 정비·재고관리 정보체계(IS)이다. 이 체계는 필요한 부품에 관한 정보를 세부 사항까지 육상 시설이나 보급함에 자동으로 제공하여 부품을 더 신속하게 공급할 수 있도록 한다. 그 결과 정비와 수리로 인한 가동 중단 시간이 이 정보체계가 없는 구형 함정보다 크게 줄어든다. 중국 측[누구인지는 불명확]은 가동 중단 시간을 줄여 작전에 투입할 수 있는 시간을 늘린다는 이유로 이 정비·재고관리 정보체계를 또 하나의 전력 증대 요소라고 칭한다.",
+      "previous_translation_sha256": "595da3e767e2beb7e9de4fc8bdb9b24f83f75003a4e16a8393deb66f49824c16",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1682.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_2584.txt",
@@ -76778,6 +77885,24 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_2295.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_2714.txt",
+      "paragraph_index": 5,
+      "source_sha256": "5a86a35b4f46631adb8b621cf80119d910f112c8cbbeb40d1191b57e6100a0a3",
+      "translation": "054A형이 기존 054형 및 중국 인민해방군 해군의 다른 구형 함정보다 개선된 또 다른 부분은 정비·재고관리 정보체계(IS)이다. 이 체계는 필요한 부품에 관한 정보를 세부 사항까지 육상 시설이나 보급함에 자동으로 제공하여 부품을 더 신속하게 공급할 수 있도록 한다. 그 결과 정비와 수리로 인한 가동 중단 시간이 이 정보체계가 없는 구형 함정보다 크게 줄어든다. 중국 측[누구인지는 불명확]은 가동 중단 시간을 줄여 작전에 투입할 수 있는 시간을 늘린다는 이유로 이 정비·재고관리 정보체계를 또 하나의 전력 증대 요소라고 칭한다.",
+      "previous_translation_sha256": "595da3e767e2beb7e9de4fc8bdb9b24f83f75003a4e16a8393deb66f49824c16",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1682.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_2834.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a84e20288b6a1bb0de5d3665e87c9ace7a55b6eb56a241b0c50d10c19ddf4395",
+      "translation": "이 함급은 이중대역 레이더 체계를 갖추고 있다. 상부구조물에는 S대역 346B형 드래곤 아이 능동전자주사배열(AESA) 패널 4개가, 마스트에는 더 작은 X대역 패널 4개가 장착된다. 이중대역 레이더 체계의 S대역 부분은 장거리 탐색 및 추적에 사용되며, 스텔스 표적을 탐지할 수 있는 것으로 알려져 있다. 감도가 더 높은 X대역 체계는 더 작고 스텔스성이 높은 표적과 고속 또는 저고도 표적을 더 짧은 거리에서 더욱 정확하게 추적하는 데 사용된다. 이 체계는 중복성도 높인다. 중국 소식통은 이 레이더가 대스텔스 능력을 갖추고 있으며 위성요격미사일 유도에도 사용할 수 있다고 주장한다.",
+      "previous_translation_sha256": "db69ffd559ba524e576deff85bc54438c3e091f83be0c4eaa21542b270f3e417",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_2834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_2911.txt",
       "paragraph_index": 2,
       "source_sha256": "d5c6464f80e3844a88389e9428c4b9d79c57e33511c1042142d59557f9ac2d3a",
@@ -76841,6 +77966,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_364.txt",
+      "paragraph_index": 1,
+      "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
+      "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
+      "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_37.txt",
       "paragraph_index": 8,
       "source_sha256": "3e672a6d3eb1efcde12c9b2abcc83d0b55100176d8700da39be7c371b93a5778",
@@ -76877,6 +78011,24 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_383.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_3883.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a84e20288b6a1bb0de5d3665e87c9ace7a55b6eb56a241b0c50d10c19ddf4395",
+      "translation": "이 함급은 이중대역 레이더 체계를 갖추고 있다. 상부구조물에는 S대역 346B형 드래곤 아이 능동전자주사배열(AESA) 패널 4개가, 마스트에는 더 작은 X대역 패널 4개가 장착된다. 이중대역 레이더 체계의 S대역 부분은 장거리 탐색 및 추적에 사용되며, 스텔스 표적을 탐지할 수 있는 것으로 알려져 있다. 감도가 더 높은 X대역 체계는 더 작고 스텔스성이 높은 표적과 고속 또는 저고도 표적을 더 짧은 거리에서 더욱 정확하게 추적하는 데 사용된다. 이 체계는 중복성도 높인다. 중국 소식통은 이 레이더가 대스텔스 능력을 갖추고 있으며 위성요격미사일 유도에도 사용할 수 있다고 주장한다.",
+      "previous_translation_sha256": "db69ffd559ba524e576deff85bc54438c3e091f83be0c4eaa21542b270f3e417",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_2834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_423.txt",
       "paragraph_index": 8,
       "source_sha256": "3e672a6d3eb1efcde12c9b2abcc83d0b55100176d8700da39be7c371b93a5778",
@@ -76893,6 +78045,24 @@
       "previous_translation_sha256": "dcaf3fb6ee31cc4ee00c790fd0311db1bdc2ed9e97d02660914355e6e6508410",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_430.txt",
+      "paragraph_index": 1,
+      "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
+      "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
+      "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_444.txt",
+      "paragraph_index": 1,
+      "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
+      "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
+      "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_447.txt",
@@ -76940,6 +78110,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_455.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_457.txt",
       "paragraph_index": 8,
       "source_sha256": "a8f745f3f2f4c2ffe95a3913c50b361b813743872ca4aaa27a40a0c76b19f78e",
@@ -76956,6 +78135,15 @@
       "previous_translation_sha256": "22ae1722356b23d2773104b14ba4dc341febba005d0896807bd4e1e09eea7a34",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1737.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_502.txt",
+      "paragraph_index": 1,
+      "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
+      "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
+      "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_505.txt",
@@ -76990,6 +78178,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_556.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -77055,6 +78252,15 @@
       "previous_translation_sha256": "55c3dc5cdf4126f9e7038f3c96613bcd6eaf72734e1fe01f8c7ba4b070259bd8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_604.txt",
+      "paragraph_index": 1,
+      "source_sha256": "6f01b455ef49019c1ecd5dfead1db9a8738f0d3c7c98ff9298c6360f8e98df4f",
+      "translation": "45형 구축함은 포클랜드 전쟁에서 활약한 42형 구축함을 대체하기 위해 건조되었으며, 마지막 42형 구축함은 2013년에 퇴역했다. 영국 감사원은 ‘집중 공격’ 상황에서 45형 한 척이 함께 작전하는 42형 구축함 다섯 척보다 더 많은 표적을 동시에 추적하고 교전하며 격파할 수 있다고 보고했다. 2006년 2월 1일 데어링함 진수 이후, 전 제1해군경 앨런 웨스트 제독은 이 함정이 영국 해군 역사상 가장 뛰어난 성능의 구축함이자 세계 최고의 방공함이 될 것이라고 밝혔다. 조달 수량이 12척에서 8척으로, 결국 2008년에는 6척으로 줄어든 것은 논란을 일으켰다.",
+      "previous_translation_sha256": "498fd1278dbb60195b8cb215e7ebf00ca0ac30c4eceea73ebad15221934a91d1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_649.txt",
@@ -77138,6 +78344,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_668.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_673.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -77152,6 +78367,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_673.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -77172,6 +78396,24 @@
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_675.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_676.txt",
+      "paragraph_index": 1,
+      "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
+      "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
+      "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_678.txt",
@@ -77201,6 +78443,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_697.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_706.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -77215,6 +78466,15 @@
       "source_sha256": "d6e7795f9b2e023ad3613f66615bb61bfd356ccb77ba62db271c4ae239789a81",
       "translation": "스프루캔이라는 별명으로 불린 이 함급은 미 해군의 대형 함정 가운데 처음으로 가스터빈 추진방식을 채택했다. 제너럴 일렉트릭 LM2500 가스터빈 4기가 약 80,000마력(60MW)을 냈다. 영국 해군이 1960년대에 개발한 이 가스터빈 복합추진방식(COGAG)은 매우 성공적이어서 이후 대부분의 미국 군함에 쓰였다. 선체를 약간 늘린 형태는 타이콘데로가급 순양함에도 사용되었다. 원문에 따르면 2010년 기준으로 원자력 항공모함과 LCS-1을 제외한 미 해군의 모든 수상전투함은 LM2500 COGAG 구성을 사용하며, 보통 추진축 하나에 가스터빈 2기를 연결한다.",
       "previous_translation_sha256": "8a6957b2814b14f1cb1dc754103b1d650a818393e1bbb82e0b42bb2d740e50e8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_706.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
@@ -77309,6 +78569,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_777.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_792.txt",
       "paragraph_index": 2,
       "source_sha256": "d5c6464f80e3844a88389e9428c4b9d79c57e33511c1042142d59557f9ac2d3a",
@@ -77336,6 +78605,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_810.txt",
+      "paragraph_index": 10,
+      "source_sha256": "d8794d0bbf73b310e5c5a8b3df59e96128ca5f4e59ef1004592ded4212c06ea8",
+      "translation": "건조 함정: 스프루언스(DD-963) || 폴 F. 포스터(DD-964) || 킨케이드(DD-965) || 휴잇(DD-966) || 엘리엇(DD-967) || 아서 W. 래드퍼드(DD-968) || 피터슨(DD-969) || 캐런(DD-970) || 데이비드 R. 레이(DD-971) || 올덴도르프(DD-972) || 존 영(DD-973) || 콩트 드 그라스(DD-974) || 오브라이언(DD-975) || 메릴(DD-976) || 브리스코(DD-977) || 스텀프(DD-978) || 코널리(DD-979) || 무스브루거(DD-980) || 존 핸콕(DD-981) || 니컬슨(DD-982) || 존 로저스(DD-983) || 레프트위치(DD-984) || 쿠싱(DD-985) || 해리 W. 힐(DD-986) || 오배넌(DD-987) || 손(DD-988) || 데이오(DD-989) || 잉거솔(DD-990) || 파이프(DD-991) || 플레처(DD-992) || 헤일러(DD-997).",
+      "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_822.txt",
       "paragraph_index": 0,
       "source_sha256": "6941fed047c96cd5bd62c59c431aa8c92a64913000ad94e27462a5f9f732deba",
@@ -77352,6 +78630,15 @@
       "previous_translation_sha256": "4454c83c13fcc9e0d37ba2a377c4f485267d615a85cd550976b3f4160c46e4e4",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1728.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/ship_847.txt",
+      "paragraph_index": 0,
+      "source_sha256": "75e05c1f56a9f630a0dd44efe784bb589fa5f24156da92e9ec989b42fe98859d",
+      "translation": "1985년 이탈리아 해군은 첫 항공모함 주세페 가리발디의 후속함 계획을 시작했다. 단순히 함정 수를 늘리려는 목적을 넘어, 특정 유형의 주력함을 단 한 척만 보유한 해군이 그 함정을 정비·개장에 투입할 때 발생하는 ‘핵심 능력 상실’을 피하려는 것이었다. 이는 정비·개장 기간 내내 하나의 전략 전체를 실행할 수 없게 된다는 뜻이다. 카보우르 사업은 처음에는 자금 부족으로, 이후에는 냉전 종식에 따른 전반적인 예산 삭감으로 어려움을 겪었다. 설계는 여러 차례 바뀌었다. 처음에는 가리발디의 확대형이었다가 헬리콥터 전용 강습상륙함(LPH)으로 바뀌었고, 이어 미국 와스프급 함정을 기성품으로 구매하는 방안이 검토되었으며, 마지막에는 다시 본격적인 항공모함 설계로 돌아왔다.",
+      "previous_translation_sha256": "4d88c3b7830e53eaf7ef2f708691c135c95247144bb03e2a2ea7986aca68051a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/ship_847.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/ship_874.txt",
@@ -77478,6 +78765,15 @@
       "previous_translation_sha256": "4bf4c5f8f86567f551c5a5dab2cf05fae935f258dcb49df8d69e5346ba76b5f9",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_148.txt",
+      "paragraph_index": 3,
+      "source_sha256": "39745c05883c70b14eedfa5b0e181e918b24159df66bb6ac7681d5e86672c17c",
+      "translation": "추진설비는 전동기에 전력을 공급하는 4-2DL42M형 디젤 발전기 세트 2기로 구성된다. 6엽 프로펠러 1개가 달린 단일 추진축에는 전동기만 연결된다. 이 동력설비는 잠수함을 수상에서 최대 10노트, 수중에서 최대 17노트로 추진할 수 있다. 또한 출력 150kW의 소형 보조 전동기 2기와 경제적인 운항 및 초저소음 모드에서 최대 6노트의 저속 운용을 위한 95kW 저출력 전동기가 설치되어 있다. 프로젝트 877급 잠수함은 잠항 중 공조장치를 켜지 않으면 3노트 속도로 최대 400해리를 항해할 수 있다. 각각 120개의 셀로 구성된 배터리군 2개는 100A에서 9,700kWh를 제공한다.",
+      "previous_translation_sha256": "bba3071a3458d02cba876b1ebd329dd05d68660a5d3f0933d56fde16997cffd6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_148.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_149.txt",
@@ -77712,6 +79008,15 @@
       "previous_translation_sha256": "eb23a2be7749b7b488c68164b640807fed99a1f84dde77192917c67521afd514",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Submarine_280.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_358.txt",
+      "paragraph_index": 1,
+      "source_sha256": "bf1144bbec8ea4f3595efd181d4247396e34bae007f32ce9968e858f4d5e4d28",
+      "translation": "세부 사항: 스킵잭급의 설계는 USS 앨버코어의 설계를 바탕으로 한 성공적인 바벨급 잠수함에 기반했다. 스킵잭급의 설계는 그에 앞선 스케이트급 잠수함과 크게 달랐다. 스케이트급과 달리 이 새로운 설계는 선체를 연식비행선처럼 만들어 수중속도를 극대화했다. 이에 따라 단일 프로펠러를 방향타와 잠항타 뒤에 배치해야 했다. 이른바 ‘회전체형 선체’는 수상 내항성을 떨어뜨렸지만 수중 성능에는 필수적이었다. 스킵잭급의 선체는 함 길이 대부분에 걸쳐 내압선체와 외부 선체가 동일한 단각식 설계이기도 했다.",
+      "previous_translation_sha256": "2511e18ddd9771a6484c6b40fb4ca49d26d6aaee47245d59f3049d9e11b1c706",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Submarine_223.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_364.txt",
@@ -78092,6 +79397,24 @@
       "review_origin": "DB/Descriptions/CWDB/Submarine_280.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Submarine_577.txt",
+      "paragraph_index": 1,
+      "source_sha256": "727323e1e3ede755f3a69dffcc86e5d9db9f85a2dee6ea2e05bd81d434a1323b",
+      "translation": "세부 사항: 위안급은 중국 인민해방군 해군의 킬로급 운용 경험에서 얻은 교훈을 반영한다. 위안급에는 쑹급과 킬로급의 우수한 특징 일부가 결합되어 있다. 위안급은 039G형과 유사한 잠항타가 달린 함미와 상부에 융기부가 있는 킬로급식 물방울형 선체를 갖춘다. 킬로급의 높게 솟은 갑판·케이싱, 높은 건현과 예비부력, 유사한 형태의 함수와 어뢰발사관 배치를 갖추는 한편, 함교탑과 프로펠러 배치, 함미부는 쑹급의 것을 따른다. 이 신형 잠수함은 크기와 전반적인 성능 면에서 러시아 킬로급의 개량형(프로젝트 636)에 견줄 만할 수 있다는 견해도 제기되었다.",
+      "previous_translation_sha256": "814f41475e7e68a9f15d947677e8bc99467d3ebf67e6a492828c0d3a86867ccd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_577.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_580.txt",
+      "paragraph_index": 1,
+      "source_sha256": "727323e1e3ede755f3a69dffcc86e5d9db9f85a2dee6ea2e05bd81d434a1323b",
+      "translation": "세부 사항: 위안급은 중국 인민해방군 해군의 킬로급 운용 경험에서 얻은 교훈을 반영한다. 위안급에는 쑹급과 킬로급의 우수한 특징 일부가 결합되어 있다. 위안급은 039G형과 유사한 잠항타가 달린 함미와 상부에 융기부가 있는 킬로급식 물방울형 선체를 갖춘다. 킬로급의 높게 솟은 갑판·케이싱, 높은 건현과 예비부력, 유사한 형태의 함수와 어뢰발사관 배치를 갖추는 한편, 함교탑과 프로펠러 배치, 함미부는 쑹급의 것을 따른다. 이 신형 잠수함은 크기와 전반적인 성능 면에서 러시아 킬로급의 개량형(프로젝트 636)에 견줄 만할 수 있다는 견해도 제기되었다.",
+      "previous_translation_sha256": "814f41475e7e68a9f15d947677e8bc99467d3ebf67e6a492828c0d3a86867ccd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_577.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Submarine_68.txt",
       "paragraph_index": 6,
       "source_sha256": "fbd6e4ae73d70a7747e8b19ced9f234a2e5f2fea0ac61bdd6fab13c9b57bbc1b",
@@ -78155,6 +79478,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_114.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_119.txt",
+      "paragraph_index": 1,
+      "source_sha256": "092a6c4374b9d39a134d7bff4c5da45b826a6c9d6f73f868e51096fdeb00f3b0",
+      "translation": "세부 사항: ‘Mod 1’은 Mk 46 Mod 0의 고체연료 피스톤 엔진을 액체 단일추진제(오토 연료 II) 피스톤 엔진으로 전환한 형식으로, 정비성을 개선하고 운용 수심을 늘리기 위해(400 m 초과) 1967년 도입되었다. 직경 12.75 in와 길이 8 ft를 유지하며, 중량은 약 508 lb(231 kg)이고 45 lb PBXN-103 탄두를 탑재한다. 유도에는 자이로 안정화와 능동/수동 소나를 사용하며, 층상 탐색 패턴으로 약 460 m까지 신뢰성 높은 표적 탐지를 제공한다. Mod 1에는 두 단계의 개량이 적용되었다. 1단계(1968년)에서는 강화된 선체를 도입했고, 2단계(1971년)에서는 수면 부근 잠수함을 탐지하도록 유도 성능을 개선하고 약 40 kn에서 사거리를 약 8~11 km로 늘렸다.",
+      "previous_translation_sha256": "805b3a801f221232811c9add645776e5a6f4474b0d0698458b0a74a79cd7b9ef",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_119.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1202.txt",
       "paragraph_index": 1,
       "source_sha256": "8a6543b9c242ed867b0c4aa7ca2d4baf6158980d07b6186b10496809e17e51ef",
@@ -78171,6 +79503,15 @@
       "previous_translation_sha256": "50e67366507cd0f40f945f42d772c959acba563c50cca3404d211b4908bf1b94",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1222.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1226.txt",
+      "paragraph_index": 1,
+      "source_sha256": "878ea5ffaa9c8ee057d8b5c733cb25cfd0e1dc2f4aa5d02fd179cb480b4e0939",
+      "translation": "세부 사항: TSP-47은 1969년부터 개발되어 다양한 소련/러시아 함급에서 사용된 2연장 PK-2 기만체 발사체계와 호환되는 주요 레이더 다이폴 채프탄 중 하나이다. 길이는 약 1,105mm, 중량은 약 36kg이며, 약 7.73kg의 채프를 탑재한다. 근거리 전개용으로 설계되었으며, 통상 500m~6km의 이격거리에서 레이더 반사용 다이폴 구름을 살포해 접근하는 미사일의 탐색기를 유인한다. TSP-47탄을 포함한 PK-2 체계는 프로젝트 1143 항공모함, 프로젝트 1155 우달로이 I급, 프로젝트 1123 모스크바급 등 여러 러시아 수상전투함에 배치되었다.",
+      "previous_translation_sha256": "78a321ca23788b6722c6bd7a11f00c24873a1b6bc4f2e3e9ebaa66dffefffedb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1226.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1258.txt",
@@ -78207,6 +79548,15 @@
       "previous_translation_sha256": "0fb32270f4e6a7af140b9f7be937544526cc2904a68a164303752fde6a8a2296",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1279.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1298.txt",
+      "paragraph_index": 1,
+      "source_sha256": "276892a08b091d2b55254cc664fc94f981a42d42e4317971f2557271174a4a3c",
+      "translation": "세부 사항: 시 센터는 울트라 일렉트로닉스가 영국의 주력 함정 탑재 어뢰방어체계로 개발했으며, 2004년 실전 배치되었다. 이 체계는 가변심도 예인식 수동 음향배열과 좌현 및 우현에 각각 1기씩 설치된 소모성 기만체 발사기로 구성되며, 총 16발의 어뢰 기만탄을 수용한다. 기존 AN/SLQ-25 ‘닉시’ 체계를 대체했으며, AI 기반 처리로 접근하는 어뢰 위협을 자동 분류하고 대응수단 전개나 회피기동을 권고한다. 시 센터는 현재도 운용 중이며, 영국 해군 수상전투함에 65개가 넘는 체계가 장착되어 있고 동맹국 해군용으로도 같은 이름으로 수출되었다.",
+      "previous_translation_sha256": "ca7cb27a0bda859fe8e248e8a9feced586423c1564caa54b98ec245fe2755352",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1298.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1319.txt",
@@ -78281,6 +79631,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1451.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1458.txt",
+      "paragraph_index": 1,
+      "source_sha256": "57679b0ee00316488f52eee1bd0904222d1f5e574445ed88a5810ee3b1032aa1",
+      "translation": "세부 사항: USET-80(Universalnaya Samonavodyashchayasya Elektricheskaya Torpeda, 1980)은 기드로프리보르가 개발하여 1980년에 실전배치했으며, 후속형 USET-80K는 1989년에 도입되었다. 직경은 533 mm, 길이는 7.9 m, 중량은 2,000 kg이며 300 kg 탄두를 탑재한다. 해수 활성화 은-아연 배터리(이후 일부 형식에서는 구리-마그네슘 배터리)가 공급하는 전력으로 전동기를 구동하며, 최대 속력은 50 kn, 운동학적 사거리는 약 25 km이다. 최대 1,000 m 수심에서 운용할 수 있다. 수동/능동 음향 센서와 수상 표적에 대한 항적유도를 사용한다. USET-80K는 개량된 ‘케라미카’ 음향 센서를 사용하지만 항적유도 능력은 없다.",
+      "previous_translation_sha256": "70ce2acd3155ebd7a59a7cf9da1e620d937329feb8804c9c0d4c279f543e6153",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1458.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1468.txt",
       "paragraph_index": 1,
       "source_sha256": "733863214643e2b2fee3642410394f6cd7621bd5d2a7210e609152a2e11e23dd",
@@ -78308,6 +79667,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1589.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1596.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a659c27db98e5b2df4444f9093a1fe5b3454b93504d0982c9d01a14d3deaeb83",
+      "translation": "세부 사항: 스팅레이 Mod 1은 기존 Mod 0을 대체하고 개량하기 위해 BAE 시스템스가 개발했으며, 2006년 영국 해군에서 실전 운용을 시작했다. 기존과 동일한 외형 치수(직경 324mm)와 발사 호환성을 유지하면서도, 개량된 음향 탐색기, 향상된 신호처리, 재프로그래밍 가능한 소프트웨어를 포함한 완전 디지털 전자장비를 갖추었다. 해수로 활성화되는 마그네슘/염화은 배터리가 전기식 펌프제트 모터에 전력을 공급하여 추진하며, 높은 기동성과 낮은 음향 신호를 갖도록 설계되었다. Mod 1은 천해 및 연안 해역에서의 성능을 높이고 기만체 식별·배제 능력을 개선했으며, 모듈식 설계로 수명주기 비용을 낮추었다.",
+      "previous_translation_sha256": "cc711c09fc1749a6dbdf08d7a35908c73eb02aeb596faa80033df8ead46b3e53",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1596.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1621.txt",
       "paragraph_index": 1,
       "source_sha256": "4621a6ca004841ea24f410ea3e297807e3a3e008dc7bf4fadc8532994460a7c4",
@@ -78315,6 +79683,15 @@
       "previous_translation_sha256": "0c35559d80ea4f50319a8852cd40556d233ab4a127e00bf9908b8b75b8eb99af",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1621.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1650.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5356588bd6c01774a97c49154c694b988991410faf9d4a5a6c8f9b8b3c3708fb",
+      "translation": "세부 사항: 89식(‘식’은 1989년을 가리킨다)은 일본 기술연구본부가 사업 코드 G-RX2로 개발했으며, 내부적으로 간혹 G-12라고도 불린다. 직경은 533 mm, 길이는 6.25 m, 중량은 약 1,760 kg이다. 추진체계는 오토 연료 II를 사용하는 사판식 피스톤 엔진으로, 최대 55노트의 속력과 40노트에서 약 27해리의 사거리를 제공한다. 267 kg 탄두를 탑재하며 최대 500 m 수심에서 운용할 수 있다. 후기 생산형에서는 최대 운용수심이 900 m로 늘어났다. 초기 단계에는 유선유도를 사용하고, 종말 교전 단계에서는 음향유도로 전환한다.",
+      "previous_translation_sha256": "e3d4a98ff8b1fc1e1a866b5434b54f4953973d51bb2052c519182b7ca1343215",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1650.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1654.txt",
@@ -78344,6 +79721,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1705.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1745.txt",
+      "paragraph_index": 1,
+      "source_sha256": "92e18348ba6aeaf0c5ecee6470dfbbb3c3d9f169afb2c07da92d5a4075328777",
+      "translation": "세부 사항: 라파엘이 개발하여 1971년 배치한 샤프리르 2는 소량 생산된 샤프리르 1을 대체했으며, 1973년 욤키푸르 전쟁 이전에 이스라엘 공군에 경쟁력 있는 근접공중전용 미사일을 제공했다. 이전 모델보다 개선된 전방위* 수동 적외선 탐색기, 더 큰 고폭파편 탄두, 더 높은 에너지의 고체연료 로켓 모터를 사용한다. 미사일은 항공기 레이더에 연동하거나 육안으로 표적을 지시할 수 있으며, 발사 후에는 표적의 열 신호를 따라 자율 유도된다. 이후 파이선 계열에 밀려났지만, 샤프리르 2는 중동 분쟁에서 효과를 입증했으며 미라주 III/5, 네셔/대거, 크피르, F-5용으로 여러 국가에 수출되었다.",
+      "previous_translation_sha256": "7f0ab938ec9911af5afa19b1af55b703cc9f3c860965a3769fa892c53bc8fb29",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1745.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1764.txt",
       "paragraph_index": 1,
       "source_sha256": "3a14d741c79d84c58a58b4677cf8f42961fd47a2c3cf4eac82fa1eba1585c36c",
@@ -78351,6 +79737,15 @@
       "previous_translation_sha256": "94c6e7371dee26d83c500c962db2d9fd7421403a66e02723ef67aab1ee192377",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_1388.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1866.txt",
+      "paragraph_index": 1,
+      "source_sha256": "1c59a8a1db2f3a3bc478583a0c6b31e753d6db8789d1f34eebb90aadeba34aa0",
+      "translation": "세부 사항: SLAM은 고정된 고가치 표적에 대해 주야간 전천후 정밀타격 능력을 제공하도록 설계되었지만, 이동 표적도 공격할 수 있다. SLAM은 하푼 기체에 AGM-65D 매버릭의 영상적외선(IIR) 탐색기와 AGM-62의 영상 데이터링크를 결합한다. 중간유도를 위한 GPS 수신기도 탑재한다. AGM-84E는 관성항법체계를 사용하여 복잡한 경로로 표적을 향해 비행하며, 비행의 마지막 60초 동안에는 데이터링크를 통해 제어된다. 이 종말 단계에서 IIR 탐색기가 작동하고 조종사는 조준점을 포착하여 고정한다. 표적 고정 후 미사일은 자율적으로 표적을 공격한다. 명중 정확도는 원형공산오차(CEP) 3m이다.",
+      "previous_translation_sha256": "bb38a3afe541382e7444f693f562f7740c9c2735367cb070492c4305292b0468",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1866.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1880.txt",
@@ -78398,6 +79793,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1920.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/weapon_1921.txt",
+      "paragraph_index": 0,
+      "source_sha256": "a9b5d2c6a6c6014c10c8132baebaf67b6d721de0943edfc8eb3206110563eba6",
+      "translation": "HJ-10(HJ는 ‘붉은 화살’을 뜻하는 Hong Jian 또는 Hongjian의 약자)은 중국이 독자 개발한 대헬리콥터/대전차 미사일 계열로, 2011년 기준 고도로 기밀화되어 있으며 CAIC WZ-10 공격헬리콥터의 주무장이다. 여러 출처는 이처럼 잘 알려지지 않은 미사일이 중국판 AGM-114 헬파이어라고 주장해 왔지만, 중국 정부나 다른 신뢰할 만한 출처는 그러한 주장을 확인할 수 있는 HJ-10의 실제 성능 세부 사항을 아직 공식적으로 공개하지 않았다. 중국은 HJ-10의 여러 파생형도 개발했으며, 모두 평가 목적으로 중국군에서 제한적으로 운용 중인 것으로 여겨진다.",
+      "previous_translation_sha256": "e916ccc22353cff7c06b3f52a9611192a0af81cb2f970636204ad88c824172c9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/weapon_1921.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1929.txt",
       "paragraph_index": 1,
       "source_sha256": "1b350f81edd33bcf53c48c49d49136cdc9d3181f8a537aec255fd5d90695b3fa",
@@ -78443,6 +79847,33 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_2050.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_2086.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d305ba9038fbb21778c04a7ba8bbbabda3bea9cfe07594ef77b721fb891786dc",
+      "translation": "세부 사항: 1982년에 실전배치된 Mk62 기뢰는 Mk82 범용폭탄을 기반으로 제작되며, 자기 및 지진동 감지 능력을 제공하는 Mk57 표적탐지장치(TDD)를 장착한다. 이 체계는 신관 작동 준비 지연, 함선 통과 횟수 설정, 자체 무력화, 자폭 타이머 등의 프로그래밍 가능한 기능을 갖춰 안전하고 유연한 부설이 가능하다. 다른 퀵스트라이크 파생형보다 크기가 작아 더 다양한 전술항공기에서 투하할 수 있다. 낙하산 감속 투하 방식으로 안정적인 하강과 해저의 올바른 위치에 안착하는 것을 보장한다. 전략적 해역에 대한 접근을 거부하기 위한 신속하고 비용 효율적인 기뢰부설 수단을 제공한다.",
+      "previous_translation_sha256": "dba699baa19bfe0fedf203bc67787464aa94575a6f40ebc9c137cb5847006e53",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2086.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2090.txt",
+      "paragraph_index": 1,
+      "source_sha256": "4497e3772f6df54c5e1adaac43f9025f3aa1b738c9a6a8c04bcd4d45c49f9177",
+      "translation": "세부 사항: Mk52는 표준 1,000 lb 범용폭탄 몸체를 기반으로 개발된 모듈식 감응기뢰로, 1962년에 도입되었다. 자기식(Mod 1), 음향식(Mod 2), 자기·압력식(Mod 3), 음향·압력식(Mod 4) 등 다양한 신관 구성을 지원하여 여러 함종에 대응하도록 유연하게 부설할 수 있다. 각 기뢰는 프로그래밍 가능한 함선 통과 횟수 계수기, 신관 작동 준비 지연 기능(수시간에서 수개월), 자체 무력화 기능을 갖춘다. 전략적 해상 요충지나 항만에 대한 접근을 거부하기 위해 전술항공기에서 대량 부설하도록 설계되었다. 해저에 안착한 뒤 신관이 작동 준비 상태가 되며, 사전 설정된 감응 임계값에 의해 작동할 때까지 수동 상태를 유지한다.",
+      "previous_translation_sha256": "cd7a19e0c784c2cce131e7ce93112f799257f5d9d7e6615f95641d400f653c49",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2090.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2091.txt",
+      "paragraph_index": 1,
+      "source_sha256": "1f0c737f7feddeb055a938d221074b1d9c933da724bf116d7561ee4b40cca174",
+      "translation": "세부 사항: 1962년 도입된 Mk55 기뢰는 Mk84 폭탄 몸체를 기반으로 하며, 자기식(Mod 1–6) 및 이중채널 자기식(Mod 7) 변형을 포함하는 모듈식 감응신관 체계를 갖추고 있다. 기폭 동작을 통제하기 위해 설정 가능한 신관 작동 준비 지연, 통과 함정 수 판별, 무력화 타이머 기능을 갖추고 있다. 고정익 항공기에서 투하하도록 설계된 Mk55는 Mk52보다 수심이 깊은 해역의 해저 부설에 최적화되어 있다. 수로 및 항만 방어와 외해 기뢰부설 작전에서 전략적 접근거부 무기로 사용된다. 감응신관을 통해 기폭 전에 함정 유형을 수동적으로 탐지하고 분류할 수 있다.",
+      "previous_translation_sha256": "68b256f21500c3705761f0a788d66288beaa06fee1658ac949f284b18f4fe18f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2091.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_214.txt",
       "paragraph_index": 1,
       "source_sha256": "bea5cbb14df294a8c11b69cb4068655d062ff810fa4f70fbfa0653f4926f3453",
@@ -78450,6 +79881,15 @@
       "previous_translation_sha256": "227a0a658118178eb079a4f47de8f1cd98d817a9df3e843e49fa599b62442ea9",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_214.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2178.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a35fdd8daf10474d2b2b9149e89ff3bc573850f04fa509985482267ef5d1c5d1",
+      "translation": "세부 사항: USET-80K(Universalnaya Samonavodyashchayasya Elektricheskaya Torpeda 1980-K)는 이전형의 직경 533 mm, 길이 7.9 m, 중량 약 2,000 kg, 전기추진 방식을 유지하지만 기존 ‘보도파드’ 탐색기를 케라미카 음향 센서로 교체한다. 원문은 이중 모드 유도(능동/수동 음향유도)와 수상 항적 추적 능력을 유지한다고 설명하면서도, K형은 항적유도 기능이 비활성화된 것으로 알려져 있으며 해저 및 천해 환경에서의 성능 개선에만 중점을 둔다고 기술한다. 성능 제원은 대체로 변함없이 최대 속력 48 kt, 사거리 약 18 km, 최대 운용수심 1,000 m이며, 접촉/자기 신관을 갖춘 200~300 kg 탄두를 탑재한다.",
+      "previous_translation_sha256": "752b7b86d8354b952c67cb15588b850036205e36be43623c3d181d49d6943ee5",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2178.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2188.txt",
@@ -78479,6 +79919,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_2234.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_2235.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a6f4515e54dfcbc1a898c8b43d7df26280bd6690ba5a911a4f0d280be53a8cb6",
+      "translation": "세부 사항: ‘T1’은 독일 G7a 어뢰에 부여된 전후 명칭이며, ‘Mod 1’은 유선유도 기능의 추가를 뜻한다. G7a는 습식 가열 추진체계와 자이로스코프 조향장치를 사용하는 증기추진 어뢰로 1934년에 처음 도입되었다. 냉전기 노르웨이와 덴마크는 남아 있던 G7a 재고를 개조하여 발사 후 조향 수정이 가능한 수동 유선유도 체계를 장착했으며, 일반적으로 유선 릴과 제어 전자장치를 추가하는 방식이었다. 추진체계, 속력(최대 44노트), 탄두는 원래 G7a와 동일하게 유지되었다. 이 개량으로 해안방어와 훈련용으로서의 운용 가치를 1990년대까지 유지했다.",
+      "previous_translation_sha256": "807facccd285bba4d43ef5537f7474367cf24280ab64d224fb3f4201438f5148",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2235.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_224.txt",
       "paragraph_index": 1,
       "source_sha256": "e13c6f7e97882fb7bdc6b14c3791d50f1115b5d16bbee2ab47f15dca587753c6",
@@ -78486,6 +79935,15 @@
       "previous_translation_sha256": "f34fa893487c1ee5dd8102d3eb1c46888fb5e25b284a3485f0b720cc7b34712d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_224.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2291.txt",
+      "paragraph_index": 1,
+      "source_sha256": "02c1c466488ff4bbf7f606ced67bee03e710d853d7f9e35c9ffba1a0f2d7cff8",
+      "translation": "세부 사항: ‘마우스트랩’은 대잠 발사기 Mark 20(4개 발사레일)과 Mark 22(8개 발사레일) 체계를 뜻한다. 이 체계는 스피곳식 발사기 대신 로켓 추진을 사용하여 7.2인치(183 mm) 로켓을 발사하며, 각 로켓에는 헤지호그 발사탄과 동등한 접촉신관식 15 kg(33 lb) 토펙스 탄두가 탑재된다. 소형 함정에 적합한 무반동 발사기를 만들기 위해 1941~42년에 미국 국방연구위원회(NDRC) 산하에서 캘리포니아 공과대학교가 개발에 착수했다. Mk 20은 1942년에 실전배치되었고, Mk 22는 1943년까지 뒤이어 배치되었다. 전쟁 말기까지 미 해군 구축함과 구잠정에 Mk 22 100기 이상이 배치되었다. 로켓의 사거리는 약 280 m이며, 발사레일당 최대 3초에 1발을 발사할 수 있었다.",
+      "previous_translation_sha256": "aa4c6ca035054f8c34c24f9571af60881b86976c8e5a830189a2864d815d3d62",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2291.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2299.txt",
@@ -78513,6 +79971,15 @@
       "previous_translation_sha256": "7b7fd7240b87b666b30a38212a49e3944a299e8fb263219a7c73e7260aa1375d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_2333.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2388.txt",
+      "paragraph_index": 1,
+      "source_sha256": "232ebe51703688202267ed11cf90b5fa23bc1ea34f00299e009ae1b0f5872a96",
+      "translation": "세부 사항: ‘CHT-02D’는 북한이 설계한 직경 533 mm 어뢰로, 수동 음향유도와 항적유도를 결합한 무기를 가리킨다. 2010년 8월 다국적 천안함 조사에 따르면 인양된 프로펠러와 조타장치 파편은 ‘CHT-02D 어뢰의 설계도와 완벽하게 일치한다…’고 하며, 중량은 1.7톤, 폭약 탑재량은 약 250 kg으로 제시되었다. 공개자료 분석은 이 어뢰가 PT-97W의 후속형으로, 서로 반대 방향으로 회전하는 프로펠러와 은아연 전지로 구동되는 전동기를 사용하며 북한의 IS-120(MS-29/연어)급 잠수정에 배치되어 있음을 확인한다. 공개된 자료만으로는 정확한 개발 시기나 전체 배치 범위를 명확히 알 수 없다.",
+      "previous_translation_sha256": "f0396d393791bed3a64785db70afab6fb174181849c1492387cff7b84757d14e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2388.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2389.txt",
@@ -78560,6 +80027,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_2450.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_257.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2549289c759e8ad76d1f74bc158ae3344e652770c3bd60139d22919574fff910",
+      "translation": "세부 사항: MK82 AIR는 BSU-49/B 고항력 꼬리 조립체를 장착하도록 개조한 500파운드 폭탄이다. 꼬리에서 전개되는 ‘밸루트’ 공기주머니는 고속 저고도 투하를 가능하게 한다. 꼬리 조립체는 밸루트(풍선과 낙하산의 결합체)를 담은 공기저항이 작은 용기와, 용기를 열어 밸루트를 전개하는 분리용 당김줄 조립체로 구성된다. 비행 중 유입되는 공기가 밸루트를 팽창시켜 폭탄의 항력을 높이고 항공기가 폭발 영향권을 벗어날 수 있게 한다. 이 무기는 저항이 작은 투하 모드(투하 후에도 용기가 닫힌 상태 유지) 또는 고항력 모드로 투하할 수 있다. 밸루트 모드에서는 700노트로 비행하면서 투하할 수 있다.",
+      "previous_translation_sha256": "c305720a6612202b6ad1e6072729308438c6d278a19eb3eddad12392b4fabe73",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_257.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_2597.txt",
       "paragraph_index": 1,
       "source_sha256": "1b350f81edd33bcf53c48c49d49136cdc9d3181f8a537aec255fd5d90695b3fa",
@@ -78603,6 +80079,15 @@
       "previous_translation_sha256": "7fb512a8efbb91de6ba7b2e6379d95f9479f54e95b45fc93391f3e45cd3958a2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_277.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_292.txt",
+      "paragraph_index": 1,
+      "source_sha256": "362d04abbbf7290743e6ce4fab4d96ab2d45366bddaa3d70429177597c0b07a2",
+      "translation": "세부 사항: ‘Tp’는 Torped를 뜻하며, ‘422’ 형식은 1983년부터 스웨덴 해군의 대잠헬리콥터에서 사용하기 위해 Förenade Fabriksverken(FFV)이 Tp 42 계열을 기반으로 개발했다. 어뢰의 길이는 약 2.6m, 직경은 400mm, 중량은 298kg이며, 45kg 고폭탄두를 탑재한다. 은-아연 배터리를 사용하는 전기추진 방식으로, 속도를 선택할 수 있고(통상 15, 25 또는 35kn), 연안 해역의 잠수함 탐지에 최적화된 능동/수동 음향 탐색기를 갖춘 유선유도 어뢰이다. Tp 422는 헬리콥터에서 투하할 때 유선 스풀을 장착하지 않으며, 항공기에서 투하된 후에는 탑재 유도 탐색기에 의존한다.",
+      "previous_translation_sha256": "1602740ef07d4cd3e74a310c7fc15e196981b3db8f41da720aec934f2097be09",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_292.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2959.txt",
@@ -78677,6 +80162,24 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3126.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3153.txt",
+      "paragraph_index": 1,
+      "source_sha256": "10a8b39906fc8905774075b1c07cc55a9f1bed0046dc89352e6c2d536b3dc5a7",
+      "translation": "세부 사항: ‘M-15’는 파케트-NK(Package-NK) 근접방어 복합체계의 대어뢰 구성요소이다. 길이는 약 3.1~3.2m, 직경은 324mm, 중량은 약 380~400kg이며, 약 80kg의 고폭탄두를 탑재한다. 원문에서 ‘펌프제트 핀을 구동하는 수반응성 고체연료(로켓)’로 기술한 방식으로 추진하며, 최대 약 50kn의 속도와 최대 수심 800m에서 100~1,400m의 요격거리를 제공한다. 중간 항주 단계에서 관성항법을 사용하는 자율유도 방식이며, 약 400m 거리에서 능동/수동 음향유도로 전환하여 공격해 오는 어뢰를 포착·고정한다. 2008년에 20380/20385 초계함과 22350 호위함에 탑재되어 실전 운용에 들어갔으며, SM-588 모듈식 발사체계의 일부를 구성한다.",
+      "previous_translation_sha256": "d155e4f89b49f830fd16011563af3103127dd4cdedd1e01e8e31a1d54f80ae88",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3153.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_3167.txt",
+      "paragraph_index": 1,
+      "source_sha256": "dc08b7a3cf8ec71b2720d8810c6b38fe79d94d550a70c4c22e58c3820e6bf00f",
+      "translation": "세부 사항: SPYDER-MR 구성에서 파이선-5 미사일은 발사관에서 수직 발사되며, 사거리를 늘리고 표적 도달시간을 단축하기 위해 부스터를 장착한다. 발사 전 표적 포착(LOBL)과 발사 후 표적 포착(LOAL) 능력을 제공하는 이중대역 영상적외선 탐색기를 사용하여, 클러터가 많거나 전자전이 벌어지는 환경에서도 기동성이 높은 표적과 교전할 수 있다. 항공기, 무인항공기, 순항미사일, 정밀유도무기를 요격할 수 있다. 파이선-5의 전자광학 유도는 전파방해과 플레어에 대한 높은 내성을 보장하여 거점 및 지역 방공 임무에서 높은 효과를 발휘한다.",
+      "previous_translation_sha256": "c1caee456160686328930001c79a4d8b10fcb1c5ce887e9911de04cd172b21bf",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3167.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3266.txt",
       "paragraph_index": 1,
       "source_sha256": "0741cc6a4e249f341de7c350981cfeb4599688177fc5686a6b503d93bd30f5de",
@@ -78704,6 +80207,24 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3386.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3412.txt",
+      "paragraph_index": 1,
+      "source_sha256": "c26a1c1923c35aa90bac45ce4855015017b04427b0b434875de21651d63b1374",
+      "translation": "세부 사항: AQS-24B는 기존 AQS-24A의 개량형으로, 고속 합성개구 측면주사 소나와 레이저 선주사기를 통합하여 최대 18노트의 속력에서 실시간 기뢰탐지와 광학 식별을 수행한다. 노스럽 그러먼이 개발하여 2017년 봄에 실전배치했으며, 아라비아만, 한국, 영국에서 실시된 훈련 중 MH-53E 시 드래곤 헬리콥터와 무인수상정(USV)에 탑재되어 함대에 도입되었다. 측면주사 소나와 레이저 탑재장비를 케이블로 견인하며, 소나 및 광학 영상을 지속적으로 생성하여 해저기뢰와 계류기뢰를 모두 탐지하고 분류한다. 탑재 디지털 신호처리 기능을 통해 표적을 사각형 표시로 강조하는 기능와 운용자의 실시간 검토가 가능하다.",
+      "previous_translation_sha256": "b5c0335a50c8f6970d1a0f39f748bee9d9c12a61317d54151076ac94ce580794",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3412.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_3449.txt",
+      "paragraph_index": 1,
+      "source_sha256": "8c3b141da3797a4833ec2d7f4b30cc5ea30f0debbb0a8f2adae60e82216d3dba",
+      "translation": "세부 사항: 이 고폭탄(HE)은 포강과 같은 구경의 탄체를 사용하며, 강철 탄체 내부에 고폭약을 충전하고 일반적으로 탄두신관이나 지연 작동 선택식 신관을 장착한다. 고초속 2A82-1M 포용으로 설계되었으며, 성능을 높인 추진장약으로 사거리와 종말 효과를 향상시킨다. 기폭 시 넓은 반경으로 치명적인 파편을 흩뿌려 야전 축성물, 경량 구조물, 노출된 보병을 파괴하거나 살상할 수 있다. 일부 변형은 대인 효과를 높이기 위해 사전 파편화 라이너를 사용할 수 있다. 이 고폭탄은 비장갑 표적 교전에 사용할 수 있는 비용 효율적이고 다목적인 수단이다.",
+      "previous_translation_sha256": "f50d17f449671011bab7b3d434fc68861f60a9ecfe7cd085269ad55ee51ece11",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3449.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3476.txt",
       "paragraph_index": 1,
       "source_sha256": "cecbb35240900db98d9b1c09036c21f6943d4571a36269d53f1fda834552fb75",
@@ -78729,6 +80250,15 @@
       "previous_translation_sha256": "7c7b22b8540212c9bfee13600680c0788eda5c851abc1dfbd9b7e660a0980e63",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_348.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_354.txt",
+      "paragraph_index": 1,
+      "source_sha256": "02c1c466488ff4bbf7f606ced67bee03e710d853d7f9e35c9ffba1a0f2d7cff8",
+      "translation": "세부 사항: ‘마우스트랩’은 대잠 발사기 Mark 20(4개 발사레일)과 Mark 22(8개 발사레일) 체계를 뜻한다. 이 체계는 스피곳식 발사기 대신 로켓 추진을 사용하여 7.2인치(183 mm) 로켓을 발사하며, 각 로켓에는 헤지호그 발사탄과 동등한 접촉신관식 15 kg(33 lb) 토펙스 탄두가 탑재된다. 소형 함정에 적합한 무반동 발사기를 만들기 위해 1941~42년에 미국 국방연구위원회(NDRC) 산하에서 캘리포니아 공과대학교가 개발에 착수했다. Mk 20은 1942년에 실전배치되었고, Mk 22는 1943년까지 뒤이어 배치되었다. 전쟁 말기까지 미 해군 구축함과 구잠정에 Mk 22 100기 이상이 배치되었다. 로켓의 사거리는 약 280 m이며, 발사레일당 최대 3초에 1발을 발사할 수 있었다.",
+      "previous_translation_sha256": "aa4c6ca035054f8c34c24f9571af60881b86976c8e5a830189a2864d815d3d62",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2291.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_3579.txt",
@@ -78803,6 +80333,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3839.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3896.txt",
+      "paragraph_index": 2,
+      "source_sha256": "a7d78c40eeccd1c5413d21d655e246e00098370d3aaf39f3b256ca61056eaa98",
+      "translation": "PL-15는 발사 전에 공중조기경보통제기, 지상 장거리 레이더 체계 또는 위성으로부터 데이터링크를 통해 표적 정보를 받아야 한다. 발사 후 PL-15는 초장거리 사거리를 확보하기 위해 약 30 km 고도에서 순항하는 준탄도 궤적으로 비행한다. 초기 상승 단계 이후에는 중간 순항 구간에서 베이더우 / GPS+INS+데이터링크 유도를 사용한다. 또한 전파방해에 강한 양방향 데이터링크로 공중조기경보통제기로부터 항로 수정 정보를 받을 수 있어, 발사 플랫폼이 전파방사통제(EMCON) 상태를 유지할 수 있다. 종말 단계의 자율 레이더 유도에는 능동 및 수동 모드를 모두 사용할 수 있다. 향상된 전자방해 대응 능력도 갖추고 있다.",
+      "previous_translation_sha256": "6c4e003c1b1e3ac946ad4bda04e3d610b6a06fd41a0666dc3f2677b519559d3f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3896.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3904.txt",
       "paragraph_index": 1,
       "source_sha256": "8c5dc21b2592b66c90538b6fce979484f29eb1e3d9dbeb878d0aeba222f5fae9",
@@ -78821,6 +80360,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3936.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3970.txt",
+      "paragraph_index": 1,
+      "source_sha256": "007fa7d592382a723a2433b6e166474ab3898d5e37114b2321b0ef18c79da021",
+      "translation": "세부 사항: ‘오르카’는 뮈렌/A-290 계열에서 유래하고 로켓산이 아셀산과 함께 개발한 NATO 표준 324 mm(12.75인치) 경어뢰(LWT)로, 터키가 완전히 독자 개발한 것이다. 길이는 약 2.85 m, 중량은 약 220~304 kg이며, 약 33~45 kg의 둔감 고폭약 성형작약 탄두를 탑재한다. 고에너지 리튬 배터리로 구동하는 브러시리스 직류 전동기와 펌프제트로 추진하며, 45 kn를 넘는 속력과 15 km의 사거리를 제공한다. 공중투하 시 사거리는 최대 50 km로 연장된다. 자체 탑재 능동/수동 소나를 이용해 자율 유도되며 음향대응책에 대한 내성을 갖춘다. 2020년 12월에 발표되었으며, 2020년대 중반 초기운용능력(IOC) 확보를 예상하며 개발이 계속되고 있다.",
+      "previous_translation_sha256": "d3563362f4755b62e8e66f760c26228284460304fe15f3294d6ea54f00232946",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3970.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_4061.txt",
       "paragraph_index": 1,
       "source_sha256": "0b9d1ab5b6a66515a233865ce48f6c181b6d69195d2a39188f73104764c549fc",
@@ -78837,6 +80385,24 @@
       "previous_translation_sha256": "fafbdef9bf5d048932de9790057fa439b605ca37a15d24eee2dc7e3ea4fd5585",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_4275.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_429.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b7ed0d487f6a904570929d7ae8d0e30205ac92232d04db65ecf12ea6586ca212",
+      "translation": "세부 사항: ‘NT’는 노스럽 어뢰 개량형을 뜻하고, ‘37’은 Mk 37 계보를 가리키며, ‘C’는 배터리 전기추진에서 오토 연료 II 추진으로 처음 완전히 전환한 형식을 나타낸다. 길이는 약 3.43m, 직경은 533mm, 중량은 약 650kg이며, 150kg HBX-3 탄두를 탑재한다. 원문은 속도가 40% 이상, 사거리가 약 150% 증가했다고 기술하면서, 기존의 26kn 및 9km에 비해 약 36kn의 속도와 약 15km의 사거리를 달성했다고 제시한다. 유도 방식은 초기 자이로 항주, 중간 항주 단계의 유선 제어, 개선된 음향 변환기를 사용하는 수동/능동 종말유도로 구성된다. 약 1973~1975년에 취역했으며, 1990년대까지 작전상 유용성을 유지했고 동맹국 해군에서는 2000년대 초까지 사용했다.",
+      "previous_translation_sha256": "ee4f3496e23ebf552e8b3fc26aecf53cc0a70c1e70b2baa9ad1970b61046fb4a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_429.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_430.txt",
+      "paragraph_index": 1,
+      "source_sha256": "36113ce24c98a8d62a3bcb294377e6f019b8fadde11f556615334dfea985002f",
+      "translation": "세부 사항: ‘NT-37’은 오토 연료 II 추진체계를 장착하도록 개조한 미 해군 Mk 37 어뢰 변형을 뜻하며, ‘D’는 두 번째 주요 개량을 나타낸다. 길이는 약 135 in(3.43 m), 직경은 19 in(483 mm), 중량은 약 1,430 lb(650 kg)이며, 330 lb(150 kg) HBX-3 탄두를 탑재한다. Mod D는 개선된 압전 변환기와 반도체식 유도 하드웨어를 도입하여 표적 포착거리(약 910 m)와 신호 선명도를 높였다. 추진체계는 약 36 kn의 속도와 15,000 yd(약 13.7 km)의 사거리를 제공하며, 이는 기존 Mk 37보다 속도가 약 40% 빠르고 사거리가 약 50% 긴 것이다. 유도 방식에는 자이로를 이용한 직진 항주, 중간 단계의 유선 제어, 종말 단계의 능동/수동 유도가 포함된다.",
+      "previous_translation_sha256": "aa64f02e2989cad04240d6b6cd432d6b6db33506a4a50a988a9a8ccee7b21c62",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_430.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_4405.txt",
@@ -78909,6 +80475,15 @@
       "previous_translation_sha256": "2fc617c7c0b7db9ce6bdf98a31bc5c49380a83ec60d7d8ccea8c798d883e2904",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_3476.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_545.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d3cade8ca3cf5314fb243be313930acd70e0a211ff3928c180a03e927e8c7b77",
+      "translation": "세부 사항: 라이테닝 체계는 항공기 하부 외부에 장착되는 AN/AAQ-28(V)3 라이테닝 II 포드 1개로 구성된다. AN/AAQ-28(V)3 ER 라이테닝 II 표적지시 포드는 레이저 유도무장을 정밀 투하하기 위해 안정화된 터릿 내부에 해상도가 개선된 전방감시적외선 센서(FLIR), 레이저 표적지시기, 레이저 표식기, 레이저 조사점 추적기, CCD 카메라, 관성항법센서(INS)를 갖추고 있다. 일반 폭탄의 경우 레이저로 표적까지의 거리를 측정하여 사격통제체계에 입력할 수 있으며, 이는 표적 탐지, 식별, 공격을 단순화하고 항공기가 한 차례의 공격 진입으로 정밀유도무기를 사용해 표적을 공격할 수 있게 한다.",
+      "previous_translation_sha256": "e4bdb51851248804e15dfd8d32225d3130bd8a19347dfe497fdf64b731d65585",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_545.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/weapon_551.txt",
@@ -79073,6 +80648,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_708.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_711.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ca7b33d15989a7de49c13657223e3f692fb6bcce286228de89b165d4876599b0",
+      "translation": "세부 사항: ‘Mark 37’은 제2차 세계대전 이후 미 해군의 음향유도 어뢰 계열이며, ‘Mod 1’은 기존 수동/능동 체계에 유선유도를 추가한 첫 번째 주요 개량형을 뜻한다. Mod 1은 길이 161 in(4.09 m)으로 Mod 0보다 26 in 길며, 중량은 약 1,690 lb(767 kg)으로 260 lb 증가했다. Mk 19 Mod 1 접촉식 기폭장치를 갖춘 330 lb(150 kg) HBX-3 탄두를 탑재한다. 은아연 전지로 전력을 공급하는 전동기로 구동되며, 속도 설정은 Mod 0와 동일하다. 17 kn에서는 사거리 약 23,000 yd, 26 kn에서는 약 10,000 yd이다. 유도는 자이로 안정화로 시작해 중간 단계의 유선유도를 거쳐 종말 단계의 능동/수동 유도로 이어진다.",
+      "previous_translation_sha256": "eab8be0551d4b268b82c3463fdbd04cbab1ee107094a3ec4b60401236a6deb96",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_711.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_716.txt",
       "paragraph_index": 1,
       "source_sha256": "9331b56f21f59c140c4cf4586589cdaccf658bab6f9a5eaac8b079a79cac62ef",
@@ -79091,6 +80675,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_473.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_78.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d0a8938d473bd5dc7d485fc6b0b520a2c3bacb5f76b684b536f9229baca2de48",
+      "translation": "세부 사항: GBU-10 H/B 페이브웨이 II는 방호가 강화된 표적에 대한 정밀 폭격용이다. 기존 BLU-109/B 관통폭탄에 볼트로 부착하는 짐벌식 탐색기 헤드와 컴퓨터 제어장치(CCG), 안정화용 꼬리날개 조립체로 구성된다. 이를 통해 BLU-109/B는 지상 또는 공중의 레이저 표적지시기가 조사한 뒤 표적에서 반사되는 레이저 빔을 따라 유도되는 레이저 유도무기로 전환된다. 페이브웨이 II 계열 폭탄은 조종면을 항상 최대 각도로 꺾는 ‘뱅뱅’ 유도 방식으로 표적을 향해 비행한다. 이로 인해 비행경로는 비교적 비효율적이다. 센서 성능 또한 박무와 안개로 제한된다. 명중 정확도는 원형공산오차(CEP) 6m로 알려져 있다.",
+      "previous_translation_sha256": "94b10b0dafad3888b4f5d2b64d5362fef1aeed6271734a9686caaaa67340c0e9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_78.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_786.txt",
       "paragraph_index": 1,
       "source_sha256": "88608aa1e0d6450d37ed8a2a76f46d833e9413f2d133e48f65fa39630862083b",
@@ -79098,6 +80691,15 @@
       "previous_translation_sha256": "8d52ccf3526004c0d88e3add32de2acee57fbbc9b8f756fc278db605e163f0c7",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_786.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_79.txt",
+      "paragraph_index": 1,
+      "source_sha256": "86ef7701fb09035b53207fdf6b05ce9177f4664d043080bf006a6c36b8a48adf",
+      "translation": "세부 사항: GBU-10 G/B 페이브웨이 II는 방호가 강화된 표적에 대한 정밀 폭격용이다. 기존 BLU-109/B 관통폭탄에 볼트로 부착하는 짐벌식 탐색기 헤드와 컴퓨터 제어장치(CCG), 안정화용 꼬리날개 조립체로 구성된다. 이를 통해 BLU-109/B는 지상 또는 공중의 레이저 표적지시기가 조사한 뒤 표적에서 반사되는 레이저 빔을 따라 유도되는 레이저 유도무기로 전환된다. 페이브웨이 II 계열 폭탄은 조종면을 항상 최대 각도로 꺾는 ‘뱅뱅’ 유도 방식으로 표적을 향해 비행한다. 이로 인해 비행경로는 비교적 비효율적이다. 센서 성능 또한 박무와 안개로 제한된다. 명중 정확도는 원형공산오차(CEP) 6m로 알려져 있다.",
+      "previous_translation_sha256": "f0d0e9ec8f859016fd733a700dd5dfedb354024eec0fb80bae43072cd4ba9220",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_79.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_797.txt",
@@ -79118,6 +80720,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_82.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_820.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2f095cad6f0cf355b9b040c3ad7e507dbe9b79ca0bcfcadf04275e007bd21f4d",
+      "translation": "세부 사항: ‘A.184 Mod 3’라는 명칭은 기존 A.184 계열에서 확인된 세 번째이자 마지막 개량형을 뜻하며, 블랙 샤크 도입 전까지 체계의 운용수명을 연장하기 위해 개발되었다. 직경 533 mm, 전기추진 체계, 은-아연 배터리를 유지하면서 새로운 디지털 유도·제어체계, 향상된 음향 탐색기 성능, 강화된 유선유도 안정성을 통합했다. 이탈리아 잠수함의 기존 발사체계와 완전히 호환되며, 복잡한 음향 환경에서 운용할 수 있었다. Mod 3는 더 발전된 블랙 샤크 어뢰가 배치될 때까지 전력 공백을 메우기 위해 실전배치된 임시방편이었다.",
+      "previous_translation_sha256": "ec58d789330d63abe6639ccf9651326daea86f40dcb6b8e3212eb63b5e94f48a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_820.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_821.txt",
       "paragraph_index": 1,
       "source_sha256": "70818d91524f8d56e6603dbe1a1996689560cc752ef26038963feea157c5ce84",
@@ -79136,6 +80747,24 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_83.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_84.txt",
+      "paragraph_index": 1,
+      "source_sha256": "0dff1bd02239b514a342c280179914303cb853ba993d9e8317c47500d7c30b76",
+      "translation": "세부 사항: GBU-10 D/B 페이브웨이 II는 방호가 강화되지 않은 표적에 대한 정밀폭격용이다. 기존 Mk84 자유낙하폭탄에 볼트로 부착하는 짐벌식 탐색기 헤드와 컴퓨터 제어부(CCG), 안정화용 꼬리날개 조립체로 구성된다. 이를 통해 Mk84는 지상 또는 공중 레이저 표적지시기가 조사한 레이저의 반사광을 따라 유도되는 레이저 유도무기로 전환된다. 페이브웨이 II 계열 폭탄은 조종면을 항상 최대 각도로 꺾는 ‘뱅뱅’ 유도 방식으로 표적을 향해 조향한다. 이 때문에 비행경로는 상대적으로 비효율적이다. 센서 성능도 박무와 안개로 제한되었다. 명중 정확도는 원형공산오차(CEP) 6 m로 알려져 있다.",
+      "previous_translation_sha256": "77b869a8c6855af91a8239ae1b230cb340bef31a63844adbfa466c487ecd300c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_84.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_85.txt",
+      "paragraph_index": 1,
+      "source_sha256": "86563d27c4e8abced107c951ba9cb79fa17ea5c1e38fd12930eaf0f40e257c26",
+      "translation": "세부 사항: GBU-10 C/B 페이브웨이 II는 강화 방호가 없는 표적에 대한 정밀폭격용이다. 일반 Mk84 자유낙하폭탄에 볼트로 부착하는 짐벌식 탐색기 헤드와 컴퓨터 제어부(CCG), 안정화 꼬리날개 조립체로 구성된다. 이를 통해 Mk84는 지상 또는 공중의 레이저 표적지시기가 조사한 레이저의 반사광을 따라 유도되는 레이저 유도무기로 전환된다. 페이브웨이 II 계열 폭탄은 조종면을 항상 최대 각도로 꺾는 ‘뱅뱅’ 유도 방식으로 표적을 향해 조종된다. 이로 인해 비행경로는 비교적 비효율적이다. 센서 성능도 박무와 안개에 의해 제한된다. 명중정확도는 원형공산오차(CEP) 6 m로 알려져 있다.",
+      "previous_translation_sha256": "8b867ebbb82dd3dc9d7094115c3d11e1ca3d5fdfe0467fed13c07bf6673ec324",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_85.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_850.txt",
       "paragraph_index": 1,
       "source_sha256": "d6423a0a80285b1d131c78f4d7eba479b5ba410033ceac5e24c3af7022d43958",
@@ -79152,6 +80781,15 @@
       "previous_translation_sha256": "948531cf8b2b3d735b72a19d7308280d23822d3247926617ae4d1aa89d4eda6e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_865.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_880.txt",
+      "paragraph_index": 1,
+      "source_sha256": "7e24c2380bfd2c5f5bd3d572b1e658cd0c55e89479c9808260b59d9c3fe0dff9",
+      "translation": "세부 사항: GBU-10 K/B 페이브웨이 II는 강화 방호 표적에 대한 정밀폭격용이다. 일반 BLU-109/B 관통폭탄에 볼트로 부착하는 짐벌식 탐색기 헤드와 컴퓨터 제어부(CCG), 안정화 꼬리날개 조립체로 구성된다. 이를 통해 BLU-109/B는 지상 또는 공중의 레이저 표적지시기가 조사한 레이저의 반사광을 따라 유도되는 레이저 유도무기로 전환된다. 페이브웨이 II 계열 폭탄은 조종면을 항상 최대 각도로 꺾는 ‘뱅뱅’ 유도 방식으로 표적을 향해 조종된다. 이로 인해 비행경로는 비교적 비효율적이다. 센서 성능도 박무와 안개에 의해 제한된다. 명중정확도는 원형공산오차(CEP) 6 m로 알려져 있다.",
+      "previous_translation_sha256": "e68624c8885d82d07ef0f90fd8e0f5880dbfd966f09277f25639b60796d9538f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_880.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_901.txt",
