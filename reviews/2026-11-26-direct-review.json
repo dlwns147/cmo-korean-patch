@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 10813,
+    "reviewed_source_entries": 10865,
     "review_outcomes": {
-      "modified": 9407,
+      "modified": 9459,
       "retained": 1406
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 9386,
+      "scenario-ko.b64.tsv": 9437,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 10831,
+      "runtime_first_lookup_passed": 10883,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 202
+      "html_context_lookup_passed": 203
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -86566,6 +86566,422 @@
       "review": "direct-source-review",
       "batch": "revisions-511.tsv",
       "previous_translation_sha256": "cd5637f20f4b02998b0e3407c1fb7970a8e8dfb425e4869efbbd77b355cd1f7b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "932605fce27fd5e9406817d79a5c62e5aba73e35b58e9324079cbf3e359bb8fd",
+      "translation": "모든 구축함을 격침하기 전에 오스프리의 임무부터 수행해도 승리할 수 없다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "dac13c0544947ef9b33a2aefc2985a523a39f916ade9e1345a12a78da216d9f1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f78cf2506881170ca43106ca58daffeda3bc0eee91e29b63b8b66b2643661806",
+      "translation": "*힌트가 필요하면 오스프리를 'Hint zone'으로 이동시켜라.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "4111cfe373f2110a42bcf102fcbd6681d33b47fcfb7edc655fcc5e1bcf3fc125"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1870d2912c89965360985c4aa27fa970182e93d4b97dbbaf5b468a3f78217884",
+      "translation": "참고: GCAS 전력의 임무를 재배정하는 데 드는 승리 점수는 4",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "5484bda6d187d3663bd91e964ea74f9ac81e9587fe7a36b51af538b249fc84ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3aeabc3912d98cfb5cf80a006f33e79919d7f9ea032c08f68d839a557d77495d",
+      "translation": "세대(F-16)의 경우 20점, 3",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "c921e46e905a9eb5b89dd47f00d8ef06b17adb1cbc144e8d28258c9d3b25975c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d195412eaf99dbb181cdcc6e26118aedb1ca6ff4d87058fde59868debd3c1d17",
+      "translation": "세대(F-4, 미라주 등)는 10점, 구형 기종(F-5)은 5점이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "f0fbb2373993ad478a5a65a2e5e58c1b2cf96376cc03beced32cd72be7f673fb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "44c7e97ccad851c2e2b033728c1f3de3627b468322117b26cc25628c0f7ec5f1",
+      "translation": "쿠비 포인트 해군항공기지: 해병대 파견대(A-4 12대, A-6 6대, EA-6 4대, KC-130 2대), P-3C 4대",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "fd29168685c7f993c685789fb4cb11f63f1193051f19b6d48de954cf7ba297e6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "562a3234a8db7a4a535b73a620f0bb3496931aacecaa9af2afa45f91fce433c2",
+      "translation": "초계 구역 HOTEL에 프랑스 또는 영국 항공모함을 유지하라(12시간마다 25점).",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "0683bf1543eaf2c56303677e796c62a70c72529d9d25616c0ae6589bc45662fc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6017a3e10c016a9fa4237d953ba3748be0cf04bf5a26c1e3646b5b402a1f2297",
+      "translation": "5. 발사 후 고속·저고도로 해당 구역을 벗어나 기지로 복귀하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "4d9ec855462e2f4c0106ca885eb2d21ce6b00fc4e02619d9c3353d8663512169"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b35b7a38b0e56874aff9761253330c141d166968f4148e73800874058b564cd9",
+      "translation": "지정한 영역으로 구역 객체를 만들겠느냐는 질문이 나오면 '아니요(No)'를 클릭하라",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "4e3823f2be0a76e36726c009d905171ca5674ed773e11b2226ab577b0741e3b5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "03d278748e648f9566fa70ea1d2274f57b9be005e4877922a72cbc48ea9ef834",
+      "translation": "정치적 압박 점수는 다음 표적을 파괴해야만 얻을 수 있다:",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "80db469fb0dfaffa7d244834ab9fddc8a0bba45551e963fa42b1ee6fc0e51943"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7ec6136fec0d0af279a65588375b58806ffbf9bb634b0d8706aed973b95bd302",
+      "translation": "표적 비행장을 선택하라. 이 비행장을 선택한 상태로 일련의 임무를 수행한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "bacd9f3b6ab10204033ff122f63292ddd8cb14feea525e86572fa9a8ca2fb8f2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ba7c30a1329a8acbb3f41240474fed6f3f66b66775f626cd1aedaea5f73fabd6",
+      "translation": "원한다면 남은 선박들을 수송선단으로 편성할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "744e8db2a4893d944b994a59fe5a58878816de24289ef027614bf747c2cf3dbd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "068ac3f51ba7542b6944dbeba744a90954634b5c89f9505275d2e5d4882280a7",
+      "translation": "감점 조건: USS 니미츠의 통과 허용, 아군 잠수함 손실.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "0e6c781b68f2c387196ca622cd0970e98a15f597a72a6561f44c63b9d7fa4b7e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bf53f63042b35a13ba3b2b2fd9573dadbf7e00b8b33db40ba002f85d386a539",
+      "translation": "손실과 지정된 과업 완수에 따라 점수가 가산되거나 차감된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "8c76e88bf3e262f090c2244a0136d074cbfff75bfdd1d6d7657e33f30e3c7b4d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "56c22f2230c10d41381a950bad0a806940edb59f81802fc5bded2adf2f9add0d",
+      "translation": "정찰을 실시하고, 타격 표적을 선정하고, 무장 구성을 선택해 항공기에 탑재한다",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "66c3d7efbc0430d0014e3a3f355594ef111f87fe5755c214faea0dfa57ddacd4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5c936256640bf8e51e820d595cf995c6b1443ef9508311867e25aceb89e5a2a6",
+      "translation": "포인트 살린스 공항 안이나 인근에서 인민혁명군(PRA)을 지원하는 쿠바군을 포로로 잡고 무장해제하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "24b15c3a6bf1308efb932eb439d98fbf06eea569e281386d97e4c417aa98a83e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b9a5981ceda9bc90a1ca2ee212b6431bbe0c4508f334afc88c0b5072a80c1513",
+      "translation": "손실과 각종 잠수함 탐지에 따라 점수가 가산되거나 차감된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "fb848cc6af4923671eec0f833ceffcc1a2fa2f908ade75b77fab08b9970db375"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d34d77d6d0f71c0f09ddab77feed4c6b2c13480181063194aafdd91b55170855",
+      "translation": "적대 세력으로 식별된 표적에 대해 교전을 개시하는 것을 허가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "40aaea06ee9018e88c41a17e3cb495845b2949f99c2868deb4cbf95822811c0b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e7cf2cb85fc120e2d11da279e4bd20b1e89825ff46cd32ea6044f9c40ebea3dc",
+      "translation": "탐지되면 점수를 잃고 베네수엘라가 전쟁에 휘말릴 위험이 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "21b552e3f81ab15302729a4ad1beaa478572b76faae21934d4364572dc508260"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ecdc3af8fd019763d727d34e0eb5cc44443d09682578c3589198874131dacd9a",
+      "translation": "사상자 발생과 부여된 과업 달성에 따라 점수가 가산되거나 차감된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "464131c043a39549c43629ee51e4ae8038f9f11f1ebec21eee569ecba1776394"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "014cb764c454038f88f29951cc83d34eb0d92dc3923708867670628e5c42fc78",
+      "translation": "손실과 시나리오의 주요 단계 달성에 따라 점수가 가산되거나 차감된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "8b73641cbba5593969d75334449314e0807de7f6d4743f2cde46b4ef76969935"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "81022e407c662484dedfa49d738662a4d428a6ef376ed20dbbdf6768f2ea8287",
+      "translation": "댐의 각 구간은 300점이다. 공격 가능한 댐 구간은 총 4개다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "3bfaafe0002689a44cf20f3aef0ccbb920550987900c35e92d136dee025be2be"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "83bd2fea55991f88c61b6bf3758a63e390a45d18c7b7127a90fb0f57bafcfe05",
+      "translation": "초계 구역 NOVEMBER에 프랑스 또는 영국 항공모함을 유지하라(12시간마다 25점).",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "7b45390f2238b06c15c628f2f8c1084578f242332b0d35182710a7101da4ec8b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "04f29a35d68471af1d854667cac9fcf6ca827d4cb63084b2b6a5f6b4d78b624d",
+      "translation": "부대와 임무의 순간이동이 이루어지도록 시나리오를 10초 동안 실행해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "24bf8052bd3ae639fa8f6c95686d56ec62af88068a8e7a791913b7c6f138f2c8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d7be71398f52d29902e555a290c91a3589a04ea015bdcee725e019064c54240e",
+      "translation": "이 상황에서는 억제가 실패하고 어느 시점에 핵무기 사용이 승인된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "422c784bde78bdab07939a4c0c640bd991674dc81268ea433fd7ad31d9023180"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d857dbca35aa1df7e76202d56bfb8dda8d42140a04d68969fbc6e4305b3a0e63",
+      "translation": "파키스탄 측 플레이어가 승리하려면 손실을 억제하면서 델리 미사일 구축함(DDG)과 다른 함정들을 격침해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "261db97fbc0f256db00cd26a4de9e75b01ef1fdda5cbbcbe0a0e6984d73167ab"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "daad9581141b76507d16047862d52b4fe834176ec246cf1906369b98a777541d",
+      "translation": "미국 본토에 배치된 B-1B와 SR-71을 잃으면 큰 점수 감점을 받는다",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "42198236a89d87739816f750243e5a9f125878fa32363daa89b066a1b1585582"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2ef2c661f6118ff79aadc640aae3007a69fb3999fe623ccf40774affccc40df4",
+      "translation": "우군으로 명확히 식별되지 않은 모든 표적에 대한 발포를 허가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "fb4d23c00c33103604ce26f039c19ecf72def4d128d02f4c7222771d87029363"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3601ec09fb6c1b31ea5a3346f7a174541be3398e5b7481accbd3782ca297854e",
+      "translation": "패배 조건: USS 니미츠 격침, 또는 60시간이 지나도 USS 니미츠가 목표 구역에 도착하지 못함.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "383a1d75d3400709993cc12acf79526adc882b113e687b1b4b9b5b2f471be1ab"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "475f54afb358be896b99ab88ab26b190f8557cb1d7e1cf09b7b89458816fc86e",
+      "translation": "이제 오른쪽 아래 상자에서 표적 하나에 할당된 JASSM을 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "48301294b4b8c7e0db8b3be53584b61eae93bba0c92292df314f3ff02d8d39d8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e547ebd92c1a718bde6c6a4a0ee3bac4ad787a0af80550e95193179fc6ae5dd0",
+      "translation": "전방 무장·급유 지점(FARP): B중대가 흐베라베틀리르(Hveravellir) 고개 부근에 설치;",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "a2f285ba5606fae8475c0cb0abfafeb2bb41fbdbf19e32b200a322f9d81d3058"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a518a34e5280a01b7d43e04fb96a6fd9ed31b67e855d08d83f8f20cd897e0200",
+      "translation": "소련군을 추격하는 경우 초계 구역을 벗어나는 것을 허가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "a6e3925fa1693f3d4f897ba9ca34840b2375bbd54494e743bf2bbabcccff2469"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c3c182e9559d7c5abdbbd554e6c02ce77dababb7bc2f35fb0598b782f86f26f4",
+      "translation": "지대공미사일 진지, 러시아 항공기, 지상 표적을 파괴하면 점수를 얻는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "42288cdcd25192dbd528bb55b7b595c380b7dd81f910d55331dc11cb6472ecad"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1f7428e52fec9b35dcea56e703e61b75340b05f8ca174ca3ed7be40e46372569",
+      "translation": "조우하는 모든 이라크군 부대에 대해 자유 교전을 허가하며, 전자방사통제(EMCON)는 현장 지휘관 재량에 맡긴다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "04a54c05ba82fd81151a9497b85d0e25e0dd880e2d9521dde32050205a840a55"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "345a34256e2da0a15e97ceed12e1b1687742d57ee90a97fa3eb6d50e5e3c111f",
+      "translation": "자유롭게 연습하라. 튜토리얼 4에서는 적이 반격할 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "1826fddbb458125273766fd9c45dfb1d618dca17c72100156de5f191dc94a108"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "403989050f28ecc60a78af5679a03d5ff518656852a9578f9ec7a78288ce61f8",
+      "translation": "3. 전술지도에 표시된 공해상의 합류 지점으로 이동하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "e2da76ad8f3f612e3e6d2c977b49406aa04adae8e6b232d0be1838a3bf983df9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4993825d078b6d21d4557e0c9df927d4347af0deced260756a21fc5ef955323c",
+      "translation": "서쪽을 차단하여 철수하는 부대가 아퀴레이리나 그 동쪽 지점들에 도달하지 못하게 하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "72eb12e89cb940ed13f0ca0fa1ee8add06c2fde98e4082ebb486f26b5c869f19"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "df907c6b329b72458e9169dd56b0daa53b6a6a0b2b6006c839317956096abfb6",
+      "translation": "선택한 무장 구성에 따라 전진 경유와 귀환 도중의 경유가 필요할 수 있다:",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "1179e0927de527777f44a736a48918c7f5d7eae08a7e704e1153eb130249c85f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ebb1dc150846ee46ad0d8c3feee35e55b05bee47d5dee2f1ae920550e8f15a90",
+      "translation": "손실과 공수대대의 강하 구역 도착에 따라 점수가 가산되거나 차감된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "d2b55b0df32ecba9ed631863b0b53affd61e5fcf0cd9703c4dbe33c096a7f795"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "032c6b30ecacb88056f924dbc1d0954ee4e4d399a235bcf4655d96a25a022551",
+      "translation": "예상 초계 구역은 지도에 참조점 SSBN PZ-1/2/3/4로 표시되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "a1b6d545f7fff44473cc07d84c270267986fd16ab3acd35f0cd72cd7eb2186b4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2565dec9968078a20417d976d5ba8a93f26e66d44548ee5248eeb42a70072250",
+      "translation": "미식별 항공기와 선박이 적대 세력으로 돌변해 충돌이 발생할 가능성에 대비해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "4f1f44519188ad7b42c82550f769dee82b23a61fde95eec91bb928ce091649fe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "365855570fd947edcbbdb778b16889253c50e182a44f9e65a750ae1c5e1bd209",
+      "translation": "지대공미사일 진지, 러시아 항공기, 핵심 지상 표적을 파괴하면 점수를 얻는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "2e31cfd7902b1e6db417d285bb64eff383e0e6a17163ea36b8ad6d17d182c195"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "596f79643378a3897f91d9e98b10a372bdc0ed1665d403727db614d885b6af75",
+      "translation": "이 튜토리얼은 CMO의 화물 수송 작전 기초를 익히도록 설계되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "dd1bbf273e54111e9b0a61f4c5422082325a8996de7849ecddf7020465c77430"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "74181d9735dd9fa00125fa93ab35c1b49a142140abe6aa26246cb8a70139e5e3",
+      "translation": "U 키를 눌러라. 기지 복귀(RTB) 상태였으므로, 이 조작으로 복귀 명령을 해제했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "5f8fe6c5906d2869641db0c40e3638cbb54cbe1e3ee843c36148076425f19be5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e33d34df153ec3d80e44e1804df48b023c9883a1815e09c692a076a025a3de75",
+      "translation": "하체림에 배치된 항공기는 전자방사통제(EMCON) 상태 C로, 전파 방사 제한 없이 작전할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "ee86752fd6e31562e74340417679c13ab95eb2d32fbee286ea5ee7672173fc3b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0e5a00d32a4af87d7892eb4d9bbf8988e497b2bf22366f4db46ce714861b57b3",
+      "translation": "손실과 각종 과업·임무 완수에 따라 점수가 가산되거나 차감된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "8e9a511f16ecff543a5f8440fe284a7ff5eb4e181a5ee72775b91282dca74115"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1f2dd95bf44246ce10bcbf009fcafc4853d0700add71c328b165377eebae7ec9",
+      "translation": "2. 쿠비 포인트 해군항공기지의 항공 전력은 전 구역에서 대잠전과 해상 감시를 수행한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "28d3c92cd4c9f36bb6ae2a4d7a63d942da8c2c64ef57542009d7d98102e3e122"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cda23ada11a06b5c5de648572f8c5506e59c07427a2f0d247a90a6a8c3ee7a1c",
+      "translation": "항공기 격추, 함정 격침, 산둥함 손상에 대해 점수가 주어진다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "bc34d4b22fc777df259c1fe164db704f8462ad677fe4108e6d83c58f20e3f4a2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e00ca57f6098dc2f9a25c7c3c37a1f2bc093d2e171ef5bf4da0f782dbcd8438b",
+      "translation": "폭격기를 기지에 남겨 두고 도전해 보라. 튜토리얼보다는 본격적인 시나리오에 가깝다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "9f81c529887fe43725248106f0b06be2160f50fa47bb896ff399908156fe1980"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "050fccefceef4c7c49a47082e2354a481786a3565184d88e8272d66a612e9906",
+      "translation": "그곳에 배치된 이란군은 섬을 계속 점유하는 것만으로는 승리할 수 없다는 사실을 알고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "b555a7106032ebd195ba2313031a4a246049e12f133bba8b57d7142e57bd56f5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "247039da8d4e267a7397fcbff53e36f4905ad7dc279027a834dc15575b5e8798",
+      "translation": "테러리스트들이 해군 함정과 상선을 공격하기 위한 집결지로 시리아를 이용하고 있을 가능성이 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "d258600013d0113d9236f925da7d7ecd965ef1e20a143ee7220c9b5648bebd60"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "881f0c93de061930202629cd9df97d267afc71ba993c44d0fa6d75877ac8eb9d",
+      "translation": "-근접방어체계가 고도의 경계 태세를 유지하고 있으므로 표적마다 미사일 여러 발을 할당하는 방안을 고려하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-512.tsv",
+      "previous_translation_sha256": "5ba0620eb07dc1190e2cf8d4f89b48daf9f431290b0326b7bd5d605b5b834e44"
     }
   ],
   "whole_db_paragraphs": [
