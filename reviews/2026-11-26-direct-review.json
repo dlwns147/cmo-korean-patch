@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 10221,
+    "reviewed_source_entries": 10266,
     "review_outcomes": {
-      "modified": 8824,
+      "modified": 8869,
       "retained": 1397
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8831,
+      "scenario-ko.b64.tsv": 8876,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 10239,
+      "runtime_first_lookup_passed": 10284,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -22146,7 +22146,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "15c47eee58d433460075d1657ee1bff7c251c687dfe45eb595ee6fbefa0717c5",
-      "translation": "이 시나리오에서 귀하는 워싱턴주 타코마 인근 맥코드 공군기지의 NORAD 제25지역사령관입니다. 전면 핵공격이 예상되어 데프콘 1이 발령되었습니다. 파인트리 라인의 레이더 기지들과 태평양의 레이더 초계함·초계기에서 정보를 받습니다. 위기가 핵전쟁으로 너무 빠르게 확대된 탓에 요격비행대대 대부분은 평시 경계 상태입니다. 일반적으로 2대는 5분 내 출격, 2~4대는 60분 내 출격 준비 상태이며, 나머지는 훈련 비행 중인 경우를 제외하면 비무장이고 출격 준비도 되어 있지 않습니다.",
+      "translation": "이 시나리오에서 귀관은 워싱턴주 타코마 인근의 맥코드 공군기지에 본부를 둔 NORAD 제25구역의 지휘관이다. 전면적인 핵공격이 예상되어 데프콘 1이 발령되었다. 파인트리 라인의 레이더 기지들과 태평양상의 레이더 초계함·초계기에서 레이더 정보를 제공받는다. 위기가 매우 빠르게 핵전쟁으로 확대되어 요격비행대대 대부분은 평시 경계태세에 머물러 있다. 일반적으로 2대가 5분 출격대기(Ready +5), 2대 또는 4대가 60분 출격대기(Ready +60) 상태이며, 나머지는 훈련 비행 중인 경우를 제외하면 무장을 탑재하지 않았고 출격 준비도 되어 있지 않았다.",
       "review": "direct-source-review",
       "batch": "revisions-059.tsv",
       "previous_translation_sha256": "e0cfcd6551bacb0f2d04d34cad2d48d08dc4319ce477b3721de773e68d11a9fa"
@@ -81830,6 +81830,366 @@
       "review": "direct-source-review",
       "batch": "revisions-497.tsv",
       "previous_translation_sha256": "289c79ce06b568a990ec345f315781636a46fe8bfb5c0fdaa0c4d145b90ba45e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "53c6aeb87502e725e393e2ae381a27b5eea0ec693b23d71591813116a17528f7",
+      "translation": "3. 소련 전투단에 가능한 한 큰 피해를 입힌 뒤 사령부에 연락하여 추가 지시를 받아라.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "61524037d6f2c6ac1b1c61b23ebfb01bf7e4e32628cbe6c8758c9d6e6a19d083"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1ee94b844dfd9269c59c008e9b9a4e15227612d213b99ba8cd1331d49b62f033",
+      "translation": "{A} 부수적 피해를 최소화하라. 지정된 군사 표적 이외의 대상에 대한 피해를 줄이기 위해 합리적으로 가능한 모든 조치를 취하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "7dac409da033bbdd3ce13640dd0fd71f459c7b39c301a62e65255b2db2de4350"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "481d40370d774d83a753dbfdcf429ca062aac06c1a55abe35cc61a8c296f5dac",
+      "translation": "C. 실시: 부수적 피해를 억제하도록 주의하라. 2월 24일 주간에 후속 타격을 실시할 준비를 하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "46d31f4f9df6a8fb8148e2db2c65f3e78b4863fac6869a0d9accf835655bfe62"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8a89f1042ea2e4a98b4a3a83eec7492ee3544279e78be64e6777bc11f648cc34",
+      "translation": "대한민국은 공격받지 않는 한 중립을 유지하겠다고 밝혔다. 현재 중국은 대한민국의 중립을 존중할 의사가 있는 것으로 보인다.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "02aa27fd4cf3026f5c460dfa88877897ce019e0af0934b0bac3fc75459e703cc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "757e02b79500e22de99103204a4f1701ec1205e96dfa5ea68bb6379ad9989bd9",
+      "translation": "최종 승인을 받은 뒤 SLBM을 발사할 수 있으며, 이후 얼음 아래의 안전 구역으로 돌아가면 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "8ec2cf478b7472af6ca3fcb711cf19c42f6e521c93d896fbdb8f40f4bada72fa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4579370f8ab8197afe419143ad3007992c84a373b7ffb76423f699e2d0c68b12",
+      "translation": "영국인의 생명이나 재산에 급박한 위협이 있다고 판단되는 경우가 아니라면 노르웨이군과의 교전 개시를 피하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "7da46d386ae9bc15feca3fb29cb6e59f8b442a8f2eae255b639fa909ce6add01"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a406bc1b8d360faf280d54408a44577c7d983c4a628fdb278fc2bc362c8edfe6",
+      "translation": "중국 본토에 대한 공격도 피해야 한다. 다만 아군이 강력하면서도 즉각적인 것으로 판단되는 위협에 직면한 경우는 예외다. 위협은 강력할 뿐 아니라 ",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "cd1adde93c089c4d7d98c576cf69f34fc83332cb2097c4ab210a7279d2df0534"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c2f255aa9f0cde876c54b493178de49a7f21dec610d2afecf7dde40fa510256d",
+      "translation": "민간인과 민간 기반시설에 대한 부수적 피해를 최소화하라. 가능한 한 아이슬란드의 산업 활동이 계속되도록 하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "80e6f745aed46112fb263761ee2a017356d1ef645202965a3090921bb78667e7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ebbbe5092d1872d7d83946e76f16349e687af2ea79cd22ec57ed34085ebd8ff6",
+      "translation": "표적 구역에 표시된 빨간색 지정 탄착점(DPI)은 모두 유효한 표적이지만, 일부는 중립 대상에 부수적 피해를 줄 우려가 있으므로 주의하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "a4563e815e4cafb0710477308a508ba174e43d8b32dc4297d57f9be24d08857a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e6157f1b938216259a1f995d2a5e20b8565b51100d2700a1dcc69e7a2fde4669",
+      "translation": "다만 동맹군에게 지원이 필요하다는 점이 명백하지 않다면, 시리아군에 대한 대응은 동맹군에게 맡기는 것을 권장한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "a91d44cde12426b6383a0803bada22e5f37917c8f5f4f0d8c35bc57bed39efe2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "16b8dd2edea1551ee9576c770df7e15ea81b2160b23a882e7981743eaac3adce",
+      "translation": "공격할 준비가 되기 전에는 능동 소노부이를 투하하지 않는다. 능동 소노부이밖에 없거나 잠수함에게 아군의 존재를 일부러 알리려는 경우는 예외다!",
+      "review": "direct-source-review",
+      "batch": "revisions-498.tsv",
+      "previous_translation_sha256": "c7e0deca95f9d03aef4faac919dfb8472825ce11403c1798b1dcccc0a8cc4e2f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "68705a771a4d979881dff310b07425dc5b85f34f23eb5986f4595da6d072a252",
+      "translation": "어떤 상황에서도 북한군과의 교전을 먼저 개시해서는 안 된다. 공격받고 있는 경우에만 반격할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "46329e8da0e3f795d355eb7154a104b3cae13f53476dfa93cb656963a5db36de"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8de90ed91221611c955e1be955a7ff8b02efe75603a4d8b6572cb23139d6816f",
+      "translation": "그 전에 아군 전력 배치를 무작위로 정하는 이벤트가 실행되어야 한다. 실행되는 즉시 안내 메시지가 표시된다.)",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "5aba62eecab47ddc2a78c9d808e10eeaeb9504a0f42eedf37a4ba8dd1862db3f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "692420a7e63b23a44cc71f247fa62f0585b705e0e1c1ca3cd09422cfb3df08c4",
+      "translation": "미국의 버크급 구축함 1척이 이 지역에서 작전 중이며 아군 항모타격단(CSG)을 추적할 수 있다. 먼저 공격받지 않는 한 미국 함정과 교전해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "b79cf3b384f4e948c52f1e13a539c02444bae96593aaf005a524ac9c946b8988"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6bfc86f7b23cc24460d59dc6dcdae52b9473bc616c0652aee17695d693c3984d",
+      "translation": "일반적으로 2대가 5분 출격대기(Ready +5), 2대 또는 4대가 60분 출격대기(Ready +60) 상태이며, 나머지는 훈련 비행 중인 경우를 제외하면 무장을 탑재하지 않았고 출격 준비도 되어 있지 않았다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "5ea2ad3f75b2668182e10d32541bcf6d4d6c611900f2f11ab6190c79e3a05e4b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "83756e657496c1d46f6b932f6048612217305c54b70dcc75404496dfabfb060d",
+      "translation": "증원이 약속되어 있지만 포위망이 좁혀지고 있으며, 일주일도 지나기 전에 NATO에 포위될 것으로 판단된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "5cb1c1e8a3534daad8f2dc338bbebb274b9d228a510e483e095ac24d48cd9694"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "017962c143491c18b5b08f44a6ffca53dcc65ae35296fbd184b3ab6e729dbcd7",
+      "translation": "카라카스의 대규모 부수적 피해를 막기 위해 대형 순항미사일 사용은 보류되었지만, USS 제럴드 R. 포드는 무장 재고를 모두 갖추고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "68ee19309f1e765a492aa9baa92589a54a2c98df50a07793928e5d0e77363fea"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1c0d8d0285487ea38335d6fd762db39383ad01c936750b84c15faa2f1dd7b6d5",
+      "translation": "영국 방어망과의 충돌을 피하기 위해 아군 항공전력은 스코틀랜드에서 175해리 이내로 접근해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "ae5cbaef7d8ba8f7ec7ea93a2c705b32481e17f27caac047cbb1a2336c04bded"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "128151db8005e86d7609684e380a175e1a78a456a8bf1f7d63c0a17c364c1bba",
+      "translation": "또한 최신 정보는 2시간에 한 번만 요청할 수 있다. 유능한 잠수함 함장은 꼭 필요한 경우가 아니면 송신의 위험을 감수하지 않기 때문이다!",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "3fc30d43254963dbc067fbc23803b4c2a98c1dbf0b27e5c708afea971cc8e4d1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6ce49b547c04f34bfdfa1f69bb996ae27f6acc0def2310713a319a8467a8367f",
+      "translation": "표적 정보의 상당 부분을 아이슬란드 주민들에게서 얻고 있으므로 신중하게 행동해야 한다. 부수적 피해는 가능한 최소 수준으로 억제해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "6e2107caeac5b3a8b261923f0ad150a554a90517baf93517a62a5ead06ed6a36"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "79d7bbbc30e63678ac738782e3362f9d3a617b561ec2888d0354ae5e3ed177aa",
+      "translation": "시간이 촉박해 여러 차례 왕복 출격하기는 어렵다. 가벼운 공대공 무장 구성은 예외일 수 있지만, 대부분 또는 모든 임무를 한 번의 출격으로 수행해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "066f27b3f65fcc4c5270d16925205dcec88045dd8caac3bfb4d73349e2083b1e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c250c52f6f38137b630f928fa6809afe9ff6f28819dc702283b60568237c363a",
+      "translation": "증거를 수집하라",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "4c20cd8d372bda435b090bef1622234f84e3e49c0bb31f715cf439195b3e6831"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f96838c645d0b07e5dd2971f354d451276d6dac472882f0213393be942c83166",
+      "translation": ". 협상에 사용할 증거다. 이 모든 활동은 아군의 정체를 드러내지 않고 수행해야 하며, 명시적인 지시가 없는 한 교전을 개시해서는 안 된다. 세부 사항은 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-499.tsv",
+      "previous_translation_sha256": "aaf08cbaa247ecb5956df4860713ac746bfb4dac7c011a8c296b7a45d15813c9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0f009650e0936f9a6993ae8e324fbabef7bd8ad2e4759f03c63de7e8e7125472",
+      "translation": "국제공역에 있을 때만 자위 목적으로 발포할 수 있다. 소련 상공에서 요격당할 경우 속도와 고도만이 유일한 방어 수단이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "00b1eee13002b71bd1b4c1eeeb6a7a2e0acd0ae2a3699aa9eb276903016a8e21"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fcf31fc2ede6b8d7e22a90040742e02d6b6d5bde7f65eaee303a82031b5f2818",
+      "translation": "USS 캠벨 함장은 이들을 잠재적 적대 세력으로 간주하되, 먼저 공격받거나 이들이 상선에 공격적인 행동을 취하지 않는 한 절대로 교전해서는 안 된다. 다시 강조한다. 이 조건에 해당하지 않으면 교전을 금지한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "0bcb481aaf8f11594073d0e65bffcc9f3a891c1335b558ba9e4d63919253256a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "529428e45223c2a2ba448664f97264808444ec8d763fe796a6501066ecd302ff",
+      "translation": "-아군 간 충돌과 오인 교전을 방지하기 위해 넓은 분리 구역을 설정했다. 이 구역을 침범하지 마라. 아군 오인 사격은 이미 충분히 발생했다. 구역을 설정한 데에는 이유가 있다. 이란 영공도 통과해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "22fc6a59543cc0cecd5169bfe2069e811106eaffe908594cb9dd908170196bb9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "26668465cbf9558d5136b9415e2b9bc0fcd0c9c58aab69ffbcfe0f6494ff396a",
+      "translation": "-필리핀의 군사 쿠데타가 아직 국가 붕괴로 이어지지는 않았다. 그러나 즉시 조치를 취하지 않으면 국가가 붕괴하고 장기 내전에 빠질 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "98d4f8f71e66e6aaf79e5b427cd4f8af07cccd5b13959d277005cd7b61349a36"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8bd9db80d620c19d39c890b7bdfdc3baac9c8db69ea241642132eda114d821d6",
+      "translation": "중국 인민해방군의 파푸아뉴기니(PNG) 주권 침해는 적대 행위로 간주하며, 단호한 무력 대응을 허가한다. 그 외에는 먼저 공격받지 않는 한 인민해방군과의 교전을 먼저 개시해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "224cf1319766a52ee33dcaae947cbe53f716bc7ae37116d0e3833bfdc375d5cf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "27a93f294e378526ce200e5e971236f613f8db394b63ad5a3f52702530b4c484",
+      "translation": "이 시나리오는 복잡하다. 가용 전력 중 일부는 대가를 치르고 요청해야 투입되며, 다른 일부는 철수 일정이 정해져 있거나 예고 없이 다른 임무에 재배치될 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "03ad441d0765b4e109ac673bceabd1251903345e029de528d7ecfebeb71f922b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "16d43949d3d63e690e44b10480784a876bcfe351e3570ef03285ba58ecdc79d2",
+      "translation": "HMS 타이거가 리오그란데 인근으로 항공기를 출격시킨 뒤, 전단은 페루군을 엄호하되 자위 목적 외에는 교전하지 않는다. 칠레 해군도 이 지역에서 활동 중이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "4cbc77b01d1b23ec56c0f3d850e21526d70de62abbd08a54223310653dc7d6b3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1710ed59040090c0682461b261ffc9804536ca71061fd14167daa823c9c11f21",
+      "translation": "• 노르웨이 연안에는 일종의 완충 지대가 형성되어 있다. 해안에서 약 100해리 이상 떨어져 있으면 소련군은 자체 작전을 수행 중인 경우를 제외하고는 아군을 건드리지 않는 것으로 보인다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "8b7c8c155abd2f2e0178a9e79491cb1b86d5aa9f59d59b41e0800ab3501a21dc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "78a598b1326177bc3d2b4c79c6c69c8e2712bbeda3913a35da561ad5361bfe17",
+      "translation": "인도 함대에는 항모타격단의 남중국해 진입을 용납하지 않겠다고 거듭 경고했다. 자발적으로 떠나지 않으면 무력으로 몰아낼 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "122940482097e33c691938a14f1423296bb21aed3b98abca87385dffc519662f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a00997ec1f10d9ff1908731d16ecf72171340c129d9e45e842ee23b55540e0f",
+      "translation": "남수단, 이집트, 에티오피아, 에리트레아의 나머지 지역, 이스라엘, 예멘의 영공 통과는 금지된다. 이스라엘의 작전을 복잡하게 만들거나 예멘에서 진행 중인 걸프협력회의(GCC)의 작전을 방해하지 않기 위한 조치다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "5ed6bb5942e1d41b52a4b940d8d8f14ee9c10d1a2491478b6f00436f4b7e96b8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "08adee95ffbc387bc2e4c98d64d1d6889ada77c522a234b53199a1c8d89222d6",
+      "translation": "공군이 신형 지라프 레이더 1대를 지원했다. 다만 조종사와 기체 모두 휴식이 필요하므로, 꼭 필요한 경우가 아니면 고정익 항공기를 출격시키지 말라고 요청했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "0938c140ab6746fd384dc4f9ead32ef837207b26017ab7a687c9ab071700512e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1b1b0cab00e4374ef8fa05bcb7f648bd486287caa80d8ab5fbef85b4a354e305",
+      "translation": "지금까지 보인 전술은 주로 방어적이었다. 상황이 급변하거나 아군이 교전규칙상 허용 한계를 넘지 않는 한 적대 행동을 취하지 않을 것으로 예상한다. 가능하면 이들의 전력을 피하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "8074879755a943b0e8b1ec343f97b0e37ea40f6d5ba44ed22b3c8bf703441758"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "783159facd744017c8a6c15fec016031b94a3dbe17de0de146f35c2a218978f5",
+      "translation": "이 지역에는 노르웨이 어선 여러 척이 있으며, 일부는 강력한 레이더를 탑재한 것으로 보인다. 이들이 작전에 지장을 주거나 아군을 정탐한다고 판단되는 경우가 아니면 우선 공격 대상이 아니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "f1746e128375940ab798f488b5400d3dea5609920a3ce325af5facaff50b891f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2f07d121391ecfd90779afa62c6a323d9b5d2d42cc58a13b2a26957c69379e62",
+      "translation": "미국은 베네수엘라에 군사적으로 개입하기로 결정했다. 민간인 사상자와 부수 피해를 최소화하면서 베네수엘라 군사력을 파괴해 마두로의 국내 영향력을 약화시키려 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "d5b10b8e3fa3a1ba8472d41ceafedb0280329932d8aaf990ae34a57bc69beb38"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3fa90c70eed4e8c87c2061b19c9df8d302dc08f1a2af4e944cb46370428cd71f",
+      "translation": "소형 격납고와 비어 있는 주기장은 핵심 표적이 아니며 현지 민간인이 이용할 가능성이 높다. 소련군이 사용 중이라고 판단할 근거가 없는 한 공격 대상으로 삼지 마라.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "e083bea5a4665245822295caf048cfeedc14b86e3766e04efc3f32f9a9371356"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "858aeb65a4082d72fb53f3a50a43af8527997130f328c68003228eb2e659ce9c",
+      "translation": "중국 인민해방군(PLA)이 아군 시설을 먼저 직접 공격하지 않는 한, 센카쿠 열도를 제외한 중국 본토와 도서 지역의 시설이나 부대를 직접 공격해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "6830b5469c0262a891302b783d4113d0f9680ba068b7140bdd5b23aa48507aa2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1fbaa3169a6b30db37029e05bdb14b4748279a5297b1b4b27f4333e22466ec2c",
+      "translation": "러시아는 핀란드와 스웨덴의 레이더 및 항공 전력도 공격한다. 스웨덴과 핀란드는 러시아에 적대적이며 NATO에 대해서는 중립이다. NATO는 두 나라의 영공을 통과할 수 있다. 단, 아군 오인 사격에 주의하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "887f3e009d625427ffc132e4bd923af8ddd813fcdf43b0d43c4a76b0d22a4d5b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "26aed03f4769b819903f98dc7503fe18f8f7d01e76269fe567b2958cd9521f22",
+      "translation": "해상초계기가 작전 구역에서 항공모함 1척과 호위함 4척으로 구성된 소규모 적 수상 전단을 보고했다. 이 전단은 아군의 귀환 항로를 향해 이동 중이다. 접촉을 피하고 필요한 경우에만 교전하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "3892576f2824095b7778fd8d9197373defb2fb49df783e6b1b8f70e9a348ed26"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cd3ba4613411b4beab285755e6f5d2f920ec8a6580b504ccc7635323580479f8",
+      "translation": "실행: 분쟁 해역에서 발견하는 말레이시아 함정을 모두 격침하라. 아군을 방해하거나 위협하는 말레이시아 함정 및 항공기와는 자유롭게 교전할 수 있다. 말레이시아 영토에 진입하거나 이를 공격하는 것은 금지된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "1944140f5f6940316d7b2861e13f58c8ff7169ee87012c2d6e021668f2614326"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "466bd3ba038b7b4806966cd0b6c43047cdd4182a0248402efb0864b966599eb6",
+      "translation": "리비아군은 요크타운을 괴롭힐 가능성이 높다. 미국의 체면을 손상시키기 위해 대응을 유도하려 할 수도 있다. 자함 또는 자함의 헬리콥터가 위험하다고 판단하지 않는 한 리비아군에 대응 행동을 취하지 마라.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "0670b94cc3406aa7b24678454cf0364e558f251957710e2e2ffb414bb8647d27"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "595792824a0388aed6cc950773b60fe9d7c6b98a82da2994e39494138a38c22d",
+      "translation": "시나리오 시작 직후 무작위 시점에 청군이 홍군을 적대 세력으로 간주하게 된다. 홍군으로 플레이하면 청군의 공격 대상이 되기까지 몇 분의 여유가 있다. 청군이 실제로 공격 대상으로 삼는 시점도 무작위이며, 적대 관계로 전환된 뒤 몇 분 후다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "e69750ca36b5b41337de0e03c8359c85f94d80857d58213c0d28fec502aed32e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bbb2f827ea1913d2c9951cf056ae68583d8574bfff2a4e2b9d91c657640cdf95",
+      "translation": "호주 공군 F-18은 호주 본토에만 기지를 둘 수 있다. 다만 제33비행대대의 공중급유 지원을 받으면 먼 거리까지 작전할 수 있다. 인도네시아 영공을 이용할 수 없다는 점이 작전을 크게 복잡하게 만든다.",
+      "review": "direct-source-review",
+      "batch": "revisions-500.tsv",
+      "previous_translation_sha256": "13ef83c7002ba182edf16594f3d66565068fa78a9d8ebd373d634589efd7cdb1"
     }
   ],
   "whole_db_paragraphs": [
