@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9729,
+    "reviewed_source_entries": 9736,
     "review_outcomes": {
-      "modified": 8344,
+      "modified": 8351,
       "retained": 1385
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8357,
+      "scenario-ko.b64.tsv": 8364,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9741,
+      "runtime_first_lookup_passed": 9748,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 141
+      "html_context_lookup_passed": 144
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -77892,6 +77892,62 @@
       "review": "direct-source-review",
       "batch": "revisions-441.tsv",
       "previous_translation_sha256": "d56fbce7c98b2ca13f8122179bf712785464f027d7d7638a0e364a0da1750445"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2c713d580b3f7eb581fc9f7f2840a16303c0518832dbaf46c693366978738489",
+      "translation": "(SSN 703) 및 ",
+      "review": "direct-source-review",
+      "batch": "revisions-442.tsv",
+      "previous_translation_sha256": "79832cd7b2b985a25e5ffc31e1c989363f48a03db4ed6cf946a264f37ab28c71"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d533eed102d5ab6e272699703af273117dd8bcefd3d3f5d861b4ef9f8323615a",
+      "translation": "(SSN 706)는 아군 북쪽에서 다소 거리를 두고 호위 중이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-442.tsv",
+      "previous_translation_sha256": "9689b583f2db08cc88d084e8f2bb3d158ddbfe7ed3028f30a9d91c5738ad8f59"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e3a139542239cfe2d9072c2709a17687648d83aa851793e083d86f566ba28044",
+      "translation": "(SSN 706)는 아군 북쪽에서 다소 거리를 두고 호위 중이다. 두 잠수함 모두 교전 개시 이후 재무장할 기회가 없어 탄약이 부족해지고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-442.tsv",
+      "previous_translation_sha256": "a0b2bb35c0e6024117747fca6bca85877aa638d20af823c173cfdbb5dd600882"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "17eec70e2663eef106f5c8724d2cd3aff93308717f0ae298d78fab6398976577",
+      "translation": "대서양 함대 잠수함사령관(COMSUBLANT)은 가능한 한 빨리 이들을 새 공격잠수함 2척으로 교대할 계획이다. 그때까지는 아군이 지도에 표시된 집결 구역에 진입할 시점에 이들이 북위 55도 이북, 스코틀랜드 서쪽 300~500해리에 위치해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-442.tsv",
+      "previous_translation_sha256": "9b728e7a180559dcc9ae9dea3c67ab03bb970894543ed201727b3082eef10ad3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4777960918d1e38876e9745dc9f50d83df84e91adbe1a9a6115cf243b4430adb",
+      "translation": "호위 작전",
+      "review": "direct-source-review",
+      "batch": "revisions-442.tsv",
+      "previous_translation_sha256": "9396d0d19c68f596bc049cd1c2416e71ac3fd2d9886af4550652e757e0a9218a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "47869efd4e653b5daaa7711270b40c7d1d6049a7e97f08600a80ac20dc7e67b4",
+      "translation": ": 제529전투항공연대는 임무 명령에 따라 제182근위폭격항공연대의 적지 종심 침투를 호위한다. 중요 임무 중 폭격기를 보호할 수 있도록 긴밀한 협조를 유지하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-442.tsv",
+      "previous_translation_sha256": "2ff93d8d862ab7c24081c626487a50e6c40e0afff34406c177087232b47ff565"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3c8d738f7127524d96b766f41994a54e9fd52580517db1957e08425cee98980d",
+      "translation": ": 정보를 제공하지만 현재 진행 중인 작전의 실체를 알아서는 안 된다. 이 지역에는 캐나다와 알래스카에서 출발한 정기 초계 전력과 캐나다 쇄빙선이 있을 것이다. 이들과의 접촉은 피하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-442.tsv",
+      "previous_translation_sha256": "c24c77726367491d79a169ded66555ed1a0a203717dd73835354598e16611c78"
     }
   ],
   "whole_db_paragraphs": [
