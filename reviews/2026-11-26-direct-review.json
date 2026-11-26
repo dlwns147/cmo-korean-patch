@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 10430,
+    "reviewed_source_entries": 10531,
     "review_outcomes": {
-      "modified": 9032,
-      "retained": 1398
+      "modified": 9127,
+      "retained": 1404
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 9033,
+      "scenario-ko.b64.tsv": 9122,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 10448,
+      "runtime_first_lookup_passed": 10549,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -83502,6 +83502,814 @@
       "review": "direct-source-review",
       "batch": "revisions-507.tsv",
       "previous_translation_sha256": "7a03a9dc7ce79aa0d568255363e29235e6fb193bf6f4fca713ad74102d8e232e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "166b32fc0011150bc8fe91b60a4ef4eb3f547cfad455938458b4f2b1bac3d9ad",
+      "translation": "리워드 포인트 비행장:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "57f4ef27464a1a12497ec947f442264bef8302b801ce91602cda341f748889ae"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "324f0cd069363ed1590ef116e03487a0fc563706dfe5703b2cffc74084d4077b",
+      "translation": "수상전 튜토리얼 1.1",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "ac5ada65255951e3b365a9e085c37f69d7a2e65d4574538da4807cde6d44875e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5101b388e191c4fd7eed1135a9eed6c3a857f1dee9b707adc7b2d9153fd26d66",
+      "translation": "협조 사항:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "6367b1d812d591c6fc4f4b397876a9299610b3d1a542c6a9898f4dcb41d3487c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "67d4538a4eb8b403057f41c7eac150e9d56f958a300e13c394542908f5de6c4e",
+      "translation": "ESD 1 몬트퍼드 포인트",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b7ee718af706ab71342da31623057c2dd45627500338fcedbf1bf7232af5529b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "abdf40cdf3db2daf3f395bfbcbc02d9dd92b455eb042365aa6f08c2d7592e7ee",
+      "translation": "승리: 1,000점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "7cc892753018400138a26654c937511453437e2dd0c746ad58e6a3dc9d4bc9d1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b8f375bfac53804a0c0a4a77c6f87573ae1acadee4cdba20f9178b2f7a932409",
+      "translation": "수상전 튜토리얼 1.5",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "897555c4208f3208a7c1b7e89c7e5c1eb3890dc70577dc8ab41732da42ea7986"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ce83cb2f0da0ba87356aaf38f36d87d6f0ae465ae6eea13f8d015bfb869ccb11",
+      "translation": "수상전 튜토리얼 1.3",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "ff53504b6d1db6b01070c65fd81de4f0effb89427d54d709d3fc4bf107461e17"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d18b8bf471a5d5c9335d7b07abff6f385865b4951bb0f93d4d4e110f15c6d96d",
+      "translation": "수상전 튜토리얼 1.2",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "e7271f44781d6d3e8da4ee47a5ee08ddf06c975d6f6e58e12b2e107dbfa8c110"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f476604408865ca10c17cc43045c05cb47e5475b5848d2257814d97bf0072c94",
+      "translation": "수상전 튜토리얼 1.4",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "7f4902f18bbc1abccdda14dc6883615d326bfaa20bb25cae675dde91f479137e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8085df456f68549d6af48d75868f42d3b05b1d5490d77241819ae66e23e9abbd",
+      "translation": "항공기를 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "adcf701c2644ee69311cee401763ef655b1c20378796764b99fc51ec12558eeb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8cd75c7b8a0cd33fb4b47b0ff088c5512b6d517cbbc2050c8d77625281e4a8d2",
+      "translation": "그 밖의 유의 사항:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "cd9e6c9c8273523d38c1b0cef180beaef6668c1be1789419d8e9a0383c8bbfec"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2da3efe12edb430132182650fd742011bc80a8d0a20c7d6225ca613f10c72e42",
+      "translation": "잠수함 튜토리얼 2.4",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b1dc78a262db43f68a05eed15cdba9331d00ea72ca74366266f7ef1d2d31db6c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "38355cf6f8453038011f7aba18f77ff919d528a200ce3bcf23227003afba6d8e",
+      "translation": "F-80C 손실: -40점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "49101944ad342f96a5421a5109c7f9f5a567b0a170f449399862b78cf9435b3d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "41109fc9e4093f8068eb358f667397049af477b01454f0f8a91509be9177c382",
+      "translation": "잠수함 튜토리얼 2.2",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "4c2f6b01df551a9ed4f6071e986d1095217ae339cddae6594b9791df4f04abcf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "42bdda680239ce47a05b6995f9bb66fa8dd637a574573d668f18bc1372c320f4",
+      "translation": "잠수함 튜토리얼 1.2",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "26f439fbbd501f8f0e97defff95d4fb99f3600b8981c26fa0550380bcc5e961f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bccdbf89249b134fa7a584916aedcfcde3392d02e8b8b20c0f86aeced16d63b",
+      "translation": "잠수함 튜토리얼 1.4",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "a6cc01b2f4264d9b3b66c7e3b282ec0b5be3e499c27ca08962e4723ad3492b56"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "514edd6066470ceb6ee181e3505b7a8002bfb653a01a1d35b9228a076932fc5a",
+      "translation": "잠수함 튜토리얼 1.3",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "7bdcacd693bb2a8f01e2bb2cbbfd87acfce7d27c850225a66fbb1fd06d654042"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6731c6ca1d8d930380355265c2cd84a2d41086bbe70590b157c687bbb54d3ae7",
+      "translation": "SB-17 손실: -40점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "1c9624427a036f3ce1ff171a3dac0f0d80afb9c7da9e5e60b544469bc46ffbd6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6e781ed07ed493d97167ce310090a65f159b8553030f26aba1e316797e6785c5",
+      "translation": "잠수함 튜토리얼 1.1",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "ec167ddc3b0a78b2391c07ecf23a3637d00b11a1e65d35b4e0569e1ba97f4a7c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "768adc242ed584c420ef1fd1b0cdadb267711c7611a75b6899075780cece859b",
+      "translation": "점수 집계가 비활성화되어 있다",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "9288ecffc9dfc8294541a2e3bcad4c25436ed3738dcc44c9eccf068a89c3b9ac"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bfef5aeef097a9fc771af6871cb30d48fb6b6d05074ef7a27adac7c129277e06",
+      "translation": "6) 까다로운 점수 조건",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "68bd6a3a4fc5e8a7ed99c2d61035f543c9d6231b5f67e3804d4405fa19456af6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c5ed9c64509bab23e8ff20b0daa228d218ded4091e9c182e43d73d6514d8b99f",
+      "translation": "F-82G 손실: -30점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "cc2d5b46ca2294cd51967c1cb28eeae261185e0ac2711bba75dec37539f48b72"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ce272ddec4ac8fe6570fac2fc42981da5ecabeca670c3a436fba513785be10e9",
+      "translation": "잠수함 튜토리얼 2.1",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "39b168ad4fe4e00ae5345d73384710b8cdfc6e1c53122e41c3ee13b7b830dd51"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d5bd6e7b9610c8e359a0180d4bfc6f049f1885e53f936ccc41e5746fb051ef83",
+      "translation": "잠수함 튜토리얼 2.3",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "fe3102010c221cbfadd6762b4f5d561f68ccac6670edd26a611dd18079370c9d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e15ee3f97255ed1686f7c3225bd9a99019fb1256e4999f879d1bb6a6f56186f2",
+      "translation": "튜토리얼 5에서 계속한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "f55db760dc93609b11657eda35c3d85f7d0b3611087e700ea2d6b4cc18cc4646"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f7fac516c7f41b9a2e5d33f6533bca06fc5922157bd363436bd3cd6c24ba429e",
+      "translation": "F-51D 손실: -20점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "f3500e7aeef0dc539510b27c4578439d6bc4205401aef8e00a75582dbba38457"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d5b9257c165c754fc16840420dd904fde61a5602fb4a05d74fa78ddcfa886a6e",
+      "translation": "참조점 사용.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "c6a6b1fbbd13e69b7ac44a2764270914a3a0fa5d9d4e47ade1ebf6c3da2a089f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e2232eddfd8cc74829b71f452eae27674be44252aa464020575c218f4d204be8",
+      "translation": "참조점(RP):",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "9ab5f8db3c49c6c3948636af372a59bfa8ea070d4c350e59b516046892b678c3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4884d3807b2ebca31c3e735f2b7ccee896e99a12eb82a515a7e8302157163637",
+      "translation": "미군 B-29 손실: -75점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "e615fd38ece9edede1c94ecea0cc4768ffe034d328f9e21016a34c3ae6cbb4b0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5ee4ef529b4ca6491be2eaeb9308c6c02b88cf88695f3b41d167fd01e4f05dc8",
+      "translation": "활주로 및 진입로",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "7816b5b37e0abb81e8f4a8e77b9f6c3e99d8839083f0b51b602aa0c35dee6bd0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "81021bd525af71b72a9bb2235b5afee5915234ca1ae9300ee29b8868a57657da",
+      "translation": "미군 B-26 손실: -30점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "52535864e4f4c6bc1f5dffea6900808fe2f0a2620b0e97a499cc370dde6ed8a8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "87636548a3a6f2a38b803ccf33bb5ac00fc6b79da21f9dd96e7a23a77e8f0725",
+      "translation": "사용 가능한 레이더를 선택하라:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "f008362d06f7c92b217bbdb85b590bc02b49561c9aeb7a2ac56cbdca127ea58c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a0f20e2f58dc2c489f4d0f105bcdf64e26dc7b52433b405772e328d06bbf1716",
+      "translation": "활주로 진입로(4개)",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "ff8579b4e23434c37e067fa01eb05a4f4c91af450e16b113525b8b53af512c3b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f3a01e608a8fa578e46879705f046595dc09848624e1e0a2bd2c3f2dfe01419a",
+      "translation": "점수 체계(스포일러)",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "4f20973f388dc0e888e130de95069aa611472680971ae09cb7450af58558aa06"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4da923a81b45f641bacc07217bbdc0a30d8e6619404a115ee0e15e5e5fd5b416",
+      "translation": "권장 전자방사통제(EMCON): 능동 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "41c59c9fed86effe70c598d7d5c2286c00b7b69884273ce8413d8213d6cbae51"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "28bd83ce3ffe1a47c1bec5a95bbf870a5707f88f2526c480b03c40d46aa52bb9",
+      "translation": "교리 설정 창을 닫아라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "aa0929f7dcb7fc56ddf360197f195a789e178cc8657b0b226f7b53ab6049fde1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2c951025d91941837d8f87286c911bc3c7ab864f9d75d98e9614662398ccdf91",
+      "translation": "'접촉 보고(Contact Report)'를 클릭하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "baaeb81db8132eab0597241eadabb1905edc0cb54a4f2b77865f0caefe889a40"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3b9078b135ec1a1e6a37c44d81642a3250d54c09fabbffa297c99ec3d2b688fa",
+      "translation": "전자방사통제(EMCON)는 재량에 맡긴다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b66fdfcd5d27f59c3fd7db32d7577a6f92ec6df22f725acb7355d685e74b0315"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5224db9db45070bc386599a763b3902cd459075dca7844d868311ff4d58052c3",
+      "translation": "(클릭하여 펼치기/접기)",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "15c140b1b520ee11883c5ad53e56e66fd3cc220bfa76b39872e3f3671d6a9d83"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f52935d96c2e29236a1ee0b091cdf8120bbfd6c73cf4fab93fa9db30d691bbd",
+      "translation": "미사일 호위함(FFG) 파괴: -250점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "f7a8ac8b367345a79aba12994946da16cbe8f097f685467768daad65af8a7486"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c0929371792d204fe16ebd1a8fc49898fb989febe3fb734a2ecaefc93eb3d480",
+      "translation": "몇 가지 중요 사항:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b59ea3c451b209502892fa8ba95f40ab22a5c06f42a7119c031218aa5798bfac"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d719c3febd713b08ea580d0cb8301610a0daad55b4b63f8915e20329f80207bf",
+      "translation": "사용 가능한 항공기를 선택하라:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "22c7b5858fabd6758bc268817789c12f79bbb930017832dfa49bd9e414ea8804"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f757285692fceb4e06300b5986aed508f23cae14b0d4fb454177e9de1857e025",
+      "translation": "전자방사통제(EMCON) B: 제한적 전파 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "6b45c18e9f346fc2436d12d8c21570c07b77820fa3c0a1a870b64e7c2c09c672"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fa9ccf89961c7ae71ff3d3c2bdb89b06f739c477db1aefd59ff4a58e03d84f36",
+      "translation": "F-35 격추: -100점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "4b29005027f687e0935e81b2086560145393f316457e84949507bb01dfeba331"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "677175190cfa691d2046b1a26cc724ed0ebd22686a9b9a104e65ea7a00141240",
+      "translation": "모든 점수는 미국 측 기준이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "08096d81850c9ea73ec1bcc699342e30fe6e6207e9caf533c477d26bee362ee4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9a67c2abeb4cf13d86c01138c172c35bbc74e35232c773a82f5bd4905dd788dc",
+      "translation": "대잠전(ASW) 튜토리얼",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "ad586a7f2da28872e3c7f092e5d7135fa977b13d758baa2ccd7ba588617e5125"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ba94b193ed1830d3a31b1dc365790b2e4d1719f660c7c93e83ad54637223fa06",
+      "translation": "전자방사통제(EMCON) 상태 A: 전파 방사 금지",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "d85facf7dcaa3a00188950b999944033a28e17ce81f546c4f5a3d68459a685ac"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "18dbd08c5930d5f7f210ed79f138c8426cc82b7b12ccba1a7c243c869cde11ca",
+      "translation": "몇 가지 유의 사항:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "4c042085f800eef932a125f48f04c7ea1749645aa38518446a126c612de14f9a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2381a06bee2c1980f930cb45337477da9f5fc6b82e4e9317e9976d824ec9c51a",
+      "translation": "시나리오 승리 점수 기준",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "cd15be91dbb17ed1984bf185f2a6bb6ea4322e5a4d52fb1c3e70a2b99841b822"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "23a2da0172e6a45c2a5127dfe701c604d4151f1ee27ae5e40476699c99ffaa20",
+      "translation": "모든 점수는 JUR 측 기준이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "59767beed11826d105877b41e7c626ee6c94d28be64c48cb07ab78774b8594c8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7658f8f2c802b0ceefee38d57cc514b9c78607cba6c182e89d484ef15f12c8f9",
+      "translation": "쿠비 포인트 해군항공기지",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "ad0274aa79fe985d46c13adb9c2f7bf58ce1846bf1cc374686ee2cc6a4b2e2f9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "91eab7ba0c6a136f4761487df5307cfbddf51d6b12fbc1c2b9de536371cf6c6a",
+      "translation": "미군 순양함 손실: -450점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b2d52fb2e0d6d619b51b4de0c1b1673f756fef2bedf2415a776d9f2b9a33f698"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cef0a29508ea0c5d92defe085a16b98d9c7a981e4835fbed44cc8aaa351ed6c7",
+      "translation": "(발사 지점 구역: 동경 62도, 북위 15도)",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b6ba5fdecfec9b58693e6f696df7761cd146eca5c1e00306f4f3b5c196f49652"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ded3e62ca0a555b454b3e634483f1440291e217d985813e7308cc0dedb6f742e",
+      "translation": "활주로 파괴 = 20점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "7847d2a459792800c7b5aee1cb270c6b2d7219dea8ed481a6f0d8fe045781959"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e956b001c3dcee89c5aea73d77c2d4ea1f2fd36233c98e809ecfca491b64625e",
+      "translation": "전자방사통제(EMCON) 상태 A: 전파 방사 금지",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "bd638de22f211732f4dcfb906c20f5913c6285eb18c9f3fa572175989d84293c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f1385cbf7ecb74f7b7b05f667384187a273e1f88e3dc0dc741097128f81806b7",
+      "translation": "수송선단 분산 지점(CDP)",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "3842c9ea80bc5baad79d22708e5b2acd50a6a60cf2d55b7b993021272bbff8fd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "028f0d7284ef3a587ad141f930e5737b2f769a33051be3cdd69db58b6b7d6f98",
+      "translation": "항공모함(CV) 손실 시 -200점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "e95a58541b61c4af7e888c1f94ea0fde81ea9ed88b12c536298f573a7cfa0113"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0a41b3dca63226199c44b136b3095fb56b903bb7a8d4c0595d1d0fc8f7d15329",
+      "translation": "전자방사통제(EMCON) 상태 A: 전파 방사 금지.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "301b006cb88b9d1bd1a39206f358c3de816577b98609134d7b115519ec2ffe8d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1b3bcb481751d5bbe10ea53cc27e065c933a8b1bbced747d60c4fc3c161e3c6b",
+      "translation": "MiG-27 손실 = -10점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "11db1e22d1406c6c5e19265aeb29ae7a8727787ec6b9f62b87acf7723a0e98e8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6b52f3541832545125ac8022bfb8db2025ef274b570e76d156da303acce05e46",
+      "translation": "전방 급유 지점 설치",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "fc60cc951875c9a698e39081202f1339eadbf3ce897e757e73eba46d78990aaf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "798a46c88bacb1e5a1f6125829f3078b6026981cf8a5e44a6828be38ec22697d",
+      "translation": "7. 결심 지점 및 최종 목표 상태",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "f3918a694fd5b8e2d58d804a8bd61f5c8116ad7a46773ae326132c4730cdc813"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "96285312da683c420b980667779e776a0ee9bac503af2c11be6efb04b47425d3",
+      "translation": "교리는 중국 해군 AI용으로 설정되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "887623a33c23a54ee90841aa9e4c25fc745adbc7d9c94f338e1b1c87282fa66d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "99026b28cd46d0efce7387b3677563acd5ca28649a6b92de3e02f797994db9e8",
+      "translation": "-전자방사통제(EMCON) 상태 C. 무운을 빈다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "8e535a8b740b18b5cb65db7b42ab82a6fa3a8c03c46b988957ad75591e0a4ed1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a4169480bada35b1a78d2f5130ed2f188f5acbc0210183978ecd145f727ac2a1",
+      "translation": "사용 가능한 지대공미사일 체계를 선택하라:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "96c4560eb99f0825127dc40c404b16758b50853bd1409c9bdbb7b1b176f961f1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "02ace542a90e92fc05aaf3f076f6f374e1fd3045afb9a7450f3dca1400de2dbc",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "1a04a8533d8d1ccc468cdfcc9dee234a84b12f80b429e3e2d8f04a0107856184"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "06149ef228f7ecfeae2ea0e4228c58e9f33a4ef4ce40fc66ddac7e687275010a",
+      "translation": "MS 라인홀테(Reinholte) 손실: -650점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "86dcccbab22341ca302780dc00237c7f5b0201673732821f528175a3b0252546"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "07b75011802e9006a36c7932fc75e2611738d7ad7ff3ceb6ee3b41adb0ee2eff",
+      "translation": "미군 구축함 손실: -200점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "c7f993bcd0101baaaf03890d8d69596d72704f02e33a124193642a6843a72c6b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "09cc144a36ba82e42829087e77e2d27d553d95a997fcb9b3f709c9103da49bb3",
+      "translation": "기뢰 튜토리얼에 온 것을 환영한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "dff9f1edb7daea49c3c90613332e8cd707796a792d0a5811189687193b342afe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "27ce3b1e70237fb34d2a03a8f614a7f5cab7867b1d50a915a27b1073fbd22dc3",
+      "translation": "하마단 공군기지 활주로 진입로",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "a017cf53c03e9b82470bb26850be59e35b30b905724ac2112484506f5da40ea1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "34974b5a21b8ffca91725d3c53c899c05ebe365c61c2a9f1c6689673d9254f13",
+      "translation": "항공기 'Strike #6'을 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "fc4eceb2f408d5afceb6abc2b1dd358b22aacc3441367422243f312918e5bc14"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4757d9b5251cfcef9f0a209e19c07163f3872e9882f80c0caff14f4cd8fde718",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "1a04a8533d8d1ccc468cdfcc9dee234a84b12f80b429e3e2d8f04a0107856184"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4eca3d71eb64f96e4d89b5881246205107b4ff44e552b28504d8df4013030854",
+      "translation": "모술 공군기지 활주로 진입로 1",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "e81d9ec39b73c28cdd0bf8d003b0c72ee7a767f8c64702b61c073add9720ce5e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6daf8abe0c20748d401d5998cc5c7cf4393b14e6c1bba7bc37635dc6ab13ac0f",
+      "translation": "항공기 'Strike #1'을 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "65b2d8c6a17e0e58f72c801e25363d4f4abbf5dfbe544bd4af7040cc6b19e739"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8169d9383bc675cec14c698a4c98848650caefc5fab3cf0124e04e8e91de000c",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "1a04a8533d8d1ccc468cdfcc9dee234a84b12f80b429e3e2d8f04a0107856184"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "89ed13453863ac4e5c6342d1360c7d323b4fab10c2237cc72edf4db872f45efd",
+      "translation": "활주로 50% 손상 = 10점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "c43993a4bf614c432bf1e035ec3afe012b3d0b40e36296553d27877e53e6305b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9db49924cd5e36790f2603429ce5133af79f1104896b513feebd0ab40cdbfba8",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "1a04a8533d8d1ccc468cdfcc9dee234a84b12f80b429e3e2d8f04a0107856184"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a4135566ae38c23b020a6d5e52627e350f3bd3c2631986016a5ee185d2f819c0",
+      "translation": "모술 공군기지 활주로 진입로 2",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "54d44921f0f03a47acc3187713eae6fce1f30a050a600505787d7b73d3f7ed66"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a7fa98c71c9025ab271b0b89ccbd496dfb259bd655dffd96c708b5fd7d7c3502",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "5738ff8077077775eb05178e7dd21ff2812ead507f0c16e36225d0195f5b825d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a8a6e710eee1420bd9e2adae5b24ef64555b1860274a0403bfc46c98e38c645c",
+      "translation": "부셰르 공군기지 활주로 진입로",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "5343e569af301c12c12ecdb6fd619fa29db4f611b227431c34921f99c5061c1e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ae061ca0395d81b1ed056730f17c17c1759d968844ec386be4ff077f8e97bb50",
+      "translation": "전자방사통제(EMCON): 전파 방사 제한 없음.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "a6bb8f967e01849ef0d221085aac176ae2aadfe544eee93ae5ab89638654d169"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bca3b50a2c7f8b6ca602d9ad9406e13286cc67120acbd5475d0ec0857e0a4635",
+      "translation": "신호: 전자방사통제(EMCON) A, 전파 방사 금지.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "0e8931aa9931a0eff00d8cc5dceb7596d4fcdc9992f1bf307afcc7a31bcf5c62"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bd13aa77f7f860f342300396d1dc6daf27a1852a55400b1178414c343c7d02d4",
+      "translation": "항공기 'Strike #3'을 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b82056afe31902b03d8c8823a90926c9a14f72d0faf5d5deb58bc261ba66cb22"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "be5dd23b1413cc45ac039ca0190761c245b9e285d4c1abd7749b331fe9c13060",
+      "translation": "전자방사통제(EMCON)는 재량에 맡긴다",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "1e18ee9728b3bc89bbb8130a0a5ea7cb24c321270f1f52f095ff65d0760aa330"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "db4143282009e2eab69d8ef9ed03c6e114b4d507b63c8bd14d07ec010f297880",
+      "translation": "항공기 'Strike #2'를 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "41b8d35b786e666389bcd50316c4494331cca0d512eb2236e0b73b34140f3f7f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "df5a58b67b1d71b89993b273f58c5c242ecaa3f40d7b9ab6556d5a1bd29ef82a",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "5738ff8077077775eb05178e7dd21ff2812ead507f0c16e36225d0195f5b825d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f5adc73879bd421271c2797fe70a6f65686924cce4f060a7cc9da27cad1bbb56",
+      "translation": "화물 수송 튜토리얼에 온 것을 환영한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "37320cc9382cfd0a6801b8a36c46660f80c2677e48cd6870985df9c89ec3d4e1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "014ca915485cd8aaff93181bb03827a9b7fafddd33e12ae32dad216a540064fa",
+      "translation": "탈릴 공군기지 활주로 진입로 1",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "9d2c5e16def4bfb4523c6a32537dda27d69858d1e998c11719bd089f096548d9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "07a048da811842f4ce939a7978faacedd48eb5acfaf998660f0148708da23e12",
+      "translation": "북한 소형 함정 파괴: +10점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "69e06fe9dc0932b0ebcacfa95583b20f5207f7ce933b4db59b900d21bd79932a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b7c2c162afebcecff32b827fdad47d56bfc12ee03591c36a8a33e5358f38da3",
+      "translation": "타격 튜토리얼 4 - 레이저 댄스",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "fbc08702d344801806b7b0db46ac42fefe50865cb48fd376ea8e0acafb955f6f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9abb6a803bb61deab94c3d33fdc3fcf3755fc45f74247c834b222bc2ed378133",
+      "translation": "공수 C-47 이동 중: +3점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "61c06446137aebc25feca6db9436536627bd00cd10506c618c7fc3607bafa624"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ab2c6fa8dfb7a3d5b0b11201ba08dd79e71826f347e355e3802662087eab6ca6",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "1a04a8533d8d1ccc468cdfcc9dee234a84b12f80b429e3e2d8f04a0107856184"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b2cc46c1eaaf2e673e91c22a22b1847e9bdb80ff96c82985d43d93079fe4f521",
+      "translation": "공수 C-54 이동 중: +5점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "00b73877343ac6d87d44935e3bfe00577a0069a1537fb5f982bbf3651e9bbac1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b717762af5b3bcc1182d73a7cbb58bfe07704b8ad32b4f44ccfc1a67fc7539cc",
+      "translation": "전자방사통제(EMCON): 알파 — 제한적 전파 방사.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "b3da53be75874f4f122a9ac8676da8c69d146ba5fe2872e68f3b35bde1a9bad0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b8f20a04fe7e9b579b845714f36d1c59d6dafaa391493aaf30b3aad1db984fc8",
+      "translation": "전술 교범: 원정 기뢰대항전(ExMCM) 교리",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "f91f1f31ffb6257d03c477e99aeeb80940a646449e2362def5d9396e495cd64f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bacc7f8cf1113e2cb56f4627177b8309f6f27e570c18e3e69b51864b83da60b4",
+      "translation": "미군 비행장 손상: -10점",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "70d2a169fa0dc8861c769d94b88d54e96ba40ea30819c301c7621f1f7784d657"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ce137e2a3d33904b120ac800d6f658ebaa1b9b8a887105e2e19f916f5868ca9d",
+      "translation": "탈릴 공군기지 활주로 진입로 2",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "9cc8caf6a844ee1df10573bc42cd0e01bd075b6df91eb6e298ee09895d3bad0c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fb5798a84b2aeb4f71372b98d00197c1ab9b808c3411a447514969f62a3539cf",
+      "translation": "'9' 키를 누르는 것을 잊지 마라.",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "94debbd834b8354831e2bea0a93e9db4031faf05fd58e92134dd9db8fc6cbbf4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "266c5ce7f089befa49d4a8f7d1c6330aba026a878a134c0911727e779c7c9246",
+      "translation": "점수는 다음과 같이 부여된다:",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "2b962da2b67b956f274cedf1476017c316ce6d84ed8d74a5ae17d8b37a365894"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4aee1ef54f4115d05895c77eda26fa57ef0433d49e65a8936d7807d69599ba5d",
+      "translation": "샤이바 공군기지 활주로 진입로 1",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "403aaf98b135b9321191a53bc665a262f2b1dd9cb26268419f9532d5ae0f4b9d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9e4b92597e1e46e9f5a76932c9c284e9e2ef730479d4e140149dffafd3c47694",
+      "translation": "알아사드 공군기지 활주로 진입로 1",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "5e91defe12427320e39c5481b4c8d5e2f05237bedbe3b8189c42dda8f6c590a5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a9f2954aaaf31ac81a453c7da7f8b5282766c8dd35427ece2c505dff324ac65b",
+      "translation": "샤이바 공군기지 활주로 진입로 2",
+      "review": "direct-source-review",
+      "batch": "revisions-508.tsv",
+      "previous_translation_sha256": "fac3ee69719e29b6e15b914c4e839b2caaa5348cc65f9e9442a35957ec9e4a29"
     }
   ],
   "whole_db_paragraphs": [
