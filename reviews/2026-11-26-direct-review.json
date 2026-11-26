@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 11019,
+    "reviewed_source_entries": 11077,
     "review_outcomes": {
-      "modified": 9613,
+      "modified": 9671,
       "retained": 1406
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 9588,
+      "scenario-ko.b64.tsv": 9646,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 11037,
+      "runtime_first_lookup_passed": 11095,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -45018,7 +45018,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "1ed3d61bb541c64d58fb4175b8c1b6ac1dc40d9e7d0dc50c2247782e0b41668e",
-      "translation": "육군 최고사령부는 북한의 전자전 감시 범위를 더욱 약화시키도록 아군 영토 최남단에 크라수하-4 재밍중대를 이동시켰다. 이 중대는 공격헬리콥터와 재밍헬리콥터를 갖춘 전진작전기지를 설치했다. 전방 무장·급유지점(FARP)의 스페츠나츠 정찰대는 동해(Tonghae) 부근에 투입될 준비를 하고 있으며, 레이저 표적지시기로 미사일을 찾고 표적을 지정하는 일을 지원할 예정이다.",
+      "translation": "육군 최고사령부는 북한의 조기경보(EW) 감시 능력을 더욱 약화시키는 데 도움을 주기 위해 크라수하-4 전파방해 중대를 아군 영토 최남단으로 이동시켰다. 이 중대는 공격헬리콥터와 전파방해 헬리콥터를 갖춘 전진작전기지를 설치했다. 전방 무장·급유 지점(FARP)의 스페츠나츠 정찰대는 동해(Tonghae) 부근에 투입될 준비를 하고 있으며, 레이저 표적지시기로 미사일을 찾고 표적을 지정하는 일을 지원할 예정이다.",
       "review": "direct-source-review",
       "batch": "revisions-179.tsv",
       "previous_translation_sha256": "64a38fc596333930b3d5707dec5da14864902ed0419f6219610cf0357495a440"
@@ -88214,6 +88214,470 @@
       "review": "direct-source-review",
       "batch": "revisions-516.tsv",
       "previous_translation_sha256": "0929755195d153a24006da57e7ab416feff23843b619e0d1fec6a7cec85597d4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9d84aebb88ee591fd170a4b98247914b4f10913307521d555b3e888cdcf171a5",
+      "translation": "작전 지휘관으로서 주어진 전력으로 레바논 베카 계곡 안팎의 시리아 지대공미사일 진지를 제거해야 한다",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "8acd0fb4ad94b3d21a5aceeb736b1e9ace8ee10a8e349aad8ed68928b1b2193c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fc9c751c6903f354afe66fae3fd728683ce5a1c700c44b53aafa28996a4bf091",
+      "translation": "시나리오를 다시 플레이하며 다른 무장으로 무인기를 격추해 보거나, 회피 기동하는 표적을 상대하는 네 번째 튜토리얼로 넘어가도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "578c4dadb3ef493b503bc380e403f7f39254ba6359d65679a3d05d1065d2dab7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2b58afc894138410c10855183d720d652f4dc511747d1dd5a2c031cd766d5b95",
+      "translation": "어선이 정선 명령을 거부하면 발포할 수 있다. 선박의 운항 능력을 무력화하는 것을 목표로 하라. 어떤 어선이든 격침하려 해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "4b1227127c4fc4856e44a0993eda7f8d036776085bd12abdef79be0f1c0916e3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "77aa660f98e5a709631165b7edc2d91b71beb50bda79c8b95e79a047108de8d3",
+      "translation": "이 튜토리얼에서는 제2차 세계대전의 기총전부터 가시거리 밖 미사일 교전까지, 시대에 따른 공중전의 발전을 배운다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "1ae64ef4c4b00eee019853f7296a44a9357bfe0d6b1dc6c6e190e1815acab54f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "af6b8901f37d8a21b7947d4e82c7bd44bb23c12590e629365836bca62d8a00cf",
+      "translation": "이 시나리오에서는 얻을 수 있는 점수가 꽤 많으므로 특별 행동 구매에 쓴 점수를 만회하기는 그리 어렵지 않을 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "b1671ebbe2cf5e1cc7d229c9cd50229d129e239e3d3c484d8e3f32137ad697b4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4ff193321dc798b1c46db61b996fe0237782e030f507d75ae985ce7b3365aed5",
+      "translation": "핵공격 대기 항공기는 미국 대통령의 승인이 있어야 사용할 수 있다. 다만 B-52H와 B-2A를 각각 최소 1대씩 최종 승인 대기 지점이나 대기 구역에 유지해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "f4020d012807ae7f7fb25b912b360b549423f6a964b3374c5df85e0d9e5c238a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "71cf81e714c61523c2410cbe63d5bfbe76eee1b640a4051292bca1f088693c20",
+      "translation": "어떤 이유인지 게임 화면이 USS 리틀록을 중심으로 열리며, 다른 부대를 중심으로 표시하도록 바꿀 수 없었다. CTF 60.1을 클릭하면 인디펜던스 항모전투단을 볼 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "7a2bf36bc8b171596871cfaded8c016a83fd1431879de2b2c0acba079bd4ece8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e0a7d7469e99d82e1fc2c1d6d9f3e744ef5d60f06473f7f3e1981f37adaf3e8b",
+      "translation": "G. 아나폴리스 및 오딘 기동전대를 얀마옌 동쪽 해역으로 이동시키는 것을 권고한다. 이 해역을 집결지로 삼아 섬으로 향하는 소련 수상 전력을 공격하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "25b737956a1fb30ad804642f1275a88a18a78b3d1f4426ef7b21338d27a52a80"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "82ce41955333e6c9ab228bf1d1de4dd1cf433dfa64976c95de928d413ec7d41c",
+      "translation": "아고스타급 잠수함 2척 모두 기뢰를 탑재했다. 동맹 측의 활동을 저지하기 위해 라고스와 포트하커트 접근로의 잠긴 참조점 구역에 기뢰밭을 부설하라",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "e1b30a85a5f232095152f0a00f02f47fe72a0e338085571de3baf2092ad581db"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ae31dfb0a212accdcc0663129c0b7d4b065e27d2f9dd860feeb25eb71e00ad81",
+      "translation": "참조점 ES-1~ES-4로 둘러싸인 구역이 있다. 이 구역에 진입하면 지정 초계 구역을 이탈한 것으로 간주하여 시나리오가 즉시 종료된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "bb256e4eaa672989c672be1f291cdb7188cb9e98eee0eef695c2c0a3164f30b2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "81365445e34fc25c8d86452dd8b4b83ae5fb3ea088159e60f9e402b701007cb0",
+      "translation": "아군이 포트모르즈비를 점령하고 중국이 라에와 마누스섬을 점령하면, 가능한 최고 점수는 +100 - 100 - 100 = -100점이다. 그러니 진출하여 영토를 점령하라!",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "2f65d54979508390b15ab60f181ed2d856981ee0b6f918343bbd101d0c90b99a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e8c095682cccfaff9b8656269ce2e6ddb3d19af224f29894006177fdedd8d168",
+      "translation": "이제 '급유기 수동 선택(Select tanker manually)'을 클릭한 뒤 십자 모양으로 바뀐 커서로 원하는 급유기를 클릭하여 직접 지정할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "81114432838843199c39a097dab8a427eb90a3b88d8203fc1e4f17699a404753"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "39b5b00644ad5b6173ebcbeb831df470dc35bd510fb8afbae275bba665f637f4",
+      "translation": "5. 그 밖에는 가용한 모든 전력을 사용하여 NATO의 노르웨이 증원을 저지할 수 있다. 핀란드와 스웨덴 영공 통과도 계속 허용된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "6ef847e8b1b2674bfaaf09d18ec2c250e17ce20dc5ddb21dcc73e6798fd543c4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cdedbb55dd3ba69f3e7906380f17d1e7d7ac18672f274851df5e721e2762815",
+      "translation": "C. 거리와 기상이 큰 장애물이다. 적 항공기와 고가치 지상 표적 파괴에 집중하라. 지상 표적에는 레이더 진지와 활주로 진입로가 포함된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "9c066c09ec4d60ab0fbb40f182f84d907c040022487da6af968789b72e81d7fb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a3d2a84f80b198c232b6120be1eb97d42368bb216666bdfba4489ad5658ea287",
+      "translation": "전자방사통제(EMCON): 필요에 따라 전자 장비를 사용하라. 수송선단을 들키지 않고 흑해로 통과시키는 일은 불가능하지 않더라도 매우 어렵다는 점을 고려하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "aaf307a763ee296fbe1cf61e0765e06f780872f78994985662702200898b818e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "18fcd83cb3d13fd9682078b3308d573df9d39312200609d4e00e7640b90e1762",
+      "translation": "소련군에 피해를 주고 진격을 늦춰야 한다. 북부 기지를 포기해야 할 수도 있지만, 소련 상륙부대가 트론헤임에 도착하는 것은 막아야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "962aeede4cd1ac4ba10cd049f090ef0053a87328c7814fe61f2ccc26b3e966a6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "236bc0c61c2c021f806916360e7e0cf0698cff51c9ba1bddb9fb43198c483642",
+      "translation": "Command 항공작전 기초 튜토리얼 시리즈의 세 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "b58370bde8f624ab09f75e38a08afcec7a22b2468405b767ad5b96de0b070345"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7ce9f9c33476d7edd0a1247e40b0a6070f2484e44cffb78c4ed09c0d2b5408df",
+      "translation": "육군 최고사령부는 북한의 조기경보(EW) 감시 능력을 더욱 약화시키는 데 도움을 주기 위해 크라수하-4 전파방해 중대를 아군 영토 최남단으로 이동시켰다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "923c2338fedb49c9d991b18fdf109660dbcb34c3c26527da80f5d4cb7967f644"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e55858bac3a89d4883ef035e405a650c5c1f1fc14dd50c8eb743a3c6a1e955e6",
+      "translation": "Command 항공작전 기초 튜토리얼 시리즈의 다섯 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "e02b7beb4ecf5297bcfdd56ae9581ff63a6ae2108deae9b3880205461699ae50"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ec78dc13adc3092f0cc506a47fda55d3d248255b146d3505dae46d4a03b27c6a",
+      "translation": "Command 항공작전 기초 튜토리얼 시리즈의 여섯 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "46306b79bbac29e60909146512cb899f96503a64528e6b70c4b7117863de35ca"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4861bda5296044c82f6fe20db3e769849017ff06102845d9d4ff364544de33c2",
+      "translation": "Command 항공작전 기초 튜토리얼 시리즈의 네 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "1390acba53e9f9ff93ecd9057c890cfbc613954d44c06c91482a18416ab14cef"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7d04b30a46a8239e22f9a7c3957401b6877dc7c457d98300cc04006b8b43c5d7",
+      "translation": "이번 튜토리얼에서는 레이더로 수상 접촉을 탐지한 뒤 시각 센서로 식별한다. 먼저 사용할 수 있는 센서 종류를 살펴보자:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "299b2179bef5c8cf68a1b72ca8e73e8fb21641c38289e0fc7e534793b825abaf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "81b5b7aa86e5e1a01a177832f0f0a23ef33f370f387f7af8a7ad75d19711151a",
+      "translation": "USS 니미츠, USS 아이젠하워, USS 아메리칸(American), HMAS 캔버라를 필리핀 남부 민다나오해로 이동시켜라. 해당 구역은 참조점 V1~V4로 표시되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "198c21304dc2d149a0f8efff79013c7667c8c3cbf72d3911b45009d2e25d2255"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a95eed0df9e23b0d9492ecd852ca23f3734e94fd058c758daf5bf926e8ebd52e",
+      "translation": "Command 항공작전 기초 튜토리얼 시리즈의 여덟 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "4c0aa32dece23a28f345e244db7a4a4f2de5a924426bea51cb04c7d930d6fe52"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bbcd688dc263df26b74b74bfde2a8312e2fa8d18a29cf098f5c1bec754e8fcd8",
+      "translation": "[MCAS Beaufort]에는 수송기가 배치되어 있으며 병력 탑승 지점으로 사용된다. 그 부근에서 카보티아 공수사단의 장갑차량 다수가 목격되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "6838a5cc0c08486a3b11efa8a9573d4b38c3f2a5f3ad2c653117a67d5f64c1d2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bc35ad4461cc97e3f4da8d396c7349bf7c4a6f5b2a703d1b30408257c37b44e5",
+      "translation": "Command 항공작전 기초 튜토리얼 시리즈의 두 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "d8f38bca0d4c4bc503ab967ec4397eae8da78775a9b1fc297c7cd0a2a00c7bc3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e07847e28cfdba6932147feec199679a710b00bdccee57734b744314509655c2",
+      "translation": "골란고원과 시리아 서부의 일부 좁은 구역에는 항공 전력을 투입할 수 있다. 다만 다마스쿠스 상공을 비행하거나 시리아 비행장 부근으로 전투기를 보내서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "abb8f7fc71fc39ea33bf6169ce9fa2754dbfdfa132b4cd293895709ba4873ce0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4022e4afe8c27ba0e9772f21bb2c1610b5a50f27c0702aa951f749db8f7ec20a",
+      "translation": "이 튜토리얼에서는 표적 도달 시각과 이륙 시각을 원하는 대로 정해도 된다. 처음에는 표적 도달 시각을 13:00:00Z로 설정하는 것을 권장한다. 두 방식 모두 시험해 보라.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "910213b0a0159551b5ae7d3262cb956566c7343c4931714b1afa039b292c6047"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "445c894bc7affda31b4e7eea40334fdd393f45931b3cb766d1c3228f9aeee8cf",
+      "translation": "CMO 잠수함 작전 기초 튜토리얼 시리즈의 여섯 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "1fd27b854130d2ead0bec8fecd17d8053da22104d29c0440d14aad3dca2f9ac7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "55f21eef6ead0d2324b75e86af9ec3ba05ec02fe9cb2bc6842740bb450192399",
+      "translation": "CMO 잠수함 작전 기초 튜토리얼 시리즈의 세 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "2bc489b0699ef0fa25fb0cf1188272cdac5eb7c9c7dcd4a11f271514f123e2bc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "673bb88d97eb933a3d7b27932e87acaf69b3cc1af72d2e5e43bf4be767f7c963",
+      "translation": "CMO 잠수함 작전 기초 튜토리얼 시리즈의 다섯 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "1ae9042ada8f2cd87923a19d0a0b6bfb5cff43bd8e446fa195dd36139cc025c5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "996fecf6d23d25a3675758bd8491be5e4a21ad41f3155a597444d5f07891a647",
+      "translation": "CMO 잠수함 작전 기초 튜토리얼 시리즈의 첫 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "5585a22241d78950b067ca2559aa69a57dc1de714ada40eec99594a4c74b7183"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ecd9426258243e0fbeb8734e0b9cf9385b8de7fce0287845e47ab6a12cb08376",
+      "translation": "Command 항공작전 기초 튜토리얼 시리즈의 일곱 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "dbced614d0f20b4373484bf26827b95806ca50ba4141dda7872ec2fe4ff8efc4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "45ba06ec07dc8e6f24f224e3ee73a8dcb7b3fdbcf0d198b3c18b9c38bc23f3bf",
+      "translation": "CMO 잠수함 작전 기초 튜토리얼 시리즈의 두 번째 편이다. 이번 튜토리얼에서는 다음 내용을 다룬다:",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "0316158b816217833d589d78a78878cf8dd45e873a18d75d29dc94213ed03cb5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c220ec2d12bf4cacbaef57a66102639b22d934fe0ebc8a7b1882c5f0a7702955",
+      "translation": "운용 불가 항공기는 예비 무장 구성으로 설정되어 있으며, 준비 완료까지 10시간에서 23시간 59분 사이의 무작위 시간이 걸린다. 따라서 일부 항공기는 하루가 지나가는 동안 운용 가능해질 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-517.tsv",
+      "previous_translation_sha256": "305b3bd68e37781cc93d9d8e8cd3f46bf70518ae6e95a93914f1e7e53dd975fd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "16c0b6f30392f126a8c406ba35131d669b14a4f9d4f1c4933c6ffe1b36c88d00",
+      "translation": "타격 편대의 표적은 표시된 대로다. 공격 전자전(OECM) 항공기는 벨라루스 서부의 지정 참조점에서 체공한다. OECM 지원은 09:15Z에, 조기경보(AEW) 지원은 09:30Z에 종료된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "91ead4cc581dac355aa12ebb717e7b349ac43f970a5e8a5a17d35cdfb867c7e8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1fefb07689d7854d08bcb08501072c688ac5924313a7c8cdfc978158042ae598",
+      "translation": "그리트비켄과 킹에드워드포인트의 수비대는 중대 규모이며 소화기와 박격포를 갖추고 있다. SAS와 SBS 부대가 이미 상륙했으며 지역 정찰을 수행할 예정이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "91a39b01935a1441e377f2b420a69fc77cfaf4445af04e01bb4b84afa174dc95"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e52e6e3f960c77a618267dd4c387a30efd58582e49639e9778ae4e871d78ce96",
+      "translation": "많은 H-6의 무장 준비에 20시간이 걸리고 이들의 역할이 매우 중요하므로 항공기에 미리 무장을 탑재해 두었다. 무장 구성을 바꾸려면 시나리오 편집기에서 변경하는 것을 권장한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "670c4a73beedd8a7b794195c48329161b7af61bef8fda7b59723339d09c25f81"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "03811d036a057e7681087a72676eff2398c53acf53667436185373e1ac9be0cc",
+      "translation": "시작 시 중국 방공식별구역(ADIZ) 참조점을 강조 표시해 두었다. 중국이 어느 지점에서 적대적으로 전환하는지 파악한 뒤에는 화면이 복잡해지지 않도록 이 참조점들을 모두 삭제해도 된다",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "45627e95dd08a72590a1e95afa868e362d068c3ab350f1f9311bc4ce75926d1f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2c828a2673306f16feede742dc5da1d40adf3780bec1326ace9ae008066b0cab",
+      "translation": "메시지 기록을 확인하면 이제 아무 일도 일어나지 않은 이유를 시뮬레이션이 알려준다는 것을 알 수 있다. 추측에 맡기는 대신 원인이 된 교리 설정을 설명해 준다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "010dd79dbf473a8545b046651ebc99d5fae3e54e6146e3f54c898be6fdd6e342"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e8a4343cc02209e59858e531b32eb43d70fc7f4e57902137a21abb72056b714e",
+      "translation": "사건이 발생할 가능성은 비교적 낮지만, 세 가지 특별 행동(Event Option 1, 2, 3) 중 하나에 승리 점수를 사용하면 그 가능성을 높일 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "d766f4b1a7be5e67aaedfce404766c872d8efb0a3014ce9fe1e3bd7e4cbdfcdd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d8e230ab5cb324d9fd2ec8bab785a79a6b34c94bd267041064848bc952890b7a",
+      "translation": "'게임(Game)' 드롭다운의 '특별 행동(Special Actions)' 메뉴에서 여러 사이버 공격 중 실행할 것을 선택할 수 있다. 공격마다 점수 비용이 다르므로 신중히 결정하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "81d8bfb73e43ba0b451f5466d260e72ad734316eb27409ae871a5ba34142ffe4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "16c19456c4f59359b42ffe74498d5888221b40d5403fd7906d02528a5dc7cbba",
+      "translation": "티란항은 바로 북쪽의 기지들로 이어지는 보급로이며 텔아비브의 항구들보다 훨씬 가까워 중요한 군수 거점이다. 티란의 안전을 반드시 확보해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "f84f3c87a296f2d1c0ed606b5f81976d24996f49f25852d1b33b85fd6b107240"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8aa76bc4900caa31be91ecfcac663a010e273c18731575aafee8d6e19df0c43f",
+      "translation": "사우디 항공기가 격추되거나 선박이 격침되면 감점된다. 선박에는 사우디 상선도 포함된다. 특히 지정된 표적 이외의 아스완댐 구간이 파괴되면 큰 불이익을 받는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "0c35c5d511701ebafd75c0a081624689cb320548f7163775632b522144a9c222"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2148abf8c2230bfc9a14348a0903f9c1a368cfe1ea37bf912b39475e3ef4b908",
+      "translation": "아군 연안 보급 전력은 영국 해군의 항공 초계를 피하기 위해 야간에 운항한다. 각별히 주의하며 가능한 한 해안에 바짝 붙어 항해하여 슈아죌 사운드/다윈 지역에 도착하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "2893a5fad0be27fea1d069f55abe83813b34be0c31ac4bf104db7df77378c08a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cb2a37b7e95f63e945c8c78344f3df60964822f83946d9656cc59e0259e45b8e",
+      "translation": "일상적인 임무 몇 개를 설정해 두었다. 필요하지 않으면 자유롭게 삭제해도 된다. 플레이어 측에는 필수 참조점이 없으므로 원한다면 모두 삭제할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "83f40eee5131ebcaa6aafedcd42114de97e42846592bed366c6324230cae3377"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7c51159bd2231c8b3f13010c96cba25ec1c8a0d1e1e05c4ff75c5b51daf69ed6",
+      "translation": "항공기가 구역 안을 무작위로 이동하지 않고 같은 경로를 반복 비행하게 하려면 '이동 방식(Movement style)'을 '반복 순환(Repeatable loop)'으로 바꿔라. 참조점 2개를 사용할 때는 이 방식을 적용해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "82f9d2a777457df3cbaea39ed3fbbdae66e282aca2cf89b055322f038e81f7e3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dad3255d3838b9b2930a1070b26a7f72136d4a8e8f3eae37bc5082ac1517db14",
+      "translation": "급유기를 편대로 묶는 것은 거의 항상 과도하다. 개별 급유기에 맞춰 수유기 편대를 적절히 나누면 상황을 더 명확하게 파악할 수 있다. 이 튜토리얼에서 스팡 기지 이동 항공기를 6대씩 2개 편대로 나눈 것이 그 예다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "c3d74459abb18db00f0866ea284a382d283f7c2f02102b6d478ccf1f45ef77c1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "db4af835eb691db11ceaf3bcae32552f014f3dbbf453ea1fbea1dd2514a7283c",
+      "translation": "최고사령관이 특별히 치하를 전했다. 알파 경계 태세를 해제하라. 함대의 안전을 확보하고 기지 복귀 절차를 개시하라. 훌륭한 작전 수행이었다, 제독. 이제 귀환한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "12d52848060b1206e435f6f18919388244ff7f685ad22e74d6506b50fe08bc25"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2da7c3a1a0f6bfca652df575c51b8f37bd2375457b150752ccf73c22a2bf83c8",
+      "translation": "참조점 Echo 부근에 소음이 큰 구형 원자력잠수함이 작전 중이다. 참조점에서 12해리 이내에만 머물도록 제한되어 있지만, 그래도 수색 면적은 452제곱해리나 된다!",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "206d1d99390cfd18b4c33d880cf761a7a317e166900c87d9fbb0a57ff86b0e0f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7253553d97f6d601ea847df532e7cbce6497b52bd3b3ab3a901c4c7a7e252993",
+      "translation": "현재 한국과 미국의 통신은 크게 교란되고 있다. 일본은 작전 기간 동안 동해 상공에서 조기경보 지원과 전투공중초계를 제공한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "971c67ea19778801069dd77f79c993ff0e24120a0248d80b273170893a4cc89c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1d738cac5b8cdb2e84799b3778ea04066fab71c4a75bdd1cee3941dbee655da5",
+      "translation": "1. Green 1 편대는 알자우프 공항을 출발해 참조점 RP FARP X-1~RP FARP X-4로 표시된 구역으로 이동한다. 도착하면 헬기용 전방 급유 지점 FARP X-ray를 설치한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "8484135bbfcc0eeebdf974c99987b81c5881a1f587ba115f33f59f88708590c0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "298368dbdcb99e2b8f474ecbb80e50a93ce9baa0c7cf83a045a01950410b8413",
+      "translation": "시나리오 시작 직후 잠긴 참조점을 살펴보며 작전 구역의 배치와 태풍 경로를 파악한 뒤 참조점 선택을 해제하라. 특별 메시지 팝업 창을 활성화하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "40c72b0931ac5ce1971754de0637fc603049c8d5f66e30204feea39cc4e3923e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "40f2cc4a7803d126c6a718682e2474e4acf9f602d3d0ff8b3a9bf77db599dc53",
+      "translation": "킬로급 3척과 탱고급 1척의 디젤 잠수함 행방이 확인되지 않았다. 나머지 행방불명 잠수함은 구형 폭스트로트급이며, 최대 12~14척일 수도 있지만 실제로 그만큼 많을 가능성은 매우 낮다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "d1aec165c9bed3e52998306fc41f9bef9febc1d4cf672de70dec0e5c12fa3737"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "04cbd0159259bc3f673ccb904fa38a04a5fcf63ad945001a95e1f61a5b909fd5",
+      "translation": "이 전쟁을 지휘하는 이들은 준장·소장급 제독과 장군들이고, 귀관은 중령이다. 특별 행동으로 추가 전력을 요청할 수 있지만 승리 점수를 지불해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "f5c2cb23bf3db238f4ef5906579aed8b8788fd263a1eb52699fc52e0a100ab8e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8a863933eec070801561bab3371747d8f34994e81fd61e1564d745427b008e14",
+      "translation": "-진영 교리 설정을 모두 확인하고 원하는 방식으로 조정하라. 예를 들어 제작자는 자동 회피(Automatic Evasion)를 '아니요(No)'로 두고 플레이하므로 이 시나리오도 그렇게 시작한다. 직접 확인하라!",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "f07177b95f73e7f523c3bfbc57f0b3b3f9a849f834c667f7f53104e22dfb66b1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b69e7ef897d09043b8835c275e0c59812c527621287902312e42c79967507f10",
+      "translation": "강하·착륙 구역(DZ/LZ)에 병력을 투입하려면 해당 구역의 참조점 안에서 수송 헬기를 최대 5분 동안 제자리비행시켜야 한다. 이는 항공기에서 병력과 화물을 내리는 과정을 구현한 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "0f6902280bbf2e49c1e576b4a95252b8ff5a7f10cbc1167f68f681dceed7bf95"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1ce0d1c470b1a98bcaf498c25e384e5e074792b0edc1f24bfd3d5929bbe7ff7e",
+      "translation": "이날 뒤이어 진행한 협의에서, 승리 점수를 사용하고 특별 행동을 실행해 상급 지휘관을 설득하면 다음 전력을 지원받을 수도 있다는 사실을 알게 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-518.tsv",
+      "previous_translation_sha256": "4047af1104760c9c4b5ab3d3c4ff4b2d79c97d00c10beaddbd8f1adf2c4aea87"
     }
   ],
   "whole_db_paragraphs": [
