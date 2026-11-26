@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9581,
+    "reviewed_source_entries": 9594,
     "review_outcomes": {
-      "modified": 8199,
+      "modified": 8212,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8213,
+      "scenario-ko.b64.tsv": 8226,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9593,
+      "runtime_first_lookup_passed": 9606,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -76708,6 +76708,110 @@
       "review": "direct-source-review",
       "batch": "revisions-433.tsv",
       "previous_translation_sha256": "617e17bb43f6eb7a853a7c38606307b21d2eb743c354de27b5b8475525192e3b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "581faa73a7a8191798bfdb43d2982eaa3f3a488824cebb7e9ec6ada4bba4477d",
+      "translation": "임무 완수까지 주어진 시간은 8시간이다. 군단의 나머지 병력은 함선에 승선해 목표 지점으로 이동 중이거나 내일 새벽 이 지역에 공수 투하될 예정이다. 이 계획의 성패는 귀관의 임무 성공에 달려 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "98fcac0ea4cb5ebe8bbb17497923e258c6599b925255b1ebba5e8fd3dd3a1361"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0b890ce990bed04ca2032659ac0feace151fc278d077f58a4c256d8748727828",
+      "translation": "우리 정부는 군부의 폭정에 맞서는 이집트 형제들을 지원하고 있다. 가용 전력을 모두 동원해 상선 2척이 포함된 호송선단이 이집트 해안의 사전 지정 상륙 구역까지 이동하도록 지원하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "a8980c6bd8f05b4a12edd7e2c83c8e6e845eddff1d6322a3004829e7e9736000"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cbdc5d6cd1c626ffb3b65cc8bec691a54c5c00409c4fcef8d8612f56504cfd97",
+      "translation": "명령은 21:00Z(원문 기준 현지 시각 오후 8시)까지 지정 위치에 도착해 항구에서 발견한 공격 대상에 표적 지시를 하고, 사전에 지정된 주파수 B를 청취하는 것이다. 이유는 정확히 알 수 없지만 중요한 임무라는 느낌이 든다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "1db83b27d19edc3fc00426b6bafe2891ab3491d498812cb598b4429ddbc57884"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6b1ac62bbac438f8e2009d7dad6c6faa886c704c6a0529430fcaff2612305d7a",
+      "translation": "임무는 발트 3국인 라트비아, 리투아니아, 에스토니아 상공의 제공권을 확보하는 동시에 발트해 동부의 제해권을 장악하는 것이다. 이를 통해 육군이 진격하여 36~48시간 안에 발트 3국을 점령할 수 있도록 하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "4cad2da4e9b1e0dd708e045fc584425ee268d60142bb21773dcc0d24686e05fe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "65711f666237f6e78ff9ad792cec83fb8798bc0dc98ca88dbde15f6950dc112c",
+      "translation": "USS 캐런(DD 970)의 함장으로서 수행할 임무는 시드라만에서 6시간 동안 항행의 자유 작전을 실시하는 것이다. USS 코럴 시(CV 43)의 지원 항공기 및 이탈리아 시고넬라에서 출격하는 P-3 항공기와 협조하여 작전을 수행하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "19310377884c9cda3b92ab28fe33b8badbc5641d9656a04c2920e0bdaf948237"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d9505a625dc1232bfe0448e2d33de8e6ad3ebaa6b5fe1043552f63e5f6d6a4f7",
+      "translation": "임무를 완수할 수 있도록 아군 수상함 대부분과 최신형 토다로급 잠수함 1척을 귀관에게 배속한다. 남부의 공군 기지에는 모두 비상 경계령이 내려졌으며, 약 두 시간 뒤에는 전면적인 작전 수행이 가능해진다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "4db5d0173bb3df87ef111e356ac0db8f0967298800f57947314c0db1d9921c31"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8a5a10221360454abf3a2eb55019610b4aa6c49a0f46b3c101c336461cbf9452",
+      "translation": "귀관은 대서양 함대 대잠전사령관(COMASWLANT)으로, 현재 제83기동부대 사령관을 맡고 있으며 노퍽 해군기지에 주둔하고 있다. 임무는 소련 잠수함을 탐지·추적하고, 필요하다면 미국 동부 해안으로 접근하지 못하도록 저지하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "762f891175979408fbca39b3e24ce19c58e1857c0ae3742917545e4cfd253e48"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fca5ff5748f9a8ab8125092a7facceacb0f5f00ae659b9110649d5de15691d7a",
+      "translation": "임무를 성공적으로 완수하는 데 필요하다고 판단되는 군사시설은 모두 공격해도 된다. 작전일은 그믐에 맞춰 5월 7일로 정했다. 알고 있듯이 이란도 이러한 가능성을 예상했으며, 방공망은 매우 강력하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "17741c5cef44cdeca5be889e2005ed25610b67bd0b22d29ab500915caa11973a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e79a6d18b54a1acbfbe96cb032e727fd9671234e0e8582ece830568355875119",
+      "translation": "중국 본토를 공격할 상당한 전력이 이제 배치를 마쳤다. 목표는 주요 표적 여러 곳을 공격해 중국의 전력 투사 능력을 약화하고, 중국 정부에 본토도 대규모 공격에 취약하다는 사실을 보여 주는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "b708c803ef4fc0244d0f40f61b5706370b6a72a5b16aeb644538e70baeaf42e1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "622405c79665750df6dd360a9444522a70b1101ca6b1189685d5e54942966ea5",
+      "translation": "스웨덴 제4해전전단은 무스쾨를 기지로 삼고 있으며, 근해뿐 아니라 연안·만·하구에서도 대잠 초계를 실시할 것이다. 대잠 헬기가 동원될 수도 있으며, 임무 완수까지 시간이 오래 걸릴수록 그 가능성이 커진다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "5ad52c5b53cec9db03e0f057b4ed3095e519dadc58e671109e03accc1c8cf761"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "73800966da9a2014a41966adb47c98cbad862597dbc8396599f5f1e836bbfdf9",
+      "translation": "사령관, 명령을 완수했다. 통항로를 확보하고 북쪽 측면을 지켜 냈다. 하지만 러시아 해군의 자랑을 격침함으로써 우리는 돌아올 수 없는 강을 건넜다. 정치적 영향력으로 오늘 우리가 지핀 불길을 억누르지 못한다면, 신의 가호를 바랄 수밖에 없다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "8cfa8bf1d6f043edb102800b075767991bcad601c45760e3cb0998c6bbb6073d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "11caf0b1358b129204e9a26998724db86a8e3da01dcb05d5431d3d555c04d835",
+      "translation": "탐지되지 않도록 하라. 이번 임무에서는 북한 영해 안으로 진입해야 한다. 발각되면 북한이 순순히 넘어갈 가능성은 낮다. 북한은 영해를 침범하는 어떤 국가에도 '심각한 결과'가 따를 것이라며 늘 하던 위협을 되풀이하고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "ce0d11733dc9b3a90715de380252633a6183f37ec4b0a66d2c728c2be1dbaabb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c99cc8c145202217317055ed1127770a679618cd6b5a38220e71871a6a305c1d",
+      "translation": "전술 지도에 해상 출입 제한 구역이 표시되어 있다. 팔라우 정부는 이 구역을 해양자원 보호구역으로 지정하고 어업을 금지했다. 임무는 이 구역을 순찰하면서 구역 안에서 불법 활동을 하는 선박을 나포하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-434.tsv",
+      "previous_translation_sha256": "39b47c5a2dae728941b13dea282276563864422dd20ac8eba6f619e485017bab"
     }
   ],
   "whole_db_paragraphs": [
