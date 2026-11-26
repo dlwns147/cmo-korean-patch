@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 10380,
+    "reviewed_source_entries": 10430,
     "review_outcomes": {
-      "modified": 8982,
+      "modified": 9032,
       "retained": 1398
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8983,
+      "scenario-ko.b64.tsv": 9033,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 10398,
+      "runtime_first_lookup_passed": 10448,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 199
+      "html_context_lookup_passed": 202
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -83102,6 +83102,406 @@
       "review": "direct-source-review",
       "batch": "revisions-505.tsv",
       "previous_translation_sha256": "d8adcb006b94eef13845a5a1e27b0f4914df471ee5459da702c8862b81e32633"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a8cfe2f2c1544c6c64fa4af97a5eacae3037c46a0c952e9cfe1ad7416f21b19b",
+      "translation": "플레이어는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "5b8f78ae1686e7670001dde8c2ace8d43c26c4fedcda4094bf51b1d0b03b8ea8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f1680caeb2c3b85f3613f4b6487b5f290f92e8f853fd2b0e36cc08aa87186301",
+      "translation": "의 무장 구성이 변경된 것을 알 수 있을 것이다. 이는 플레이어에게 토마호크 미사일 최대 8발만 사용하도록 허가한 시나리오상의 제한을 구현하기 위한 조치다.",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "6dbdd0de9991bd69c9aaa6f65e56d5120ecc3de426d81b4fd81899cc47765420"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "42e916224ed5d7c379e70e123159356db5ffd63be8769aea626a9dba02f7f58c",
+      "translation": ". 이것이 주 목표이며, 총 100점까지 획득할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "ed2b012c9aa0d328844943a75e966112d3aa6d31d29febc47a183b8887f93a48"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f12e845c3934b1f89f10b8125c8c9567f3060c7947f3067600d6c8e2f188b9fd",
+      "translation": "이 명령의 제2절에 명시된 지침에 따라 발포할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "0d85f7f3f84653b8f110d819bc278ca3cd847496a153baee24a042201bbb59d1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6f965f31d32858a439de3069c596c8aa4a2fd33a20e3fd91129e4cb50a5e9c6a",
+      "translation": "다목적형 12발을 포함해 GM-109 토마호크(TLAM) 미사일 총 150발을 사용할 수 있다. 사용 허가량은 72발이지만, 더 필요하면 제2",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "bb174f3e7678e2385671df5387982b11a45b6542738a5ad534871baf3d8766e9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1970d08b240c49f493420018215fe7762c014386e73db9ded0de23719a69b564",
+      "translation": "함대가 추가 사용을 승인할 것이다. (",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "a2cf4552cb3274e50a3d3d55fc5afae2523e76958f53d86bc8f31c97fa8f9746"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "676c92909d5a1df92b8c3d0226aee3240931bc2bd10842718514d6c5af54e8c1",
+      "translation": "이는 절대적인 상한이 아니므로 필요하면 초과해도 된다",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "cb9bb759a6f0d337911160ea5fb42d1041e6d8e8e78fff6e43385388b53358ad"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "df6b67f519dc850589c8dc5634fba092ba8463e33262b165f16cb3d47cf588fe",
+      "translation": " 각 상륙함은 점수를 얻으려면 해당 구역에서 24시간 동안 하역해야 한다. 마지막 상륙함이 하역을 마치면, 즉 그 함정이 피오르에 진입한 지 24시간이 지나면 원할 경우 임무에 성공한 것으로 간주하고 게임을 종료해도 된다",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "8b304664f3349ff3241c4e6c3528c7907634525ec240f62ea13f668359aba6d8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "566680dbddcde524adc4036b9a0ffa91a9eb416771f4e42c0d52fc7f7b43942b",
+      "translation": "작전 구역의 베네수엘라군을 아군 전력으로 감당할 수 없다고 판단하면 퀴라소의 파레라 해군기지로 철수할 수 있다. 베네수엘라가 아군 영해 안에 있는 아군 함정에까지 발포하지는 않을 것으로 판단한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "9fbc27b6dc996a6c06ad7d9679c9677e25bd8b7e78ac0d15626e03b05b3e4066"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6153cd4e3f32048ded2266dd0d2cc81a1e8e65a1ef524b8aa10deb1442767ddd",
+      "translation": "위반 시 큰 불이익을 받으며 패배로 이어질 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-506.tsv",
+      "previous_translation_sha256": "60182b153ae78032643cf62ee2ac1e12546f58bf12946536004900e2fda78c3f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1fdaaba74015ffaf3e6aeaf93376853cd79077f48f04293c5cdeaca06239336d",
+      "translation": "소련 기동부대를 차단하여 격멸하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "0e4c122447cfe5aa336f75715e123fa919b9bd03ebaf80389e46cc5473025f25"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a1a839fbcea027738896f4a57e3a8789b27f5b773c14b6158af5f0eab4c241c4",
+      "translation": "탐지되지 않은 채 앨라배마를 차단하여 격침하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "1d1c14ae1b5f5c609a97b1321dd94f4a81aa0b37bfddcbff207ec90517ee8841"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "44c3ba8621d7b6f328b258ffd1cc1030e388c6625458492f1132a943ba7ec8da",
+      "translation": "군수물자를 운반하는 것으로 확인된 모든 선박을 차단하여 격침하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "403ad42293f9b65510d55f1bf8389054dfe0d8aa6aff00240d2e5dead6c33d6b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ac45beea1d04a67e5037c85908a3d55762a4a376001164ecf651194fb846ebe0",
+      "translation": "2. 최적 속도로 이동하여 소련 전투단을 차단하고 격멸하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "4d2cda4b3ec13f60c5d0e55e3e8b62479973227b7395f4559962bb712f55211b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1acd65b741ec409d77946f79944a686bca53ac1e4fbd4e47f4445d13ed3a9f91",
+      "translation": "구조 및 인양: 500kHz로 케플라비크 합동 항공·해상 구조센터에 연락하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "ee8110d1850f7a21d8332bead09e73fcb1f31a63c72be7aff959ab8dfc3b6d6b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "95fb7a229be3540e1771fb4456642583b072ec6f4a86ca2eba87e1a5eaf1ba14",
+      "translation": "이제 두 급유기를 모두 '항상 급유(Always refuel)'로 설정한 상태에서 Extender #1에 다시 급유 명령을 내려라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "d2bdc05e085c74ac37b0ccbaa543fed0f68a0c2b43e1af9eda02b935974d1c0b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "527d4a663f081413f19c20c5edcd084224671f788c6063e5253b5042a6ca1699",
+      "translation": "적 지도부를 제거하기 위해 적 사령부, 전자정보(ELINT) 벙커, C3C 시설을 파괴하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "80043c2e7629e1a57d7bd0d5932c651ac3ee2ba0e37cc5e8bde4562f815f40bc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "197a6a2a8bdd6cfb91bc6a7333d25f8b9baf8086427b4c1775b7f0200b00597b",
+      "translation": "적 해군은 현대적인 구축함으로 항공모함을 방어하고, 대잠전 전력으로 함정을 보호할 것으로 예상된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "40abade5468cbdce0712fd72f4d7518affdf7526fd6b2eac15ca3e5fa5dbead0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2b04e3208544cc22125c9fe4c9c485281a7499bbba5407712c0d70356507bad7",
+      "translation": "KC-135에 급유를 받으라고 명령하려 하면 버튼이 비활성화되고 '급유(공중급유 수유 불가)(Refuel (not AAR capable))'라고 표시된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "8fc6032573dc0df619a177b3d7e346f1fdba64bfbcc6c94cc07322b3c2a74dca"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "237fc7364ac445249faade7323c59b4b6b840184e553cc5aeba9cc432add2646",
+      "translation": "키예프 항공순양함(CVHG)을 차단하고 영국의 존재감을 과시하라. 공격받으면 아군 손실을 최소화하면서 이 전단을 격멸하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "df05f60662d749cc56a7c7d53b35a36b4fb31e0242de50eb7267a6166bff3de4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "73ee8c1090cbffaaab214d069ef1fae01ae1b13926a154782da242a5964e77a1",
+      "translation": "임무 후 파괴: 임무 완료 메시지를 받으면 관심 대상 시설을 파괴해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "3c6ca91a7addd787933296bcd5301f6d56f4240c9b525393d9f9349932221e03"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c790f947b488a7e85e8ca5568a05b267cced016fb8b135a3df7b109f571d8db1",
+      "translation": "GBU-39/B 소구경폭탄(SDB) 8발로 소형 건물 6개를 파괴해야 한다. 탄약을 아껴 모든 건물을 파괴하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "81dca04823328c120b6725f736c28e66a753157b640b20cc2fb50aed6f063a57"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d8da39b64b1b56dbd6642ab5f1d56f996a963faa26830c58a5d4922633cd7c1c",
+      "translation": "1. 귀관의 임무는 순다 해협으로 향하는 소련 수송선단 소속 선박을 차단하여 격침하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "ba6314f718f66487ea31987fa47242151cb12ff41febbbdf9e1812387b0c9741"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0f458f1c2b07ad97fd84ab40c4d5f84e572f02eb519c0812cc0ba62480e36b50",
+      "translation": "작전 구역 내 모든 소련 전력을 찾아 격멸하라. 반복한다. 작전 구역 내 모든 소련 전력을 찾아 격멸하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "747d6c94a8fd09fdf4b5afb81d7df33db765fb2479e6ccc34ba6887ed1ea35cf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7f863bb6609209e0424ba8ab3947c8b70bfea60e5b0937bc37abba6c04e98890",
+      "translation": "6. 주 목표는 스푼 레스트(SPOON REST) 레이더 파괴다. 발견한 대공포와 지대공미사일을 파괴하는 것은 부차적 목표다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "59523b0e361eeb99f3ba9ea61710224f0ed4fed1ee84009648902a88b87a91c3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "189448be33759ed74d760dc5a982e63510196f19261d43dfd1396bc841951143",
+      "translation": "아군이 공격받으면 반격할 수 있으며, 아군을 위협하는 것으로 보이는 군함이나 항공기를 차단하여 격파할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "b8bb82faf555eb36a884fee5787cf4b85ff990e497381829b40c8427c9d08363"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a86c0079f0a5a4700bca56b256411fca7ec77e777d2be3b911dcd6b324f8cf6b",
+      "translation": "S-300VM 레이더와 방공망을 무력화해 수송 편대의 안전한 통로를 확보하라. 제해권을 확보해 함대를 보호하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "6cb776f0b002b3739920806b137997489a8becab63109823eed20f6ad6e8baf2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ef5192ece688706c5fa3fb7fa5d93ad62458c6f8afec68fc72cdbfe76fc2965b",
+      "translation": "작전 구역 내 모든 소련 전력을 찾아 격멸하라. 반복한다. 작전 구역 내 모든 소련 전력을 찾아 격멸하라. 주 표적은 소련 탄도미사일 원자력잠수함(SSBN)이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "feb96f6100aa1a86e75b24e4e696ff713b18f1e826dfbd44ca12e3c8296bffde"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1ef635471f0caf0feac0ba5c4395bb4548e4517f3439d3e6419fca73b9674a06",
+      "translation": "NATO 함정이 철수 조건에 도달하도록 만들어 동부 발트해에서 물러나게 하는 편이, 격침만큼 통쾌하지는 않더라도 더 효과적일 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "566b80df960b0a7f35a526258a9def8f42fd277888b9965fdae0a2e17bbec2ec"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "630d49eafa0af143277d0a591bef9f3af0f661194bdf66fec3a3db88de5a8689",
+      "translation": "이슬라마바드 광역권의 통합방공체계(IADS)를 파괴하고 기능을 저하시켜라. 적 전투 항공기와 공중전 수행 능력을 약화시켜라. C3M, 신호정보(SIGINT), 통신 벙커를 파괴하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "d7dc4749158a93db41d5fd632cea122276405dcd8a3760802400b2284cc57aa1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e086c5887e290d68ccd1af5a34aac3d966a56d08a3d07806b1e9d9fdcf9415a3",
+      "translation": "JUR 해군 전력으로 대만 남부를 공습, 함대함미사일, 상륙 공격으로부터 보호하라. 해군 항공 전력으로 중국 해군 잠수함을 찾아 격침하라. 시간이 중요하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "6118bcac8d642217ce39952a471660e190ffaf0686392977287125997d41e18d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b771e305f760d14220faf511007d67a56b9f53af0e10c61e0472dcf25993f84",
+      "translation": "A. 소련 지원함과 호위함 1척이 주력 전단에서 분리되어 카보베르데 서쪽 어딘가에 자리 잡았을 가능성이 있다. 이 함정들을 수색하여 격침하는 것을 허가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "4b86bd84065c82bcf74bd72c5124fb596f421a9c906eca550fc2355539d76665"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "009f68d69ade5ef9e38304738711a1ec32f4c58bcc27065a390c3589788c3a08",
+      "translation": "대공 수색 레이더, 전자지원수단(ESM), 지대공미사일, 대공포, 근접방어무기체계(CIWS)를 활용해 공중 표적을 격추하고 모의 미사일 공격을 방어하는 데 성공했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "1e84cd40d436ce83fc5bdefa26d2099708d7512d7ad715bd702103931d1c8ada"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "13a5151fc1c0f6994be3438ce86ccec8e51b38c947e5311d2a3f89bdf3d356e7",
+      "translation": "2. 가능하면 아메르 원수와 시드키 마흐무드 중장이 탑승한 항공기를 요격하여 격추하라. 이 항공기는 알마자에서 비르 타마다로 이동할 예정이며, 이집트 시간 약 07:00에 이륙한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "9c9080d8ad09e7fa84c96b31e0c73f911071a764f1d0778c4e09b57fd8771c4a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "77ee7244719bb455ca0e3866139b9f3b9af31e464590e5a08ef8f84694e5dd32",
+      "translation": "멜리야에서도 유사한 철수 작전이 명령되었다. 도시에서 민간인을 수송하는 페리를 보호하기 위해 해군 호위 전력이 배치되어 있다. 다음 함정들이 이 작전에 배정되어 있다:",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "5f537e9be63f9bfef295db90453b6ca7772878b2d9eedc3d312f5a407949884f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "46d1fd95b7d17f2fe833398f93fab5b27a9711e271454d5237adaf7ccc0db94d",
+      "translation": "이집트 수송선단을 차단하고 화물선에 금수품이 있는지 검색하라. 금수품이 발견되면 화물을 압수하고 상선 승무원을 체포한 뒤 화물선을 마르세유로 호송하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "350b351f9322824493ca1d8a362238cab5a0f3d9f4e5f105e24ac2a50701ef76"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dc701418e4218a163c84b96c9f15741e286f93bb38539c379f6eada65d679978",
+      "translation": "B. 노비파자르와 라슈카를 지나 레포사비치로 향하는 기갑 종대를 파괴하라. 이동 중 파괴하지 못하면 진격을 멈춘 위치를 확인하고 그곳을 공격하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "3831d07fc5281e8e71c207701fd8a8f1c53f4fbae73887626f02be225ea93871"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "005dd6e63333f0e70a4515f4da3a6dbb9ae00918961f049910790eab974f74a2",
+      "translation": "적 지도부를 제거하기 위해 적 사령부, 전자정보(ELINT) 벙커, C3C 시설을 파괴하라. 이 목표들은 핵심적이므로 가능한 한 신속하게 공격해야 한다. 기갑부대에 대한 타격도 권장한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "9c158eaa82e1e90a645437a1cf9e07b1fe50546ec5d5f7f487b6e876a62db74a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "15876c59548f46191e1dd0a6825469940b344391c8243b3518f5fc27cd5c3b79",
+      "translation": "A) 아군의 해양 시추 활동을 보호하기 위해 필요하다고 판단되는 그리스 전력을 파괴하라. 고가치 표적(HVT)에는 호위함, 조기경보기, 해상초계기, S-300·패트리엇 같은 고고도 지대공미사일 체계가 포함된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "552f56503083a1bf91ab98ca45e11067d464793dcd4f92ca573305dd31267fda"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "476a3939b0abebcd4a8b7ec97e0916b18dab9461b9f4e70c8b2f0d5528adad7a",
+      "translation": "b. 타이어리스(S 88)는 수송선단 915와 합류해 영국 해역으로 호송한다. 조우하는 모든 소련 전력을 격멸하라. 동대서양 최고사령관(CINCEASTLANT)은 수송선단 915가 손실을 최소화하며 잉글랜드에 도착하는 것을 필수 과제로 본다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "b279ca069de35e36ecdf96302b740fb512188e9bc9115150dbc2a2a041b66f3e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "64097daa1a3e9d9c49918be9dd58b835797a96bdb6850376f79c89a1922667bd",
+      "translation": "해병대를 코펜하겐 남쪽 상륙 구역까지 호위하라. 강력한 공중·수상·수중 공격이 예상된다. 해군의 방공 능력은 제한적이므로 항공 전력으로 해병대를 공습에서 보호하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "1be329c1d04fd2db962e9ccda3ca2c8be6953730608a4b29502dec4d1183f9b3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "acdcc57b88874b52546e6083a853d49c7f5bc43277883e66d2cb1be8a4f740c0",
+      "translation": "영국 제도를 방어하라. 항공 전력으로 영국의 활주로와 항공시설을 보호하라. 적은 대체로 방어적이지만, 독일 상공에서 서쪽으로 비행하는 적 다목적 전투기와 폭격기가 탐지되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "70bb9aa3e123b1d4a633b109d1442f641176583e92a5e2b7e32c403c24e0929b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "22d41a01fe476bd426d18a33f841c54a5ad804a82df0fc5ff9d99a2379ec4dae",
+      "translation": "튀니지군과의 교전을 먼저 개시하지 마라. 튀니지 영해를 침범하지 않도록 주의하라. 튀니지가 먼저 교전을 개시하면 자위권을 행사하고 민간인을 보호하기 위해 적절한 조치를 취할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "a11c7d3a755ebdadc270d839f1f550eff075e8e2d3e46c41d6f6e43f8664ceba"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d8c2d652b10c6bac60e00c32107f1cc7837f5494b8cbe5e128a97d8ea4d6f78d",
+      "translation": "모로코는 플랫폼을 스페인의 통제하에 되돌려주느니 파괴하겠다고 이전에 밝혔다. 정보 당국은 이 위협이 진지한 것으로 판단하며, 모로코가 아군의 탈환 직후 플랫폼을 파괴할 계획을 이미 마련했을 가능성이 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "f6bd825cf3271fadacc0573e3719086690e0a985978b42a82fd0f03b02186088"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "554eba6a9bae0015bec68f0af5326dc5ecad43e91803569d6cdc84bc74f6a870",
+      "translation": "3. 해협 양쪽에는 다수의 포대가 배치되어 있다. 해군이 접근하려면 먼저 이들을 파괴해야 한다. 해협을 방어하는 지대공미사일 진지를 파괴한 뒤 항공 전력으로 포대를 찾아 파괴하라. 해협 부근의 수상 전력은 모두 격침하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "dbf9714a377f10480e567aac3bf40eacdfd2f2a27e3f5ec5549e2fc30455266a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9dc781b5c32e57966d893e3a7fb60b5ace10344a447a8186809371ff5ffa1e22",
+      "translation": "상황을 관찰하되 이집트군을 먼저 공격하지 마라. 이집트군이 상선 한 척이라도 공격하면 모든 상선이 위험에 처한 것으로 간주하라. 그때는 상선을 위협하는 것으로 보이는 이집트 항공기나 군함을 차단하여 격파할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "e1f2b8c0c20ba14cead754a7cd1f889413e3680c76fafed11b85f365c45cf343"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "89f517b33794c8046c4d1b93c53ef1238ccfb3d3301363db5579932110f9be28",
+      "translation": "(4) 보급. 해상 전력은 영국 해군 보조함대(RFA) 함정의 해상보급(UNREP)을 받는다. 항공기는 현재 배치된 함정, HMS 퀸 엘리자베스, RAF 아크로티리에서 급유와 재무장을 할 수 있다. 시고넬라 해군항공기지에서는 급유만 허용되며 재무장은 금지된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "2d27cdec915cf63fb28df980e2dbd706e63ec360a67580a4e03360dc0f5a5f0d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "15a0ce6ad35f1b78dd485544f432a709b4099239e6f9091cc5b37fdcac2df267",
+      "translation": "지연시키고, 주의를 분산시키고, 방어하라. 포르도 핵농축시설을 최대한 오래 보존하기 위해 가능한 모든 수단을 동원하라. 이스라엘은 지하 구역을 효과적으로 타격하기 어려울 수 있지만, 머지않아 포르도를 파괴할 수단을 갖춘 미국이 도착할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "5b0959baa3399b64e105dfaa192f395ea5300b106ce02015ef5c9de190fff712"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "01204eb0d6430d4f92cc2ef94d4e2631d71f9e1c54e40af9747bb5aefacac0bf",
+      "translation": "사령부는 제72기동전대(TG 72)에 배속된 국민당군 상륙함 4척을 진먼섬에서 3해리 이내까지 호위하고, 4시간 동안 하역한 뒤 전대에 복귀시켜 귀환하기를 원한다. 이들의 임무 완수를 위협한다고 판단되는 공산군 함정, 항공기, 포병 진지로부터 상륙함을 보호하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "8396c52080f65e3523ce6466078dcb6f96554482477c7b00f754f8e3dbc99186"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ee0685980a81af74739951f0ae4d576c602dd54d3364f70a3290910fe3255186",
+      "translation": "그러나 러시아군이 튀르키예로 신속히 전개하는 데 필요한 탄약은 여전히 현지에 있다. 미국은 이를 좌시하지 않을 것이며, 자국 인원과 무기가 억류·압류된 상황도 용납하지 않을 것이다. 미국 대통령과 국가안보회의(NSC)는 제6함대 사령관에게 인지르릭 공군기지의 무기와 필요한 모든 시설을 파괴하라는 명령을 내렸다.",
+      "review": "direct-source-review",
+      "batch": "revisions-507.tsv",
+      "previous_translation_sha256": "7a03a9dc7ce79aa0d568255363e29235e6fb193bf6f4fca713ad74102d8e232e"
     }
   ],
   "whole_db_paragraphs": [
