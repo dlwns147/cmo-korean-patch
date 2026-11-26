@@ -2,33 +2,33 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 7127,
+    "reviewed_source_entries": 7233,
     "review_outcomes": {
-      "modified": 5848,
-      "retained": 1279
+      "modified": 5942,
+      "retained": 1291
     },
     "changed_from_base": {
-      "ko.tsv": 170,
-      "scenario-ko.b64.tsv": 5877,
-      "db_files": 3230,
-      "db_paragraphs": 4837
+      "ko.tsv": 173,
+      "scenario-ko.b64.tsv": 5968,
+      "db_files": 3309,
+      "db_paragraphs": 4958
     },
     "source_recovery": {
       "matched": {
-        "ko.tsv": 1440,
+        "ko.tsv": 1454,
         "scenario-ko.b64.tsv": 60406
       },
       "total": 64976,
       "unique_candidates": 992799,
-      "direct_candidate_hash_matches": 896
+      "direct_candidate_hash_matches": 910
     },
     "validation": {
-      "runtime_first_lookup_passed": 7134,
+      "runtime_first_lookup_passed": 7240,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 66
+      "html_context_lookup_passed": 71
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -36,9 +36,9 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 9,
+    "additional_whole_db_paragraph_reviews": 11,
     "supplemental_source_entries": 7,
-    "whole_db_paragraph_applications": 122
+    "whole_db_paragraph_applications": 130
   },
   "entries": [
     {
@@ -57056,6 +57056,854 @@
       "review": "direct-source-review",
       "batch": "revisions-251.tsv",
       "previous_translation_sha256": "e696631825fd858df1ff7ac0b136282a468e8625b80879ae65e3fc908ee4674b"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "50453a99a9aa2cb2bbb86f324338fdd4d8950ae3408ccbdea1737491df5d0c88",
+      "translation": "무장 비상 투하",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "bdc1684e7c7cde6f3303bfd3774ac05f05d7a5aaf54eb4ab938c19a25d177cb2"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "57f5d4ab98711c504a654c4e9f279a1a281ff2eefd7a2e6f7a82b8ee79ddfe8f",
+      "translation": "무장 통제 상태 (공중)",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "57b8f9de5ff864088cf8157519adc12ad14fdeb6a8e42153cd4b1e2a69a428e9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "5ed9bc4f820ad7e7e70a9c92b8815d1544ab1413ce7762fa10d9ad10401dfafe",
+      "translation": "날씨에 따른 함정 속력 변화",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "05e6f5eedd026d8508a5e1ede779cdfbcaee864f10676a66d10a41731b2d2630"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "68ec0c41777d185dba8d10d03baa585c06cfa42770228fa14a5eca3306766e04",
+      "translation": "추력 · 고도/심도",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "cb278d412cc09b3928b5708048a39effa8d3ad9ea11549e92ff0a7d77a5aa2e9"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "698304448752601b7047563ccc1c160e2b4fe6cb53a7692bb400ef61471c0b06",
+      "translation": "작전 관리자",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "03096bcfd205a9c8837758ad52a867a8eb15c8d66be51647c3de50bea7bb5082"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6a27959d66c9152b739174c02ea0c72bb33ee31c94d308e5668a84adaed5b4d4",
+      "translation": "시나리오에 등장하는 장비 보기",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "378c3ef03ad6b91ad5efc736738feaee0b49f16f604e2bf9d5ea92cda0e22020"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6db730d85d51c82dc7dcd0d05f60788e3b312f3450153ac25c506e6fb57639c7",
+      "translation": "게임 종료",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "46085d587539100cf75ca699a60d33f19aba63dc7bf838871fd403f1a0352e39"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "6efa56c2e191d33b2b1964b2655a1b683d2dd39b9ff444ac5eac4734731b2674",
+      "translation": "DB 수정 요청",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "2137d7a8b71231cf71f88809b7a2c54063e79afe0a714205c66bc673fd404f0a"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7f0b078fc340b3fb7fd73575f0efbe852c9bf5a7d72af96d4827dd5148983a87",
+      "translation": "지도 기호",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "40a5be05dba7d12d8ad0a18bf008246f87e34fc8b668264d8cea883e36a5f6f8"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7fc016bb4c5ee296b228cdebe43678872458958001d9a4723dd8824e7799e31a",
+      "translation": "다른 이름으로 저장",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "57950aff46bc8e3e9f8125c3eb376c28d7518961545ae1664f128069c9cbef34"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "7ff9c0e596ce4d1bcd37b83e586b064ef2ac2a0c2bd8c861d748b140ff1ffeef",
+      "translation": "고고도 (10,973m)",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "16d2508055e5b571eb166730410b98495b7d3511044cd8700c48fdc67aaf606d"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "81e956daf298aa468667d1843ae9caedf7aedf619346cdeed8bc93d5c2745c4d",
+      "translation": "주요 목표",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "42d3148602358c95fc37a583915d827c3abbc7a15bc9b3d545d5cbe4f6e51e02"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "827eb13530d19a842dd3c8ce9507f59ffbe703ea17bc146c0c13a338051d3882",
+      "translation": "개인 지도 설정 사용",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "5a51af744f698f389cdb098d957407118a698b8c37f3c7514d6e0517366dbd59"
+    },
+    {
+      "dictionary": "ko.tsv",
+      "source_hash": "83b14c7b9ff0683ca3d39e29ca309f6ac063bdaf41f4e5acc5db8e1a97af73d0",
+      "translation": "전자지원수단(ESM)",
+      "review": "direct-source-review",
+      "batch": "revisions-252.tsv",
+      "previous_translation_sha256": "c9fc720c40fb47a2e905b5e2f0948ef498c4eab82f5e4c1264b7067eee213b28"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49ad58d0e88ae5c1b4cbceee96f30b941d4c85e740eab8e682a369bccf2456a9",
+      "translation": "이 시나리오에서는 연합군 작전 직후 발생한 프리슈티나 공항 위기가 급격히 악화된다. 나토군이 공항에 진지를 구축한 러시아군과 충돌하면서 양측 모두 큰 인명피해를 입었다. 잭슨 장군의 엄중한 경고, “당신을 위해 제3차 세계대전을 시작하지는 않겠소”는 무시되었고, 상황은 실제로 전면적인 전략 대결을 향해 치닫고 있다. 미국 정부는 최후의 경고로, 안전하다고 여겨지는 러시아의 보복타격 전력이 얼마나 취약한지 러시아 정치 지도부에 보여 주기로 한다. 이를 위한 조치에는 극지방 얼음 깊숙한 곳에 숨은 러시아 전략핵잠수함을 공격하는 것도 포함된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "a71b43229084cff94c10c93b40333328d249025e0a0d24f89cb0f8af7d8cd462"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49be14a8f72cfe85ea1738b5771ec909a972db5466e4dbef33e3a67d6e5b8361",
+      "translation": "이 시나리오는 Lua로 수륙양용기와 수상기를 구현합니다. 수상기를 물 위에 착수시키려면 최저고도에서 ‘초계(Loiter)’ 속도로 비행하도록 명령하십시오. 다시 이수시키려면 착수 상태를 나타내는 함정 유닛에 ‘최대(Flank)’ 속도를 명령하십시오. 매분 조건을 확인하여, 조건을 충족한 수상기 또는 착수 상태의 함정 유닛을 제거하고 새로운 상태에 해당하는 유닛으로 교체합니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "bf74f0897d2c603b73b857ed8bc6699ffbe180a9728dbe301f2f5ba9f98a4557"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49c4579add0b02f8bb88bdae3a631b85b861cfe990b89f211d5ddc74d8177483",
+      "translation": "네타냐후 총리는 모스크바 회담 전이나 회담 중에 이스라엘군이 공격이나 도발을 하지 않겠다고 약속했습니다. 따라서 시리아 영공을 침범하거나 그 안의 어떤 표적도 공격해서는 안 된다는 엄격한 명령을 받았습니다. 현재 정치적 긴장이 완화되어 이스라엘 공군의 고도 경계태세도 해제되었습니다. 상당수 인원이 기지를 떠나 있어 가용 전력이 매우 제한적입니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "634e17392c2f510707b833231cc5dcfb7e989620f5f44c14394b2e26720d32a4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49c70e9d0555b48bc4ca7d17babaa3b17f88c6893af95fe39e2d3ae9183b5903",
+      "translation": "KC-135는 1957년 미 공군에 도입되었다. 원문 작성 당시 최초 운용군에서 50년 이상 계속 사용한 고정익 군용기 6종 중 하나였으며, 더 큰 KC-10이 급유 임무를 보완하고 있었다. 유지비는 증가했지만 연구 결과 다수의 기체를 2040년까지 운용할 수 있는 것으로 평가되었다. 장기적으로는 보잉 KC-46 페가수스로 대체할 계획이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "1e916a79986df4872ff575a891ab799fe558c7623000818673906b151cd75fcc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49cd65054a9fc2d86a97405e9699b507ee4ea066f6578abdcbbf2d7308987754",
+      "translation": "역할 요약: 분류는 항공폭탄. 주 용도는 중량급 전술·전략 타격이며, 고폭약의 폭풍과 파편으로 피해를 준다. 방어진지, 강화 구조물, 병력 집결지, 비행장에 효과적이지만 이동 표적, 부수적 피해를 최소화해야 하는 상황, 고도로 강화된 벙커에는 효과가 제한된다. 사브 32 란센과 사브 37 비겐에서 운용한다. 스웨덴제 중량급 폭탄 장착대와 호환되며 냉전기 스웨덴 공군의 표준 중량급 일반목적 폭탄이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "ec61b84ae8b5dd5a0328065976584bbcd91e3c33a5792e63c6999290b09fada7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49cd763ed87f23927c9e285db7274207c45722e0fe4bb414afa5ab61a522f0bf",
+      "translation": "개요: AN/SLQ-61은 수상함에 접근하는 어뢰에 능동·수동 방식으로 대응하는 경량 예인식 어뢰 대응체계다. 수상함 어뢰방어(SSTD) 체계의 일부이며, 연안전투함(LCS) 같은 모듈식 플랫폼에 사용하는 어뢰방어 임무모듈(TDMM)로 구성된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "a4c4426b48e396237da1aaf21306a2f5e1c6e2e3de7281e0b79a3d8f0adf6d7a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49e7770844d5b02d093a7b95524c02b5e5d2227e9139d466fba606ece3523306",
+      "translation": "사흘 전, 사헬통일해방전선(USLF)이라는 무장 반군이 유혈 쿠데타로 차드의 기존 정부를 전복했다. 쿠데타 후 다수의 군 지휘관이 신정권에 충성을 맹세했으며, 공군의 상당 부분도 여기에 합류했다. 동시에 전국적으로 거센 반서방 숙청이 시작되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "f66052002b6cf7a1c6838299ea10389e5a012a5d4f86a636dc1e0eba43dbb8d8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49fe9e658f5b922fb709a4205dc6c1aac84de3329fd5c3b15a654ecad2170dba",
+      "translation": "스페인은 이제 모로코 왕국과 전쟁 중이다. 이번 작전에서는 해·공·육군을 협동 운용하여 세우타와 멜리야를 방어하고, 적 위협을 무력화하며, 민간인의 안전한 대피를 보장한다. 각 군의 전력은 가용해지는 대로 활용하며, 합동작전이 임무 성공의 핵심이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "03b85b4a7c628bdfa5c6984afd577dcccc48bf0855b6b5e37427eb1b74379d04"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a1020b7f37787f1a3f30bc480bbfe723c149ff9d99db05aa3180c5793d28858",
+      "translation": "가능한 최고 속력으로 알후다이다항에 진입해 후티 동맹군을 위한 핵심 보급품을 하역하라. 외국 해군 함정과의 접촉을 피하고 다른 선택이 없을 때만 교전하라. 상선들이 승리의 열쇠이므로, 상선의 안전을 보장하는 것이 최우선 목표다. (게임상 목표: 상선들을 ‘Harbor Area’ 기준점들로 둘러싸인 항만 구역까지 이동시키십시오.)",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "a711f84b3a8b0175c0bae1a6336ff191642b8bc45240a9c9d67028686066a18b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a1e2f523cb783ddd1c402a69a6d1af5102ffc3d9a432f6f825cecce6b330fa2",
+      "translation": "상세 설명: 토네이도 F.3는 RB199-34R Mk 104 터보팬 엔진 2기를 사용해 최고 마하 2.2에 도달한다. 가변후퇴익은 비행 조건에 맞춰 후퇴각을 25~67도로 조절한다. GEC-마르코니 AI.24 폭스헌터 펄스도플러 레이더는 탐색 중 추적과 하방 탐색·요격 기능을 지원한다. 무장은 마우저 BK-27 27mm 기관포와 공대공 미사일 최대 8발로, 주익 파일런에 AIM-9L 사이드와인더 4발, 동체 반매립 장착점에 스카이플래시 중거리 미사일 4발을 탑재한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "94b60540fc95334e0dce95abc9ac5fa9f01c2d27e8efb530d9197ba8fde590af"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a35131edc6904b0e512eacc475128511dbf6cff43cc49b645ff35276d1aadca",
+      "translation": "상세 설명: 1985년 알야마마 I 협정에 따라 도입된 토네이도 IDS는 1986년 사우디아라비아에서 운용을 시작했으며, 1990년대 초까지 48대가 인도되었다. 1995년에는 킹 압둘아지즈와 킹 칼리드 등의 기지에서 안정적으로 운용되었고, 영국의 기술 지원을 받아 정비·군수지원을 수행했다. 터보유니언 RB199-34R Mk 103 터보팬 2기를 사용하며, 최고속도는 마하 2.2, 전투행동반경은 약 1,390km였다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "65200a60061da8ed696a0384037f55a771faf8b77c20dafe9fcc530b6d1fb842"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a39beeb726a1a6b77a8d19f02dba627c23ce9f661bf141122289e009e07aac6",
+      "translation": "어려운 임무이지만 약해진 적을 상대로 우리나라의 부활을 보여 줄 기회다. 상당한 미군 전력이 베네수엘라로 향하고 있으나, 미국의 앞마당에서 항모 아이젠하워를 격침하면 그들을 완전히 굴복시키고 역내 패권을 무너뜨릴 수 있다고 본다. 수상함대의 지원 아래 이 지역의 강력한 잠수함 전력으로 이를 달성할 것이다. 아군 전력을 최대한 보호하되, 특히 라오르칠라 전략폭격기 기지를 지켜라.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "f8e865134fe54ad30e5c87c2fb62b3aaa90da7f1adac6c1ac5f7757b0b75af40"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a554f1c7398baad23d966ffb3fc8cca9104a7e08e2ffc608f0e85d72231bf0a",
+      "translation": "개요: 제너럴 다이내믹스 F-16 파이팅 팰컨은 미 공군을 위해 개발된 단발 다목적 전투기다. 처음에는 주간 제공전투기로 설계되었지만 성공적인 전천후 다목적기로 발전했다. 1976년 생산 승인 이후 원문 작성 시점까지 4,500대 이상이 제작되었다. 당시 미 공군의 신규 구매는 끝났지만 수출 고객을 위한 개량형 생산은 계속되고 있었다. 1993년 제너럴 다이내믹스는 항공기 제작 부문을 록히드에 매각했으며, 록히드는 1995년 마틴 마리에타와 합병해 록히드 마틴이 되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "515500ce5ad32e8bf0be5ad5e9b3240fcae27085965dfa7043c29e10ceb28004"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a5b78466d5f5f35c855e56faa8ccc4dfa30c0f720c6bc08a00260d00d9c460a",
+      "translation": "일반 설명: 이 TV 카메라들은 1세대보다 해상도와 감도가 향상된 아날로그 영상 센서를 사용해 다양한 조명 조건에서도 더 선명하게 표적을 추적한다. 무장 지휘장치에 통합되어 실시간 육안 표적 확인과 사격통제를 지원하며, 흔히 레이저 거리측정기나 적외선 센서와 결합해 여러 파장대를 활용하는 표적 획득 능력을 제공한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "28fbeb3b6ea88b38485a36f0fd0602a61cc38c64102691bf1457a6c3e489725b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a834ea467584431e3fe46f489e52982551c01b855510f7bcc8b8d95756eb107",
+      "translation": "해병대는 주와라에 성공적으로 상륙한 뒤 큰 저항 없이 동쪽 트리폴리로 진격해 왔다. 해리어와 코브라를 위한 전진작전기지도 설치되었다. 그러나 진격이 너무 빨랐던 것으로 보인다. 전방 정찰대가 접근 중인 리비아군의 반격 전력을 발견했다. 더 나쁜 것은 리비아군이 탐지되지 않은 채 해병대 우측 측방을 따라 전진해 포위를 위협하고 있다는 점이다. 해병대는 진격을 멈추고 방어진지를 구축 중이며, 제82공수사단이 증원군으로 파견되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "045097d27a27f2b2a5016fdc4b15091b0fbb36f3e3e9d7d6e4871f383cbad5d9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a8dcc844ced307f1b0c11d738bfa91b47cd8510c34bebff12f20e88ff404a4b",
+      "translation": "기능: 스피어피시 Mod 0은 잠수함의 533mm 발사관에서 발사된 뒤 초기 구간에 유선 유도를 사용하여 모함으로부터 갱신된 정보를 받는다. 이후 능동·수동 소나 탐색기로 고가치 수상전투함이나 잠수함을 추적한다. 고속 질주 능력으로 적의 회피나 대응수단이 효과를 발휘할 시간을 줄인다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "ca0d0459b2ad24efd2ab94ea821422ba31dac90fcfed6c4d9469a46ee3b004ca"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a9021e70e09a73cd8804e7c31d8d20a570dea5b2982033b557f135871d82a4c",
+      "translation": "원문은 J-11B/Su-27SK가 사거리 100해리 이상인 PL-12 또는 PL-15 가시거리 밖 공대공 미사일과, 사거리 0.17~11해리의 전방위 적외선 유도 근접전 미사일 PL-10을 탑재한다고 설명한다. Su-27P와 달리 Su-27SK는 공대지 공격 능력도 갖춘다. 공대지 무장에는 100·250·500kg 자유낙하 및 감속 폭탄, 500kg 소이탄, 25kg 및 500kg RBK 집속탄(원문 중량 표기), S-8·S-13·S-24·S-25 무유도 로켓이 포함된다. YJ-91/Kh-31을 적 방공망 제압(SEAD)에 사용할 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "c7a256d90da0534099aac243aa6b3ed70ddfd31e6a7c1fde0dcb515d7ce99564"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4aa350b104c1c35906d837ba7d59ddef9cc52c216f177c1b00d910e3c62dd369",
+      "translation": "이 탄약은 CBU-58 계열의 개량 대안으로 개발되어, 자탄 작동과 분산 패턴의 신뢰성을 높이는 데 중점을 두었다. BLU-86/B는 불발률을 낮추고 표적 지역을 더 빈틈없이 덮도록 설계되었다. 그러나 이런 개선에도 구형 집속탄의 공통적인 한계인 불발탄 위험은 여전히 남아 있었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "2d064dee34000b8e40dee9225e013924ac7216b7544021e4a670e77719edf802"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4ab36795bb45c044900820f9d2e64e29bdffc59ce84ac78340f13b4eb6302eee",
+      "translation": "나토 해군 대부분은 이제 북대서양 수송선단을 잔존 소련 잠수함으로부터 보호하는 임무를 맡고 있다. 증원된 미 육군 정규사단들은 리포저(REFORGER)를 통해 독일에서 사전 배치 장비를 인수했고, 제24기계화사단도 호위 아래 해상으로 건너왔다. 현재는 미 주방위군 사단들과 캐나다군이 이동 중이다. 폴란드군과 헝가리군에는 동요가 커지고 있으며, 소련의 2·3등급 사단 동원도 소집 거부로 차질을 빚고 있다. 몇 주 안에 나토는 공세로 전환해 북독일 평원으로 다시 밀고 나갈 수 있을 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "ababc8b52d8919f2ae4bd8a8768ce3501ab88c6b497bb06b148cdc6e3a4d2863"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4ab6d114aa656e12a07c85ac69eb8bf63df343cf554e0f048f0127d6f8960517",
+      "translation": "일반 설명: 이 탄종은 강철 탄체에 고폭약을 채운 것으로, 충격이나 지연신관에 의해 폭발하도록 설계되었다. T-54/55 전차의 D-10T 같은 100mm 강선 전차포나 야포에서 발사하며 강력한 폭풍·파편 효과를 낸다. 형식에 따라 대인·경량 장비 표적용 탄두신관이나 이중 목적 신관을 사용할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-253.tsv",
+      "previous_translation_sha256": "7a0a58fbe488b8798f60be93a5126632fa5e926f42f56ce60cada6a2fc76e41d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4aba3a387516b790b487f911b6301416c5d1e917a2bede46ce22f0eece9130a6",
+      "translation": "작전은 2024년 1월 15일 동틀 무렵 시작해 일몰까지 계속한다. 지부티 캠프 르모니에의 무인기 2대가 지원한다(원문 표기는 ‘MQ-4 리퍼’). 정보 보고에 따르면 안사르 알라가 비교적 최신형 이란제 방공체계 일부를 공급받았으므로 주의하라. 무장 구성은 기동부대 지휘관인 귀관의 재량으로 정한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "0cc6d6183307fd6d9b52b9ed5aa81977edc23274d5ad81305eab27ac614b7147"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4ac4d79f7807cff4b72dfaf8fa48ea22395e36ababfa63adeaa231a50d482eaf",
+      "translation": "아르헨티나 본토의 공군 공격기들은 출격 준비를 마쳤다. 베인티싱코 데 마요도 허미즈와 인빈시블을 최우선 표적으로 삼아 영국 전단에 대규모 집중공습을 가하기 위해 함재 A-4Q 공격기들을 준비했다. 공격 전 영국 전단의 최종 위치를 확인하려고 S-2 초계기도 출격시켰다. 제2차 세계대전 이후 첫 항모전이 시작되려 하고 있었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "b1e1de1f4cf95110f6e7485228a5584dda5a8b6a21c86c12a6021a14f920b1bd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4afe8a0abd45b13ff86f5e1f992105d5ec0ab69296c1649ca4dd558d1bf94aae",
+      "translation": "이 시나리오에서 러시아 북방함대는 해군 기함 어드미럴 쿠즈네초프 없이 작전한다. 원문 설정상 이 함정은 PD-19 부유식 도크 침몰과 2019년 12월 화재로 영구적으로 전투력을 잃었다. 북방함대는 노르웨이해에서만 맞서기로 하고 GIUK 갭 북쪽에 머물렀다. 그렇다고 활동이 없었던 것은 아니다. 전쟁 첫 2주 동안 노르웨이 해군 함정들은 하나씩 추적당해 격침되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "e241c6b80ab33feeb89a4ff2d0f16322ee984004b6cdb2e28e0877710c22cafa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4aff38d3fc478ea14e540c9596df68c115d6170db95668ff17b42e180c515775",
+      "translation": "소련은 유럽 내륙과 해상의 나토군을 상대로 기습적인 선제공격을 감행했다. 개조 화물선으로 레이캬비크에 병력을 침투시켜 아이슬란드의 수도를 점령했다. 소련군은 수도의 공항과 케플라비크 공항을 신속하게 장악한 뒤 추가 병력, 지대공 미사일 포대, 전투기를 공수하기 시작했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "b1d454f7e27ca5a2ef1afa1a1f10585d1e83ccb79214f4ea9524d10cef02ad26"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b03a0f1aaa44e972f6f360272e6a442022da8e976be781888a3cc6cf915f740",
+      "translation": "6월 14일 프랑스 항모 포슈가 사피르 II 작전의 일환으로 아덴만에 도착했다. 최근 며칠 동안 바레는 지부티를 소말리아에 통합하고 프랑스군을 축출해야 한다는 연설을 잇달아 했으며, 이는 널리 방송되었다. 에티오피아 침공을 준비하는 것으로 여겨지던 소말리아군은 지부티 국경으로 신속히 전개했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "73e36456747babd0bce6a55d62b06fa9d948d3e8094618afdbf3909bd00779d0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b109a7dc2208d87e38c66cf64ff909bfa93d12e40878ae309ce0fca197545f2",
+      "translation": "성능이 크게 향상된 개량형이지만, 아직 필요한 소프트웨어 진단 도구를 모두 갖추지는 못했습니다. 며칠 뒤 현장 기술지원 인력이 도착하면 해결될 예정입니다. 가장 큰 장점은 AMRAAM 운용 능력인데, 당장은 재고가 부족합니다. 내일 C-5 한 대 분량이 더 도착하지만 그전까지는 120발뿐입니다. 게다가 무슨 행정 착오인지, 정작 들어오는 기체들은 스패로를 달고 있습니다!",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "c0963c029904c49eb587441fd5a6221289e2569d3c552cf0ef8565a9bdc3a3ab"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b173e130985931e0f6a25b214889c778e420e0c2f4cad0f557e1e8a9ff74590",
+      "translation": "소련 중앙위원회는 전세를 뒤집어 냉전의 재래식 전쟁에서 승기를 잡을 계획을 세웠다. 5월 초 소련 기갑부대가 동서독 국경을 넘는 동안 정밀한 포격이 나토 진지를 파괴했다. 스페츠나츠 요원 투입, 사이버공격, 재래식 타격을 치밀하게 결합해 나토의 핵 대응을 무력화했지만, 이어진 반격으로 러시아의 핵 억제력도 제 기능을 잃었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "66280e0fb5bf0dcf3f2b24badad4033bfe77411e741f9b4b0b9e4543d4344b6f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b244f01c511c191bb56ebc426d05eba3c98713088898a530bdbadc12ba06e3e",
+      "translation": "공세 작전 시 ZSU 자주대공포는 통상 차량화소총연대와 전차연대의 선두 부대에서 약 400m 뒤에 따라붙는다. SA-9는 더 뒤쪽의 연대 지휘소 주변에 배치되어 고가치 표적을 엄호한다. 방어 시에는 SA-9와 ZSU-23-4 모두 육안 탐지를 피하도록 진지를 파고 들어간다. ZSU-23-4는 전방 대대를, SA-9는 연대 지휘소를 주로 방공 지원한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "7cb5b67b49749c9ae98fc08d8c5620a6ea3b31ad87f9f204941dd44f92397378"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b29426cfa73969f4eeb7eda9c2543bb91400298f094929faf9e9fd6549cb627",
+      "translation": "상세 설명: H-6K는 복합재를 활용한 강화 구조, 러시아제 솔로비요프 D-30 터보팬용으로 확대한 흡입구, 대형 LCD 다기능 화면을 갖춘 디지털 조종석을 채택했다. 유리창이 있던 항법사석을 없애고 더 강력한 레이더를 설치하도록 기수도 재설계했다. 전투행동반경은 3,500km(2,200마일)로 알려져 있으며, 이전 형식보다 훨씬 현대적인 기체다. 폭탄창은 추가 연료 공간으로 바뀌었고, 주익 아래에는 CJ-10A 순항미사일용 파일런 6개를 갖춘다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "9df0dbe5d03cc5eeeb38cb71a99dc89ba84fce6a901335d2608c1a9c4db7917c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b37fd9819e7d705f8c28d1776a0a96fefb89b8b0026e8cb95510c6e6b53a4d5",
+      "translation": "이 전투의 진정한 승자는 미국 정부였다. 마지막 교전 직후 미국 주도의 평화유지 기동부대가 이 지역에 투입되어 추가 확전을 막았다. 미국은 막후 거래와 은밀한 지원으로 경쟁국을 남중국해의 신식민주의적 주변 분쟁에 성공적으로 끌어들였다. 전쟁의 흐름은 계속 바뀌었지만 이 지역에서 달라진 것은 거의 없었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "9efced994b49da0c77670e36126e853dedd10767ac2b38617aadb8ad8a76ff24"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b41c51792f4033c6b6da405e05431b22cfe15bf6ef91c8f52c5b04cc4382bd7",
+      "translation": "일반 설명: 이 시기의 광학 잠망경은 광투과율과 선명도를 높인 다중 렌즈, 두 단계 또는 가변 배율(흔히 1.5배와 6배), 거리 추정용 눈금 등을 갖췄다. 일부 형식은 저조도 영상증폭기 같은 야간관측 부속장치를 도입하기 시작했다. 머리 부분은 360도 회전할 수 있었고 내부 기어 장치로 부드럽게 올리고 내렸다. 여전히 아날로그·수동 방식이었지만 조작 편의성과 소형화가 개선되고 더 깊은 수심의 압력을 견디도록 설계되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "d484aa04c38610490603eb7133b6932e5d4ebd354cd4fa378acafe3a9ceb1bb9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b5968d34ee35ca3772fedf3146496edd01096fbc06cef8eb74c565e2d15eacb",
+      "translation": "시킹 헬기를 실을 공간을 마련하려고 정원 6대 중 2대를 육상에 남겨 두었습니다. 처음에는 4대뿐이었는데 아이슬란드에서 잃은 기체는 모두 5대나 됩니다! 현재는 3대를 싣고 있지만 모두 혹사당했습니다. 파이어니어 1호기는 지난 한 주 동안 비행한 시간보다 고장 난 시간이 더 길었고, 2호기는 마지막 회수 때 갑판에 부딪혀 앞으로 2시간은 더 수리해야 합니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "03f992b4a4751a72233518032a9fc4023717d27b5c95cc7d223febde932215ba"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b696b01627cb1615b85c7dae5a18d67febe1795dac5f3404c4c477a3c255bde",
+      "translation": "N010 주크 펄스도플러 레이더를 탑재해 공대지 능력을 갖췄다. 원문의 동시 교전 표적 수는 ‘최대 4개 표적에 대한 동시 2개 표적 교전’으로 불명확하게 적혀 있다. MiG-29M은 가시거리 밖 교전용 R-27R1(AA-10 알라모)과 R-77, 근거리용 R-73(AA-11 아처)을 사용할 수 있다. 원문은 R-77의 나토명을 ‘AA-12 ARCHER’로 표기한다. 무장 장착점은 8개로 늘고 주익이 강화되어 최대 4,500kg을 탑재한다. 지상공격에는 여러 자유낙하폭탄과 로켓뿐 아니라 AS-12 케지, AS-17 크립톤, AS-22 같은 유도무기도 사용할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "f2f0c3520ac1e37294777dfe6fedeb123a02cec4e03692967edd0391243ab697"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b7cb058e951b67ad43dab463a2b8f2fa2d05887e0ee1df5527086ef106606c4",
+      "translation": "이 시나리오는 8~10개로 구성된 캠페인의 세 번째 편으로, 노던 퓨리 캠페인과 연결됩니다. 전반적인 지정학적 배경을 이해하려면 해당 배경 문서를 참고하는 것이 좋습니다. ‘소코트라 스크램블’의 무대는 인도양·페르시아만이지만 세계 각지의 다른 시나리오들과 동시에 진행되며, 지중해의 사건들과 직접 연결됩니다. ",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "c83dab06b1e45d7232382434cadbd376d0f0b6842c5c272edc94fb3c1b75e2e2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b7e83cc19752d482cd76c057e2c58c2a778586e612a1e8520f77e42a39675e1",
+      "translation": "공격은 2020년 1월 8일 새벽에 일어났으며, 언론은 두 표적에 ‘수십 발의 지대지 미사일’이 발사되었다고 보도했다. 전 세계 수백만 명과 언론사들은 미국의 대응을 초조하게 기다렸다. 혹은 날이 밝아 어둠이 걷히고 이란 미사일이 입힌 실제 피해가 드러나기를 기다렸다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "7c3e49eec60191c6ad373dc9d704c6acfc30fc08b8f97701f3f7feb487bb06b8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b7edfd680e35e38d8a0bbdc3bb425a964969efd95997cdfb79f3fa4657c8ce7",
+      "translation": "귀관은 새로 편성된 제155연합기동부대(CTF 155)를 지휘합니다. 다양한 전력을 결합해 소코트라섬과 바브엘만데브(BeM) 해협을 확보하는 것이 임무입니다. 홍해와 아덴만 사이의 이 좁은 관문은 예로부터 ‘눈물의 문’으로 불렸습니다. 아군은 이 핵심 해상 요충지의 제공권과 제해권을 다투는 동시에 여러 상륙작전과 공중기동작전을 수행합니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "d78ba1a2d371bc42fc4e3a872d52d3347c931c64f8bb28b88374d53530aa494a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b856c210166e789a20592a5e7734e762db9d7c504cc5c027b61baa9871e8c15",
+      "translation": "상세 설명: 보통 강철 외피에 고폭약을 채우고 충격신관이나 지연신관을 장착하여 접촉 즉시 또는 관통 후 폭발하도록 한다. 전폭기, 공격기, 다목적 항공기에서 널리 운용된다. 폭탄의 크기는 파괴력과 항공기 탑재 능력 사이의 균형을 맞춰 한 번의 출격에 여러 발을 실을 수 있도록 정해졌다. 정밀폭격과 지역폭격 모두에 효과적으로 사용할 수 있는 설계다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "1a554dd02b83af35a992574c124f719b842765b55c94116e1412b0064670aae6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b879b30511714683f2aafe76e82cf6a61f82c824c8cfe311b89cc79104697fa",
+      "translation": "일반 설명: 1970년대 잠수함 잠망경은 완전 수동 광학 설계를 유지하면서 코팅, 광학계, 기계적 신뢰성을 개선했다. 보통 1.5배와 8배 배율에 집광 능력 향상이 더해져 시계가 나쁜 조건에서도 성능이 좋아졌다. 일부 형식은 저조도 TV(LLTV)나 적외선 관측장비를 부착하는 모듈식 장착부를 도입했지만 핵심 장치는 여전히 아날로그였다. 수동 승강·회전이 기본이었으나 신형 잠수함에서는 전동 보조가 점차 보편화되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "6613b5253235f20c51eb0d9cfee882eb7e7c674dc2ef19fbf55ef28f14d75e31"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b91a1aeca6393d2d709ff277530ee96fd7d833c25c99e9e97f0ad5f86750c07",
+      "translation": "역할 요약: 분류는 전자광학 센서·야간관측장비. 주 용도는 감시와 표적 획득을 위한 저조도 영상 개선이며, 감도를 높이고 잡음을 줄이면서 가시광선과 근적외선을 증폭한다. 항공기, 지상차량, 함정에 탑재하며, 표적 지시를 위해 레이저 표적지시기 및 거리측정기와 함께 사용하는 경우가 많다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "647406cbbc6729bdde7642aa3d727e29324438408ee84bdd4714a6801d3d64f0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4ba9740ada2478ab3773d44a6e8a83ae2ebe1753926e6a8efeae5283d3c974be",
+      "translation": "개요: 방향탐지(DF)와 도달시간차(TDOA) 기능을 갖춘 전자지원수단(ESM) 포드는 적 무선주파수(RF) 방사원을 탐지·분류하고 위치를 정밀하게 추정하는 수동식 항공 전자전 체계다. 각도와 시간차 측정 기법을 결합해 정보 수집, 감시, 표적 획득 임무에 필요한 정확한 방사원 위치를 제공한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-254.tsv",
+      "previous_translation_sha256": "c76ead6e083f2299d424cd4ae919da5bf59d5d27244e39a9072a56503aca5fd6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "aa55be4e8963008f2e9ebed7bd903f6adb31145ba784e8c47837e766f7057600",
+      "translation": "며칠 전 주기장에서 잃은 2대를 대체할 F-15C MSIP(다단계 성능개량형) 2대가 오고 있습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-255.tsv",
+      "previous_translation_sha256": "6e195b943cf07db1ec9dcbffab0d8cf216b5c50f227b802631bad3088f0d7930"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ac7019dc87a34f576f265eee1f5e62bf098b0d8fbf83852e677c752d63f7bcdd",
+      "translation": "따라서 오늘 밤 함포사격을 지원할 수 있는 기체는 1대뿐입니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-255.tsv",
+      "previous_translation_sha256": "f7dd02219755a30ad34c2574488b17eb8fd84cdc7eb752b7c20ed886c974d6c4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "341f8ec10c9a417d2a54dd86fb7077a75edb684d57f72ba553e1295e220e0fab",
+      "translation": "USS ",
+      "review": "direct-source-review",
+      "batch": "revisions-255.tsv",
+      "previous_translation_sha256": "fddfb1d4f74de621e36f3ddb723a84253ac994b8ad1a6caf7e732f9a925dd093"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2e5abc27636448c9961fc533840195782cc5dacf2e460a3670ae0a71865fdeb6",
+      "translation": "니미츠",
+      "review": "direct-source-review",
+      "batch": "revisions-255.tsv",
+      "previous_translation_sha256": "dd8694c749027c8eae855753e0fb9eabe50eccacd55fe92efd5154ef79c30ac5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "be73becccfb2511448360e846dd8c0eaaeb14e4689a969301486da692c3762e0",
+      "translation": " 항모전투단",
+      "review": "direct-source-review",
+      "batch": "revisions-255.tsv",
+      "previous_translation_sha256": "80e036a651f4b8d25ca34a0779b38d82335f749c92092bc69a17747804772a88"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "49a4da3f2507781c598cc06d8f8a637a3281d9394b4aa4707ec27a4af96daf31",
+      "translation": "의 지휘를 맡기 전에 다른 시나리오들을 플레이할 필요는 없지만, 해 보면 세계 정세를 이해하는 데 도움이 됩니다. 이 지역의 배경과 구체적인 사정은 인디언 퓨리 배경 문서를 참고하십시오. 핵심 내용은 다음과 같습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-255.tsv",
+      "previous_translation_sha256": "aa4733915183f782212e0bd1694157ec648406dc0a905c85316a789ea4a43d21"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bacbab6bc5c707320197de9a8be5c26df6906f207efc2d7ecc948e77fff1551",
+      "translation": "한 대는 스탠리 경마장에서 영국 해군 함포사격에 손상된 뒤 다시 비행하지 못했고, 6월 12~13일 영국군의 포격으로 완전히 파괴되었다. 다른 한 대는 페블섬에서 운용되다가 무른 지반에 빠졌으며, 1982년 5월 15일 영국군의 공격으로 파괴되었다. 출처: http://en.wikipedia.org/wiki/Short_SC.7_Skyvan",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "d103735fdc409ca6f012c7c70af8d0b9281376cf9a2f2ad2802ff62ebc43bc17"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bad8366e06bb47c57b2da38e4ef5398dbc9bdaa04501a62b5479b52c09cbca1",
+      "translation": "상세 설명: 카바치 로켓은 은으로 코팅한 유리섬유 채프를 사용하며, 사거리에 따라 단거리(약 1km), 중거리(약 5km), 장거리(약 12km) 형식으로 나뉜다. 위협과의 거리에 맞춰 혼란 유발, 주의 분산, 반사 중심 이동·유인 모드로 발사한다. 소련제 수입이 중단된 뒤 해군 방어능력을 자체 확보하기 위해 개발되었으며, 2012년 생산을 시작해 원문 작성 시점까지 4,000발 이상이 납품되었다. 구축함·초계함·급유함에 4×4 배열 발사관의 LRMR 및 SR 발사기를 설치하며, 전방위 선회가 가능하고 선회속도는 약 초당 180도다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "01b7073d79603bfc814a2f34ff7b5ae533f2a7a6f3a03bf87249e7a7410caaf5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bb0a967bc126550fd78f3450a205ecca6596e43ec4babf0279effc8fafe3d40",
+      "translation": "영국 공군에서 Mk 17은 냉전기에 벌컨, 캔버라 및 기타 전술 항공기에 널리 탑재되어 주로 전략·재래식 타격에 사용되었다. 임무에 따라 공중폭발, 충격 또는 지연폭발용 신관을 선택할 수 있었다. 1950년대부터 1980년대까지 영국 공군의 표준 폭장에 포함되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "9376adb301caa2869f24fdcafb123eb4e5832c530ee5c5b29c12054a9b2f731f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bc06ea0ac4488a22e8286d1f5e460034915ee7fc3ab90027c4c8506f3e82d61",
+      "translation": "상세 설명: R-77-1(수출명 RVV-SD, 제품번호 170-1)은 기존 R-77의 발전형이다. 더 강력한 고체추진 로켓 모터와 공력 개선으로 사거리와 정확도를 높였다. 높은 기동성과 작은 수납 공간을 위한 특유의 격자형 조종면을 유지하면서, 전파방해 내성과 감도가 향상된 아가트 9B-1103M-2001 모노펄스 능동 레이더 탐색기를 도입했다. 레이저 근접신관과 기동하는 공중 표적 파괴에 최적화된 연속봉 탄두를 사용한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "4000a04e4ae4f2e8366a4c435f624bf5b5469037671868dfacbbee15897552e1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bc0b8c7c809834f8e95eef2516eb3bd60fdb54293cd160a1f21ca77b02889f8",
+      "translation": "저는 대잠전을 게임으로 다루는 일이 도전적이고 기술적으로 흥미로우면서도 끝없이 답답하다고 느낍니다. 그래서 제가 이해한 당시의 실제 지정학적 상황을 바탕으로 북대서양의 이런 가상 상황을 만들었습니다. CMANO의 이벤트 편집기와 진영 간 관계 설정 기능은 ‘전쟁이라고 하기도, 평화라고 하기도 어려운’ 시나리오를 만들기에 좋은 토대입니다. 적어도 그것이 제 의도이며, 성공했는지는 전적으로 플레이어의 판단에 맡깁니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "25c05e18c143575f7e2a740c75c12b2115f716129f012748e570756d5089cf0e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bc0e9bc419e1d424588d49f0739a0cc1625365738ada4dbe3a21591788dc413",
+      "translation": "아군 기지에 방공시설과 레이더가 없는 이유는 간단합니다. 이 시나리오에서는 소련에 이곳까지 닿을 공격 수단이 없거나, 모로코를 공격할 수 있는 전력이 있더라도 더 시급한 표적이 있기 때문입니다. 제작자는 이를 미 의회가 핵무기에 더 많은 예산을 쓰는 근거로 내세운 ‘폭격기 격차’ 선전의 이면이라고 설명합니다. 당시 러시아 폭격기는 유럽과 알래스카 이외의 미국 측 표적을 효과적으로 공격하기 어려웠으며, 그 때문에 대륙간탄도미사일 배치에 큰 노력을 기울였다는 설명입니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "2b3a6995de0574c2b1f6f7a9797cf3e31f3f045c3afb819812fc17c426fcf522"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bd7a157a4b29e8fb91c20377fc8de0f6ec1cddbd6421a343433c513fb33f363",
+      "translation": "에서 항모 2척을 동원해 나르비크 일대의 지휘·통신망을 타격했습니다. 그러나 다음 대규모 작전의 준비는 아직 끝나지 않았습니다. 노르웨이 북부에서 계획 중인 상륙·공수작전은 적어도 2주 뒤에나 가능하다는 통보를 받았습니다. 따라서 큰 손실을 감수하지 않으면서 소련군에 대한 압박을 유지해야 합니다. 물론 ",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "0b145cc575cbf8419e5a60eef779bf31c6ce9fdb12abdcd72488d91e97db4d33"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bd95d20e1781726d7feb72f8adebaf169d0cd6848327c964c0bc6d8c268a763",
+      "translation": "상세 설명: 보잉 707-337C는 원래 화물·여객 전환형 민간기로 제작되었으며, 이후 인도가 특수 전자전·전자정보(EW/ELINT) 수집기로 개조하기 위해 도입했다. 1980년대 기밀 사업으로 개조되었고 이스라엘의 지원을 받았다고 알려져 있다. 실시간 정보 수집과 전자지원 임무를 위한 센서, 안테나, 작업 콘솔이 설치되었다. 주 임무는 적 레이더와 통신 신호를 가로채 위치를 찾고 분석하여 인도의 적 전자장비 배치 파악 능력을 높이는 것이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "713bfd09593a655940c69e46c95c00d51ea909afe54fff77f40e83e7575c0038"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bdf364db37c49d9bad92c0a8c9248512c6067feb6c4d60956bf8989eb072771",
+      "translation": "담당 구역의 소련 잠수함을 찾아 식별하라. 전술지도에 표시된 배제구역을 침범하면 부상하여 항복하도록 강제하라. 소련 잠수함이 도주하려 하거나 아군이 공격받으면, 그 잠수함이 적대적 의도로 영국 해역에 투입되었다고 판단하고 격침해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "dd8233b38ec4e2e7a884840479d7759c857848e36b97bcf5a5165fb913713baf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4be298fd632d60564242ade237f81b6f5db9c39491e7df98d7ff66b9e744edab",
+      "translation": "군사 전문가들과 각종 군사 논객들은 이번에는 ‘세 자릿수 지대공 미사일’이 배치된 상황에서 이스라엘 공군이 베카 계곡의 압도적인 승리를 재현할 수 있을지 추측하고 있었다. 한편 세계의 관심은 모스크바 회담으로 향했다. 네타냐후 총리가 처음으로 푸틴 대통령, 아사드 대통령, 그리고 어쩌면 로하니 대통령까지 한자리에 앉아 회담할 예정이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "1134706353e9bb6bd26ba938ae730d7b4aceaa99425b7c7bf096c641b0f37409"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4beffc856b0d5d5d4484fed02a542f09339a173db112d7caa3a1adfb1144662d",
+      "translation": "상세 설명: ‘53-51’은 직경 53cm와 설계 착수 연도 1951년을 뜻한다. 직진식 어뢰를 개선하기 위해 일정한 탐색 패턴을 따르는 기능을 넣어 더 넓은 표적 구역을 훑도록 개발되었다. 발사 후에는 미리 설정한 지그재그 항로를 따라가 기동 중이거나 호위를 받는 함정에 명중할 가능성을 높인다. 습식 가열 추진체계를 사용하며, 접촉 및 자기감응 신관을 갖춘 고폭탄두를 탑재한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "da5649db03651ca21d50111e01e591b607a0a37167a9f3f7e95017a4131668e2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bf12d94b768faefe88089df77a0efbce7b71964ba83b87a2cca8d9cfadfc2c4",
+      "translation": "열흘 전 중국 해군 육전대가 센카쿠열도와 야에야마제도에 상륙했다. 이곳은 일본의 가장 외딴 지역이자 대만 가까이에 있는 류큐열도의 끝자락이다. 목적은 중국 잠수함이 제1도련선을 넘어 태평양으로 진출하는 것을 막을 미 해군·일본 해상자위대의 대잠 기지를 빼앗는 것이었다. 중국 측은 이를 자신들이 ‘잃어버린 성’으로 여기는 대만을 고립시키고 침공하기 위한 선행 조치로 보았다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "b1ccd961e53abe37a7cd4d8c90161358fb9609381028bcfa7d4a4daf4ea7d180"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bf394e12207f3f89b2f72d40aa749c1741d86b00020d47cda106a49394d9343",
+      "translation": "상세 설명: 부유식 접촉기뢰는 강철 외피에 고폭약을 채우고 화학식 또는 기계식 접촉 뿔을 돌출시킨 구조다. 함정과 접촉해 뿔이 휘거나 눌리면 기폭장치가 작동한다. 수면이나 수면 바로 아래에 놓이며, 보통 닻에 연결해 심도를 유지하지만 연결하지 않고 표류시키는 형식도 있다. 제1차 세계대전에서 처음 대규모로 사용되었고 해역 접근 차단과 해상봉쇄에 효과적이었다. 눈에 잘 띄며 제거하지 않으면 지속적인 위험이 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "174856d853beacb55add13dba8d381e1151734fbb8fefe7b0371110ca953a9e6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bf4dc83a02ed6725161e466196dc55fd67f40ab32a9cf0e451f731abdaa8eb4",
+      "translation": "소련 방공 위협을 비행단 정보부에 확인했습니다. 담당 구역인 우크라이나, 소련 남서부, 쿠반, 크림반도에는 아직 최소 10개 전투기 연대가 있을 가능성이 높다는 보고입니다. MiG-15 파곳, MiG-17 프레스코, MiG-19 파머 약 270대에 해당하는 전력입니다. 원문은 이들을 모두 단발 전투기로 묶어 표기합니다. 파머가 공대공 미사일을 탑재했을 가능성은 진지하게 받아들이고 있으나, 확인할 만한 세부 정보는 없습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "4716d51ddc42e134508ecda4199d70df2fc8ab3e915e26d3e40cbc25df50017e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4bf9834eb15d7e9fd01bbcbb12e1a9e9893d6510dfd34f11690ab5a2d16ad88f",
+      "translation": "3주 전 카메룬의 새 지도자는 두알라에서 일어난 봉기를 진압했다. 군은 1,000명 이상을 살해했으며 대부분은 비무장 민간인이었다. 정부에 구금된 이들에 대한 고문이 광범위하게 이루어지고, 봉기와 관련되었다는 의심을 받은 수십 명이 재판 없이 즉결 처형되었다는 보고가 들어왔다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "5c5ea340f20657459579c521cafe9cab7c0d9330d72e2b83ac0452dc3f8616a3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c0b60af68e9d9a7c79f26f8e76906f8afbf2496a599fc69853b7dd469271860",
+      "translation": "중국 정부는 보르네오섬으로 향하는 모든 군수물자를 봉쇄하기로 했다. 말레이시아는 싱가포르와 호주로부터 홀로 맞서게 두지 않겠다는 약속을 받은 뒤 중국의 봉쇄에 굴복하지 않겠다고 통보하고 5개국 방위협정을 발동했다. 싱가포르, 호주, 뉴질랜드는 즉시 전력의 임무를 말레이시아 지원으로 전환했고, 영국도 가능한 한 빨리 지원하겠다고 약속했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "6f62201ce7572ed2d0e35086f7c8ea825c5b2800629e6d1e2b7c8047c6261482"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c135fa4d6942d662ad22ec57efb67b65753b334e9d043391b1c63685353514b",
+      "translation": "귀관은 페르시아만에서 출발한 대규모 수송선단을 지휘합니다. 선단은 최근 다시 열린 호르무즈해협을 통과했으며, 핵심 석유와 보급품을 지중해를 거쳐 프랑스로 운반하려면 이제 홍해와 아덴만 사이의 좁은 관문인 바브엘만데브(BeM)를 지나야 합니다. 현재 운송 중인 석유·가스 외에도 여러 화물선과 컨테이너선이 서둘러 뒤따르거나 지부티에서 합류를 기다리고 있습니다. 호위 전력은 적지만 프랑스의 잔 다르크 기동전단이 합류할 예정이며, 미 제5",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "7d7a83759ca5dea3ab79e5d390bf740e18c18bae00da34463ef9a1aa05dca120"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c17c2b2c07d591adc6273e25afa5826dbf7f6b5277bf70741d2aeab7cf316a7",
+      "translation": "상세 설명: 카라급 유도미사일 순양함(CG)은 크레스타급을 확대한 형식으로 소련 해군의 대잠 능력을 강화하기 위해 개발되었다. 지휘·통제 시설도 확장·개선되었다. 아조프는 SA-N-6 미사일 시험함으로 건조되어 관련 톱 돔 레이더를 장착했으며, 냉전기에는 흑해에 머물렀다. 원문 작성 당시 케르치는 흑해함대에서 현역으로 남아 있었고 나머지 함정들은 1994~2011년에 퇴역한 것으로 설명되어 있다. 원문은 러시아 해군이 이 함정들을 구축함으로 분류한다고 기술한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "b33eafe7e8a2b4f842a06d675bb271f0f49e075da746293d00969909ea5efc53"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c23454fd964d1dc53dd4e7e237406716ce99b453f0e5afa7f113498e5fe42a1",
+      "translation": "작전은 세 단계로 진행한다. 먼저 민간 여객선의 접근 항로를 확보하고, 다음으로 대피 과정에서 호위하며, 마지막으로 적의 간섭을 막을 방어선을 유지한다. 해군 항공전력은 정찰과 상공 엄호를 맡고, 수상함은 조우하는 적대 전력과의 교전을 담당한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "031705b2d74acde072e00914b627775b6350401a5dcacf1fc2bf56e3baf1a8bf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c2b227b9ed9ef984175bd251dc03f7d5370ece0e80c1cde83a0086a9c8e53c2",
+      "translation": "상세 설명: 아스튜트급은 롤스로이스 PWR2(Core H) 가압수형 원자로와 펌프제트 추진기를 사용한다. PWR2는 원래 뱅가드급 탄도미사일 잠수함용으로 개발되었다. 그 결과 더 작은 직경의 원자로를 사용하던 이전 영국 공격잠수함보다 함체가 약 30% 커졌다. 다른 영국 해군 잠수함과 마찬가지로 아스튜트급의 함교탑도 얼음을 뚫고 부상할 수 있도록 특별히 보강되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-256.tsv",
+      "previous_translation_sha256": "65278293dfafde1a65ffc23ef3d1e8c919b8b19ff91247722d94520e397e140a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "501011e7d7256700b8e0d6ec0dfe6e7c0ea10885a03423b40df1d3a3d8530bb1",
+      "translation": "귀관은 방금 마무리한 ",
+      "review": "direct-source-review",
+      "batch": "revisions-257.tsv",
+      "previous_translation_sha256": "9648475e3e643e8ecdf02e40f31621201f89ba4fc39cbe43fa4bfa7afede63e6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "72fd19d81a53be4ca2679800ff6cc570dd6ccc75697d24b2e5735e6ee0904119",
+      "translation": "토르의 번개 작전",
+      "review": "direct-source-review",
+      "batch": "revisions-257.tsv",
+      "previous_translation_sha256": "411bc90fa51695faa087f748ef8ea3def4be4cc8aee41aae0165490c9c58f602"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ebec404b6897056f95c343d7e7d2a12e081adc36413163a03ce3248e9d312c97",
+      "translation": "소련군",
+      "review": "direct-source-review",
+      "batch": "revisions-257.tsv",
+      "previous_translation_sha256": "e0265c726dfd139bb9f4cd5ff497907ae48085685c664cc0818179c18521ff51"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ff7266099e3107fe4824f28cc21538853af7092185615b06f022feddbd94b842",
+      "translation": "도 지금을 반격의 기회로 볼 것이며, 여전히 다양한 수단을 갖고 있습니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-257.tsv",
+      "previous_translation_sha256": "7d0040258f9a2dd6e8e31982991b7e1af24b9cfff54c0f490e48616a44787c02"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fbf24ef653834dffbc019ddd10477eaf56a963170657a5613b5569ca81366711",
+      "translation": "함대 소속 2개 기동부대의 작전구역(아덴만의 CTF 151, 바브엘만데브·홍해의 CTF 152)을 통과합니다. 제5",
+      "review": "direct-source-review",
+      "batch": "revisions-257.tsv",
+      "previous_translation_sha256": "b0024bb9af792302145f3c7a10e6f401cfad919960b315afd21e5e06331a2d5e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "47979a8ec51f30fa507e942c2cf602967eab67dff3bbbca4faef2a45e119ca27",
+      "translation": "함대의 상륙전력(펠렐리우 원정타격단과 CTF 156), 초계전력(CTF 157), 잠수함전력(CTF 159), 군수지원전력(CTF 158)도 선단의 통과를 지원합니다.",
+      "review": "direct-source-review",
+      "batch": "revisions-257.tsv",
+      "previous_translation_sha256": "906d6af22eacb3964e118d4f61bd776652605b2e1f4ef657af1acab1fdef9c17"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c52404e4ca8208206f0555c1fdf4542de5d11b27906f6a0b2e1e90cb4d87383",
+      "translation": "탑재 무장으로는 헬파이어 미사일, 바이퍼 스트라이크 레이저 유도 활공탄, 특히 육군이 현대 전장에 이상적이라고 평가한 APKWS 첨단 정밀타격 무기체계 포드가 포함된다. APKWS는 접이식 날개를 갖춘 70mm(2.75인치) 레이저 유도 로켓이다. 육군은 파이어 스카우트로 야전 부대에 최대 200파운드(90kg)의 긴급 보급품을 운반하는 방안에도 관심을 보였다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "3f2709ad2510a8d3064c0a3ef750e9c444a9218ea450fb5b4efa5ba89f07054f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c54424426e998839ee7e4fc70452f22b785504453f4f81fc30b02536f3dc021",
+      "translation": "2021회계연도에 시작된 베이스라인 13 개량은 이전 단계의 개선을 마무리한다. 정밀 방사원 위치탐지, 첨단 디지털 탐색, 통신정보·전자정보(COMINT/ELINT) 수집 능력 향상, 위성통신을 통한 후방 연계, 3차원 지도 기반 사용자 인터페이스, 분산 공통 지상체계와의 통합, 자동조종 안전 기능 강화, 자동 적응형 신호처리 등이 포함된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "dc4551e00b37aed6b2d3b82f14aa0a9932e678fcbc33278bb2e7e4830056ff77"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c5533bc6dff6408b43f6b9586fd88f7473f827f9ab057611e496aa5ce814f19",
+      "translation": "이 함정들은 잠수함으로부터 상륙부대, 보급·군수지원 전단, 상선단을 보호하도록 설계되었다. 이후에는 전함 중심의 수상전투단과 항모전투단·타격단에도 편입되었다. 미국에서 미 해군용 51척과 호주 해군용 4척, 총 55척이 건조되었다. 이 밖에 대만에서 8척, 스페인에서 6척, 호주에서 2척을 각각 자국 해군용으로 건조했다. 미 해군에서 퇴역한 동급 함정들은 바레인, 이집트, 폴란드, 파키스탄, 튀르키예 해군에 매각되거나 공여되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "1e1481238b5da071607e1fb08b6d117f60fe265a3863eb8c7ead2204b02cc439"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c606bf85d599d09206a2f7609bafa73f264650693bed4c8865812409e60f007",
+      "translation": "확인되지는 않았지만, 최근 소련이 이 해역에서 아군 잠수함의 전자정보 수집 활동을 눈치챘거나 적어도 연안 대잠초계를 강화하기 시작한 징후가 있다. 소련 영해 안에서는 중간 수준의 수상함 초계가 예상된다. 과거 사례에 비추어 보면 소련은 해안에서 12해리 이내에 탐지된 잠수함을 적극적으로 추적·공격할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "682103f50d61b676b64169a56ee655bda6c6de7f13ed8e50ad1739e47d808327"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c60bc6d3b3bd25b1b4324442c39deda62be5bdc4ba7d431018b516f2f8ed43d",
+      "translation": "원문은 J-11B/Su-27SK가 사거리 최대 50해리의 PL-12 가시거리 밖 공대공 미사일과, 사거리 0.17~8해리의 전방위 적외선 유도 근접전 미사일 PL-8을 탑재한다고 설명한다. Su-27P와 달리 Su-27SK는 공대지 공격 능력도 갖춘다. 공대지 무장에는 100·250·500kg 자유낙하 및 감속 폭탄, 500kg 소이탄, 25kg 및 500kg RBK 집속탄(원문 중량 표기), S-8·S-13·S-24·S-25 무유도 로켓이 포함된다. YJ-91/Kh-31을 적 방공망 제압(SEAD)에 사용할 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "b657ac98d132bb21c0447cea78aae680d7ae543329fde4349d2de07e485effb9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c61b45397d2cdef1d529e48a3b922070e52f5bc52eb35ddd67df99695672a81",
+      "translation": "건조 함정: 찰스 F. 애덤스(DDG-2) || 존 킹(DDG-3) || 로런스(DDG-4) || 클로드 V. 리케츠(DDG-5) || 바니(DDG-6) || 헨리 B. 윌슨(DDG-7) || 린드 매코믹(DDG-8) || 타워스(DDG-9) || 샘슨(DDG-10) || 셀러스(DDG-11) || 로비슨(DDG-12) || 호엘(DDG-13) || 뷰캐넌(DDG-14) || 버클리(DDG-15) || 조지프 스트라우스(DDG-16) || 코닝엄(DDG-17) || 셈스(DDG-18) || 태트널(DDG-19) || 골즈버러(DDG-20) || 코크런(DDG-21) || 벤저민 스토더트(DDG-22) || 리처드 E. 버드(DDG-23) || 워델(DDG-24).",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "ad3fc03341dc05a2c885f44f9d873dc7c265792307e25c826dfeccfaec6864e3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c7e5eff3639bdaf16ac17b67d7c47bf41ad40375d2a1ea09397d878efa5ee34",
+      "translation": "역할 요약: 분류는 전차포 탄약. 주 용도는 대장갑 공격이며 운동에너지로 장갑을 관통한다. 주력전차, 장갑전투차량, 강화된 차량 구성품에 효과적이지만 보병, 비장갑 표적, 엄폐된 진지, 능동방호체계(APS)나 공간장갑을 갖춘 차량에는 효과가 제한된다. 125mm 활강포를 갖춘 주력전차에서 사용하며 2A46·2A46M·2A82 계열 전차포와 호환된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "0f87f3c72ec976dbf63a10b155b64c20f399e2098419142c733c2d427b9b7ef2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c85404938ad0a2b575870aecd61b5facb96441e406c7c6bc0a40a9592303783",
+      "translation": "상세 설명: AIM-9H는 AIM-9G의 전자회로를 반도체화한 형식으로 기본 제원은 비슷하다. AIM-9G처럼 사이드와인더 확장 표적획득 모드(SEAM)를 갖춰 탐색기를 항공기의 표적획득 레이더에 연동하고 기수 정면에서 벗어난 표적을 조준할 수 있다. 원문은 탐색기 추적률이 ‘20퍼센트로 증가’했다고 기술하지만 정확한 단위나 기준은 불명확하다. 더 강력한 구동장치와 함께 기동성과 격파 확률이 향상되었다. 질소 냉각 황화납 탐색기를 사용하며 최소 발사거리도 줄었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "168199fc86f43dc4eee9a5a8943e098e8ed868926fb181220b98498ed3da3bb0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c8d0b7d25660b5ba324c58b407a1e788aa1bd438635a2c4d99d3d8068ffe851",
+      "translation": "1982년 4월 2일 아르헨티나군은 로사리오 작전으로 포클랜드 제도에 상륙했다. 상륙 특공대가 먼저 비어 있던 무디브룩 병영을 공격한 뒤 스탠리의 총독 관저로 진격했다. 현지 영국 해병대 분견대는 짧지만 격렬하게 저항했다. 상륙돌격장갑차를 동반한 제2해병보병대대가 도착하자 총독은 사격 중지를 명령하고 항복했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "9e23e76de8a1f29a11cdc42be32b88b73eef8cb9d65e7b1414e91bec75482aed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4caff422847fa5ac72ba462fb0f089ddb2d5d0f1e4dd7f3728e8d8dceb6ddf21",
+      "translation": "Y-8CE 레이더 시험기에서 다양한 형태의 회전식 레이돔을 평가한 뒤 최종적으로 원형 접시 모양을 선택했다. 레이돔 상부에는 위성통신 안테나도 통합했다. 대형 기수·꼬리 레이돔에는 전방과 후방 영역을 담당할 추가 레이더 안테나를 수용할 수 있다. 가오신 8과 마찬가지로 동체 후방 양옆에는 전자정보(ELINT) 안테나를 넣은 대형 직사각형 막대 모양 페어링 2개가 있어 전자정보 수집 임무도 수행할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "398ee23c8b24f5cb7e9d1dc3f4ff95feca16cae90f90fa624dfd9a00e0ca2d74"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cc64fbf484a8cb8d5bf572dc3b16588e4a49866592b343c1e609fb08bde00f1",
+      "translation": "중국 해군항공대도 비슷한 항공기를 요구했으므로, 사업은 공군과 해군 각각의 요구에 맞춘 형식을 개발하는 방향으로 진행되었다. 공군형은 F-111처럼 전자전 대응장비와 지형추적 능력을 갖춘 2인승 전천후 종심 타격기로, 조종석을 좌우로 나란히 배치할 계획이었다. 해군형은 2인승 전천후 공격·정찰기로 조종석을 앞뒤로 배치하도록 했다. 공군형은 1980년대 초 취소되었고 해군형이 JH-7로 이어졌다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "fd3f0a4548ca20919a3445d92218b7d6f167fff7055d7e4ff8c1eafc489639c9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cc7314e01bb63b0f1a777aa28ce0415be1f87e31b892fceeeec81e6703eaca2",
+      "translation": "보잉 CH-47 치누크는 미국제 쌍발 탠덤 로터 대형 수송헬기다. 주 임무는 병력 수송, 화포 운반·배치, 전장 재보급이다. 동체 뒤쪽에 넓은 적재 램프를 갖추고 외부 화물용 훅 3개를 사용한다. 최고속도는 170노트(시속 196마일, 315km)로, 1960년대 동시대의 다목적·공격헬기보다 빨랐다. 서방 헬기 중에서도 중량물 수송 능력이 큰 기종에 속하며, 이름은 아메리카 원주민 치누크족에서 따왔다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "2c8b987681add73aa4f87d0c3526d7c254e3d1bb6db91412c4e75b17da26c214"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cd11c09aee9367c3d3a7b069810b645dd9598135315a3bcfc046882745de953",
+      "translation": "PL-8H(파이선 3)는 PL-8 공대공 미사일의 지대공 형식이다. PL-8처럼 적외선 유도와 충격·근접신관을 사용하는 단거리 초음속 미사일이며, 전방위 교전과 35g 기동이 가능하다. PL-8은 이스라엘 라파엘 파이선 3 가시거리 내 공대공 미사일을 정식 면허 생산한 모델로, 성능은 대체로 AIM-9L과 비슷하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "b92834692cae0c22679aaf0d64a23026eb64253f632508bf0ea8c83e7b8c0984"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cd7f7cc04814ad3e302a42a527aa80c0186ca38bc6a6ca3cfd043289aa007aa",
+      "translation": "중국·파키스탄군의 진격이 저지되어 대규모 반격의 가능성이 열렸다. 최고사령부는 이 기회를 잡아 카라치에 상륙전선을 열기로 결정했다. 도시를 신속히 점령하면 해상으로 증원군을 계속 들여올 수 있고, 파키스탄의 군수지원에도 심각한 타격을 줄 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "c9bd7cdf54595088235b5e0dd5572a2eaf577b2dfe3b1652fe0c9ceee1d4750e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cdf6c03d78c1be0ea3119ad25ea6f1480a6204059349efc98980ae8065f5687",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "80dc876588d40a8087782f9e39af412ffe1253bfd4c45e1ac7c95a902a3e7b56"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4ce05d5662bd1ffd8f5d556eab72b26ff0da4b48fe764af4801a0b03aae1cd62",
+      "translation": "역할 요약: 분류는 센서 포드. 주 용도는 가시광선 정찰·감시이며, 고해상도 가시광선 사진과 영상을 촬영·전송한다. 주간 표적 식별, 항공사진 촬영, 항법 지원에 효과적이지만 야간, 시계 불량, 연기·안개 같은 차폐 환경에서는 성능이 제한된다. 전투기, 무인기, 경정찰기에 탑재하며 표준 항공기 센서 인터페이스와 데이터링크에 연결할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "38225f64a0c49a458a389a5c15b6f227dc81d28d1d39babeea95f4d2a3a75c01"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4ce1c87286b1a66e7c5e3fb0c2c789efefc0a806998a6f8b10005b7a45bf3522",
+      "translation": "개요: 시코르스키 CH-53E 슈퍼 스탤리언은 원문 작성 당시 미군 최대·최중량 헬기로 소개되었다. 시코르스키 S-80이라는 개발명으로 CH-53 시 스탤리언을 개량했으며, 주로 세 번째 엔진 추가, 주로터의 7엽화, 꼬리로터의 20도 경사 배치가 이루어졌다. 시코르스키가 미 해병대를 위해 제작했다. 운용 대수가 더 적은 MH-53E 시 드래곤은 미 해군의 장거리 소해·항공 기뢰대항(AMCM) 임무와 중량물 수송을 담당한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "4eb67897f8af7b209f86d8a711947a86ad3790680c0b3a0b1020ead1d76f9c74"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cec95f9be50c1c2aef930ab1501e51412b85d31703b9cb5be1e8598a82dc771",
+      "translation": "이 구성은 장갑 표적에 대한 효과를 극대화하기 위해 대전차고폭탄(HEAT) 자탄을 사용한다. 자탄은 낙하 중 자세가 안정되어 적절한 각도로 명중하고 관통력을 높인다. 조밀한 분산 패턴과 제어된 살포 방식으로 차량 대형이나 강화 진지를 포화 공격할 수 있다. 정밀한 개별 표적 지시 없이도 유연하게 공격할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "5ec1f08b9d60b5103e1e3bb9496059af82754560389c3f8f691621748afe596b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cecb79f4d398fee64aedce34f27b0f282a9e30bbd9d0b97199d20a4db52232a",
+      "translation": "중국의 산업력과 경제력은 계속 커지면서 세계 각지에서 막대한 자원을 필요로 한다. 특히 중국과 중동·아프리카를 잇는 해상교통로(SLOC)가 가장 중요하다. 중국은 이 항로를 보호하기 위해 해군 확장과 현대화에 크게 투자해 왔다. 잠재적 적국이 핵심 항로를 끊어 중국의 정책에 영향력을 행사하지 못하게 하고, 적의 활동 범위를 중국 본토에서 멀리 밀어내려는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "9450436a6df826c348ae844c80eeb06b7fa3afdb4d1c56b65d8abfef09e39615"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4cef541a84b2ca39c00a8e41828923e62288ff1ea061b2c5c1cddb066f4a44ec",
+      "translation": "이 시나리오는 1999년 쿠데타가 실제보다 더 폭력적이고 혼란스러웠다는 가정에서 출발한다. 반군은 모엘리섬을 장악하고 그곳에 거주하는 프랑스인들을 인질로 붙잡았다. 요구를 들어주지 않으면 인질을 살해하겠다고 위협하고 있으며, 프랑스가 자국민을 보호하기 위해 코모로의 다른 세력들을 압박할 것으로 기대하고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-258.tsv",
+      "previous_translation_sha256": "3815fd58423f5464a751b18daf234d2b5caa647e71943bf145c5a41cfad2150a"
     }
   ],
   "whole_db_paragraphs": [
@@ -57078,6 +57926,33 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1737.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Ship_746.txt",
+      "paragraph_index": 9,
+      "source_sha256": "0577662fd175e707979fb7532b13df097842ff6a4bbfec2fe78e533ef31e240b",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E. 홀트(FF-1074), 트립(FF-1075), 패닝(FF-1076), 울렛(FF-1077), 조지프 휴스(FF-1078), 보언(FF-1079), 폴(FF-1080), 에일윈(FF-1081), 엘머 몽고메리(FF-1082), 쿡(FF-1083), 맥캔들리스(FF-1084), 도널드 B. 베어리(FF-1085), 브루턴(FF-1086), 커크(FF-1087), 바비(FF-1088), 제시 L. 브라운(FF-1089), 에인즈워스(FF-1090), 밀러(FF-1091), 토머스 C. 하트(FF-1092), 카포다노(FF-1093), 패리스(FF-1094), 트루엣(FF-1095), 발데스(FF-1096), 모이네스터(FF-1097).",
+      "previous_translation_sha256": "e545c3d08480bc8bbe5fa6be941917b699cd3302d8523ba70f3401385e16a0ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_746.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Ship_747.txt",
+      "paragraph_index": 9,
+      "source_sha256": "0577662fd175e707979fb7532b13df097842ff6a4bbfec2fe78e533ef31e240b",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E. 홀트(FF-1074), 트립(FF-1075), 패닝(FF-1076), 울렛(FF-1077), 조지프 휴스(FF-1078), 보언(FF-1079), 폴(FF-1080), 에일윈(FF-1081), 엘머 몽고메리(FF-1082), 쿡(FF-1083), 맥캔들리스(FF-1084), 도널드 B. 베어리(FF-1085), 브루턴(FF-1086), 커크(FF-1087), 바비(FF-1088), 제시 L. 브라운(FF-1089), 에인즈워스(FF-1090), 밀러(FF-1091), 토머스 C. 하트(FF-1092), 카포다노(FF-1093), 패리스(FF-1094), 트루엣(FF-1095), 발데스(FF-1096), 모이네스터(FF-1097).",
+      "previous_translation_sha256": "e545c3d08480bc8bbe5fa6be941917b699cd3302d8523ba70f3401385e16a0ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_746.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Ship_748.txt",
+      "paragraph_index": 9,
+      "source_sha256": "0577662fd175e707979fb7532b13df097842ff6a4bbfec2fe78e533ef31e240b",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E. 홀트(FF-1074), 트립(FF-1075), 패닝(FF-1076), 울렛(FF-1077), 조지프 휴스(FF-1078), 보언(FF-1079), 폴(FF-1080), 에일윈(FF-1081), 엘머 몽고메리(FF-1082), 쿡(FF-1083), 맥캔들리스(FF-1084), 도널드 B. 베어리(FF-1085), 브루턴(FF-1086), 커크(FF-1087), 바비(FF-1088), 제시 L. 브라운(FF-1089), 에인즈워스(FF-1090), 밀러(FF-1091), 토머스 C. 하트(FF-1092), 카포다노(FF-1093), 패리스(FF-1094), 트루엣(FF-1095), 발데스(FF-1096), 모이네스터(FF-1097).",
+      "previous_translation_sha256": "e545c3d08480bc8bbe5fa6be941917b699cd3302d8523ba70f3401385e16a0ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_746.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Submarine_280.txt",
       "paragraph_index": 6,
       "source_sha256": "fbd6e4ae73d70a7747e8b19ced9f234a2e5f2fea0ac61bdd6fab13c9b57bbc1b",
@@ -57085,6 +57960,15 @@
       "previous_translation_sha256": "eb23a2be7749b7b488c68164b640807fed99a1f84dde77192917c67521afd514",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Submarine_280.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_193.txt",
+      "paragraph_index": 0,
+      "source_sha256": "55c8b6ea806e0368fc8ac26724c08d494997d0b93d4aad74acd50086cc8fbe81",
+      "translation": "쇼트 SC.7 스카이밴은 북아일랜드 벨파스트의 쇼트 브라더스가 제작한 19인승 쌍발 터보프롭 항공기다. 주로 단거리 화물 수송과 스카이다이빙에 사용된다. 고익 배치의 전금속 단엽기로, 높은 위치의 반외팔보식 수평꼬리날개와 방향타 2개를 갖춘다. 초도기 스카이밴 1은 1963년 1월 17일 처음 비행했다. 조종사와 승무원들은 친근하게 ‘창고’라는 별명으로 부른다. 1982년 아르헨티나 해안경비대 소속 스카이밴 2대가 포클랜드 전쟁에 참가했으며, 두 기체 모두 1982년 4월 포트스탠리로 이동했다. 한 대는 스탠리 경마장에서 영국 해군 함포사격에 손상된 뒤 다시 비행하지 못했고, 6월 12~13일 영국군의 포격으로 완전히 파괴되었다. 다른 한 대는 페블섬에서 운용되다가 무른 지반에 빠졌으며, 1982년 5월 15일 영국군의 공격으로 파괴되었다. 출처: http://en.wikipedia.org/wiki/Short_SC.7_Skyvan",
+      "previous_translation_sha256": "c4a8485b8b42de1b5de9ddddf8fd1301651449f96c7054a29aa308a5e6152508",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_193.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4125.txt",
@@ -57303,6 +58187,24 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1737.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1841.txt",
+      "paragraph_index": 9,
+      "source_sha256": "0577662fd175e707979fb7532b13df097842ff6a4bbfec2fe78e533ef31e240b",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E. 홀트(FF-1074), 트립(FF-1075), 패닝(FF-1076), 울렛(FF-1077), 조지프 휴스(FF-1078), 보언(FF-1079), 폴(FF-1080), 에일윈(FF-1081), 엘머 몽고메리(FF-1082), 쿡(FF-1083), 맥캔들리스(FF-1084), 도널드 B. 베어리(FF-1085), 브루턴(FF-1086), 커크(FF-1087), 바비(FF-1088), 제시 L. 브라운(FF-1089), 에인즈워스(FF-1090), 밀러(FF-1091), 토머스 C. 하트(FF-1092), 카포다노(FF-1093), 패리스(FF-1094), 트루엣(FF-1095), 발데스(FF-1096), 모이네스터(FF-1097).",
+      "previous_translation_sha256": "e545c3d08480bc8bbe5fa6be941917b699cd3302d8523ba70f3401385e16a0ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_746.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1842.txt",
+      "paragraph_index": 9,
+      "source_sha256": "0577662fd175e707979fb7532b13df097842ff6a4bbfec2fe78e533ef31e240b",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E. 홀트(FF-1074), 트립(FF-1075), 패닝(FF-1076), 울렛(FF-1077), 조지프 휴스(FF-1078), 보언(FF-1079), 폴(FF-1080), 에일윈(FF-1081), 엘머 몽고메리(FF-1082), 쿡(FF-1083), 맥캔들리스(FF-1084), 도널드 B. 베어리(FF-1085), 브루턴(FF-1086), 커크(FF-1087), 바비(FF-1088), 제시 L. 브라운(FF-1089), 에인즈워스(FF-1090), 밀러(FF-1091), 토머스 C. 하트(FF-1092), 카포다노(FF-1093), 패리스(FF-1094), 트루엣(FF-1095), 발데스(FF-1096), 모이네스터(FF-1097).",
+      "previous_translation_sha256": "e545c3d08480bc8bbe5fa6be941917b699cd3302d8523ba70f3401385e16a0ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_746.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_2120.txt",
       "paragraph_index": 8,
       "source_sha256": "a8f745f3f2f4c2ffe95a3913c50b361b813743872ca4aaa27a40a0c76b19f78e",
@@ -57355,6 +58257,24 @@
       "previous_translation_sha256": "22ae1722356b23d2773104b14ba4dc341febba005d0896807bd4e1e09eea7a34",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1737.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_269.txt",
+      "paragraph_index": 9,
+      "source_sha256": "0577662fd175e707979fb7532b13df097842ff6a4bbfec2fe78e533ef31e240b",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E. 홀트(FF-1074), 트립(FF-1075), 패닝(FF-1076), 울렛(FF-1077), 조지프 휴스(FF-1078), 보언(FF-1079), 폴(FF-1080), 에일윈(FF-1081), 엘머 몽고메리(FF-1082), 쿡(FF-1083), 맥캔들리스(FF-1084), 도널드 B. 베어리(FF-1085), 브루턴(FF-1086), 커크(FF-1087), 바비(FF-1088), 제시 L. 브라운(FF-1089), 에인즈워스(FF-1090), 밀러(FF-1091), 토머스 C. 하트(FF-1092), 카포다노(FF-1093), 패리스(FF-1094), 트루엣(FF-1095), 발데스(FF-1096), 모이네스터(FF-1097).",
+      "previous_translation_sha256": "e545c3d08480bc8bbe5fa6be941917b699cd3302d8523ba70f3401385e16a0ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_746.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_270.txt",
+      "paragraph_index": 9,
+      "source_sha256": "0577662fd175e707979fb7532b13df097842ff6a4bbfec2fe78e533ef31e240b",
+      "translation": "건조 함정: 녹스(FF-1052), 로어크(FF-1053), 그레이(FF-1054), 헵번(FF-1055), 코놀(FF-1056), 래스번(FF-1057), 마이어코드(FF-1058), W. S. 심스(FF-1059), 랭(FF-1060), 패터슨(FF-1061), 휘플(FF-1062), 리즈너(FF-1063), 록우드(FF-1064), 스타인(FF-1065), 마빈 실즈(FF-1066), 프랜시스 해먼드(FF-1067), 브릴랜드(FF-1068), 배글리(FF-1069), 다운스(FF-1070), 배저(FF-1071), 블레이클리(FF-1072), 로버트 E. 피어리(FF-1073), 해럴드 E. 홀트(FF-1074), 트립(FF-1075), 패닝(FF-1076), 울렛(FF-1077), 조지프 휴스(FF-1078), 보언(FF-1079), 폴(FF-1080), 에일윈(FF-1081), 엘머 몽고메리(FF-1082), 쿡(FF-1083), 맥캔들리스(FF-1084), 도널드 B. 베어리(FF-1085), 브루턴(FF-1086), 커크(FF-1087), 바비(FF-1088), 제시 L. 브라운(FF-1089), 에인즈워스(FF-1090), 밀러(FF-1091), 토머스 C. 하트(FF-1092), 카포다노(FF-1093), 패리스(FF-1094), 트루엣(FF-1095), 발데스(FF-1096), 모이네스터(FF-1097).",
+      "previous_translation_sha256": "e545c3d08480bc8bbe5fa6be941917b699cd3302d8523ba70f3401385e16a0ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_746.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_457.txt",
