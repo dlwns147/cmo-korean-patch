@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9842,
+    "reviewed_source_entries": 9882,
     "review_outcomes": {
-      "modified": 8451,
-      "retained": 1391
+      "modified": 8489,
+      "retained": 1393
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8464,
+      "scenario-ko.b64.tsv": 8502,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9858,
+      "runtime_first_lookup_passed": 9898,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 170
+      "html_context_lookup_passed": 182
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -2634,7 +2634,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "2598b0b17313b509fb5b901b3633f1a8cce8938a7f5cea26b03b2a22aced347b",
-      "translation": "결국 뒤처리는 모두 당신 몫이 되었습니다. 이제 가능한 모든 곳에서 전력을 긁어모아야 합니다.",
+      "translation": "결국 뒤처리는 모두 귀관의 몫이 되었다. 이제 가능한 모든 곳에서 전력을 긁어모아야 한다.",
       "review": "direct-source-review",
       "batch": "revisions-005.tsv",
       "previous_translation_sha256": "a34fe96be121bdf71a09d4b479194918fe300b1cf76e6b485c8583b4a2c8d79b"
@@ -78798,6 +78798,326 @@
       "review": "direct-source-review",
       "batch": "revisions-460.tsv",
       "previous_translation_sha256": "e40cd2a55211d0cdc86c621c1020ad3cc0664df39df392ab225a3392f71a90ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c2dcd7660780b0c47516257a4e6461a264c12a09975e98468426f452334231c6",
+      "translation": "상륙전력을 투입해 그레이트니코바르섬의 캠벨항과 INS 바즈 항공기지를 점령하라. 항공기지는 해협 방어와 향후 작전의 거점으로 활용할 수 있으므로 ",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "c249f44d590da80e5371058d09dcfa94147d19308233cb773ec0c978b4bca790"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b55bf8d8aeb3c32be0999634a9270cdb5ce14a7823106b8f7c5886c025929039",
+      "translation": "두 시설을 모두 온전한 상태로 점령하라",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "0598fa773cfc53c1e60b38a68c616565ff6bea2982693bdf6d30c0a54a027e12"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a4dd5fb18664a9dbee8f2b71167df3f96b0d84bcdb7793aab4536117a50b022a",
+      "translation": ". 상륙 후 6시간 이내에 두 곳 모두 점령할 수 있을 것으로 예상한다. 상륙 구역은 지도에 잠긴 기준점으로 표시되어 있다. 상륙전단은 잠긴 기준점으로 표시된 상륙작전 구역(Amphibious OPAREA) 안에서 최소 6시간 동안 작전해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "854d271351cde10390a62014e684f91ccd20af7433374f830da4d899fc99df5a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1a34fd23fa73de8036e82cf8b67fdf549bc16a22e4af1ce2416eacfbc2aed368",
+      "translation": "이미 해상에 있던 NATO 전력은 여러 기동전단으로 편성되어 소련 함정과 잠수함을 추적·격멸하라는 명령을 받았다. NATO가 해상 교통로의 통제권을 유지하는 것이 중요하다. 귀관은 순양함 ",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "422943f22d082f1bc5cb5cc0b4b5b111d57ed7dc38cb29d4c5590075d0839c25"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9919673c0566022fb8ae4b8b71dc57eb61f8bcc08c944c8996ac056000a2cdc4",
+      "translation": "드 그라스",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "fe4192be6ad1afbf3239120000fb1dbc7846e3b0f1076af67324282fa8449e68"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b63b25b1125a99feacc34d972715025b8f9e8a9deebb65b8818d67cb7989eb84",
+      "translation": "를 중심으로 한 프랑스 기동전단의 지휘관으로서 사르데냐섬 남쪽과 남동쪽 해역을 확보해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "6c77bfd3b3aeaaa74df09dbb9c32432bf7bea31c1d103d0f361ece1109e55bbb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ba7717ed0297c3d8b8c50b6360bbeb5420c90d5abe23a86fa6049777c9aa8f78",
+      "translation": "지난 4일 동안 참모진은 홍콩에 보급할 호송선단을 북쪽으로 보내는 일을 엄호하기 위해 베트남 깜라인만의 소련 기지를 연속 타격할 계획을 세웠다. 작전의 주력은 미 항공모함 ",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "80d5bb46705cf7032b592321fa1c21693d6e654f90d6f0a55ab5ee6d0a3193ce"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b119f8b3830daa077d8593c0e356583a83eb99596d86a56af427edfa27dd626b",
+      "translation": "에이브러햄 링컨",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "831c25901bcebb298afb3ecd45d15bf83175e32d81b8045cbfc34d31360a0cb5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8e4eb00d9917bad9cc8011e8d45b54edd492533b6c5e74a9adfdb031c29fc5fe",
+      "translation": "으로, 인도양에서 서태평양으로 이동하는 도중에 임무를 수행할 예정이었다. 그러나 4시간 전 상황이 완전히 바뀌었다! 귀관의 임무는 그대로지만, 미 항모전단은 북태평양의 잠재적인 상륙 위협에 대응하기 위해 고속으로 이 지역을 통과할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-461.tsv",
+      "previous_translation_sha256": "46e6e4944980707aab1ee6f831a1b6b03aefd544c81a2b4e9cc2a843470e1911"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "50ed83544ff5cddf28a61ab0fe0224ee0ab877219493a336bbb915874e8e4652",
+      "translation": "바르샤바 조약기구 진영으로 플레이할 때 지휘하는 전력은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-462.tsv",
+      "previous_translation_sha256": "34a862359492a5633d88744fc3560c43432559e0ad50ac0a9ea5f5beb79eaf86"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c3e110326e31ad6f2d7187036fc87edd19fbacef7f51ca895288178953167441",
+      "translation": "타이푼",
+      "review": "direct-source-review",
+      "batch": "revisions-462.tsv",
+      "previous_translation_sha256": "1d1d0a3fd2bb06745f7bb00eb20620e7e67f60d0151bf687868aafefb2ed8e33"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2ffd0680214eab9b0a6fb4f9e5c491633650346abe6de92a4fd12b4a147f5229",
+      "translation": "급 탄도미사일 원자력잠수함 2척과 그 호위전력이다. 미군이 언젠가 아군의 방어 해역에 침투할 것으로 예상되므로, 침입하면 격멸할 준비를 갖춰라. 침입자를 격침하는 동안에도 아군 탄도미사일 잠수함은 은밀하게 유지하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-462.tsv",
+      "previous_translation_sha256": "fb77175afaaf4a366433f696f6657fdfbf01ba0ee94dcf5417dd70cd5f6ad617"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e2f6df4956b951fd671d4a9dafdfb289ba0b0eadc4482868f39a0d8c27d2f00b",
+      "translation": "명령서에 따르면 제9미사일여단 소속 프로젝트 677 탄도미사일 원자력잠수함(PLARB) ",
+      "review": "direct-source-review",
+      "batch": "revisions-462.tsv",
+      "previous_translation_sha256": "42c8f47f54050402135f20879366b22fe8aa532d2c497f7d89d590108842406d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "811ccf2965d2650336c88118e824ab58927a7bc4499582c1f2768eaba2206209",
+      "translation": "와 제3공격사단 소속 프로젝트 671 공격원잠(PLA) ",
+      "review": "direct-source-review",
+      "batch": "revisions-462.tsv",
+      "previous_translation_sha256": "e24578225da819c2c9cc144630566320a8ac570bd1a1df123fcbbbe8f20369f4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6fedc4106e724a2bc18665c997e0d5578936bc86ac643b1855d9438f06f97fb8",
+      "translation": "도 GUMRAK 구역에서 작전 중이므로, 소나 접촉을 공격하기 전에 대상을 확실히 식별해야 한다. ",
+      "review": "direct-source-review",
+      "batch": "revisions-462.tsv",
+      "previous_translation_sha256": "4933f3bfa70b66d65f2b44c2dbb0aeff07c49f9e0dd8f18d3bf07aecee951a4a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e8d45797b0860a62b6a5f03d742a6647b1201e51c6de5f97b571c7a77bb5d92f",
+      "translation": "의 함장은 프룬제 고등해군학교의 고급 지휘 과정에서 사귄 오랜 친구다. 그를 찾아낼 수 있다면, 훨씬 뛰어난 소나를 갖춘 그의 잠수함이 귀함을 근접 호위해 줄 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-462.tsv",
+      "previous_translation_sha256": "5fdaffc76d8cf647f6de8a5e1302529b16eef026dd120ee2ca6a0a596db96a53"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "168e155039b3477287b6625c7ff25dbfd2786418b105841b5c690d646e263850",
+      "translation": "확인된 적에 한해 사격하라(Weapons Tight). 현재 다른 NATO 전력도 귀관의 작전 구역에 있다. 구역 내 영국 공격원잠은 서경 31",
+      "review": "direct-source-review",
+      "batch": "revisions-463.tsv",
+      "previous_translation_sha256": "5ad0550191edf0a40faf5d3347da6a9d0a29a5078bbadc6a11cac5fbff7cd5d0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b5160512c82d4cf49751c94ad5cbc5d9b4002317e931f8aced93bdc2e77a8aca",
+      "translation": " 동쪽에 머물 것으로 예상되지만, 소련군을 추격하다 아군 초계 구역으로 들어올 수도 있다. 공격을 시작하기 전에 표적이 적대 대상인지 확인하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-463.tsv",
+      "previous_translation_sha256": "3fa96e1b22bea00bd6ac49b97cdbc4e0cfd80a2d84b335a95d4fdf0c96bab246"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f136bd9ce91b4a51cd6d6d9c54378e59e98de01dad7b7ea8b7f53d61bbd9891e",
+      "translation": "군용 무장을 갖춘 어선을 발견하면 무기를 압수하고, 해당 어선에 남동쪽 집결 지점(9",
+      "review": "direct-source-review",
+      "batch": "revisions-463.tsv",
+      "previous_translation_sha256": "02a7ec662cbfa1622a4485638d75c3342e14f4cc2308af3f99285f35009e43b7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b04b74d1b2defae78519d4fbf7692741bb575df7993eaa767d6d06dde8d9f5ae",
+      "translation": "E)으로 이동하도록 명령하라. 그곳에서 선장과 승무원을 구금한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-463.tsv",
+      "previous_translation_sha256": "6463b725264e8e4cb22d6885c4b7b100f9a87123580c75b63f180fc2e88052d4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "19b997e9b89bdd28b5f5936e1298dc3e829ab89631defe86e5a26d93fad6ab89",
+      "translation": "작전 구역 내 버마군의 규모와 배치에 관한 정보를 수집하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-463.tsv",
+      "previous_translation_sha256": "2513f7d0a0c1bfb7e3e56972ca40ac47621a286e2a20eb0d4c6c5b25bcf0d233"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6abd2ae6e23c3f19452b29401380c81f4603fd38847195b17f54f4fedf172698",
+      "translation": "전투단(셸란)은 그레이트벨트 대교 건설 현장 동쪽 끝의 할스코우 지역에 있다. 이 지역 역시 아군의 목표 중 하나이며, 이 부대의 편성은 다음 부대와 유사하다: 3",
+      "review": "direct-source-review",
+      "batch": "revisions-464.tsv",
+      "previous_translation_sha256": "eb0677dde3923de1a49385a1492811d313adc3f873fa51169516089491dcb475"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "51ed2801b7606c224b41237261ad24cbe3479f81900f6dbb427707faba3e9341",
+      "translation": "이 지역 역시 아군의 목표 중 하나이며, 이 부대의 편성은 다음 부대와 유사하다: 3",
+      "review": "direct-source-review",
+      "batch": "revisions-464.tsv",
+      "previous_translation_sha256": "7819dc275329bdc02c0f1517c76efa3dde8a5e65834c3970673d830c2f9c0fe9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "87788144c214b7c55294dcfd50ba8948bf8b6f8384b6b6df1e802ebae54a94ae",
+      "translation": "전투단",
+      "review": "direct-source-review",
+      "batch": "revisions-464.tsv",
+      "previous_translation_sha256": "19becdfe32000754a3b7eed4377486312464400a3db451780f5fd3f877e07d17"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e7f8fd8d3504751727a5b948c55a47828b56a7c93eba18f994b439abbb046ee5",
+      "translation": "기뢰",
+      "review": "direct-source-review",
+      "batch": "revisions-464.tsv",
+      "previous_translation_sha256": "522020f694df8a10f93b0204d978d0c813468c23c8348a1eaa7fbdb505326dc7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dd9aed6c5db0ac4bd237b52f0cae743fb8b4feaf6166e48dc8b7d25d0a7b0f8d",
+      "translation": ": 주요 기뢰지대 네 곳을 확인했으며, 이 중 세 곳은 피해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-464.tsv",
+      "previous_translation_sha256": "ae3f09f81da3ef705e20022df1b31bf0c4f70b2a6f1961a9a8640e7675368af1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0a12cc2d69c2aa6ccd0c30194580122f93aa7e5dfc68eb917f25c43295b18e89",
+      "translation": "비크란트",
+      "review": "direct-source-review",
+      "batch": "revisions-465.tsv",
+      "previous_translation_sha256": "ac1009cdeb9f57c00b84bfd5ed04583a91768c17413824b48737ae0d636509fa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "42e657b9bce9425b23cfae14eaa2e9e186bb056884833e345d0286ca5f60f4c0",
+      "translation": "의 참전",
+      "review": "direct-source-review",
+      "batch": "revisions-465.tsv",
+      "previous_translation_sha256": "e5946bd1fd55eb66295d46038e2f02a479b025dc1b641349273ec4b9a5487d7e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2c775470863d8aff5a0b7c1e4dcb958955307ed57b6731c122a28a6edf260651",
+      "translation": " 시나리오는 인도 해군의 동파키스탄 봉쇄에 따른 공해상 승선 검색·나포(VBSS) 작전도 구현한다. 인도 수상함이 상선에 약 200m 이내로 접근하면 스크립트가 실행되어 해당 선박의 국적과 화물을 알려 준다. 중립 선박의 항해를 방해해서는 안 된다. 다만 파키스탄 선적 선박이나 용선, 해군 보조함 중 일부는 나포할 수 있다. 나포 메시지가 표시되고 해당 선박의 소속 진영이 바뀔 때까지 아군 함정을 대상 선박에 매우 가까이 붙여 두어야 한다. 나포한 선박으로 승점을 얻으려면 해당 선박을 비사카파트남 군항으로 보내야 한다. 어선, 여객선, 연안 선박, 항내 선박은 파키스탄 선적 여부와 관계없이 VBSS 대상에서 제외된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-465.tsv",
+      "previous_translation_sha256": "3a691c26cee05218db1a8802f84c627567cc923bae21d0c7bbc48bf040543c55"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f497ba246672dd61590c4f35cbd82fca5e33f4e6bf4c5c8a13c05573490b812d",
+      "translation": "이 시나리오는 잠수함 통신과 항공기 손상 기능을 사용하며, 스크립트로 매일 항공기의 운용 가능 여부를 결정한다. 매일 현지 시각 자정(Zulu+6)에 그날의 가용 항공기를 정한다. 항공전력의 가동률은 약 70%지만, 각 항공기를 개별적으로 판정하므로 전체 가동률은 이보다 높거나 낮을 수 있다. 운용 불가 판정을 받은 항공기에는 예비 무장이 설정되며, 준비 시간은 10시간부터 23시간 59분 사이에서 무작위로 지정된다. 따라서 하루가 지나가는 동안 일부 항공기를 다시 사용할 수 있게 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-465.tsv",
+      "previous_translation_sha256": "4104076d80eca3aab926b574d99e1f53b199eb033703988b701c33e627713bdb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "41441cce53fa2ff8d6693e704fdc6fa5420b61b8c863497bac52b2b2677af8af",
+      "translation": "프랑스 프리깃함 ",
+      "review": "direct-source-review",
+      "batch": "revisions-466.tsv",
+      "previous_translation_sha256": "911fb3040c6bfa491d68144cf06e50e372d7e9c5e5bf62d52accf209e3310f7f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0deb950ddcafc8abdd36936ac1f677905dfc13b300d1a9f450b06b35ec32fe7f",
+      "translation": "플로레알",
+      "review": "direct-source-review",
+      "batch": "revisions-466.tsv",
+      "previous_translation_sha256": "1543c99e8fd9f44ded8ed7f857cbe972fb95d2e236d6f160c41083a149d650a6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "88423b742c0d7e46792be9c29b139ee61bc17d4f7b21ce5e50bfd11c78cc07d3",
+      "translation": "이 소말리아 연안을 초계하고 있다. 이는 예방 차원의 조치일 뿐이다. 해적들은 아군의 새로운 교전수칙을 처음 겪은 뒤로 매우 잠잠해졌다. 이 전쟁이 가져온 긍정적인 효과다!",
+      "review": "direct-source-review",
+      "batch": "revisions-466.tsv",
+      "previous_translation_sha256": "763d4f15678d836f64b2b0d8dbc2fadaa43b99da91531fa185af3133efa9365c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8d8ba36e589a4f7b3350fdb932bd1a4b9639891688545ccf28e729f654273fb6",
+      "translation": "프랑스 조사선 쥘 베른은 작전에 방해가 되지 않는 곳에 머물며 레위니옹섬 및 케냐와 고주파(HF) 통신망을 구축하는 역할을 맡고 있다. 위성 대부분이 격추되었으므로 장거리 통신을 쉽게 할 수 있으리라고 기대해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-466.tsv",
+      "previous_translation_sha256": "6687c324c575ae9c79613ef271aa3f1c8685f717cad9a7ed4eaebcf7e60825c5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3e5de1fb4dfb2d2da8e7bdec5c0f2b2c28d6302d9af03f4ea62305b62eda8c6b",
+      "translation": "현재 핵무기는 발사 준비가 된 상태가 ",
+      "review": "direct-source-review",
+      "batch": "revisions-467.tsv",
+      "previous_translation_sha256": "9e8470182cc45d528b6e14cf22d4f211c3b2fe373213e1a6b68e46dcc1302adb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c1e5ea27f5c4c068716c8e00ebc5871e12e009c4dbe895b8f4c99f05406d54d2",
+      "translation": "다. 실제 핵탄두는 김 위원장의 거처에 보관되어 있으며, 이곳은 정치적 이유로 공격이 금지된 구역이다. 중국 공군이 북한군을 공격한 시점부터 김 위원장이 행동에 나서기까지 약 30분이 걸릴 것으로 추정된다. 다만 재래식 전력은 이보다 빠른 10~20분 내에 대응할 수 있다. 이동식 발사대(TEL)가 이미 분산 배치되어 있고 MiG-23도 준비되어 있다고 가정하면, 이후 핵 대응에 필요한 시간은 차량 이동 약 30분과 조립·통합 작업 약 30분이다. 따라서 핵 반격이 시작되기까지는 총 약 1시간 30분의 여유가 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-467.tsv",
+      "previous_translation_sha256": "90ca233f3fd34f2d08e96e4a7859782e3153a2fd04acdc4bc361a24782b316f7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6f826ec603319cd13aae6b7ba76be5fb579c4b0ee18c4571d5faa4024b67c71a",
+      "translation": "확전을 피하기 위해 북한군에는 엄격한 교전수칙이 적용된다. 북한 공군·방공군(KPADF)은 첫 폭탄이 떨어지기 전까지 교전하지 않으며, 준비 절차도 시작하지 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-467.tsv",
+      "previous_translation_sha256": "3deeb9358624c009c8a2eb890fb7671ccd97898756a64b9c0dfbf81c74c14ef9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f17ed6b6e6d39eed23fcd298c930051b522cbaf60a4bd6f7a5d01870cda89db5",
+      "translation": "대응 시간을 줄이기 위해 이 전력 중 일부를 미리 이륙시켜 둘 수 있다. 다만 연료 문제가 생길 수 있으므로 신중히 판단하라. 실제 전투 탐색구조(CSAR) 상황이 진행 중이지 않다면, 이 전력을 전선(FLOT) 너머로 보내는 것은 어떤 경우에도 허용되는 일이 ",
+      "review": "direct-source-review",
+      "batch": "revisions-467.tsv",
+      "previous_translation_sha256": "94290b4378a99869487e7d7406ef9afc2e6ace701fd2a8ff66c6b4ba4d89653e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3b853dd77a41b546202b4366569a13d59331af8280fa6ba65f3742b37cc2c23e",
+      "translation": "다. 적지에서 대기 비행만 시키기에는 너무 귀중한 전력이다! 공중 엄호를 위해 전투기 지원이 필요할 수 있다는 점에도 유의하라. 공대지 지원에는 A-10 2대를 사용할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-467.tsv",
+      "previous_translation_sha256": "b153beae75ff7066c88d85b4c88131b44dc818c322a4f0f3a996f96ddd96a0ec"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "161382f450026df868dbf0fe1d1ebe01f34a2820e4868f10198b30cd49b36250",
+      "translation": "표적 선정 우선순위",
+      "review": "direct-source-review",
+      "batch": "revisions-467.tsv",
+      "previous_translation_sha256": "da9173b1b074b285f88c4d3deab10bce0d2c8916ca7f984e4cf6bd3827022739"
     }
   ],
   "whole_db_paragraphs": [
