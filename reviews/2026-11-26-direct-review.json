@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9769,
+    "reviewed_source_entries": 9772,
     "review_outcomes": {
-      "modified": 8382,
+      "modified": 8385,
       "retained": 1387
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8395,
+      "scenario-ko.b64.tsv": 8398,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9781,
+      "runtime_first_lookup_passed": 9786,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 150
+      "html_context_lookup_passed": 151
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -37,7 +37,7 @@
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
     "additional_whole_db_paragraph_reviews": 479,
-    "supplemental_source_entries": 12,
+    "supplemental_source_entries": 14,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
@@ -78212,6 +78212,30 @@
       "review": "direct-source-review",
       "batch": "revisions-446.tsv",
       "previous_translation_sha256": "fe48fbfe8349b19f848cf7db7952bec92ace6545097684e71e61797e6e6ca70a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "567cded77d9a2ccb902993a7d553e298c28643ac91deafbfa1b2d234d56cc6f4",
+      "translation": "소련군에 대한 무장 사용 권한은 사격 보류(Weapons Hold)다. 소련군이 먼저 적대 행위를 하거나, 소련 호송선단이 회항을 거부하고 다음 ",
+      "review": "direct-source-review",
+      "batch": "revisions-447.tsv",
+      "previous_translation_sha256": "cf73b20d9e640081033e19e5a6daf12bf291b67cc9b2ca782070954b742ee129"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ced43d8d3958198c8d1db2a89051f8a905deb4827f18ed2486b5330f2030f19d",
+      "translation": "직사각형 ",
+      "review": "direct-source-review",
+      "batch": "revisions-447.tsv",
+      "previous_translation_sha256": "8970e5b35c80af32ebd40c18cd03f8f105dec77ef7752a1d9692fd4f33f684b2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f11908ef28e669614472a72e412989f19b233b63f111e449e56071f3bc84fa01",
+      "translation": "구역(경계 좌표: 5",
+      "review": "direct-source-review",
+      "batch": "revisions-447.tsv",
+      "previous_translation_sha256": "56f7e54284deea6c002b798dae04a2d3e667a761c2f16af4a18aa46c7a114b10"
     }
   ],
   "whole_db_paragraphs": [
@@ -90981,6 +91005,20 @@
       "translation": ": 제76",
       "review": "direct-original-html-node-review",
       "origin": "source-00576.xml"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e632b7095b0bf32c260fa4c539e9fd7b852d0de454e9be26f24d0d6f91d069d3",
+      "translation": "",
+      "review": "direct-original-html-node-review",
+      "origin": "source-00622.xml"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0d40af49cffb24891cb0bdfde683ff55bef7a123d2f1d3c0fe5b399a235b17a9",
+      "translation": ")에 진입하면, ",
+      "review": "direct-original-html-node-review",
+      "origin": "source-00622.xml"
     }
   ]
 }
