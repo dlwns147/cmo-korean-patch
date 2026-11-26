@@ -2,10 +2,10 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 13259,
+    "reviewed_source_entries": 13260,
     "review_outcomes": {
       "modified": 11834,
-      "retained": 1425
+      "retained": 1426
     },
     "changed_from_base": {
       "ko.tsv": 179,
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 13277,
+      "runtime_first_lookup_passed": 13279,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -37,7 +37,7 @@
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
     "additional_whole_db_paragraph_reviews": 503,
-    "supplemental_source_entries": 18,
+    "supplemental_source_entries": 19,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
@@ -106134,6 +106134,14 @@
       "review": "direct-source-review",
       "batch": "revisions-596.tsv",
       "previous_translation_sha256": "301f3bdfc960dff02987fe10acc8606cc19a66882f762010b5950b9c9bae0f2a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6e46295f3283905d10b62466c9b8e3184de3a45c9c66b2cf6d1d3319c4f3fa93",
+      "translation": "사우디아라비아 위기 - IS의 공격, 2016",
+      "review": "direct-source-review",
+      "batch": "revisions-597.tsv",
+      "previous_translation_sha256": "fb54e7912b458e8b84708098d4f041bd221ad3b52093faca60e1fefc0cc0fa5a"
     }
   ],
   "whole_db_paragraphs": [
@@ -119476,6 +119484,14 @@
       "translation": "이란은 지리적 거리와 군사력의 열세 때문에 전통적으로 헤즈볼라 같은 대리세력을 활용해 목표를 추구해 왔다. 2011년 이란은 대리세력에 물자를 더 쉽게 공급할 육상 보급로를 확보하기 위해 시리아 내전에 개입했다. 헤즈볼라에 대한 무기 수송으로 시작된 활동은 결국 미사일·로켓 공장 건설을 포함한 이란의 전방기지 구축 사업으로 확대되었으며, 생산된 무기는 헤즈볼라에 공급될 예정이었다. 이에 2018년 이스라엘 공군이 이란의 활동을 저지하기 위해 시리아 내 이란군과 시설, 지원 전력을 수시로 공격하기 시작하면서 직접적인 충돌로 이어졌다.",
       "review": "direct-original-html-node-review",
       "origin": "Scenarios/Desert Storm/Assets/15. Israeli Counterpunch Desc.html"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5d96d73d4ac7d7a0d8e3c59ac475e1d85afbcbc901d75e5712ff4e73c7b57d3f",
+      "translation": "사우디아라비아 위기 - IS의 공격, 2016",
+      "review": "verified-original-normalization",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\1076160\\2639756219\\Saudia Arabia Crisis -  Attack of IS, 2016.scen",
+      "normalized_from_hash": "6e46295f3283905d10b62466c9b8e3184de3a45c9c66b2cf6d1d3319c4f3fa93"
     }
   ]
 }
