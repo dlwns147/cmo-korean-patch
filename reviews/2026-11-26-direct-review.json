@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9356,
+    "reviewed_source_entries": 9368,
     "review_outcomes": {
-      "modified": 7974,
+      "modified": 7986,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7989,
+      "scenario-ko.b64.tsv": 8001,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9368,
+      "runtime_first_lookup_passed": 9380,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -74908,6 +74908,102 @@
       "review": "direct-source-review",
       "batch": "revisions-414.tsv",
       "previous_translation_sha256": "410c2a94e26e791fa37443bafba4d4803ef70152b4d4712d25e716e3879cad1a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ff4997529b5742c4a44b47cbbf16cbb21f7836d239aa94075887d32ecad71fe5",
+      "translation": "교전 규칙은 사격 보류다. 리비아군이 먼저 적대행위를 개시했을 때 자위 목적으로만 대응할 수 있다. 리비아 요격기의 공격 의지를 꺾기 위해 레이더 표적 고정과 근접 접근을 활용할 것을 권고한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "1dcc5a5aa023e61d62bf3f9635977b78e93d1477069a6d7d2b82d54b651060fe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b6eb1ede1a8c879d6fcb13060d027739a93168e259cda0ba39570745777d4d96",
+      "translation": "- 시작할 때 진영 교리와 전자파 방출 통제(EMCON)가 원하는 대로 설정되어 있는지 확인한다. 예를 들어 제작자는 Manual Evasion을 ‘아니요’로 설정해 플레이하므로 이 시나리오도 그 설정으로 시작한다. 필요에 따라 자유롭게 조정해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "0b7441d5c52aa9ece28ad46fc8c3a5ada798a46d3695ccab53c0528db15791f6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "75bb733c075600c39d649c3df1d8a800fbc14c385d2b23c2833b2dd602482e30",
+      "translation": "지대공미사일 진지, 러시아 항공기, 지상 표적을 파괴하면 점수를 얻는다. 러시아의 에너지 시설 타격 성공이나 아군 항공기 격추를 비롯한 모든 NATO 손실에는 감점이 적용된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "9b358f84313a4df78df93eb55f538dd7e9c4a27474d5df1b56e7ced6a230ef22"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6bce62669c4fca9dd1e9b521d7bd8f6e7456dfc3ca09c295ea6a277ed56734fd",
+      "translation": "전력 손실에 따른 득점과 감점 외에도, 발트 3국 서해안 앞바다에 유도미사일 구축함(DDG)을 유지하면서 NATO가 같은 해역에 구축함을 유지하지 못하도록 막으면 상당한 승점을 얻는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "20d9eeb3bb1857106ebf0bafd890dfa1e145d9d1b1af2a53f0cea73de5a0a3f8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "55648a2b4f7170324f53412756b22937b75c66b7166bafe164cd593facf180e2",
+      "translation": "- 시작할 때 진영 교리와 전자파 방출 통제(EMCON) 등이 원하는 대로 설정되어 있는지 확인한다. 예를 들어 제작자는 Manual Evasion을 ‘아니요’로 설정해 플레이하므로 이 시나리오도 그 설정으로 시작한다. 필요에 따라 자유롭게 조정해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "50bc55b10e6113b49e9e9647b6507564c007c0c853fe5c8e523de6d6098e34d3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "59d1ea06f9de9ce71a41e7d0cce23e1b8c37493c631999be9230a09b8968d5b2",
+      "translation": "재래식 교전이 진행 중이다. 수상·수중 접촉물에는 ‘확인된 적에 한해 사격(Weapons Tight)’을 적용한다. 초계 구역에 소련 잠수함과 수상함이 있을 수 있다. 모든 공중 접촉물은 적으로 간주한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "ca12b4247999e19f1f0c8147f9f763747e65546646e5a0466172d779c74285ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5eb5f03d066fedac85654b26e1f8f1cfc12a4755c434660d28935f78172d4603",
+      "translation": "E. 분리주의 세력이 프랑스군에 발포하면 위치에 관계없이 무장 사용 권한(WRA)이 ‘확인된 적에 한해 사격(Weapons Tight)’으로 전환된다. 이때부터 분리주의 세력의 진지에 사격할 수 있다. 적대 세력을 격멸하되 민간인 피해를 피한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "ca202fa110fc10fac8dc3ce18e58b07beb6bf0627bbb92fa2eb065925c8c5c8b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a3fbe039be188883d2f2ee9fdfc4ab45222f0f368b74ddffaa5d02317a1d43b7",
+      "translation": "선택한 기준점은 밝은 흰색으로 표시되고, 선택하지 않은 기준점은 흰색 십자 모양으로 표시된다. ‘지도 설정(Map Settings)’ 메뉴에서 기준점 표시를 보통 크기, 작은 크기, 숨김으로 설정할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "13e068a978477549db72963994ecb709a07bf53f225ca894eabd58592b4d2009"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c72fe0dc62bcb67aa3a43e0087c8b942adb799f1b77752376312529c3b4256a7",
+      "translation": "전력 손실에 따른 득점과 감점 외에도, 발트 3국 서해안 앞바다에 유도미사일 구축함(DDG)을 유지하면서 러시아가 같은 해역에 구축함을 유지하지 못하도록 막으면 상당한 승점을 얻는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "b9a09d29238a50000f72ead5b808ca4b0e949fb81c0c4e41cb5aa29a128eecbd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a91551a4e8e9237e3c3ca3d3d20ef11f44aa090fb5141610c19f90e52c5e589f",
+      "translation": "표적 파괴와 항공전력 손실에 따라 점수를 얻거나 잃는다. 코브라 데인(COBRA DANE) 레이더 또는 이를 지원하는 위성통신 기반시설을 손상시키면 즉시 패배한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "fd8bab44e8f4998cab1ea617c9f79ff7106d0935946daced9afbbf3d31c2a48a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d1395d83f8a12f6584f1335b9d106b9b94ff57f92a8a94967dd5a841b80cce39",
+      "translation": "승리하려면 싱가포르 해군은 24시간 안에 호위함을 잃지 않고 말라카 해협에서 작전 중인 인도네시아 잠수함 2척을 격침해야 한다. 적 잠수함의 예상 작전구역은 기준점 4개로 표시되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "2cbeebc070b440efadd81ea771855c76c09b7d24c6eb048b68e8fbab10d50411"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d01f66b8d03368287e5693c90b0d932242fc05603f99bbe21a47dcb87a9e7283",
+      "translation": "먼저 공격할 수 있지만, 적으로 식별된 표적에만 허용된다. 구체적으로는 담당 책임구역(AOR) 내 미국 상선에 명백한 위협이 되는 모든 전력에 사격할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-415.tsv",
+      "previous_translation_sha256": "08222723600a54442d008a387c08c1a6e174ee36d8aafd003a873d58b07ee265"
     }
   ],
   "whole_db_paragraphs": [
