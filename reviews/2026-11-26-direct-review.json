@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9752,
+    "reviewed_source_entries": 9761,
     "review_outcomes": {
-      "modified": 8367,
+      "modified": 8376,
       "retained": 1385
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8380,
+      "scenario-ko.b64.tsv": 8389,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9764,
+      "runtime_first_lookup_passed": 9773,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 145
+      "html_context_lookup_passed": 147
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -78076,6 +78076,78 @@
       "review": "direct-source-review",
       "batch": "revisions-444.tsv",
       "previous_translation_sha256": "a831223765fe094780ef792123669e883ae0ff5df6f0d600e7ee6540e368ce93"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0a119d4bc70769397cd466d0bc06c70972df237ac4b8164e97f491b655e12076",
+      "translation": "전쟁은 13:00Z(",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "d1afb706b2b02418b89d843fe08a82487f334c9d5b25aac4c8907c4a854d6ca1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "daf742547cae929fa6ae1d4fa266135c68d377734c30f826a9ce8e8ebfa680c3",
+      "translation": "게임 시작 45분 후",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "577aa8097923ae1949e2961758c50301b05eb35682362d2214892cb95c4965b2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dee492ba9d71c251d6d6d2f742baf6409ec147b55b9f5cdbcdc816461c2c0174",
+      "translation": ")에 시작된다. 지리적 여건상 그때까지 모든 전력을 이상적인 위치에 배치할 수는 없다. 13:00 이전에는 교전을 시작해서는 안 된다. 다만 튀르키예 측이 경고에 반응하기 전까지 몇 분 정도 늦출 수는 있을 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "47154d825fcaffc3c38054b8404c29a6b04e72eaad8697b2c51004ba36c19591"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fc6d75ccae9997848409ff2f9d9b777d482346f8042d46e8220cf821c7531942",
+      "translation": "기지 점령",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "f6b97d62778dda752c688c44392bc78535a44e3be6742e0cf2b8e0bbaebd4ded"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "964438cb0ae44686efb6bd0397177185940752a54c05acaa9975d30424e6cc1e",
+      "translation": ": 아군 지상부대가 공항 바로 주변을 점유하면 바나크를 점령한다. 기지는 아군 소속으로 바뀌지만 활주로는 사라진다. 약 1시간 뒤 헬기 착륙장이 설치되고, 약 8시간 뒤 활주로가 복구된다. 물론 적이 복구 작업을 방해하지 않는 경우에 한한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "3a90d55749a90c6152e9539a90b055eb4038102cee4dad72804d48515fb1af7b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "57be5fb4127b1a5ffc7e2f625e2173f5e6f9e184b95d3d083ee3a6d1e80bc693",
+      "translation": "주요 표적 점령",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "561698eb0ccf7617f074134578a1e2d2a912aff8a9102e855ba749c4522b0c72"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dd311819da952ad8fbf3b2678185bbb267202df530aea7f2fd20ccbc09717346",
+      "translation": ": 표적은 세 곳이며, 그중 사령부는 파괴할 수 없다. 사령부에 충분한 피해를 입히면 점령하게 된다. 나머지 두 곳인 차량 집결지와 후송 집결지는 아군 유닛이 가까이 접근하면 점령한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "500bac97f37262202091330a2aaa4ce9e475825d8e011a498899bd279211ff58"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0526616fb8894238f1c01261ec2dbb7b4045724740f42afed978df1925a08603",
+      "translation": "바나크 재보급",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "5247336826227106e526236d1deed73c5e64bc1af7b58a4c28bbf6a61ac24220"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a7e052f04131ca894127ba46de6c671d7155956c78178b0e7a0f3591b4463652",
+      "translation": ": 헬기 착륙장이 설치되면 시킹 HC.4 2대가 HMS 인빈시블과 기지 사이를 계속 왕복하며 긴급 재보급과 부상자 후송(CASEVAC)을 재현한다. 활주로가 복구되면 영국 공군 제57비행대대와 캐나다 공군 제436비행대대가 정기 재보급을 재현하는 지속적인 수송 임무를 시작한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-445.tsv",
+      "previous_translation_sha256": "d2e8a04dab10c1beb4d337bfcf848667735019f630d9d8fe5ef808da820799d1"
     }
   ],
   "whole_db_paragraphs": [
