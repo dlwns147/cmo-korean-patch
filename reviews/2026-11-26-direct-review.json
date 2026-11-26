@@ -2,16 +2,16 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9882,
+    "reviewed_source_entries": 9908,
     "review_outcomes": {
-      "modified": 8489,
-      "retained": 1393
+      "modified": 8513,
+      "retained": 1395
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8502,
-      "db_files": 4317,
-      "db_paragraphs": 8680
+      "scenario-ko.b64.tsv": 8526,
+      "db_files": 4321,
+      "db_paragraphs": 8722
     },
     "source_recovery": {
       "matched": {
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9898,
+      "runtime_first_lookup_passed": 9926,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 182
+      "html_context_lookup_passed": 186
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -36,27 +36,27 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 479,
-    "supplemental_source_entries": 16,
+    "additional_whole_db_paragraph_reviews": 491,
+    "supplemental_source_entries": 18,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 241,
-      "pending_locations": 241,
-      "covered_associations": 2622,
+      "unique_pending_whole_paragraphs": 229,
+      "pending_locations": 229,
+      "covered_associations": 2634,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 1409,
+    "whole_db_paragraph_applications": 1451,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
       "effort": "medium",
-      "accepted_batches": 15,
-      "accepted_whole_paragraphs": 440,
+      "accepted_batches": 16,
+      "accepted_whole_paragraphs": 452,
       "acceptance": "Every full source and target directly compared before applying; automated checks are supplemental",
       "accepted_scenario_batches": 1,
       "accepted_scenario_paragraphs": 7
@@ -79118,6 +79118,214 @@
       "review": "direct-source-review",
       "batch": "revisions-467.tsv",
       "previous_translation_sha256": "da9173b1b074b285f88c4d3deab10bce0d2c8916ca7f984e4cf6bd3827022739"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8930d7938b00520628c3e81d3584b538ac416577114fdda2c3f97cbeb766eb9a",
+      "translation": "이 시나리오는 미국과 중국 간의 긴장이 결국 실제 무력 충돌로 번졌다고 가정한다. 중국의 예상과 달리, 미국의 전략은 남중국해에서 공세에 나서는 것이 아니라 동맹국들이 스스로를 방어할 수 있도록 하는 것이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-468.tsv",
+      "previous_translation_sha256": "e38d09b21a22ee7d47b6c90c3eb9c58ca692f15eb4c4b60057f38a51be6c1430"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c4ac425a608aecdd58e8639e229e584326998a68e163ec69612513e79ebadb18",
+      "translation": "한편 미국은 사이버 공간과 우주, 인도양 등 다른 전선에서 중국을 공격하기 시작했다. 미국이 반드시 ",
+      "review": "direct-source-review",
+      "batch": "revisions-468.tsv",
+      "previous_translation_sha256": "eba10cc18d427b1ca14e90be78b703add922fc2899e9b4e237b2d1bafb9ad4d5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ebcdb467da27b6b430127f6039666615aebc9cfe3418f050a474c367cbb89bdc",
+      "translation": "중국을 정복하거나 파괴할 필요는 없었다. 중국이 더 이상 효과적으로 군사력을 투사할 수 없을 만큼 약화시키기만 하면 됐다.",
+      "review": "direct-source-review",
+      "batch": "revisions-468.tsv",
+      "previous_translation_sha256": "fd898944ffbb368c775222387d6eae97d605961f45e413f58283b0964cb4a21f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fa95c9660607ad4f04905ba8ab641a39d8065f2c363af5d4d76e23ccfeaf1d5a",
+      "translation": "향후 데이터베이스 버전에 맞춰 시나리오를 갱신할 수 있도록 .zip 파일에 델타 템플릿 .ini 파일을 포함했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-468.tsv",
+      "previous_translation_sha256": "9519cd5eca4579ab07893d51a7c2e2d0b5a557980ba11e98adfed8dd6a169ca2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "384efb34e4d61ee25cbd16192d9af220d66e32583b515512b0e83c36d7d0b83e",
+      "translation": "소련과의 교전은 아직 시작되지 않았다. 전쟁이 발발하면 흑해 연안의 러시아 남부를 시작으로 소련의 산업 표적을 공격하는 것이 귀관의 임무다. 이탈리아, 그리스, 튀르키예 영공을 통과할 권한은 확보했지만, 서유럽 영공은 다음 전력의 작전 구역이다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "04056a7d4fb142687f0a5b3219ad5d31d3cb7387b1e39c6c8317368892ffe7fe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b3c71f7b4505b9a4dba231d5c9a471e87ba723159a02272dbd4377386dbd228d",
+      "translation": "의 영국·스페인 주둔 REFLEX 전력, ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "00ffc0258bfe321beb2caad3e0753f336afa53b0300f05aca632bc11a496438a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "845f922518fb9acbfc6dac13abd9fff503279a8cf6224e4752c09b7e2cdbbb0f",
+      "translation": "영국 공군, ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "df4a095f0fbd2f01434264b1a612badf43073e0d816cf462e4f7f2c51202b88c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "931db7cdd96af05ea539489b277ea3929919f91a2b7d2e8593cc457103dab87e",
+      "translation": "NATO 및 ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "cdc599bd50ad64bd702e02421d42511bdc9220b8d8af00fe7a0fd6affb047a54"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "621c449c65cce5ccf8dd88d6c0a5b59cfd66b1af0f376a654cd2f0d3718ce152",
+      "translation": "전술항공사령부",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "36efbc41113ca27eb64ddba96e8888bcc339a9656bf99c2d025908bff81a0ede"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "920def03a91d63dee8bc643e45e2439565a3b45e3507a63b6574d01cb1165742",
+      "translation": ". 그 밖의 ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "f1f4ce417552e19743118447b9f1cadcb8836712e5ada0dcd9a6f008fb14f603"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "94103ea690e2b6ed827757ab85a0ba4e2ab9790b9c0304c0a7e62e042a353fee",
+      "translation": " 비행단들은 남아시아를 기지로 삼아 캅카스산맥 동쪽에서 작전한다. 귀관에게는 전투기 호위가 제공되지 않는다(",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "bd3ce907eb03cb5409cc8196a0385636d1dc1aaad18fec0ed64a3f42b6239481"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bbc3e35fc71a0cc905534de0a2c78a09bbd1297c42ac04dd1c9e0e01011625b9",
+      "translation": "는 폭격기가 언제나 방어망을 돌파할 수 있다고 믿는다). NATO 동맹국들도 아조레스 제도의 라제스 공군기지, 이탈리아의 조이아 델 콜레 공군기지, 키프로스의 영국 공군 아크로티리 기지를 급유용으로 제공하는 것 외에는 실질적인 전력이나 지원을 제공할 수 없다. 귀관의 지휘하에는 다음 부대가 배속된다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "30cd139c9adbfdac7a40f19b9f34b895ab1023ce91d389dfe6ea117efe32e62a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3c06c67c9de5cd0e166db7515ee2f4b59155e655ecb57cd85bc7cbab777c2e9a",
+      "translation": "제3정찰비행대대",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "cdd4d9f62c3b1cac85f699f32f8cf338f4ecb2558ef64072b89d28ecc913d227"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b8a05a9113d0827ff9fd2ea88f42ea6b12383348070c2bed69fc2c55b66df728",
+      "translation": "(RB-47 12대, 소속: ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "47cb80f4ecd54c7bbd1aefe1e4db60ff47c7243701dc364785ceb4b94363de18"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a5dd903ff0d524631d671c441259e111d05ae947d97f243c52a53450423cff77",
+      "translation": "제26전략정찰비행단",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "ea1e43fbb7b9eb9c41ddafd3f53beb2b8108f5205ec9236754bdc144d3396c0e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b3cc7b2193e24776bec9e23840f6f6651156f2adaf51f5efce558fd4ddc3309",
+      "translation": "), 그리고 EC-121 워닝 스타로 구성된 파견대(소속: ",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "8323d717522be3c20956ee90bddb4ea6bc71a1d7bc91dd0eb5e3981578834cca"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e698bf46b46ebb828e9cbe98ea8b2b2e06887276caccea9a2789cca542f501a4",
+      "translation": "제961공중전자경보통제비행대대",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "3eda2597e5e9628b9e938bdce8b8a68929589627d434d9c72a97adfb4685ba6f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2a8b35bb786c01506e3269c6edb5fb7281649eaf888e94a99c1952fff1d39c20",
+      "translation": "). 이 파견대는 공중 지휘통제를 담당한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "74bb5232f1f9adcddd6235640d39ddeb1fe7be842c54c79e34928fdca4e0b529"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b7450935084d9b076d6203eaa0f7e8c2d5adb290ae6a7a306145dafc1b464e72",
+      "translation": "모로코의 아군 기지에는 핵무기가 비축되어 있으며, 필요하면 군사항공수송부(MATS)가 추가로 공수할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "e39a5e0349d3b9e3f2398745354361b385a617c51fe564aefbf4969d500d84c7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "80dd756e6ad68045ef6eb9d722b5c618fa0d3d8269828736d76ab5187c6a4a82",
+      "translation": "전쟁 발발까지 불과 몇 시간밖에 남지 않았을 수도 있다…",
+      "review": "direct-source-review",
+      "batch": "revisions-469.tsv",
+      "previous_translation_sha256": "e20d50bf8dab18a8c7554a821b9ce40f31bd7864444df66ff55fcfefc5e6d96b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "98b64a49c29372a366fb97dddaec30ea1a5256e6f1c00795e52b86592563f7de",
+      "translation": "현재 아군은 대비 태세를 유지하며 상황의 추이를 지켜보고 있다",
+      "review": "direct-source-review",
+      "batch": "revisions-470.tsv",
+      "previous_translation_sha256": "b92e22fa04e917697d5d0e8c8dd1067ff8fb0e00e4a61e83d2c652d1f2e9eeef"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0bce371c0edbbd07a9f8ef721a7c8b2f36fd890e8158c14326acaad0672f1c4c",
+      "translation": ". 교전수칙(ROE)은 여전히 방어적 교전만 허용한다. 추가 지시가 없는 한, 아군에게 우크라이나군을 지원할 권한이 있는 것은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-470.tsv",
+      "previous_translation_sha256": "0958818938db04caa81a568603e9f1266b48efa700d3179edfeec11a5401f1dd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a752868344bcb3eee701ae4a5e4cd1dc25fb88ae6f2c49773e8f71617e1cb24e",
+      "translation": "다. 거듭 강조하지만, ",
+      "review": "direct-source-review",
+      "batch": "revisions-470.tsv",
+      "previous_translation_sha256": "5c948b5993fdb64acf9e653bfa9481024fa117498de31f17d514c4be9faf90d7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8478bce61c8e3794678aefba8d56f5a07d870660ce539a6ff91c1b196dbca372",
+      "translation": "다. 아군 전력은 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-470.tsv",
+      "previous_translation_sha256": "ad81ab2ced5d04c442818d77d7f1112d68769f87592caee5bb6fcb89ff517016"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "22dea81fd14a3abb15c9156d693f67bd34c85e7a5328db1845309410c18b59d4",
+      "translation": "“……세계가 직면한 가장 큰 위험은 이슬람 무장세력과 핵무기의 결합이다. ISIS를 물리치고도 이란의 핵무기 보유를 허용한다면 전투에서는 이기고 전쟁에서는 지는 셈이다. 그런 일이 일어나게 둘 수는 없다……",
+      "review": "direct-source-review",
+      "batch": "revisions-470.tsv",
+      "previous_translation_sha256": "46a209f2cd03f281363a73655c102e98118ded8ae01c2e97ca5bc008ebe3355e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6276333aa2fdcb3ccb230b072b0ab1240d980589bce60673f98ff31a63b8542b",
+      "translation": "“……이스라엘 총리로서 한 가지 더 약속할 수 있다. 이스라엘이 홀로 맞서야 하더라도, 이스라엘은 굳건히 버틸 것이다.”",
+      "review": "direct-source-review",
+      "batch": "revisions-470.tsv",
+      "previous_translation_sha256": "33aebdcdf75463af3d21655327fa454e1c47bca543eae973e5c867d0917ce64d"
     }
   ],
   "whole_db_paragraphs": [
@@ -79311,6 +79519,24 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1456.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_163.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_164.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_165.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
@@ -79354,6 +79580,24 @@
       "previous_translation_sha256": "745b8008510c1a041f09bdbdd979814de66e26b98f3e5efce2f703d532341d9e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1763.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1764.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_1766.txt",
@@ -79455,6 +79699,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1852.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_1862.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_188.txt",
       "paragraph_index": 1,
       "source_sha256": "9ddb79f6e2aee24622bfec91ef88e49256962984f21af4982347d3671d6d917e",
@@ -79462,6 +79715,15 @@
       "previous_translation_sha256": "d87b8aa1e1e7af0b3d92bf2bb59606d7d880bbef3ceb69251aa0b8862fe4a247",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1231.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1949.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_1953.txt",
@@ -79716,6 +79978,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_2988.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_2989.txt",
       "paragraph_index": 5,
       "source_sha256": "cb46b84778aecdf27670e16dd0b0f3a2668d0e8df793446ff0e28d0394576f15",
@@ -79878,6 +80149,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1231.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_47.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_576.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
@@ -79921,6 +80201,15 @@
       "previous_translation_sha256": "44cd769e436fffe24c2d287017af89b3892351eb5596f40007836eeac617ee86",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_134.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_82.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Facility_1008.txt",
@@ -80477,6 +80766,15 @@
       "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
       "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
       "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Ship_1579.txt",
+      "paragraph_index": 5,
+      "source_sha256": "518d3067825418e5c76b78df09a15c652f4696bed640f0376a3214b047bcea3e",
+      "translation": "이 함정들은 광범위한 지휘·통신·통제 장비를 갖추고 있다. 이러한 전자체계는 상륙기동부대 지휘관에게 상륙돌격 임무를 지휘하는 데 거의 무제한에 가까운 유연성을 제공한다. LHA 전자체계의 핵심은 전술 상륙전 컴퓨터로, 함정을 떠난 상륙부대의 위치뿐 아니라 해안의 적 표적도 추적한다. 전술자료체계는 적 표적에 대한 아군 병력의 상대적 위치를 최신 정보로 파악하여, 자함뿐 아니라 지원함의 함포와 미사일에 대한 표적 지정도 지시할 수 있다. 또한 이 체계는 상륙 중 자함의 헬리콥터와 상륙주정뿐 아니라 전투 항공통제와 기동부대 지원함을 위한 공중 및 수상 교통관제도 수행한다.",
+      "previous_translation_sha256": "70154b334403254bf15e98610892165762d0e2c2c597f160c127fb8836f3ce0d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
@@ -81228,6 +81526,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1024.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1032.txt",
+      "paragraph_index": 1,
+      "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
+      "translation": "세부 사항: 기존 F-16C/D에서 거의 2,500개의 부품이 변경되었다. 초기 KF-16은 F100-PW-229 성능향상형 엔진, ASPJ 내장형 전자대응 장비, APG-68(V)7 레이더, LANTIRN 표적지시·항법체계, AMRAAM과 HARM, SLAM 대함미사일의 운용 능력, 첨단 피아식별장비를 갖추었다. 이후 대한민국 공군이 JDAM 운용 능력을 추가했다. 대한민국 공군은 소프트웨어를 개발하고 3차례의 시험을 성공적으로 수행했으며, 2011년 1월 말에 조종사 훈련을 마쳤다. 한국의 JDAM에는 날개 키트가 장착되어 있다. 일반 JDAM에는 이 키트가 없지만, 보잉과 한국이 개발 중인 2,000파운드급 JDAM 사거리연장 키트에는 포함되어 있다. 한국의 F-16은 LIG넥스원의 ALQ-200K 레이더 재머와 그 밖의 국산 전술 전자정보 수집 포드 및 전자광학/적외선 표적지시 포드도 운용할 수 있다.",
+      "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1049.txt",
       "paragraph_index": 6,
       "source_sha256": "f2be655ca5c281d40b552c7cf90dcd8760613227b1810564d20dc62b59335f93",
@@ -81696,6 +82003,24 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1368.txt",
+      "paragraph_index": 1,
+      "source_sha256": "76a258cb423a3de123dbafaaba5dbfc6103c8e367474648bc2a32be070a1a8aa",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 이전 기종보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 가볍도록 설계되었다. 연료탱크 하나를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어 체계를 현대화하고 엔진 출력을 높여 이러한 목표를 달성했다. 플로거 B는 하이 라크 2라고도 알려진 J대역(10~15 GHz) 사피르-23D-III(Sapfir-23D-III) 레이더를 탑재했으며, 수출형은 사피르-23E로 명칭이 변경되었다. 이 레이더는 하방탐색·하방공격 능력을 제공하며, 고고도의 전투기 크기 표적에 대한 최대 탐지거리는 65 km이고 하방탐색 모드에서는 25 km로 줄어든다. 플로거는 가시거리 밖 교전용 미사일을 장착한 최초의 항공기들 중 하나이기도 하다.",
+      "previous_translation_sha256": "a84807db225c7be808f5db851e5f52a5f1dd642116ac3178cf42594e8a996518",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1368.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1371.txt",
+      "paragraph_index": 1,
+      "source_sha256": "76a258cb423a3de123dbafaaba5dbfc6103c8e367474648bc2a32be070a1a8aa",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 이전 기종보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 가볍도록 설계되었다. 연료탱크 하나를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어 체계를 현대화하고 엔진 출력을 높여 이러한 목표를 달성했다. 플로거 B는 하이 라크 2라고도 알려진 J대역(10~15 GHz) 사피르-23D-III(Sapfir-23D-III) 레이더를 탑재했으며, 수출형은 사피르-23E로 명칭이 변경되었다. 이 레이더는 하방탐색·하방공격 능력을 제공하며, 고고도의 전투기 크기 표적에 대한 최대 탐지거리는 65 km이고 하방탐색 모드에서는 25 km로 줄어든다. 플로거는 가시거리 밖 교전용 미사일을 장착한 최초의 항공기들 중 하나이기도 하다.",
+      "previous_translation_sha256": "a84807db225c7be808f5db851e5f52a5f1dd642116ac3178cf42594e8a996518",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1368.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_138.txt",
       "paragraph_index": 1,
       "source_sha256": "f4fd551de4634387c7b7ab275c6ea9b6a6fea108fc45f341e00adb21ec6cdb1e",
@@ -81811,6 +82136,15 @@
       "previous_translation_sha256": "08af73d86c4f79452e9a61850c0e76e8f6b60771cfdd305465e612bc9174332a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1852.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_170.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1700.txt",
@@ -81937,6 +82271,15 @@
       "previous_translation_sha256": "08af73d86c4f79452e9a61850c0e76e8f6b60771cfdd305465e612bc9174332a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1852.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1865.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d59632def22bb560ce70d1bed13b52dc19d3c67e20ce35f4e79de2f65da9dbef",
+      "translation": "세부 사항: 독일은 토네이도 IDS 기단의 운용 수명을 연장하고 전투 능력을 향상하기 위해 1998년에 중기수명개량(MLU)을 시작했다. 개량 기체는 RB199-34R Mk103 엔진을 유지했으며, 최대속도는 마하 2.2, 전투행동반경은 약 1,390 km였다. 기본 무장 장착점 9개는 Mk 82/83/84 폭탄, BL755 집속탄, MW-1 자탄 살포기, B61 핵폭탄을 비롯해 더욱 다양한 무장을 지원했다. 공대공 무장에는 AIM-9L 사이드와인더 미사일이 포함되었으며, AGM-65 매버릭으로 공대지 타격 능력이 강화되었다. 27 mm 마우저 BK-27 기관포는 기본 무장으로 유지되었다. MLU 개량은 디지털 항공전자장비, 새로운 무장체계 컴퓨터, 개선된 조종석 디스플레이, NATO 표준 정밀유도무장과의 호환성을 위한 전자체계에 중점을 두었다.",
+      "previous_translation_sha256": "7693bfb31702b0e791eae0b42429f8700c7a199670b78d7bd20d3b4fce55d093",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1865.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1866.txt",
@@ -82461,6 +82804,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_24.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2416.txt",
+      "paragraph_index": 1,
+      "source_sha256": "76a258cb423a3de123dbafaaba5dbfc6103c8e367474648bc2a32be070a1a8aa",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 이전 기종보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 가볍도록 설계되었다. 연료탱크 하나를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어 체계를 현대화하고 엔진 출력을 높여 이러한 목표를 달성했다. 플로거 B는 하이 라크 2라고도 알려진 J대역(10~15 GHz) 사피르-23D-III(Sapfir-23D-III) 레이더를 탑재했으며, 수출형은 사피르-23E로 명칭이 변경되었다. 이 레이더는 하방탐색·하방공격 능력을 제공하며, 고고도의 전투기 크기 표적에 대한 최대 탐지거리는 65 km이고 하방탐색 모드에서는 25 km로 줄어든다. 플로거는 가시거리 밖 교전용 미사일을 장착한 최초의 항공기들 중 하나이기도 하다.",
+      "previous_translation_sha256": "a84807db225c7be808f5db851e5f52a5f1dd642116ac3178cf42594e8a996518",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1368.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2474.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
@@ -82794,6 +83146,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_277.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2770.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2776.txt",
       "paragraph_index": 1,
       "source_sha256": "423d6a1283debec61d7b72940a8f3491576405986b86c0cae8f8c4ddbd44d5ba",
@@ -82911,6 +83272,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3010.txt",
+      "paragraph_index": 1,
+      "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
+      "translation": "세부 사항: 이 항공기에 대한 초기의 기대는 여러 문제로 인해 꺾였다. 가장 우려스러운 문제는 엔진 사이에 위치한 동체 연료탱크의 과열로 공중폭발이 일어날 위험이었다. 고속에서 에어브레이크를 전개하면 높은 하중배수를 동반한 기수 들림이 발생했다. 초음속에서는 승강타의 조종력이 부족했다. MiG-15의 160 km/h(100 mph)와 비교해 높은 230 km/h(145 mph)의 착륙속도에 복좌 훈련형의 부재까지 겹쳐 조종사의 기종 전환이 지연되었다. 조종성 문제는 두 번째 시제기인 'SM-9/2'에서 개선되었다. 이 시제기는 동체 하부에 세 번째 에어브레이크를 추가하고, 아음속에서 조종사 유발 진동을 방지하는 댐퍼를 갖춘 전가동식 수평꼬리날개를 도입했다. 1954년 9월 16일에 비행했으며, MiG-19S라는 명칭으로 생산에 들어갔다.",
+      "previous_translation_sha256": "cdc03b7bf471a5f5e9580a7a122e061963748457b5ed083b49648545cb5cf5b3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3011.txt",
       "paragraph_index": 4,
       "source_sha256": "b6852eaa2166cca5fd7016c1d3a1ca6be9e2d5d4bad3170d9373f48d8e4ff62d",
@@ -82927,6 +83297,24 @@
       "previous_translation_sha256": "68c65a6cd09b3c6393a6816d149c5145ca105a04e7f8710859b1718e81ba9224",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1024.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3061.txt",
+      "paragraph_index": 1,
+      "source_sha256": "76a258cb423a3de123dbafaaba5dbfc6103c8e367474648bc2a32be070a1a8aa",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 이전 기종보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 가볍도록 설계되었다. 연료탱크 하나를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어 체계를 현대화하고 엔진 출력을 높여 이러한 목표를 달성했다. 플로거 B는 하이 라크 2라고도 알려진 J대역(10~15 GHz) 사피르-23D-III(Sapfir-23D-III) 레이더를 탑재했으며, 수출형은 사피르-23E로 명칭이 변경되었다. 이 레이더는 하방탐색·하방공격 능력을 제공하며, 고고도의 전투기 크기 표적에 대한 최대 탐지거리는 65 km이고 하방탐색 모드에서는 25 km로 줄어든다. 플로거는 가시거리 밖 교전용 미사일을 장착한 최초의 항공기들 중 하나이기도 하다.",
+      "previous_translation_sha256": "a84807db225c7be808f5db851e5f52a5f1dd642116ac3178cf42594e8a996518",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1368.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3062.txt",
+      "paragraph_index": 1,
+      "source_sha256": "76a258cb423a3de123dbafaaba5dbfc6103c8e367474648bc2a32be070a1a8aa",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 이전 기종보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 가볍도록 설계되었다. 연료탱크 하나를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어 체계를 현대화하고 엔진 출력을 높여 이러한 목표를 달성했다. 플로거 B는 하이 라크 2라고도 알려진 J대역(10~15 GHz) 사피르-23D-III(Sapfir-23D-III) 레이더를 탑재했으며, 수출형은 사피르-23E로 명칭이 변경되었다. 이 레이더는 하방탐색·하방공격 능력을 제공하며, 고고도의 전투기 크기 표적에 대한 최대 탐지거리는 65 km이고 하방탐색 모드에서는 25 km로 줄어든다. 플로거는 가시거리 밖 교전용 미사일을 장착한 최초의 항공기들 중 하나이기도 하다.",
+      "previous_translation_sha256": "a84807db225c7be808f5db851e5f52a5f1dd642116ac3178cf42594e8a996518",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1368.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/aircraft_3069.txt",
@@ -83235,6 +83623,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_236.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3457.txt",
+      "paragraph_index": 1,
+      "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
+      "translation": "세부 사항: 기존 F-16C/D에서 거의 2,500개의 부품이 변경되었다. 초기 KF-16은 F100-PW-229 성능향상형 엔진, ASPJ 내장형 전자대응 장비, APG-68(V)7 레이더, LANTIRN 표적지시·항법체계, AMRAAM과 HARM, SLAM 대함미사일의 운용 능력, 첨단 피아식별장비를 갖추었다. 이후 대한민국 공군이 JDAM 운용 능력을 추가했다. 대한민국 공군은 소프트웨어를 개발하고 3차례의 시험을 성공적으로 수행했으며, 2011년 1월 말에 조종사 훈련을 마쳤다. 한국의 JDAM에는 날개 키트가 장착되어 있다. 일반 JDAM에는 이 키트가 없지만, 보잉과 한국이 개발 중인 2,000파운드급 JDAM 사거리연장 키트에는 포함되어 있다. 한국의 F-16은 LIG넥스원의 ALQ-200K 레이더 재머와 그 밖의 국산 전술 전자정보 수집 포드 및 전자광학/적외선 표적지시 포드도 운용할 수 있다.",
+      "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_347.txt",
       "paragraph_index": 3,
       "source_sha256": "1ae37ecc3ad44297be69ba551f29a4463d02ba3336c4ab1cdcbbc03adbafeacd",
@@ -83415,6 +83812,33 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_354.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3542.txt",
+      "paragraph_index": 1,
+      "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
+      "translation": "세부 사항: 기존 F-16C/D에서 거의 2,500개의 부품이 변경되었다. 초기 KF-16은 F100-PW-229 성능향상형 엔진, ASPJ 내장형 전자대응 장비, APG-68(V)7 레이더, LANTIRN 표적지시·항법체계, AMRAAM과 HARM, SLAM 대함미사일의 운용 능력, 첨단 피아식별장비를 갖추었다. 이후 대한민국 공군이 JDAM 운용 능력을 추가했다. 대한민국 공군은 소프트웨어를 개발하고 3차례의 시험을 성공적으로 수행했으며, 2011년 1월 말에 조종사 훈련을 마쳤다. 한국의 JDAM에는 날개 키트가 장착되어 있다. 일반 JDAM에는 이 키트가 없지만, 보잉과 한국이 개발 중인 2,000파운드급 JDAM 사거리연장 키트에는 포함되어 있다. 한국의 F-16은 LIG넥스원의 ALQ-200K 레이더 재머와 그 밖의 국산 전술 전자정보 수집 포드 및 전자광학/적외선 표적지시 포드도 운용할 수 있다.",
+      "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3543.txt",
+      "paragraph_index": 1,
+      "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
+      "translation": "세부 사항: 기존 F-16C/D에서 거의 2,500개의 부품이 변경되었다. 초기 KF-16은 F100-PW-229 성능향상형 엔진, ASPJ 내장형 전자대응 장비, APG-68(V)7 레이더, LANTIRN 표적지시·항법체계, AMRAAM과 HARM, SLAM 대함미사일의 운용 능력, 첨단 피아식별장비를 갖추었다. 이후 대한민국 공군이 JDAM 운용 능력을 추가했다. 대한민국 공군은 소프트웨어를 개발하고 3차례의 시험을 성공적으로 수행했으며, 2011년 1월 말에 조종사 훈련을 마쳤다. 한국의 JDAM에는 날개 키트가 장착되어 있다. 일반 JDAM에는 이 키트가 없지만, 보잉과 한국이 개발 중인 2,000파운드급 JDAM 사거리연장 키트에는 포함되어 있다. 한국의 F-16은 LIG넥스원의 ALQ-200K 레이더 재머와 그 밖의 국산 전술 전자정보 수집 포드 및 전자광학/적외선 표적지시 포드도 운용할 수 있다.",
+      "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3544.txt",
+      "paragraph_index": 1,
+      "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
+      "translation": "세부 사항: 기존 F-16C/D에서 거의 2,500개의 부품이 변경되었다. 초기 KF-16은 F100-PW-229 성능향상형 엔진, ASPJ 내장형 전자대응 장비, APG-68(V)7 레이더, LANTIRN 표적지시·항법체계, AMRAAM과 HARM, SLAM 대함미사일의 운용 능력, 첨단 피아식별장비를 갖추었다. 이후 대한민국 공군이 JDAM 운용 능력을 추가했다. 대한민국 공군은 소프트웨어를 개발하고 3차례의 시험을 성공적으로 수행했으며, 2011년 1월 말에 조종사 훈련을 마쳤다. 한국의 JDAM에는 날개 키트가 장착되어 있다. 일반 JDAM에는 이 키트가 없지만, 보잉과 한국이 개발 중인 2,000파운드급 JDAM 사거리연장 키트에는 포함되어 있다. 한국의 F-16은 LIG넥스원의 ALQ-200K 레이더 재머와 그 밖의 국산 전술 전자정보 수집 포드 및 전자광학/적외선 표적지시 포드도 운용할 수 있다.",
+      "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_355.txt",
       "paragraph_index": 3,
       "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
@@ -83539,6 +83963,15 @@
       "previous_translation_sha256": "fbd621f5e79d9300ccd5b0f7530cde61f77ab61e85929d794afc9efddd9203b6",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2776.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3917.txt",
+      "paragraph_index": 1,
+      "source_sha256": "76a258cb423a3de123dbafaaba5dbfc6103c8e367474648bc2a32be070a1a8aa",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 이전 기종보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 가볍도록 설계되었다. 연료탱크 하나를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어 체계를 현대화하고 엔진 출력을 높여 이러한 목표를 달성했다. 플로거 B는 하이 라크 2라고도 알려진 J대역(10~15 GHz) 사피르-23D-III(Sapfir-23D-III) 레이더를 탑재했으며, 수출형은 사피르-23E로 명칭이 변경되었다. 이 레이더는 하방탐색·하방공격 능력을 제공하며, 고고도의 전투기 크기 표적에 대한 최대 탐지거리는 65 km이고 하방탐색 모드에서는 25 km로 줄어든다. 플로거는 가시거리 밖 교전용 미사일을 장착한 최초의 항공기들 중 하나이기도 하다.",
+      "previous_translation_sha256": "a84807db225c7be808f5db851e5f52a5f1dd642116ac3178cf42594e8a996518",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1368.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_394.txt",
@@ -83802,6 +84235,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1748.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_4516.txt",
+      "paragraph_index": 1,
+      "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
+      "translation": "세부 사항: 기존 F-16C/D에서 거의 2,500개의 부품이 변경되었다. 초기 KF-16은 F100-PW-229 성능향상형 엔진, ASPJ 내장형 전자대응 장비, APG-68(V)7 레이더, LANTIRN 표적지시·항법체계, AMRAAM과 HARM, SLAM 대함미사일의 운용 능력, 첨단 피아식별장비를 갖추었다. 이후 대한민국 공군이 JDAM 운용 능력을 추가했다. 대한민국 공군은 소프트웨어를 개발하고 3차례의 시험을 성공적으로 수행했으며, 2011년 1월 말에 조종사 훈련을 마쳤다. 한국의 JDAM에는 날개 키트가 장착되어 있다. 일반 JDAM에는 이 키트가 없지만, 보잉과 한국이 개발 중인 2,000파운드급 JDAM 사거리연장 키트에는 포함되어 있다. 한국의 F-16은 LIG넥스원의 ALQ-200K 레이더 재머와 그 밖의 국산 전술 전자정보 수집 포드 및 전자광학/적외선 표적지시 포드도 운용할 수 있다.",
+      "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_4547.txt",
       "paragraph_index": 1,
       "source_sha256": "3743747ef317e32a5b858791e642bd31c6c6ee7640bf65b275450fd4a918dfc2",
@@ -83944,6 +84386,15 @@
       "previous_translation_sha256": "507e08ce266997e48e37c8c42209febacdaa3fa81851f275d0b7d3f81aedfe9b",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4883.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_502.txt",
+      "paragraph_index": 1,
+      "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
+      "translation": "세부 사항: 기존 F-16C/D에서 거의 2,500개의 부품이 변경되었다. 초기 KF-16은 F100-PW-229 성능향상형 엔진, ASPJ 내장형 전자대응 장비, APG-68(V)7 레이더, LANTIRN 표적지시·항법체계, AMRAAM과 HARM, SLAM 대함미사일의 운용 능력, 첨단 피아식별장비를 갖추었다. 이후 대한민국 공군이 JDAM 운용 능력을 추가했다. 대한민국 공군은 소프트웨어를 개발하고 3차례의 시험을 성공적으로 수행했으며, 2011년 1월 말에 조종사 훈련을 마쳤다. 한국의 JDAM에는 날개 키트가 장착되어 있다. 일반 JDAM에는 이 키트가 없지만, 보잉과 한국이 개발 중인 2,000파운드급 JDAM 사거리연장 키트에는 포함되어 있다. 한국의 F-16은 LIG넥스원의 ALQ-200K 레이더 재머와 그 밖의 국산 전술 전자정보 수집 포드 및 전자광학/적외선 표적지시 포드도 운용할 수 있다.",
+      "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_5094.txt",
@@ -84459,6 +84910,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_7117.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_7139.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2bd42ef17385b95ec09a73a8ed1bfdf88835ed22ec0a5ec9d394734d298211ad",
+      "translation": "세부 사항: J-15는 Su-33 기체를 기반으로 중국제 체계와 자국산 WS-10A 터보팬 엔진을 사용하도록 재설계되었으며, 최대속도는 마하 2.0에 가깝다. 랴오닝과 산둥 같은 항공모함에서 운용하기 위해 접이식 날개, 강화된 착륙장치, 착함후크, 스키점프 이륙 구성을 유지한다. 무장 장착점 12개를 갖추고 있으며, 중국제 레이더(모델 비공개), IRST, 내장형 전자대응 장비, 디지털 레이더경보수신기, 다기능 디스플레이를 갖춘 글라스 콕핏, 헬멧 장착 조준기를 탑재한다. 2022년형은 기존 AL-31F 엔진을 WS-10A로 대체하여 추진체계를 완전히 국산화했으며, 운용 지속성과 군수지원 자립성을 높였다. PL-8 및 PL-12 공대공 미사일, YJ-83K 대함미사일, LS-6 등의 정밀유도폭탄을 운용할 수 있다.",
+      "previous_translation_sha256": "2a681f59bd0000b22ee75fa15c8cc126f3eb6539c634de939b84d59d45eba01e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_7139.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_715.txt",
       "paragraph_index": 2,
       "source_sha256": "e117336bca7eb3ff2e26c429c7813bca92ddaba1e0507014fa7a87b63ab59dad",
@@ -84466,6 +84926,15 @@
       "previous_translation_sha256": "274d8d6b064284a1a15acf8129df15bd8c82f7f9e57ee8fb56cc85ab9e527c94",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2057.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_7203.txt",
+      "paragraph_index": 1,
+      "source_sha256": "4d8e37ecc28d4251c83d7ccef1385ae9690c95fdc2ed93ee9b74909a38a5c8f7",
+      "translation": "세부 사항: Su-30MKK는 Su-27UB 기체를 기반으로 개발되었으며, AL-31F 엔진 2기를 탑재해 마하 2.0의 속도를 낼 수 있고 공대공 및 공대지 임무를 위한 무장 장착점 12개를 갖추도록 설계되었다. 초기 기체는 러시아제 체계와 R-77, Kh-31, Kh-29T 등의 무장을 사용했지만, 2022년까지 중국 인민해방군 공군 부대는 PL-12, PL-15와 원거리의 고가치 공중 표적과 교전하도록 설계된 초장거리 PL-17 등의 중국제 미사일을 도입했다. N001VEP 레이더와 항공전자장비에는 이들 미사일의 통합을 가능하게 하는 중국 인민해방군 공군 전용 사격통제 개량이 추가되었으며, 여기에는 데이터링크 및 소프트웨어 갱신도 포함되었을 가능성이 있다. 그 밖의 탑재 체계로는 IRST, 레이더경보수신기, 기본적인 전자대응 장비, 중국제 헬멧 장착 조준기가 있다. 이 Su-30 파생형의 NATO 식별명은 플랭커-G이다.",
+      "previous_translation_sha256": "27d3ac7222ecf1ad46712a3d62c685a5acb7ec6198a95c5b0a83fc6c0a7ad1ec",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_7203.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_7297.txt",
@@ -84592,6 +85061,15 @@
       "previous_translation_sha256": "1550fee59b81a2ebfe36afba81030a879a3a8f1d9cf007ce6208c66ab961ca56",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_779.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_792.txt",
+      "paragraph_index": 0,
+      "source_sha256": "86b8b202119341342f3523ca3de873bf32f65d5a8d93c30037b0a08fb592ed43",
+      "translation": "더글러스 A-4 스카이호크는 미국 해군과 미국 해병대를 위해 개발된 항공모함 운용 가능 공격기이다. 델타익 단발기인 스카이호크는 더글러스 항공사가 설계·생산했으며, 이후에는 맥도널 더글러스가 생산했다. 처음에는 1962년 이전 미국 해군의 명명 체계에 따라 A4D로 명명되었다. 아르헨티나 해군 항공대도 A-4Q로 알려진 스카이호크를 구매했으며, 도입 물량은 A-4B 16대와 부품 확보용 2대였다. 이 기체들은 무장 파일런 5개를 갖추고 AIM-9B 사이드와인더를 탑재하도록 개조되었다. 1971년에 인도되었으며, 제3해군전투공격비행대대(스페인어: 3ra Escuadrilla Aeronaval de Caza y Ataque)가 항공모함 ARA 베인티싱코 데 마요에서 운용하던 그루먼 F9F 팬서와 그루먼 F9F 쿠거를 대체했다. http://en.wikipedia.org/wiki/A-4M_Skyhawk",
+      "previous_translation_sha256": "63678bd0ef5930e61df440c91d50addd1e651d61e54624c9f72fa0b450645a7a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_792.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_793.txt",
@@ -85141,6 +85619,15 @@
       "previous_translation_sha256": "6021e17526032b5155ae4e078508a4db989d33fdd85f12a7afbf662b8318de46",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1480.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_151.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b023c7b7733cb905cd4b2df99a916739718ab2bc6e2bb46e90a1f04188786768",
+      "translation": "세부 사항: AN/TPS-44는 경량 반도체식 이동형 D대역 공중감시 레이더이다. 미국 407L 전술항공통제체계의 전방항공통제소용 센서로서 세계 어디서나 사용할 수 있도록 설계되었으며, 전방항공통제소(FACP)의 구성 요소이다. FACP 운용 시 AN/TPS-44A는 작전통제장비, 통신장비, 대류권 산란 무선장비와 연동한다. 이 탐색 레이더는 위치 및 거리 지시 화면, 재밍 대응 기능, 그 밖의 체계를 갖추어 더욱 선명한 표시와 장거리 표적 탐지 능력을 제공한다. 레이더 장비에는 항공기 식별을 위한 피아식별(IFF) 장비도 포함된다. 반도체 회로는 체계의 신뢰성을 높이고 정비로 인한 가동 중단 시간을 줄인다.",
+      "previous_translation_sha256": "14140c40ed4c2812e25009e2077fff37e091817dfadd3e416bcc2fbf16068c07",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_151.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1619.txt",
@@ -85728,6 +86215,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_2132.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_558.txt",
+      "paragraph_index": 1,
+      "source_sha256": "036d9c2a319927dec41eec8363e6f5e12eeb580286c755c7fbab3f28afbf9496",
+      "translation": "세부 사항: JY-11은 D대역 피아식별 하위체계를 통합한 현대적인 고기동 레이더이다. 감시 공백을 보완하는 체계로 운용하도록 개발되었으며, 군용 항공교통관제(ATC)도 수행할 수 있다. 주파수 주사 및 표적 지시 능력을 갖추고 있다. JY-11은 방위각 방향으로 기계식 주사를 수행하고 고각 방향으로 주파수 주사를 수행하며, 장거리용 1개와 중거리용 4개로 이루어진 5개 빔 그룹을 사용한다. 이 5개 그룹은 총 14개의 전자주사 빔을 형성하여 수직 방향으로 30°의 탐지 범위를 제공한다. 장비와 기능에는 이중 지연파 구조를 갖춘 협빔·저부엽 안테나가 포함된다. 이 구조는 레이더가 100 MHz 간격으로 떨어진 두 하위 주파수 대역에서 작동할 수 있게 하여, 단일 대역에서 능동 재밍에 대한 대응 능력이 취약하다는 단점을 극복한다.",
+      "previous_translation_sha256": "f75670f50b4f91f89231cd29645d1ba80cc0ae07ab62158aae16474d170d6acd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_558.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_574.txt",
       "paragraph_index": 1,
       "source_sha256": "a360b268cd6836827fd04ec42e876b4409dfdecbce88172d6ca6fb3bb4d5c790",
@@ -85807,6 +86303,15 @@
       "previous_translation_sha256": "817aadcc72274efb59e882390f82d23b538e806cb308ffb4bdfd93ef56418298",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_900.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_908.txt",
+      "paragraph_index": 1,
+      "source_sha256": "0120c31abdd788af2772be1deb8bce2438aa997f3fac3c12bf36e6b7d854dec0",
+      "translation": "세부 사항: ZSU-23-4는 GM-575 완전궤도식 차체에 완전 안정화 포탑을 탑재한 구조이다. 포탑에는 2A7 23 mm 수랭식 기관포 4문이 장착되며, 각 포의 이론상 발사속도는 분당 800~1,000발(RPM)로 총 발사량은 분당 3,200~4,000발이다. 2A7 기관포는 ZU-23-2 견인식 대공포에 사용되는 2A14 23 mm 공랭식 기관포의 수랭식 파생형이며, 두 무기는 동일한 탄약을 사용한다. 실카는 일반적으로 포마다 500발들이 탄띠를 사용해 총 2,000발을 장전하며, 형식에 따라 차내에 2,000~4,500발의 탄약을 추가로 적재할 수 있다. 23 mm 기관포의 유효 대공사거리는 2,500 m이다. 포수는 보통 과열을 줄이고 탄약을 절약하기 위해 포마다 3~5발씩 짧게 점사하여 표적과 교전한다.",
+      "previous_translation_sha256": "9c129526b4f4e1de56749054f544feba6958345606bea299836756232bd0c8ae",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_908.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_982.txt",
@@ -85897,6 +86402,15 @@
       "previous_translation_sha256": "36ec04513f10f3571c3f368754ea624ca967744a029af713b5488bd4bfda987e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_24.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_1619.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b023c7b7733cb905cd4b2df99a916739718ab2bc6e2bb46e90a1f04188786768",
+      "translation": "세부 사항: AN/TPS-44는 경량 반도체식 이동형 D대역 공중감시 레이더이다. 미국 407L 전술항공통제체계의 전방항공통제소용 센서로서 세계 어디서나 사용할 수 있도록 설계되었으며, 전방항공통제소(FACP)의 구성 요소이다. FACP 운용 시 AN/TPS-44A는 작전통제장비, 통신장비, 대류권 산란 무선장비와 연동한다. 이 탐색 레이더는 위치 및 거리 지시 화면, 재밍 대응 기능, 그 밖의 체계를 갖추어 더욱 선명한 표시와 장거리 표적 탐지 능력을 제공한다. 레이더 장비에는 항공기 식별을 위한 피아식별(IFF) 장비도 포함된다. 반도체 회로는 체계의 신뢰성을 높이고 정비로 인한 가동 중단 시간을 줄인다.",
+      "previous_translation_sha256": "14140c40ed4c2812e25009e2077fff37e091817dfadd3e416bcc2fbf16068c07",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_151.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_1645.txt",
@@ -86480,6 +86994,15 @@
       "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
       "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
       "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1084.txt",
+      "paragraph_index": 5,
+      "source_sha256": "518d3067825418e5c76b78df09a15c652f4696bed640f0376a3214b047bcea3e",
+      "translation": "이 함정들은 광범위한 지휘·통신·통제 장비를 갖추고 있다. 이러한 전자체계는 상륙기동부대 지휘관에게 상륙돌격 임무를 지휘하는 데 거의 무제한에 가까운 유연성을 제공한다. LHA 전자체계의 핵심은 전술 상륙전 컴퓨터로, 함정을 떠난 상륙부대의 위치뿐 아니라 해안의 적 표적도 추적한다. 전술자료체계는 적 표적에 대한 아군 병력의 상대적 위치를 최신 정보로 파악하여, 자함뿐 아니라 지원함의 함포와 미사일에 대한 표적 지정도 지시할 수 있다. 또한 이 체계는 상륙 중 자함의 헬리콥터와 상륙주정뿐 아니라 전투 항공통제와 기동부대 지원함을 위한 공중 및 수상 교통관제도 수행한다.",
+      "previous_translation_sha256": "70154b334403254bf15e98610892165762d0e2c2c597f160c127fb8836f3ce0d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
@@ -88050,6 +88573,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_364.txt",
+      "paragraph_index": 5,
+      "source_sha256": "518d3067825418e5c76b78df09a15c652f4696bed640f0376a3214b047bcea3e",
+      "translation": "이 함정들은 광범위한 지휘·통신·통제 장비를 갖추고 있다. 이러한 전자체계는 상륙기동부대 지휘관에게 상륙돌격 임무를 지휘하는 데 거의 무제한에 가까운 유연성을 제공한다. LHA 전자체계의 핵심은 전술 상륙전 컴퓨터로, 함정을 떠난 상륙부대의 위치뿐 아니라 해안의 적 표적도 추적한다. 전술자료체계는 적 표적에 대한 아군 병력의 상대적 위치를 최신 정보로 파악하여, 자함뿐 아니라 지원함의 함포와 미사일에 대한 표적 지정도 지시할 수 있다. 또한 이 체계는 상륙 중 자함의 헬리콥터와 상륙주정뿐 아니라 전투 항공통제와 기동부대 지원함을 위한 공중 및 수상 교통관제도 수행한다.",
+      "previous_translation_sha256": "70154b334403254bf15e98610892165762d0e2c2c597f160c127fb8836f3ce0d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_37.txt",
       "paragraph_index": 8,
       "source_sha256": "3e672a6d3eb1efcde12c9b2abcc83d0b55100176d8700da39be7c371b93a5778",
@@ -88131,11 +88663,29 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_430.txt",
+      "paragraph_index": 5,
+      "source_sha256": "518d3067825418e5c76b78df09a15c652f4696bed640f0376a3214b047bcea3e",
+      "translation": "이 함정들은 광범위한 지휘·통신·통제 장비를 갖추고 있다. 이러한 전자체계는 상륙기동부대 지휘관에게 상륙돌격 임무를 지휘하는 데 거의 무제한에 가까운 유연성을 제공한다. LHA 전자체계의 핵심은 전술 상륙전 컴퓨터로, 함정을 떠난 상륙부대의 위치뿐 아니라 해안의 적 표적도 추적한다. 전술자료체계는 적 표적에 대한 아군 병력의 상대적 위치를 최신 정보로 파악하여, 자함뿐 아니라 지원함의 함포와 미사일에 대한 표적 지정도 지시할 수 있다. 또한 이 체계는 상륙 중 자함의 헬리콥터와 상륙주정뿐 아니라 전투 항공통제와 기동부대 지원함을 위한 공중 및 수상 교통관제도 수행한다.",
+      "previous_translation_sha256": "70154b334403254bf15e98610892165762d0e2c2c597f160c127fb8836f3ce0d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_444.txt",
       "paragraph_index": 1,
       "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
       "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
       "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_444.txt",
+      "paragraph_index": 5,
+      "source_sha256": "518d3067825418e5c76b78df09a15c652f4696bed640f0376a3214b047bcea3e",
+      "translation": "이 함정들은 광범위한 지휘·통신·통제 장비를 갖추고 있다. 이러한 전자체계는 상륙기동부대 지휘관에게 상륙돌격 임무를 지휘하는 데 거의 무제한에 가까운 유연성을 제공한다. LHA 전자체계의 핵심은 전술 상륙전 컴퓨터로, 함정을 떠난 상륙부대의 위치뿐 아니라 해안의 적 표적도 추적한다. 전술자료체계는 적 표적에 대한 아군 병력의 상대적 위치를 최신 정보로 파악하여, 자함뿐 아니라 지원함의 함포와 미사일에 대한 표적 지정도 지시할 수 있다. 또한 이 체계는 상륙 중 자함의 헬리콥터와 상륙주정뿐 아니라 전투 항공통제와 기동부대 지원함을 위한 공중 및 수상 교통관제도 수행한다.",
+      "previous_translation_sha256": "70154b334403254bf15e98610892165762d0e2c2c597f160c127fb8836f3ce0d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
@@ -88226,6 +88776,15 @@
       "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
       "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
       "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_502.txt",
+      "paragraph_index": 5,
+      "source_sha256": "518d3067825418e5c76b78df09a15c652f4696bed640f0376a3214b047bcea3e",
+      "translation": "이 함정들은 광범위한 지휘·통신·통제 장비를 갖추고 있다. 이러한 전자체계는 상륙기동부대 지휘관에게 상륙돌격 임무를 지휘하는 데 거의 무제한에 가까운 유연성을 제공한다. LHA 전자체계의 핵심은 전술 상륙전 컴퓨터로, 함정을 떠난 상륙부대의 위치뿐 아니라 해안의 적 표적도 추적한다. 전술자료체계는 적 표적에 대한 아군 병력의 상대적 위치를 최신 정보로 파악하여, 자함뿐 아니라 지원함의 함포와 미사일에 대한 표적 지정도 지시할 수 있다. 또한 이 체계는 상륙 중 자함의 헬리콥터와 상륙주정뿐 아니라 전투 항공통제와 기동부대 지원함을 위한 공중 및 수상 교통관제도 수행한다.",
+      "previous_translation_sha256": "70154b334403254bf15e98610892165762d0e2c2c597f160c127fb8836f3ce0d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
@@ -88505,6 +89064,15 @@
       "source_sha256": "04cef83dd2894351df329790dbbb58bfe5f76209c473ac3e0d609924daf52f4b",
       "translation": "세부 사항: 이 함정들은 해병대가 ‘전술적 완결성’이라고 부르는 개념, 즉 균형 잡힌 전력을 같은 시각에 같은 장소로 이동시키는 능력을 유지하도록 설계되었다. LHA 한 척은 완편 해병대 대대와 강습에 필요한 보급품 및 장비를 수송하고, 헬리콥터나 상륙주정으로 해안에 상륙시킬 수 있다. 병력과 장비의 공중 상륙에 중점을 둔 이러한 두 가지 수단의 운용 능력은 해군과 해병대가 오늘날의 임무를 수행할 수 있게 한다. 상륙부대가 무력분쟁에 참여하든, 불리한 정치 상황에서 억제 전력으로 활동하든, 인도주의적 임무를 수행하든, 이 함급은 전술적 융통성을 제공한다.",
       "previous_translation_sha256": "968405e21bdbba1eecee02c693f7af866c551465ead4b730dd91798521fd9056",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_676.txt",
+      "paragraph_index": 5,
+      "source_sha256": "518d3067825418e5c76b78df09a15c652f4696bed640f0376a3214b047bcea3e",
+      "translation": "이 함정들은 광범위한 지휘·통신·통제 장비를 갖추고 있다. 이러한 전자체계는 상륙기동부대 지휘관에게 상륙돌격 임무를 지휘하는 데 거의 무제한에 가까운 유연성을 제공한다. LHA 전자체계의 핵심은 전술 상륙전 컴퓨터로, 함정을 떠난 상륙부대의 위치뿐 아니라 해안의 적 표적도 추적한다. 전술자료체계는 적 표적에 대한 아군 병력의 상대적 위치를 최신 정보로 파악하여, 자함뿐 아니라 지원함의 함포와 미사일에 대한 표적 지정도 지시할 수 있다. 또한 이 체계는 상륙 중 자함의 헬리콥터와 상륙주정뿐 아니라 전투 항공통제와 기동부대 지원함을 위한 공중 및 수상 교통관제도 수행한다.",
+      "previous_translation_sha256": "70154b334403254bf15e98610892165762d0e2c2c597f160c127fb8836f3ce0d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1579.txt"
     },
@@ -90957,6 +91525,24 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3677.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3679.txt",
+      "paragraph_index": 1,
+      "source_sha256": "7d623afee87d471eea784a095808fe24a3c113bae51ee96b96b66a172beebc1c",
+      "translation": "세부 사항: 이 체계에는 두 가지 주요 대응 수단이 포함된다. -조카 재머(ZOKA 100-S/ED): 현대 어뢰의 운용 주파수 범위를 포괄하는 광대역 고출력 음향잡음 발생기이다. 수동 모드에서는 잠수함 소음을 가리고, 능동 모드에서는 반향을 이용한 탐지를 방해한다. -조카 기만기(ZOKA 100-N/ED): 탑재 수중청음기와 신호발생기를 사용하여 모함의 음향 및 운동 특성을 모방한다. 어뢰의 탐신음에 대응하여 실제와 유사한 반향을 제공하는 동시에 기만 기동을 더해 위협을 다른 곳으로 유인한다. 이 대응 수단들은 발사 전에 사전 프로그래밍되어 전술적 유연성을 제공한다. 발사 플랫폼으로는 아셀산의 잠수함용 자르가나 체계와 수상함용 흐즈르 체계가 있다. 효과는 수중에서 최대 약 1.9 km까지 지속되며, 이는 회피 기동에 필요한 시간과 거리를 확보하기에 충분하다.",
+      "previous_translation_sha256": "95b8c89039c7072f5348353f0a35d629e4f06f4d268266dfdcc104652894d29a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3679.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_3680.txt",
+      "paragraph_index": 1,
+      "source_sha256": "7d623afee87d471eea784a095808fe24a3c113bae51ee96b96b66a172beebc1c",
+      "translation": "세부 사항: 이 체계에는 두 가지 주요 대응 수단이 포함된다. -조카 재머(ZOKA 100-S/ED): 현대 어뢰의 운용 주파수 범위를 포괄하는 광대역 고출력 음향잡음 발생기이다. 수동 모드에서는 잠수함 소음을 가리고, 능동 모드에서는 반향을 이용한 탐지를 방해한다. -조카 기만기(ZOKA 100-N/ED): 탑재 수중청음기와 신호발생기를 사용하여 모함의 음향 및 운동 특성을 모방한다. 어뢰의 탐신음에 대응하여 실제와 유사한 반향을 제공하는 동시에 기만 기동을 더해 위협을 다른 곳으로 유인한다. 이 대응 수단들은 발사 전에 사전 프로그래밍되어 전술적 유연성을 제공한다. 발사 플랫폼으로는 아셀산의 잠수함용 자르가나 체계와 수상함용 흐즈르 체계가 있다. 효과는 수중에서 최대 약 1.9 km까지 지속되며, 이는 회피 기동에 필요한 시간과 거리를 확보하기에 충분하다.",
+      "previous_translation_sha256": "95b8c89039c7072f5348353f0a35d629e4f06f4d268266dfdcc104652894d29a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3679.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3787.txt",
       "paragraph_index": 1,
       "source_sha256": "f7b7703ac785fa4b95786f0ede1adf8626eaa112a0117d18c17bccdc2242c50c",
@@ -91915,6 +92501,20 @@
       "translation": "현재 아군은 베어 D의 해상 수색 레이더 탐지 범위 안에 있으며, 이미 대공 수색 레이더도 가동했다. 따라서 적이 아군을 탐지하고 레이더 방사 특성으로 정체를 추정했으며, 베어 D의 해상 수색 레이더로 위치도 정확히 파악했을 것이 거의 확실하다. 또한 이번 대공전 훈련에서는 곧 공중 위협이 접근할 것이다. 따라서 지금은 레이더를 꺼서 은밀성을 높이려 하기보다 레이더로 상황을 파악하는 편이 더 유리하다.",
       "review": "direct-original-html-node-review",
       "origin": "Scenarios/Tutorials/Surface Warfare Tutorial/SurfaceTutorial_3_Message_2.html"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4c179d943c6301bc99458061dd2db1fa67221e996224c96f9d6e727a9ba46c13",
+      "translation": "이스라엘의 존립을 위협하는 요인 중 가장 큰 것은 이란 이슬람 공화국이다. 이란은 건국 이래 이스라엘의 파괴를 외교정책의 핵심 원칙으로 삼아 왔다. 이란은 그 목표를 집요하게 추구하며 35년에 걸쳐 가능한 모든 방법으로 이스라엘 국가에 타격을 주거나 이를 파괴하려는 노력에 자금과 물자를 쏟아부었다. 이 가상 시나리오는 오랫동안 지속된 이러한 갈등이 어떻게 전면전으로 번질 수 있는지 다룬다. 최근에는 북한 문제와 인도·파키스탄 분쟁이 더 큰 관심을 끌었지만, 이란 핵 프로그램의 실상이 여전히 불확실하고 이를 둘러싼 논쟁도 격렬한 가운데 이스라엘·이란 갈등은 2019년에도 핵전쟁으로 번질 수 있는 잠재적 발화점으로 남아 있다. 이 가상 시나리오는 이 발화점에서 결국 충돌이 폭발할 수 있는, 가능성이 매우 높은 한 가지 경로를 다룬다.",
+      "review": "direct-original-html-node-review",
+      "origin": "Scenarios/Desert Storm/Assets/15. Israeli Counterpunch Desc.html"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6b167ebda793ae1862c69e3f276c3d5e4eb1c8c0e8b9d8160df428461f0192bb",
+      "translation": "이란은 지리적 거리와 군사력의 열세 때문에 전통적으로 헤즈볼라 같은 대리세력을 활용해 목표를 추구해 왔다. 2011년 이란은 대리세력에 물자를 더 쉽게 공급할 육상 보급로를 확보하기 위해 시리아 내전에 개입했다. 헤즈볼라에 대한 무기 수송으로 시작된 활동은 결국 미사일·로켓 공장 건설을 포함한 이란의 전방기지 구축 사업으로 확대되었으며, 생산된 무기는 헤즈볼라에 공급될 예정이었다. 이에 2018년 이스라엘 공군이 이란의 활동을 저지하기 위해 시리아 내 이란군과 시설, 지원 전력을 수시로 공격하기 시작하면서 직접적인 충돌로 이어졌다.",
+      "review": "direct-original-html-node-review",
+      "origin": "Scenarios/Desert Storm/Assets/15. Israeli Counterpunch Desc.html"
     }
   ]
 }
