@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9200,
+    "reviewed_source_entries": 9216,
     "review_outcomes": {
-      "modified": 7818,
+      "modified": 7834,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7834,
+      "scenario-ko.b64.tsv": 7850,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9212,
+      "runtime_first_lookup_passed": 9228,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -73660,6 +73660,134 @@
       "review": "direct-source-review",
       "batch": "revisions-404.tsv",
       "previous_translation_sha256": "d39789d660b74f74eec4ebda2b3f3c5bdf453f8f55928d829b92addd3c6f905c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "40dd305ead23cff46cd5b1f6921e941a0b607735a8dcbd0a5b1c0eb9d3d60370",
+      "translation": "2. 임무는 지휘하에 있는 요르단 공군기지 2곳의 프랑스·UAE·요르단 전력과 협력해 타파스 인근의 시리아 포병부대와 도시 주변 전투에 가담한 제4기갑사단 전력을 격멸하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "9d72c3476d8ce84ee14e38b26aac3b75c55b20b3211fb6af093824f6d802aa06"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d03c568c1bbe0fb8ae1536a7fd52fab6170760b986b830e3975b5b97b9a8a25c",
+      "translation": "대잠초계 임무: 교전 규칙(ROE)의 기본값은 자유 사격(Weapons Free)이다. 델타 IV급 이외의 표적을 공격하지 않도록 대잠 임무를 만들 때 이 설정을 확인하는 것이 좋다. 미리 설정된 임무를 선호하는 플레이어를 위해 몇 가지를 준비해 두었지만, 원한다면 자유롭게 바꾸어 플레이해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "edd73257faae239dffd3dc4d8e9add7a706832bee65abaa96d4cbfed5947bd53"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "db7addb51bb979662049b993b3bbaf4194b2784dcda4be12c17ca2ec9e19b03a",
+      "translation": "임무는 담당 해역에서 활동하는 다양한 수중 표적과 가상 적 잠수함을 탐지해 파괴하는 것이다. 제한 시간을 지키면서 센서를 활용해 수중 접촉물을 탐지하고 위치를 파악한 뒤 식별을 마쳐야 교전할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "6f96e2e010e9112ba383871c5dc0fc9e32312931adb15a65584a14cda8343d95"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f7ab4ac4f0a378a8afbfbe0a39cdc75b5d4f815005b81aee6d2e78de2f5b919a",
+      "translation": "중국의 영토 확장을 되돌리기 위해 파라셀 제도의 중국 전초기지, 특히 우디섬 비행장을 목표로 상륙작전을 실시한다. 임무는 상륙부대를 지정 위치까지 이동시키고, 해병대가 섬을 공격하는 동안 이를 보호하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "510886c8c15cb4c3da65065f12ae2f0c90320793ea73d276c260de2301ce5cdc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3a17bf990dafcbbd55d942b47662e229ba8297841b9220a5cdfc3cf5f3bfeacb",
+      "translation": "A. 미네유키(DD 124), 다치카제(DDG 168), 요시노(DE 223)로 구성된 아군 기동부대는 상선 8척을 대만 타오위안항까지 호위한다. 모든 선박이 전술지도에 지정된 항구 구역에 진입하면 임무 완료로 판정한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "7ae26120b0ea0b54402d447cdd23eaeae9e7b4c6ac9aa8d74d57a590e96d22e2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "483a1ba8d70488511cc5898d3a59d5df74098ad4c539469bc82d75427db166e1",
+      "translation": "데프콘 1. 교전 규칙 알파안이 발효되었다. 이 메시지는 NATO와 바르샤바 조약기구 사이에 교전이 시작되었음을 뜻한다. 지휘 당국의 명령이 없는 한 핵무기 사용은 제한된다. 휘하 부대의 안전을 확보하는 데 필요한 모든 조치를 취한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "b222f1bd294961553b262c752590f7ea4246a1a36f0bb03be385463492ce9e89"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f101a070870976137b83c7682a0b6a37a1fd01364982b98b65531f4a8a141031",
+      "translation": "동독 소해함들이 출항을 준비 중이므로 늦어도 2월 3일 02:00Z(030200Z FEB)까지 기뢰밭 조성을 완료해야 한다. 아군 해군 전력의 후속 통과를 위해 페마른 해협 남쪽에 좁은 항로를 열어 둔다. 기뢰밭을 최대한 보호하되, 소해함이나 소련 선단에 발포해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "ede326cfbdfb33dada92ea06f92721b566fd8f9f5318642078902a69cf28da29"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a1be58813544805ae6a4d5113bfaad246ae57b98375f19988f7c9db9709331d",
+      "translation": "가용 전력을 모두 활용해 임무를 완수한다. 수단군은 자국 영토와 러시아 기지를 격렬하게 방어할 것으로 예상된다. 작전을 개시하기 전에는 수단 해안선에서 최소 50해리 거리를 유지할 것을 권고한다. 그보다 가까이 접근하면 적대행위로 간주될 가능성이 높다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "19405467a26ba3426fca58cd569f9fbdaf6c4fd63c60f23d6ffbf4098e899108"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ac0cefcf914ff3cb879abf2e78e3fc4535231f89a18aa0e38b5d23bbc6bd0137",
+      "translation": "데프콘 2. 교전 규칙 베타안이 발효되었다. 이 메시지는 미국과 북아프리카 국가들 사이에 교전이 시작되었음을 뜻한다. 지휘 당국의 명령이 없는 한 핵무기 사용은 제한된다. 휘하 부대의 안전을 확보하는 데 필요한 모든 조치를 취한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "2e03e049ace9318927af1095dae9c6969aefe8f090713fbafebdd7272ed7cca7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f99f979a10875f32dd75cda292858815f305cfa08b0aea295c8d41859568c436",
+      "translation": "교전 규칙, 초계 구역, 임무 설정, 전술 등을 모두 플레이어가 직접 결정한다. 시나리오 시작 시 아군은 배치되어 있지만, 사전에 내려진 명령은 없다. 편의상 청군은 미국과 NATO를, 홍군은 소련을 나타낸다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "3969d4b323c1872999f005baf1e2ab77493dd648ccda56ff9575f0e43dd48ee3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "418ac6dc69e8e6b6f9b9b426ce9cb48eb22c90e7580cea3cf0822aca23ce8972",
+      "translation": "잠수함 2척으로 구성된 부대를 지휘하며, 무크란 페리항과 자스니츠항 입구에 기뢰를 부설하는 임무를 수행한다. 이를 위해 206A형 잠수함에는 외장 기뢰 탑재장치가 장착되어 있다. 승함한 SEAL 팀은 무크란의 하역용 연결교를 파괴해야 한다. 이 시설은 대형 복층 철도연락선의 하역에 필수적이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "f59d1c69baf3d7db85601f1f10d5dfa8e4cf52837e5ab6865efa258e893b63e2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d9bf6817809318e3ad3c4c3b1d5f996c5846cc059db857ad54ce47dbcd0d4f97",
+      "translation": "참고: 이 튜토리얼 제작 당시에는 미사일의 우회 경로가 무장 도달 예상 시간(ETA) 계산에 반영되지 않았다. 우회 경로 사용 여부는 ‘미사일 경유점 사용(Use missile waypoints)’ 교리 옵션으로 설정할 수 있다. ‘교리 및 교전 규칙(Doctrine & ROE)’ 메뉴의 ‘일반(General)’ 탭에서 ‘대수상전(Anti-Surface Warfare, ASuW)’ 항목을 찾는다. 이 설정은 지상 표적과 함선 공격에 모두 적용된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "769421cef09d040a1b22e9b07f6cc6926760ccbd40ce1ad18d36ffd3ec88a33e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b29b7bec17fdba85269a4c07bc419db49951f0f7c087a7a8c0ae30532bc35c09",
+      "translation": "접근 중인 소련 폭격기로부터 미국 태평양 북서부와 캐나다 브리티시컬럼비아의 도시들을 방어한다. 전략공군사령부(SAC)가 SIOP-63에 따른 공세 작전을 개시했으므로 이 임무를 지원할 급유기나 전자전 전력은 없다. 다만 반자동 지상방공체계(SAGE)에 따라 육군의 나이키 허큘리스 포대들이 아군 지휘하에 배속되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "04c81acf83d4ee33b13545f211b2f2a90c5e2fb11e07beb606ca7fac0543c04f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b0158449071acbe7bcc949287fe8b76e532a7781fd27c843258a64d19a6d41dd",
+      "translation": "플레이어는 특별 행동 2가지를 사용할 수 있다. 하나는 작전구역에 잠복한 AI 잠수함에 적 선박 공격을 허가하는 것이다. 실행하면 50점이 차감되지만, 적 선박을 찾아 격침하면 그 이상의 점수를 얻어 만회할 수 있다. 다만 실제 격침을 보장하지는 않는다. 다른 하나는 아르헨티나 공항에 있는 미국의 인적정보(HUMINT) 자산을 가동하는 것이다. 이를 통해 적 항공기의 이륙을 조기에 통보받을 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "304f01cf99715f5f5c8cfbbbdd9e591e43b23e8b567274ba7c4e1a8580a705b3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9160d6a25c3c361ca3b1e95c0eb55e4d026421622aef38b73cfa8f934e3bde7c",
+      "translation": "플레이어는 대서양함대 대잠전사령관(COMASWLANT)으로, 현재 제83기동부대 사령관을 맡아 노퍽 해군기지에 주둔하고 있다. 임무는 소련 잠수함을 탐지·추적하고, 필요하면 미국 동부 해안으로의 접근을 저지하는 것이다. 해군이 쿠바 봉쇄를 위한 비상계획을 준비하면서, 평소 가용한 호위함과 장거리 항공전력 대부분이 진행 중인 대쿠바 작전에 배정되거나 이를 위해 대기 중이다. 쿠바에서 발견된 소련의 핵미사일에 대한 공습으로 확대될 가능성도 매우 크다. 따라서 소련 잠수함, 특히 탄도미사일 잠수함의 위치를 파악하고 추적하는 것이 절대적으로 중요하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "a057a5809f469293b78c077e1b93028a586e558a249111d12ecac039846112b5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c603dd0122bd65f7439202430f15aea420a08b3e34dd303000dc1e6d251c76d0",
+      "translation": "4. 펀자브 지역의 무기 벙커를 파괴한다. 핵무기 보관시설일 가능성이 있으며, 피해 내구도는 600점이고 장갑을 갖추고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-405.tsv",
+      "previous_translation_sha256": "24d5268c17441aefec44c165b5f026f85f4b387f9a1e4ed0635e76cac4de0cce"
     }
   ],
   "whole_db_paragraphs": [
