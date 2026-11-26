@@ -54,13 +54,25 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 
 ### 번역 검수 현황 — 2026-11-26
 
-UI·지도 사전·시나리오 사전·DB 설명에서 중복을 제거한 71,229개 항목을 목록화하고 자동 검사했습니다. 이번 확장 작업은 2,388개 항목을 대상으로 문맥 교정, 제원표 복원, 원문 조건부 용어 수정을 반영했습니다. DB 2,037개 파일의 4,110개 문단 위치와 UI 90개 항목을 갱신했습니다. 시나리오의 교전·사격 금지 조건, 부대 편제, 탐색구조 절차와 긴 무장·센서 설명의 누락을 보완했습니다. 원문 자체가 손상된 부분은 추측하지 않고 표시했습니다.
+**전체 직접 검수와 문체 통일은 진행 중이다.** 아래 수치는 기준 커밋 `e5e47f8` 이후의 원문 해시 대조 작업이다. 과거 검사나 교정 통계와 중복될 수 있으므로 합산하지 않는다.
 
-Codex가 직접 문장을 작성하고 검수했으며 새 로컬 번역 모델은 사용하지 않았습니다. **전체 직접 검수는 아직 완료되지 않았습니다.** 현재 검수 기록은 직접 검수 1,214개, 용어만 교정한 항목 1,275개이며, 나머지 68,740개는 이 검수 기록에서 직접 검수 완료로 표시하지 않았습니다. 깨진 문자와 어색한 기계번역이 여전히 남아 있습니다. 자동 검사·용어 수정은 문장 전체의 의미와 자연스러움을 검수한 것과 다릅니다.
+| 항목 | 현재 검증 결과 |
+|---|---:|
+| 기존 UI·시나리오 사전 항목 | 64,976 |
+| 원문을 직접 읽고 검수한 기존 사전 항목 | 8,893 |
+| 번역 수정 / 기존 번역 유지 | 7,513 / 1,380 |
+| 이번 직접 검수에서 아직 다루지 않은 기존 사전 항목 | 56,083 |
+| 기존 사전에 없던 원문 보충 | 12 |
+| 실제 DLL 번역 조회 검사 | 8,905건 통과 |
+| HTML 문맥 변환 검사 | 135건 통과 |
 
-Community Scenario Pack 640개의 제목·브리핑 HTML 텍스트 7,250개를 조회 검사하고 누락 문구 53개를 추가했습니다. 사전과 정확히 일치하지 않는 19개는 약어·저자명·이메일·문장 조각 등을 포함합니다. 이 검사는 Lua 메시지나 첨부 문서 전체의 한글화·검수 완료를 뜻하지 않습니다.
+별도로 DB 전체 원문 12개 문단을 검수하고, 문단 해시가 일치하는 131개 위치에 적용했다. 위 사전 항목과 중복될 수 있어 합산하지 않는다. 지도 지명, 미복구 원문, 시나리오의 추가 메시지·첨부 문서도 전체 검수 범위에 남아 있다. 사전 검수 비율이 프로젝트 전체 완료율을 뜻하지는 않는다.
 
-기존 자동 검사 60개, GDI/DirectWrite 첫 표시 검사와 저장된 번역의 첫 호출 검사 2,392개를 통과했습니다. 실제 게임 전 화면의 재검증은 완료되지 않았습니다. 게임을 재시작하면 갱신된 사전을 읽습니다. 세부 현황은 [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json)에 기록했습니다.
+현재 교정은 별도 번역 모델을 호출하지 않고 Codex가 로컬 게임 원문과 문맥을 읽어 직접 작성한다. 기존 기계번역 초안이 아직 남아 있으며, 초안에 사용한 모델은 아래 출처 표에 기록했다. 설명·브리핑의 문체는 **다체(~한다/~이다)**로 통일하며, 이미 검수한 문장에도 소급 적용 중이다. 어미만 자동으로 치환하지 않고 가능·허가·의무·금지를 구분해 수정한다. UI 이름은 자연스러운 명사형을 사용한다. 문체 재검수는 아직 완료되지 않았다.
+
+사전 키와 DB 문단 구조, 패키지 파일 해시를 검사한다. HTML 검사는 실제 번역 함수의 출력 검사이며, 실제 게임 화면 전체를 확인했다는 뜻은 아니다. 영어 원문은 로컬 검수에만 사용하고 배포하지 않는다. 상세 항목은 [직접 검수 기록](reviews/2026-11-26-direct-review.json), 집계는 [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json)에 보관한다.
+
+시나리오 사전의 정확한 번역을 UI 번역보다 우선 조회하도록 수정했다. 예를 들어 `Clear`는 UI에서 ‘지우기’, 시나리오 날씨에서는 ‘맑음’으로 구분한다. 재현 스크립트는 [tools/fix-scenario-priority.py](tools/fix-scenario-priority.py)에 있다.
 
 ### 저작권·라이선스 및 비상업 목적
 
@@ -131,13 +143,11 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 
 ### Translation review status — 2026-11-26
 
-A total of 71,229 unique entries across the UI, map and scenario dictionaries and DB descriptions were inventoried and automatically screened. This expanded pass addresses 2,388 entries through contextual rewriting, performance-table restoration and source-constrained terminology corrections. It updates 4,110 paragraph positions across 2,037 DB files and 90 UI entries. Corrections restore engagement restrictions, unit composition, rescue procedures and omitted equipment details. Damaged source text is explicitly identified rather than reconstructed by guesswork.
+**Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 8,893 of 64,976 existing UI/scenario dictionary entries: 7,513 revised and 1,380 retained. Another 56,083 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
 
-Codex directly authored and reviewed the wording; no new local translation model was used. **The complete direct review is unfinished.** The current ledger records 1,214 directly reviewed entries and 1,275 terminology-only corrections; the remaining 68,740 entries have not been marked directly reviewed in this ledger. Corrupted characters and awkward machine translations remain. Automatic screening and terminology edits do not constitute full semantic or stylistic review.
+There are 12 supplemental source entries and 12 separately reviewed whole DB paragraphs applied at 131 source-hash-matching locations. The DB count can overlap dictionary reviews. All 8,905 runtime lookup cases and 135 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
 
-An exact-lookup audit covered 7,250 title/briefing HTML text nodes across 640 Community Scenario Pack scenarios, adding 53 missing translations. The remaining 19 unmatched nodes include acronyms, author names, email addresses and sentence fragments. This audit does not establish complete translation or review of Lua messages and briefing attachments.
-
-Validation passed the existing 60 automated checks, GDI/DirectWrite first-display checks and 2,392 first-call saved-translation checks. A full visual recheck of every game screen is still pending. Restart the game to load the updated dictionaries. See [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json) for the recorded scope and results.
+Current revisions are written directly by Codex against local originals, without calling a separate translation model. Earlier machine-translated drafts remain. Explanatory and briefing prose is being standardized to plain declarative Korean (~한다/~이다), including previously reviewed entries. Rewrites preserve permission, obligation and prohibition; endings are not replaced automatically. Short UI labels use natural noun phrases. This style pass is incomplete. English originals are used locally and are not distributed. See [the direct-review ledger](reviews/2026-11-26-direct-review.json) and [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json).
 
 ### Copyright, licenses and non-commercial purpose
 
@@ -159,9 +169,3 @@ No blanket MIT or other open-source license is granted to the entire repository.
 **If a copyright or licensing concern is raised, or a rights holder requests action, I will make this repository private and suspend distribution while reviewing the issue.** I will then remove or amend the relevant material, or take action in accordance with the rights holder's guidance. Please identify the affected files/passages and relevant rights when contacting me. Making the repository private cannot recall copies already downloaded or cloned.
 
 Contact: **lsj000777@naver.com** · GitHub: **dlwns147**
-
-### 원문 대조 추가 검수 진행 상황
-
-게임 원문과 사전 키의 SHA-256을 대조해 추가 검수를 진행하고 있습니다. 이번 작업에서는 8,872개 원문 항목을 직접 검수하고 실제 번역 조회 함수로 검증했습니다. 이 중 7,492개는 번역을 수정했고, 1,380개는 기존 번역을 유지했습니다. 전체 검수 완료를 의미하지 않으며, 이전 검수 통계와 중복될 수 있으므로 합산하지 않습니다. 상세 수정 기록은 [추가 검수 기록](https://github.com/dlwns147/cmo-korean-patch/blob/main/reviews/2026-11-26-direct-review.json)에 보관합니다. 영어 원문은 로컬 검수에만 사용하며 배포하지 않습니다.
-
-시나리오 문구가 UI 번역과 충돌할 때 시나리오 사전의 정확한 번역을 우선 조회하도록 수정했습니다. 예를 들어 `Clear`는 UI에서 ‘지우기’, 시나리오의 날씨에서는 ‘맑음’으로 구분합니다. 변경 재현용 스크립트는 [tools/fix-scenario-priority.py](tools/fix-scenario-priority.py)에 있습니다.

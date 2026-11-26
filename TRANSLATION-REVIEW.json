@@ -49,16 +49,16 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 8872,
+    "reviewed_source_entries": 8893,
     "review_outcomes": {
-      "modified": 7492,
+      "modified": 7513,
       "retained": 1380
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7509,
-      "db_files": 3887,
-      "db_paragraphs": 7140
+      "scenario-ko.b64.tsv": 7530,
+      "db_files": 3888,
+      "db_paragraphs": 7171
     },
     "source_recovery": {
       "matched": {
@@ -70,7 +70,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 8884,
+      "runtime_first_lookup_passed": 8905,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -85,6 +85,11 @@
     },
     "additional_whole_db_paragraph_reviews": 12,
     "supplemental_source_entries": 12,
+    "style_policy": {
+      "register": "plain declarative Korean (~한다/~이다)",
+      "retroactive_review_complete": false,
+      "automatic_ending_substitution": false
+    },
     "whole_db_paragraph_applications": 131
   }
 }
