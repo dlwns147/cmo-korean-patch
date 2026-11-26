@@ -49,16 +49,16 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 8964,
+    "reviewed_source_entries": 8976,
     "review_outcomes": {
-      "modified": 7582,
+      "modified": 7594,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7599,
-      "db_files": 3955,
-      "db_paragraphs": 7363
+      "scenario-ko.b64.tsv": 7611,
+      "db_files": 3961,
+      "db_paragraphs": 7393
     },
     "source_recovery": {
       "matched": {
@@ -70,7 +70,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 8976,
+      "runtime_first_lookup_passed": 8988,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -89,6 +89,13 @@
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
       "automatic_ending_substitution": false
+    },
+    "reviewed_dictionary_db_coverage_audit": {
+      "unique_pending_whole_paragraphs": 707,
+      "pending_locations": 707,
+      "covered_associations": 2110,
+      "unresolved_associations": 2,
+      "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
     "whole_db_paragraph_applications": 162
   }

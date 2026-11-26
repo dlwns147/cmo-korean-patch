@@ -2,16 +2,16 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 8964,
+    "reviewed_source_entries": 8976,
     "review_outcomes": {
-      "modified": 7582,
+      "modified": 7594,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7599,
-      "db_files": 3955,
-      "db_paragraphs": 7363
+      "scenario-ko.b64.tsv": 7611,
+      "db_files": 3961,
+      "db_paragraphs": 7393
     },
     "source_recovery": {
       "matched": {
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 8976,
+      "runtime_first_lookup_passed": 8988,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -42,6 +42,13 @@
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
       "automatic_ending_substitution": false
+    },
+    "reviewed_dictionary_db_coverage_audit": {
+      "unique_pending_whole_paragraphs": 707,
+      "pending_locations": 707,
+      "covered_associations": 2110,
+      "unresolved_associations": 2,
+      "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
     "whole_db_paragraph_applications": 162
   },
@@ -71757,6 +71764,102 @@
       "review": "direct-source-review",
       "batch": "revisions-387.tsv",
       "previous_translation_sha256": "8f3a87815d8f741d6838c8d281acdc70f41d20d689b982b548878d5a9ce6fcf2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b674935f8cdf4c7c8de54b4a9dc2aed699aa2fe4d31b903de09b0e7e4175a4c3",
+      "translation": "개요: AN/UPS-3 센트리 전술방어 경보 레이더(TDAR)는 이동식 단거리 2차원 조기경보 레이더다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "285c251add1433592de077637681ec69a5b0253aa5b05ceeb8134a3594a04511"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6ad878e27d3218291723ef51bbfcf337b37ab47fb18652e5f4c868822a89d2be",
+      "translation": "자료 작성·기여: CV60, apd1004, El Savior, Parel803, cdnice, artao5, filitch, PN79, ProdigyofMiltaryPride, Gunner98, ClaudeJ, Faceplate, Rams128",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "a9727e5655961bf613adbb9757a6ed791a3d81b1447def5d3296f95b6b096934"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "07d302110ab0217391cf4c178cdcd3bb4e0a38f4dfd66a5cbaaba942ab65e0f1",
+      "translation": "개요: MM.38 엑조세는 165kg 탄두를 탑재한 2단 로켓 추진 아음속 중거리 대함미사일로, 수상·지상에서 발사하며 레이더 유도를 사용한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "0382fb902494c639b7a7e981d6ae53941d18a53d2e02eb3d07769f2ce6be8f0b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6d1ab8b356c1a6f9224a6d202da6d2e6fe4bba1c4a331ef667be8c5d5a749f94",
+      "translation": "053K형은 2연장 발사대 2기에서 발사하는 HQ-61 지대공 미사일을 탑재했지만, 이 미사일은 1980년대 중반에야 실전 배치되었다. 100mm 함포의 도입도 지연되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "182af0c6128ae2815667e347b230182c3d76536b9a47cdbd730778fffdeda8c8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9d61098558d959420488f4a0baa7a313bdaf3923131cc4415bd147df200746b4",
+      "translation": "개요: 하이드라 70 로켓은 미 해군이 1940년대 말 무유도 항공 로켓으로 개발한 2.75인치 Mk 4/Mk 40 접이식 날개 항공 로켓에서 파생된 무장이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "7e451bc687137257332c70d5d8f726f34e45d9f19a53858cbd92b4a1dd223976"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7a392d331b68c990e567bc7044eb3c007bd247e680612fb5598e576f08c68c52",
+      "translation": "주파수는 180~210MHz(NATO A대역, IEEE VHF대역), 첨두출력은 25kW다. 펄스반복률은 초당 50~100펄스, 펄스폭은 4~12μs다. 정확도는 거리 200m, 방위각 1°다. 탐지거리는 레이더반사면적(RCS) 4m² 표적에 189해리, 0.1m² 표적에 54해리다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "a61d307d5e6a7ea61614c3146ea799d06ea8fd22efcf545cfaac358dffac2392"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b5e4076db9afa5836e73cc41a3e08ffaa745cca9ba7d989511bc613dbd4598b",
+      "translation": "주파수는 1.25~1.351GHz(E/F대역)다. 출력은 원문에 첨두 1.0MW, 평균 1.12MW로 기재되어 있다. 펄스반복주파수는 800·533·400Hz다. 분해능은 방위각 1°, 거리 0.9km다. 작동·정지 전환 시간은 알려져 있지 않다. 전개에는 40분이 걸리며 철수 소요시간은 미상이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "4011c1ea70e66d5fed3ae9aaa7bfb5ddc039ea202afa958d4c597580e702c841"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b6d49b0311334afd986478c448861b223fc9352120a69b8fa1203d5a559eb06",
+      "translation": "만재배수량은 23,384톤, 속도는 22노트다. 디젤엔진 1기로 1축을 구동하며, 20노트에서 항속거리는 10,000해리다. 승조원 127명 외에 헬기 분견대의 영국 해군 인원 45명과 민간 보급요원 36명이 탑승한다. 취역 기간은 1978년부터이며 종료 시점은 원문에 미상으로 표시되어 있다. 총 2척이 완성되었다. 적재능력은 원문에 값이 제시되어 있지 않다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "ec0d507a46eee2296fd04a55a79626c4b1cb58e47808ab8b80d6149d30e5cfa5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b804080b52c8804b81389a8e04a60c80f86d2018c7361ef8f59685c6f7fded22",
+      "translation": "무장: SY-1 함대함 미사일 6발, 100mm 함포 2문, 2연장 37mm 대공포 4기, 81형(RBU-1200) 5연장 대잠로켓 발사대 2기(로켓 30발), 3200형 6연장 대잠로켓 발사대 2기(로켓 36발), 62형 5연장 대잠 박격포 발사대 2기, 폭뢰 투하대·투사장치 2세트.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "3311877337ee003d5f01c32ff77ea5fb6752465e38e5d264bf5a18deb5534c8c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "85e13511e0b3751b9885d230dea52c76fbeeeaf4c0b18c2f96af8fa2e23f9874",
+      "translation": "엔터프라이즈는 원자로를 2기보다 많이 탑재한 유일한 항공모함으로, 원자로 8기의 추진체계를 사용한다. 각 A2W 원자로가 앞선 설계의 재래식 보일러 한 기를 대신한다. 다른 함급보다 2개 많은 방향타 4개를 갖춘 유일한 항모이며, 선체 형상도 순양함에 더 가깝다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "8b29a8ae63e0ef019bd904a0e7ed7ca349d188f938c7ced7b4517d031df468ff"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "198e7d4f46f28ef0fa2a034ee995f6e893b1328e5196e095e81d1436d4d16b2f",
+      "translation": "능동 주파수는 8~12GHz(NATO I/J대역, IEEE X대역), 첨두출력은 45kW다. 평균 펄스반복률과 펄스폭은 미상이다. 최대거리는 43해리, 고도는 63,300피트다. RCS 1m² 표적은 고도 1,000m에서 27해리, 0.031m² 표적은 고도 15m에서 7.0해리의 탐지거리가 제시된다. RCS 10,000m² 표적은 원문에 ‘레이더 수평선의 0.9~0.95%’로 기재되어 있다. 정확도는 거리 20~40m, 방위각·고각 0.16°다. 작동·정지 전환 시간은 3분이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "ad1bf5bb502e210c436f746258a88266162c5e0024cbc11acc310f2d86f8189d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "95691cb1d956ec8eda41b6539fc0ecd111ca700e579cc29a13bcea943d6dda6e",
+      "translation": "중량은 312kg, 길이는 5.01m, 미사일 직경은 0.255m, 날개폭은 약 0.560m다. 속도는 마하 5이며 원문에 3,333노트와 1,715m/s가 병기되어 있다. 사거리는 공기역학적 비행 표적에 1.6~43해리, 탄도미사일에 22해리다. 교전고도는 197~79,000피트이며 탄도미사일에 대한 최대고도는 66,000피트(20,000m)다. 재장전에는 30~60분이 걸린다. 최대 표적속도는 6,500노트, 격파 확률은 0.95다. 기동 한계는 지속 +20G, 단시간 30~40G다.",
+      "review": "direct-source-review",
+      "batch": "revisions-388.tsv",
+      "previous_translation_sha256": "19b8c4fcd8a77f5bf2c83cce921ba28f8c3589e0504a662df628a458eb285ced"
     }
   ],
   "whole_db_paragraphs": [
