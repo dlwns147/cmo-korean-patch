@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 10105,
+    "reviewed_source_entries": 10143,
     "review_outcomes": {
-      "modified": 8708,
+      "modified": 8746,
       "retained": 1397
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8716,
+      "scenario-ko.b64.tsv": 8754,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 10123,
+      "runtime_first_lookup_passed": 10161,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 190
+      "html_context_lookup_passed": 192
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -13570,7 +13570,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "4f9b913b92f83229d7e9a43ccf14b36e0fcaa1db5d916114832a84c8764187ed",
-      "translation": "댐의 두 구간과 주변 지원시설을 모두 파괴하라. 청나일강을 가로지르는 다리도 포함된다.",
+      "translation": "댐의 각 구간과 주변 지원시설을 모두 파괴하라. 청나일강을 가로지르는 다리도 포함된다.",
       "review": "direct-source-review",
       "batch": "revisions-024.tsv",
       "previous_translation_sha256": "c41b69664c231c420959ed8b5cce042fd5c37edeb9c135f0229788dc5389ae11"
@@ -80902,6 +80902,310 @@
       "review": "direct-source-review",
       "batch": "revisions-486.tsv",
       "previous_translation_sha256": "260ca6e2cc6ebfd45a90b2d99aec8c2dd701d628769f20b43f72b184dbff26f7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cb0ae66b11a4a19390cc43a873390b2bba94803ce34a6a50ad31f24b5d0587f2",
+      "translation": "사전 계획된 각 표적에는 여러 지정 탄착점(DPI)이 있으며, 가능한 한 많이 타격해야 한다. 대부분은 각종 사령부, 궁전, 통신 거점 등 지도부 관련 표적이다. 이와 함께 지대공미사일(SAM), 레이더, 항공기지를 공격하여 통합방공체계(IADS)를 더욱 약화시키려 한다. 표적 구역에 표시된 빨간색 DPI는 모두 유효한 표적이지만, 일부는 민간 피해 우려가 있으므로 주의하라. 모든 표적을 파괴하는 것은 사실상 불가능하다. 우선순위를 정하고, 지휘부가 원하는 만큼의 성과를 항상 달성할 수는 없다는 점을 받아들여야 한다. 현명하게 판단하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "81b1f679306836400460ef60c04ed36795c1418d89f962c93c86258dd8e036b4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a52910901196c257a403c2ab59ed5fb63f97c1bf0c5abdefbde4c8ae86881d64",
+      "translation": "F11을 눌러 임무 편집기를 열고 기존 임무 Extender Track을 선택하라. 다른 설정은 바꾸지 말고 Quid #80만 이 임무에 추가하라. 곧 이륙하여 해당 구역으로 향할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "746aa68d47189e706298e6db1aa69adfb809af52cab274579d3de0766669ed2b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cd7920de6f334cbd2ad633854c35b0e44839ccb5515d98874185d13bedf2f074",
+      "translation": "Tiger1의 9번 경유점 뒤에 새 급유 경유점을 생성하라. 생성한 경유점을 AAR Support 임무의 항로에 더 가깝게 옮겨라. 다른 경유점에서 급유를 비활성화할지는 자유롭게 선택해도 된다. 이번 튜토리얼에서는 결과에 영향을 주지 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "4de45c0976d21061228cf106e84a3e0a17a7c230f3aa61038bc234aae9b8af0e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "98bd6105f05caf5779eb9bf729ba065fb09004452983ebc3e99ef8572c808106",
+      "translation": "당일 작전에 배정된 무장으로 구성할 수 있는 유효한 무장 구성을 자유롭게 선택하되, 당일 할당량을 초과해서는 안 된다. 무장 공급은 제한되어 있으며, 특히 AGM-12와 AGM-62 같은 첨단 유도무장은 부족하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "bd9a7250a8fc747d2e53030062cabec0e3faa8de6b4fa2913eebf5d2a2776ad1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b37df2d4e1deeb7d7b44428f865029c07c1248dd42967969d234c6a5d633ec9",
+      "translation": "제77기동부대(TF 77)의 항공기 대부분은 하루가 시작될 때 무장을 탑재하지 않은 상태다. 항공모함이 타격선에서 임무를 맡기 전까지는 소수의 초계·탐색구조(SAR)·정찰기만 작전할 수 있다. 표적 목록을 검토한 뒤 주요 목표를 선정하고 가능한 한 빨리 항공기에 무장을 장착하라. 타격기 한 대가 출격 준비를 마치는 데 평균 6시간이 걸린다는 점을 명심하라. 당일 작전에 배정된 무장으로 구성할 수 있는 유효한 무장 구성을 자유롭게 선택하되, 당일 할당량을 초과해서는 안 된다. 무장 공급은 제한되어 있으며, 특히 AGM-12와 AGM-62 같은 첨단 유도무장은 부족하다. 아이언 핸드(방공망 제압) 임무용으로 집속탄과 AGM-45 슈라이크 미사일 등을 제한적으로 지급받으며, 보통 항공모함당 A-4E 비행대대 하나가 사용할 분량이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "0b1fb796bac605949b8e3ca9215b96d2f5f067c217c99f6949da73c09608dc8f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ca071011f1cd3c4d0c16420d2d56352063acc9a2da98c88f2e45fcb68c183a00",
+      "translation": "귀관의 임무는 다음과 같다…",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "e3db4d18870a2d9ee9f19832a8fa2e341c81ff969bdb10680171f43e70ce24ad"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "751b855d3af5da958b13b550fc126d2470ba0c066bb3ca2a2cf58e925fe99350",
+      "translation": "귀관의 명령은 간단하다:",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "1ffe4fd0124a063cf946985f5a486bbdd6c237de57a6b22fe20185b7f6261646"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "426fa7b936bfb7cfd02c4ee18c7ace266554ebc28f6a39ee642ba0fd07fd0f7f",
+      "translation": "귀관에게 주어진 명령은 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "87e7eb987d6172e6312f11254625f9a0c1fb943d30f83a8b8eeaa7de52d2fd30"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a8e980210ba225143f2600c5630b9ecc0dc7a2dd2dac5161aad8aca85a4fc12b",
+      "translation": "2. 명령: 방어선을 사수하라",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "fd3d953f55f4d46c267c939ad57ff8663e5cbae047e1b9943c16e473fc1e9bbb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6617aeaa88a247bd7589c48386e60694b2953891b16833d6fe23228f18f8c5d8",
+      "translation": "귀관에게 주어진 명령은 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "87e7eb987d6172e6312f11254625f9a0c1fb943d30f83a8b8eeaa7de52d2fd30"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "422878ae65a3dfaa141a98256ab7eeb23b0b9e9fa1df63d276ffe40c7b050826",
+      "translation": "핵무기만 사용이 제한되며, 미 대서양사령부(USLANTCOM)의 명령이 있어야 사용할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-487.tsv",
+      "previous_translation_sha256": "a655a756e7e616aceef064f7fb667140fb38d770394286367951129cd557f110"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0c9fa5fddb9cdd8d3496479bd1b94c0ba55d35e838525ca7439c542360702039",
+      "translation": "1. 귀관의 임무는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "e32086fa56c0d8c18c8efeb6c819937c6fbf7a7d5c6ec1e68b24ff03261dfff4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6bbc58d13f5e8af11de0eb6ba0ada9f35eb5963a4fce6f7154e7ad8a199460de",
+      "translation": "이집트 남부의 아부심벨 공항에 전개한 이집트 전력으로 손실을 최소화하면서 그랜드 에티오피아 르네상스 댐(GERD) 현장을 타격하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "f39a0b4270e80826b9251298efb7eff8bf0ff52d61411333a0b699da4ee75003"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "00ff2e3d3c688d7ec46b842f1c28d6f55fb5918e1ebcff460c3ca3ea76735382",
+      "translation": "3. 작전 지원에 사용할 수 있는 급유기가 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "ab248f4e05d95bc284ac0b616e6ddada31dbc4a8e44772e51dbac48f78968393"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "09ce167a6906e84763b50119a77c74eac169f9b49f90a1b136adc88c66fba4f2",
+      "translation": "초기 단계에서는 먼저 공격받지 않는 한 어떤 무장도 사용해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "89d87a14a09cca023d8e5c8be4a424d6e5d719dc9f9a3d7f10a4feefe90c42db"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "73bb368e39883b2123530ec0dada8ed5d9d169a2058815e90b6a4246928e31f2",
+      "translation": "상급 지휘부의 추가 지시가 없는 한 핵무기 사용은 허가되지 않는다. 반복한다. 허가되지 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "d946fa189ef2b3c38f7c6fe4b9bbaeac2fcc62870d9af55d96d14e151c7137c2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "16f8eb5cfddb0f445bf0a219e2b4edef91ab9c62841fc76876a26692472fe519",
+      "translation": "4. 상급 지휘부의 추가 지시가 없는 한 핵무기 사용은 허가되지 않는다. 반복한다. 허가되지 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "ccd03911cf4826d8bab5bbce20fca796e021efec50a9e1222d7db6b679111312"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ae9b47cb0a8c350824eabaad0f15a49590752d37af5f831b7135a14ca8b15ee5",
+      "translation": "5. 상급 지휘부의 추가 지시가 없는 한 핵무기 사용은 허가되지 않는다. 반복한다. 허가되지 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "6fc23637338f0a37951353f2479da83baebf55163adfa8634fd43ea7a3c73a7d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ccd5e0d38102303355ef33fd5bca8138cd48f31bc1cc482e8b769830644de636",
+      "translation": "명시적인 공격 명령을 받거나 공격받는 경우가 아니라면, 어떤 상황에서도 소련 잠수함에 사격해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "b2721b21404c8602bb9544006bd294cc74f52c5d6b72c7ecf58d48857a032e44"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "02e5efd4ebd30bff9791d5413543bfa09e8720caf9ced1eb175325cc6c70f359",
+      "translation": "시간: 초기 단계는 04:00까지 지속된다. 초기 단계에서는 먼저 공격받지 않는 한 어떤 무장도 사용해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "d6ccbf80899c90074bd12d479fb99a42a40e3fc0b56c0f982fff23ee804246ad"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5f547c965e69a2e95e21746c980f7a334724e287bc7dd0bb6fda25191401452a",
+      "translation": ": 임무 지원을 위해 배속된 전력이다. 비상 상황이 아니라면 베네수엘라 영토에 진입해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "3b23ed8e2b76ee28d380f1ebf1bce9208a228d9cc279d7d81b21d937dbd0e6a4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "29257a0736bd68570bf0e17f90f66e7fd9ce6df8346d5f09a84c7cd105c4483b",
+      "translation": "수집한 정보 데이터를 실은 RB-47을 최소 1대라도 온전하게 툴레 공군기지로 귀환시켜야만 임무를 완전히 성공한 것으로 인정된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "c80df0542344588e4ef25c2aa8a56ca2affc09a618f7cbb071ee31eff37e167a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5aef8951f3c7e2ba17de97900329f022ad47c90bc774ba595b0ae2bb8c102dfe",
+      "translation": "적 고속초계정(FPB)들은 구축함 함포의 유효사거리 안에 들어오면 아군 오사를 피하기 위해 교전을 중단할 것으로 예상되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "aa82c1f6f8d4b692b3a0729b58384df8c82e5e5f55abcba29f741451c02d48d1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "77d315b2f8a1b865eaeefc3b2d353fe12906b21ac0fb90c45a08256c03f8ab8a",
+      "translation": "D. 작전 제한: 중국과 소련 영공 진입은 금지된다. 현재 특수무기 사용은 허가되지 않았으며, 사용할 것으로 예상하지도 않는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-488.tsv",
+      "previous_translation_sha256": "d42cae3379eb35956a9afbf350e476ced29b2a9dace74865c44b1a739e22dc89"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "620943d1dc9c9f5f6fb1f0a8c43889c837c679fbe2a2622f1d5a2d6cca30ebbc",
+      "translation": "귀관은 기함의 지휘함교에서 핵심 참모들과 함께 전체 상황을 파악하고 있다. 약 20분간 보고를 들은 뒤 상황을 정리한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "a0d88d85862904967a03ede48f5f16ba2cd85672ff7a2b115a010ba4aa3692e8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "53ea0f65396e7a0c87e009681b10df5bdd7dd6fe166af478b7514f1d7627f58e",
+      "translation": "좋다. 현재 상황을 정리하면 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "6ea0ab78da1dad4bb610a49077673c320cfd9c58351bd96b660b2eb6fcaff6d8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "97f66c021a8d6cc30fb69a8787ae897d13b3dbb32f4c6e16a1ac120926562c64",
+      "translation": "32분 전 제3",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "8ba65504ecff63ce16198a29467e516bb629f6ebc542c5c8f728d0eb2afb5c29"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "baf3a003926256988f9685956c12715f8975175ef2e477ee38323fb1d5937281",
+      "translation": "함대에서 경고 메시지를 받았다. 내용은 매우 모호했지만, 일본 주변의 전력을 증원하기 위해 최대 속력으로 북상하라는 새로운 임무가 주어졌다. 증원 대상은 제7",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "7a1a95a6f1e654a597f732a6bebb9bc672ceb5182d8c04b9a7ab3eacd300079f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c8389e43c6a73019f70d7f80ad5ab1190dcebe5afaa7b0b6a32376f8a347a859",
+      "translation": "함대다. 다만 북상하기 전에 보급전단과 합류하여 연료를 보충해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "c28be3b53648078db8d8642fa7a16620c15140cf3dc22f8d28bcbcaa9d655fee"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9179c960e78f356f9f1de85bcf045ba919c5b231e3f9929b99a9f1b5d94470c2",
+      "translation": "다음 장애물은 아군 북동쪽 300마일 지점에 갑자기 나타난 소련 항모전단이다. 대체 또 어떻게 이런 일이 생긴 것인가?",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "6855528ce73d6b4ebd41bd20c218f5d10ed08f2eeb788d1d023e6e0e448f9817"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0287e0a013133f7ba99b86a5569ddcddc0a4cadd96229ee9f7d86db98a52fc31",
+      "translation": "3. 다른 지시가 없으면 1957년 5월 2일 12:00Z까지 초계하라. 그 시각에 전력을 북위 60도, 서경 15도로 이동시키고 새 명령을 기다려라.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "01f7824ff8fdc3462053a4d03f39569c28c03a3fb2b86dc581fbffb59bb48acb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a25232acb7e9ac515fd01fc2ff84813b5b77df0c03297fe060843d36fb0a9b7f",
+      "translation": "최근 도착한 F-15와 F-16의 수가 정보기관의 추정치보다 많지 않다면, 가시거리 밖(BVR) 교전에서는 아군이 약간 우세한 것으로 보인다.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "dfa3931d3fda3a70f7e8730ff09081cb2d9c29d221a0ac66eb1ca26d194a5f78"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ba8818aeb6cd651adc87028815753def7f4e4c63fb82e224752826aadf8fd659",
+      "translation": "소련군이 먼저 사용하지 않는 한 특수탄 사용은 허가되지 않는다. NATO는 특수무기의 선제 사용을 피하고자 한다는 점을 명심하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "86a0ce01211ae1695856eb77227aa339040eeaf16b551eee1cc257ce389509ce"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e8b60516d3dce4e7d5d9c4063b564c4256d352129ac4e68c769f289981d6c980",
+      "translation": "임무의 일환으로 영국으로 이동하는 이들 부대 대부분은 이번이 첫 전투가 될 것이다. 아군이 공역의 위협을 제거해 주기로 동의하지 않으면 이동하지 않겠다고 단호히 거부했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "e8c3f6f145740af08ad8278bc58944c1a02ad053b34d6d2fea2b41fc054e2729"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "646e664f059c806bed078a8459a9a534c1fbcd66216cd6ff2d5e86fada4c6f1c",
+      "translation": "수집한 정보 데이터를 실은 RB-47을 최소 1대라도 온전하게 툴레 공군기지로 귀환시켜야만 임무를 완전히 성공한 것으로 인정된다. 따라서 귀환 도중 소련 방공군(PVO)의 초계에 주의하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "7cfdb183d15f889cfa763dae88d2efafa3f07b93e074a63fa39661191fcf4740"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2c4f03678794e8f14d411629329e6517c95bd1e80f5e51ca80b1fde5473a5c0d",
+      "translation": ": 명령을 내리거나 아군 전투서열(OOB)을 확인하기 전에 반드시 시나리오를 최소 1초 동안 진행하라. 전력 배치를 무작위로 정하는 이벤트가 먼저 실행되어야 하기 때문이다. 이벤트가 실행되는 즉시 안내 메시지가 표시된다.)",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "2f79f0919bd0c959a9ead4b5a5369be033a946636ebed059ec44f12026595573"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a557f7c643f3bccbf58e4a3d36b63c69e14742fb7ccd9fcf9c668747c12680f",
+      "translation": "1단계: 호위 중인 고속초계정(FPB) 집단을 회피하는 것이 우선이다. 회피할 수 없다면 40mm 함포로 교전하라. 적 고속초계정들은 구축함 함포의 유효사거리 안에 들어오면 아군 오사를 피하기 위해 교전을 중단할 것으로 예상되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "f940b7ac7f173cd209ea3d3d5c91048ab8be86358f484d090c62969746a46c6a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0e296a07ed534f694237e8c7bd4ef5afdb00a3f802a144ed8df2805790a4fc91",
+      "translation": "미국은 베네수엘라에 군사적으로 개입하여 민간인 사상자와 부수적 피해를 최소화하면서 마두로의 군대를 파괴하고, 이를 통해 그의 국내 영향력을 약화시키기로 결정했다. 현지에 발이 묶인 미국 국민의 대피가 최우선 목표이며, 다른 군사작전이 본격화되기 전에 완료해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-489.tsv",
+      "previous_translation_sha256": "85a5c2e62b7a8a55835083d0af9f1aa029cf8552cb46ca7469bb260fd4f9745c"
     }
   ],
   "whole_db_paragraphs": [
