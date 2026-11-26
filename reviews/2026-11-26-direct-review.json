@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9399,
+    "reviewed_source_entries": 9403,
     "review_outcomes": {
-      "modified": 8017,
+      "modified": 8021,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8032,
+      "scenario-ko.b64.tsv": 8036,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9411,
+      "runtime_first_lookup_passed": 9415,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -75252,6 +75252,38 @@
       "review": "direct-source-review",
       "batch": "revisions-418.tsv",
       "previous_translation_sha256": "cfac2564fe281d1be85d8e6e588dce7aa1e8aaa11edbf4be734334a8acb665ea"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "abb4511b77b607dd4f84e8ce3383a0081b96f3b3a6bd6c02bf9c55fd95700f5f",
+      "translation": "총승점이 마이너스인데도 ‘승리’하는 것이 이상해 보일 수 있지만, 이는 NATO의 작전 상황을 반영한 것이다. 임무는 아군 전력을 최대한 보존하면서 소련군을 가능한 한 오래 지연시키고 큰 피해를 주는 것이다. 특별 메시지 팝업(Special Message Pop Up)을 반드시 활성화한다. 이 메시지로 세계 정세와 시나리오 상황을 파악할 수 있다. 또한 교전 개시 전 발생하는 손실에 대해 특별 메시지 팝업을 받을 수 있도록, 교전이 시작될 때까지 ‘유닛 손실(Unit Lost)’ 팝업은 비활성화한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-419.tsv",
+      "previous_translation_sha256": "29ba8e19ec54f21afce85cadd0e4c3b5a75e672eb468942d526dfe5dca631463"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e0aeb6bc44e6602dd92fe4107784fc3030e7697ad8ee7b5f53eb5e9806240c82",
+      "translation": "NATO 플레이어는 보급 때문에 수백 마일에 걸쳐 분산된 전투단(BG)을 재집결시키고 보강해야 한다. 함선 2척은 툴롱에서 긴급 수리를 마친 뒤 아직 지중해에 남아 있으며, 주력은 고속전투지원함 디트로이트(AOE Detroit)를 호위하면서 로타를 막 출항하고 있다. F/A-18 대부분은 스페인 로타에서 성능개량을 받는 중이고, 손실 보충 기체는 내일 오세아나 해군항공기지에서 날아올 예정이다. 마지막으로 아이슬란드 타격 준비를 위해 지정 집결 구역에서 HMS 포트 조지와 합류해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-419.tsv",
+      "previous_translation_sha256": "c26f9cb3a5beeca3ad24a5812afb8cc1f10f444d5a3d048dae23217ffb19df7e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "aa47449f9142b12aedc0a27b9a565b4e6ca36b0cf338ea3a8a3b70bdef6656a0",
+      "translation": "이 시나리오는 양측으로 플레이할 수 있다. 러시아의 임무는 바나크에 공수부대를 강하시키고 노르카프 인근에 해군보병을 상륙시키는 것이다. 별도의 화물 수송 임무는 사용하지 않는다. 대신 상륙함을 Nordkapp Box에 6시간 동안 머무르게 하고, IL-76을 기체별로 바나크 인근에 5분 동안 머무르게 하면 점수를 얻는다. 공중강하를 구현하기 위해 바나크에 도달한 IL-76 1대당 공수부대 유닛 1개가 해당 위치로 이동 처리된다. 이때도 구역 안에 5분 동안 머물러야 한다. 잠금 설정된 기준점은 유닛 이동 처리와 승점 관련 작전·이벤트·행동에 필요하므로 삭제해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-419.tsv",
+      "previous_translation_sha256": "665a3d3fc5a5deac54e886077824177c7a01b92eed9253914fafd7864a8d0a90"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "215ce00a42191e557cf667c5523df3796e9c4c338a0ee04fcd6419c95b33b9c2",
+      "translation": "중립 통행을 구성하는 데 여가 시간을 들여 2주가 걸렸다. 실제 선박을 반영했으며, 선박 항로와 항공기 비행경로는 AIS Marine Traffic과 FlightAware 자료를 참고했다. 중립 대상을 파괴하면 무고한 인명 손실로 세계 여론이 양측 교전국 모두에 등을 돌리므로 양측 모두 불이익을 받는다. 해역에는 비교전국 군함도 있으므로 사격 대상이 무엇인지 반드시 확인한다. 전장의 불확실성 때문에 누가 비교전국 선박을 파괴했는지 알 수 없어 양측 모두 점수를 잃는다. 전쟁이 핵전쟁으로 확대되지 않는다면 언젠가는 기록과 화면을 검토해 누가 비교전국 군함을 격침했는지 밝혀내겠지만, 시나리오가 진행되는 동안에는 그럴 시간이 없다. 그 판단은 훗날 역사의 몫이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-419.tsv",
+      "previous_translation_sha256": "29423450b80d432004de89b78caa5ba831b976c9e00e279564e6963fcdae0f7c"
     }
   ],
   "whole_db_paragraphs": [
