@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9808,
+    "reviewed_source_entries": 9842,
     "review_outcomes": {
-      "modified": 8419,
-      "retained": 1389
+      "modified": 8451,
+      "retained": 1391
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8432,
+      "scenario-ko.b64.tsv": 8464,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9823,
+      "runtime_first_lookup_passed": 9858,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 161
+      "html_context_lookup_passed": 170
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -37,7 +37,7 @@
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
     "additional_whole_db_paragraph_reviews": 479,
-    "supplemental_source_entries": 15,
+    "supplemental_source_entries": 16,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
@@ -66474,7 +66474,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "755d713956fadd56f58b91694e644755ae0e19bcd4f4d0aaf35f542370860b3a",
-      "translation": "대규모 국제 위기가 발생해 NATO와 바르샤바 조약기구의 외교관들이 전쟁을 막으려고 분주히 움직이고 있습니다. 그러나 교전이 시작되면 핵무기 사용으로 확대될 수 있습니다. 귀관의 임무는 경계를 강화하고 적극적으로 추적하는 대잠전력에 맞서 오랫동안 탐지되지 않고 생존하며, 미국 심장부를 타격할 준비를 유지하는 것입니다. 승조원들은 가능한 최고 수준으로 훈련시켰습니다. 그 훈련이 NATO 대잠전력의 숙련도와 장비 우세를 상쇄하기에 충분하기를 바랄 뿐입니다.",
+      "translation": "대규모 국제 위기가 발생해 NATO와 바르샤바 조약기구의 외교관들이 전쟁을 막으려고 분주히 움직이고 있다. 그러나 교전이 시작되면 핵무기 사용으로 확대될 수 있다. 귀관의 임무는 경계를 강화하고 적극적으로 추적하는 대잠전력에 맞서 오랫동안 탐지되지 않고 생존하며, 미국 본토 중심부를 타격할 준비를 유지하는 것이다. 승조원들은 가능한 최고 수준으로 훈련시켰다. 그 훈련이 NATO 대잠전력의 숙련도와 장비 우세를 상쇄하기에 충분하기를 바랄 뿐이다.",
       "review": "direct-source-review",
       "batch": "revisions-336.tsv",
       "previous_translation_sha256": "14ffa74c8a3ceaa5392c504213ea8b2426a33a29dea6d60008455d41abe27f33"
@@ -78526,6 +78526,278 @@
       "review": "direct-source-review",
       "batch": "revisions-453.tsv",
       "previous_translation_sha256": "a942d3fd8eb7e95591861f6b026afbed945e86ef287a7fe62abdce672ca52d30"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4db169fe1c3ad3b6abc8331f83b89f1e37475df6d12df29dd918bb3657194d6b",
+      "translation": "UHF 위성 링크",
+      "review": "direct-source-review",
+      "batch": "revisions-454.tsv",
+      "previous_translation_sha256": "f71c33e316c464e85f75cddce21683fe2db2eb4f4204056a3d83913fbad4374b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9ffa09373b3ad3b18290b41dfc8f43e6048f825119fc5c4e7f558912113a4150",
+      "translation": "는 잠수함이 UHF 데이터링크로 접촉 정보와 기타 정보를 공유할 수 있게 하는 기술이다. UHF로 많은 데이터를 전송할 수 있지만 신호는 물을 통과하지 못한다. 따라서 이 기능을 사용하려면 잠망경 심도에서 위성 안테나를 올려야 한다. UHF 위성 링크를 활성화하려면 잠망경 심도(-66피트/-20m)로 올라와 '위성 안테나 마스트 올리기(Raise the Satellite Antenna Mast)' 특수 행동을 실행하라. 잠망경 심도 또는 그보다 얕은 심도를 유지하는 동안 아군 유닛과 접촉 정보가 공유된다. 잠망경 심도보다 깊이 잠항하면 약 15초 뒤 UHF 위성 링크가 끊기며, 이후 외부에서 받은 접촉 정보의 정확도가 떨어지기 시작한다. 나중에 위 절차를 반복하면 다시 연결할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-454.tsv",
+      "previous_translation_sha256": "0bbd18cd0d0f32e45f5ee31b6ba06049e2e055ee07feb6f206b59a14561d50ac"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "07759996ab95f45d610f576f98c219b0b525404fa3faf5d0686e61b5da29a60c",
+      "translation": "시나리오 종료",
+      "review": "direct-source-review",
+      "batch": "revisions-454.tsv",
+      "previous_translation_sha256": "c83518daac65f11113db6f590f6345a7a1cfd3b6e3df754073a974dffbb5c54c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "90ddb68e174112d2491017e5e17731c7e2b34d445cd4f6daaf3b5f96b43fca3c",
+      "translation": "는 표적을 파괴한 뒤 서쪽의 안전 구역으로 이동하거나, 한 시간 넘게 연속으로 탐지되지 않은 상태를 유지하면 가능하다. 안전 구역은 활성화되면 지도에 표시된다. 상황에 맞춰 전술을 선택하라. 전속력으로 달아나는 것이 나을까, 근처에 숨는 것이 나을까, 아니면 두 방법의 장점을 살릴 계획을 세울까? 임무는 탐지되지 않는 것이지만, 발각되었다면 살아서 귀환하는 것이 그다음 우선순위임을 기억하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-454.tsv",
+      "previous_translation_sha256": "498c1f658997700792a9a86e8ecf64a022dff7e05174a454350fd017222264b7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "237125f550484c37c43fe7cd9ecc6523a544ee15d110b1e9a5b97cd77af3dbba",
+      "translation": "자유사격(Weapons Free)이 허용되지만, 발포 전 표적 식별은 필수다. 중립 선박도 이 지역을 ",
+      "review": "direct-source-review",
+      "batch": "revisions-455.tsv",
+      "previous_translation_sha256": "d060ecfa2b6fa641cda90905dd1560029978f1dc4152cc39e728da4920fa6a35"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dc5ed5938a279d30104dc870e263ac9382eb868edc4106e84dec183713250ed9",
+      "translation": "통과하고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-455.tsv",
+      "previous_translation_sha256": "39cd79b67d8a73e6dd770d026ea6f2ed3bdc5d6219032dddfaf20d835c8430e8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3ca527e967c8e3356ddb007485267d5ecd2e6d9f1659dbef7145914445041f33",
+      "translation": "행운을 빈다!",
+      "review": "direct-source-review",
+      "batch": "revisions-455.tsv",
+      "previous_translation_sha256": "e9365091f2ada66324285fd3e6777c012007ead3e894501ae2560d54ba1199fd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b02f8b35b39648c70d63fd508cd4542e7b6995feb93d9088befcbca1c55498ca",
+      "translation": "특수 메시지와 팝업 메시지가 활성화되어 있는지 확인하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "2e425e76efcfd67df53d3f63ff3ea846ba5d5ad1ef88e32af33bde772abf4ea1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "69515a9eafb40b17b9170007e94f1523a626004ffd4d1be9ff35d78cb6a22333",
+      "translation": "중국 해군 진영의 교리는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "ead3b37e31db7cf3205e0e022d2b911d118cac3dc3a7b8bd8d0474d02cdc44b6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f4735353435f2c56ee4ddbf1762be265ef101460d733e894b32e34b726f7eb7",
+      "translation": "일부",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1b4d80b4b56193d286a2097275157c8252c5f8e215bd262366d6534356d60628",
+      "translation": "만 설정해 두었으며, 주로 대함미사일과 어뢰 관련 항목이다. 인도 AI의 교리는 모두 설정되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "7d46075004cb6af35af0cd7084e3cff57c02652f2d92e723dfb8e13adf2acd9f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "47a6af6773cfb4e6eed7fd5fff89f8a080c052ad62dbd498f7c3a2e36281f02a",
+      "translation": "H-6K 2개 연대가 구이핑·멍수 공군기지에 있으며, 조기경보기 2대와 HY-6U 급유기 18대도 함께 배치되어 있다. 앞서 설명했듯이 이 항공기들은 미얀마 상공을 통과할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "dd2f1a846cb48eb9f759afbc3cd49f02cb0ba4c74a48d9eca172342d1c33f6e2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3a65ea26d808861a52b25319bad8faaea9e50c9e60ea9a27631359be2842bb67",
+      "translation": "귀관은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "2366eaaa8757efe278f1a030d5aa1053f8b73f7d5c41c17a880c6e29801aeda3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "579a4f7dc1ce78f57e4aa09dd72ef27978ab266f36768e13757051f68714c7ca",
+      "translation": "의 함장이다. 귀함은 적기 북방함대 소속 프로젝트 667A 탄도미사일 원자력잠수함(PLARB)이다. 임무는 지정 해역에서 초계하며 모스크바의 명령에 따라 액체연료 탄도미사일 R-27 16기를 발사할 준비를 유지하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "c938dfaec0a2c8f7a349d639fff126afac3c6c4e0d10ec902712332ebf899eb0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "90bd7ba23feeccbf8f0dfd99ca1780222fd2d257c75ccc36aa49ebfed014867d",
+      "translation": "의 함장이다. 귀함은 적기 북방함대 소속 프로젝트 667A 탄도미사일 원자력잠수함(PLARB)이다. 임무는 지정 해역에서 초계하며 모스크바의 명령에 따라 액체연료 탄도미사일 R-27 16기를 발사할 준비를 유지하는 것이다. 그러나 귀함은 소음이 크고 소나 성능이 좋지 않다. 미사일의 사거리는 대륙 간 타격에 턱없이 부족하므로 미국 근해에서 작전해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "382f36b939b3f4e65b1a412b00a910cfe8c066f8ee37f8f37223ee8935fda815"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "be18b5005ab62fe822ae1d33165358816604e94db067c7ec889485d2e3c436dc",
+      "translation": "탄도미사일 잠수함은 냉전기 억제력의 핵심 축이었다. 이론상 탐지할 수 없어 적의 선제공격 이후에도 살아남아 핵 보복을 수행할 수 있는 전력이었지만, 실제로 미국과 소련은 해상에서 상대의 탄도미사일 원자력잠수함(SSBN/PLARB)을 찾아 추적하는 데 막대한 노력을 기울였다.",
+      "review": "direct-source-review",
+      "batch": "revisions-456.tsv",
+      "previous_translation_sha256": "7a4e30435556a7cdd543581df7fe19ea3f255bd086dff650b22b2e12fa70d764"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "aeb0bcd496a5a5a1d003d7dc172c64bc5306c30e93d28c12850cd78839ae4366",
+      "translation": "D. 배속 및 배속 해제: 케냐(C 14)를 즉시 귀관의 지휘 아래 배속한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-457.tsv",
+      "previous_translation_sha256": "f24b60baad83915313e8bc3b85e9f34f29eb39138389794b3122dc9087b95a69"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "02598ef7af804a0e47372b898bb171c8d9f3814ebc2a1388c9a65446104d1f42",
+      "translation": "2. 임무: 현재 위치에서 철수하여 북위 46",
+      "review": "direct-source-review",
+      "batch": "revisions-457.tsv",
+      "previous_translation_sha256": "6f80faca80c69610e006c495ff7fa0cc41b3b00ebbeccd7d9aabd70690446a6b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e97db3553e338885544cc09e1dded4338ab4388fced875de3e9ab850bf6b0d70",
+      "translation": "도, 동경 154도의 집결 지점으로 이동하라. 전술 지도에는 기준점 RP 273~RP 276으로 표시되어 있다. 추가 명령을 받을 때까지 해당 위치를 유지하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-457.tsv",
+      "previous_translation_sha256": "e7c63371cda822e18cdc87fc790901328c7f0c2998e1fd03c7c2626eba28d51f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "659dcf364426e6718272134b88e2cffc32ef47983375a4530344bd1a413fdcfb",
+      "translation": "3. 실시: 사격 보류(Weapons Hold).",
+      "review": "direct-source-review",
+      "batch": "revisions-457.tsv",
+      "previous_translation_sha256": "33355c4ab7a14715d4706470a7c0648cd307a41ea3918e1291f614345c155b28"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6159d28c7793c8dcb6451cda4c8423e7e1b7f3414621220f1bc3fb98701bb36c",
+      "translation": "자위 목적으로만 사격하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-457.tsv",
+      "previous_translation_sha256": "a828e5b5c3e80728571ac4a42b9d9e1f395ddb3cfbad15153d6220adc39d05ae"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a9c0f1623fae45209450b94b85b558369bb3330f4e8004787c28267f1bb00de",
+      "translation": "NATO 진영으로 플레이할 때는 미 제2",
+      "review": "direct-source-review",
+      "batch": "revisions-457.tsv",
+      "previous_translation_sha256": "17a85c489006744f3ee68b2c11c69e6c3916a9b782f8b1e016b6136764dd87b7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "14ce32573cf9466ece3153f423ef7c14d98b0941c9e55709afe4bb08917083be",
+      "translation": "함대 사령관(NATO 대서양 최고사령관)을 아조레스 제도 앞바다의 초계 구역으로 수송하는 USS 마운트 휘트니를 이동시키고 보호해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-457.tsv",
+      "previous_translation_sha256": "4cb5116591a6f57fdb586c198eb3cbcd88f23904de7dfe1bf63da9bf6f955bf4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bf13eede298af6b31732629606e47e552a88a4f5c18e8323d21eec3a4bf7a402",
+      "translation": "중국군 또는 중국 해군이 먼저 ",
+      "review": "direct-source-review",
+      "batch": "revisions-458.tsv",
+      "previous_translation_sha256": "330cc106932220b52b7b44991b28a4fba442f5550cf404191912d5b68d0e1a58"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d6a7cd2a7371b1a15d543196979ff74fdb027023ebf187d5d329be11055c77fd",
+      "translation": "어떤",
+      "review": "direct-source-review",
+      "batch": "revisions-458.tsv",
+      "previous_translation_sha256": "a0307911a0fb42568a780b80b323793ef3b8807689be5bcb33f24ecb6c0c8a2c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "651b802287dae5f459ea8e0e52eb1fcbda2637df691cfad675936db34c3cd935",
+      "translation": " 형태로든 적대 행위를 시작하면, 주 임무인 상륙작전에 지장을 주지 않는 범위에서 남중국해의 플랫폼을 포함한 모든 중국군·중국 해군 표적에 자유사격(Weapons Free)이 허용된 것으로 간주하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-458.tsv",
+      "previous_translation_sha256": "08a3515869fafc74c6afe949ddf72535019299dd684bb276383ee681732c59ce"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "834113a00f512e20238befa47cb4e63f6db9487d7021de742d27d6417d3b683b",
+      "translation": "중국이 천명한 반접근·지역거부 정책에 따른 DF-26 지대함 탄도미사일의 위협을 고려하여, 두 수상전단 모두 EMCON C(전파 방사 제한 없음)를 유지할 것을 권장한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-458.tsv",
+      "previous_translation_sha256": "6bc6294a212d29ce3fb63296f158bcec237c338d7b16c2267f8919597b07261d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "de58ce81c5fd41bfc60d24f6bdb6eaf1a8f37f3b3f7c3cbd5e996a40f1e7dc59",
+      "translation": "무장 사용 권한이 자유사격(Weapons Free)이라는 것은 실수로 어선을 격침해도 곧바로 조사위원회에 회부되지는 않는다는 뜻이다. 그렇다고 ",
+      "review": "direct-source-review",
+      "batch": "revisions-459.tsv",
+      "previous_translation_sha256": "673b908f1355158fce02d763502919518c9c1c2bb045dd1a2d8af7af80dff6df"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667",
+      "translation": "일부러",
+      "review": "direct-source-review",
+      "batch": "revisions-459.tsv",
+      "previous_translation_sha256": "ef76e700c5303eb59e03dc11a232d1314cdfa82b2c0aa87896c87d56fb5f602a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8b9801642c10a4689e9fe7206730e4483bbe25e08359e58a081a99993ff5e146",
+      "translation": " 어선을 격침하거나, 여객기를 격추하거나, 폭뢰로 무해한 해양 생물을 죽여도 된다는 뜻은 아니다. 도덕적으로 비난받을 행동이라는 점은 차치하더라도, 그런 행위는 탄약 낭비다. 아군은 정의로운 편이어야 하지 않겠는가. 그러니 그런 짓은 하지 마라.",
+      "review": "direct-source-review",
+      "batch": "revisions-459.tsv",
+      "previous_translation_sha256": "5a1428899cc6f4fc5e1eaa243ffa70eeb69a837512ce9504ed69269b46303ef2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e0eb87082f669e4196f0159be83d8deacf36086d905541ebc50b94308db39208",
+      "translation": "ESM은 전파를 방사하는 레이더의 최대 탐지 거리보다 훨씬 먼 곳에서도 그 전파를 탐지할 수 있다. 레이더는 전파를 쏜 뒤 반사파를 받아 표적을 탐지하지만, ESM 장비는 방사된 전파 자체만 수신하면 된다. 따라서 반사파가 돌아올 만큼 전파가 강하지 않아도 ESM은 접촉 대상의 존재를 알아낼 수 있다. 이는 현대 해전과 공중전의 매우 중요한 기본 원리이며, 대부분의 항공기와 함정이 가능하면 EMCON 침묵 상태를 유지하려는 주된 이유다. EMCON은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-460.tsv",
+      "previous_translation_sha256": "d329faf295d3f4753b1e7db6a552b194c29e9e19bd765f960df306877ec7bee5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0f383ea10cff7d0285684e344acb14126235f750fefb8bbceb62a9a3c5f41311",
+      "translation": "issions ",
+      "review": "direct-source-review",
+      "batch": "revisions-460.tsv",
+      "previous_translation_sha256": "471326d2edc9703616d614c49ee8c1418d38a02e8ffda2449e208c3419e6c00c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "08d8f014fec316d3a8b04d4e78aeffad9f1ab449d84b20fa49758ac22ddb6b69",
+      "translation": "trol의 약자로 전파방사통제를 뜻한다. EMCON 침묵은 능동적으로 전파를 방사하지 않는 상태이며, 이를 통해 존재와 정체, 위치가 노출되는 것을 피한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-460.tsv",
+      "previous_translation_sha256": "000cf3d1894cfec36faef8e07ea662127e80e0864609d83d3914ce68f7cc1718"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f29d66996a2e42be213bdbc146b7487321b846c7e78f815b83017bbf44bece36",
+      "translation": "센서 메뉴(F9)를 열고 SPS-49(V)5 항목 옆의 '활성(active)' 상자를 선택해 레이더를 켜라. 함정 주위의 흰색 대공 수색 범위 원을 확인하라. 원이 보이지 않으면 함정에서 최소 260해리 범위가 보이도록 지도를 축소하고, 지도 설정(Map Settings) > 항공 센서(Air Sensors)가 켜져 있는지 확인하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-460.tsv",
+      "previous_translation_sha256": "e40cd2a55211d0cdc86c621c1020ad3cc0664df39df392ab225a3392f71a90ed"
     }
   ],
   "whole_db_paragraphs": [
@@ -91316,6 +91588,13 @@
       "translation": "",
       "review": "direct-original-html-node-review",
       "origin": "source-00541.xml"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7d11d3d0c553287c6511e4f4881e40ef84ff167b92bc3498b5ccea9a19dfc8b3",
+      "translation": "현재 아군은 베어 D의 해상 수색 레이더 탐지 범위 안에 있으며, 이미 대공 수색 레이더도 가동했다. 따라서 적이 아군을 탐지하고 레이더 방사 특성으로 정체를 추정했으며, 베어 D의 해상 수색 레이더로 위치도 정확히 파악했을 것이 거의 확실하다. 또한 이번 대공전 훈련에서는 곧 공중 위협이 접근할 것이다. 따라서 지금은 레이더를 꺼서 은밀성을 높이려 하기보다 레이더로 상황을 파악하는 편이 더 유리하다.",
+      "review": "direct-original-html-node-review",
+      "origin": "Scenarios/Tutorials/Surface Warfare Tutorial/SurfaceTutorial_3_Message_2.html"
     }
   ]
 }
