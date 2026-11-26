@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 11407,
+    "reviewed_source_entries": 11461,
     "review_outcomes": {
-      "modified": 10001,
-      "retained": 1406
+      "modified": 10054,
+      "retained": 1407
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 9975,
+      "scenario-ko.b64.tsv": 10029,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 11425,
+      "runtime_first_lookup_passed": 11479,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 206
+      "html_context_lookup_passed": 208
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -62337,14 +62337,6 @@
     },
     {
       "dictionary": "scenario-ko.b64.tsv",
-      "source_hash": "6201111b83a0cb5b0922cb37cc442b9a40e24e3b1ce100a4bb204f4c63fd2ac0",
-      "translation": " 그리고 ",
-      "review": "direct-source-review",
-      "batch": "revisions-298.tsv",
-      "previous_translation_sha256": "711af702d3e214bd3faaf6775904a243f7a96c77a8ee303fe3781ebdae0bf4b0"
-    },
-    {
-      "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "a978892d1cfcc941df4d4ade30bfe1f127d7ae1616cadc0ca316fe9c6be30de0",
       "translation": "글라스노스트",
       "review": "direct-source-review",
@@ -91318,6 +91310,446 @@
       "review": "direct-source-review",
       "batch": "revisions-535.tsv",
       "previous_translation_sha256": "5f211807e35f6a11abac1910dda7250bd36a3617a3039fd81a055f9725553341"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7ca6997ad01726ef5b112f066eb6a84e369191f6b748d6de5dc7e080b3dc2525",
+      "translation": "나토의 전력 배치는 불리하며, 아군의",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "ef4118706e39bd300a10d7fbcd49aeeae5a2ae8296c37aad7fc25e1898da49df"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "aad8f09dad84e35e2dbffb2a6937b5a9b3500c9e5ae98b2eafcf2c914f485b70",
+      "translation": "군사적 패배는 불가피하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "57d7a19a2fe77bb92bfc4cf8e5faa986959590637d000970c7e1992e7626ee34"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9ae99797cbda5fb1a4c5c6b7b62c46a0d713670a9e2210906f8e032449e03e4a",
+      "translation": "하지만 승점과 패배를 얼마나 효과적으로 막거나 늦추느냐에 따라 작전 성과가 평가된다!",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "6dd692024daf8ccabf50dd57c8b08f76c2170bc2dd8b42f647b41d001720424b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5e7c42bd339e92d07e1e8c2cf2ca9799036c3c8f043c91a17134130ddf280b20",
+      "translation": "하지만 승점과 패배를 얼마나 효과적으로 막거나 늦추느냐에 따라 작전 성과가 평가된다! 최선의 결과는 용감하게 싸우고 최후를 맞는 것이다!",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "d9755562d76f5ba5ab4de4e2de06be8911868d0b6797d987ce637ef17dbbea84"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4133c970fbfad975b885e0bf01a454cd0dbcf19b6bceb54ecdb3b7029f21227d",
+      "translation": "시나리오 설정에서 다음 두 옵션이 꺼져 있음을 확인할 수 있다:",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "0b3173cf3e053820b62aaa6fef57cc13e99b292306f22d3a11936ff2e20ec3ce"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1c34f974da995ae9de75fc31316eec7584b589199b328c7b0baee93868882b5b",
+      "translation": "현실적인 잠수함 통신",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "62bfa99417db218d3e68404c34437021bd06921e6d98f0dc2688e8915a250026"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f57808a15e413da401ef98c361ca14b0f125afccbcfd9f3d892a755c1ae20d1a",
+      "translation": "통신 장애",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "3ab4e4af41fe3dfb56b5b8e530c69319d29295e3197b0f4721554d2c519bba27"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "909fad4d6c8fdb8f2ff87d90d7a0e2c917d9f9c2affb91fbb01f3bc833825b3f",
+      "translation": ". 서로 통신이 끊길 수 있는 여러 함정·잠수함·항공기·지상시설을 지휘하는 작전사령관이 아니라, 잠수함 한 척의 함장으로 플레이하기 때문이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "5e86d144df6a9fe4e46b4d64b329c78fafb633d2bd5716c5e6db707fb46d391f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1c607eed4929b5adbc42dbfecd9604f3b158b6d502e17904ed5f2033a7ad4691",
+      "translation": "선발된 러시아 지원자들은 러시아군에서 사직한 뒤 유급 군사고문, 즉 용병으로 이란에 왔다. 미국과 중국에서 유명한 플라잉 타이거스와 매우 비슷한 방식이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "874db1a5110061fd267e33e01830c4c2ce384f808649bfb23a0867e660d35357"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7866c76f4cd477b2a4b9d1d424e8f0482788f3197477e09e67c8b6a1c1a635f3",
+      "translation": "특히 해군 전단을 중심으로 일상적인 임무 몇 가지를 미리 설정해 두었다. 원하지 않으면 자유롭게 삭제해도 된다. 플레이어 진영에는 반드시 유지해야 하는 기준점이 없으므로, 원한다면 모두 삭제할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "458cc39c35e24e5ed440a5412dab962a84f37cbd12a3d1720cd8978411b8b8ba"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b99b8be25965157e11056bd06e9a6dddcdaa27c155b97aac47f635321e50f8f7",
+      "translation": "특별 행동으로 정찰기 배치를 요청할 수 있지만, 상당한 호의, 즉 점수를 소모한다. 신중하게 판단하라. 대체할 수 없는 전력이며, 이미 1대가 아군 기지에서 장기 수리를 받아야 하는 상태다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "a19b810eaf538abbbff965670406c52c7b5f839ec67abe7c044093dbdb5d0086"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "298441afa71eaa0096a3f9bbbabb5cb34fdb3ba816ba42b940b5c9c02b9a1302",
+      "translation": "북한군과 미·일 양측이 적대 관계가 되어도 이동식발사대(TEL)가 즉시 발사하지 않을 수 있지만, 무작위 시각 이벤트에 따라 어느 순간 활성화된다. 반대로 TEL이 먼저 발사할 수도 있다. 모두 무작위 이벤트가 어떤 순서로 발생하느냐에 달려 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "bea71a1265420577864f991c405b103c78ac0e87838f0acaec59d3df9aa53902"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "54d4447d554fee6648bfbd64c20cab1667a0bd144a7b98e8411a94890b58064a",
+      "translation": "GIUK 갭 방어를 맡은 USS 패리스(FF-1094)와 P-3 몇 대만이 대서양의 소련 핵전력을 증강하려는 양키급 잠수함을 막을 수 있다. 이 잠수함의 진출이 핵전쟁으로 기우는 결정적 계기가 될지도 모른다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "75fb32d51a5dde42c2afb3f3b9b32349d9d6c8904acb6e5c00e98b16900fe272"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2fb6a8e63a3e338cf4887183caf92036f5c7fcb8c1dc4af3a9a2d7dad5d98c2f",
+      "translation": "복구 능력이 낮으므로, 비행장 시설, 특히 활주로 진입로에 일정 수준 이상의 피해를 입히면 영구적으로 사용 불능 상태로 만들 수 있을 것으로 판단한다. 피해율 99%면 충분할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "3d524390c1699902f88c38443d6093da9d5d22bf0313db3cff8c96f3f25d518b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "362dc7135b03d0bf8a4162a3ba6527a98a210629cf77db30db021611e4d9bd25",
+      "translation": "수상전단 알파와 브라보는 블로러만으로 이동하라. 만 안의 소련군을 찾아 포위하라. 이들이 민간·상업용 선박이나 시설을 공격하지 못하도록 막아야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "160297e6d0e132d632fdf76d1d263a097d73659a7ead14f155e8585e250cc05f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4f9cc38ee48dca5d3c5279c2176c8b6be7c07b879a7094bddc51d9b71e31fd72",
+      "translation": "'Allow off-axis Attack'은 체크하지 않은 상태로 둔다. 이 옵션을 켜면 AI가 다른 각도의 공격 방향을 선택할 수 있어, 의도한 경로에서 너무 멀리 벗어나 SA-5 사거리 안으로 깊숙이 들어갈 수 있기 때문이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "e6af68997010c39033345dda281736465830a8f804682d9f39c8dba570eb0012"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "619a33c196915b41848320e954a8f374682e97890205db41a79dc1c16736f2b6",
+      "translation": "키이우 북쪽의 러시아 차량 종대를 공습하는 시나리오다. 5개 기지의 항공기를 살펴보면 온갖 기종이 뒤섞여 있다! 이제 부대 추가 배치를 그만해야 한다. 이 기지들은 이미 수용 한계를 넘었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "adf75b2bdbc1a737632fc14ac4c711318f71642d0d007bdaf0894662a584ccba"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d5a85f13133f03570d546a4cc6a46785aeb85958295714ddf2dc538793a0a814",
+      "translation": "소련 교리는 분쟁이 시작된 첫 몇 분 안에 공격 가능한 모든 미 항모전투단(CVBG)을 상대로 총공격을 가하도록 했다. 항모전투단은 강력한 해군 전력이자 전략 핵타격 플랫폼이기도 했기 때문이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "b42b7ea345483b5583ba80b3205ce7600e2c022afa9ee94e828d32e7088ca6c5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "41b45df483ce264564db2f37a8f198b95dd94a55cebfe9aea50ad201f1b69c80",
+      "translation": "1956년 이날, 무기 시험을 위해 포인트 무구 해군항공기지에서 F6F-5K 무인 표적기가 발진했다. 이륙 직후 무선 조종 신호에 반응하지 않으면서 통제불능 상태가 되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "6adb05d5aba76da248ce73074b0ce9cfd61b2f626339cbc3317edefbb27eb653"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "94d1b45bb9e0957811453785fc821469fd00e0ac9fb9d352a2ede033b8d58a52",
+      "translation": "캐나다 측은 자국 기동전대를 분산시키는 것을 허용하지 않으며, 나도 그 대잠전 능력을 잃고 싶지 않다. 따라서 아칸소와 페리급 1척을 보낼 생각이다. 대서양 이쪽의 잠수함 위협은 조금 더 통제되고 있는 듯하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "31aa059264b8d61bf820283103dbe1eddc50711e6c4196f91298b7b354f04c33"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c017432914eb64de579d2216d37ef37ce8d066b47de60c9e675521b9f50f4806",
+      "translation": "북한 조종사들은 결단력이 부족했고 고고도에서 불리했다. 그 결과 미 공군은 이 기간 지상에서 항공기 몇 대를 잃기는 했지만 공중전 손실은 없었으며, 적기 여러 대를 격추했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "556bb35325e9c7dc0ab8eb328681a73768ded45a54b3a4f4079d5b6096123d3d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b3f64596877801b43a5a731a1a3b6cb60796ac10da7d92aa97f4969a1bb8653",
+      "translation": "2020년 12월 7일: 합참이 이례적으로 공개 기자회견을 열어 현역군과 예비군 모두 대통령의 비상사태 명령을 집행하지 않을 것이며, 조지프 바이든을 대통령 당선인으로 인정한다고 발표한다. 트럼프 대통령은 '비겁한 장군들이 뒤통수를 쳤다'는 트윗을 올린다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "8b8b36dc1c7f07669fe7c6ab481146f85123f3eca36669a159f81c3743a048ab"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a0e800c8b7ddb779b3915faccaf6c4f75d74375e46799d227e06a48da5acca88",
+      "translation": "2. 전선에 투입할 예비전력이 부족해 상황이 위급하다. 적의 추가 부대가 도시 동쪽과 남쪽 접근로의 전략적 진입 지점을 향해 이동하는 모습이 포착되었다. 즉각적인 항공·지상 지원이 없으면 멜리야 방어에 심각한 차질이 생긴다.",
+      "review": "direct-source-review",
+      "batch": "revisions-536.tsv",
+      "previous_translation_sha256": "a836a59fba82591da2036551f2ec7d7c10b0d0ba503a40363368391385f47de2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bef3d317e79e8c2f5c162e9257f6982dbd90d295ddae27a342764c51a65b24b2",
+      "translation": "3. 아이슬란드 케플라비크 해군항공기지의 재개장을 위한 협상이 진행 중이다. 기지 정비와 재무장은 마쳤지만 항공부대는 아직 배속되지 않은 단계라고 가정한다. 플로리다 잭슨빌 해군항공기지에서 완전 무장한 항공부대가 신속히 파견되어 기지의 기본 전력을 보강한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "22f555994cc0b8fae63aa1c1fcb29cfd5fe099c3f4e24c8b8eebc07f5546a94c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "eb0ebdcc9c4610869afe1c57c8087a0f50b3a3b15f0445c15f6a6f9aafacb57c",
+      "translation": "사우디아라비아는 매우 촘촘한 현대식 방공망과 다수의 첨단 전투기를 보유하고 있으며, 우리 전력을 훨씬 능가한다. 그나마 다행인 점은 퇴역과 인원 교체 시기가 겹쳐, 승무원 숙련도가 과거 수준보다 낮아진 것으로 보인다는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "022a51d0a0a16b3a0c71e620468e8befcd88a1fc3d8f68a1d5dbd621a1d54425"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "00bc44a2aad3162910601772422589d3f83545a9318cf02cf66a35c4e6b98204",
+      "translation": "중립국이나 러시아 함정을 격침했을 때 큰 감점이 부과되는 것은 국제정치와 대외 여론을 반영한 것이다. 러시아와 다른 국가들이 자국 함정의 격침에 순순히 넘어갈 리 없으며, 이를 승점 손실로 나타냈다. 여객선 파괴에 추가 감점이 붙는 이유는 여객선이라는 사실만으로도 충분히 알 수 있을 것이다!",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "b6801332e49895412ab8b7fdf83efa84667a7d787f3c6d5dd815d1ccfefd096f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "158fa3324d0c8abf857c0dcd854ab3a1adc9aba0ecf915dcabacea446a76a429",
+      "translation": "키예프와 카라에는 모두 SA-N-3 고블렛 중거리 함대공미사일이 탑재되어 있다. 최신 소련 SAM 체계보다 성능은 낮지만 아군 항공 전력에는 여전히 큰 위협이다. 신중하게 교전하라. 두 함정의 방공망은 여러 SA-N-4 게코 단거리 SAM 체계와 AK-630 근접방어포가 보완한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "b160cbb306d05c24418a9095095ebc4fb7b858f035e2dff17ec7ae2d37e5a556"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1e4edc991e90fafd6d280ddce5de03047792855e8df1a518b3a5f5603c02fbfe",
+      "translation": "필리핀은 역사적으로 여러 차례 반란을 겪었다. 지난해에는 공산주의 반군이 조직한 새로운 반란이 일어났다. 이들은 다른 무장단체들의 방식을 본떠 여러 해상 병목 구역에서 상선을 위협하며 필리핀 정부를 압박하려 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "531af2eeb7a1042c8f837c5c7d65a3bfad391b2af241ec214bb4d036d2924e85"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7e17c369c10e90382931bff93bf80cf7a0b827cbb105597cc408e9ea1fe9d252",
+      "translation": "우리 로켓군도 탄두를 발사할 준비를 마쳤다. 적 항공기가 이륙하기 전에 공군기지를 타격하라. 교리를 준수해 대규모 미사일 파상공격을 실시해야 한다. 알고 있듯 미국과 남조선의 배신자들은 광범위한 탄도미사일 방어망을 갖추고 있으며, 이를 돌파하려면 압도적인 발사량이나 교묘한 파괴공작이 필요하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "503ea16433bb5a659a12c5b688ae39a9b0f33f17dbf6850b4ed7931c61245dcf"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c393ffe6a47a4064e6243f457c5dda40e39b6d3d804e14ebdcbcb15c7acbfd69",
+      "translation": "2020년 1월 11일 또 다른 예상치 못한 일이 벌어졌다. 혁명수비대 항공우주군 사령관이 언론 브리핑에서 752편이 실제로 혁명수비대 방공부대의 실수로 격추되었다고 공개적으로 인정했다. 혁명수비대와 쿠드스군의 고위 장교들, 정부 관리 다수는 이런 전개를 매우 불쾌하게 여겼다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "ba547e441b21c64e677edd2b7a49672a00c947439a4a52406a7d7dcb9aab4234"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cc498b6a74434f746b32359cbb2e41dae85bc33ae24a0928488a0e2bdf4ff635",
+      "translation": "- 카보티아는 현대식 전투기 2개 비행대대와 구형이지만 여전히 위협적인 전투기 최소 3개 비행대대를 갖춰, 이 지역에서 가장 큰 공군을 자랑한다. 그러나 그 대가로 지상 방공체계는 노후하고 분산된 상태다. 순항미사일 공격을 막기 위해 카보티아는 거점 방어체계에 많은 투자를 했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "7b5c36cf168c91021f79a4daf1ee08ded12ea01e2fc63be4576b16d8c81016a7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "94c5e892428fc84c3831617800184bc8373ad988502a90668c313031f79b3c91",
+      "translation": "나는 실제로 가능하다고 생각하는 상황을 우선해 시나리오를 만들며, 게임성은 그다음으로 고려하는 편이다. 당시 사용 가능했거나 앞으로 사용 가능할 전력을 바탕으로, 일어났을 법하거나 일어날 수 있는 상황을 살펴보는 연구처럼 접근한다. 전력이 대부분 파괴되었더라도 그 과정에서 충분히 잘 싸웠다고 판단되면, 승점이 마이너스여도 승리할 수 있다. 따라서 시나리오를 설계할 때 양측 전력의 균형은 부차적인 고려 사항이다. 안타깝지만 전쟁이 늘 공평하지는 않다. 이런 방식을 좋아하지 않는다면 이 시나리오는 맞지 않을 수 있다. 반대로 시리아 인근에서 미국과 러시아가 실제로 충돌하면 어떨지 탐구하고 싶다면……",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "e3bc13d7a87ecb10f6e641f75559a6a350b33c500cb026f6a19c63fad1e2e390"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f8e3392a6b82f2fd291432b98e5c43aedb35bee48674f020b72be8c271654ddf",
+      "translation": "제2차 세계대전 당시 독일 유보트는 세인트로렌스만 깊숙이, 심지어 강 안까지 진입해 작전했다. 한때 퀘벡시에서 하류로 불과 150해리 떨어진 리무스키 앞바다에서 상선을 격침하기도 했다. 당시 캐나다 해군은 이런 공격을 저지하는 데 어려움을 겪었고, 이는 의회와 국방부, 해군 지휘부에 난처한 문제가 되었다. 30여 년이 지난 뒤에도 연안 방어는 다시 취약한 상태였다. 대서양 해양사령부는 북대서양 외해의 수송선단 호위와 대잠작전에 주력했지만, 1944~1945년 유보트를 캐나다 해역에서 몰아냈던 대규모 항공기 및 소형 함정 전력은 더 이상 존재하지 않았다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "d5c6b2ec2e145a939c01ea66ec62c2621aa70681735fda3ba320624344e2a9fa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "65bcd414b3a5c9b78a2c206c063b2e80c39d4ecd0a8bff523cb5d98c5d50aeaa",
+      "translation": "시리아의 이라크 국경 지대이자 요르단 국경에서 불과 몇 마일 떨어진 알탄프 미군 주둔지는 2016년부터 대IS 작전과 IS에 맞서 싸우는 시리아 반정부 세력의 훈련 거점으로 쓰였다. 전략적으로 중요한 바그다드·다마스쿠스 간 고속도로에 자리한 이 사막 전초기지 가까이에는 이란군과 친이란 세력이 배치되어 있다. 알탄프의 미군은 55km 규모의 충돌 방지 구역을 설정했으며, 그 바깥에는 '친정부' 또는 '친이란'으로 불리는 여러 세력이 검문소를 설치했다. 최근 몇 달간 발생한 여러 사건은 알탄프가 미군과 이란군 또는 친이란 세력 사이의 충돌 지점이 될 수 있음을 보여 준다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "63794df421b2fd98c3252c7a1ceb0f0f51216a84c9f4eb7c26e93fbfa418e86b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b9b43af0772a8c3a4c00b4575deb3f1be364065ccad2411437c816e4a63fad1e",
+      "translation": "미군 손실에는 큰 감점이 따른다. 미국 여론은 심각한 인명·전력 손실에 민감하게 반응한다. 1986년 엘도라도 캐니언 작전에서 F-111 승무원 한 조를 잃었을 때 일어난 분노를 생각해 보라. 사례는 더 들 수 있지만, 내가 보는 핵심은 '전쟁은 다른 수단에 의한 정치'이며 정치인들은 국민에게 나쁜 소식을 전하기 싫어한다는 점이다. 소수의 손실은 감수할 수 있어도 중요 인원과 부대의 대규모 손실은 미국 여론이 용납하지 않을 것이다. 중립국이나 러시아 함정을 격침했을 때 큰 감점이 부과되는 것은 국제정치와 대외 여론을 반영한 것이다. 러시아와 다른 국가들이 자국 함정의 격침에 순순히 넘어갈 리 없으며, 이를 승점 손실로 나타냈다. 여객선 파괴에 추가 감점이 붙는 이유는 여객선이라는 사실만으로도 충분히 알 수 있을 것이다!",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "3c50fe8e74e0b4f328878e0dd5339989dbcfe6db015cf14beffe96a8eff786dc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "94d8e890e858cac360c46dde33db3698dccd1da53a822fa27bda2137254f502e",
+      "translation": "2029년에 이르러 이러한 지정학적 변화는 임계점에 도달했다. 과달카날에 중국 공군기지가 건설되면서 호주 북쪽 접근로 가까이에 군사력이 자리 잡았고, 중국의 역내 전략이 바뀌었음이 분명해졌다. 파푸아뉴기니에서는 내각이 대중 관계를 놓고 고심하는 가운데 정치적 갈등이 터져 나왔다. 장관들 간의 이견은 정부 외교정책의 균열을 드러냈고, 국민의 반발도 커졌다. 세 가지 사건이 긴장을 급격히 높였다. 중국 소유의 라무 광산에서 일어난 폭동은 자국 자원에 대한 외국의 통제에 광범위한 불만이 있음을 드러냈다. 포트모르즈비에서는 외국의 영향력을 둘러싼 논쟁 속에 폭력 사태가 발생했다. 여기에 중국 외교관이 의문스러운 상황에서 살해되면서 불신과 민중 소요가 더욱 커졌다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "36cd990b3963c322d1beb9fc0639162839f97a6e8c0eab351e86e2bda5025516"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "493cf44244ced3c43dffd7b3d1f2fd6e928cc8b8485cc702925f1446f610e956",
+      "translation": "2024년 6월 동부 라다크 분쟁 지역의 긴장이 고조되기 시작했으며, 월말까지 양측은 수만 명의 병력과 포병 전력을 투입했다. 7월 3~4일 밤, 중국군 수천 명이 갈완 계곡의 인도군 제14순찰지점 후방으로 침투했다. 동트기 전 인도군 진지 위로 조명탄이 터지고 탐조등이 장병들의 시야를 가렸다. 몇 분 뒤 중국군 수천 명이 초소를 공격하기 시작했다. 인도 공군에 지원을 요청했고 인도군 제16비하르연대의 대대 규모 기동부대가 파견되었다. 정오에는 초소가 함락되었고 포로는 한 명도 잡히지 않았으며, 비하르연대는 격전을 치르고 있었다. 다음 날 중국군은 대규모로 실질통제선(LAC)을 넘어 뎁상 평원으로 진입했다. 잠무 카슈미르 상공에서는 인도와 중국 공군이 공중전을 벌였고, 거의 모든 분쟁 지역에서 대포병전이 이어졌다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "999b36c50d5b4c523bd61634ce288ee205ef6b6816df5cb219331235f4de3ba3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7d71f359ff2020458719b9b9a8498a9170232877e0327caa70a538363c7eb4de",
+      "translation": "1962년 7월 SIOP-62는 새로운 계획인 SIOP-63으로 대체되었다. 새 계획은 상황에 따라 공격 범위를 제한하는 선택지를 추가하고, 적 군사력 타격을 중시하는 방향으로 표적 우선순위를 명확히 했다. 중국과 북한을 자동으로 공격해야 한다는 요구도 삭제되었으며, 아마 두 나라를 위한 별도 표적 목록이 마련되었을 것이다. 도시 자체는 표적에서 대부분 빠졌고, 대신 '지휘통제소'가 2순위 표적이 되었다. 다만 그 대다수는 공교롭게도 도심에 있었다. 이는 계획자들이 민간인을 핵공격 표적으로 삼지 않았다고 말할 수 있게 한 일종의 말장난이었을 수 있다. 수 메가톤급 미사일과 폭탄에는 군사·민간 기반시설을 구별해 타격할 정밀도가 없었기 때문이다. 이 시나리오에서는 플레이어가 표적 우선순위를 정한다고 가정한다. 반복 플레이의 재미를 높이려는 의도도 있지만, 1962년 제92전략항공단(92nd SAW)의 실제 표적이 무엇이었는지 확인할 근거가 없는 상황에서 특정 계획을 강요하는 것은 게임 측면에서도 바람직하지 않아 보였다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "ab0dd86677cf07ae9ef0c4c5719b821dc12954dc113aac6ad43433c15727e04b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a3560ed0bb13eafe902925641e80e372f2b2e75bd7ebf6259c5cfcd634cfa277",
+      "translation": "2020년 1월 11일 또 다른 예상치 못한 일이 벌어졌다. 혁명수비대 항공우주군 사령관이 언론 브리핑에서 752편이 실제로 혁명수비대 방공부대의 실수로 격추되었다고 공개적으로 인정했다. 혁명수비대와 쿠드스군의 고위 장교들, 정부 관리 다수는 이런 전개를 매우 불쾌하게 여겼다. 이들은 무력시위 수준의 공격으로는 솔레이마니 장군의 죽음에 충분히 보복하지 못했다고 강하게 느끼고 있었다. 여기에 752편 격추와 혁명수비대의 개입을 인정한 결정이 분노를 더했다. 이란 강경파는 역내 영향력의 약화와 국내 정치적 파장을 받아들일 준비가 되어 있지 않았으며, 시인 이후 반정부 시위까지 터져 나왔다. 계속 악화되는 경제와 격추 사건 이후 심해진 국제적 고립이 겹치자, 행동에 나서야 할 만큼 상황이 절박해졌다고 느꼈다. 대중의 관심을 돌리고 존경하는 장군이자 국민적 영웅의 죽음에 '진정으로 보복'할 유일한 방법은 정권의 외부 적에게 대규모 공격을 가하는 것이라고 판단했다. 그러나 강경파조차 당시 역내 미군을 공개적으로 공격하는 것은 자살행위임을 뼈저리게 알고 있었다. 따라서 현실적으로 남은 표적은 또 다른 숙적인 이스라엘뿐이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-537.tsv",
+      "previous_translation_sha256": "38bb09312d107c7874acc3b178fa88842b61c6bade32ad205a9896bf66c772fe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e61ea016d6816101f4a90d44a0ef09b1701c9c702cfc11ae121237151480fdcb",
+      "translation": "또한 16일 미국과 네덜란드는 유엔과 미주기구(OAS)에서 자국의 입장을 적극적으로 주장하기 시작했다. 유엔 결의안 S/RES/2559(2021)는 베네수엘라가 섬에서 즉시 철수할 것을 요구했다. 미주기구의 반응은 더 엇갈렸다. 쿠바, 아이티, 도미니카공화국, 콜롬비아는 모두 중립을 선언하고 영공 통과를 거부했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "a028eca7ca0b6e16195bb5b87d2fb2f4620c380be6f6e0fe425b8d02eeacc0df"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c9c1f2f4fc1651c8f81648faaa59c4338482a17c7d96855b97fb2ef2604732f0",
+      "translation": "미국의 새 바이든 행정부는 또 다른 '식민전쟁'에 개입하는 것을 미뤘다. 반면 영국·프랑스·네덜란드는 유엔과 미주기구(OAS)에서 자국의 입장을 적극적으로 주장하기 시작했다. 유엔 결의안 S/RES/2559(2021)는 베네수엘라가 섬에서 즉시 철수할 것을 요구했다. 미주기구의 반응은 더 엇갈렸다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "af682a865f5d37cdb3f70396a6b4c6f9319dc79f3150d8d1d318e515b49db908"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "de6a95cdfdef6e0c9022dd6aae709a6abf2397db209516faaa8e5821bd6147f5",
+      "translation": "필리핀은 황옌다오에 대한 불법적인 영유권 주장을 계속하며, 우리 선단이 이 해역에서 조업할 권리에 도전하려고 군함을 파견했다. 미국도 이 주장을 계속 지지하면서, 감히 여러 군함을 보내 이들을 지원하고 있다. 모든 외국 해군을 우리 해역에서 몰아내고 영토적 이익을 지켜야 한다. 중국 안보의 미래가 달려 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "12a3b7ab0decbace2ba61f4b4cf9434e31988493a05fe49f56dd57cbf4365ae2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d9127df405993c660201fdc13c75af0a63986e16d42358f19884e8d7e01e28e5",
+      "translation": "또한 16일 미국과 네덜란드는 유엔과 미주기구(OAS)에서 자국의 입장을 적극적으로 주장하기 시작했다. 유엔 결의안 S/RES/2559(2021)는 베네수엘라가 섬에서 즉시 철수할 것을 요구했다. 미주기구의 반응은 더 엇갈렸다. 쿠바, 아이티, 도미니카공화국, 콜롬비아는 모두 중립을 선언하고 영공 통과를 거부했다. 자메이카는 자국 시설의 사용과 일부 경찰력을 제공했고, 바하마는 초계정 1척과 경찰력을 제공했다. 초계정은 게임에 구현하지 않았지만 고마운 지원이다! 다른 국가들도 지지를 표명했다. 이후 며칠 동안 베네수엘라는 관광객과 외국인을 항공편과 선박으로 본토에 이송했으며, 이들은 그곳에서 귀국편을 마련할 수 있었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "e56c9221b25153d1059b6073d621fde7de7d795cc6066cf0e7abd2f8c0e741af"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3bfe28fe497217e0cdc09c47be7c48b9444b85a7c0dce89505a6a48c4e02201f",
+      "translation": "미국의 새 바이든 행정부는 또 다른 '식민전쟁'에 개입하는 것을 미뤘다. 반면 영국·프랑스·네덜란드는 유엔과 미주기구(OAS)에서 자국의 입장을 적극적으로 주장하기 시작했다. 유엔 결의안 S/RES/2559(2021)는 베네수엘라가 섬에서 즉시 철수할 것을 요구했다. 미주기구의 반응은 더 엇갈렸다. 쿠바, 아이티, 도미니카공화국, 콜롬비아는 모두 중립을 선언하고 영공 통과를 거부했다. 자메이카는 자국 시설의 사용과 일부 경찰력을 제공했고, 바하마는 초계정 1척과 경찰력을 제공했다. 초계정은 게임에 구현하지 않았지만 고마운 지원이다! 다른 국가들도 지지를 표명했다. 이후 며칠 동안 베네수엘라는 관광객과 외국인을 항공편과 선박으로 본토에 이송했으며, 이들은 그곳에서 귀국편을 마련할 수 있었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "de1cc70f955e8fd087df3f60272cc3299c9d33fbf1b02a8b8f70206389f458ac"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d7d1a0ebfaa620c996645f887e0852ad4409f9a58f59e45d4d87c24c4865fc8f",
+      "translation": ": 나토 측으로는 비교적 쉽게 플레이할 수 있지만, 바르샤바조약기구 측으로는 상당히 어렵다. 처음 시작한다면 청군을 선택해 비교적 수월하게 승리하면서 무장 할당과 여러 기능을 시험해 볼 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "1649470fcf0441fe86a7a16bc3e6cfcbb4b9ea4a0e7802165f48fe24afb4baa1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d0310d8de054d04101e760553072b0d079069d179393230689406f973c6518fc",
+      "translation": "당시 핵무기에는 무단 사용을 막는 사용승인장치(PAL)가 없었고, 사고 시 핵분열 기폭 장치가 의도치 않게 작동하는 것을 방지하는 단일 지점 안전성도 아직 확보되지 않았다. 이런 사고는 대중에게 알려진 것보다 훨씬 잦았으며, 몇 차례는 파국적인 핵사고를 간발의 차로 피했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "a63169b4cc5916ec1bba154c395ca943e9e77fb15328cf58654e2170f31a9ca3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e1e9058e3f31ecb467f4f4a335409f9724c76dc1152fbdf087b0e4ce5438f622",
+      "translation": "총서기와 중앙군사위원회가 러시아 연방에 대한 작전 개시를 승인했다. 주목표는 러시아 극동 영토를 대중화권에 편입하는 것이다. 현지 러시아군에 기습적이고 결정적인 패배를 안기고 주요 거점을 점령해 이를 달성한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "9ea56e31d515a411d86f88e3b9b9a8bbb594058a7919ca6ea1087ee72bab51cc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c83c7988386102b51bc47ef7fde7da5d52cb5b3df38ab2aa1bbfbaf1f741c3cf",
+      "translation": "헬멧 장착 디스플레이는 조종사가 기수 정면에서 벗어난 표적에도 무장을 조준할 수 있게 한다. 미사일을 탐색기의 현재 탐지 범위 밖 지점으로 발사한 뒤 자체적으로 표적을 탐색하게 할 수 있다. 항공기 레이더, 헬멧 조준기 또는 외부 표적 정보를 활용하면 발사 항공기 주변 360도 방향의 표적과 교전할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "29f9ca6170b59900887b9209e50038a1f2e7e5e63563a18a5837c2ad3e6af6ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b5367c14dbb6b60e23a9b3c3ddcee4871a829d560852b38182c21a7499c95d1e",
+      "translation": "콤소몰스크나, 첸트랄나야 우글로바야, 몽고흐토 공군기지의 모든 가용 항공기를 사용할 수 있다. 가용 정예 항공전력 대부분을 이곳에 전개했다. 콤소몰스크나에서 오는 타격기가 첸트랄나야 우글로바야에 도착하면 급유하고 출격 준비를 해야 한다. 공중조기경보통제기와 지원 급유기가 첸트랄나야 우글로바야 인근을 선회하면 소련 시대의 SA-5 지대공미사일 부대가 어느 정도 엄호할 수 있다. 다만 정비 상태가 좋지 않으므로 주의하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "91e59dd7d30da7695c0701063fd75772fa807e404a03a0e19b8bbe8043e97154"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c435eee029248f2ab3bf33fc741d64a3a97faa24fdd28839e0d33f4efaa8c5f0",
+      "translation": "소련군과 나토군은 전술핵, 장거리 미사일, 핵무장 폭격기를 동원한 전 전선의 전면 핵공방 직전에 서 있다. 소련에 가장 가까운 알래스카에서는 양측이 임박한 충돌에 대비한 채 긴장이 고조되고 있다. 상호 파멸의 위협이 짙게 드리우며, 냉전의 정면충돌에는 승자가 없다는 냉혹한 현실을 보여 준다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "7a1c33841d4ab3f3c65d0164b787afd44125f945ff2ab6afd6a3975c0489304b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "af6a825e5a9607ba217448af98089f9674d39fa645444d9f8164b7460171f54c",
+      "translation": "서부군관구는 불법적으로 분리 독립한 발트 공화국들과 그 인근에서 나토 공군과 적극적으로 교전해 왔다. 나토의 공습으로 나르바 인근 러시아계 주민들이 사망했고, 우리 항공기도 여러 대 격추되었다. 4월 30일 출동 명령에 따라 전투를 이어 가기 위해 해·공·지상 전력을 전개하고 있다. 모스크바 시각 07:00부로 나토 기지와 핵무기를 조국에서 멀리 밀어내기 위한 전면 작전을 개시하라!",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "9dc92249a4fad0b0ce254077c333da1c8255858610608691647fc0d7a5c3e974"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f227886b46640c7e4cc7f2e89f18391f27529d4023b5ec79ce744b9ddcbe7756",
+      "translation": "이제 정찰기가 비행장에 관한 정보를 보내오고 있어야 한다. 그렇지 않다면 이 임무 때문에 항공기를 위험에 노출할 이유가 없다. 정찰은 게임에서 핵심적인 역할을 하지만 늘 쉬운 것은 아니다. 초보자는 정찰 전력이 대체로 취약하고 무장이 없거나 적다는 이유로 이를 무시하거나, 운용하더라도 얻은 정보를 충분히 활용하지 못하는 실수를 자주 한다. 제대로 정찰했다면 최소한 세 가지를 파악할 수 있어야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "a33a4315edf618c66cf08f5aa13be6caa5f2eb06514194c2072108c5b0668fd0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "36b82a9dcaba1c4855d40dac997f0946da83bb3470dac0d346ebda2a3f425d91",
+      "translation": "이스라엘과 여러 아랍 국가 사이의 6일 전쟁 당시 미국은 공식적으로 중립을 유지했다. 개전 며칠 전 전자정보 수집함 리버티(호출부호 'Rockstar', 공식 명칭은 '기술연구함')는 시나이반도 북쪽 해안 인근 공해에서 신호정보를 수집하기 위해 지중해 동부로 이동하라는 명령을 받았다. 전쟁이 발발한 뒤 리버티가 초계 구역에 접근하자 안전 우려가 커졌고, 해안과의 최소 허용 접근거리를 늘리라는 전문이 여러 차례 발송되었다. 이집트 해안은 12.5해리에서 20해리로, 이스라엘 해안은 6.5해리에서 15해리로 늘렸으며, 이후 양쪽 모두 100해리로 확대했다. 그러나 전문 처리와 전달 경로에 문제가 있어, 거리 변경 지시는 너무 늦게 도착했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "8393120f216a2ebd9450909227cd52ba32a9dd39e4ec86d48f765515d0c9afa9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "217cf3fbe410c9a12841afcb6532f36fb878130f910438b656fc7bd2f3ddfbb3",
+      "translation": "미국의 제재와 페르시아만에서의 압도적인 해군 주둔을 수년간 감내해 온 끝에, 힘의 균형이 바뀌려 하고 있다. 이란은 러시아와 새로운 비밀 동맹을 맺었다. 목표 중 하나는 미국과 동맹국들을 약화시켜 이란은 중동에서, 러시아는 동유럽에서 각자 뜻을 관철하는 것이다. 동맹의 일환으로 러시아는 첨단 항공기와 무장, 최상급 통합방공체계를 구축할 장비를 이전했다. 특이하게도 러시아와 이란은 역사에서 방법을 빌려와, 1940~1941년 미국과 중국의 협력 방식을 본떴다. 선발된 러시아 지원자들은 러시아군에서 사직한 뒤 유급 군사고문, 즉 용병으로 이란에 왔다. 미국과 중국에서 유명한 플라잉 타이거스와 매우 비슷한 방식이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "662443d0dceac98f673ef560f69fb42038dc5dc094e938524f984630e0b811c9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "691bd452eaecef450359d21662ca331b9e491d1985c6e8fe205c51b812ad7b55",
+      "translation": "SIOP-62의 기본 구상이 타당하다고 평가되자, 전략항공사령부(SAC), 합참, 대통령 국가안보회의(NSC)와 관련 기관들은 SIOP-63 수립에 착수했다. 최소 5개의 추가 대응 선택지와 각각에 필요한 전용 표적 목록을 준비했다. 1962년까지 소련 내에서만 민간 시설 400곳 이상과 주요 군사시설 600곳 이상이 우선순위가 높은 유력 표적으로 식별되었으며, 잠재적 표적 총수는 수천 곳에 달했다. 많은 표적에는 여러 조준점과 무기가 할당되었다. 완전 파괴를 보장하기 위해 대개 필요한 수준보다 넉넉한 파괴력을 배정했다. SAC는 해군의 폴라리스 잠수함을 사용하지 않고도 소련 표적에 3,500메가톤(MT)이 넘는 핵화력을 투사할 계획이었다. 여러 과거 SIOP와 관련 표적 목록의 세부 내용은 오늘날에도 대부분 기밀이지만, SIOP-62의 자료는 온라인에서 찾아볼 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-538.tsv",
+      "previous_translation_sha256": "50b401c921bd90ff3b398910b42dedc6991d39a489ff7a1ef0efd8da72893697"
     }
   ],
   "whole_db_paragraphs": [
