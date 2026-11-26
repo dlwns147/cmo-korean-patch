@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 11601,
+    "reviewed_source_entries": 11619,
     "review_outcomes": {
-      "modified": 10194,
+      "modified": 10212,
       "retained": 1407
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 10168,
+      "scenario-ko.b64.tsv": 10186,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 11619,
+      "runtime_first_lookup_passed": 11637,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 221
+      "html_context_lookup_passed": 223
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -49122,7 +49122,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "c28434c4d2a189b48fa4e196e509b97dd7579759a8c626cbff05dd69d4e34d4e",
-      "translation": "(사이드바의 유닛 무장 목록을 보면 이 소대가 SA-18 그라우스 1기도 보유하고 있음을 알 수 있습니다. 실제로 멕시코는 이 미사일을 일부 도입했습니다. 하지만 ‘Mexican Platoon’ 아래에 밑줄 친 연한 파란색 글자를 클릭해 ‘Inf Platoon (Generic)’의 데이터베이스 항목을 확인하면, 이런 소대는 보통 기관총만 장비한다는 것을 알 수 있습니다. 유닛의 센서 목록을 확인하면 일반 쌍안경 외에 야간투시경도 갖추고 있습니다.)",
+      "translation": "(사이드바의 유닛 무장 목록을 보면 이 소대가 SA-18 그라우스 1기도 보유하고 있음을 알 수 있다. 실제로 멕시코는 이 미사일을 일부 도입했다. 하지만 'Mexican Platoon' 아래에 밑줄 친 연한 파란색 글자를 클릭해 'Inf Platoon (Generic)'의 데이터베이스 항목을 확인하면, 이런 소대는 보통 기관총만 장비한다는 것을 알 수 있다. 유닛의 센서 목록을 확인하면 일반 쌍안경 외에 야간투시경도 갖추고 있다.)",
       "review": "direct-source-review",
       "batch": "revisions-201.tsv",
       "previous_translation_sha256": "7bab1cce59f4e7c418d90c97e836680314e0ac286ab0048779debe08e7d6fa5c"
@@ -61954,7 +61954,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "60b5f93a002d31bdc64db3e94fcee2fd00622bfecc90b06152ffacf00d63e150",
-      "translation": "멕시코 보병소대를 선택하면 데이터베이스의 기본 유닛에서 몇 가지 설정을 바꾼 것을 볼 수 있습니다. 화면 오른쪽 위에는 ‘Mexican Platoon’이, 그 아래에는 파란색 밑줄로 ‘Inf Plt (Generic)’이 표시됩니다. 아래쪽이 데이터베이스의 실제 기본 유닛입니다. ‘Veteran’도 보일 것입니다. 이는 부대 숙련도를 ‘Regular’(정규)에서 한 단계 높은 ‘Veteran’(숙련)으로 바꿨다는 뜻입니다.",
+      "translation": "(멕시코 보병소대를 선택하면 데이터베이스의 기본 유닛에서 몇 가지 설정을 바꾼 것을 볼 수 있다. 화면 오른쪽 위에는 'Mexican Platoon'이, 그 아래에는 파란색 밑줄로 'Inf Plt (Generic)'이 표시된다. 아래쪽이 데이터베이스의 실제 기본 유닛이다. 'Veteran'도 보일 것이다. 이는 부대 숙련도를 'Regular'(정규)에서 한 단계 높은 'Veteran'(숙련)으로 바꿨다는 뜻이다.)",
       "review": "direct-source-review",
       "batch": "revisions-294.tsv",
       "previous_translation_sha256": "bf84a6c3b71ccf4e4b3045b83a2f1b9753668b82a9383c1e807b0a4a67f0b80f"
@@ -92870,6 +92870,150 @@
       "review": "direct-source-review",
       "batch": "revisions-551.tsv",
       "previous_translation_sha256": "65de3907bc2ad5bfc9cc7acc4f16cc59894bd50492a5f43e5fa9adf09b9e0982"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a19bb7c49b1824b3623b8965cb8e99e59a959aaf7def20f0b900aab44bf9a5f4",
+      "translation": "이 시나리오는 군사작전이 아니라 치안작전이라는 점에 유의하라. 일반적으로 어선에 대해서는",
+      "review": "direct-source-review",
+      "batch": "revisions-552.tsv",
+      "previous_translation_sha256": "4778a384b15caae2e52b2fab4996507a14263cf672b7d20c06373a6aa46862d1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1978baf2c153fd3bf3633f3a4b12fa6782507dc6056bbaf16909a6597f4a2548",
+      "translation": "격침",
+      "review": "direct-source-review",
+      "batch": "revisions-552.tsv",
+      "previous_translation_sha256": "14e21bedb0ff9ce3daaf0a0cf86597d6cc5c2457df5301fb4d64aadee174ebe6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "874766db766a86044399763324ad17f62cae4a0338746c917f5fcbfc73cef3a8",
+      "translation": "이 허용되지 않는다. 해양보호구역을 침범한 어선도 마찬가지다. 누군가에게 실제로 사격해야 하는 상황까지 갔다면, 대개 앞서 무언가를 잘못 처리했다는 뜻이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-552.tsv",
+      "previous_translation_sha256": "2788a6183e947a3a5d8c25d8c7baceccbf442ae3e1fbf4967e212c331d396d9c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5521ad23716d0c3a95cd1a420be977fe51045e6ba2bc73aba6bad4347ff8ad41",
+      "translation": "다음 지역에 대한 공격 지원 임무로 미사일을 소모한 사실을 알고 있다:",
+      "review": "direct-source-review",
+      "batch": "revisions-552.tsv",
+      "previous_translation_sha256": "b7a12ba007ca7f8b4c36fe1db69b516b12c46f365db0e7178377d2fd5f3ab6fb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3c5d1509430ebad9d1b7a66e39e921bf19c0a0ce0540e1cf8fa651d981cb5b39",
+      "translation": ". 이 공격으로 항공순양함 키예프의 함대함미사일(SSM)이 소진되었다. 따라서 적의 공격을 격퇴하려면 호위함들의 함대함미사일과 항공기에만 의존해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-552.tsv",
+      "previous_translation_sha256": "3e7dc6c48d26b4a968445d15578e24b878e99f2acfd4398adc3403e03a68b19d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8b7e8e36ca2ebd3915e6674530d071263ad7a734854f5f51cebe153061aee609",
+      "translation": "최선을 다해 무사히 귀환하라, 동지.",
+      "review": "direct-source-review",
+      "batch": "revisions-552.tsv",
+      "previous_translation_sha256": "25fe4776897da98280e6c7043af1801a24914dfaa56d191c9888218ac76bbeb7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5fd8859f82783b806385f71967a12ef833c9fffa1bc728223156e6dd28432680",
+      "translation": "지난 이틀 동안 여러 사건으로 긴장이 극도로 높아졌다. 이란 전투기들은 미 해상초계기를 위협하고 두 해군 전단 주변 공역에서 공격적인 비행을 했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-553.tsv",
+      "previous_translation_sha256": "10f4b68cf1b960945525488f23a8e6b368daa0fdd173d0feeff46ddd7fbbf51b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "201e4ff57ae282d7e81cc49a94288e5946432abbe927a36dfa67d3b509ffc999",
+      "translation": "정보 보고에 따르면 다른 중동 세력이 이번 분쟁에서 이라크를 은밀히 지원할 가능성이 있다. 미식별 항공기와 함정이 적대적으로 돌변해 교전하게 될 가능성에 대비하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-553.tsv",
+      "previous_translation_sha256": "859a072cadb8c5c19afc10ea629785cb1640197aa4c467208866fd5025a533ff"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "95fb623a7691535c79c7f45847bd9df751f5161d4988aede0c1b3f374f8aa060",
+      "translation": "아르헨티나에서 내분이 고조되자 오랜 적국은 자국의 입지를 강화할 기회를 포착한다. 국가적으로 중요하고 국민의 지지도 받는 영유권 주장을 다시 내세워, 다가오는 선거의 승리까지 굳히려 한다. 역사는 반복될 것인가?",
+      "review": "direct-source-review",
+      "batch": "revisions-553.tsv",
+      "previous_translation_sha256": "316e139e8b732df23636c28f47d670c087a6a1c22d56c3269c53187d8711604a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dfd21963ed02ca3e093ac6a9921a86365bf973eb111ce135f5b655abc4c9e775",
+      "translation": ")와 패트리오트 미사일 포대가 탄도미사일 요격 능력을 갖춘 이지스 함정들과 함께 배치되어 있다. 핵미사일이 미국 본토(CONUS) 영공에 진입하거나 본토 상공에서 핵폭발이 일어나지 않도록 반드시 막아야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-553.tsv",
+      "previous_translation_sha256": "a15dcb8b91c67b0b6136f435e33b77f8fb588dde4d55af6547a6a3a41cce2427"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "25ce01c93ecd64afd7be13a2cb20730701dce8255a80ecc5486d8d0c3167aa9e",
+      "translation": "호위 전력",
+      "review": "direct-source-review",
+      "batch": "revisions-553.tsv",
+      "previous_translation_sha256": "2740219b33dc1a6a28014696ef04fe64bbcdfe39af21695e38b970ca4510562d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9e0039b4682efe0974811e92b81304da9edf92fa9e914f981349f681152662d3",
+      "translation": ": 가능성은 낮지만 튀르키예나 나토가 상륙부대를 타격하려 한다면 이 전력이 개입한다. 특히 대잠전과 대공전 능력을 제공하며, 튀르키예 고속공격정(FAC)이 활동에 나서면 이들도 상대할 수 있다. 상륙부대에 함포사격 지원을 제공하는 데도 유용하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-553.tsv",
+      "previous_translation_sha256": "95ccfe630e6f7666566aa910ec18abab3746660c04a9a03d007b932805b8a8f1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f4625ca230d94d17dfa034eb09d8f482f68a96b504dd1798fa9af71c0171448a",
+      "translation": "(멕시코 보병소대를 선택하면 데이터베이스의 기본 유닛에서 몇 가지 설정을 바꾼 것을 볼 수 있다. 화면 오른쪽 위에는 'Mexican Platoon'이, 그 아래에는 파란색 밑줄로 'Inf Plt (Generic)'이 표시된다. 아래쪽이 데이터베이스의 실제 기본 유닛이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-553.tsv",
+      "previous_translation_sha256": "c6685913ec588820ab6a849b796c84a5aedc8e2f6dfd8f1061c3ed1baf4149a9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8dc014e098ca3dfd99cf02e6404650c5aebc554fd7d57068bd3021e0a710ff32",
+      "translation": ")은 부득이하게 기지로 복귀하면서 추적하던 잠수함과의 접촉을 놓쳤다.",
+      "review": "direct-source-review",
+      "batch": "revisions-554.tsv",
+      "previous_translation_sha256": "e15df07739db68c7078528cb6a3204a142a884f91f194449f1877aca02c1a786"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9c45f94382f096f2fa775af4050e015764a1a7d6217ddb4ae1e913d5d40fcabe",
+      "translation": "한편 버뮤다 해군항공기지에서 출격한 오리온 초계기들도 일련의 작전상 문제로 추적 중이던 잠수함과의 접촉을 상실했다. 이 잠수함은 원래 ",
+      "review": "direct-source-review",
+      "batch": "revisions-554.tsv",
+      "previous_translation_sha256": "a268d320cdc36cd4e3838d6d5a3578f43818d09dadb717c8f6eebba6a1d7a0f3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cda32e6d1250af498c42bddf51cc81b8babb282c4531c3623092df25b4e3ebad",
+      "translation": ". 특별 행동 메뉴는 도구 모음의 'Special Actions' 버튼을 누르거나 'Game > Special Actions' 메뉴를 선택해 열 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-554.tsv",
+      "previous_translation_sha256": "dd0ae37418381ba7b0eabc564971f2b800341124cf327b39b63ba5e492e3feab"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0e31466715ffc46401ad881c1522a734696c9c579e08dbd6f7bfa20067081a1b",
+      "translation": "순항미사일만 사용해 보라. 이 무기가 만능 해결책은 아니라는 점을 실감할 것이다. 가격을 생각하면 은탄환이 아니라 금을 입힌 탄환이어야 할지도 모른다. 걱정하지 말라. 금방 끝날 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-554.tsv",
+      "previous_translation_sha256": "72051bc4746adf0d6688474f76eba096a74146de14793e22dea1ab21460f29ec"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "de902d18c9e3ca02636ef82e33373bca203b710e1b8d024182709a6f32dbbfeb",
+      "translation": "이 시나리오는 최소 세 번 플레이해 보는 것을 권한다:",
+      "review": "direct-source-review",
+      "batch": "revisions-554.tsv",
+      "previous_translation_sha256": "bce14021299ee1384569063927c218fdad4a1db86793d02b5b4434f13fc0d55d"
     }
   ],
   "whole_db_paragraphs": [
