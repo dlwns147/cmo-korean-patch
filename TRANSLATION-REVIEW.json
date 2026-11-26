@@ -49,33 +49,33 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Direct Codex source-based review and rewriting where needed; no translation model or blanket terminology replacement",
-    "reviewed_source_entries": 7009,
+    "reviewed_source_entries": 7127,
     "review_outcomes": {
-      "modified": 5734,
-      "retained": 1275
+      "modified": 5848,
+      "retained": 1279
     },
     "changed_from_base": {
-      "ko.tsv": 169,
-      "scenario-ko.b64.tsv": 5764,
-      "db_files": 3213,
-      "db_paragraphs": 4673
+      "ko.tsv": 170,
+      "scenario-ko.b64.tsv": 5877,
+      "db_files": 3230,
+      "db_paragraphs": 4837
     },
     "source_recovery": {
       "matched": {
-        "ko.tsv": 1436,
+        "ko.tsv": 1440,
         "scenario-ko.b64.tsv": 60406
       },
       "total": 64976,
       "unique_candidates": 992799,
-      "direct_candidate_hash_matches": 892
+      "direct_candidate_hash_matches": 896
     },
     "validation": {
-      "runtime_first_lookup_passed": 7016,
+      "runtime_first_lookup_passed": 7134,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 57
+      "html_context_lookup_passed": 66
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -83,8 +83,8 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 8,
+    "additional_whole_db_paragraph_reviews": 9,
     "supplemental_source_entries": 7,
-    "whole_db_paragraph_applications": 120
+    "whole_db_paragraph_applications": 122
   }
 }
