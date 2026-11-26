@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9323,
+    "reviewed_source_entries": 9335,
     "review_outcomes": {
-      "modified": 7941,
+      "modified": 7953,
       "retained": 1382
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 7956,
+      "scenario-ko.b64.tsv": 7968,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9335,
+      "runtime_first_lookup_passed": 9347,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -74644,6 +74644,102 @@
       "review": "direct-source-review",
       "batch": "revisions-411.tsv",
       "previous_translation_sha256": "45b8bc651322bd50c85bc9b5f2aa585645ce05471dd06b6db3de56a3ebeb12aa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9ed02ef6d275382d0605a47d9ace25ad3de93f6fcba8ee7aa9cf1fd61a75c6bb",
+      "translation": "우드워드 제독은 남부 전력을 우려하여 헤네랄 벨그라노 기동부대에 대응할 수 있도록 교전 규칙 변경을 요청했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "291f6fe0d03c8aa25c38371de357028cb52ef6e7bcfc1e45eccd63e529815c96"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0c1ac380e089002aad92a843225eecf933e97ab3db209cb460e78e12a30884c3",
+      "translation": "임무는 상륙부대가 도착할 때까지 항공모함들을 온전히 보존하는 것이다. 포클랜드 동쪽으로 이동해 추가 명령이 있을 때까지 해당 위치를 유지한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "f85d0a9ebc36a4993abe4d1c34d3f6a29d3223cb44fcd036f984e7c2de85a312"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "252a69e91109a0478b0513cd1b0b198ec73ce3cf2fa7107addb6a7398f2c4bcd",
+      "translation": "테러 세력은 적으로 간주하며 재량에 따라 격멸해도 된다. 담당 작전구역에서 테러 세력을 식별하면 무장 사용 권한(WRA)이 ‘확인된 적에 한해 사격(Weapons Tight)’으로 전환된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "4a2a7803e90722412e285c443ce5bbf9c2f19cc44f3fa7892f6635718f86d5f6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "56b12e0c15342ac8e3c6506ac9171259104aa9ea217d8a459b79650da8af6f09",
+      "translation": "아군 지상 유닛 하나가 전략 거점에 1시간 동안 머물 때마다 1점을 얻는다. 예를 들어 지상 유닛 10개가 포트모르즈비에 10시간 동안 머물면 100점을 얻는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "c47c91ed4217d8938fb321dd5ef8dfcb34f74a7e5fabdcb52c460ff6d0b6ba06"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c20c56418d9b6aec9785711fb7881bd83fd9f708e741a23ebcf6964c85f0225e",
+      "translation": "공격을 시작하기 전에 정찰 전력을 투입해 표적을 확실히 식별하고 헬기부대의 침투 지점을 찾아야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "35ec5777b4f393fb379d5961606b218e6a6b2e5f3d2f3f29ac40e91c318ed1cd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "25de281aef3b1ffee31d79a52855303469d09994e43e2b3935096be586886734",
+      "translation": "전력을 격멸하면 점수를 얻는다. CRAF 여객기나 NRR 선박이 파괴되면 큰 감점을 받는다. 엔터프라이즈가 격침되면 게임이 종료된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "2ed0cbb20cde1fd2c438027fdce60002ed93b2da084745b32a60a749c70aa9d3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6e59d8d33e7a774b27a1b48d54ea6b6d2231a2f43dd2e0743592141a604f49c7",
+      "translation": "소련 순양함과 급유함들이 북해에 도달하기 전에 격침한다. 이들이 현재 북해에서 작전 중인 다른 소련 해군 전력과 합류하지 못하도록 해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "f8c0ed4754648ce5e9ac22fe11bc5d19122a30dfae020fefa6cda337518d19a8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7e9e96e1e3eb103efd0a034c7a2939bfb159a39b82faf8e3715b9b45b2a41030",
+      "translation": "3. 탐지될 위험을 감수하지 않는 범위에서 최대한 신속하게 전술지도에 표시된 Point Beta로 이동한다. 추가 지시를 받을 때까지 Point Beta에서 대기한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "4632630472ef7191e003f0edad4d12317760cb5218b4da63647437818c55b8d3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1ee5583cd3c1724d1a339b48eb6cc6ff5c82b9c7a3e4e16698b46f5d2683b987",
+      "translation": "D. 현재 이집트는 어느 NATO 회원국에도 공식적으로 선전포고하지 않았다. 조우하는 모든 이집트군에 대한 무장 사용 권한(WRA)은 사격 보류다. 자위 목적일 때만 발포한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "a7e976d9bc77f944a78586f7869ec5f6e39904d67df6ea921fbfd9a8f38c84a9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8f19124eb04c8f16249bf08f42ccc9abe9744ae5f3734c295527e7401b2eb4f1",
+      "translation": "승리하려면 영국 해군 급유함들이 남쪽의 기준점으로 지정된 구역에 최소 20분 동안 머물러야 한다. 인빈시블이 심각한 피해를 입어서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "def44bae8b61f8491cc229e4a54d3bda08ff409995c3bd26877e9d6ccacc9ee5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "28950bd6a3519b531666ea4552be51a1b934abc8f2d3344c4eba4eee28d2a2bb",
+      "translation": "중국 본토군이 먼저 적대행위를 개시하면 무장 사용 권한(WRA)이 ‘확인된 적에 한해 사격(Weapons Tight)’으로 전환된다. 반격이 허용되며, 이후 담당 작전구역의 모든 중국 본토군 전력을 공격해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "cd5cdf0d72a4b4b777a55cdc2ece371a1221c87c76a8aa0abe44b08a718b7b74"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5f1d6de3812701d5d66723267b124cec6ac12cb4f1bfde27693e863a857b7284",
+      "translation": "해당 해역에서 목격된 코니급 호위함들이 유조선을 호위할 수 있다. 주 임무 목표를 달성하는 데 필요한 경우가 아니면 호위함을 공격해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-412.tsv",
+      "previous_translation_sha256": "6e54cd2389bccb5c7b5d6e305b18d5fb237add34a6d43c09904f3fddbbf626a3"
     }
   ],
   "whole_db_paragraphs": [
