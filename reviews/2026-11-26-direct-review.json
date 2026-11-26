@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 10310,
+    "reviewed_source_entries": 10380,
     "review_outcomes": {
-      "modified": 8912,
+      "modified": 8982,
       "retained": 1398
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8916,
+      "scenario-ko.b64.tsv": 8983,
       "db_files": 4324,
       "db_paragraphs": 8739
     },
@@ -23,7 +23,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 10328,
+      "runtime_first_lookup_passed": 10398,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -82542,6 +82542,566 @@
       "review": "direct-source-review",
       "batch": "revisions-503.tsv",
       "previous_translation_sha256": "7bf79df162fcbac684245a42f37db85aeec83a24030f947529b381a42fc02585"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0ce34bb792a0d09701442450f415d7bf5e4b3c6819f746adf417274e6ec8e5c5",
+      "translation": "아래쪽 화살표 버튼을 눌러 선택한 항공기를 임무에 배정하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "6a1109744858963ec82f7aaed27fafa29e90807134b3fc97fa8c2db05f5a4b6b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c6857e78f227b87c926ba9b42223dadfdd9d460f6d77b94ebd53df9da4eff1e3",
+      "translation": "-예제 튜토리얼 임무의 지휘관을 환영한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "3192b845cb57b79d0ba7440dee5fd413605b1dd1b15de3fa8c0473c3ee652475"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "12b3ed4bb16357f45df2cc27fd51749d04fcfc6cc0a8f3320551de51a8ea5d82",
+      "translation": "현대 러시아·중국 무장 튜토리얼에 온 것을 환영한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "0ca847c69b85a87136f60ee7beca3894d2eb7773a6ce1dd6e2a3dff80bd4396f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a6add612a662e972b766ab4fc586ef3a959793b02c491f91243e8f8a2a4903af",
+      "translation": "임무 이름을 입력하고 '타격(Strike)', '지상 타격(Land Strike)', '활성(Active)'을 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "d9a4ee5d4c2afbd96ece4e0318f2cc277c596bfe7e3ecb3087ad6cb1f8391e54"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "80c9472ba4878b96686c16e16a310ee007c46bcd908a986a17e6d32bb3000161",
+      "translation": "하단의 '이 유형의 모든 무장 할당(Allocate all weapons of this type)' 버튼을 클릭하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "4d6063928cfe536793d3bbd5b13aef0f9dd90ce182540583011f5bb33d9e7890"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6c2ebdad93d46cad8d553e8922ef411c2e1b8114cd05a7b7a43b1c618ec6d838",
+      "translation": "비행 튜토리얼 7 - 대공전 5 - 현대 러시아·중국 무장",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "b0bc4961355d93409a615500306e09f610f81d6da091b395de2a2953d6c1fbcd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "65728322b5ada3469716a0ce437166140a6ab05ee2d80928ea3d0fafab060fad",
+      "translation": "현재 핵무기 사용은 허가되지 않았다. 다시 강조한다. 핵무기 사용은 금지된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "457d362720b4a9c9651ba7af38ecf53e9c2cd170360ac04209f7bc4eb9e27a19"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "226f253547f2f8a4d66789f57438e26405993115c891517db4d12e09dbc9c342",
+      "translation": "IL-28은 해당 무장 구성의 임무 반경 제한 때문에 지상 타격 임무에 배정할 수 없다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "8bc327950326534688881b6c2bdbbb9dc2b30067e60b53a2130d88f1aef94227"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b83d8a3d7ca77eb852f44f245b5fa33949a848e0d7048b1a4db6f189a9f5eafa",
+      "translation": "승리 점수의 대부분은 목표 구역을 점령하여 획득한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "f5d4bf969d6b74a03cb9dab843b2796d92463ab0e5fae676e6e4f68bd51020bd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "59ab8f4a14f2a9ae100079e94aa72d363d050e0f626984c3802c83ba7bcb84db",
+      "translation": "경고: 잠긴 참조점은 이벤트에 필요하므로 삭제하지 마라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "4a429b0211fce0c4113cfbb8d0c16a826a44926e17270a7fc89c476b5986ddca"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b4f40ca4f07482f1fc93d74eadb7df58ff36f44ae9091d7025f516beb9494830",
+      "translation": "'임무 편집기 창 열기(Open Mission Editor window)'의 기본 체크 상태를 유지하고 '확인(OK)'을 클릭하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "df43c216b37ec3a14844b2060c688d2780aec59f10c6e553692f5111eded7963"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7779343cb0b1ca5476eebfa0e80693b980f89adc6b8f4a9365c3fe45a757db01",
+      "translation": "'초계(Patrol)' 유형의 임무를 만들려면 먼저 참조점을 몇 개 배치해야 한다:",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "3152b376300856db9e4ac489dc62bb733ca83f866105cc53e0f9aab18957bd60"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9dbb27c1e0f579be2180ce9359867b36b1a9c66cd616f82bd70b617d8fc5a418",
+      "translation": "2) 위도 10도선과 40도선 사이에서는 전자방사통제(EMCON) 상태 B를 유지하라. 임무 수행에 필수적인 전파 방사만 허용된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "fb06ac0015992c65c58ab427f7829be94e29319778310e2ec567995c152da24a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "02f5c5e98c2b51e5dca9c7ed224ab5383663b078d8ca4af637440de318d0110c",
+      "translation": "타격을 마친 항공기는 연료를 절약하기 위해 중고도로 기지에 복귀한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "aeabccafca7eb8a10b39abf5df1fd67aa9f84515fd6d0983ece53ecbf387b247"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6bbca7693565807344db7b7f983836251844d93b19fd836a9f8aacd776a07457",
+      "translation": "Shift+F1을 누른 뒤 두 표적을 드래그로 선택해 무장 할당 창을 열어라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "85e45ce84bb452e9ff645f86c260570e37f0917c233dac44033050e104184ea7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ad7dc370c8965b66caa1e90b1e3d35273aff9d65acaea1d7af95781128ad988a",
+      "translation": "이 튜토리얼에는 타격 임무가 이미 생성되어 있으며 항공기도 배정되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "745bdaa904787cdce7e47967babd6bb917583fd65a6889ddefabca617660fd58"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "11ee1118d27b9d47a34bfd643cc4c4ace9134644552daf7efa57f9f101c7f523",
+      "translation": "베이징, 우디섬 추가 배치 발표… 공개출처정보(OSINT), 수송선단 교전 가능성 시사",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "4e2e26a0399a8897aa526f38dc94f37dba384650a8f417620f0a2a3f4d2ab6a8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "57db8eba10a17a101593852b3f811a72419d749271559649746900fd65701a77",
+      "translation": "2. 임무: 가능한 한 신속하게 프레스 마그넷 작전을 개시하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "59c7a5446ca6faa56827c00c0603186f8130bbab68743d10b4d6fc959c1051f6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "be06fbd2bdc2f75fda6c97bf098184ca2e3b9085f8f3e118392b2c79a2ebef18",
+      "translation": "방공 부대는 공격할 수 있지만 파괴해도 임무 점수를 얻지 못한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "0fa019add1ada2412d7b348688afc9051d5a7b46313c620b6e3078a891854e50"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "107e708fa8c1e0a3d0f5e81dbf84946d0115a0847b8c9bbe8bc66c80fe991ff2",
+      "translation": "튜토리얼 2에서는 임무 계획 도구와 공격의 기본 개념을 다룬다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "bb25cd63ed074ca80fe06cca4938baa13992fd5af3b1c382c98d4d0587f83563"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7fdec9c5d425002e23b4f73f28946cfd3fd40073a457fc1b2d02f2136969e703",
+      "translation": "모든 타격 편대는 진입 중부터 무장을 투하·발사할 때까지 엄격한 전파 침묵을 유지해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "fc1d7bfb71570360b0af79cba91a9ee3b2abab8710e5370e24effd44be970367"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f52ca323b221a17ee49efc2e887f48b6f9416474d77c54d474cc95dcfc05a037",
+      "translation": "콤소몰스크나(KOMSOMOLSKNA)에서 오는 타격기가 첸트랄나야 우글로바야(TSENTRANLNAYA UGLOVAYA)에 도착하면 반드시 급유하고 출격 준비를 갖춰라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "4db16888d8e4f60a96eb11b704aebbba8ba294ff2a9db203b2ff91ff8bfe2b80"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "772f01f8aa5bfb494525c7eb786045946f5ffe1ba477cc9e48d0b3d585fa7d6f",
+      "translation": "어느 쪽이든 핵무기를 사용하면, 판단에 따라 자위 목적으로 특수탄을 사용할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "75c307e2918e02d4a1464696a32818ff5edabd3b05603c03df8c77e3c4afb650"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b6994e05da63b47b88680503f4f91e9fc820e3a44b69c70a1c87b5ce69dcf0d",
+      "translation": "참고: 자동 종료 기능은 없다. 모든 무장을 소모하면 시나리오를 수동으로 종료해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "992b084efe070c784052fbcf7f7a328b126a90f3d48dbaebeaec13210e13c585"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "83fcdcdf696369afe6ba28f21def0cc746ff98e5bc979a3a63cb4b34ba480d40",
+      "translation": "대규모 지상 침공과 핵무기 사용을 제외하고 필요한 모든 무력의 사용을 허가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "7863853175f5f6f133349e6772d0bd8bf52b6c73dcf912b9e05c9a03052284fa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4dce4fff6a7884261c3b5c22209967c202cc690a231b38f5ad33356bfe6278e2",
+      "translation": "편대 규모 설정 바로 위에는 임무를 개시할 표적 식별 수준을 정하는 드롭다운 메뉴가 있다. '적대적(Hostile)'을 선택하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "2b43554f329c71fbd006ec658344b6792246a9407ac42795eaf1f20dc9349fc5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b35ad8eabab505f164f2e23d8b49ec901bca201e55f91545da2d938c179a890",
+      "translation": "'Strike #3'과 유일한 표적이 이미 선택되어 있을 것이다. 사용 가능한 무장 열에서 '20mm/85 Vulcan Burst'를 클릭하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "6fd384a10850b00899b6d1b74864d8dea80b78dc82c8b66870de765ca3f2194a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "16598d7e5d24ba9daa501e24971822d9248cc1b95e875827bd1accc368a657b0",
+      "translation": "모스크바 시간 07:00부로 NATO 기지와 핵무기를 조국에서 멀리 밀어내기 위한 전면 작전을 개시하라!",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "6148d23e339fc5c70adc8e36bd028f133c92bada8dd0b99d651b3860c6896447"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4a2a39d3aee4f9b002d2c828b89540bb16a154e0ab9418b7e8352c85029f7adb",
+      "translation": "(UH-2 탐색구조 헬기가 북베트남 해안에서 10해리 이내의 구역에 머무를 때마다 20분 단위로 임무 점수가 주어진다.)",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "ff53099cb924a551cc626c4226a8038d5a9fa89ca035475fc8c2dd577d6a7af9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c607f1e0fefb1c3a5a3f7ed145495180529598f1ff63da0833a364be0ce282c0",
+      "translation": "(EKA-3B 항공기가 북베트남 해안에서 10해리 이내의 구역에 머무를 때마다 35분 단위로 임무 점수가 주어진다.)",
+      "review": "direct-source-review",
+      "batch": "revisions-504.tsv",
+      "previous_translation_sha256": "c1d03cb9ed19fbc5682df40abbe323127ce311d9c83b0027a0eccf0b08d4156b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3de1327aec683eb9edbc7c9bc4a285dfbbd4f66ea184396db35b0b0a9a624375",
+      "translation": "야간 임무이므로 앞서 분쟁 구역을 떠나라는 통보를 받은 중립 민간 선박과 항공기에 주의해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "6b59096359db6723890a8d791074ed3162c54c6aefaac663125ef44361d90f69"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ef4d7f6eb13c47bed80bcb082558175d7fff59bb2a6ad073c22609475da64e72",
+      "translation": "이 함정은 초계 도중이며 탄약을 상당량 소모했지만, 매우 유용한 전력이 될 수 있다. 소형 함정이지만 잃는다면 큰 타격이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "0ff7d80be6413268ac240234553fdb1553e0c705e380f0209f4e36eae3aec1e7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "623d6ad49b5d15eab46e53242c1d89e7a330269d3298e58c36a7809c9227ef24",
+      "translation": "IL-28은 해당 무장 구성의 임무 반경 제한 때문에 지상 타격 임무에 배정할 수 없다. 수동으로 출격시키고 공격을 직접 세밀하게 지시하면 수행할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "34c3a53ce468f7a82a9cb20b2de004b087cb2269519efed712baf9f5979e96ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6e46e8a5beb78d1ddf6e244afbce9684d906cf13d0af7c43c08d2a4e010d9689",
+      "translation": "항공기를 그곳으로 전개시키면, 즉 임무 후 해당 기지로 재배정하면 다음 출격까지 걸리는 시간을 줄일 수 있다. 다만 무장 구성에 제약이 있으므로 항공기는 분산 배치하는 편이 좋다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "b1df9697de82316c8f4467aade77e5b2e879a044f0874dbc59a88070d572a90f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "09008a6d6fb92fc9b9b829739e85d486808a02e1d53b103fea7a5cd8f1bf6970",
+      "translation": "제독과 장군 여러분, 세부 명령과 협조 지침은 각 참모진이 가지고 있으므로 시간을 아끼기 위해 핵심 사항만 다루겠다:",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "4d98f4af10689366df81decde70f9ea55f2762b60df1569f4fc343403871d89f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c246c3147246bea1d9d4204595bb7ed6fe6f0d6fec1b939e0fdddc5eac36a51b",
+      "translation": "할당한 무장은 왼쪽의 할당 무장 목록에 표시된다. 'alloc to:'로 표시된 행을 오른쪽 클릭해 고고도 폭발을 지시하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "37f07c356dd35fe7e18563c6b6b6a5873ada06508c2ce5c65fbc6d93d6d1c0ff"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "89f0ac0ce34b6bf49e056d1f84afba60744fe835cfe391ee040f28c1842cb434",
+      "translation": "C. 북위 22도·21도, 동경 62도·63도로 둘러싸인 직사각형 구역 안의 합류 지점으로 이동하라. 추가 명령을 받을 때까지 그곳에 머물러라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "c8b4341b746832ea55fd9b95cfaf48a333b7bd8ce1c8399b06ccca8935e4fcd3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b3a61462ffede6f0cfdb3e563388c4a83146c5cf72a863b27d7bcadc53e47800",
+      "translation": "중국 해상민병대(PAFMM) 선박은 경고 사격으로 충분히 위협받거나 충돌로 손상되면 철수한다. 철수를 강요한 해상민병대 선박마다 점수가 주어진다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "35ccd91b0da5bcc09c187822070babfa364092a54d706c3913cc96c94c0d194f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "75bd443cd3fd7a1552b9ab93af33a47f66abb7f0ad5629235811027eaffff8bd",
+      "translation": "포클랜드의 아르헨티나군을 공격할 수 있지만, 주 목표는 제공권을 확보하고 아르헨티나 해군의 모든 공격을 격퇴하는 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "870484393d3c9453bb9000f2d54275538cfa0b267c60981f69c9041bb3d35962"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "534e100a989ba104136682b04faae56b3be29fdb540d707962e56f5131d39dfa",
+      "translation": "표적에 명중하면 130.5 DP(피해점수)의 피해를 준다. DP는 표적이 피해를 견디는 능력과 무장이 피해를 가하는 능력을 비교하기 위한 게임상의 추상적 수치다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "ef931dcbb7a94c8216d6baa902d8ad7668891adba1ab457b5b268e36ad93ffc9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ca85074f8fd835e12134ed56e5dc7bd32372f9adb1267156b607e8611b1d36da",
+      "translation": "세부 항공임무명령(ATO), 대잠전 구역, 이동 명령은 이미 전달했으므로 여기서는 전반적인 사항만 다루겠다. 먼저 정보참모(N-2)에게 발언을 넘기겠다:",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "8dde082c2acf54ff6ccf06785164a5a01a11a0203afdd59470a105075e9d48db"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dd790556a7b3e3134cff4cc8e33ff47c783eba54ea361b0d0a9211e5644f7f8a",
+      "translation": "D. 작전 제한: 현재 특수무기 사용은 허가되지 않았으며 예상하지도 않는다. VP-10의 1회 출격분 전력은 B-57 폭뢰를 탑재한 채 비상 대기 상태를 유지한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "1972cf5f7c8f9fb86269a83c3fdce31b830e79db3499c269d2092a24642a75d7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e8ab8eee866c74b60bb236b6d84feefe8081e88d542467e8f0af3019212f79c2",
+      "translation": "'구역 유효성 검사(Validate Area)' 버튼을 클릭하라. '경고! 구역 유효성 검사 실패(WARNING! Area validation has failed)' 메시지가 나오면, 상자 안의 위·아래 화살표로 참조점 순서를 바꿔 정사각형을 이루도록 하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "8d3f459b4207e560bd37e1ec306bd6107edbd21eba833f5470f4eac5af7c087e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8292b35e198c24622620f4ec4dfdd39a0e9a1aed8085e7786b6e0d712bcb01f5",
+      "translation": "바르샤바 조약군이 유럽에서 전투 작전을 개시했다. 모든 바르샤바 조약군과 그 동맹군에 대한 공세 작전을 허가한다. 세부 명령은 추후 전달한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "44e4326c3d1d961aa6a0a89b8d136aaf8ed7259a9b28ed9cc025e8bc54d407c8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1abf3c8d2cd7f6c9c5ca59ae4b981d583c465f2f42afc2f12f089d70d597fad2",
+      "translation": "전쟁의 정치적 측면도 실제로 작용한다. 이란군은 어느 시점에 항복할 것이다. 그들도 이 작전을 자살 임무로 여기지는 않는다. 항복하면 점수를 집계한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "4591621c48abcdce3d41b469117ba771ba94c2f9f58e31e8c8fad845bb925070"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5db3d27b16a4d587a85748c31c24b89a605bc38c46f54c317c0c0c04b5350e1e",
+      "translation": "야간 임무이므로 앞서 분쟁 구역을 떠나라는 통보를 받은 중립 민간 선박과 항공기에 주의해야 한다. 대부분 떠났지만 아직 남은 대상에 유의하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "2d03e98e42e1262fd2ef27a9ec1ee5c610817505e998ae7e50fb4b8eeda491f7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "47f2154061c80ca100a15f725b265c836ca1a56338d23187831e508352870b97",
+      "translation": "임무 목록 아래 입력란에 원하는 표적 도달 시각(Time on Target)을 입력하라. 이 튜토리얼에서는 어떤 시각을 사용해도 되지만, 처음에는 13:00:00Z로 설정하는 것을 권장한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "06095d2470c4d1ee6bbe18506b1116a24928204dc6dd616b67531f9afbc57701"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "347d0195e772928263b65e7dc591190430afdfd1385c728299008feaf5c5f51b",
+      "translation": "성과는 파괴한 항공기, 지대공미사일, 벙커를 기준으로 평가한다. 이번 임무의 중점은 공군기지가 아니다. 연합군의 인명 피해를 최소화하라. 항공기를 출격시키기 전에 교리와 교전규칙을 조정하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "35b126a36bcc9d5206eee7accb1459faceca68e0d463beb5258e70bfb91c5809"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "686165394d252967f93e8e3a9704746cc9b9732b551e0179abcfd947f6abce31",
+      "translation": "C. 아군 함정 최소 1척을 토바고의 12해리 영해 안으로 이동시켜라. 참조점 RP 902~RP 905가 전술지도에 표시되어 있다. 추가 명령을 받을 때까지 해당 함정을 그곳에 유지하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "bf0627d2e67ec690d0e7688b37e191b9b2ec8a61752568c6a5aa2da19db58799"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "060999953c5ced0a6956841b727b5eb94f5987f260e5ecc45cd0037c31cd3ec9",
+      "translation": "스페츠나츠 요원이 상륙하면 B-402는 즉시 지도에 표시된 참조점 'Minelaying Area' 1~4 사이의 구역으로 이동한다. 도착하면 B-402를 미리 생성된 'Mine Placement' 임무에 배정하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "402069318d74f260c3520ad7c6ec92030d325c01cb8bb4ee7f36a3d55e6993bc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3ddbcc57314f8605a710cbad0aaaa2911b06025bc39c5fda5410c050358a7047",
+      "translation": "2. 임무: 참조점 357, 358, 359, 360으로 둘러싸인 구역을 초계하라. 초계 구역에서 발견한 잠수함이 경고를 받고도 부상하지 않으면 적대 세력으로 간주한다. 해당 잠수함에 대한 발포를 허가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "9ca225a08b7089a84896e337b927f3c3cc74721d747d149140d5923ec2f81e08"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b8b28b65da1def3c18b2ae918f224acd2157cb6c791e54cdd21281ea7c9c6f62",
+      "translation": "목표 구역과 권장 상륙 구역을 설정했다. 이들은 잠긴 참조점이므로 절대 삭제하지 마라. 시나리오 시작 시 강조 표시해 두었으며 이 표시는 꺼도 되지만, 잠금을 해제하거나 삭제해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "4f1d66e4b29356aa401692e5db1e4ddd7ccd8b987496678700aede6080644241"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f42ca66e17b5c43f1644d8ddbf85d8102be59415d33d4aaec7eb61e208dfe4cf",
+      "translation": "시나리오 시작 5초 후와 10초 후에 각각 한 번씩, 총 두 번의 순간이동이 발생한다. 따라서 명령을 내리기 전에 15초 동안 시나리오를 실행하라. 두 번째 순간이동이 끝난 뒤, 즉 15초가 지난 시점에는 참조점을 삭제해도 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "5b2f050ee94e96537fbcef0a4081a62ae47c3451f0a27ada649cf834fc04e926"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ed247927e022227aa7048ba22a44e40c94ff27d24de3a7e63ccbe375af75877c",
+      "translation": "교리 설정에서는 앞서 설명한 연료 관련 조정에 더해 동맹군 부대를 어떻게 취급할지도 정할 수 있다. 연료 설정에 대응하는 무장 관련 설정도 이제 확장되어 있다. 동맹군 관련 설정은 아군 급유기와 수유기 모두에 적용된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "b9dd467865fd3b1bcd078c415180637745380c064d34cd2358c198487c366abd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a8aa931d16fb07f9c3ab60cbfcc1b6319da50e580eb83a7ae4bc91e619f52f7a",
+      "translation": "b. 지상부대를 시레트로 이동시켜라. 전술지도에 표시된 참조점 S-NW, S-NE, S-SE, S-SW로 둘러싸인 구역에 진입한 뒤 추가 명령을 받을 때까지 머물러라. 지상부대에 항공 엄호를 제공하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "065680d9561ac397cc6396adf7280b81b8365c9d5a7fe227919f404f487802fd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9a19c34d5246adea2a17e9804622ae353fcd7021fe16095d33aeee5f8410ace6",
+      "translation": "C. 아군: 변동 없음. 현재 과테말라와의 긴장 상황에서 초계를 수행하기 위해 익스테펙으로 이동한 귀 비행대대의 F-5 타이거 4대와 코미탄 집결지로 이동 중인 MD-500 4대가 이번 임무에 사용할 수 있는 전투 항공기의 전부다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "a08323c8c4b4e7cb8e57bb853885ad4dc5e80ad0b21c8737023bc8aeaad58eb4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e62a27b336fc62d5b4bf5a89405941fd392c256c7a35a9bbb4cebc89caa3163d",
+      "translation": "이 시나리오는 상륙·화물 수송 작전이다. 섬을 점령해야만 점수를 얻으며, 특히 섬의 공항 점령이 중요하다. 점령하려면 상륙한 지상부대가 목표 구역 안에 1시간 동안 머물러야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "b7a78e969fcddfcb246dc6e0efe83f89c4e9b4df4f142f40bb403770b3c1a84d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3a4c0d1baf642db5a7667b017736792227086c3eae75a67aaadc7e58d8d09575",
+      "translation": "이제 봉인된 명령서를 개봉하라는 허가를 받았으니 그 이유를 알 것이다! 매우 신뢰할 만한 정보에 따르면 USS 마운트 휘트니가 앞으로 24시간 이내에 이 구역('Patrol Area'로 표시된 참조점 구역)에 도착할 예정이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "3df97a3ab70b9bbd08764dbbcd67958139e0789adb1dc4c6fc299a3fe96f8d94"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fcf4fd401e309fc0643562083f01e1a305cd8e069b845b2428bc02edbac78acf",
+      "translation": "타격 후 NATO 대잠전 전력으로부터 살아남는 어려움을 구현하기 위해 시나리오 진행 시간은 8시간으로 설정되어 있다. 그 전에 임무를 종료하면 큰 점수 감점을 받는다. 이 감점은 8시간이 되는 시점에 해제된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "2aa040feb24fe9ceb3f7f022b02e6e3e815ca09cc913df677377dde56890ef56"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "faef2eba831123d937421cc3886bce1b171398179e40ab9f4f0cbcb9d255919a",
+      "translation": "헬기를 목표 지점으로 보내 약 5분 동안 제자리비행하며 격추된 항공기의 승무원을 구조한 뒤 항공모함으로 복귀시켜라. PIRAZ 함정에도 헬기 착륙장이 있어 탐색구조 헬기의 대체 착륙지와 급유 지점으로 사용할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "6b393f15fd8b433a4651cdcd1c3a856d9126135987d8bc85d86ac49d0f702fe9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "df3f38f3c537dfcd100e94b693f64bbb549350600e1a5ab1911cda9e795fb231",
+      "translation": "팁: MS 라인홀테(Reinholte)는 오늘 오후 중 인천에 나타나 AI 명령 없이 직접 지휘하에 들어온다. 구축함들이 출발했던 사세보로 향하는 항로를 직접 지정해야 한다. 그렇지 않으면 항구에 그대로 머물며 공습에 노출된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "644435fbb4224817c741d37fc5204e5e29ead518ea0e921fa5968f64c64d917b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a5efcf9cf51e864013ef3b9f90f671bcbe947bf80ae4bfb2491113a2ad193b2b",
+      "translation": "무장 탑재에 20시간이 걸리므로 무장 구성을 바꿀 시간은 없다. 원한다면 편집기에서 구성을 바꿀 수 있도록 소량의 비축 무장을 마련해 두었다. 다만 대부분은 이번 임무를 위해 공수한 특수 무장이므로 제공된 구성을 유지하는 편이 좋다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "7d80c48bd595018276d5c7a392c26c93edbf487d4391e475057224186f22b374"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "60b96ee9dc03f94cce105272f4a1ee0f7e3bddba1b3fd727c558ab2147a78788",
+      "translation": "이 튜토리얼에서는 방어망이 있는 구역에 대한 타격 임무를 연습했다. 방어 전력이 어떻게 편성·배치되는지, 이를 어떻게 공격할 수 있는지 조금이나마 익혔을 것이다. 적 역시 상황에 영향을 주며 아군 계획을 방해하려 한다는 점도 배웠을 것이다. 그것이 적의 역할이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "7cfeab5e62c719f9a939add5560dcccb934bda426dce1bf1b95210616d92f0e2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "07136aa085ac90a262439040b85c52848c87883579ebd443876ffa48bc6fecfc",
+      "translation": "5A. 작전의 모든 단계에서 각국 영공 통과 제한을 엄격히 준수해야 한다. QUIET CONCERT 작전 계획 담당자는 임무 항로와 공중급유 통제 지점을 선정할 수 있지만, 아래에 명시한 제한은 작전 내내 적용된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "d811fa5938d76dbe405942bfcdc962720c4aae6f962462d6cac43b7a40b9b034"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "84f1c17554859ea8f558a0112276e462ddbad00e8f0d58cfe13ef9c64d97d361",
+      "translation": "-다음으로 공군기지에 무장을 추가하라. '탄약고(Magazines)'를 연 뒤 '무장 항목 추가(Add Weapon Record)'로 이동하라. 기지에 항공기가 있으면 해당 기종과 호환되는 무장만 표시될 것이다. '항공기(Aircraft)'를 클릭해 기체와 무장 구성을 살펴보고 무엇을 추가할지 판단할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "4e50999ba5a022639c1c6ee140d3ac1632b6fdb808e44e3b9353eebcb4dfcc50"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "80b23e77619ec3f32497c851ab9af45ac852775ede23b7136f569c0a04b766a1",
+      "translation": "페트로파블롭스크 지역의 군사 표적에 지속적인 공습을 실시하라. 주 표적은 활주로와 항공시설이다. 부차적 목표는 지도에 표시된 참조점에 따라 항구 입구에 기뢰를 부설하는 것이다. 이 밖에 발견하는 군사 임기표적은 판단에 따라 공격하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "2113aff4ed83d7d79d4e28c5b78e36464c35bc526c5ae01f2ac536d0fc961468"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7e36753ed5a209d5819293657bc49d5c653130a423b127277ef09e23fc86101e",
+      "translation": "지난 50여 년 동안 탄도미사일 잠수함은 초강대국 간 위기가 고조될 때 정치 지도자들이 신중히 판단하도록 억제 초계를 수행해 왔다. 이 시나리오에서는 억제가 실패하고 어느 시점에 핵무기 사용이 승인된다. 발사 명령이 도착할 때까지 탐지되지 않고 생존하는 것이 임무다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "810bb5a659e01c3838c7cb6c225fa023588636f8d9feb61123b482fe913de2ac"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ecf3457332a6146c0aa324692184e8f806a2785ff437344df4978af50368cccb",
+      "translation": "또한 라틴 연합이 쿠바에서 핵무기를 확보했다는 사실을 알고 있다. 이들은 자국 영토 중 어느 곳이든 공격하면 핵무기를 사용하겠다고 명확히 밝혔다. 당분간 라틴 연합 내 기지를 공격하지 마라. 전자방사통제는 재량에 맡긴다. 전파를 적극적으로 방사하며 작전할지, 침묵을 유지하며 은밀하게 움직일지 선택할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "9ea6279eec9f99ca5296c8d73a8e3192e7192c81181b57020477de4ed2a66106"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "aba96e569613ef55d0471aa1379ef731bf54a33d2b35968216c33ebc85a03ef7",
+      "translation": "버전 1.11 이전에는 수유기가 급유기를 찾으러 매우 먼 거리까지 이동해 곤란한 경우가 있었다. 기본 교리 설정에서는 여전히 그럴 수 있지만, 이제 임무 편집기에서 이 행동을 조정할 수 있다. 항공기별 설정(Aircraft-Specific Settings)의 급유기(Tankers (AAR)) 항목 아래 '설정(Configure)' 버튼을 누르면 '비행 중인 수유기의 급유기 예약 가능 거리(Airborne receivers can book tankers within...)' 옵션으로 최대 거리를 조정할 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "3a996aa36bcc8b9c37c05b319a5f9968d59990b2a3ae5d3701c3a1caf5ea8037"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "df2c76e76a4752f0b3a41058ed9b7d4c1cf2e6e8f796e41cc1eec553283b8828",
+      "translation": "이 튜토리얼에서는 다양한 탄약으로 여러 표적을 공격했다. 일반 무유도 폭탄은 자주 빗나가지만 충분히 많이 투하하면 피해를 줄 수 있다. 현대적인 무장은 일반 폭탄만큼 범용적이지는 않지만 훨씬 정확하게 표적을 명중시킨다. 당면한 임무에 가장 적합한 수단을 사용해야 한다. 탄약 선택은 타격 계획을 세울 때 내려야 할 가장 중요한 결정 중 하나다.",
+      "review": "direct-source-review",
+      "batch": "revisions-505.tsv",
+      "previous_translation_sha256": "d8adcb006b94eef13845a5a1e27b0f4914df471ee5459da702c8862b81e32633"
     }
   ],
   "whole_db_paragraphs": [
