@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 9772,
+    "reviewed_source_entries": 9808,
     "review_outcomes": {
-      "modified": 8385,
-      "retained": 1387
+      "modified": 8419,
+      "retained": 1389
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 8398,
+      "scenario-ko.b64.tsv": 8432,
       "db_files": 4317,
       "db_paragraphs": 8680
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 9786,
+      "runtime_first_lookup_passed": 9823,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 151
+      "html_context_lookup_passed": 161
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -37,7 +37,7 @@
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
     "additional_whole_db_paragraph_reviews": 479,
-    "supplemental_source_entries": 14,
+    "supplemental_source_entries": 15,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
@@ -57,7 +57,9 @@
       "effort": "medium",
       "accepted_batches": 15,
       "accepted_whole_paragraphs": 440,
-      "acceptance": "Every full source and target directly compared before applying; automated checks are supplemental"
+      "acceptance": "Every full source and target directly compared before applying; automated checks are supplemental",
+      "accepted_scenario_batches": 1,
+      "accepted_scenario_paragraphs": 7
     }
   },
   "entries": [
@@ -65256,7 +65258,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "6fee10fc200b46b4c5fb0ba3e857d2af55e34848f5357e3a017c9adc8ea1967b",
-      "translation": "구조 전력이 살아남을 수 없는 지대공미사일 교전구역(MEZ)에 투입하는 것은 의미가 없습니다. 필요에 따라 공세제공(OCA)과 적 방공망 제압(SEAD) 전력의 임무를 조정해 안전하게 작전할 여건을 만든 뒤, 허큘리스 수송기나 헬기를 보내 승무원을 구출하십시오. 전투탐색구조(CSAR) 지휘관이 필요할 때 추가 지시를 내릴 것입니다. 추락한 조종사를 태우려면 구조헬기가 조종사로부터 약 1마일 이내에 몇 분간 머물러야 한다고 예상하십시오.",
+      "translation": "구조 전력이 살아남을 수 없는 지대공미사일 교전구역(MEZ)에 투입하는 것은 의미가 없다. 필요에 따라 공세제공(OCA)과 적 방공망 제압(SEAD) 전력의 임무를 조정해 안전하게 작전할 여건을 만든 뒤, 허큘리스 수송기나 헬기를 보내 승무원을 구출하라. 전투탐색구조(CSAR) 지휘관이 필요할 때 추가 지시를 내릴 것이다. 추락한 조종사를 태우려면 구조헬기가 조종사로부터 약 1마일 이내에 몇 분간 머물러야 한다.",
       "review": "direct-source-review",
       "batch": "revisions-324.tsv",
       "previous_translation_sha256": "bcdf8009239768b716a767d0a5a6f5133358f689c24dce93f270c89744a729b9"
@@ -78236,6 +78238,294 @@
       "review": "direct-source-review",
       "batch": "revisions-447.tsv",
       "previous_translation_sha256": "56f7e54284deea6c002b798dae04a2d3e667a761c2f16af4a18aa46c7a114b10"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bca2b8814c77fb74d9a2acf9a65c9df99edc111d816739c06128aa1140c30e36",
+      "translation": "미 해군은 한동안 새로운 함대함미사일을 실전 배치하지 않았다. 함정에 탑재된 소수의 하푼이 전부다. 제해권 확보는 항공모함의 항공전력에 의존해야 한다. 제공권을 확보하고 임무 표적을 신중히 타격하라. 시간도 ",
+      "review": "direct-source-review",
+      "batch": "revisions-448.tsv",
+      "previous_translation_sha256": "5a4baacae9c33ce87ff9cb75e145f0624f1140a51ba5150df6ff250131a3ebfa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "11b7ab634d1b22cb8807de62312a0fe278c2a435028cdc82c152c0e382d13435",
+      "translation": "중요하다. 너무 오래 기다리면 재무장 후 여러 차례 출격할 수 없다.",
+      "review": "direct-source-review",
+      "batch": "revisions-448.tsv",
+      "previous_translation_sha256": "4192cda2272673f1b9ef759daf6c1450b30779fb60ba8d63d5f252e2a0fac6d3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8e21095c6c4740a54bd4da966fe5eb5a2eb14ad2fe37671496a22fd05e329a74",
+      "translation": "실제로는 일어나지 않은 이 전쟁의 배경은 다음과 같다. 1957년 중반은 미국과 소련 사이의 긴장이 극도로 높았던 시기이다. 미국은 U-2의 소련 영공 정찰비행을 시작했고, 실전 운용이 가능한 대륙간탄도미사일(ICBM)을 배치하기 위해 막대한 자금을 쏟아붓고 있던 소련은 이에 격분했다. 미국의 우주개발 계획은 요란하면서도 체면을 크게 구기는 실패의 연속이었고, 대륙간탄도미사일이 없었던 미 공군은 영국, 튀르키예, 이탈리아와 협력하여 중거리탄도미사일을 배치하려 했다. 영국에는 토르를, 나머지 두 나라에는 주피터를 배치할 계획이었다. 당시 핵무기에는 무단 사용을 방지하는 사용허가장치가 없었고, 사고 발생 시 핵분열 기폭 메커니즘의 의도치 않은 작동을 막는 단일점 안전성도 아직 확보되지 않았다. 이러한 사고는 대중이 알고 있던 것보다 훨씬 빈번했으며, 파국적인 핵 사고를 간발의 차이로 모면한 경우도 여러 차례 있었다. 전투는 어느 시점에 이벤트가 발동하면서 시작된다. 누가 전쟁을 시작했는지, 왜 또는 어떻게 시작되었는지는 명령 수행과 전혀 무관하므로 구현하지 않았다. 그때까지 전략공군사령부(SAC)의 경계대기 전력에는 그저 평소와 다름없는 하루일 뿐이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-449.tsv",
+      "previous_translation_sha256": "978f9dd328d3d19203ed18eba5f34ca3fcdd4812d437d24a92d5ac0b28d4bf5a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bd45c95b5b01c82f7214b50b841eb55b96f537932ce4f8ab1cb4a46c782b4fde",
+      "translation": "이후 수개월 동안 상황은 이스라엘군과 시리아군의 충돌이 불가피해 보일 정도로 악화되었다. 1982년 6월 8일, 이스라엘 지상군이 제진으로 진격하며 시리아 기갑부대와 충돌하자 베카 지역의 시리아 지대공미사일(SAM)을 제압·파괴하는 작전이 마침내 승인되었다. 이 작전은 원래 ‘몰 3(Mole 3)’으로 불렸으나, 탐지된 SAM 포대 수에 따라 숫자가 늘어나 결국 19에 이르렀다. 이때 작전명은 1973년부터 사용된 전면전 계획의 명칭을 따서 ‘몰 크리켓(Mole Cricket)’으로 변경되었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-449.tsv",
+      "previous_translation_sha256": "d0cf8c341cd851602ffed419978462a299ac86f4f1dd9ad183c41f9e748a519a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "97a6ad185f638eabd935ad7fbd222b3d0a86ece6114ebbc450b27201218289a7",
+      "translation": "굴욕감과 분노에 휩싸인 프랑스 대통령은 즉시 대규모 구출작전과 차드 전역의 USLF 표적에 대한 공습을 명령했다. 그러나 프랑스군 대부분이 철수한 지 오래되었고 병력을 더 유리한 위치에 배치할 시간도 없었으므로, 마리안의 자유의 횃불을 짊어질 책임은 프랑스 남부의 프랑스 공군과 마침 인근에 있던 급히 모인 여러 해군 부대에 돌아갔다. 프랑스는 오랫동안 전력 획득과 군사교리에서 종심타격 능력과 아프리카에서의 전력 투사를 중시해 왔다. ‘사막의 매 작전’으로 명명된 이 대담한 구출작전은 그러한 준비의 가치를 입증할 것이었다.",
+      "review": "direct-source-review",
+      "batch": "revisions-449.tsv",
+      "previous_translation_sha256": "bd47fba31d7dc4fdbf8cbbcf2d177cc2ed03a10d0c54db8568804e43585c31cd"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4e864298188e389cda45fed7134d335c7604dbeacc4ce2d4841752d18830b529",
+      "translation": "21세기 초, 안다만 니코바르 제도를 이루는 572개 섬의 전략적 중요성이 점점 커지고 있었다. 제도의 최북단은 중국에 우호적인 미얀마에서 불과 22해리 떨어져 있으며, 최남단인 인디라곶은 인도네시아에서 불과 90해리 떨어져 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-449.tsv",
+      "previous_translation_sha256": "9af5c02beddde28c385ef9e2e87709b28e678c8ea1edd7d4ddc4af2a00e26fd1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b5fab7e585d261643f70d98f55297111dc49fd0f0fd9ab1beefd32e3da6ab90d",
+      "translation": "21세기 초, 안다만 니코바르 제도를 이루는 572개 섬의 전략적 중요성이 점점 커지고 있었다. 제도의 최북단은 중국에 우호적인 미얀마에서 불과 22해리 떨어져 있으며, 최남단인 인디라곶은 인도네시아에서 불과 90해리 떨어져 있다. 이 섬들은 벵골만과 매년 60,000척 이상의 상선이 통과하는 6도 해협 및 10도 해협을 통제할 수 있는 요충지이다!",
+      "review": "direct-source-review",
+      "batch": "revisions-449.tsv",
+      "previous_translation_sha256": "02ebc915eb13e501652e06348ab53f0da45e05edc1270dde6ca2d7c0a03cd540"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "eb87d2818934b5763dbad8aa69e023652a70fef5cbec8570d5dfcdfc9dd6fa28",
+      "translation": "이 가상 시나리오에서 사담의 도박은 성공했다. 끊임없는 스커드 폭격으로 이스라엘 내 여론의 압력이 거세져 임계점에 도달했다. 팔레스타인과 가자지구 내 반체제 아랍 세력들이 이라크의 압박을 지원하기 위해 이스라엘에 대한 독자적인 공격에 나서고자 자재, 보급품, 장비와 인원을 집결시키고 있다는 소문이 퍼지고 있다. 이스라엘 정부는 제한적으로라도 대응하지 않으면 정당성을 완전히 잃게 된다고 판단한다. 이스라엘은 이제 자제를 버리고 본격적으로 나서려 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-449.tsv",
+      "previous_translation_sha256": "4fac1b16d192e05d3ae8fba779a991e79319bc577c05df11c13f9eb57bb854a2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "edc2b63eb44577cc10cd7cd7b1352e5759e8881593895ebf8c18267e162bd8dd",
+      "translation": "예멘 내전은 중대한 국면에 접어들었다. 후티 반군은 알후다이다(호데이다) 항구 포위전에서 아군 지상군이 거둔 성과로 극심한 압박을 받고 있다. 후티의 저항은 완강하지만 이들은 서서히 밀려나고 있으며, 길어야 몇 주 안에 실질적인 재보급을 받을 수 있는 유일한 통로인 이 항구의 통제권을 잃을 가능성이 높다. 이란의 지원이 끊기면 후티 반군은 필연적으로 무너질 것이며, 이란은 지난 15년 동안 아라비아반도에서 이루고자 애써 온 모든 것을 잃게 될 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-449.tsv",
+      "previous_translation_sha256": "24d2cd92886153d99c3f57b79dc3430a5fd41acb843a001eabdb56ccbaa69458"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1ab5acd4e488ff71a68d77b88bf4d3af2344c5e5a9f24ee8bfc53f4917a76ee2",
+      "translation": ": 몇 시간마다 배경에서 무작위 사건이 발생한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "c3e0688199765475548fa95615b56dad04c383bf1d2b80aba42c4705f264b295"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2ad906a1f7666cff11b9399340513c74a4e1a3dd3784abee8a0416c275d595dc",
+      "translation": "주로 아군 스페츠나츠와 정치 공작 세력이 튀르키예 내부에 혼란을 일으키는 사건들이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "9132dd3e49c338c6ffa1414de09301aec2cf87f1bcb5b67f6f62a2f0e7d88db2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d3dab2e7c41d469bfa91652434b33eaf330b9c0f164b8bcfea68d03b40fe91ac",
+      "translation": "사건이 발생할 확률은 비교적 낮지만, 특수 행동 세 가지(Event Option 1, 2, 3) 중 하나를 선택해 승점을 지출하면 확률을 높일 수 있다. 이 선택은 게임 시작 후 첫 ",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "479bed3d3cbd8eeba1eac927ba8f17085f597988fc822eda297407b9d1e2f113"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3170543ce47c2f0baa50254b13b82b58b0962675647c39a20643690168f572d7",
+      "translation": "5분",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "9d5ea7923d6cf1a12cf731a89e0ae661035352bc2c0640981f1a14c805cc5882"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b4c4253ee4fd562561003a1e6f59f817c11575c8b4fdacdff0b46c21e24b6ed2",
+      "translation": " 이내에 해야 하며, 그 뒤에는 선택할 수 없다.",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "a8ba77b1be5903f1e4ef5c8054f2ea9cb7865c510e27a26eea5b22d78ee65b79"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "188a3caaa4f87d6a23e94b6ea331c4ed49d00cb2c437440e0943c2e6a50f2869",
+      "translation": "전투탐색구조",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "6581d507da4bacf42c44ef36b4ae3cb2be2ce30f681997e336d8c5ef2c414e3a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d7c96fbd0fa6f7e547fd15ea9edc309fe7e096045f2df2c19ded8f99d8f58024",
+      "translation": "이제 알겠지만 아군은 강력한 적을 상대하고 있다. 손실이 발생할 가능성이 높으므로 추락한 항공기 승무원을 구출할 전력을 확보해 두었다. 아군 조종사가 비상탈출하면 표준 탈출·도피 절차를 따를 것이며, 아군은 그의 최초 위치를 파악할 수 있을 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "edbea7eb02944a9b0a598262d8a01ed3a1c17f286fe09c08847f718ad4af58ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3eb70d048f366cc24e1c31854de516a4eaad9662a7cfda45eb7790f84c4ab3e5",
+      "translation": "위치가 파악되면 구조 임무를 조율할 수 있다. 구조 임무는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "5e32a03157815698aff2947804daf2649e92fa8eb93fbf6a120111f30854a08e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3b5fe06beb87262cda1ade3b7b928918108f73e1aac43bacab9108337b03144b",
+      "translation": "실제로 수행 가능한 계획이어야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-450.tsv",
+      "previous_translation_sha256": "30574da82a1c1d3aa5a6bfbcdfb3b1f8e19c12ba4279febd6dde5f705c2de22d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ba63751d74159c72431151ddb79d0f26810e3beab0f942deda9e18b33b1b3ae1",
+      "translation": ": 러시아가 라트비아, 리투아니아, 에스토니아 중 하나 이상을 점령하기 위해 공격하면, 이 지역과 주변 공역의 제공권을 확보하여 NATO 해상전력이 발트해의 제해권을 장악할 수 있도록 하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-451.tsv",
+      "previous_translation_sha256": "2816d96bd461a71f3c65ce93c7965bb8c38ecf25debf7a4a915cba2d54997aac"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2948cc374d73e53f868db1694f44e4b2c45d112df25dcdb769b97168d61a4c08",
+      "translation": ": 동지, 임무 완수까지 주어진 시간은 16시간이며 3시간 뒤면 날이 밝는다. 일부 항공기는 야간 작전이 가능하므로 조속히 출격시키는 방안을 고려하라. 배정된 표적은 다음과 같다(피해율 최소 90%):",
+      "review": "direct-source-review",
+      "batch": "revisions-451.tsv",
+      "previous_translation_sha256": "d199824c194562749e341d02c8ed93df970c2410e7880da408837a0eb6d2b5ba"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f471cd884edde6285ddbb41356c81f02f2cb97e99359bda40286576c9c1e5c5f",
+      "translation": "미 해군 일부 전력은 스프래틀리 제도 인근에서 실종된 베트남항공 87편의 수색·수습을 지원하라는 명령을 받았다. 중국은 급변하는 상황을 주시할 것이며 이를 이용하려 할 수 있다. 미 해군은 란쿠도 비행장 북서쪽 135해리에서 보급 작전을 수행 중이다. 이 비행장을 보유한 국가는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-451.tsv",
+      "previous_translation_sha256": "4f913165b7aa6fd78777b673d3eda2d39d20da3a1246667430099ead8e2ec039"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8a74ba522fa5545c0abb42f346906cd5bbf1989b9b31e14857336a97fe61daee",
+      "translation": "필리핀",
+      "review": "direct-source-review",
+      "batch": "revisions-451.tsv",
+      "previous_translation_sha256": "37cacb5bfaa688b2ae11dbed44fe68789ebd2f1dfa419ea125069d7ab1569bc4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1fee8c5beeb513063418762e1b2389ce06562edf282debca10731ab106945bd4",
+      "translation": "이다. 중국은 이 활동을 면밀히 감시해 왔다. 감시 전력을 출격시켜 란쿠도 비행장 주변의 작전 공간을 감시하라. 상황 변화에 유연하게 대응할 태세를 유지하며 후속 상황을 기다려라. 명령이 내려올 때까지 중국이나 베트남과 교전하지 마라.",
+      "review": "direct-source-review",
+      "batch": "revisions-451.tsv",
+      "previous_translation_sha256": "b0150b22391fd3321f49a6cc683a4e345ccc6f1de821101da4794ee0e7b4bca5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "567176c9a2a40e6d266a12432e38ab4a9afd33736e77bcf3310217237f25d002",
+      "translation": "함정이나 잠수함을 잃으면 감점된다. 특히 ",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "1696d178ed0efcecef70705a312cf2908bc5fb84d5e1a29381169134dd6ff349"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b84bb832c8c7fbb69e9db3fe359caea287280f9e558575e35fd775eb09823c46",
+      "translation": "워레이(Wolei)",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "3c1fb0919c16432757c26f2095f477010ce200ce3c0e7237d327f5f4ab835cf2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "96a36fff613b6d5f006e15b5add74f8206cb6e1386366afcb1860bfa7696c7c7",
+      "translation": "를 잃으면 막대한 감점을 받는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "3080e81a561c3f5a92bcc68387731bd6c13d5691fe911dab32bef35b95dd3369"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6fed9454b323d2caab91f3bfbbba1133d540741a4ade82fb907c70f11d84e4f9",
+      "translation": "를 잃으면 큰 감점을 받는다.",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "2781fc8b15a95e8bec20b41e1c10acb83060f35a72b1101278dd2955e50b5b63"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e3f442c9e0eeec9d904aa594f907383d97cb936660ea4b1fc6097804f5eb4480",
+      "translation": "아군이 역탐지되거나 유닛을 잃으면 감점된다. 특히 ",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "d56eec08c126804c6ac8bbf72d6b2de79fc847a161a3185e792591c3f73379f3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "452dbf5e23ad8fe5b6705cae97483943cc7081a8a8222de99318d59a021ec795",
+      "translation": "를 잃으면 언제나 치명적인 결과를 초래한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "fcbc719a4ee3b94f44feca3ab528a933f99854e1bc6d83c807fee5420304cee0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "45afb3fae4433c0c3a2b5358d44a8743f151c07c0f3b071623abc35c49f94510",
+      "translation": "컨커러가 북쪽에 표시된 구역으로 빠져나가면 게임이 종료된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "15a5be62d40262ec005565159c4da967ea6499fa82dd48c0d03ec02ccac7942f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "771b518d48b7b0348c0da4041ea244017c9aad50c658d0ed363aca6ce55afd38",
+      "translation": "미국 측 시나리오 점수는 원문에 250~0점으로 기재되어 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-452.tsv",
+      "previous_translation_sha256": "f17a31e8f1d956af04fc7a61943ce44d5645e7dea7f1243f3f255f9927664d11"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "81d427943f7495c9d789e9206fcbb447cd3329f64c39543b47af7e42ec1fa585",
+      "translation": "임무는 USS 이오지마(LPH-2)와 HMS 오션(L11)을 각각 중심으로 편성된 상륙준비단 2개를 나르비크로 이동시키는 것이다(",
+      "review": "direct-source-review",
+      "batch": "revisions-453.tsv",
+      "previous_translation_sha256": "2abe74a6b700b1b2bf99c1d755b08e69c6a20ccbd8df27daa26362ab39ea059c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "50887fd71f2ad607f73a6528d112aa98cf8d901b696555d6234aa03528fccb6a",
+      "translation": "NATO는 나르비크가 함락되지 않도록 대규모 전력을 다시 투입할 것이다! 임무는 USS 이오지마(LPH-2)와 HMS 오션(L11)을 각각 중심으로 편성된 상륙준비단 2개를 나르비크로 이동시키는 것이다(",
+      "review": "direct-source-review",
+      "batch": "revisions-453.tsv",
+      "previous_translation_sha256": "15500084c48c85bc1fe981820be4a09503f0c505dea092184155d3832caa5aeb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ef2da6ae4c3a7ed123bb078405d40c71279b52a1986dd07f60c40d1746bff8f5",
+      "translation": "보되와 안되야 인근 노르웨이 피오르에서 잠긴 기준점으로 표시된 구역",
+      "review": "direct-source-review",
+      "batch": "revisions-453.tsv",
+      "previous_translation_sha256": "384b7986ddb5e1b2c8e7abe8bcad02060c466b2e5832e26afab0e6b4813d323a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0192052c5ea2a322574296141a97690a149a5fa3ae95ad254d070f017e948ad1",
+      "translation": "). 이를 통해 바르샤바 조약기구군의 공세를 저지할 수도 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-453.tsv",
+      "previous_translation_sha256": "6a7d884544d8ef9809b6746ef6eefb56f7861bf3be99d5c94158909f6f7e3c8d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "07bdd49d2c1ef77d9198bf00988354bc3d656460bfc24922f2577e10ec639bcb",
+      "translation": "이제 '건틀릿(The Gauntlet)'을 돌파할 때다!",
+      "review": "direct-source-review",
+      "batch": "revisions-453.tsv",
+      "previous_translation_sha256": "a942d3fd8eb7e95591861f6b026afbed945e86ef287a7fe62abdce672ca52d30"
     }
   ],
   "whole_db_paragraphs": [
@@ -91019,6 +91309,13 @@
       "translation": ")에 진입하면, ",
       "review": "direct-original-html-node-review",
       "origin": "source-00622.xml"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "translation": "",
+      "review": "direct-original-html-node-review",
+      "origin": "source-00541.xml"
     }
   ]
 }
