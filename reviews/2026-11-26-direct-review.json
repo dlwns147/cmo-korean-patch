@@ -10,8 +10,8 @@
     "changed_from_base": {
       "ko.tsv": 179,
       "scenario-ko.b64.tsv": 46632,
-      "db_files": 4391,
-      "db_paragraphs": 9122
+      "db_files": 4418,
+      "db_paragraphs": 9237
     },
     "source_recovery": {
       "matched": {
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 603,
+    "additional_whole_db_paragraph_reviews": 627,
     "supplemental_source_entries": 43,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -44,13 +44,13 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 119,
-      "pending_locations": 119,
-      "covered_associations": 2807,
+      "unique_pending_whole_paragraphs": 95,
+      "pending_locations": 95,
+      "covered_associations": 2841,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 1891,
+    "whole_db_paragraph_applications": 2006,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
@@ -400491,6 +400491,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_1766.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1766.txt",
       "paragraph_index": 2,
       "source_sha256": "af332c6d6b8845041bd30debf37c9c38cde26e4a2ba7ce13197d2fee9efc60ca",
       "translation": "세부 사항: E-2는 양쪽 날개에 터보프롭 엔진을 1기씩 장착하고 접이식 전륜식 3점 착륙장치를 갖춘 고익기이다. 대부분의 함재기와 마찬가지로 E-2도 착함용 테일훅을 갖추며, 항공모함의 캐터펄트를 이용해 이륙할 수 있다. 호크아이의 특징은 동체와 날개 위에 장착된 직경 24 ft(7.3 m)의 회전식 돔이다. 이 돔에는 E-2의 장거리 레이더와 피아식별체계용 주 안테나가 들어 있다. 다른 함재기에는 이러한 돔이 없으며, 육상기에서는 주로 미 공군과 NATO 공군들이 대량으로 운용하는 더 큰 공중조기경보통제기인 보잉 E-3 센트리의 상부에서 볼 수 있다.",
@@ -400504,6 +400513,15 @@
       "source_sha256": "1cbbde9deb4d44b45b5b8044a1aec50c8015d8bf096f1c0b958fbb89eac946d8",
       "translation": "미군에서 운용하는 E-2 호크아이는 모든 항공모함 전투단에 전천후 공중조기경보 및 지휘통제 능력을 제공한다. 이 밖에도 해상 및 지상 감시, 방공을 위한 항공모함 함재 전투기 관제, 공세 임무를 수행하는 공격기 관제, 해상에서 조난한 해군 항공요원과 수병의 탐색구조 임무 관제, 공대공 및 함대공 무선통신 중계 임무를 수행한다. 지상 항공교통관제를 이용할 수 없는 비상 상황에서는 항공교통관제 임무도 수행할 수 있다.",
       "previous_translation_sha256": "4bd421ed8f2163f947139b24c27dd85194c245cfdddefdaaed4a9f67b1222271",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1768.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
     },
@@ -400788,6 +400806,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_270.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_270.txt",
       "paragraph_index": 2,
       "source_sha256": "af332c6d6b8845041bd30debf37c9c38cde26e4a2ba7ce13197d2fee9efc60ca",
       "translation": "세부 사항: E-2는 양쪽 날개에 터보프롭 엔진을 1기씩 장착하고 접이식 전륜식 3점 착륙장치를 갖춘 고익기이다. 대부분의 함재기와 마찬가지로 E-2도 착함용 테일훅을 갖추며, 항공모함의 캐터펄트를 이용해 이륙할 수 있다. 호크아이의 특징은 동체와 날개 위에 장착된 직경 24 ft(7.3 m)의 회전식 돔이다. 이 돔에는 E-2의 장거리 레이더와 피아식별체계용 주 안테나가 들어 있다. 다른 함재기에는 이러한 돔이 없으며, 육상기에서는 주로 미 공군과 NATO 공군들이 대량으로 운용하는 더 큰 공중조기경보통제기인 보잉 E-3 센트리의 상부에서 볼 수 있다.",
@@ -400967,6 +400994,24 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1770.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_2798.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2799.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_2823.txt",
       "paragraph_index": 1,
       "source_sha256": "3d221e4218e3c971c44573b90f1e1b86715773627f8105992139e6bce0f5dba9",
@@ -401082,6 +401127,15 @@
       "previous_translation_sha256": "74c27b8152cebb95ecc822e79ccf22ddda93931e055441051b0300138545d73d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_3034.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_3053.txt",
@@ -401426,6 +401480,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_163.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_51.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_576.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
@@ -401487,6 +401550,15 @@
       "previous_translation_sha256": "44cd769e436fffe24c2d287017af89b3892351eb5596f40007836eeac617ee86",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_134.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_667.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_82.txt",
@@ -401559,6 +401631,15 @@
       "previous_translation_sha256": "b1eec4a6e270c86936b8e12d3e4239803404bc36d49718f56ed5dd99169dd5a2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1532.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/facility_1580.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Facility_1771.txt",
@@ -401658,6 +401739,15 @@
       "previous_translation_sha256": "c669c8fa747d55be7bcd76166966e07f2da728ad5b57414dbc28509749bc5e90",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1901.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/facility_608.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/facility_610.txt",
@@ -402110,6 +402200,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1251.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Ship_127.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2ebec49221ac061dba63b435c45526af42f162f4c9d6289bd794393b3ad55789",
+      "translation": "세부 사항: Type 21 호위함은 저렴한 범용 호위함을 목표로 설계되었다. 이전 영국 해군 함정과 달리 민간 조선소가 비교적 느슨한 해군 감독 아래 설계했다. 그 결과 상부 중량이 허용 한계에 도달하거나 근접해 향후 확장 여유가 없었다. 상부구조물에 알루미늄 합금을 사용해 무게를 줄였음에도 상부가 무거운 상태는 해소되지 않았다. 상부 중량의 여유가 없어 성능개량이 불가능했고, 결국 취역 후 20년도 되기 전에 영국 해군에서 퇴역했다. 피해에 대한 내구성도 부족했다. 1977년 HMS Amazon 화재는 알루미늄 구조가 화재에 더 취약하다는 점을 드러냈다. 포클랜드전에서는 거친 기상과 알루미늄·강철 구조의 팽창 차이로 선체에 균열이 생겨 전쟁 후 보강이 필요했다.",
+      "previous_translation_sha256": "54d6a6a7094a7f45466acc35385b0dc1b01a12021c1ba4f16ccd6dbc6f56ef6a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_127.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Ship_128.txt",
       "paragraph_index": 2,
       "source_sha256": "2f67f40ec9b1558749d7f4078b4c2631ffab572c55efc6d63d12e497fb20959d",
@@ -402261,6 +402360,24 @@
       "previous_translation_sha256": "073b63559c950fa802859848018705adbf08b7a065290e79fb679213e1b0e471",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1251.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Ship_2323.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2ebec49221ac061dba63b435c45526af42f162f4c9d6289bd794393b3ad55789",
+      "translation": "세부 사항: Type 21 호위함은 저렴한 범용 호위함을 목표로 설계되었다. 이전 영국 해군 함정과 달리 민간 조선소가 비교적 느슨한 해군 감독 아래 설계했다. 그 결과 상부 중량이 허용 한계에 도달하거나 근접해 향후 확장 여유가 없었다. 상부구조물에 알루미늄 합금을 사용해 무게를 줄였음에도 상부가 무거운 상태는 해소되지 않았다. 상부 중량의 여유가 없어 성능개량이 불가능했고, 결국 취역 후 20년도 되기 전에 영국 해군에서 퇴역했다. 피해에 대한 내구성도 부족했다. 1977년 HMS Amazon 화재는 알루미늄 구조가 화재에 더 취약하다는 점을 드러냈다. 포클랜드전에서는 거친 기상과 알루미늄·강철 구조의 팽창 차이로 선체에 균열이 생겨 전쟁 후 보강이 필요했다.",
+      "previous_translation_sha256": "54d6a6a7094a7f45466acc35385b0dc1b01a12021c1ba4f16ccd6dbc6f56ef6a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_127.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Ship_2519.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2ebec49221ac061dba63b435c45526af42f162f4c9d6289bd794393b3ad55789",
+      "translation": "세부 사항: Type 21 호위함은 저렴한 범용 호위함을 목표로 설계되었다. 이전 영국 해군 함정과 달리 민간 조선소가 비교적 느슨한 해군 감독 아래 설계했다. 그 결과 상부 중량이 허용 한계에 도달하거나 근접해 향후 확장 여유가 없었다. 상부구조물에 알루미늄 합금을 사용해 무게를 줄였음에도 상부가 무거운 상태는 해소되지 않았다. 상부 중량의 여유가 없어 성능개량이 불가능했고, 결국 취역 후 20년도 되기 전에 영국 해군에서 퇴역했다. 피해에 대한 내구성도 부족했다. 1977년 HMS Amazon 화재는 알루미늄 구조가 화재에 더 취약하다는 점을 드러냈다. 포클랜드전에서는 거친 기상과 알루미늄·강철 구조의 팽창 차이로 선체에 균열이 생겨 전쟁 후 보강이 필요했다.",
+      "previous_translation_sha256": "54d6a6a7094a7f45466acc35385b0dc1b01a12021c1ba4f16ccd6dbc6f56ef6a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_127.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/ship_445.txt",
@@ -402821,6 +402938,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_38.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Weapon_386.txt",
+      "paragraph_index": 1,
+      "source_sha256": "4d840f3447951f4add5f60331ef049a4ee1a030063c864e40430bc1724e55be3",
+      "translation": "세부 사항: 버디 급유 포드는 호스와 드로그를 펼쳐 급유기 뒤쪽 아래로 늘어뜨린다. 수유기 조종사는 급유 프로브를 드로그 바스켓에 넣어 단단히 연결한 뒤 연료를 공급받는다. 호스·드로그 장치(HDU)의 동력식 드럼은 호스를 감거나 풀어 공기력의 균형을 맞추고, 기동 중 프로브에 과도한 하중이 걸리지 않도록 한다. 연료 흐름은 밸브로 조절하며, 조종석 표시등으로 상태를 알려 안전하고 연속적인 급유를 돕는다. 적절한 접근 속도를 유지하고 연결을 끊을 수 있는 진동을 막으려면 정밀한 조종이 필요하다. 버디 급유 포드를 활용하면 타격기가 연료를 적게 싣고 이륙한 뒤 공중급유를 받아 더 긴 임무를 수행할 수 있다. 과거 영국 해군은 Supermarine Scimitar와 Blackburn Buccaneer 등에 비슷한 체계를 사용했다. 현대 서방군과 러시아군도 호스·드로그 방식의 공중급유를 널리 사용한다.",
+      "previous_translation_sha256": "d30f4713c905c641484f41d4a80271250665ff5c77fd01e600c3318c35028b3b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_386.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Weapon_388.txt",
       "paragraph_index": 2,
       "source_sha256": "56794d0a25cbca619cbe04fca3794b928d60de189ab1a5b6623666d7cd017f2f",
@@ -403019,6 +403145,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1006.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1013.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1018.txt",
       "paragraph_index": 1,
       "source_sha256": "636cc7b718b3e11203cd225333a9fbcff0e26205066834b49aca083b0cc3fee9",
@@ -403091,6 +403226,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1022.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1023.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1024.txt",
       "paragraph_index": 2,
       "source_sha256": "29a3f8a9dbc833bb2c6e046fb3118d6912d66748ef4d30e66b37d316c1da9f94",
@@ -403154,6 +403298,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1056.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1059.txt",
       "paragraph_index": 1,
       "source_sha256": "dc513743a50c8fc8453f1fd9bb6f5d91b041f580bd04c23050f1d369e2e8a0f8",
@@ -403179,6 +403332,24 @@
       "previous_translation_sha256": "b842dd1eba50f96c9859597a24976e7dcc2abcc251ad6924c0288058d2647eff",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_124.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1069.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1070.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1077.txt",
@@ -403215,6 +403386,24 @@
       "previous_translation_sha256": "68c65a6cd09b3c6393a6816d149c5145ca105a04e7f8710859b1718e81ba9224",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1024.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1086.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1088.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1089.txt",
@@ -403350,6 +403539,42 @@
       "previous_translation_sha256": "476a8f039b749e54d1522adaa980c04b78e85678e85baec4948c3611aa33de5a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1112.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1118.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1119.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1120.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1121.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1122.txt",
@@ -403623,6 +403848,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_13.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_13.txt",
       "paragraph_index": 2,
       "source_sha256": "af332c6d6b8845041bd30debf37c9c38cde26e4a2ba7ce13197d2fee9efc60ca",
       "translation": "세부 사항: E-2는 양쪽 날개에 터보프롭 엔진을 1기씩 장착하고 접이식 전륜식 3점 착륙장치를 갖춘 고익기이다. 대부분의 함재기와 마찬가지로 E-2도 착함용 테일훅을 갖추며, 항공모함의 캐터펄트를 이용해 이륙할 수 있다. 호크아이의 특징은 동체와 날개 위에 장착된 직경 24 ft(7.3 m)의 회전식 돔이다. 이 돔에는 E-2의 장거리 레이더와 피아식별체계용 주 안테나가 들어 있다. 다른 함재기에는 이러한 돔이 없으며, 육상기에서는 주로 미 공군과 NATO 공군들이 대량으로 운용하는 더 큰 공중조기경보통제기인 보잉 E-3 센트리의 상부에서 볼 수 있다.",
@@ -403838,6 +404072,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1555.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1565.txt",
+      "paragraph_index": 1,
+      "source_sha256": "1d8a87d6840844819198d121aef1cadee38fef41042305f05096d218775868fb",
+      "translation": "세부 사항: AV-8B Harrier II는 McDonnell Douglas와 British Aerospace가 AV-8A의 항속거리·탑재량·항공전자 장비의 한계를 해결하기 위해 공동 개발한 2세대 Harrier다. 추력 편향 노즐 4개를 갖춘 Rolls-Royce Pegasus F402-RR-408 터보팬 엔진을 사용해 수직·단거리 이착륙이 가능하며, 최고속도는 약 마하 0.9다. 기체에는 복합재를 사용해 중량을 줄였고, 주익을 키워 연료와 무장 탑재량을 늘렸다. 장착점은 날개에 6개, 중심선에 1개다. 조종석에는 전방시현기(HUD), 관성항법 장치, 기본적인 레이더 경보 수신기(RWR), 디지털 탑재물 관리 체계가 있지만, 이 주간 전용형에는 야간투시 장비 호환 기능이나 표적지시 포드 통합이 없다. 무장은 범용폭탄, 집속탄, 공대지 미사일, 기관포 포드, 자위용 공대공 미사일 등을 선택할 수 있다. 전방작전기지와 상륙함에서 출격해 근접항공지원을 수행하도록 설계되었다.",
+      "previous_translation_sha256": "a1d565e7ecd0d776980b059dad3462f35406266e645e15b39d145dc010a42d0e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1565.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1566.txt",
       "paragraph_index": 1,
       "source_sha256": "d7ffe94b2538a0d75f9d6740836418dd8cdada575b671909219729dc78a927d7",
@@ -403845,6 +404088,15 @@
       "previous_translation_sha256": "cb80b9e4448c9da34071668b1cdad557307acd8d0f85455b94091d952c80e71e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1566.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_157.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2f90bbca5749db04ce380ac292918cb654b57c3c50019dd57d643f259b0f75b5",
+      "translation": "AV-8B는 주로 소형 항공모함, 대형 강습상륙함, 간소한 전방작전기지에서 운용되며, 다양한 군사·인도적 지원 작전에 참가해 다목적 전력으로서의 가치를 입증했다. 미 육군 Norman Schwarzkopf 장군은 미 해병대 Harrier II를 걸프전의 가장 중요한 무기 7개 중 하나로 꼽았다. 이 항공기는 2003년 시작된 이라크전에서 전투에 참가했다. 2001년부터 아프가니스탄의 항구적 자유 작전에 투입되었으며, 2011년에는 리비아의 오디세이 새벽 작전에도 사용되었다. 이탈리아와 스페인의 Harrier II도 NATO 연합군과 함께 해외 분쟁에 참가했다. AV-8B는 운용 기간 동안 사고율이 높았는데, 위험도가 큰 이착륙 단계에 소요되는 시간의 비중과 관련이 있었다. 미 해병대와 이탈리아 해군의 AV-8B는 Lockheed Martin F-35B Lightning II로 대체될 예정이며, 미 해병대는 적어도 2030년까지 Harrier를 운용할 것으로 예상되었다.",
+      "previous_translation_sha256": "678d09ea04439c8bfa7353f8b62f24ea7a67a58612d072db63abdf07e09165c8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_157.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_157.txt",
@@ -404181,6 +404433,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1866.txt",
+      "paragraph_index": 1,
+      "source_sha256": "7397433279479e5f31c081d8cea072a094ff1b405189929acefafd700cc67bae",
+      "translation": "세부 사항: 독일·이탈리아·영국 3국 공동사업으로 개발된 Tornado IDS는 해상 타격 임무에서 노후한 Lockheed F-104G Starfighter를 대체하기 위해 1981년 독일 해군 항공대(Marineflieger)에 취역했다. Jagel의 제1해군항공단(MFG 1)과 Eggebek의 제2해군항공단(MFG 2)이 운용했으며, 북유럽 해역에서 원거리 대함 무장을 투사하는 임무에 특화되었다. Turbo-Union RB199-34R Mk103 애프터버너 터보팬 엔진 2기를 사용하며, 최고속도는 마하 2.2, 전투행동반경은 약 1,390km다. 해군 IDS형은 하드포인트 9개를 갖추고 AS.34 Kormoran 대함 미사일, AGM-88 HARM, MW-1 자탄 살포 장치, GBU-16 Paveway II 레이저 유도폭탄을 탑재할 수 있었으며, Mauser BK-27 기관포를 내장했다. 지형추적 레이더, 항법 레이더, 내장 레이더 경보 수신기(RWR)와 전자방해 체계(ECM)를 갖추었다. 이 구성에 사용된 구체적인 레이더 모델명은 공개되지 않았다.",
+      "previous_translation_sha256": "1f21490d630d6d109570023335794fd84665f41ebdd434150943bea3e29838a1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1866.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1866.txt",
       "paragraph_index": 2,
       "source_sha256": "58b5810f0326595f24de0d9be4a9a2d518e0fb957ccf8074a7d336167cb14291",
       "translation": "“IDS”는 Interdictor/Strike(차단/타격)의 약자로, 종심 공격 작전에서의 역할을 나타낸다. 1981년형 독일 해군 버전은 해상 작전에 최적화된 임무 체계와 AS.34 코르모란 미사일을 통합한 것이 특징이며, 발트해와 북해에서 바르샤바 조약기구 해군 전력을 상대로 작전하도록 구성되었다. 독일 공군의 IDS와 구조적으로 다르지는 않았으나, 탑재 소프트웨어, 훈련, 무장 선정을 통해 대함 임무에 최적화되었다. MFG 1과 MFG 2는 모두 1990년대~2000년대에 해체될 때까지 이 버전을 운용했으며, 잔여 기체는 독일 공군으로 이관되었다.",
@@ -404342,6 +404603,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1987.txt",
+      "paragraph_index": 6,
+      "source_sha256": "8086ab8b3f7644862ed122477f64b74e3fe80850ecf9bfd7a90a544b747f695b",
+      "translation": "Lynx의 2인용 조종석에는 조종사와 관측수가 나란히 앉는다. 영국 육군은 보통 도어건 사수를 포함한 3인 승무원으로 운용한다. 조종석 뒤의 객실에는 동체 양측의 대형 슬라이딩 도어로 출입하며, 좌석 배치에 따라 장비를 갖춘 병력 최대 10명을 태울 수 있다. 공중지휘소 임무에서는 객실에 무선장비를 설치하며, 장거리 임무나 전개 비행을 위해 추가 연료탱크를 넣을 수도 있다. Lynx는 대잠전, 대수상전, 함정 보급, 탐색구조, 항공정찰, 무장공격, 부상자 후송, 병력 수송 등 다양한 임무를 수행한다. AgustaWestland에 따르면 40분 이내에 한 임무용 구성에서 다른 임무용 구성으로 전환할 수 있다.",
+      "previous_translation_sha256": "28175460d8ccc94c17aba544bd5d64587754d4d3cbcf67b8674c0a3f6522230e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1993.txt",
       "paragraph_index": 3,
       "source_sha256": "73bbf433f983b263f5e0f687c65391cc26b00b8811fd951a2ea7d148c0e72705",
@@ -404441,6 +404711,60 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2033.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2034.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2035.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2036.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2037.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2038.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2039.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2041.txt",
       "paragraph_index": 1,
       "source_sha256": "71ce93a847c8b047f7fd4c6948e80330a7ece4a08920e4f69c17e9a73c3dfebe",
@@ -404457,6 +404781,15 @@
       "previous_translation_sha256": "5e229c5bea830c534348adf50f0b5a1f6f0c92c967b8c375c5ae9377ad10fd9b",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2041.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2048.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_205.txt",
@@ -404675,6 +405008,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2170.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2171.txt",
+      "paragraph_index": 1,
+      "source_sha256": "87a6ad65bcd9c9c5438416ae5197715c8dac72c29abb45032427bcca448a3e82",
+      "translation": "세부 사항: Tornado ECR은 독일과 이탈리아가 Tornado IDS를 바탕으로 개발한 적 방공망 제압(SEAD) 전용 파생형으로, 독일 공군은 1993년부터 운용했다. 1998년까지 독일 Tornado ECR은 AGM-88B HARM 미사일로 전투를 수행할 수 있었으며, 표적 식별과 데이터 처리를 개선하도록 임무 체계와 항공전자 장비를 개량했다. Turbo-Union RB199-103 애프터버너 터보팬 엔진 2기로 마하 2.2까지 비행하며, 외부 탑재물은 최대 9개(날개 아래 4개, 동체 아래 5개)를 장착한다. HARM 미사일 최대 4발과 자위용 AIM-9L Sidewinder를 탑재하고, 출격 임무에 따라 모듈식 정찰·전자방해 포드를 사용한다. ECR은 전자전 장비 공간을 확보하기 위해 내장 Mauser BK-27 기관포를 제거했으며, 내장 레이더 경보 수신기(RWR)와 위협 탐지 체계를 갖추었다. 1998년 당시 기체들은 레이더 유도 위협을 수동 탐지하고 자신을 방어하기 위해 전파방사원 위치탐지 체계(ELS)와 Cerberus IV 방어용 전자방해(DECM) 장비를 사용했다.",
+      "previous_translation_sha256": "03003d2a2e7ea99db81ace389edead27343897380b35314b9719527cd0c19c7b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2171.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2178.txt",
       "paragraph_index": 2,
       "source_sha256": "db58d0f07103570c74498d24b0e909eabef6ebe564c761aa641ccd0583d51992",
@@ -404729,6 +405071,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2195.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2200.txt",
       "paragraph_index": 2,
       "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
@@ -404736,6 +405087,15 @@
       "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_222.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2264.txt",
@@ -404772,6 +405132,96 @@
       "previous_translation_sha256": "48cb30ed1ee0c5221efbdfb92897a96a7e2b657d046ab17cdc15f8bd01c49a8a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_227.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2317.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2318.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2319.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2320.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2321.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2322.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2323.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2324.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2325.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2326.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2337.txt",
@@ -405081,6 +405531,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_268.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_268.txt",
       "paragraph_index": 2,
       "source_sha256": "af332c6d6b8845041bd30debf37c9c38cde26e4a2ba7ce13197d2fee9efc60ca",
       "translation": "세부 사항: E-2는 양쪽 날개에 터보프롭 엔진을 1기씩 장착하고 접이식 전륜식 3점 착륙장치를 갖춘 고익기이다. 대부분의 함재기와 마찬가지로 E-2도 착함용 테일훅을 갖추며, 항공모함의 캐터펄트를 이용해 이륙할 수 있다. 호크아이의 특징은 동체와 날개 위에 장착된 직경 24 ft(7.3 m)의 회전식 돔이다. 이 돔에는 E-2의 장거리 레이더와 피아식별체계용 주 안테나가 들어 있다. 다른 함재기에는 이러한 돔이 없으며, 육상기에서는 주로 미 공군과 NATO 공군들이 대량으로 운용하는 더 큰 공중조기경보통제기인 보잉 E-3 센트리의 상부에서 볼 수 있다.",
@@ -405105,6 +405564,15 @@
       "previous_translation_sha256": "b110e7d8126e0f8a1828e2cad77bb44273b859ba5a3c091bc612072fecf7c1b4",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/aircraft_2689.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_270.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_270.txt",
@@ -405548,6 +406016,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2853.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2888.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2955.txt",
       "paragraph_index": 1,
       "source_sha256": "b64cc4daf459a38744b8e0f553438819fb9a5d6a8bafa25c0f2a06403b20de4d",
@@ -405591,6 +406068,15 @@
       "previous_translation_sha256": "c32d9e9f78c60c9b687ce6d4f845993f41d43505d7c5fffd83c7e4f1b588b2db",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3008.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3009.txt",
@@ -405978,6 +406464,15 @@
       "previous_translation_sha256": "4edba12c3585fe26763d7ec9b0612caf2c7774a5b0d25b1b9e3e4f5ab721ed07",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_335.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3387.txt",
+      "paragraph_index": 1,
+      "source_sha256": "a794a03d0d51cddc32a5242bbc22853e762fe0a6c7f67ff75ac8ed271ddb28ad",
+      "translation": "세부 사항: YS-11EB는 1995~1996년 YS-11A-400 기체를 개조한 것으로, 기존 YS-11EL에 T64-IHI-10J 터보프롭 엔진과 J/ALR-2 신호정보(SIGINT) 장비를 적용해 개량했다. 순항속도는 약 533km/h, 운용고도는 최대 9,000m, 임무 항속거리는 약 3,200km다. 동체 위아래에 여러 밀착형 안테나 돌출부와 블레이드 안테나 배열을 설치해 레이더·통신 신호를 감청한다. 각 기체에는 전자정보(ELINT)·통신정보(COMINT) 콘솔, 신호처리 장치, 데이터링크를 관리하는 운용요원이 탑승한다. EB라는 명칭은 강화된 신호정보 임무를 나타내며, 레이더 방사원의 위치 측정과 통신정보 수집 능력을 모두 갖추었다. 수동 정보 수집에 최적화되었으며 전자공격이나 전파방해는 수행하지 않는다. 항공자위대 이루마 기지의 전자정보비행대가 4대를 운용했다. 2020년부터 RC-2 신호정보기로 점차 대체되었다.",
+      "previous_translation_sha256": "da3a84fad15fe3d7828723037a888e3ba5cd32dafaa3188670c95455fd8c69cc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3387.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_342.txt",
@@ -406484,6 +406979,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_3810.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3812.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d5aaf29b8c2463caf36474597fe7ba5f26a3a181d04d8df1964b85f6f160c9ae",
+      "translation": "세부 사항: GR.7은 British Aerospace와 McDonnell Douglas의 공동사업으로 AV-8B Harrier II에서 개발되었으며, 1990년 영국 공군에 취역했다. 약 21,750파운드의 추력을 내는 Rolls-Royce Pegasus Mk 105 터보팬 엔진으로 짧거나 임시로 마련한 활주로에서 수직·단거리 이착륙(V/STOL)을 수행한다. 복합재 동체, 외부 하드포인트 7개, INS/GPS 항법 장치, 기수의 전방감시 적외선(FLIR) 장치, MIL-STD-1553 디지털 데이터 버스를 갖추었다. 탑재 레이더는 없으며 광학 장비와 사용 가능한 외부 표적지시 포드에 의존한다. 방어 장비에는 Marconi Zeus 전자방해 체계, Plessey 미사일 접근 경보 장치(MAWS), 레이더 경보 수신기, 채프·플레어 발사기가 포함된다. 주력 공대지 무장은 TIALD 포드 장착 기체에서 사용하는 Paveway II 레이저 유도폭탄이었으며, 주력 공대공 미사일은 AIM-9 Sidewinder 단거리 적외선 유도 미사일이었다. 최고속도는 약 마하 0.9다.",
+      "previous_translation_sha256": "eb911922dad7bf3490b0a695bdade65f35da99e6861f4ea4fc1b8f8bc3356aea",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3812.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3820.txt",
       "paragraph_index": 1,
       "source_sha256": "eadd5f24979131484e7b92117997eb086876f258cbdc92fa205349ce594e870c",
@@ -406844,6 +407348,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1077.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_451.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_4514.txt",
       "paragraph_index": 1,
       "source_sha256": "d155a8675b768fc6afe98d6f3c3e2d63db98419c701eebdbde4486df9f552610",
@@ -406961,6 +407474,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4622.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_464.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_465.txt",
       "paragraph_index": 3,
       "source_sha256": "620093c1c833e46602bdf2f46b1f2cca97a58bc19242b01cae7dd856bab4e12c",
@@ -407031,6 +407553,15 @@
       "previous_translation_sha256": "b8bd99d867cf0af98887b178d3a84b0ebf51a45b48455f8acae49e710963364f",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4696.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_47.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4741.txt",
@@ -407141,6 +407672,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_515.txt",
+      "paragraph_index": 6,
+      "source_sha256": "8086ab8b3f7644862ed122477f64b74e3fe80850ecf9bfd7a90a544b747f695b",
+      "translation": "Lynx의 2인용 조종석에는 조종사와 관측수가 나란히 앉는다. 영국 육군은 보통 도어건 사수를 포함한 3인 승무원으로 운용한다. 조종석 뒤의 객실에는 동체 양측의 대형 슬라이딩 도어로 출입하며, 좌석 배치에 따라 장비를 갖춘 병력 최대 10명을 태울 수 있다. 공중지휘소 임무에서는 객실에 무선장비를 설치하며, 장거리 임무나 전개 비행을 위해 추가 연료탱크를 넣을 수도 있다. Lynx는 대잠전, 대수상전, 함정 보급, 탐색구조, 항공정찰, 무장공격, 부상자 후송, 병력 수송 등 다양한 임무를 수행한다. AgustaWestland에 따르면 40분 이내에 한 임무용 구성에서 다른 임무용 구성으로 전환할 수 있다.",
+      "previous_translation_sha256": "28175460d8ccc94c17aba544bd5d64587754d4d3cbcf67b8674c0a3f6522230e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_516.txt",
       "paragraph_index": 0,
       "source_sha256": "631aa869773e4c1d6a1195edbea25f883efa7a60cfc9b1e56912eb045b6bc4ff",
@@ -407148,6 +407688,15 @@
       "previous_translation_sha256": "43fade7bd90e493775279e63a973db90043d79b29580a77c828068b36610d8c1",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1986.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_519.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_5250.txt",
@@ -407240,6 +407789,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1247.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_555.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_556.txt",
       "paragraph_index": 1,
       "source_sha256": "2cddcac75f4a4753a9521883615e8ccc9fee532752da734a6dae03789c3781e2",
@@ -407247,6 +407805,15 @@
       "previous_translation_sha256": "364573af55036276460dc9e8a595daf2067d2e6d9addf20fd1d1cd7b30908874",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_556.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_557.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_557.txt",
@@ -407357,6 +407924,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_573.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_575.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_576.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
@@ -407391,6 +407967,15 @@
       "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_58.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_583.txt",
@@ -407483,6 +408068,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_355.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_594.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_595.txt",
       "paragraph_index": 0,
       "source_sha256": "f0a39561189b5246b1740efdfb6b42012799d2be2a4f574d04ae7f4b852e428c",
@@ -407508,6 +408102,24 @@
       "previous_translation_sha256": "aba61f7fd69053a934f860158c7d7aa5e7ebdb04602f2767b76898910c39825f",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1077.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_596.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_597.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_599.txt",
@@ -407682,6 +408294,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_690.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_690.txt",
       "paragraph_index": 2,
       "source_sha256": "af332c6d6b8845041bd30debf37c9c38cde26e4a2ba7ce13197d2fee9efc60ca",
       "translation": "세부 사항: E-2는 양쪽 날개에 터보프롭 엔진을 1기씩 장착하고 접이식 전륜식 3점 착륙장치를 갖춘 고익기이다. 대부분의 함재기와 마찬가지로 E-2도 착함용 테일훅을 갖추며, 항공모함의 캐터펄트를 이용해 이륙할 수 있다. 호크아이의 특징은 동체와 날개 위에 장착된 직경 24 ft(7.3 m)의 회전식 돔이다. 이 돔에는 E-2의 장거리 레이더와 피아식별체계용 주 안테나가 들어 있다. 다른 함재기에는 이러한 돔이 없으며, 육상기에서는 주로 미 공군과 NATO 공군들이 대량으로 운용하는 더 큰 공중조기경보통제기인 보잉 E-3 센트리의 상부에서 볼 수 있다.",
@@ -407706,6 +408327,15 @@
       "previous_translation_sha256": "7fd58d66c75bfe2a8fbf8e8ae360224da278afb34a9aec253b533d57556643e8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1247.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_694.txt",
+      "paragraph_index": 0,
+      "source_sha256": "05c0be79937f0a5677d6fa53525506545066e46a6da35f3dc08ffc88a3d26091",
+      "translation": "개요: Northrop Grumman E-2 Hawkeye는 미국의 전천후 함상 전술 공중조기경보(AEW) 항공기다. 터보프롭 엔진 2기를 갖춘 이 항공기는 빠르게 구식화되던 E-1 Tracer를 대체하기 위해 Grumman Aircraft Company가 미 해군용으로 1950년대 말~1960년대 초 설계·개발했다. 이후 E-2B와 E-2C로 성능이 향상되었으며, 집적회로와 기타 전자기술의 발전을 반영한 레이더·무선통신 장비의 개량이 주를 이루었다. 네 번째 형식인 E-2D는 2007년 처음 비행했다. E-2는 Boeing E-3 Sentry처럼 기존 기체를 개조한 것이 아니라, 처음부터 공중조기경보 임무에 맞춰 설계된 최초의 항공기였다. Hawkeye의 여러 파생형은 1960년부터 중단 없이 생산되어 함재기 중 가장 긴 생산 기간을 기록했다.",
+      "previous_translation_sha256": "9f7b37c9fb260af43b356f75b62801953cb02d537b02091a41170ecede29ac8a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_694.txt",
@@ -407744,6 +408374,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_703.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_704.txt",
       "paragraph_index": 4,
       "source_sha256": "065a71823c30934682e9329a00e16dc967c40cdd2d21ffd4f6f688efd1038093",
@@ -407751,6 +408390,15 @@
       "previous_translation_sha256": "7fd58d66c75bfe2a8fbf8e8ae360224da278afb34a9aec253b533d57556643e8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1247.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_705.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_708.txt",
@@ -407987,6 +408635,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_8.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_804.txt",
       "paragraph_index": 2,
       "source_sha256": "29a3f8a9dbc833bb2c6e046fb3118d6912d66748ef4d30e66b37d316c1da9f94",
@@ -408066,6 +408723,24 @@
       "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_825.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_828.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/aircraft_830.txt",
@@ -408176,6 +408851,24 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1247.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_863.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_865.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_87.txt",
       "paragraph_index": 1,
       "source_sha256": "ab8779f4548ae64a58a9b540042e5963812c89c9f366e9bca949496adfb16ba5",
@@ -408185,6 +408878,24 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_87.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_887.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_894.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_896.txt",
       "paragraph_index": 2,
       "source_sha256": "730509c28f324619f4a857b75089c469dc40a971125aef9761925593b33a90e9",
@@ -408192,6 +408903,15 @@
       "previous_translation_sha256": "716d4cfe5a58f187aba364a59e99108706587b6d289782271ba771036c695ca4",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1577.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_897.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_899.txt",
@@ -408219,6 +408939,24 @@
       "previous_translation_sha256": "c4b928d7ad1aae917fe9101a83b51932f5e2bf37198f348f5f5ff3c9c7ab79a0",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1246.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_917.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_918.txt",
+      "paragraph_index": 3,
+      "source_sha256": "23f829abd5680fc49e7389a4a5632087b2e32996dd2161422a6d1ae04ae1a09c",
+      "translation": "CH-46은 후방 적재 램프가 있는 화물실을 갖추었다. 길이가 긴 화물을 싣거나 낙하산 투하를 수행할 때는 램프를 떼어내거나 비행 중 열린 상태로 둘 수 있다. 객실 앞부분의 내부 윈치로 팔레트에 실린 외부 화물을 램프와 롤러를 따라 기내로 끌어올릴 수 있다. 동체 아래에는 보통 정격하중 10,000파운드(4,500kg)의 화물 인양 고리를 장착해 외부 화물을 운반할 수 있다. 다만 고리의 정격하중과 달리 엔진 출력의 한계 때문에 실제로 그 중량을 들어 올릴 수는 없다. 승무원은 보통 3명이지만 임무에 따라 더 많이 탑승할 수 있다. 예를 들어 탐색구조형은 조종사, 부조종사, 기상 정비책임자, 구조수영요원, 의무요원 등 보통 5명이 탑승해 각 임무를 수행한다. 자위용으로 기체 양측에 핀틀 마운트식 0.50인치(12.7mm) Browning 기관총을 1정씩 장착한다. 동남아시아에서 운용하면서 기관총과 함께 방호장갑도 추가했다.",
+      "previous_translation_sha256": "4b3693a2842ec5a13d597fe326ed4ddc96c10287c1a3768a49a2793103754f0b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2798.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_930.txt",
@@ -408347,6 +409085,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_954.txt",
+      "paragraph_index": 6,
+      "source_sha256": "8086ab8b3f7644862ed122477f64b74e3fe80850ecf9bfd7a90a544b747f695b",
+      "translation": "Lynx의 2인용 조종석에는 조종사와 관측수가 나란히 앉는다. 영국 육군은 보통 도어건 사수를 포함한 3인 승무원으로 운용한다. 조종석 뒤의 객실에는 동체 양측의 대형 슬라이딩 도어로 출입하며, 좌석 배치에 따라 장비를 갖춘 병력 최대 10명을 태울 수 있다. 공중지휘소 임무에서는 객실에 무선장비를 설치하며, 장거리 임무나 전개 비행을 위해 추가 연료탱크를 넣을 수도 있다. Lynx는 대잠전, 대수상전, 함정 보급, 탐색구조, 항공정찰, 무장공격, 부상자 후송, 병력 수송 등 다양한 임무를 수행한다. AgustaWestland에 따르면 40분 이내에 한 임무용 구성에서 다른 임무용 구성으로 전환할 수 있다.",
+      "previous_translation_sha256": "28175460d8ccc94c17aba544bd5d64587754d4d3cbcf67b8674c0a3f6522230e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_956.txt",
       "paragraph_index": 2,
       "source_sha256": "29a3f8a9dbc833bb2c6e046fb3118d6912d66748ef4d30e66b37d316c1da9f94",
@@ -408381,6 +409128,15 @@
       "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_977.txt",
+      "paragraph_index": 1,
+      "source_sha256": "54090441fd96942fdb83721e9ed2ede82576011e765a6fb21e0fd62f01c54843",
+      "translation": "F/A-18의 최고속도는 마하 1.8이다. 이는 고도 40,000피트(12,190m)에서 시속 1,190마일(1,915km)에 해당한다. 다양한 공대공·공대지 미사일과 폭탄을 탑재할 수 있으며, 20mm M61 Vulcan 기관포도 갖추었다. General Electric F404 터보팬 엔진 2기를 사용해 높은 추력대중량비를 확보했다. 뛰어난 공력 특성은 주로 주익 앞전 연장부(LEX)에서 비롯된다. 주요 임무는 전투기 호위, 함대 방공, 적 방공망 제압(SEAD), 항공차단, 근접항공지원, 항공정찰이다. 다목적성과 신뢰성 덕분에 중요한 함재 전력으로 평가받지만, 전투·타격전투 임무의 Grumman F-14 Tomcat이나 공격 임무의 Grumman A-6 Intruder·LTV A-7 Corsair II 등 앞서 도입되어 함께 운용되던 기종에 비해 항속거리와 탑재량이 부족하다는 비판도 받았다.",
+      "previous_translation_sha256": "e9f3e55710ec889d6924e8152fe4caabf32fd6c9711c8d9b63ef8cefeff3dd1e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_99.txt",
@@ -408671,6 +409427,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_151.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/facility_1519.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_1619.txt",
       "paragraph_index": 2,
       "source_sha256": "34cdff2b685f1fa1bed51e7e7ec5bbda5aaa8e0a6a878726c493703552b3d1cc",
@@ -408741,6 +409506,24 @@
       "previous_translation_sha256": "6021e17526032b5155ae4e078508a4db989d33fdd85f12a7afbf662b8318de46",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1480.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1816.txt",
+      "paragraph_index": 1,
+      "source_sha256": "e289c2433da3237f22c4ba55b682fc9266ad1bdfeb49e56953322f37a8c68c0c",
+      "translation": "세부 사항: Krug 원형 배치 안테나 배열(CDAA)은 전파를 이용한 고도·방향 측정용 대형 원형 안테나 배열이다. Krug라는 이름은 대형 반사 스크린을 원형으로 배치한 형태에서 유래했다. 직경이 수백 미터에 이르기도 하며 거대한 울타리나 우리처럼 보여 코끼리 우리라고도 불린다. 무선신호를 삼각측량해 무선항법, 정보 수집, 탐색구조 작전에 활용한다. CDAA는 제2차 세계대전 초 독일 해군 통신연구 지휘부가 Wullenweber라는 암호명의 사업으로 개발했다. 최초의 CDAA는 독일이 덴마크에 건설했다. 전후 이 기술을 개발한 독일 과학자 대부분은 미국으로 이송되었지만, 사업에 참여한 일부 하급 기술자들은 소련으로 이송되었다. 소련은 1950년대에 Krug CDAA를 개발해 미국보다 훨씬 먼저 실전 배치했다.",
+      "previous_translation_sha256": "327d9ad2944e0c1dc937d08d8519ba82fe1969cbee6b4d684d26dc246ba38b76",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1816.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/facility_1855.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1921.txt",
@@ -409058,6 +409841,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_2132.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/facility_298.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_3013.txt",
       "paragraph_index": 5,
       "source_sha256": "f9c06d263003fe32d8ee6db6d678c52a32cede20e8ce6f64660a283eb1f591af",
@@ -409227,6 +410019,15 @@
       "previous_translation_sha256": "26002ba31a247b2de96e025f81146bf1a1b6906b93e7f4e035bf65bc114bf1e9",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1487.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_402.txt",
+      "paragraph_index": 1,
+      "source_sha256": "724fccc1146242c238468d73ca20a2f2d8d15c95c98acfdf4ec52b9fde7748ab",
+      "translation": "세부 사항: SA-20a GARGOYLE A 대대는 레이더 반사면적(RCS)이 0.02㎡에 불과한 스텔스기를 포함한 공중 위협에 맞서 지역 방공을 수행하는 기동 방공부대다. 일반적인 교전은 CHEESE BOARD(96L6E) 3차원 조기경보 레이더의 탐지로 시작된다. 이후 표적조사와 유도 임무가 30N6 TOMBSTONE 레이더로 넘어가며, 이 레이더가 표적을 조사한다. 표적조사가 시작되면 SA-20을 수직 발사한다. 미사일은 TOMBSTONE 레이더의 추적 빔 안에 들어갈 때까지 자동조종 장치와 관성항법 장치(INS)로 유도된다. 빔 안에 들어간 뒤에는 반능동 레이더(SAR) 탐색기의 표적 탐지거리 안에 도달할 때까지 지상에서 지령유도 정보를 받는다. 탐지거리에 들어오면 표적에서 반사된 신호를 감지해 데이터링크로 지상국에 전달한다. 지상국은 요격 경로를 계산하고 데이터링크로 미사일에 유도 명령을 보낸다.",
+      "previous_translation_sha256": "d2fd43740c64ee15222cc9cb35936b583aa4b06fe76e53bea884503ac7541f57",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_402.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_402.txt",
@@ -410399,6 +411200,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1147.txt",
+      "paragraph_index": 2,
+      "source_sha256": "22dab33a1ab32954425d4855b785f93c11e5b6c9db9db662ae0f2ecca1b49eae",
+      "translation": "다른 Aegis 체계 탑재함과 마찬가지로 상부구조물에는 SPY-1 위상배열 안테나가 두드러지며, 기존의 회전식 안테나는 필요하지 않다. 상부구조물에는 함정의 레이더 반사면적을 줄이기 위한 일부 스텔스 설계도 적용되었다. 그러나 그 결과 일반적인 구축함보다 상부가 훨씬 무거워져 더 깊은 흘수가 필요하며, 연안 환경에서의 운용이 제한된다. Kongo급 구축함은 전반적으로 기존 구축함보다 훨씬 크고, 배수량 9,485톤으로 순양함에 가까운 규모다. 전대 지휘용 추가 장비 탑재 등 Arleigh Burke급과 다른 운용 요구에 맞춰 건조되었으므로, 내부 배치는 바탕이 된 원설계와 상당히 다르다. 외관상 특징은 수직 마스트와 매끈한 함교 측면이다.",
+      "previous_translation_sha256": "05b3a633a40eb4288a0a6e0227d76692eca115c8a8f9d118215d6137398f9cf6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1147.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_116.txt",
       "paragraph_index": 8,
       "source_sha256": "a8f745f3f2f4c2ffe95a3913c50b361b813743872ca4aaa27a40a0c76b19f78e",
@@ -410748,6 +411558,15 @@
       "previous_translation_sha256": "55c3dc5cdf4126f9e7038f3c96613bcd6eaf72734e1fe01f8c7ba4b070259bd8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1398.txt",
+      "paragraph_index": 9,
+      "source_sha256": "1d70ee9baae3c3995f44a324d6fc8d70f80e0ef485727f4428dde4ae0c1a95c0",
+      "translation": "참고: 초기작전능력(IOC) 확보: 1969년. 동급 함정: HMCS Protecteur(AOR 509), HMCS Preserve(AOR 510). AOR 509는 2015년 5월, AOR 510은 2016년 10월 퇴역했다. 설계상 Mk.29 Sea Sparrow 발사기를 설치할 수 있었지만 실제로 장착한 함정은 없었다. 출처: \"HMCS PROTECTEUR | Ships of the Royal Canadian Navy.\" ReadyAyeReady.com - The Royal Canadian Navy. Accessed October 9, 2021. https://readyayeready.com/ships/shipview.php?id=1336&ship=PROTECTEUR. ; McClearn, Sandy. \"PROTECTEUR Class.\" Haze Gray & Underway - Naval History and Photography. Accessed October 9, 2021. https://www.hazegray.org/navhist/canada/current/protect/. ; \"Protecteur Class Auxiliary Vessels.\" Naval Technology | Naval Defence News & Views Updated Daily. Last modified January 19, 2010. https://www.naval-technology.com/projects/protecteur-class/. ; \"Protecteur-class Replenishment Oiler.\" Wikipedia, the Free Encyclopedia. Last modified September 30, 2021. https://en.wikipedia.org/wiki/Protecteur-class_replenishment_oiler",
+      "previous_translation_sha256": "1faaec7d487111cdbf1e6e2250f16daed91b164251d5abf5cd722643e4caf715",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1398.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1442.txt",
@@ -411551,6 +412370,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1737.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1779.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2ebec49221ac061dba63b435c45526af42f162f4c9d6289bd794393b3ad55789",
+      "translation": "세부 사항: Type 21 호위함은 저렴한 범용 호위함을 목표로 설계되었다. 이전 영국 해군 함정과 달리 민간 조선소가 비교적 느슨한 해군 감독 아래 설계했다. 그 결과 상부 중량이 허용 한계에 도달하거나 근접해 향후 확장 여유가 없었다. 상부구조물에 알루미늄 합금을 사용해 무게를 줄였음에도 상부가 무거운 상태는 해소되지 않았다. 상부 중량의 여유가 없어 성능개량이 불가능했고, 결국 취역 후 20년도 되기 전에 영국 해군에서 퇴역했다. 피해에 대한 내구성도 부족했다. 1977년 HMS Amazon 화재는 알루미늄 구조가 화재에 더 취약하다는 점을 드러냈다. 포클랜드전에서는 거친 기상과 알루미늄·강철 구조의 팽창 차이로 선체에 균열이 생겨 전쟁 후 보강이 필요했다.",
+      "previous_translation_sha256": "54d6a6a7094a7f45466acc35385b0dc1b01a12021c1ba4f16ccd6dbc6f56ef6a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_127.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1785.txt",
       "paragraph_index": 2,
       "source_sha256": "2f67f40ec9b1558749d7f4078b4c2631ffab572c55efc6d63d12e497fb20959d",
@@ -411720,6 +412548,15 @@
       "previous_translation_sha256": "595da3e767e2beb7e9de4fc8bdb9b24f83f75003a4e16a8393deb66f49824c16",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1682.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1966.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2ebec49221ac061dba63b435c45526af42f162f4c9d6289bd794393b3ad55789",
+      "translation": "세부 사항: Type 21 호위함은 저렴한 범용 호위함을 목표로 설계되었다. 이전 영국 해군 함정과 달리 민간 조선소가 비교적 느슨한 해군 감독 아래 설계했다. 그 결과 상부 중량이 허용 한계에 도달하거나 근접해 향후 확장 여유가 없었다. 상부구조물에 알루미늄 합금을 사용해 무게를 줄였음에도 상부가 무거운 상태는 해소되지 않았다. 상부 중량의 여유가 없어 성능개량이 불가능했고, 결국 취역 후 20년도 되기 전에 영국 해군에서 퇴역했다. 피해에 대한 내구성도 부족했다. 1977년 HMS Amazon 화재는 알루미늄 구조가 화재에 더 취약하다는 점을 드러냈다. 포클랜드전에서는 거친 기상과 알루미늄·강철 구조의 팽창 차이로 선체에 균열이 생겨 전쟁 후 보강이 필요했다.",
+      "previous_translation_sha256": "54d6a6a7094a7f45466acc35385b0dc1b01a12021c1ba4f16ccd6dbc6f56ef6a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_127.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1983.txt",
@@ -412044,6 +412881,15 @@
       "previous_translation_sha256": "22ae1722356b23d2773104b14ba4dc341febba005d0896807bd4e1e09eea7a34",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1737.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_2380.txt",
+      "paragraph_index": 6,
+      "source_sha256": "93de8d7659f9c27069dfb9375effdd5ed0859a601d25d5d38dba2d564ab6c077",
+      "translation": "Type 052 구축함 2척은 모두 2011년에 개량되었다. Type 76A 함포 4문은 헬리콥터 격납고 위의 Type 730 근접방어무기체계(CIWS) 2기로 교체되었다. Crotale/HHQ-7 단거리 함대공 미사일은 해면밀착 대함 미사일에 대한 요격 성능이 더 좋은 신형(FM-90으로 추정)으로 교체되었을 가능성이 있다. 자함 방어를 강화하기 위해 전방 함교 양측에 Type 726-4 기만체 발사기 2기를 설치했다. 여러 함내 체계는 Thomson-CSF TAVITAC 전투정보 체계로 일정 수준 통합되어 있었으며, 이 체계는 새로운 국산 지휘·통제·통신·정보(C3I) 체계인 ZJK-4B 또는 그 후속 모델로 교체된 것으로 추정된다. Thomson-CSF Sea Tiger 대공·대수상 탐색 레이더는 먼저 국산 Type 518 Hai Ying으로 교체되었고, 이후 Type 517M 장거리 대공 탐색 레이더로 바뀌었다. 후방 마스트 위의 Type 362 대공·대수상 레이더는 Type 364로 교체되었다. 헬리콥터 격납고 위에는 위성통신 안테나 2기도 설치되었다.",
+      "previous_translation_sha256": "ad73fc7899a99fc885e537d4a929c3967a97e30c522c108c42bc211bb462c0bc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_2380.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/ship_2429.txt",
@@ -412505,6 +413351,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_3047.txt",
+      "paragraph_index": 2,
+      "source_sha256": "22dab33a1ab32954425d4855b785f93c11e5b6c9db9db662ae0f2ecca1b49eae",
+      "translation": "다른 Aegis 체계 탑재함과 마찬가지로 상부구조물에는 SPY-1 위상배열 안테나가 두드러지며, 기존의 회전식 안테나는 필요하지 않다. 상부구조물에는 함정의 레이더 반사면적을 줄이기 위한 일부 스텔스 설계도 적용되었다. 그러나 그 결과 일반적인 구축함보다 상부가 훨씬 무거워져 더 깊은 흘수가 필요하며, 연안 환경에서의 운용이 제한된다. Kongo급 구축함은 전반적으로 기존 구축함보다 훨씬 크고, 배수량 9,485톤으로 순양함에 가까운 규모다. 전대 지휘용 추가 장비 탑재 등 Arleigh Burke급과 다른 운용 요구에 맞춰 건조되었으므로, 내부 배치는 바탕이 된 원설계와 상당히 다르다. 외관상 특징은 수직 마스트와 매끈한 함교 측면이다.",
+      "previous_translation_sha256": "05b3a633a40eb4288a0a6e0227d76692eca115c8a8f9d118215d6137398f9cf6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1147.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_3074.txt",
       "paragraph_index": 1,
       "source_sha256": "59557443506dda6bee9d2e93cd2379345686f642710ce3b5ae34e3ad161abbda",
@@ -412665,6 +413520,15 @@
       "previous_translation_sha256": "db69ffd559ba524e576deff85bc54438c3e091f83be0c4eaa21542b270f3e417",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_2834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_396.txt",
+      "paragraph_index": 9,
+      "source_sha256": "1d70ee9baae3c3995f44a324d6fc8d70f80e0ef485727f4428dde4ae0c1a95c0",
+      "translation": "참고: 초기작전능력(IOC) 확보: 1969년. 동급 함정: HMCS Protecteur(AOR 509), HMCS Preserve(AOR 510). AOR 509는 2015년 5월, AOR 510은 2016년 10월 퇴역했다. 설계상 Mk.29 Sea Sparrow 발사기를 설치할 수 있었지만 실제로 장착한 함정은 없었다. 출처: \"HMCS PROTECTEUR | Ships of the Royal Canadian Navy.\" ReadyAyeReady.com - The Royal Canadian Navy. Accessed October 9, 2021. https://readyayeready.com/ships/shipview.php?id=1336&ship=PROTECTEUR. ; McClearn, Sandy. \"PROTECTEUR Class.\" Haze Gray & Underway - Naval History and Photography. Accessed October 9, 2021. https://www.hazegray.org/navhist/canada/current/protect/. ; \"Protecteur Class Auxiliary Vessels.\" Naval Technology | Naval Defence News & Views Updated Daily. Last modified January 19, 2010. https://www.naval-technology.com/projects/protecteur-class/. ; \"Protecteur-class Replenishment Oiler.\" Wikipedia, the Free Encyclopedia. Last modified September 30, 2021. https://en.wikipedia.org/wiki/Protecteur-class_replenishment_oiler",
+      "previous_translation_sha256": "1faaec7d487111cdbf1e6e2250f16daed91b164251d5abf5cd722643e4caf715",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1398.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_422.txt",
@@ -412998,6 +413862,15 @@
       "previous_translation_sha256": "55c3dc5cdf4126f9e7038f3c96613bcd6eaf72734e1fe01f8c7ba4b070259bd8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_6.txt",
+      "paragraph_index": 2,
+      "source_sha256": "22dab33a1ab32954425d4855b785f93c11e5b6c9db9db662ae0f2ecca1b49eae",
+      "translation": "다른 Aegis 체계 탑재함과 마찬가지로 상부구조물에는 SPY-1 위상배열 안테나가 두드러지며, 기존의 회전식 안테나는 필요하지 않다. 상부구조물에는 함정의 레이더 반사면적을 줄이기 위한 일부 스텔스 설계도 적용되었다. 그러나 그 결과 일반적인 구축함보다 상부가 훨씬 무거워져 더 깊은 흘수가 필요하며, 연안 환경에서의 운용이 제한된다. Kongo급 구축함은 전반적으로 기존 구축함보다 훨씬 크고, 배수량 9,485톤으로 순양함에 가까운 규모다. 전대 지휘용 추가 장비 탑재 등 Arleigh Burke급과 다른 운용 요구에 맞춰 건조되었으므로, 내부 배치는 바탕이 된 원설계와 상당히 다르다. 외관상 특징은 수직 마스트와 매끈한 함교 측면이다.",
+      "previous_translation_sha256": "05b3a633a40eb4288a0a6e0227d76692eca115c8a8f9d118215d6137398f9cf6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1147.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_604.txt",
@@ -413720,6 +414593,33 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_965.txt",
+      "paragraph_index": 2,
+      "source_sha256": "22dab33a1ab32954425d4855b785f93c11e5b6c9db9db662ae0f2ecca1b49eae",
+      "translation": "다른 Aegis 체계 탑재함과 마찬가지로 상부구조물에는 SPY-1 위상배열 안테나가 두드러지며, 기존의 회전식 안테나는 필요하지 않다. 상부구조물에는 함정의 레이더 반사면적을 줄이기 위한 일부 스텔스 설계도 적용되었다. 그러나 그 결과 일반적인 구축함보다 상부가 훨씬 무거워져 더 깊은 흘수가 필요하며, 연안 환경에서의 운용이 제한된다. Kongo급 구축함은 전반적으로 기존 구축함보다 훨씬 크고, 배수량 9,485톤으로 순양함에 가까운 규모다. 전대 지휘용 추가 장비 탑재 등 Arleigh Burke급과 다른 운용 요구에 맞춰 건조되었으므로, 내부 배치는 바탕이 된 원설계와 상당히 다르다. 외관상 특징은 수직 마스트와 매끈한 함교 측면이다.",
+      "previous_translation_sha256": "05b3a633a40eb4288a0a6e0227d76692eca115c8a8f9d118215d6137398f9cf6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1147.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_991.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2ebec49221ac061dba63b435c45526af42f162f4c9d6289bd794393b3ad55789",
+      "translation": "세부 사항: Type 21 호위함은 저렴한 범용 호위함을 목표로 설계되었다. 이전 영국 해군 함정과 달리 민간 조선소가 비교적 느슨한 해군 감독 아래 설계했다. 그 결과 상부 중량이 허용 한계에 도달하거나 근접해 향후 확장 여유가 없었다. 상부구조물에 알루미늄 합금을 사용해 무게를 줄였음에도 상부가 무거운 상태는 해소되지 않았다. 상부 중량의 여유가 없어 성능개량이 불가능했고, 결국 취역 후 20년도 되기 전에 영국 해군에서 퇴역했다. 피해에 대한 내구성도 부족했다. 1977년 HMS Amazon 화재는 알루미늄 구조가 화재에 더 취약하다는 점을 드러냈다. 포클랜드전에서는 거친 기상과 알루미늄·강철 구조의 팽창 차이로 선체에 균열이 생겨 전쟁 후 보강이 필요했다.",
+      "previous_translation_sha256": "54d6a6a7094a7f45466acc35385b0dc1b01a12021c1ba4f16ccd6dbc6f56ef6a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_127.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_993.txt",
+      "paragraph_index": 1,
+      "source_sha256": "2ebec49221ac061dba63b435c45526af42f162f4c9d6289bd794393b3ad55789",
+      "translation": "세부 사항: Type 21 호위함은 저렴한 범용 호위함을 목표로 설계되었다. 이전 영국 해군 함정과 달리 민간 조선소가 비교적 느슨한 해군 감독 아래 설계했다. 그 결과 상부 중량이 허용 한계에 도달하거나 근접해 향후 확장 여유가 없었다. 상부구조물에 알루미늄 합금을 사용해 무게를 줄였음에도 상부가 무거운 상태는 해소되지 않았다. 상부 중량의 여유가 없어 성능개량이 불가능했고, 결국 취역 후 20년도 되기 전에 영국 해군에서 퇴역했다. 피해에 대한 내구성도 부족했다. 1977년 HMS Amazon 화재는 알루미늄 구조가 화재에 더 취약하다는 점을 드러냈다. 포클랜드전에서는 거친 기상과 알루미늄·강철 구조의 팽창 차이로 선체에 균열이 생겨 전쟁 후 보강이 필요했다.",
+      "previous_translation_sha256": "54d6a6a7094a7f45466acc35385b0dc1b01a12021c1ba4f16ccd6dbc6f56ef6a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Ship_127.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Submarine_104.txt",
       "paragraph_index": 6,
       "source_sha256": "fbd6e4ae73d70a7747e8b19ced9f234a2e5f2fea0ac61bdd6fab13c9b57bbc1b",
@@ -414098,6 +414998,15 @@
       "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Submarine_373.txt",
+      "paragraph_index": 0,
+      "source_sha256": "0aeac434e8086fcce00583a4cff3a02c1226a3d83fa00954cd6137bb626b133c",
+      "translation": "Zwaardvis급은 네덜란드 해군에서 Dolfijn급을 대체한 재래식 추진 공격잠수함이다. Zwaardvis는 네덜란드어로 황새치를 뜻하며, Zwaardvis와 Tijgerhaai 2척으로 구성된다. 눈물방울형 선체를 갖춘 미 해군 Barbel급을 바탕으로 설계되었다. 1981년 9월 중화민국(대만)은 개량형 Zwaardvis급인 Chien Lung/Hai Lung급 잠수함 2척을 주문했다. 1992년에는 4척을 추가 주문했지만 중화인민공화국의 압력으로 네덜란드 정부가 거절했다. 네덜란드의 2척은 Walrus급으로 대체되었다. 퇴역한 HNLMS Zwaardvis와 HNLMS Tijgerhaai는 1997년 말레이시아 해군의 구매를 기대하며 선박에 실려 말레이시아 Lumut의 PSC-Naval Dockyard로 운송되었다. 그러나 말레이시아 해군은 제안을 거절하고 프랑스 Scorpène급을 선택했다. 두 잠수함은 이후에도 Lumut에서 구매자와 재정비 기회를 기다리고 있었다.",
+      "previous_translation_sha256": "65e4f80456244ef8ba6647d482ad2f889c37b76c3f018b0823da98e309262d7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_373.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Submarine_386.txt",
       "paragraph_index": 2,
       "source_sha256": "7a9a0b9e9b555a0f35bc73e2e8a8b241727b3da3e4fe51ccd73b62db8b84c04a",
@@ -414177,6 +415086,33 @@
       "previous_translation_sha256": "4bf4c5f8f86567f551c5a5dab2cf05fae935f258dcb49df8d69e5346ba76b5f9",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_501.txt",
+      "paragraph_index": 0,
+      "source_sha256": "0aeac434e8086fcce00583a4cff3a02c1226a3d83fa00954cd6137bb626b133c",
+      "translation": "Zwaardvis급은 네덜란드 해군에서 Dolfijn급을 대체한 재래식 추진 공격잠수함이다. Zwaardvis는 네덜란드어로 황새치를 뜻하며, Zwaardvis와 Tijgerhaai 2척으로 구성된다. 눈물방울형 선체를 갖춘 미 해군 Barbel급을 바탕으로 설계되었다. 1981년 9월 중화민국(대만)은 개량형 Zwaardvis급인 Chien Lung/Hai Lung급 잠수함 2척을 주문했다. 1992년에는 4척을 추가 주문했지만 중화인민공화국의 압력으로 네덜란드 정부가 거절했다. 네덜란드의 2척은 Walrus급으로 대체되었다. 퇴역한 HNLMS Zwaardvis와 HNLMS Tijgerhaai는 1997년 말레이시아 해군의 구매를 기대하며 선박에 실려 말레이시아 Lumut의 PSC-Naval Dockyard로 운송되었다. 그러나 말레이시아 해군은 제안을 거절하고 프랑스 Scorpène급을 선택했다. 두 잠수함은 이후에도 Lumut에서 구매자와 재정비 기회를 기다리고 있었다.",
+      "previous_translation_sha256": "65e4f80456244ef8ba6647d482ad2f889c37b76c3f018b0823da98e309262d7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_373.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_502.txt",
+      "paragraph_index": 0,
+      "source_sha256": "0aeac434e8086fcce00583a4cff3a02c1226a3d83fa00954cd6137bb626b133c",
+      "translation": "Zwaardvis급은 네덜란드 해군에서 Dolfijn급을 대체한 재래식 추진 공격잠수함이다. Zwaardvis는 네덜란드어로 황새치를 뜻하며, Zwaardvis와 Tijgerhaai 2척으로 구성된다. 눈물방울형 선체를 갖춘 미 해군 Barbel급을 바탕으로 설계되었다. 1981년 9월 중화민국(대만)은 개량형 Zwaardvis급인 Chien Lung/Hai Lung급 잠수함 2척을 주문했다. 1992년에는 4척을 추가 주문했지만 중화인민공화국의 압력으로 네덜란드 정부가 거절했다. 네덜란드의 2척은 Walrus급으로 대체되었다. 퇴역한 HNLMS Zwaardvis와 HNLMS Tijgerhaai는 1997년 말레이시아 해군의 구매를 기대하며 선박에 실려 말레이시아 Lumut의 PSC-Naval Dockyard로 운송되었다. 그러나 말레이시아 해군은 제안을 거절하고 프랑스 Scorpène급을 선택했다. 두 잠수함은 이후에도 Lumut에서 구매자와 재정비 기회를 기다리고 있었다.",
+      "previous_translation_sha256": "65e4f80456244ef8ba6647d482ad2f889c37b76c3f018b0823da98e309262d7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_373.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_503.txt",
+      "paragraph_index": 0,
+      "source_sha256": "0aeac434e8086fcce00583a4cff3a02c1226a3d83fa00954cd6137bb626b133c",
+      "translation": "Zwaardvis급은 네덜란드 해군에서 Dolfijn급을 대체한 재래식 추진 공격잠수함이다. Zwaardvis는 네덜란드어로 황새치를 뜻하며, Zwaardvis와 Tijgerhaai 2척으로 구성된다. 눈물방울형 선체를 갖춘 미 해군 Barbel급을 바탕으로 설계되었다. 1981년 9월 중화민국(대만)은 개량형 Zwaardvis급인 Chien Lung/Hai Lung급 잠수함 2척을 주문했다. 1992년에는 4척을 추가 주문했지만 중화인민공화국의 압력으로 네덜란드 정부가 거절했다. 네덜란드의 2척은 Walrus급으로 대체되었다. 퇴역한 HNLMS Zwaardvis와 HNLMS Tijgerhaai는 1997년 말레이시아 해군의 구매를 기대하며 선박에 실려 말레이시아 Lumut의 PSC-Naval Dockyard로 운송되었다. 그러나 말레이시아 해군은 제안을 거절하고 프랑스 Scorpène급을 선택했다. 두 잠수함은 이후에도 Lumut에서 구매자와 재정비 기회를 기다리고 있었다.",
+      "previous_translation_sha256": "65e4f80456244ef8ba6647d482ad2f889c37b76c3f018b0823da98e309262d7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_373.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_517.txt",
@@ -414692,6 +415628,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1062.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_109.txt",
+      "paragraph_index": 1,
+      "source_sha256": "c238bc884c9511bc6dc35412df28c09b53aede427c008382409959bfe1b69ac6",
+      "translation": "세부 사항: 통제 체계는 먼저 위성, 함정, 항공기, ECM 수신기 등 다양한 플랫폼에서 표적 정보를 얻는다. 중량 7톤의 GRANIT는 발사 시 부스터로 가속되며, 부스터는 발사 후 분리된다. 유도 체계는 관성유도를 사용하면서 외부 플랫폼의 데이터링크로 갱신된 표적 정보도 받는다. 종말 단계에서는 능동 유도와 대레이더 호밍을 사용한다. 적외선 호밍 능력도 있을 가능성이 있다. 전자지원(ESM) 및 전자방해 대응(ECCM)에 대한 내성이 있는 것으로 여겨진다. SHIPWRECK는 일제사격 시 독특한 유도 방식을 사용한다. 미사일 중 하나가 높은 고도로 상승해 레이더로 표적을 탐지하고, 후속 표적지시를 위해 데이터링크로 지휘 플랫폼에 정보를 보낸다. 미사일은 저고도 공격 대신 급각도 강하로 공격을 마무리하는 것으로 보이며, 종말 유도에는 주로 능동 레이더를 사용한다.",
+      "previous_translation_sha256": "e42093ca524ffe8c35bcf01ceab8d0a5bdee7fc2948ff52f3b59a53d0bf51068",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_109.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1117.txt",
       "paragraph_index": 1,
       "source_sha256": "5c37a7d0009fb28c17d76ce3943855606b59f143273fc8daa603164ef58d9752",
@@ -415025,6 +415970,24 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_693.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/weapon_1490.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/weapon_1499.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1552.txt",
       "paragraph_index": 8,
       "source_sha256": "a8e0127876545864ca7cafcde16c00e20fddd08529c22115410ff305d01bf50c",
@@ -415178,6 +416141,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_723.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1683.txt",
+      "paragraph_index": 1,
+      "source_sha256": "c238bc884c9511bc6dc35412df28c09b53aede427c008382409959bfe1b69ac6",
+      "translation": "세부 사항: 통제 체계는 먼저 위성, 함정, 항공기, ECM 수신기 등 다양한 플랫폼에서 표적 정보를 얻는다. 중량 7톤의 GRANIT는 발사 시 부스터로 가속되며, 부스터는 발사 후 분리된다. 유도 체계는 관성유도를 사용하면서 외부 플랫폼의 데이터링크로 갱신된 표적 정보도 받는다. 종말 단계에서는 능동 유도와 대레이더 호밍을 사용한다. 적외선 호밍 능력도 있을 가능성이 있다. 전자지원(ESM) 및 전자방해 대응(ECCM)에 대한 내성이 있는 것으로 여겨진다. SHIPWRECK는 일제사격 시 독특한 유도 방식을 사용한다. 미사일 중 하나가 높은 고도로 상승해 레이더로 표적을 탐지하고, 후속 표적지시를 위해 데이터링크로 지휘 플랫폼에 정보를 보낸다. 미사일은 저고도 공격 대신 급각도 강하로 공격을 마무리하는 것으로 보이며, 종말 유도에는 주로 능동 레이더를 사용한다.",
+      "previous_translation_sha256": "e42093ca524ffe8c35bcf01ceab8d0a5bdee7fc2948ff52f3b59a53d0bf51068",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_109.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1689.txt",
       "paragraph_index": 1,
       "source_sha256": "d55f611bd6063633f2560a7a3edfc267b769c1e146e2a8f1303e4894a0f2005b",
@@ -415284,6 +416256,15 @@
       "previous_translation_sha256": "5d06449e00fbfd240298c9e607a22f9d7e76f97051f79fd112557c11f2fc3408",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_38.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1891.txt",
+      "paragraph_index": 1,
+      "source_sha256": "4d840f3447951f4add5f60331ef049a4ee1a030063c864e40430bc1724e55be3",
+      "translation": "세부 사항: 버디 급유 포드는 호스와 드로그를 펼쳐 급유기 뒤쪽 아래로 늘어뜨린다. 수유기 조종사는 급유 프로브를 드로그 바스켓에 넣어 단단히 연결한 뒤 연료를 공급받는다. 호스·드로그 장치(HDU)의 동력식 드럼은 호스를 감거나 풀어 공기력의 균형을 맞추고, 기동 중 프로브에 과도한 하중이 걸리지 않도록 한다. 연료 흐름은 밸브로 조절하며, 조종석 표시등으로 상태를 알려 안전하고 연속적인 급유를 돕는다. 적절한 접근 속도를 유지하고 연결을 끊을 수 있는 진동을 막으려면 정밀한 조종이 필요하다. 버디 급유 포드를 활용하면 타격기가 연료를 적게 싣고 이륙한 뒤 공중급유를 받아 더 긴 임무를 수행할 수 있다. 과거 영국 해군은 Supermarine Scimitar와 Blackburn Buccaneer 등에 비슷한 체계를 사용했다. 현대 서방군과 러시아군도 호스·드로그 방식의 공중급유를 널리 사용한다.",
+      "previous_translation_sha256": "d30f4713c905c641484f41d4a80271250665ff5c77fd01e600c3318c35028b3b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_386.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1892.txt",
@@ -415680,6 +416661,15 @@
       "previous_translation_sha256": "c700c8814b28119397f0011bf4ec2cb38e52dfbb822e11b4c24e318a1e3dd881",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_2481.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2482.txt",
+      "paragraph_index": 1,
+      "source_sha256": "4925d55f5131fd92d90bab4cb495a6778b157292b0872404a4a0f0dd6af4d4a2",
+      "translation": "세부 사항: AN/SSQ-62E DICASS는 보통 DIFAR 등의 수단으로 수중 표적의 대략적인 위치를 파악한 뒤 정확한 위치를 확정하는 데 사용한다. 이전 AN/SSQ-62 계열과 달리 완전 디지털 방식이며, 향상된 지령 기능 선택(CFS) 능력으로 투하 후에도 운용자가 무선주파수와 수심을 설정할 수 있다. 따라서 대규모 소노부이망으로 운용할 때 활용도가 크게 높아진다. 이전 SSQ-62 계열보다 개선된 또 다른 기능으로, 능동 소나도 지령으로 작동하며 6.5·7.5·8.5·9.5kHz의 4개 주파수 중 하나를 선택해 송신하도록 명령할 수 있다. CFS로 수심도 조절할 수 있으며, 50·90·150·300·400·1,500·2,500피트 중에서 선택한다. 이 덕분에 대양과 연안 환경 모두에서 효과적으로 운용할 수 있다. 작동 시간은 60분이며, 최대 비행속도 370노트, 고도 350~30,000피트에서 투하할 수 있다.",
+      "previous_translation_sha256": "bd5245a47050d0cee7b839205c8177441a06b81ea1281254da50127526d69819",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2482.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2494.txt",
@@ -416627,6 +417617,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1924.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_68.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b36409a177c9831e4231557c8d106bebe40c097d1cd3fbc7c8b213f28d788bab",
+      "translation": "세부 사항: GBU-27/B Paveway III는 강화 방호 표적을 정밀 폭격하기 위한 무장이다. 저고도 투하를 염두에 두고 설계되었으며, 중간항로 자동조종 장치와 기존 Paveway I·II보다 감도가 높은 탐색기를 사용한다. Paveway III는 일반 BLU-109/B 관통폭탄에 짐벌식 탐색기와 컴퓨터 제어부(CCG), 비행 안정용 꼬리날개 조립체를 볼트로 부착한 것이다. 이를 통해 BLU-109/B는 지상이나 공중의 레이저 표적지시기가 조사한 빛의 반사점을 추적하는 레이저 유도무기로 바뀐다. 이전 Paveway I·II 계열과 달리 Paveway III는 마이크로프로세서로 조종면을 비례 제어한다. 따라서 조종면을 더 조금씩 움직여 비행 경로가 부드러워지고, 기존 모델보다 사거리가 크게 늘어난다. 알려진 정확도는 원형공산오차(CEP) 9m다. BLU-109/B는 두께 4~6피트의 철근콘크리트를 관통할 수 있다.",
+      "previous_translation_sha256": "6d5ba12efdd5b775bfdfbf9e0a4da8475e379f5466deb23a79ac6592e5d79802",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_68.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_698.txt",
       "paragraph_index": 1,
       "source_sha256": "7c57734a40210dd489da7a0da08a3dcda323604b7cb08bdc1b7e7bc873197b85",
@@ -416843,6 +417842,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_84.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/weapon_846.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_85.txt",
       "paragraph_index": 1,
       "source_sha256": "86563d27c4e8abced107c951ba9cb79fa17ea5c1e38fd12930eaf0f40e257c26",
@@ -416861,6 +417869,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_1374.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_86.txt",
+      "paragraph_index": 1,
+      "source_sha256": "76952fbb98ee759f26896e7b9debc4c1f39dbb0dd8117990b59b927de9ec59d6",
+      "translation": "세부 사항: GBU-24B/B Paveway III는 강화 방호 표적을 정밀 폭격하기 위한 무장이다. 저고도 투하를 염두에 두고 설계되었으며, 중간항로 자동조종 장치와 기존 Paveway I·II보다 감도가 높은 탐색기를 사용한다. Paveway III는 일반 BLU-109/B 관통폭탄에 짐벌식 탐색기와 컴퓨터 제어부(CCG), 비행 안정용 꼬리날개 조립체를 볼트로 부착한 것이다. 이를 통해 BLU-109/B는 지상이나 공중의 레이저 표적지시기가 조사한 빛의 반사점을 추적하는 레이저 유도무기로 바뀐다. 이전 Paveway I·II 계열과 달리 Paveway III는 마이크로프로세서로 조종면을 비례 제어한다. 따라서 조종면을 더 조금씩 움직여 비행 경로가 부드러워지고, 기존 모델보다 사거리가 크게 늘어난다. 알려진 정확도는 원형공산오차(CEP) 1m다. BLU-109/B는 두께 4~6피트의 철근콘크리트를 관통할 수 있다.",
+      "previous_translation_sha256": "2b9e9830bd49afc1597f1238ef9f979cbf7ae39bb1990dbe729f25818d514ec8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_86.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_865.txt",
       "paragraph_index": 1,
       "source_sha256": "71115c84ac6da2b8d803e546fb7e46a7bf9a5feebae2a33f5ed72a643e6671c0",
@@ -416868,6 +417885,24 @@
       "previous_translation_sha256": "948531cf8b2b3d735b72a19d7308280d23822d3247926617ae4d1aa89d4eda6e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_865.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/weapon_868.txt",
+      "paragraph_index": 0,
+      "source_sha256": "02c0ceea9f1121737163312097f167de310eac4b419f10a3da8d7a8994863ccf",
+      "translation": "액체연료 체계의 여러 문제를 해결하기 위해 1960년 고체연료 대륙간탄도미사일 개발이 시작되었다. 시험은 1966년에 시작되었고 미사일은 1968년에 완성되었다. SS-13은 모든 단이 고체연료를 사용하는 3단 미사일로, 각 단 사이는 개방형 격자 구조로 연결되었다. 중량 때문에 구간별로 제작한 뒤 사일로 내부에서 조립했다. 일단 사일로 안에 들어가면 발사하거나 분해하는 것 외에는 꺼낼 수 없었다. SS-13을 위해 Yoshkar Ola 주변에 방호력을 극도로 높인 특수 사일로를 건설했다. 운용 방식도 독특했다. 바닥 일부에 물을 채워 두면 점화된 1단이 물을 끓여 증기로 만들고, 이 증기가 미사일을 사일로 밖으로 밀어냈다. 사일로는 무인·밀폐식이었으며, 미사일을 수용한 뒤에는 사람의 관리가 필요하지 않았다. SS-13은 성공적이었지만 단일 탄두라는 한계가 있었고 60기만 제작되었다. 1982년에 퇴역시킬 예정이었으나 검사 결과 상태가 매우 양호한 것으로 확인되어 1996년까지 운용되었다.",
+      "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_871.txt",
+      "paragraph_index": 1,
+      "source_sha256": "47673b96e85598558cf15391836651784725110fcb1731f9d3fcf27f0eb5bb1f",
+      "translation": "세부 사항: GBU-24A/B Paveway III는 강화 방호 표적을 정밀 폭격하기 위한 무장이다. 저고도 투하를 염두에 두고 설계되었으며, 중간항로 자동조종 장치와 기존 Paveway I·II보다 감도가 높은 탐색기를 사용한다. Paveway III는 일반 BLU-109/B 관통폭탄에 짐벌식 탐색기와 컴퓨터 제어부(CCG), 비행 안정용 꼬리날개 조립체를 볼트로 부착한 것이다. 이를 통해 BLU-109/B는 지상이나 공중의 레이저 표적지시기가 조사한 빛의 반사점을 추적하는 레이저 유도무기로 바뀐다. 이전 Paveway I·II 계열과 달리 Paveway III는 마이크로프로세서로 조종면을 비례 제어한다. 따라서 조종면을 더 조금씩 움직여 비행 경로가 부드러워지고, 기존 모델보다 사거리가 크게 늘어난다. 알려진 정확도는 원형공산오차(CEP) 1m다. BLU-109/B는 두께 4~6피트의 철근콘크리트를 관통할 수 있다.",
+      "previous_translation_sha256": "c46e58f48defd3b1d597cf9b9443540f74a0fbe4913bdc9d7b8961cbef9b4974",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_871.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_874.txt",
