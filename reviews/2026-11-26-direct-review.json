@@ -2,14 +2,14 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 49380,
+    "reviewed_source_entries": 49453,
     "review_outcomes": {
-      "modified": 46194,
+      "modified": 46267,
       "retained": 3186
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 46024,
+      "scenario-ko.b64.tsv": 46097,
       "db_files": 4332,
       "db_paragraphs": 8699
     },
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 49420,
+      "runtime_first_lookup_passed": 49493,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 641
+      "html_context_lookup_passed": 671
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -3762,7 +3762,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "3dfce1be9c69741ff375a03c62e1692ac60eb85d4e27ab53a11d00875931d8f3",
-      "translation": "수르나달에는 수색을 지원할 해안경비대 링스 헬기와 보충 인원 수송·사상자 후송을 맡을 육군 휴이 헬기가 있습니다.",
+      "translation": "수르나달에는 수색을 지원할 해안경비대 링스 헬기와 보충 인원 수송·사상자 후송을 맡을 육군 휴이 헬기가 있다.",
       "review": "direct-source-review",
       "batch": "revisions-007.tsv",
       "previous_translation_sha256": "fe94db2d8b308198e14472b214dea9d7292635b7f9f84016124e9fd308f43326"
@@ -18786,7 +18786,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "c2a0b7e54388800c12b01978a37e72214ae61221129576c2741eb31bfe91eb5b",
-      "translation": "주방위군 사단의 오하이오 출신 병력이 대대 규모로 도착했습니다. POMCUS 사전 비축 장비 보관소에서 M113 몇 대와 원문에 ‘M-106 무반동총’으로 기재된 장비를 보여 주었지만, 그 외에는 내줄 것이 거의 없었습니다.",
+      "translation": "주방위군 사단의 선발대가 약 1개 대대 규모로 도착했다고 적에게 믿게 하는 데 주력해 왔다. POMCUS 사전비축시설에서 꺼낸 M113 몇 대와 M-106 무반동총을 보여 주었지만, 그 밖의 전력은 거의 드러내지 않았다.",
       "review": "direct-source-review",
       "batch": "revisions-044.tsv",
       "previous_translation_sha256": "168a82d55e42339d29e8312906bd9d8d6504b77e2a3fb1d1f4159d48affd128b"
@@ -21874,7 +21874,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "0f66870e6cc3586da719322ba01fd9294299383db4ab5f0025216dffb76118e5",
-      "translation": "당시 캐나다군은 오랫동안 예산이 빠듯한 시기를 겪었습니다. 주요 수상전투함은 4척을 제외하면 모두 20년 이상 된 설계에 기반했고, 오래된 CS-2F 트래커는 대잠 능력을 상실했습니다. CP-107 아거스 장거리 해상초계기도 노후해 교체 시기를 이미 넘겼습니다. 캐나다형 P-3 오라이언은 주문했지만 CP-140 오로라의 인도까지는 아직 몇 년이 남았습니다. 그래도 대원들의 훈련 수준은 높았으며, 가용 ‘O’급 잠수함들은 작전 준비 훈련을 마치고 출동할 준비가 되어 있었습니다.",
+      "translation": "당시 캐나다군은 오랫동안 예산이 빠듯한 시기를 겪었다. 주요 수상전투함은 4척을 제외하면 모두 20년 이상 된 설계에 기반했고, 오래된 CS-2F 트래커는 대잠 능력을 상실했다. CP-107 아거스 장거리 해상초계기도 노후해 교체 시기를 이미 넘겼다. 캐나다형 P-3 오라이언은 주문했지만 CP-140 오로라의 인도까지는 아직 몇 년이 남았다. 그래도 대원들의 훈련 수준은 높았으며, 가용 ‘O’급 잠수함들은 작전 준비 훈련을 마치고 출동할 준비가 되어 있었다.",
       "review": "direct-source-review",
       "batch": "revisions-058.tsv",
       "previous_translation_sha256": "52ac3dc281aa304ce610f62325e19f518eacec32bc6993532b877b5fe72613d0"
@@ -23954,7 +23954,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "43e32e7ab7b9990027458ee955f8511fac5ee724760215672db550627bc56573",
-      "translation": "소련 잠수함 부대는 각각 정해진 확률에 따라 등장합니다. 시나리오 편집기에서 플레이하려면 반드시 ‘Start New Game’ 버튼으로 새 게임을 시작한 뒤 저장하세요. 그다음 저장 파일을 편집기에서 열면 됩니다. 이 절차를 거치지 않으면 등장 확률이 25%에 불과한 잠수함까지 모두 나타납니다. 의도한 것보다 훨씬 힘든 상황이 될 수 있으니 주의하세요!",
+      "translation": "소련 잠수함 부대는 각각 정해진 확률에 따라 등장한다. 시나리오 편집기에서 플레이하려면 반드시 ‘Start New Game’ 버튼으로 새 게임을 시작한 뒤 저장하라. 그다음 저장 파일을 편집기에서 열면 된다. 이 절차를 거치지 않으면 등장 확률이 25%에 불과한 잠수함까지 모두 나타난다! 원치 않는 상황이 될 수 있으니 주의하라!",
       "review": "direct-source-review",
       "batch": "revisions-071.tsv",
       "previous_translation_sha256": "979298df30a77ddf80e50a588fb8c265a51a00a1d3c73208e451fcfa178552f0"
@@ -29482,7 +29482,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "6b28ed65f9e4dbb85ef0b37ed703af8797339e961e6760527f48ab478b27bc33",
-      "translation": "헤이마에이섬으로 (CH-53E 18대). (급유하여 해안 진입을 돕고, 이후 상륙함으로 돌아갈 수 있도록 지원하라.)",
+      "translation": "이며 목적지는 헤이마에이섬이다(CH-53E 18대). 급유하여 육상 투입을 지원한 뒤 상륙함으로 복귀할 수 있도록 도와라.",
       "review": "direct-source-review",
       "batch": "revisions-1001.tsv",
       "previous_translation_sha256": "45fe80f08260f99e8ce0843593ba88c2119ac8539a8560083ffb4cfb1bddbf8e"
@@ -201136,6 +201136,446 @@
       "previous_translation_sha256": "a78f91b24535527ea8a6eea7de56f6ae8793d42d51e6b5b349cf5739efeca69d"
     },
     {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "666d10a5bc06481288b9226a714a4effa3ba495eed02041d94433d52cef9fb39",
+      "translation": "노르웨이와 덴마크는 다음 두 항구 사이에 페리 수송망을 구축했다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "344df109c9a769338df5486d1d71e8fd6af86bfac4e3bb82835a70f3e8a37da2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5aabd9c0ffe0af18ae710faf96e5f508e85c6464f6c968e5a0b663cf087ff6a3",
+      "translation": "(노르웨이)과 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "f10f45bf887e0be0ffa6b9bc78c198ea7af56a93a9df1f87dc18e1a72091ba34"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "5d3b2d0c69fc5269ce1608dcc79aebe0a26729f1b95dcb3d0679c5707c28fbac",
+      "translation": "(유틀란트 북부).",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "66a960c8a0da3e97012f109da657379472c4b031348b46a203f14db778daa7ed"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9373fc813f499f7c966a0b58bda36f0a0f56b97868b3d8fbd7b558b3d989807e",
+      "translation": "발트해접근로연합군사령부(BALTAP)는 현재 ‘플라크 갭’이라 불리는 해역을 호위함 3척으로 봉쇄하고 있다. 독일의 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "0b9cb35d155858dee0e43e4a2beb578a91c0ddc1f4860a1d42283a7f10dc1653"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "701478f4a00873ff55ff8066cb7b5c3f56b304ed6954a0d4fa1d4d2514724d04",
+      "translation": ", 그리고 네덜란드의 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "ebbf7e1c66bd348b8dbf073a46df6a545c94d1690fc3c7ed9a5ed0d8339bf8d4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fd6ac7d41d6438e6171c476eaea1491c75e93fb794b2d701f7e7f4659e215f83",
+      "translation": "영국은 잠수함 3척을 다음 해역에서 운용하고 있다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "e5f7fddf778bd79267d5afb1fdf6c108d130a4793a9695cee3424acb58044fd0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e6be0c3e1eebf94481efbce6f69cc0e925fb96cb3eb8457d8977a18dc8df9ee5",
+      "translation": " 제도. 이 잠수함들도 아군 지휘하에 있다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "12dd2212730a898a5dd2cb8304c9580d43c430cc8812ce0936b2170f81831da6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7b43ab1fa8b7396bbaf94d49cc49ea456477c8aa43eba5587d6dac06c19bc46f",
+      "translation": "노르웨이 남부와 스코틀랜드 북부의 전력은 오늘 12:00Z(6시간 전)부로 아군 지휘하에 배속되었다. ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "d9064b1495115aaaca89615b1c393798608877d3452255e4d8b6469be28997a7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a88f46be14af7f52f6eec685c45993cfbeca72eb3faab0fdaac0faaf5a76bdd6",
+      "translation": "(AEW)은 며칠 전 노르웨이에 도착해 뤼게와 포르네부에 주둔하고 있다. 마지막으로, ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "4ef61fb5c98e3f46511df7e9fc64be970eae3f03fd9f5f7941a500043b9cf33e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "853172b32fac6e6a263e837ae043ae1a78581ea35b4c68f5e229808953268278",
+      "translation": "오늘 밤 업무 대부분은 참모진(",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "e25947ef55e3da556167b3d4bf269b33ef71870dafece015023c3d3130ffc292"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d2ab4e2d9bc75020ebd4fa53e39512bca4f8fda4bec23e642f3f80a045afcc88",
+      "translation": ")이 맡는다. 공중급유기 배치와 급유 일정, 주기장 공간과 항공기 이동, 선박 항로와 호위를 조율해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "9a30f0840f801dea4d1d4a236859f1ce5d696f057ea005d6bcf301d625e83540"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2beb133321c55deea6b7365b4999cbddc72f4892541ec8ca6cd76628655c973c",
+      "translation": "함은 제31해병항공전대(MAG-31)의 지원 장비와 보급품을 수송하고 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "52493adb81a521a866c9873e35cd9a6dda4ba663e553957841721d7d045347db"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6577bb652da149090110d4ecc987e9c53adf85d6440b2aaf60d46c980af73abf",
+      "translation": "기지는 일주일 전에 다시 문을 열었다. 기지 지휘관은 해병대 지원에 주력하고 있지만, 이번 작전에 조기경보통제기(AWACS)·해상초계기(MPA)·공중급유기 지원도 일부 제공할 수 있다. 아직 이동하지 않은 해병대 EA-6B도 일부 남아 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "f8bfbd0019cf965f862dcca832e5bf81e5b5b8b480cd4c70adcf321acbf00a11"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "659598da20241eee8fd99f0d7fb9469a8edbd54581354be07e4bdac99bc8ad8c",
+      "translation": "은 오늘 중으로 귀관의 지휘함 옆에 정박한 HMS 아크 로열에 사령기를 옮길 예정이다. 다음 지휘관들이 그와 함께한다:",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "112fd44d863c3faef52f12567d783b8fe2184993eca5c35412d89c2355c84ded"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "665cbfe3d5126a351bbbb120d227c7e508582bf32b97bb2454bb385a912bb18a",
+      "translation": ". 주요 함정을 잃거나 통항 중인 유조선이 크게 손상되면 다음과 같은 결과를 초래할 것이다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "07f69d7d642017db5f1e60356b399495c2b1953e7dbb919fd19b70901a19df71"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1a7cf60af2b796cfc15cbe903568d0dddf3671587d94f52c76090af6b1e345ee",
+      "translation": "작전구역 전반은 맑으며, 예외는 다음과 같다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1236.tsv",
+      "previous_translation_sha256": "871b31a47dc5eecc8cab52b93309a6316cacbed334ecadefedc9b0ed159c9b94"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6943c1655c9ffdf13b328d180b56f1ba0d8aaed50c378a49cbe6b060c6325371",
+      "translation": "탐지를 피하라. 탐지되면 즉시 철수하라. ",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "c3e955da018bc507e6a386ea4679f8a4a6dec2a54c27056a22c7c7fc09ff4fb0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fd4b3ae8b11a67655f60761ed5872049908342de899ae00bafeebcac4d022e44",
+      "translation": "함이 중국군의 손에 넘어가게 해서는 안 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "7450b63043c366661b5b2a1eac1f0180d43d902a31eb9a30b565a8e7b9015c14"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "681ac211fcf11c71a2481bc186701c01bb20428dc52b222660480037dab8bd84",
+      "translation": "제362해병중수송헬기대대(HMH-362)에 급유를 지원하라. 출발지는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "63c1f808ca13685a2c957790f368a732a64a0b6d7d974b64a6e3063978a67fca"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7e53136bf361dfa8cc735e9274073fd0bcc4cb35f2489e39adf56098adf5b51b",
+      "translation": "다음 착륙지점으로 은밀히 침투하라: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "693ba68efd52ccee8950da200106d7cb36ccc44d894b09c7105d6928b8837210"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "68a5284c96a7775bd9d0b40d237e8ba477555824508db0ddffd50c0ec8a94573",
+      "translation": ". 특수작전팀을 투입해 고가치 표적(HVT)을 확보한 뒤, 팀을 USS 이오지마로 철수시켜라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "8f465aa7c8a4d690f90343c8c7301ba3c951720eb7c0c50bbc29fc5969b900d3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6861834b5183bcc6dfe8ea77fc446c71dfacb73183fbebfd445e550de509266c",
+      "translation": "함은 내일 늦은 시간으로 예정된 보급을 위해 마닐라를 출발하여 아군과 합류할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "addb660b158e72dc484d9479704425c196af8fe76f7631f7f3147b6e95f6b10d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "68f175e230811f9066d6599f6f88be66d7a37e9d24113cf1949441de3af53e38",
+      "translation": "급 순양함이 방공 지원을 위해 배치되어 있다. 정보에 따르면 호위함 1척이 동행하고 있다. 청군은 이 위협에 대응할 수 있도록 해상의 NATO 제2상설해양전단(SNMG-2)과 크레타섬의 대수상전 무장을 갖춘 F/A-18F 슈퍼 호넷을 보유하고 있다. 이들과 지원 전력을 상황에 맞게 활용하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "5cc305021ada7cc099f394988176f72c08a6d9875935972711e3cb808543ff54"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7174cf1f5ac845eb3737f8f115affb8672f6085bbf2d28dde8ec04b184334bc9",
+      "translation": ": 집중적인 외교 교섭을 통해 일부 긍정적인 성과를 거두었다. 싱가포르는 비무장 항공기가 다음 기지에 언제든 착륙하는 것을 허용한다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "ea5d17dfd34298f55874c3fc8eb337dd0f3d19b3ff52e65a90099e1fa5aeab37"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "694db2c7811730613251b0dcce36b62f1d518c4dde1dff7e46b09100c7da360a",
+      "translation": "싱가포르는 비무장 항공기가 다음 기지에 언제든 착륙하는 것을 허용한다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "b27bab669af6f3f32ac887a4a6a54dc8dd5f9e377bcffa4af4b8d222b8e89418"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8ef981b3a7bc05a226b5749fe300da00a61131b4149849a493539acd1a19f8c6",
+      "translation": ". 체류 기간은 최소화하기를 바라지만 별도의 제한은 두지 않았다. 특히 호주 타격기(F/A-18 또는 F-111)가 야간(20:00~06:00 ICT)에 다음 기지에 착륙하는 것을 허용했다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "bdb964639d241c151636e79a6bb7eed13e7024e4a92ae2ba36139af155f0f1c7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b03daee6e5adb10271e6e11ea88d90d51390098038b0f04619de5bb916d0b3f8",
+      "translation": "지난 72시간 동안 폭격기와 함재기가 끊임없이 공격하여 아이슬란드의 방어력을 크게 약화시켰다! 오늘 아침에는 전함들이 포격에 나서 적의 전투력을 더욱 떨어뜨렸고, 해병대 수색부대가 핵심 지역을 확보하기 위해 투입되었다. 어제 늦은 시간에는 대대상륙단(",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "e8b0f598b4e67b6077954406fb98ddf0769ac36d6bcbd2241898a8715cb8a7e7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9e48da162b01772c1b0b67647fce110b1d3b4d58cc7ec5112044358c1a5aec4f",
+      "translation": ")이 베스트만나에이야르 공항을 점령했다. 공항은 이후 정비·확충되어 F/A-18을 수용할 준비가 되었다. 마침내 때가 왔다. 귀관의 임무는 다음 두 부대의 동시 상륙작전을 수행하는 것이다: 제6",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "68bb8aee7b5f98a3a015d173bb0ed630f021259a135951d612c4c78811497e36"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "028fd5456f30c895dab435045f81862dc1c92aa298998cb1c021c47ccab990da",
+      "translation": "연대전투단(RCT-6 및 RCT-8). 두 전투단의 상급부대는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "65b8ca4f449c549812445841560206951ad8dd7ffff75521daf9517bb66f81b2"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "696f03eeb57cda2198a9aee7803337b235119d41b6f8e5f325a756b0056a6c20",
+      "translation": "마침내 때가 왔다. 귀관의 임무는 다음 두 부대의 동시 상륙작전을 수행하는 것이다: 제6",
+      "review": "direct-source-review",
+      "batch": "revisions-1237.tsv",
+      "previous_translation_sha256": "ee23dd7e08a5561164b87f36fe717bb684eb6a78f4f671a297827ee638b6e4e1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d9da75edb594b89c917eb5eac1019245fc2a16d04c41e406f81351fb5918ef54",
+      "translation": "1. SM-3 블록 IIA의 무장 사용 권한(WRA)은 자동으로 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "baff6ea559f290595aab9f2581cbba3968166ba218156bfaca3f50d52caf5878"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "36de09e187b4ad61c76b8409bc2bfd6ede241614d7a8ced8ef189d1ad76f8158",
+      "translation": "발사하지 않도록",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "082579b40e15813ef4aa1bc782aa93450d52d4c5fdedd8ba66d6fb46e3c7167b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6c51fd37f3b336693094bdfa3aec226d0077fa87648a12320eacc113be87a3b9",
+      "translation": " 설정되어 있다. 필요에 따라 직접 표적을 지정해야 한다. 탄도미사일 요격탄 수량은 제한되어 있으므로 이를 고려해 운용하라. 접근하는 탄도미사일이 탐지되면 경고를 받게 된다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "1bea6ef0c4a4385eac2462e34f3e3f969ba57a1cacc187612b94739ad078bf40"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6cf6466dbfffa88ced0b6b836fecfa9a465b5047f0d39af4d387c2f2cf2ba09b",
+      "translation": "함은 수다만에서 적재를 마무리하고 있으며 약 12시간 뒤 포트사이드로 출항할 준비가 될 것이다(",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "6a2185f4c15a1f10abaa369d779960f23de7965dcb6b6cc4712fcdf18386d4a9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e567d26f6cac701637dfabfdca215ac20135a3607a126d493a535138df06b12f",
+      "translation": "설정상의 적재 작업이며, 수다만에 있는 탄약을 실제로 이 함정들에 실으라는 뜻은 아니다",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "55be850adf7272a9d1a13910422bce597bc2769a73a320ac8f9231721661ef10"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9396657c035c60958a00c23cefadfa982a34e4a19d90ed1b321c524a82787fe0",
+      "translation": ": 노스우드 사령부는 다음 전력을 지원했다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "f174e271eb9df45ca57110127c9884f13b1a296493ba992f93d24f554dded75e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6db3594fab8e0c69b2d8ed54cbd342d815d949a0927f84e4a9ab8c6599c34976",
+      "translation": "함은 아군 집결 해역을 초계하며, 세인트모건에서 출격하는 해상초계기 비행대대 1개는 주로 다음 함정의 이동을 지원한다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "4bf117f0e8f453cadb8d258d5d288cf6d999a1a487d1932cb301db4ddee06f48"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6e49d45ba5c067a90968b0af406b756ce0288beb6981ba4e3808d3de8a39720f",
+      "translation": "산 마크로",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "ba2741690cf873ec15d27642c41474cb66544b6dea9b448e211a0e308a4d7dfc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c141b17429eeabb6a07b8eab5de2cd16809bfe4d3e0aa3bae012e064c67768b7",
+      "translation": "와 산 조르조를 에일의 상륙지점까지 호위하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "408e1e191ad2a3bda34c7ac76e3d2338dc1a3655c5b97187ed8306632f9a2555"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6bc03806bb0616371e4524309b7feb96dc45d6a0a017049129eead8359dcb53e",
+      "translation": "급유기가 부족할 수 있으므로 가용 전력으로 최대한 해결하라. 당시 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "cb5382ab96fdb7db9620f832bedcd8ea1300299495ff2dc731cf0401335c1403"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6c9670f400f33cc4e01bdfc8430d0ba7d535d87f22e91299546554b126688fc7",
+      "translation": "해상보급(RAS) 장비는 없지만, 유조선 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "7b107a13fa456b6b85f19ce05cf1415c2778a78689040f2ffa6987b42bade634"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "df8f10f370fed57634a2ffe764a0c493fc386cd0680b4e78b7c42984a43a6960",
+      "translation": "미 제5",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "16fe02283cc25baf177c49aca227e7955cc82a366a2ea08de0c66e61693bfd14"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6d97fd0a8fadb082b6355ebce297fdb05e0483e32ca988c3b366bac659c2d6d6",
+      "translation": "함대는 바레인에서 지부티 해군지원시설(NSF)로 이전하기 시작한다. 이 시설은 빠르게 확장 중이며, 서아프리카와 걸프 지역 작전을 위한 연합군의 핵심 지휘·군수지원 기지가 될 예정이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "15ac8ffcccc06d6ba0b3d198585303a3748ef136a95a44ff7bb3c3225a369f63"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6e8e8011a22c0ea70be5c0a7f737349f86d36d398669ec59dbe25cf8160e3fdf",
+      "translation": ": 예멘군 외에도 제95",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "9397e46e3cef44074f251ffd311d8a0be780ffd1de71dccaeee5cd0c5bfaaea0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f8f9a3e0fd5b4e688514769252715fd5d44c25de5f3d9523150c85091d52fd9a",
+      "translation": "전투항공사단(IAD)이 사나를 거점으로 작전 중이라는 확실한 증거가 있다. 이 사단은 MiG-29 연대와 MiG-23 연대를 각각 1개씩 보유한다. 예멘군 전력은 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "f8ddb0ea570339578b0783c81b2b1dc278c9b707f9935e9a19e9b9e622e7d6bc"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6c732bea1effeda7eda2d16b21bb5a35608cbb7eccfc7b850998d56a05db923d",
+      "translation": "사단이 트론헤임 지역에서 편성되고 있다. 네덜란드 왕립해병대 1개 대대로 증강된 영국 해병대 제3코만도여단이 이 사단의 지휘하에 있다. 제5",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "b66078fbf8ff5371b78a332a565934bf7b5c540157d912df5e8ad50176c5453f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bbfed0c2e0c453907717cb56f2eeda10c7610439841c82a4b1bc8b6b832f65f5",
+      "translation": "사단은 베르겐·스타방에르 지역에, 나머지는 오슬로·릴레함메르 지역에 있으며 모두 정원의 약 30% 수준이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1238.tsv",
+      "previous_translation_sha256": "70c69f9fdee59846bf59971c0f1387229a0043ecde246862392c6f5b536a1737"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6f992818f02c2311029a6b72f3a13ececab8c46b5769505d1e4d78d7055d2c8e",
+      "translation": "오늘 아군의 급유 지원을 기다리는 항공기가 여럿 있다. 순서에 따라 이들에게 급유를 제공해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "5fc7722f204cf467880cd277ab3b927b7e5180424007e47d7d13365c47ecfe7b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "6faa2cc149619a10ea898ff5586e1a08955d1d7db5ebfe1752d20c5c9e761933",
+      "translation": ": 고속전투지원함(AOE) 시머론은 보급품이 소진되어 재보급을 위해 브린디시로 항해 중이다. 무유도폭탄은 충분하지만 다음 무장은 수량이 제한되어 있다:",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "4955e2fa568049bfd3425610ff267ca5efddfb1412717ff2008fee8d8e4c9ce7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4f0c2cad122129c86aa09c58f8ce14c7d9327eeac819e9812b0899f26990c541",
+      "translation": "아군은 제45",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "5405569b4fcb9b1d48b46cc466bc8e6733898cbfde61a88893b3ccf355263b82"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7080920397dc476d165c73d33de118f3a8ef5391f5840c1e0a81ec0b8f0ec00c",
+      "translation": "차량화소총사단이 오늘 협동 공격을 벌여 1차 목표를 돌파한 뒤, 해 질 무렵이나 그 직후까지 후속 목표 중 최소 하나를 점령하려 할 것으로 평가한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "221cc6449bdbb5aaad1bb5a9be41a564b827a780e97693cc7faf4138e9493e30"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "e8c426053aca89cbc8d0bba9a61567aa5da2115571087c97167e98012c2fa70a",
+      "translation": "적은 제17",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "babd00d84c1c3491c46504c524efbc05954378508ad0afa5fdf6085fce42f5d6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bc1f647e548b577ecf297726f54ad213ea5fdbafe74f143915bf6ef77e92a491",
+      "translation": "전차여단이 아군 공군에 관측되어 격파되지 않도록 야간에 돌파구를 통과시키려 할 것이다. 내일은 이 여단을 오슬로 방향으로 돌파·진격시키려 할 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "c76201f6183701d26aaa05466a0b3ecabd6d3568c55f5d8f8de55602a3420af3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7066bd00a783a65d08efdce641a49d438eb902666e0dbf3c28bda5d0b12f6a33",
+      "translation": "항공기 무장 구성별 무장 사용 권한(WRA)을 점검하라. 기준은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "3dee3a54031aae936f0289386201274d8fcc91338a501b2928b3d00c03bdf749"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1dfdf2144ba837b5c35133ce33a19bb9ece97cf54b4a7d8e19c2433a51af7076",
+      "translation": "이 원하는 설정이다",
+      "review": "direct-source-review",
+      "batch": "revisions-1239.tsv",
+      "previous_translation_sha256": "da39de20c8a119f7ba742adbc0c8132daba0006305d2933642145aa8dafb5708"
+    },
+    {
       "dictionary": "ko.tsv",
       "source_hash": "272dde7aa3425345928ccb7a2e2e3b7d1bdab22d927f67755a551f5eb476a0f8",
       "translation": "화물",
@@ -201454,6 +201894,150 @@
       "review": "direct-source-review",
       "batch": "revisions-124.tsv",
       "previous_translation_sha256": "79b8a173e2bbdf794508af4ea8fed8bce53bd491383d87861dd0dfd21fb1337d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "76c0b8b3542d07d944f7223a8c58c27b1be95b0b87e68e6606e082299be9b17c",
+      "translation": ". 민군 겸용 시설이다. 다만 공항 터미널과 관제탑(공격 대상이 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "1803731cf82aa1d08778f21819c8d6411fcd9cea65b11057cc1f2fa3e4d6276e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "9206a2039c1d091f47057add5e13df95f07cdb1934ed433d3e1161d3b793b5d7",
+      "translation": "다)을 제외한 나머지 기지 시설은 공격이 허가된 표적이다. 핵심 표적은 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "fa18c112ddc03cdb305fd2939eda91d07da285ff786f5846a155ff8de3eb86b7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "75a01509977de07ac40f31a17d8ab4efaf4a4a1e517e533210f21f8e2a76ae22",
+      "translation": "AOE 4 USS 디트로이트는 FFG 45 USS 드 워트의 호위를 받으며 스페인 로타를 막 출항하고 있다. 16일 06:00~10:00Z 사이에 지중해 서부에서 아이젠하워와 합류해야 한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "0eddefda1014036414769dbc9dd82bb797d23379c732644a2d727953964af97f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f771e315e492c738b6d687e6c2472b0b8d8dd190757edc50ba34b62c15d0f135",
+      "translation": "육군 전력: 노르웨이 육군 제3",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "142d6abd2985a7ec1458f0e39fb797f710d8f44a0a4a84af317d9870eead26f6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "772ea9877ee510444186771ead2be5b842fb095bedf3dcb5621a77566751267c",
+      "translation": "여단은 오를란 해협 주변 여러 섬에 전초기지를 두고 있으며, 이 지역에 휴대용 지대공미사일(MANPADS)과 방공 레이더도 일부 배치했다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "0a99cfaf7504af42eaabf8db0a7d7e7179fe966eb72766ffd3a4284e2635aaee"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "50a6884817e97e9d93e87618209e2ccb2a00530beff5d497dea3a8f8bf6b171a",
+      "translation": "아군이 상대하는 부대는 전력 소모가 비교적 적은 제45",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "88a69d21134c4567e16c1504b56859569979cf5fb8e16c203b722df9ac8992aa"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "86051691055696750ca8b76a6282c95a55c598140ebb19dddb694270bc3e4a33",
+      "translation": "차량화소총사단은 트론헤임의 피요드를 도하하며 전력이 상당히 소모되었으나, 아군 서쪽에서 진지를 굳게 지키고 있다. 제45",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "0df2f26b9176055fb0239447bc97363be81aefe610e10612c4154d72facf4229"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7792e8650524b299996b3ad7c792f0fdd9cc41e1f2060e7db3195b7cbcf454db",
+      "translation": "사단에는 BTR 장비 대대(주 1)가 최소 1개 증원된 것으로 보인다. 이 대대는 스웨덴 국경에서 파세트 마을까지 차폐 임무를 수행하고 있다(지도 참조).",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "28220cfa3059b56a9182bbba769b0e3c25f851d474b5a1767758646a50da4458"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "a6f37c39b790378fa9a0bcbcc8b52a6edc8247869c348186b2708085f90eb01a",
+      "translation": "아군은 오하이오주 제37",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "97f164e08088abdca199b278940a98fe052e9d0c75507bed8a825e43787907db"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "42e2e76c9fffaff65fbf427abafe2459ffcbd5d21c8ae9ab1062596c26f5f21a",
+      "translation": "을 실시한 뒤 항공기를 기지로 복귀시켜라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "23e5e359f64fdb1ee7a2e1d14ea249effd1302edb1a5adb7ce8ccaa756ebb901"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "75e9ee9ce1356c883e9e39b8cf4d1914948dae637d7ea9807b44d3c9fb7ebce8",
+      "translation": ") 한 번에 항공기 1대만 활주로 상공에 있도록 하라. 저고도 낙하산 추출 투하(LAPES)는 활주로를 사용하며, 매우 심각한 사고로 이어질 수 있다(1분 11초 지점 참고: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "d701e63eec8fb1d14fefdd56489bb8a75f0e8c8ab745bc6e73934513f431807d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "b7599888c79ac2bd92f53294759cf7f0f46bd98d699c8d7c627c992e05c61ee4",
+      "translation": "). 전투 하역을 수행하는 허큘리스는 활주로를 벗어나지 않고 중간에 정지하여 하역한 뒤, 공간이 충분하면 그대로 반대쪽 끝을 향해 달려 이륙한다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "d110def93b9dd4223add655460849b222b2a94eb36887c94eb57bbd40a9e9ffb"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "2c44e8ccbecc0f2574bfdf4ce3b5862d06676faf753c7c5088dc32f28d8cbace",
+      "translation": "NATO 측 임무에는 다음 잠수함 2척을 투입한다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "506c94d3e08b3bcf3ae75bd78dfcc88c50bca7d5699c5d8cd29c86ca795c5a9f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7471c7f658953f85545066e71bae2adcd8132a570204d1e96207f323e250d460",
+      "translation": "급 공격원잠을 소련의 바렌츠해 보루에 침투시켜 소련 공격원잠을 제거하고, 탐지되지 않은 채 탄도미사일 원자력잠수함을 식별하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "1c51b7070f79202114a27687b714c2ac44e1767a112b702175f4fc97a9583ac4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "747647d4eca69c089b56e224bbfdbea354cfa9f865da82b6956c4eec9e8e8687",
+      "translation": "함을 전술지도에 표시된 초계구역 안으로 이동시켜라. 추가 지시를 받을 때까지 해당 구역에서 임무를 계속하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "48c2279761bae1d30d525c1ab900a27b2e733a6e36d766c73f09a9f6cbead2a6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "619e08686041238ed28118897035c7aaa899687157ed9ac866efbb5a54a9777d",
+      "translation": "함은 충분히 가까운 거리를 유지하며 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "8bafb6b7d17ead4985bfd429412da3a6276b40529b508f7f57f9b3a25bd5c727"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d6e66fda57b41918ef5521fbc6f543246bd99ce86d4e510a1e5eccab0031d788",
+      "translation": "함을 적의 공격으로부터 보호하라",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "19c8faddc7ea959b5a717dd5bc46a9123e3230df6bebb5f6482c293edd5f210a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "965e195f291e2fbf8bfb0fb7e3effd8ee8e68a09d7988bb3e90fbebec6aac73e",
+      "translation": "함은 아루바 남쪽과 남서쪽 해역을 초계하라. 이 지역에서 베네수엘라 함정을 발견하면 탐지되지 않은 채 어뢰 사거리까지 접근하여 잠망경으로 촬영하라. 이는 아군이 필요하다면 세계 어디에서든 전력을 투사할 능력과 의지가 있다는 점을 베네수엘라에 납득시키는 데 도움이 될 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1240.tsv",
+      "previous_translation_sha256": "5f7998f982d3c456d08c1161300492f99230497b50e1732f489c28fe9014736c"
     },
     {
       "dictionary": "ko.tsv",
@@ -212234,7 +212818,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "3c6f9ccf897ea1f66ab32123d238fa12d282c5fea2d075526d3609df7a0e5d69",
-      "translation": "의 함장입니다. 이 함은 적기북방함대 제16근위공격잠수함여단 소속의 641형 디젤전기 잠수함입니다. 2주 전 전쟁이 발발하기 약 열흘 전부터 노바스코샤와 뉴펀들랜드 사이의 북서대서양 해역에서 작전 중이었습니다. 닷새 뒤에는 무르만스크 기지로 돌아가는 길고 위험한 항해를 시작해야 합니다. 지금까지 함대사령부는 세인트로렌스만 앞바다에서 NATO 함정과 항공기의 활동을 계속 전자감시하고, 상선은 공격하지 말라고 지시했습니다. 지루하면서도 위험한 이 임무에서는 ESM 마스트를 자주 올려 신호를 기록하고, 승함한 통신 전문가들이 이를 분석해야 했습니다. 함대 및 여단과의 연락은 매우 불안정했습니다. HF는 신뢰성이 낮고 사용하기 위험했으며, 새 위성통신 송신기도 고장 났습니다. 다만 수신은 가능하고 VLF도 주의해서 사용할 수 있습니다. 무선팀은 방대한 데이터와 신호정보를 수집했다고 장담하며, 귀관은 그 수고가 가치 있었기를 바랍니다.",
+      "translation": "의 함장이다. 이 함은 적기북방함대 제16근위공격잠수함여단 소속의 641형 디젤전기 잠수함이다. 2주 전 전쟁이 발발하기 약 열흘 전부터 노바스코샤와 뉴펀들랜드 사이의 북서대서양 해역에서 작전 중이었다. 닷새 뒤에는 무르만스크 기지로 돌아가는 길고 위험한 항해를 시작해야 한다. 지금까지 함대사령부는 세인트로렌스만 앞바다에서 NATO 함정과 항공기의 활동을 계속 전자감시하고, 상선은 공격하지 말라고 지시했다. 지루하면서도 위험한 이 임무에서는 ESM 마스트를 자주 올려 신호를 기록하고, 승함한 통신 전문가들이 이를 분석해야 했다. 함대 및 여단과의 연락은 매우 불안정했다. HF는 신뢰성이 낮고 사용하기 위험했으며, 새 위성통신 송신기도 고장 났다. 다만 수신은 가능하고 VLF도 주의해서 사용할 수 있다. 무선팀은 방대한 데이터와 신호정보를 수집했다고 장담하며, 귀관은 그 수고가 가치 있었기를 바란다.",
       "review": "direct-source-review",
       "batch": "revisions-171.tsv",
       "previous_translation_sha256": "e4d19aedc23d553f216b654b65cf40551d35b35847276e1b74bf135d5c8dceb5"
@@ -233658,7 +234242,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "6c702d228a68fb8a576324685986cd06162fd6f3c3c4773296d0a2aa7a57bfea",
-      "translation": ", 귀관은 살아남은 부대를 재편하고 가능한 한 빠르게 증원군을 받아들이고 있습니다. 지난 12시간은 비교적 조용했습니다. 소련군의 바나크 공수 투하가 끝난 뒤, 바르두포스 상공의 전투공중초계가 마주치는 소련 항공기는 시간당 15~20회 출격분에 그쳤습니다. 전파 방해는 여전히 강력하고 효과적입니다. 소련 전자정보 체계가 아군 송신 대부분을 포착하고 있다고 가정해야 합니다. 바나크와 커크(원문 표기)로는 수송기와 단발 항공기가 매우 빈번하게 드나들고 있습니다.",
+      "translation": ", 귀관은 살아남은 부대를 재편하고 가능한 한 빠르게 증원군을 받아들이고 있다. 지난 12시간은 비교적 조용했다. 소련군의 바나크 공수 투하가 끝난 뒤, 바르두포스 상공의 전투공중초계가 마주치는 소련 항공기는 시간당 15~20회 출격분에 그쳤다. 전파 방해는 여전히 강력하고 효과적이다. 소련 전자정보 체계가 아군 송신 대부분을 포착하고 있다고 가정해야 한다. 바나크와 커크로는 수송기와 단발 항공기가 매우 빈번하게 드나들고 있다.",
       "review": "direct-source-review",
       "batch": "revisions-317.tsv",
       "previous_translation_sha256": "904a861222bacbac2bc8e101bd75316ab52465af6528c4c19ffd4b17f9f8d033"
@@ -233802,7 +234386,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "c19085ca4bcd92c1d5d8f78aadd80ac681dfebaf24df95fdc0eea00291f70489",
-      "translation": "새로운 세계대전이 시작된 지 이틀째, 정오가 다가오고 있습니다.",
+      "translation": "새로운 세계대전이 시작된 지 이틀째, 정오가 다가오고 있다.",
       "review": "direct-source-review",
       "batch": "revisions-318.tsv",
       "previous_translation_sha256": "3cec448ebe87c3ce7bc4097c32d51bb4d4be10e99ce25e17a5c7ee21f111be13"
@@ -238810,7 +239394,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "84c71fcf8ed32abf34634a64a8ecce4f14f923ceb005083dd74a15655dbce8d8",
-      "translation": "제45차량화소총사단은 남서쪽으로 공격할 것으로 판단됩니다. 1차 목표는 릴레함메르, 후속 목표는 하마르·예비크·엘베룸 일대입니다(지도 참조). 이후 군 직할 제17전차여단에 진격을 인계해 최종 목표인 오슬로로 향할 것으로 보입니다. 제17전차여단이 제111차량화소총연대 1대대(BMP)로 증강되었을 가능성이 높습니다. 원문은 이를 전차연대와 차량화소총연대 2개에 해당하는 강력한 전력으로 설명합니다.",
+      "translation": "제45차량화소총사단은 남서쪽으로 공격할 것으로 평가된다. 1차 목표는 릴레함메르, 후속 목표는 하마르·예비크·엘베룸 일대다(지도 참조). 그곳에서 군 직할 제17전차여단에 진격을 인계하여 최종 목표인 오슬로로 향할 것이다. 제17전차여단이 제111차량화소총연대 제1대대(BMP)로 증강되었을 가능성이 높다. 이 경우 전차연대 1개와 차량화소총연대 2개로 강력한 전력을 갖추게 된다.",
       "review": "direct-source-review",
       "batch": "revisions-366.tsv",
       "previous_translation_sha256": "9d8e8e1886117ab523ed6f34f9ea0be6d0a6d795abcb47a580616ea032d5284c"
