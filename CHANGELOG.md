@@ -52,12 +52,12 @@
 
 ## 2026-11-26 — 원문 해시 대조 기반 추가 검수
 
-- 로컬 게임 원문을 SHA-256으로 대조하여 검수했습니다. 현재 추가 검수분은 59,288개 원문 항목입니다.
-- 시나리오 사전 55,924개, UI 사전 179개, DB 6,267개 파일의 43,560개 문단을 갱신했습니다.
+- 로컬 게임 원문을 SHA-256으로 대조하여 검수했습니다. 현재 추가 검수분은 59,388개 원문 항목입니다.
+- 시나리오 사전 56,024개, UI 사전 179개, DB 6,267개 파일의 43,560개 문단을 갱신했습니다.
 - 교전 금지·허가 조건, 군수·편제 용어, 함정·항공기 수량 및 누락된 제원을 문맥에 맞게 교정했습니다.
-- 검수 항목 59,379개의 실제 번역 조회 함수 검사를 통과했습니다. 사전 키와 DB 문단 구조를 유지했습니다.
+- 검수 항목 59,479개의 실제 번역 조회 함수 검사를 통과했습니다. 사전 키와 DB 문단 구조를 유지했습니다.
 - 전체 직접 검수는 진행 중이며, 이 수치는 이번 추가 검수분만 나타냅니다. 이전 검수와의 중복을 제거한 전체 완료 건수는 아닙니다. 실제 게임 화면 검증은 수행하지 않았습니다.
-- Restored source associations by hashing local game text and directly reviewed 59,288 source entries, rewriting where needed. All 59,379 runtime lookup checks passed. Full direct review remains incomplete.
+- Restored source associations by hashing local game text and directly reviewed 59,388 source entries, rewriting where needed. All 59,479 runtime lookup checks passed. Full direct review remains incomplete.
 - 시나리오의 정확한 번역을 일반 UI 번역보다 먼저 조회하도록 런타임을 수정했습니다. 날씨 문구 `Clear`가 UI의 ‘지우기’로 표시되던 문제를 재현하고, 수정 후 ‘맑음’으로 표시되는 조회 결과를 확인했습니다. UI의 ‘지우기’는 유지합니다. 재현 가능한 DLL 변경 스크립트는 `tools/fix-scenario-priority.py`에 있습니다.
 - 단어·음절로 쪼개진 브리핑 2387개 문단·목록 항목을 전체 HTML 해시가 일치할 때 검수한 한국어로 변환한다. 배포 사전에는 원문 대신 해시·한국어·원문 출처 링크를 저장한다. 문단·목록의 바깥 태그는 유지하며 내부 글자별 서식은 재구성한다. 재현 스크립트는 `tools/add-context-support.ps1`이다.
 - 별도 HTML 조각으로 분리된 영어 서수 접미사를 정리하고, 실제 원문 HTML 발췌 1303개의 번역 결과에서 부대 번호 및 강조 구문이 자연스럽게 연결되는지 확인했습니다. 화면 렌더링 검증과는 별개인 HTML 변환 함수 검사입니다.
