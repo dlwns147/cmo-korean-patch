@@ -66,7 +66,7 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 | 실제 DLL 번역 조회 검사 | 50,033건 통과 |
 | HTML 문맥 변환 검사 | 936건 통과 |
 
-별도로 DB 전체 원문 1,108개 문단을 검수하고, 문단 해시가 일치하는 8,831개 위치에 적용했다. 위 사전 항목과 중복될 수 있어 합산하지 않는다. 지도 지명, 미복구 원문, 시나리오의 추가 메시지·첨부 문서도 전체 검수 범위에 남아 있다. 사전 검수 비율이 프로젝트 전체 완료율을 뜻하지는 않는다.
+별도로 DB 전체 원문 1,156개 문단을 검수하고, 문단 해시가 일치하는 8,990개 위치에 적용했다. 위 사전 항목과 중복될 수 있어 합산하지 않는다. 지도 지명, 미복구 원문, 시나리오의 추가 메시지·첨부 문서도 전체 검수 범위에 남아 있다. 사전 검수 비율이 프로젝트 전체 완료율을 뜻하지는 않는다.
 
 현재 교정은 Codex가 로컬 게임 원문과 문맥을 대조해 작성한다. 공식 Codex SDK의 GPT-6 Astra(Medium)로 문단 단위 번역 후보를 생성하는 방식도 사용하며, 모든 후보는 전체 원문과 직접 대조하고 용어·문체·오역을 수정한 후 반영한다. 전체 원문 해시가 일치하는 문단은 검수 결과를 재사용하고, 숫자·URL·문체 검사와 실제 적용 검증을 병행한다. 기존 기계번역 초안이 아직 남아 있으며, 초안에 사용한 모델은 아래 출처 표에 기록했다. 설명·브리핑의 문체는 **다체(~한다/~이다)**로 통일하며, 이미 검수한 문장에도 소급 적용 중이다. 어미만 자동으로 치환하지 않고 가능·허가·의무·금지를 구분해 수정한다. UI 이름은 자연스러운 명사형을 사용한다. 문체 재검수는 아직 완료되지 않았다.
 
@@ -145,7 +145,7 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 
 **Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 49,990 of 64,976 existing UI/scenario dictionary entries: 46,803 revised and 3,187 retained. Another 14,986 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
 
-There are 43 supplemental source entries and 1,108 separately reviewed whole DB paragraphs applied at 8,831 source-hash-matching locations. The DB count can overlap dictionary reviews. All 50,033 runtime lookup cases and 936 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
+There are 43 supplemental source entries and 1,156 separately reviewed whole DB paragraphs applied at 8,990 source-hash-matching locations. The DB count can overlap dictionary reviews. All 50,033 runtime lookup cases and 936 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
 
 Current revisions are reviewed by Codex against local originals. The official Codex SDK with GPT-6 Astra at medium reasoning also generates whole-paragraph candidates; every candidate is directly compared with its full original and corrected before acceptance. Accepted translations are reused only for matching whole-source hashes. Numeric, URL and style checks supplement direct review. Earlier machine-translated drafts remain. Explanatory and briefing prose is being standardized to plain declarative Korean (~한다/~이다), including previously reviewed entries. Rewrites preserve permission, obligation and prohibition; endings are not replaced automatically. Short UI labels use natural noun phrases. This style pass is incomplete. English originals are used locally and are not distributed. See [the direct-review ledger](reviews/2026-11-26-direct-review.json) and [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json).
 
@@ -174,4 +174,4 @@ Contact: **lsj000777@naver.com** · GitHub: **dlwns147**
 
 기존 검수 사전 항목과 연결된 DB 원문을 문단 단위로 다시 확인하고 있다. 전체 문단 검수가 필요한 후보는 0개이며, 원문 연결을 추가 확인할 항목은 0개다. 짧은 제목·명칭도 후보에 포함될 수 있다. 이 수치는 DB 전체의 잔여량이 아니며, 사전 잔여 항목과 겹칠 수 있어 합산하지 않는다. 사전의 짧은 조각을 검수했어도 DB 전체 문단이 자동으로 교정되는 것은 아니다. 전체 원문 해시와 문단 구조를 대조해 직접 보완한다.
 
-설치된 DB 설명 전체 6,267개 파일의 원문을 별도로 집계했다. 중복 제거 원문은 12,098문단이며, 직접 검수 기록과 전체 원문 해시가 일치하지 않는 후보는 8,999문단(27,582개 위치)이다. 이 후보에는 제목·출처도 포함되며, 기존 사전 잔여량과 겹치므로 합산하지 않는다. 검수는 무장·센서·교전 조건을 우선한다.
+설치된 DB 설명 전체 6,267개 파일의 원문을 별도로 집계했다. 중복 제거 원문은 12,098문단이며, 직접 검수 기록과 전체 원문 해시가 일치하지 않는 후보는 8,951문단(27,423개 위치)이다. 이 후보에는 제목·출처도 포함되며, 기존 사전 잔여량과 겹치므로 합산하지 않는다. 검수는 무장·센서·교전 조건을 우선한다.
