@@ -65,7 +65,7 @@ namespace CMOKorean.ContextSupport {
                     sourceLinks.Add(WebUtility.HtmlDecode(href.Groups[1].Success ? href.Groups[1].Value : href.Groups[2].Value));
                     continue;
                 }
-                if (!Regex.IsMatch(name.Groups[2].Value, @"\A(p|li|div|span|font|b|strong|i|em|u|s|small|big|sub|sup|br|o:p|(?:u[0-9]+|st[0-9]+):(?:place|placetype|placename|country-region|city|state|street|address|date|time))\z", RegexOptions.IgnoreCase)) return false;
+                if (!Regex.IsMatch(name.Groups[2].Value, @"\A(p|li|h[1-6]|blockquote|div|span|font|b|strong|i|em|u|s|small|big|sub|sup|br|o:p|(?:u[0-9]+|st[0-9]+):(?:place|placetype|placename|country-region|city|state|street|address|date|time))\z", RegexOptions.IgnoreCase)) return false;
             }
             string hash;
             using (var sha = SHA256.Create()) hash = BitConverter.ToString(sha.ComputeHash(Encoding.UTF8.GetBytes(source))).Replace("-", "").ToLowerInvariant();
@@ -119,7 +119,7 @@ namespace CMOKorean.ContextSupport {
                 }
                 bool blocked = originalDepth >= 0 || (protectedScopes.Count > 0 && protectedScopes[protectedScopes.Count-1]);
                 bool ownBlock = Regex.IsMatch(name, @"^(script|style|textarea|pre|code|select)$") || token.Value.IndexOf("cmo-ko-source", StringComparison.OrdinalIgnoreCase) >= 0;
-                if (!blocked && !ownBlock && (name == "p" || name == "li")) {
+                if (!blocked && !ownBlock && Regex.IsMatch(name, @"\A(p|li|h[1-6]|blockquote)\z")) {
                     Match end = Regex.Match(html.Substring(previousEnd), @"</\s*" + name + @"\s*>", RegexOptions.IgnoreCase);
                     if (end.Success) {
                         int endIndex = previousEnd + end.Index + end.Length;

@@ -75,7 +75,8 @@
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 1303
+      "html_context_lookup_passed": 1303,
+      "whole_news_article_checks_passed": 2
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -84,11 +85,11 @@
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
     "context_block_support": {
-      "reviewed_blocks": 138,
+      "reviewed_blocks": 177,
       "matching": "SHA-256 of exact original HTML block; unknown blocks retain existing behavior",
-      "helper_sha256": "e923ea0d03b63b3be21d74297923a92055817b6577f59e338b793a10f1d1f0e4",
+      "helper_sha256": "4ec8edc9340a5949e033ee432746e777e64b51575699ea204d540d3885a6c786",
       "reproduction_script": "tools/add-context-support.ps1",
-      "validation_cases": 1932,
+      "validation_cases": 2478,
       "link_preservation_cases": 5,
       "formatting": "Outer paragraph/list tags preserved; reviewed inner formatting replaced with Korean text",
       "in_game_visual_check": false
