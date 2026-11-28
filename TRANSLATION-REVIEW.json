@@ -49,14 +49,14 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 59061,
+    "reviewed_source_entries": 59209,
     "review_outcomes": {
-      "modified": 55867,
-      "retained": 3194
+      "modified": 56017,
+      "retained": 3192
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 55696,
+      "scenario-ko.b64.tsv": 55845,
       "db_files": 6267,
       "db_paragraphs": 43560
     },
@@ -70,21 +70,30 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 59138,
+      "runtime_first_lookup_passed": 59300,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 1206
+      "html_context_lookup_passed": 1303
     },
     "full_manual_review_complete": false,
     "runtime_change": {
       "description": "Prefer exact scenario dictionary matches before generic UI translations in TranslateScenario; UI lookup remains unchanged",
-      "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
+      "dll_sha256": "67c38b988553ee7ab6c50cf70ae52c6b4531c62cf19a3b4c9ce0c84798ad403f",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
+    "context_block_support": {
+      "reviewed_blocks": 9,
+      "matching": "SHA-256 of exact original HTML block; unknown blocks retain existing behavior",
+      "helper_sha256": "25cd7145c2053b690cc4784e1183ae147d2d3251593905fc3a3c917b36d103c0",
+      "reproduction_script": "tools/add-context-support.ps1",
+      "validation_cases": 126,
+      "formatting": "Outer paragraph/list tags preserved; reviewed inner formatting replaced with Korean text",
+      "in_game_visual_check": false
+    },
     "additional_whole_db_paragraph_reviews": 10107,
-    "supplemental_source_entries": 77,
+    "supplemental_source_entries": 91,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
