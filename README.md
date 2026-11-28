@@ -59,12 +59,12 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 | 항목 | 현재 검증 결과 |
 |---|---:|
 | 기존 UI·시나리오 사전 항목 | 64,976 |
-| 원문을 직접 읽고 검수한 기존 사전 항목 | 57,621 |
-| 번역 수정 / 기존 번역 유지 | 54,433 / 3,188 |
-| 이번 직접 검수에서 아직 다루지 않은 기존 사전 항목 | 7,355 |
-| 기존 사전에 없던 원문 보충 | 43 |
-| 실제 DLL 번역 조회 검사 | 57,664건 통과 |
-| HTML 문맥 변환 검사 | 936건 통과 |
+| 원문을 직접 읽고 검수한 기존 사전 항목 | 58,810 |
+| 번역 수정 / 기존 번역 유지 | 55,617 / 3,193 |
+| 이번 직접 검수에서 아직 다루지 않은 기존 사전 항목 | 6,166 |
+| 기존 사전에 없던 원문 보충 | 58 |
+| 실제 DLL 번역 조회 검사 | 58,868건 통과 |
+| HTML 문맥 변환 검사 | 1,116건 통과 |
 
 별도로 DB 전체 원문 10,107개 문단을 검수하고, 문단 해시가 일치하는 36,413개 위치에 적용했다. 위 사전 항목과 중복될 수 있어 합산하지 않는다. 지도 지명, 미복구 원문, 시나리오의 추가 메시지·첨부 문서도 전체 검수 범위에 남아 있다. 사전 검수 비율이 프로젝트 전체 완료율을 뜻하지는 않는다.
 
@@ -143,9 +143,9 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 
 ### Translation review status — 2026-11-26
 
-**Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 57,621 of 64,976 existing UI/scenario dictionary entries: 54,433 revised and 3,188 retained. Another 7,355 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
+**Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 58,810 of 64,976 existing UI/scenario dictionary entries: 55,617 revised and 3,193 retained. Another 6,166 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
 
-There are 43 supplemental source entries and 10,107 separately reviewed whole DB paragraphs applied at 36,413 source-hash-matching locations. The DB count can overlap dictionary reviews. All 57,664 runtime lookup cases and 936 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
+There are 58 supplemental source entries and 10,107 separately reviewed whole DB paragraphs applied at 36,413 source-hash-matching locations. The DB count can overlap dictionary reviews. All 58,868 runtime lookup cases and 1,116 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
 
 Current revisions are reviewed by Codex against local originals. The official Codex SDK with GPT-6 Astra at medium reasoning also generates whole-paragraph candidates; every candidate is directly compared with its full original and corrected before acceptance. Accepted translations are reused only for matching whole-source hashes. Numeric, URL and style checks supplement direct review. Earlier machine-translated drafts remain. Explanatory and briefing prose is being standardized to plain declarative Korean (~한다/~이다), including previously reviewed entries. Rewrites preserve permission, obligation and prohibition; endings are not replaced automatically. Short UI labels use natural noun phrases. This style pass is incomplete. English descriptive originals are used for local comparison. Bibliographic metadata and generic source descriptions are localized while author names, publication titles, article titles and URLs are preserved for traceability. Citation reviews are included in the paragraph counts and are not equivalent to newly translated descriptive paragraphs. See [the direct-review ledger](reviews/2026-11-26-direct-review.json) and [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json).
 
