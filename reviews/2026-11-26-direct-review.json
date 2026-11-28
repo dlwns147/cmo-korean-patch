@@ -10,8 +10,8 @@
     "changed_from_base": {
       "ko.tsv": 179,
       "scenario-ko.b64.tsv": 46632,
-      "db_files": 5633,
-      "db_paragraphs": 17075
+      "db_files": 5668,
+      "db_paragraphs": 17183
     },
     "source_recovery": {
       "matched": {
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 1540,
+    "additional_whole_db_paragraph_reviews": 1636,
     "supplemental_source_entries": 43,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -54,10 +54,10 @@
       "scope": "All original paragraphs in installed DB description manifest; excludes exact whole-source hashes in direct review ledgers; not entire project",
       "files": 6267,
       "unique_original_paragraphs": 12098,
-      "pending_unique_paragraphs": 8567,
-      "pending_locations": 26569
+      "pending_unique_paragraphs": 8471,
+      "pending_locations": 26461
     },
-    "whole_db_paragraph_applications": 9844,
+    "whole_db_paragraph_applications": 9952,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
@@ -410929,6 +410929,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Facility_3224.txt",
+      "paragraph_index": 3,
+      "source_sha256": "2c5eeb870df083a987134f120c3b265cf357b88d7d9e67e85fba5d051ba3a21f",
+      "translation": "주파수: 1,250~1,350MHz(D 대역) || 출력: 평균 6kW, 첨두 2.5MW || 펄스 반복 주파수(PRF): 350Hz || 분해능: 거리 1.85km, 방위각 1° || 가동·정지 및 전개·철수 소요시간: 미상 || 최대 거리: 322km.",
+      "previous_translation_sha256": "ad88abe529a67954c044c5398b6753d2ac3893e48ea54f92b80b96cd8cf6d383",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_3224.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_3224.txt",
       "paragraph_index": 4,
       "source_sha256": "9fa3bae4f13dddb2930b1635bc713048108bd2dfc4cddbe8443cd1a2b7313c56",
       "translation": "참고: 초기작전능력(IOC)은 1956년에 확보했다. 이 레이더 계열은 1950년 AN/FPS-3에서 시작되었다. 1950년대 말에는 미국 방공 레이더망의 주력으로 자리 잡았으며, 배치는 1960년대 초까지 이어졌다. 이후 개량은 주로 전자방해 대응(ECCM) 능력 향상에 집중되었고, AN/FPS-64, AN/FPS-65, AN/FPS-66, AN/FPS-67, AN/FPS-91, AN/FPS-93, AN/FPS-100, AN/FPS-113, AN/GPS-4, AN/FPS-508이라는 명칭을 받았다.",
@@ -414520,6 +414529,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Sensor_154.txt",
+      "paragraph_index": 1,
+      "source_sha256": "22ed195d19c291c4fcf552e223b3f2f27a21da45657508cddac289ba831c7ad4",
+      "translation": "상세: FRONT DOOR/FRONT PIECE 추적·지령 레이더는 두 체계로 구성된다. FRONT DOOR는 안테나를 위아래로 움직이는 고도측정·추적 레이더이며, 더 작은 S 대역 FRONT PIECE는 방위각 추적·데이터링크 유도용 안테나로 대형 FRONT DOOR 안테나 위에 설치된다. SS-N-3 또는 SS-N-12는 발사 후 데이터링크 조종 명령에 따라 순항 고도로 상승하며, 두 레이더가 비콘 응답기로 미사일 위치를 추적한다. 미사일 탑재 레이더가 표적을 탐지하면 영상 데이터링크로 잠수함에 영상을 보내 승조원이 공격할 표적을 선택한다. 이후 미사일은 자체 레이더로 종말 유도를 수행한다.",
+      "previous_translation_sha256": "a1ab19a431a539c2450c42ab3a2bb742c1b1837e9e99b6a0cf2d40149329d971",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Sensor_154.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Sensor_154.txt",
       "paragraph_index": 3,
       "source_sha256": "5e770d0bd4a0d219b3caf10d6c62f1af2af97841ea959b0f93684e954c337416",
       "translation": "주파수: FRONT DOOR는 3~4GHz(NATO F 대역), FRONT PIECE는 2~4GHz(NATO E/F 대역) || 공대공 모드의 펄스 반복 주파수(PRF)·펄스 폭: 미상 || 첨두 출력: 미상 || 주사 범위: 미상 || 계측 거리: 미상.",
@@ -414814,6 +414832,15 @@
       "previous_translation_sha256": "f391bde905a6e557fabd6e894ef1163e4e0484e0574004756375c0879281ebbb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_1111.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Sensor_365.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e3f3b0b7ba46c67deba6da40d4bfa37210ad34da235915c25f662bf5218910cb",
+      "translation": "안테나 체계는 두 쌍의 안테나로 구성된다. 전기기계식 주사 안테나 한 쌍, 이른바 Lewis 스캐너가 수직·수평 표적 탐색을 담당하며 보통 포대의 P-12 SPOON REST와 함께 운용된다. FAN SONG의 좁은 7.5°×1.5° 감시 빔은 16° 범위에서만 조향할 수 있어 이러한 연동이 필요했다. 서로 직각으로 설치된 안테나는 표적을 중심으로 십자형 빔을 형성해 고도와 방위각을 측정한다. 빔은 담당 구역을 주사하면서 특유의 펄럭이는 움직임을 보인다. FAN SONG에는 저고도 사각지대가 있어 대공포로 엄호하지 않으면 적기가 이를 공격 경로로 이용할 수 있었다.",
+      "previous_translation_sha256": "5cff8d668e8e7526f3ce3d43e7e8fbd130258ac4924fe0fcbb7c37bce6e9a7ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Sensor_365.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Sensor_365.txt",
@@ -417876,6 +417903,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_1234.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Weapon_127.txt",
+      "paragraph_index": 1,
+      "source_sha256": "9a0f2361a93e53e98efcc9210071fcff30b461694bcbb2d57b9bde497b2e64a4",
+      "translation": "상세: AA-1a Alkali는 복합 유도 방식으로 표적을 향한다. 초기에는 무선 항로 수정을 받는 관성유도를 사용하고 종말 단계에서 호밍으로 전환한다. 이에 따라 발사 항공기에서 먼 거리에서도 안정적인 표적 포착이 가능하다. 탐색기와 근접신관이 유리하게 작동하도록 특수 궤적으로 유도할 수 있다. 수동 기만체 구름을 우회하거나 발사 플랫폼 레이더의 주엽 밖으로 이동하고, 저고도 표적에 지정 각도로 위에서 접근할 수 있다. RS-2U는 이전 PC-2V보다 탄두가 크고 연료가 많다.",
+      "previous_translation_sha256": "8eed48c29ca6258da24d3afd9973a3db9e52f99ff21a80882a4694f4181910c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_127.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Weapon_1274.txt",
       "paragraph_index": 1,
       "source_sha256": "ff31894ac443ec139585fb012058c963946858e969a4c6c599f2515eb50a98ae",
@@ -418054,6 +418090,15 @@
       "previous_translation_sha256": "72d762aa4d7ad88366c0313c0a03b752164cdf3ad4cd5aabe85aad678feab7aa",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_1671.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_1672.txt",
+      "paragraph_index": 1,
+      "source_sha256": "451292946df4d8e92ea937228f470c8bfedaf1940f14bff8f4ec806d0eb93801",
+      "translation": "상세: CBU-24(Cluster Bomb Unit-24)는 항공기에서 투하하는 무유도 집속탄이다. SUU-30 살포기에 테니스공 크기의 BLU-26 파편 자탄 665발을 탑재한다. 각 자탄은 폭발·충격파·파편으로 표적을 손상시키거나 파괴한다. 대부분 충격 시 폭발하지만 공중폭발 또는 고정·무작위 시간 지연 기폭으로 설정할 수도 있다. 지연 기능은 최초 공격 후에도 일정 시간 적의 지역 이용을 차단하고 잔해 처리와 사상자 수습을 방해한다. 대인용으로 설계되었지만 표적 지역의 구조물과 비장갑 차량에도 피해를 줄 수 있다.",
+      "previous_translation_sha256": "3075a185b2a8fbe8d3dea7f1d18fe67521ea67a150d5c01613adb5c0675df0da",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_1672.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Weapon_168.txt",
@@ -419047,12 +419092,30 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Weapon_728.txt",
+      "paragraph_index": 2,
+      "source_sha256": "201180b46143b67062b43061fcdf438891079e3bf65c949e7119478fce9cccce",
+      "translation": "제원: 주 임무 항공기·수상함·잠수함 발사 대수상·대함 공격 || 길이 공중발사형 3.8m(12ft), 수상·잠수함 발사형 4.6m(15ft) || 중량 공중발사형 519kg(1,144lb), 잠수함 또는 함정의 상자형·캐니스터 발사형 628kg(1,385lb) || 직경 340mm(13인치) || 날개폭 914mm(36.0인치) || 추진 Teledyne CAE J402 터보제트, 추력 660lbf(300kgf, 2.9kN), 수상·잠수함 발사 시 고체추진 부스터 사용 || 유도 레이더 고도계로 해면밀착 순항 고도 유지, 종말 능동 레이더 호밍 || 탄두 221kg(487lb) 관통 고폭폭풍형.",
+      "previous_translation_sha256": "c1061d92f2a6adc5fd1393f6ff902ca979769c692d6439f6c2816a7d81fc867e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_728.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_728.txt",
       "paragraph_index": 3,
       "source_sha256": "ba67c55441f3e8f14bd17fc16fb0ad45b6d04e15d5dd0bb71292f87e891be0d8",
       "translation": "성능: 최대 고도 910m(2,990ft), 부스터 안정판·날개 장착 상태 || 수평선 너머 사거리 약 50해리 || AGM-84D(Block 1C) 사거리 220km(120해리) || RGM/UGM-84D(Block 1C) 140km(75해리) || AGM-84E(Block 1E) 93km(50해리) || AGM-84F(Block 1D) 315km(170해리) || RGM-84F(Block 1D) 278km(150해리) || RGM/AGM-84L(Block 2) 278km(150해리) || AGM-84H/K(Block 1G/Block 1J) 280km(150해리) || 속도 고아음속, 약 850km/h(460노트, 240m/s, 530mph).",
       "previous_translation_sha256": "bc22cdc5eaf4424c04b0f8cec0d7af5b6665e50c654310b20f82595613b14a94",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_728.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_730.txt",
+      "paragraph_index": 1,
+      "source_sha256": "839b1a6c4d82a72b27dfac59dfe8dcdea3c8866807e26dd93ab9966233be2f63",
+      "translation": "상세: AIM-54A Phoenix는 주로 소련 폭격기 대편대에 대응하도록 개발되었지만 전투기와 저고도 미사일에도 대응할 수 있다. AIM-54/AWG-9는 다중 표적 추적이 가능한 최초의 공대공 무장체계로, 최대 24개를 추적하고 Phoenix 6발을 거의 동시에 발사할 수 있었다. 장거리를 확보하기 위해 초기에는 반능동 레이더 모드로 비행하며 F-14의 AWG-9 또는 APG-71에서 간헐적인 중간 유도 갱신을 받는다. 이 단계에서 24,000~30,000m로 상승해 약 마하 5로 순항한다. 고고도에서 얻은 위치에너지는 이후 표적을 향해 고속 급강하할 때 운동에너지로 전환된다. 표적까지 약 7.5~9.7해리(14~18km)가 남으면 자체 레이더를 켜 종말 유도를 수행한다. 이때부터 발사 항공기와 완전히 독립하는 발사 후 망각 상태가 된다. 방해원 추적 모드도 갖췄다.",
+      "previous_translation_sha256": "777c55ff3f9f6ed40f7d1c785aabed537c70a98163a6fbf8a7633d5352990cfa",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_730.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Weapon_731.txt",
@@ -419116,6 +419179,15 @@
       "previous_translation_sha256": "e76341e5eebdd2e236f9a3a46c103ad9c919b3f63d3c4ae6aaffa766ffddecc7",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_256.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_775.txt",
+      "paragraph_index": 2,
+      "source_sha256": "201180b46143b67062b43061fcdf438891079e3bf65c949e7119478fce9cccce",
+      "translation": "제원: 주 임무 항공기·수상함·잠수함 발사 대수상·대함 공격 || 길이 공중발사형 3.8m(12ft), 수상·잠수함 발사형 4.6m(15ft) || 중량 공중발사형 519kg(1,144lb), 잠수함 또는 함정의 상자형·캐니스터 발사형 628kg(1,385lb) || 직경 340mm(13인치) || 날개폭 914mm(36.0인치) || 추진 Teledyne CAE J402 터보제트, 추력 660lbf(300kgf, 2.9kN), 수상·잠수함 발사 시 고체추진 부스터 사용 || 유도 레이더 고도계로 해면밀착 순항 고도 유지, 종말 능동 레이더 호밍 || 탄두 221kg(487lb) 관통 고폭폭풍형.",
+      "previous_translation_sha256": "c1061d92f2a6adc5fd1393f6ff902ca979769c692d6439f6c2816a7d81fc867e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_728.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Weapon_775.txt",
@@ -419278,6 +419350,15 @@
       "previous_translation_sha256": "c313169e2fe11b87540f4b54f6a4e623ffc4039f6645df45ebab6c46488c9593",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_892.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Weapon_894.txt",
+      "paragraph_index": 1,
+      "source_sha256": "7ca459a23203cefd35d058355ed3892ba8bf7112d941992ee76f605599c104d6",
+      "translation": "상세: SA-8 GECKO는 주로 최전방 기갑·기계화사단을 보호하도록 개발되었다. 해군형인 SA-N-8도 운용된다. F-4 Phantom 표적에 대한 살상 반경은 5m이다.",
+      "previous_translation_sha256": "c0aa6017d5534509a1a7c5aad6bec94ed56de8ea99491ca7de413656532e20c0",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_894.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Weapon_895.txt",
@@ -426138,6 +426219,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/aircraft_2154.txt",
+      "paragraph_index": 0,
+      "source_sha256": "7d18dc3028bad6d0183fce87c48c328289c97f4f5c20000377f6a05f0f087bfd",
+      "translation": "CL289 체계는 사전 설정 임무를 높은 음속 영역에서 비행하는 재사용 무인기와 신속히 전개할 수 있는 완전 기동식 지상 시설로 구성된다. 육군 통합 정찰체계의 일부이자 군단·사단급 장비로서 전장 상황 정찰, 표적 위치 확인·분류, 무장 효과 확인을 수행한다. 1987년 3월 캐나다·서독·프랑스가 CL-289 감시 무인기 생산 계약을 체결했으며, 당시 캐나다 기업이 수주한 최대 방산 수출 계약이었다. 1990년 11월 29일 독일 육군에 실전 배치되었다. 터보제트 엔진을 사용하고 항속거리는 약 150해리이며 적외선·가시광선 카메라를 탑재한다.",
+      "previous_translation_sha256": "dfa534cc6a9e1868cf6a74c535e9f9c031b04bed3bb4e8fb145024a430eb8ab3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/aircraft_2154.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2155.txt",
       "paragraph_index": 2,
       "source_sha256": "4572e375bf891351bfcd64424f1a7049749b0583c51e0f8e56b85848f6270506",
@@ -431565,6 +431655,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1576.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/aircraft_281.txt",
+      "paragraph_index": 0,
+      "source_sha256": "7d18dc3028bad6d0183fce87c48c328289c97f4f5c20000377f6a05f0f087bfd",
+      "translation": "CL289 체계는 사전 설정 임무를 높은 음속 영역에서 비행하는 재사용 무인기와 신속히 전개할 수 있는 완전 기동식 지상 시설로 구성된다. 육군 통합 정찰체계의 일부이자 군단·사단급 장비로서 전장 상황 정찰, 표적 위치 확인·분류, 무장 효과 확인을 수행한다. 1987년 3월 캐나다·서독·프랑스가 CL-289 감시 무인기 생산 계약을 체결했으며, 당시 캐나다 기업이 수주한 최대 방산 수출 계약이었다. 1990년 11월 29일 독일 육군에 실전 배치되었다. 터보제트 엔진을 사용하고 항속거리는 약 150해리이며 적외선·가시광선 카메라를 탑재한다.",
+      "previous_translation_sha256": "dfa534cc6a9e1868cf6a74c535e9f9c031b04bed3bb4e8fb145024a430eb8ab3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/aircraft_2154.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2810.txt",
       "paragraph_index": 2,
       "source_sha256": "e0d097dd6b95c8c77b3f677521e9f191a189954701f15916d5dd10193dbd6703",
@@ -436111,6 +436210,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4425.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e8cca89852191f3258947a66e0575ab98359e21be823459d4dff8137a8db8e4f",
+      "translation": "J-11B/Su-27SK는 원래 중국 인민해방군 공군용으로 개발된 Su-27P 수출형이다. 소련 Su-27P와 달리 J-11/Su-27SK는 착륙장치를 강화해 이륙중량을 5,000kg 늘렸으며 연료와 무장을 모두 최대로 탑재하고 운용할 수 있다. 높은 기동성을 위해 공력적으로 불안정하게 설계되었다. 주익과 동체가 함께 양력을 발생시키는 일체형 구조로 높은 공력 효율과 양력계수를 제공한다. 낮은 익면하중, 높은 추력대중량비, 4중 아날로그 플라이바이와이어와 결합해 저속에서도 민첩하다. Su-27은 +9.0g 기동을 지속할 수 있고 버블형 캐노피는 뛰어난 시야를 제공한다. 이러한 특성에 헬멧 장착 표적지시기, 전방위 교전이 가능한 PL-8 미사일, 30mm 기관포가 더해져 Flanker는 우수한 근접공중전 능력을 갖춘다.",
+      "previous_translation_sha256": "9f7cdf5849aa19473584fc13fcea5756e94b8af8fcb21a27b7ef8756e29c04dd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4425.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4425.txt",
       "paragraph_index": 5,
       "source_sha256": "b35ea3e4e5bbd6a6be7a3a3d51c69673a5e6522022205b0d4e8a17e4f727897e",
       "translation": "방어체계에는 조종사에게 레이더 조명 사실을 알리는 레이더 경보 수신기, 채프·적외선 기만탄 발사기, 능동 다중 모드 재머가 포함된다. 재머는 보통 날개 끝 장착점의 R-73 미사일 대신 포드 형태로 탑재된다. 이 재머는 상호 보호와 편대 보호가 가능하다.",
@@ -436612,6 +436720,15 @@
       "previous_translation_sha256": "e56df62ed1778b99a62dc2a85643cf95e6ba8b065256184ff0467d36e14a5d58",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1013.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4641.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e8cca89852191f3258947a66e0575ab98359e21be823459d4dff8137a8db8e4f",
+      "translation": "J-11B/Su-27SK는 원래 중국 인민해방군 공군용으로 개발된 Su-27P 수출형이다. 소련 Su-27P와 달리 J-11/Su-27SK는 착륙장치를 강화해 이륙중량을 5,000kg 늘렸으며 연료와 무장을 모두 최대로 탑재하고 운용할 수 있다. 높은 기동성을 위해 공력적으로 불안정하게 설계되었다. 주익과 동체가 함께 양력을 발생시키는 일체형 구조로 높은 공력 효율과 양력계수를 제공한다. 낮은 익면하중, 높은 추력대중량비, 4중 아날로그 플라이바이와이어와 결합해 저속에서도 민첩하다. Su-27은 +9.0g 기동을 지속할 수 있고 버블형 캐노피는 뛰어난 시야를 제공한다. 이러한 특성에 헬멧 장착 표적지시기, 전방위 교전이 가능한 PL-8 미사일, 30mm 기관포가 더해져 Flanker는 우수한 근접공중전 능력을 갖춘다.",
+      "previous_translation_sha256": "9f7cdf5849aa19473584fc13fcea5756e94b8af8fcb21a27b7ef8756e29c04dd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4425.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4641.txt",
@@ -437618,6 +437735,15 @@
       "source_sha256": "2cddcac75f4a4753a9521883615e8ccc9fee532752da734a6dae03789c3781e2",
       "translation": "세부 사항: RC-135S는 빅 사파리 사업에 따라 C-135 기체를 개조하여 개발되었으며, 1970년에 취역했다. 원거리에서 탄도미사일 궤적을 감시하도록 설계된 광학 추적체계, 장거리 적외선 센서, 전자정보 수집 장비를 탑재한다. CFM56-2(F108-CF-201) 터보팬 엔진 4기를 사용하며, 순항속도는 약 850km/h(약 마하 0.66), 운용상승한도는 13,700m, 공중급유 없이 비행할 수 있는 거리는 약 6,500km이다. 특징적인 외부 개조 사항으로는 동체 오른쪽의 대형 광학 관측창, 다양한 전자정보(ELINT) 및 계측·특성정보(MASINT) 안테나, 임무 전용 기수 및 꼬리 페어링이 있다.",
       "previous_translation_sha256": "364573af55036276460dc9e8a595daf2067d2e6d9addf20fd1d1cd7b30908874",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_556.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_556.txt",
+      "paragraph_index": 5,
+      "source_sha256": "98465cb4b8d60f82e936161aa3227ded3ccfd78ef0bb19a957ba8cffbae74709",
+      "translation": "참고: 초기작전능력(IOC) 1970년(RC-135S) || 제작사 Boeing(미국) || 운용국 미국 || 활용 사례 냉전기 미사일 추적, 러시아·중국 미사일 시험 감시, 이라크·아프가니스탄 감시.",
+      "previous_translation_sha256": "b56f8da3f0b1363ecceb4bf145c28bc76138b83066d6c3f11bcd83ddf8f87458",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_556.txt"
     },
@@ -441553,6 +441679,15 @@
       "previous_translation_sha256": "e1534fc92b26a94f88f830ca4134f8ac6043fcb154dd298c6e8ac9569ad53137",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1007.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1014.txt",
+      "paragraph_index": 1,
+      "source_sha256": "8bb7c07da348d68959a60f5aea5149f1e6f40a8e056bda7e6da1a8aa41e7d595",
+      "translation": "상세: Northrop Grumman ASR-9는 비행장 감시 레이더로 미국 내 135곳에서 운용된다. 기상과 항공기를 동시에 표시한 최초의 공항 감시 레이더이다.",
+      "previous_translation_sha256": "8fefc345f5f64b705983c4ad81e9ec0944a941a210facd23b91d0dd75c5efc2e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1014.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1023.txt",
@@ -445497,6 +445632,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_1466.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_1466.txt",
+      "paragraph_index": 4,
+      "source_sha256": "1f6845b3898d8927feca090c05a3d6b70bb6fc407107ec321e773e7a95fa583d",
+      "translation": "최대 표적 획득 거리: 148해리(SPOON REST C) || 최대 추적 거리: 78해리(FAN SONG E) || 교전 범위: 고도 1,312~98,425ft, 거리 3.8~23.2해리(SA-2) || 재장전 시간: 10분 || 기동성: 반고정식.",
+      "previous_translation_sha256": "194c85b2f7165ed900cacc8784859e38f111c2c67c0d9df0650681451e59ac64",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1466.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_1467.txt",
       "paragraph_index": 1,
       "source_sha256": "205b2a6cc94f5a39a011666daa3ba02fa7f476a9656220cf91f137c0d193b322",
@@ -447585,6 +447729,15 @@
       "review_origin": "DB/Descriptions/CWDB/Facility_1060.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_1813.txt",
+      "paragraph_index": 0,
+      "source_sha256": "8452d636ee09ff003f6146b8f80e61a4189edc7a840c5dea712d5f5a7614cbc2",
+      "translation": "개요: C-704, 즉 Nasr 대대는 소·중형 해군 함정을 공격하는 기동식 지상발사 미사일 부대이다. 고체연료·레이더 유도 방식의 단·중거리 미사일을 사용하며 해면밀착비행으로 표적에 접근한다.",
+      "previous_translation_sha256": "9b7b380c3561e350c80670f8dc7b2aef6b0a0e35b727f0a2a6bb0683fd015d88",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1813.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_1816.txt",
       "paragraph_index": 1,
       "source_sha256": "e289c2433da3237f22c4ba55b682fc9266ad1bdfeb49e56953322f37a8c68c0c",
@@ -447682,6 +447835,15 @@
       "previous_translation_sha256": "0db74b054fbdcb9e590218ee2053639c044b3c22214be96b1abf67f1e871b64e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1849.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1850.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ccd3a14ccd45c56be749fe50bdcdf5dd0d24aef490f9aa0d6490f1b925274e96",
+      "translation": "HQ-16A 부대는 부대 전투통제소(C2), 탐지 레이더, 사격포대 3개로 구성된다. 각 HQ-16A 포대는 6셀 발사차량 4대와 사격통제 레이더로 구성된다.",
+      "previous_translation_sha256": "d37b912a8a55f5f603b8a468d61910c586c6d51bd350184a72aafe3737fd1d35",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1850.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1850.txt",
@@ -450195,6 +450357,24 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_2519.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_2526.txt",
+      "paragraph_index": 2,
+      "source_sha256": "dcc55e9dc295e2fdecf637ba601bdc430351a2f97169398901d022475fa28e47",
+      "translation": "전개된 체계는 보통 신호처리장비와 전자지원(ESM) 수신기가 있는 중앙 기지, ESM 수신기만 있는 측면 기지 2~3곳으로 구성된다. 주요 탐지 대상은 2차 감시 레이더(SSR)·피아식별(IFF) 응답기, 항공기 탑재 레이더·기상 레이더, 전술항법장치(TACAN) 응답기, 거리측정장비(DME) 비콘, 디지털 통신 신호, 펄스 방해 신호이다. 수신 신호는 마이크로파 링크로 중앙 기지에 전달된다. 중앙 기지는 측면 기지에서 오는 신호의 알려진 전파 지연을 이용해 각 기지의 펄스 도달시간차(TDOA)를 추정한다. 측면 기지는 감시 범위와 정확도의 균형을 위해 보통 중앙에서 15~40km 떨어진 곳에 배치한다. 수신기 2개로 2차원 위치를, 3개 이상으로 3차원 위치를 제공한다. 레이더 방사 신호로 최대 23개, IFF 신호로 최대 48개 표적을 자동으로 동시에 추적할 수 있다.",
+      "previous_translation_sha256": "d44a0a94ac247e44855d5e5a4f51c4ae37b07ac4fa0e5ee40826ee622f07a059",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2526.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_2527.txt",
+      "paragraph_index": 2,
+      "source_sha256": "dcc55e9dc295e2fdecf637ba601bdc430351a2f97169398901d022475fa28e47",
+      "translation": "전개된 체계는 보통 신호처리장비와 전자지원(ESM) 수신기가 있는 중앙 기지, ESM 수신기만 있는 측면 기지 2~3곳으로 구성된다. 주요 탐지 대상은 2차 감시 레이더(SSR)·피아식별(IFF) 응답기, 항공기 탑재 레이더·기상 레이더, 전술항법장치(TACAN) 응답기, 거리측정장비(DME) 비콘, 디지털 통신 신호, 펄스 방해 신호이다. 수신 신호는 마이크로파 링크로 중앙 기지에 전달된다. 중앙 기지는 측면 기지에서 오는 신호의 알려진 전파 지연을 이용해 각 기지의 펄스 도달시간차(TDOA)를 추정한다. 측면 기지는 감시 범위와 정확도의 균형을 위해 보통 중앙에서 15~40km 떨어진 곳에 배치한다. 수신기 2개로 2차원 위치를, 3개 이상으로 3차원 위치를 제공한다. 레이더 방사 신호로 최대 23개, IFF 신호로 최대 48개 표적을 자동으로 동시에 추적할 수 있다.",
+      "previous_translation_sha256": "d44a0a94ac247e44855d5e5a4f51c4ae37b07ac4fa0e5ee40826ee622f07a059",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2526.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_2529.txt",
       "paragraph_index": 2,
       "source_sha256": "50c612139d1a344e00020f5e2cb6d52b50aaaacbf530fc4b59d45ebea86d7f65",
@@ -450925,6 +451105,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_2879.txt",
+      "paragraph_index": 0,
+      "source_sha256": "43ffeb319848020dbbfc9965e98157d4d6b7a79aa462d283fb84b3ac3b75ed01",
+      "translation": "개요: DF-26D, 즉 Dong Feng 26D 대대는 도로 기동식 대함탄도미사일(ASBM) 부대이다. 원문에 따르면 600kg 재래식 탄두를 장착한 2단 고체연료 DF-26C 미사일 1기를 사용한다.",
+      "previous_translation_sha256": "2fd7edf750605daba6689abe20dd21a724a9ca750cdaddfef28518e9e24fe181",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2879.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_2879.txt",
       "paragraph_index": 2,
       "source_sha256": "f85ff562e981b6b87b69e9260af879a487dcc1838e42c96714043b46bbe5bb88",
       "translation": "이 미사일은 관성 유도를 사용하며 GPS도 사용할 가능성이 높고, 종말 단계에는 레이더 기반 유도를 사용할 가능성도 있다. 긴 사거리, 이동식 기립발사차량(TEL)의 기동성, 짧을 것으로 예상되는 전개·철수 시간 덕분에 발사대의 취약성이 크게 줄어든다. DF-26은 사전에 측량한 발사 진지도 필요하지 않아 취약성이 더욱 낮아진다.",
@@ -451309,6 +451498,15 @@
       "previous_translation_sha256": "b5a97e5286616aab40efa04205da01148bc2094cc4745056ecc0a7bf95e37189",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_617.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_2991.txt",
+      "paragraph_index": 2,
+      "source_sha256": "a927b5866550c12a810323a89fed0a19b86f06faca52a46a745007a920fd1377",
+      "translation": "HQ-16B 부대는 부대 전투통제소(C2), 탐지 레이더, 사격포대 3개로 구성된다. 각 HQ-16A 포대는 6셀 발사차량 4대와 사격통제 레이더로 구성된다.",
+      "previous_translation_sha256": "70c7c27b8f43d4af901bc7d2e6dd044cd1a3dfd1d2da1ed97272b2c1f4e627dc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2991.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_2991.txt",
@@ -451887,6 +452085,15 @@
       "review_origin": "DB/Descriptions/DB3000/Facility_129.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_3206.txt",
+      "paragraph_index": 4,
+      "source_sha256": "ee916b53e857ab8c46176ca399c0872098ac15334eca45c4e3169fea97f3dd01",
+      "translation": "중심 주파수: 442MHz(B 대역) || 출력: 평균 715kW, 첨두 14.3MW || 펄스 반복 주파수(PRF): 미상 || 거리·방위각 분해능: 미상 || 가동·정지 소요시간: 미상 || 전개·철수 소요시간: 해당 없음.",
+      "previous_translation_sha256": "06a60b2c1ae8aacce31d4065bf7bd0073eacd3410090e5434e881c1503f198c5",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_3206.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_3216.txt",
       "paragraph_index": 0,
       "source_sha256": "4322ebd4d0d867cdf7040a60262a290903f3fbf04194f9b046840627b13bb806",
@@ -452452,6 +452659,15 @@
       "previous_translation_sha256": "0db74b054fbdcb9e590218ee2053639c044b3c22214be96b1abf67f1e871b64e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1849.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_3599.txt",
+      "paragraph_index": 3,
+      "source_sha256": "2748be7d4303a23f635f0d58d61090e5282d9af5fcbb06246f1455a7e52d130a",
+      "translation": "주파수 대역: NATO E/F, IEEE S || 출력: 평균 5.5kW, 첨두 85kW || 펄스 반복 주파수(PRF): 미상 || 분해능: 거리 200m, 방위각 0.3° || 가동·정지 소요시간: 미상 || 전개·철수 소요시간: 40분 || 거리: 270해리.",
+      "previous_translation_sha256": "04fd6112707197a7c599ce6536b1a62e832b97faa1d9d620bc4c01b093fd9dd3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_3599.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_3607.txt",
@@ -454540,6 +454756,15 @@
       "previous_translation_sha256": "cb159b102c0e78fd15f63b275050ad056bd70bae87518d8bf57a0ecf26394e23",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_561.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_568.txt",
+      "paragraph_index": 3,
+      "source_sha256": "42092bbd85671052fae9f301537f8c4a76c7e82992fa0d4da55120d04852e445",
+      "translation": "주파수: 1.215~1.4GHz(D 대역) || 평균·첨두 출력 및 펄스 반복 주파수(PRF): 미상 || 거리·방위각 분해능: 미상 || 가동·정지 소요시간: 미상 || 전개·철수 소요시간: 해당 없음.",
+      "previous_translation_sha256": "970b9ef4ac793f9d33e034d92c523bd2d57d14e41455506d7e674bc6b64609ad",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_568.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_569.txt",
@@ -457116,6 +457341,15 @@
       "review_origin": "DB/Descriptions/CWDB/Facility_1045.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_831.txt",
+      "paragraph_index": 6,
+      "source_sha256": "855e12ecebe646c7b842af185aa62778c920e4db401d0089c8993d3bf23eeb81",
+      "translation": "참고: 후방산란 초수평선(OTH-B) 레이더는 전리층에서 송신 전파와 반사 신호를 굴절시킨다. 이를 통해 지구 곡률에 가려 직접 볼 수 없는 표적도 탐지·추적한다.",
+      "previous_translation_sha256": "819f6d911b9ebbf4cb4856d1f490d211b79580649884aa83f1d4582c9028610d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_831.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_832.txt",
       "paragraph_index": 0,
       "source_sha256": "43ce3f50cddb98593e78a73a439995b7be478e68316f080c0b362f4775948ad2",
@@ -458052,6 +458286,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_1020.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_1047.txt",
+      "paragraph_index": 0,
+      "source_sha256": "6a9d25f594d6abd1ab2c01ed6aa49f36513b014c385b2fe95feae5ec0a65dcfb",
+      "translation": "개요: 1970년대의 단순 전자지원(ESM) 체계는 레이더·통신 신호를 탐지·식별하는 기초적인 수동 전자장비이다. 주로 위협 경보와 상황인식에 사용한다.",
+      "previous_translation_sha256": "2745cee32cb353c9a014280fd4f94613aad7264aea334b2f44904e6feb9fbae1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_1047.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_1048.txt",
       "paragraph_index": 1,
       "source_sha256": "a458a402d59471fb9dc11803e8f7207c630a515de4a7ffad263b94832cda1ea0",
@@ -458349,6 +458592,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_1535.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_1536.txt",
+      "paragraph_index": 1,
+      "source_sha256": "3018287ee01bee3f62a1401f9e38473c4073cbb03b7d0d4a18ad6633b44e1e5d",
+      "translation": "상세: KITE SCREECH A는 V자 지지대가 모노펄스 급전부를 지지하는 구조이다. Udaloy급 구축함의 AK-100 100mm 함포와 연동되며, 레이더 1기로 함포 2문을 통제할 수 있다.",
+      "previous_translation_sha256": "92598f3e1c89096f3decc85703f4f9fcf18f26a56691c6f4b059274fc0850680",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_1536.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_1541.txt",
       "paragraph_index": 1,
       "source_sha256": "b125f6bf0e0510d9c943cd9a73313e0cd24c4f33bed75901c904c04d1fdaf1ed",
@@ -458419,6 +458671,24 @@
       "previous_translation_sha256": "b5a97e5286616aab40efa04205da01148bc2094cc4745056ecc0a7bf95e37189",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_617.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_1581.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5c30f30b39d11b5b6cbe16cef56349d7cf32bb4ab7de9b62eea364ebc88a3d9d",
+      "translation": "상세: PALM FROND 계열 항해 레이더는 이전 DON 계열을 대체한다. 송신기로 펄스 마그네트론을 사용하며 안테나는 이전 MR-201-1과 같다.",
+      "previous_translation_sha256": "bc6009430fe9bea0e7094964857ce1ce05735a47654f2c8610cd442ab00c6bbb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_1581.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_1581.txt",
+      "paragraph_index": 3,
+      "source_sha256": "4015bc5139992feb4fa72eb58c039b4c5bb351b2ca8437e760c158dd021da33e",
+      "translation": "능동 주파수: 9.4~9.6GHz(NATO I 대역, IEEE X 대역) || 첨두 출력: 12·20kW || 평균 펄스 반복 주파수(PRF): 미상 || 펄스 폭: 0.8μs || 능동 모드 최대 수상 표적 탐지 거리: 25해리 || 거리 분해능: 130m.",
+      "previous_translation_sha256": "e08bea11487fba88882df894ada4dc41242984c3a5b6819f375f169ced30497f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_1581.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_1591.txt",
@@ -458545,6 +458815,15 @@
       "previous_translation_sha256": "02e065ca12f5a493f3aeed0c1049927d617b35749648e5e50b469165f015ddad",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_1019.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_2059.txt",
+      "paragraph_index": 1,
+      "source_sha256": "23bf099dbb5a9fa5892c50a8f4fae714423448300eb3e8963feeacb2d9defd7e",
+      "translation": "상세: N001E Myech, 즉 SLOT BACK 펄스 도플러 레이더는 기계식으로 조향하는 트위스트 카세그레인 안테나를 사용한다. 안테나는 N019 설계를 확대한 것이며 동일한 TS100 처리기를 사용한다.",
+      "previous_translation_sha256": "7e50ec8787b554bf97828dafb522721f6c9aa2f226fb35c44a9fd12c7f8d0f75",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_2059.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_2084.txt",
@@ -459078,6 +459357,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_2722.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_2728.txt",
+      "paragraph_index": 0,
+      "source_sha256": "01b0c149a0bc798fb0a02d468895cc5a8a022a080a68d4e46f9dee6dbd8fe5f5",
+      "translation": "개요: 1세대 감시용 TV 카메라는 1960년대에 등장해 군사·보안 분야의 정찰과 표적 관측에 기초적인 실시간 가시광선 영상을 제공했다.",
+      "previous_translation_sha256": "e1a7341878ff71b69f6208ca70fc18e8a342271e81341521d61fa736a3c00822",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_2728.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_2745.txt",
       "paragraph_index": 1,
       "source_sha256": "b377d407b3a0f7fd95e229aba853d84b6dd5e89a29f5df2420c82aa6c4fa3825",
@@ -459103,6 +459391,15 @@
       "previous_translation_sha256": "53a85fe01d0b680a5dc08370f2b1d3720400ce90d2d58a0e7b5430c1b5ef2948",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_2255.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_2755.txt",
+      "paragraph_index": 4,
+      "source_sha256": "4c74fc08190d908442214e316fb4122e40df0dfb23f9cc381e9a93013c7f5243",
+      "translation": "주파수: 2.0~3.0GHz(NATO E 대역) || 펄스 반복 주파수(PRF): 미상 || 첨두 출력: 추정 90kW || 거리: 계기상 최대 162해리, 전투기 크기 표적 124해리, 미사일 27해리 || 정확도: 거리 120m, 방위각 24각분, 고각 30각분.",
+      "previous_translation_sha256": "b461a8a8891aa71c95b990b8a4e088f72252cc20e109b8fe4d6133780c9c7550",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_2755.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_2767.txt",
@@ -459157,6 +459454,15 @@
       "previous_translation_sha256": "f391bde905a6e557fabd6e894ef1163e4e0484e0574004756375c0879281ebbb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_1111.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_2782.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e3f3b0b7ba46c67deba6da40d4bfa37210ad34da235915c25f662bf5218910cb",
+      "translation": "안테나 체계는 두 쌍의 안테나로 구성된다. 전기기계식 주사 안테나 한 쌍, 이른바 Lewis 스캐너가 수직·수평 표적 탐색을 담당하며 보통 포대의 P-12 SPOON REST와 함께 운용된다. FAN SONG의 좁은 7.5°×1.5° 감시 빔은 16° 범위에서만 조향할 수 있어 이러한 연동이 필요했다. 서로 직각으로 설치된 안테나는 표적을 중심으로 십자형 빔을 형성해 고도와 방위각을 측정한다. 빔은 담당 구역을 주사하면서 특유의 펄럭이는 움직임을 보인다. FAN SONG에는 저고도 사각지대가 있어 대공포로 엄호하지 않으면 적기가 이를 공격 경로로 이용할 수 있었다.",
+      "previous_translation_sha256": "5cff8d668e8e7526f3ce3d43e7e8fbd130258ac4924fe0fcbb7c37bce6e9a7ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Sensor_365.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_2782.txt",
@@ -459283,6 +459589,15 @@
       "previous_translation_sha256": "bba5bd3ac084dff5c3016d69f62db350f01b7c2d1dfc4bbdfdcb8b177a0177b1",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Sensor_2928.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_2957.txt",
+      "paragraph_index": 0,
+      "source_sha256": "76073a5b8cbf9e7c07d26de955dd7c626c3b2c4e957155f1ca1731809b0faffc",
+      "translation": "개요: 2차원 대공 수색 레이더는 항공 표적의 방위각과 거리를 탐지·추적하는 장거리 조기경보체계이다. 주로 공역 감시와 상황인식에 사용한다.",
+      "previous_translation_sha256": "24052e4f4304eaf3b0a4f316a37884b97d5598189b1ab3ecda33e8bf6a5a5b5f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_2957.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_3136.txt",
@@ -459627,6 +459942,15 @@
       "review_origin": "DB/Descriptions/CWDB/Sensor_2259.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_3737.txt",
+      "paragraph_index": 3,
+      "source_sha256": "b515e1453872680deb24e9b99ae8ae9c42bcdb0eeeba2b2664e1fea8251ada44",
+      "translation": "주파수: 2.950~3.050GHz(NATO E/F 대역) || 펄스 반복 주파수(PRF): 초당 750·500·250펄스 || 출력: 첨두 2.25MW, 평균 미상 || 펄스 폭: 2μs || 거리: 30해리, 항공 표적에 대해서는 최대 144해리일 가능성 있음 || 거리 정확도: 미상.",
+      "previous_translation_sha256": "c89ebdcb323e6a1b6704cc9f96a84e52c796e28584f0edc62de184cd6c1f6cfd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_3737.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_3793.txt",
       "paragraph_index": 1,
       "source_sha256": "e9284e36e778f913837517c9d45c3fe96a4fa1334a265d54616a8b334648559b",
@@ -459879,6 +460203,15 @@
       "review_origin": "DB/Descriptions/CWDB/Sensor_1112.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_4471.txt",
+      "paragraph_index": 2,
+      "source_sha256": "76fb7d3ab13102eadec288c165b0d8fccec00b8108063f3367f3fc5fac3f3295",
+      "translation": "역할 요약: 분류: 합성개구레이더(SAR)·우주 기반 정보감시정찰(ISR) || 주 용도: 장거리 지구 관측·지표 영상 획득 || 기능: 능동 레이더 영상화 || 운용 플랫폼: 극궤도 위성.",
+      "previous_translation_sha256": "34d4b3dc9a05c5c70a6fcf9a43b3edac0a11f21b63e65ce664cf3f30a029f1b8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_4471.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_4472.txt",
       "paragraph_index": 0,
       "source_sha256": "d97b7503579c1caa1be4b5dcb0d4ecf426d429a3e45bfc4cf9247444bb604973",
@@ -460093,6 +460426,15 @@
       "previous_translation_sha256": "32925d1e659f4892570ab0039fa064088ddcd04273dd80eb9a357ff1184990a5",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Sensor_4611.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_462.txt",
+      "paragraph_index": 1,
+      "source_sha256": "22ed195d19c291c4fcf552e223b3f2f27a21da45657508cddac289ba831c7ad4",
+      "translation": "상세: FRONT DOOR/FRONT PIECE 추적·지령 레이더는 두 체계로 구성된다. FRONT DOOR는 안테나를 위아래로 움직이는 고도측정·추적 레이더이며, 더 작은 S 대역 FRONT PIECE는 방위각 추적·데이터링크 유도용 안테나로 대형 FRONT DOOR 안테나 위에 설치된다. SS-N-3 또는 SS-N-12는 발사 후 데이터링크 조종 명령에 따라 순항 고도로 상승하며, 두 레이더가 비콘 응답기로 미사일 위치를 추적한다. 미사일 탑재 레이더가 표적을 탐지하면 영상 데이터링크로 잠수함에 영상을 보내 승조원이 공격할 표적을 선택한다. 이후 미사일은 자체 레이더로 종말 유도를 수행한다.",
+      "previous_translation_sha256": "a1ab19a431a539c2450c42ab3a2bb742c1b1837e9e99b6a0cf2d40149329d971",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Sensor_154.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_462.txt",
@@ -460663,6 +461005,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_5439.txt",
+      "paragraph_index": 0,
+      "source_sha256": "d16c6b759b1cbe38be5c4e43466e7e14d8466aaa07cfdb6a9dc18083bae23d2f",
+      "translation": "개요: GIN SLING A, 즉 SJ-202는 KS-1 지대공 미사일용 트레일러 탑재 표적획득·미사일 유도 레이더이다. HQ-2B·HQ-2J에도 사용될 가능성이 있다. NATO E/F 대역(IEEE S 대역)에서 작동한다.",
+      "previous_translation_sha256": "33643489427d87309888b8864eae894f4c59c3711bce967c41ba402769d03361",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_5439.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_5439.txt",
       "paragraph_index": 3,
       "source_sha256": "05c7d1240019e000f24effb5035318c74e6364e1680e422faae9c0c2e56b4862",
       "translation": "배열 오른쪽에 장착된 UHF(0.3~1.0GHz) 포물면 안테나가 미사일에 지령 신호를 전송하여 표적으로 유도하며, Lewis 안테나들은 미사일의 응답기 비콘을 추적한다.",
@@ -461103,6 +461454,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_2096.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_622.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ec4d6fdeb0371381f7d1643b2ae260492bab5cf5585fb57f5eb39ee3a9ce2a66",
+      "translation": "상세: N001 Myech, 즉 SLOT BACK 펄스 도플러 레이더는 기계식으로 조향하는 트위스트 카세그레인 안테나를 사용한다. 안테나는 N019 설계를 확대한 것이며 동일한 TS100 처리기를 사용한다.",
+      "previous_translation_sha256": "bf37e8706c5739b02b350c8be51e4f421429012c8fb3b7dd7ea88b70d8ac154f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_622.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_6257.txt",
       "paragraph_index": 0,
       "source_sha256": "f44688e1e5ce4a668f7e7a900d3c224790706434ed5f01ea2601ad40782ce4ab",
@@ -461256,6 +461616,24 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_4949.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_6465.txt",
+      "paragraph_index": 0,
+      "source_sha256": "7640a0eb3014384f44a10ab945af41a990754e196e54b068e44e27ac6f7a446b",
+      "translation": "개요: 예인배열소나는 1960년대부터 수상함이나 잠수함 뒤에 예인하여 잠수함·수상함을 장거리에서 수중음향으로 탐지·추적하는 데 널리 사용되어 왔다.",
+      "previous_translation_sha256": "0b30cb2defdd3ba51a53198afa7efac986d33199d00752b57e4fad3a2116ea00",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_6465.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_6489.txt",
+      "paragraph_index": 0,
+      "source_sha256": "b548d04fc5490f653af3fd7893d258ca16e729dcaab2f24db2dc671ffc01ba5d",
+      "translation": "개요: 헬기 접근 레이더는 안전한 헬기 접근·착륙을 위해 정밀한 근거리 레이더 유도를 제공한다. 보통 1970년대 이후 해군 함정과 지상 기지에 배치되었다.",
+      "previous_translation_sha256": "744450e5bc8f7b10f96dc8b7447e95e064d8d29281b233088cfdbe54f7797641",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_6489.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_6489.txt",
       "paragraph_index": 1,
       "source_sha256": "da540da1eff43d9f4ddf312f5f10f1d2970c90ae6a7ede466e179ad2d9272c76",
@@ -461290,6 +461668,15 @@
       "previous_translation_sha256": "803be69ece19a259503b62d5923c540ab5718a341062fdedda20a65896064eb3",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Sensor_6490.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_6492.txt",
+      "paragraph_index": 0,
+      "source_sha256": "fd25438270c636eea234fc6eb566f15c3fb4ce5eb90d40f9f3724040ca8dfe53",
+      "translation": "개요: 적외선·TV·레이저 거리측정 기능을 갖춘 전자광학·적외선(EO/IR) 회전형 센서는 안정화된 센서체계로, 주야간 장거리 관측·정찰·사격통제를 지원한다.",
+      "previous_translation_sha256": "76b47f47c11c4ba98d42e984fe0a85f87208b253cbd3019ac0b806e7090febf8",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_6492.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_6495.txt",
@@ -461749,6 +462136,15 @@
       "previous_translation_sha256": "e8ee2b7f1d8f38f9d787c3581360605fef213624a6ee9c3a2b4d3c535ca2d9d0",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_775.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_820.txt",
+      "paragraph_index": 0,
+      "source_sha256": "f2431e82e575012c0a66509eba1f1104cac331750410566c6001028dcfe1701f",
+      "translation": "개요: 적외선 대항체계(IRCM)는 적외선 유도 미사일의 추적·조준 센서를 교란해 항공기와 차량을 보호하는 방어 기술이다.",
+      "previous_translation_sha256": "059fe881714e898ee9d053650ca41cf0b77d6688d41b6e47ab8200e71f267b16",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_820.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_825.txt",
@@ -464586,6 +464982,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1251.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1276.txt",
+      "paragraph_index": 2,
+      "source_sha256": "862281c1464518f025037567f7945a1cdafd7098589a0a8cdbbe5b821e9a6354",
+      "translation": "참고: 기준배수량 2,800톤 || 속력 38노트 || 항속거리 32노트에서 1,000해리, 18노트에서 3,600해리 || 승조원 약 300명 || 복무 시기 KILDEN급 1958년, KILDEN MOD급 1972~1991년 || 건조 수 3척.",
+      "previous_translation_sha256": "b285ee023774c9f8f06bcbb1f3a08ce0511eba78a7206e38656170642357b11f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1276.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1280.txt",
       "paragraph_index": 2,
       "source_sha256": "0c3af1eed407c01a3e3821750d23ed649b14a20aa248d9ce299d23422c43dfc6",
@@ -464740,6 +465145,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1334.txt",
+      "paragraph_index": 3,
+      "source_sha256": "eb3651cef453c4ff50ce92b2ae5dead46ca94d1b6569ee6b0ce2f391c7d05202",
+      "translation": "1960년대 초 이 함급 7척 모두를 헬기 탑재 구축함(DDH)으로 개조했다. 격납고와 비행갑판 공간을 마련하기 위해 Limbo 대잠박격포 1기와 후방 3인치 50구경장 함포를 철거하고, 단일 굴뚝을 쌍굴뚝으로 바꾸는 등 함 전반을 개선했다. 거친 바다에서 횡동요를 줄이는 능동 핀 안정기와 거의 모든 해상상태에서 헬기를 회수할 수 있는 Beartrap 장치도 추가했다. CH-124 Sea King 헬기 1대를 탑재했다. 캐나다가 설계한 신형 SQS-504 가변심도소나(VDS)를 설치하도록 선미 트랜섬을 대폭 변경해 수중 탐색 거리를 크게 늘렸다.",
+      "previous_translation_sha256": "6d856018efcd5f13157f4da1685851fdf274a68cceea179b9db8aba5553ffc1d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1334.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1334.txt",
       "paragraph_index": 5,
       "source_sha256": "20dc9e2314506e0b70be2d1a1f3e91146583e44015f8f1347803a35e168b20ea",
       "translation": "제원: 만재배수량 2,800톤 || 전장 111.56m || 전폭 12.8m || 흘수 3.96m || 추진기관: 2축, Babcock & Wilcox 수관식 보일러 2기, English Electric 감속기식 터빈 2기, 30,000축마력 || 승조원 249명 || 속도 28노트 || 항속거리: 12노트에서 8,463.6km.",
@@ -464773,6 +465187,15 @@
       "previous_translation_sha256": "632d724b1d5b2d04b0fdd5e1f7d8e3d366ce35c928b13ab05a3c46029a0b136d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1341.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1346.txt",
+      "paragraph_index": 3,
+      "source_sha256": "491e66d290c25fc6eb69093bdb422f0b87e64e45e2461d1aff5d13611350e3b2",
+      "translation": "배수량: 기준 미상, 만재 450톤 || 속력: 28노트 || 추진: 4축, 디젤엔진 4기 || 항속거리: 15노트에서 1,300해리 || 승조원: 72명 || 취역: 약 1963년부터 || 건조 수: 약 4척.",
+      "previous_translation_sha256": "10279bf3155dd7150ea55ca6485301733247623fcac55b17ba8caa3e75d41443",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1346.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1358.txt",
@@ -466674,6 +467097,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_1341.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_169.txt",
+      "paragraph_index": 3,
+      "source_sha256": "c9b124fde018bfa051ceca0226abcd47ebbb151d599fd9f62fc99c2192d91eb9",
+      "translation": "배수량: 기준 1,674톤, 만재 1,924톤 || 속력: 26노트 || 추진: 2축, 디젤엔진 2기 || 항속거리: 15노트에서 4,000해리, 25노트에서 1,800해리 || 승조원: 185명 || 취역: 1977년 || 건조 수: 2척.",
+      "previous_translation_sha256": "ad7a63aabe60545e8d43dbe1041552f42ad8f274b72186af7c642d6885e81a20",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_169.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/ship_1692.txt",
       "paragraph_index": 5,
       "source_sha256": "7b42d2aabe9ad198a358c8e4fed41db7a33f92832805c7e46da070f9aa57c786",
@@ -466915,6 +467347,15 @@
       "previous_translation_sha256": "901166c2e9375e3c101d382e10442035affc2ae8abae1348f90d357612558b04",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_128.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_180.txt",
+      "paragraph_index": 3,
+      "source_sha256": "166b3d7305cd93537ef5bb1166b0baa3197fd299dc83115fbe5bd980e2358cee",
+      "translation": "배수량: 기준 375톤, 만재 392톤 || 속력: 30.5노트 || 추진: 4축, 디젤엔진 4기 || 항속거리: 15노트에서 1,300해리 || 승조원: 69명 || 취역: 약 1963년부터 || 건조 수: 약 76척.",
+      "previous_translation_sha256": "279e26d9571b3223f0f8b72a5244ae17c43559f9d581de44f556151687a2d57d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_180.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1804.txt",
@@ -467788,6 +468229,15 @@
       "previous_translation_sha256": "ef42e4a7e18aef30d940c135720079d7bc9b614be1f52a39b439553d28af921d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1023.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_194.txt",
+      "paragraph_index": 3,
+      "source_sha256": "f09f396d07bcbbb4c272f1378e0e55228d347db4e45601c4d5b6950690381193",
+      "translation": "배수량: 기준 16,000톤, 만재 17,300톤 || 속력: 32.5노트 || 항속거리: 32노트에서 2,500해리, 13.5노트에서 10,200해리 || 승조원: 약 1,050명 || 취역 기간: 1972~1990년 || 해당 개조형 수: 4척.",
+      "previous_translation_sha256": "4dd2bd8842ab045152fb991feaf5ce80ae1166f1ea8fb8ba243a54ea302b4101",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_194.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1940.txt",
@@ -469302,6 +469752,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_1326.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_224.txt",
+      "paragraph_index": 2,
+      "source_sha256": "48feae7857b3b5f4d62a184c96b47682181cde1bb708c7b664e0b93cb91842fc",
+      "translation": "제원: 기준배수량 16,000톤, 만재배수량 17,300톤 || 속력 32.5노트 || 항속거리 32노트에서 2,500해리, 13.5노트에서 10,200해리 || 승조원 약 1,050명 || 취역 기간 1951~1998년 || 건조 수 14척.",
+      "previous_translation_sha256": "f7779149933d8465b5b5ce99df50af60efde77a57b979c0febf5e35d80634501",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_224.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_2281.txt",
       "paragraph_index": 2,
       "source_sha256": "eeee8b80286fc108ed6faccf122857a585191406a00ccfe24ed61fe5583973c8",
@@ -470634,6 +471093,24 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_2163.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_2410.txt",
+      "paragraph_index": 1,
+      "source_sha256": "948af96cba773deb5f0cfac875dc957dbeaae443339d2760ef17390c05ed762f",
+      "translation": "상세: Project 21631 함정은 자국 경제수역 방어를 위해 개발되었으며 주 임무는 적 수상 전투함과의 교전이다. 미사일·함포와 전자대항장비를 갖춘 현대식 함정으로 계획되었다. Buyan-M급 초계함은 핵탄두 탑재가 가능한 Kalibr 순항미사일(NATO명 Sizzler)을 장착하며, 주장된 사거리는 최소 1,500km이다. 작은 크기와 배수량 덕분에 내륙 수로를 운항하고 모스크바 운하도 통과해 러시아 서부의 여러 바다로 이동할 수 있다. 원문은 이를 Buyan-M의 특별한 장점으로 설명한다. 중거리핵전력조약(INF)이 장거리 순항미사일의 지상 운용을 금지하더라도 함상 운용은 허용하므로, 강에서 운용하는 초계함은 해당 제한 없이 미사일을 배치할 수 있다는 것이다.",
+      "previous_translation_sha256": "995efa1cadf7247cb7a2bdd52d5790845b2390e387417cdc841d865d6c9c0282",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_2410.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_2411.txt",
+      "paragraph_index": 1,
+      "source_sha256": "948af96cba773deb5f0cfac875dc957dbeaae443339d2760ef17390c05ed762f",
+      "translation": "상세: Project 21631 함정은 자국 경제수역 방어를 위해 개발되었으며 주 임무는 적 수상 전투함과의 교전이다. 미사일·함포와 전자대항장비를 갖춘 현대식 함정으로 계획되었다. Buyan-M급 초계함은 핵탄두 탑재가 가능한 Kalibr 순항미사일(NATO명 Sizzler)을 장착하며, 주장된 사거리는 최소 1,500km이다. 작은 크기와 배수량 덕분에 내륙 수로를 운항하고 모스크바 운하도 통과해 러시아 서부의 여러 바다로 이동할 수 있다. 원문은 이를 Buyan-M의 특별한 장점으로 설명한다. 중거리핵전력조약(INF)이 장거리 순항미사일의 지상 운용을 금지하더라도 함상 운용은 허용하므로, 강에서 운용하는 초계함은 해당 제한 없이 미사일을 배치할 수 있다는 것이다.",
+      "previous_translation_sha256": "995efa1cadf7247cb7a2bdd52d5790845b2390e387417cdc841d865d6c9c0282",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_2410.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_242.txt",
       "paragraph_index": 2,
       "source_sha256": "f5aaae91646d85c15d2aad641dc8aa7cab37e80856f439431fc2ce90a50b0967",
@@ -470686,6 +471163,15 @@
       "previous_translation_sha256": "3b5e683269faf333fd1f39a0405ec36f97cbf330c46d15da3c53d930934457ed",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/ship_1044.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_2459.txt",
+      "paragraph_index": 4,
+      "source_sha256": "8b75a785d4465b0ca24456842d0b64278d83875a6e39ea5ef1eac960d98fac76",
+      "translation": "전자장비는 AN/SPS-64(V)9·AN/SPS-10 대수상 수색 레이더, AN/SPS-40B 2차원 대공 수색 레이더, AN/SPG-53F 사격통제 레이더로 구성된다. 소나는 선체 고정식 SQS-26CX 능동·수동 소나를 탑재한다.",
+      "previous_translation_sha256": "62611c1c3e35f76ab347f91c17c2997eacddb440c37e6c7e1cffb74963c1b227",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_2459.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_246.txt",
@@ -471696,6 +472182,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_2840.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_2842.txt",
+      "paragraph_index": 2,
+      "source_sha256": "99b5f22b1a08fdc280851ad9f8df997107e9107c79bb0d8931fdda7d37325648",
+      "translation": "제원: 만재배수량 64톤, 기준배수량 46톤 || 최대속력 26노트 || 추진 Detroit 디젤엔진 2기, 2,800hp(m), 2축 || 항속거리 18노트에서 800해리 || 지속 작전 능력 수일 || 승조원 9명, 최대 16명.",
+      "previous_translation_sha256": "17bc3c0745cb2a7ee3f1ce435f62b373e61e27234d04af8f47c9c1f409919447",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_2842.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_2871.txt",
       "paragraph_index": 1,
       "source_sha256": "179411c27bd7a025856c876aa4e487c2e3448b50e9be65a7680a80493e99b7c8",
@@ -471847,6 +472342,15 @@
       "previous_translation_sha256": "ef42e4a7e18aef30d940c135720079d7bc9b614be1f52a39b439553d28af921d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1023.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_3018.txt",
+      "paragraph_index": 1,
+      "source_sha256": "88068a3114d152818589c515064788dc777cfa10661550cf1c7be7f6249958e5",
+      "translation": "Provider급은 연료 화물탱크 26개에 함정용 디젤유 14,000톤, 디젤유 1,500톤, 항공유(JP5) 900톤을 적재하며, 탄약·식량·예비부품 430톤도 탑재했다.",
+      "previous_translation_sha256": "1b01a33dd9d20c754936b62ee8825252eb75c051d23bafa52b37d6d9e00c2096",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_3018.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_3029.txt",
@@ -477142,6 +477646,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_872.txt",
+      "paragraph_index": 3,
+      "source_sha256": "eb3651cef453c4ff50ce92b2ae5dead46ca94d1b6569ee6b0ce2f391c7d05202",
+      "translation": "1960년대 초 이 함급 7척 모두를 헬기 탑재 구축함(DDH)으로 개조했다. 격납고와 비행갑판 공간을 마련하기 위해 Limbo 대잠박격포 1기와 후방 3인치 50구경장 함포를 철거하고, 단일 굴뚝을 쌍굴뚝으로 바꾸는 등 함 전반을 개선했다. 거친 바다에서 횡동요를 줄이는 능동 핀 안정기와 거의 모든 해상상태에서 헬기를 회수할 수 있는 Beartrap 장치도 추가했다. CH-124 Sea King 헬기 1대를 탑재했다. 캐나다가 설계한 신형 SQS-504 가변심도소나(VDS)를 설치하도록 선미 트랜섬을 대폭 변경해 수중 탐색 거리를 크게 늘렸다.",
+      "previous_translation_sha256": "6d856018efcd5f13157f4da1685851fdf274a68cceea179b9db8aba5553ffc1d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1334.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_872.txt",
       "paragraph_index": 5,
       "source_sha256": "20dc9e2314506e0b70be2d1a1f3e91146583e44015f8f1347803a35e168b20ea",
       "translation": "제원: 만재배수량 2,800톤 || 전장 111.56m || 전폭 12.8m || 흘수 3.96m || 추진기관: 2축, Babcock & Wilcox 수관식 보일러 2기, English Electric 감속기식 터빈 2기, 30,000축마력 || 승조원 249명 || 속도 28노트 || 항속거리: 12노트에서 8,463.6km.",
@@ -477796,6 +478309,15 @@
       "previous_translation_sha256": "6f10bab98da9c530a7d0b62ba5e6d7b92c3a67f2d2a456e0728c3ea9a909f350",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_940.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_99.txt",
+      "paragraph_index": 3,
+      "source_sha256": "2722d8c26337be7d5987f5b5fa32b4d709fe2e8cd9201a436a22c3adcb4070c8",
+      "translation": "배수량: 기준 165톤, 만재 205톤 || 속력: 35노트 || 추진: 3축, 디젤엔진 2기 || 항속거리: 30노트에서 800해리 || 승조원: 28명 || 취역 기간: 약 1975~2010년 || 건조 수: 약 130척.",
+      "previous_translation_sha256": "006e182e16068713b2c3f38a887eb953ecb44a92cd728cc3dbf192eecbdaba41",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_99.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_990.txt",
@@ -478876,6 +479398,15 @@
       "previous_translation_sha256": "eb23a2be7749b7b488c68164b640807fed99a1f84dde77192917c67521afd514",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Submarine_280.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_337.txt",
+      "paragraph_index": 2,
+      "source_sha256": "36f3a6500dd6d9cfafbb463d993c186518443d7686c4100436cd0a7a156f51cc",
+      "translation": "참고: 수중배수량 2,700톤 || 수중속력 약 12~14노트 || 항속거리 5노트에서 9,000해리 || 승조원 약 85명 || 건조 수 14척 || 복무 시기 GOLF I 1958년, GOLF II 1966~1990년.",
+      "previous_translation_sha256": "173cd5e0cd5a4f1d48a8a666a5adaa0cf0857b34f374bb0b2e5dee96d7a01ddf",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_337.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_339.txt",
@@ -480390,6 +480921,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1032.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_104.txt",
+      "paragraph_index": 0,
+      "source_sha256": "79d49a7a08c9e59de57129886694df83bdef79327da25ffbeeaed3c7a4b102dc",
+      "translation": "개요: AGM-142G Raptor HAVE NAP은 고체연료 단·중거리 전자광학 유도 공대지 미사일이다. 방어망에서 떨어진 거리에서 대형 고가치 표적을 정밀 공격하도록 설계되었다.",
+      "previous_translation_sha256": "aeb57a287c9e3df6ef180a2d53af4361f21caedd5f723fe48b40e94113e20aaf",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_104.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1050.txt",
       "paragraph_index": 1,
       "source_sha256": "7be2e9de5fb3e40324cac929eb8080ea67258bd140479a4f9b74b3611d2ad328",
@@ -480440,6 +480980,15 @@
       "source_sha256": "6093983ff0ab42f8d30ca6701456adb2eddbc878892724435e5ca19b501653a0",
       "translation": "세부 사항: ‘Mark 44’는 경량 어뢰 계열에 속함을 나타내며, ‘Mod 1’은 Mod 0 시제형을 개선한 초기 양산형을 뜻한다. 길이는 8.2 ft(2.5 m), 직경은 12.75 in(324 mm)이며, 중량은 약 433 lb(196 kg)이다. Mk 19 Mod 12 접촉식 기폭장치를 갖춘 75 lb(34 kg) HBX-3 탄두를 탑재한다. 해수로 활성화되는 염화은/마그네슘 전지가 30 hp 전동기를 구동하며, 약 30 kn의 속력과 약 3.4 mi(5.5 km)의 사거리를 달성하고 약 1,000 yd 수심까지 유효하다. 내장 능동 소나가 나선형 탐색 패턴으로 유도를 수행하며, 수심 설정을 선택하고 탐색 모드를 사전 설정할 수 있다.",
       "previous_translation_sha256": "146fcb2626dca47a687771788ecf0719a983ab9fe7337731344032b11dcf8b28",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1062.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1062.txt",
+      "paragraph_index": 3,
+      "source_sha256": "87dd603f6e0897d50195bbc283b2ba4b20eb0d1769168dfaf270abbc82b0455d",
+      "translation": "기능: Mk 44는 입수 후 설정된 수심과 하한 심도에 따라 나선형으로 이동하며 능동 소나 탐색을 수행한다. 잠수함을 탐지하면 표적을 추적해 요격하고 접촉 시 폭발한다.",
+      "previous_translation_sha256": "40ea768b036ba48f1bff7fc4da3f7fac5d153cc529adf68f98adf6d0c5ae2304",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1062.txt"
     },
@@ -480561,11 +481110,29 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1136.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1139.txt",
+      "paragraph_index": 0,
+      "source_sha256": "cc29a195d592a62d3f5e6dcd1a60f9b5c1b0f7d0bdb1f70cc4de64d3035afc5c",
+      "translation": "개요: UGST(Fizik-1)는 러시아가 2003년에 도입한 잠수함 발사형 533mm 중어뢰이다. 열기관 추진·호밍 유도 방식의 범용 무기로 잠수함과 수상함 모두를 공격한다.",
+      "previous_translation_sha256": "d6161dcfc066f8e86e90caf78adec8b0327b00834eb26ad5afb3032c29274d35",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1139.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_114.txt",
       "paragraph_index": 1,
       "source_sha256": "3a91187d125b94e086f058f4cc74a8685c9252b35b444eee3ac80e5ca2d7fdcf",
       "translation": "세부 사항: 코룬트-2로도 알려진 MG-74는 소련/러시아 잠수함에 탑재된 533mm 기만체 발사관에서 발사되며, 발사 잠수함의 음향 특성을 모사하도록 설계되었다. 원문에서 수동 및 능동 음향 방사기로 표현한 장비를 모두 갖추며, 발사 후 자율적으로 작동하면서 수중에서 기동하여 잠수함의 추진과 소음을 모사한다. 운용이 확인된 플랫폼으로는 러시아 해군의 아쿨라급 및 델타급 잠수함 등이 있다. REPS-324 실라그바움 외장 발사체계와 함께 사용되는 것으로 보고되며, 유효거리는 최대 1.9km로 추정되지만 정확한 성능 자료는 여전히 기밀이거나 검증되지 않았다.",
       "previous_translation_sha256": "6c60ac3b86dd4f2121d0f68edb6f127042b5843e28347722c62c770dbe76a79b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_114.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_114.txt",
+      "paragraph_index": 2,
+      "source_sha256": "545aa0793ca0da48b1ab95d0f4be52ba66c7f0056a83b069bd3c04fdaa0f3250",
+      "translation": "기능: 수중에서 533mm 기만체 발사관 또는 어뢰발사관을 통해 발사된다. 자체 추진장치를 작동시키고 음향 신호를 모사한다. 실제 잠수함의 소나 특성을 흉내 내어 추적 중인 어뢰를 속인다.",
+      "previous_translation_sha256": "0433554e862736ad8ee79d12acd4ec0f7b2c2ebc3459c2f3e9470d98953ffcce",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_114.txt"
     },
@@ -480622,6 +481189,15 @@
       "previous_translation_sha256": "ba7f25d62cd70371250b5d8f9ff03cb0fa31256bc5f6abde8d22922b7529243a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_72.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1145.txt",
+      "paragraph_index": 0,
+      "source_sha256": "778d1ee7e98ada267c561ac2a1a3f16b8dbdbc84521f36d3fc8115f4671dc20b",
+      "translation": "개요: SA-15 GAUNTLET, 즉 9M330 Tor는 단단 고체연료 단거리 중·고고도 지대공 미사일이다. 무선 지령유도를 사용하며 14.5kg 고폭탄두를 탑재한다.",
+      "previous_translation_sha256": "17e0d2d95f47b20b12ddce17fd7a270a1588a09863a72efcbb11d9648d44d789",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1145.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1151.txt",
@@ -480751,6 +481327,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1183.txt",
+      "paragraph_index": 0,
+      "source_sha256": "9349891f63da9c9a0a68ed4c0da208dbc16baf0fc4a4535d426eebe9fc67307c",
+      "translation": "개요: UGM-84L Harpoon Block II는 잠수함 발사형 장거리 레이더 유도 대함·대수상 미사일이다. 고체연료·터보제트 추진 방식으로 설명되며 해면밀착비행을 한다. 221kg 탄두를 탑재한다.",
+      "previous_translation_sha256": "3e933fc44f640552c86f4d8a2511a34d5cb9f6b0b8d2322ee1b9092ee8400c3e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1183.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1183.txt",
       "paragraph_index": 2,
       "source_sha256": "1e40855a04a0f3727141ae61a4884487b42f07acc4f72eb44ee9919f8757e5ad",
       "translation": "하푼은 또한 발사 전에 거리·방위 발사(RBL) 모드 또는 방위 전용 모드 중 하나로 설정된다. RBL 모드에서 UGM-84L 하푼은 발사 직후 낮은 순항고도로 하강하며, 레이더 고도계와 관성항법을 사용하여 계산된 표적 위치 근처의 사전 지정 지점으로 유도된다. 이후 주파수를 신속히 바꿀 수 있는 능동 J대역(10~20 GHz) 레이더 탐색기를 작동시켜 표적으로 유도된다. 방위 전용 발사 모드에서는 하푼을 표적 방위로 발사하며, 발사 직후 레이더 탐색기가 작동한다. 적절한 표적을 찾지 못하면 탐색 패턴으로 전환하며, 표적을 포착하지 못하면 자폭한다.",
@@ -480840,6 +481425,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1202.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1210.txt",
+      "paragraph_index": 0,
+      "source_sha256": "c55152526932a028247d6ada54cee3797f60b89ee649b40207947eded0be39d4",
+      "translation": "개요: SRCR(Short-Range Chaff Rocket)은 Rafael이 이스라엘 해군용으로 개발한 90mm 단거리 채프 로켓이다. 함정 가까이에 채프 구름을 형성해 레이더 유도 위협을 다른 곳으로 유인한다.",
+      "previous_translation_sha256": "e0f2d4f1bec1cc2d64b1a76d28ca43c7ae8b12d5771e63b3382dd9464102396a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1210.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1222.txt",
       "paragraph_index": 1,
       "source_sha256": "f98bbde84be72522ffbe84909c2d95403cd483c808f4c00fa03a83321ded7a20",
@@ -480847,6 +481441,15 @@
       "previous_translation_sha256": "50e67366507cd0f40f945f42d772c959acba563c50cca3404d211b4908bf1b94",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1222.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1223.txt",
+      "paragraph_index": 2,
+      "source_sha256": "b512db3bbc74f02a59c190f4cf9ef69cc1372ce2a45da0b5410beab84d47b8d0",
+      "translation": "기능: 레이더 위협을 탐지하면 PK-16의 82mm 발사관에서 발사된다. 설정된 거리까지 비행한 뒤 채프 구름을 방출한다. 허위 레이더 반사 신호를 만들어 미사일을 함정에서 다른 곳으로 유인한다.",
+      "previous_translation_sha256": "95038e475ad5174e4690b6fb86e7b77b9c193031711b730205cd410c479fa3ca",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1223.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1225.txt",
@@ -480865,6 +481468,15 @@
       "previous_translation_sha256": "78a321ca23788b6722c6bd7a11f00c24873a1b6bc4f2e3e9ebaa66dffefffedb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1226.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1228.txt",
+      "paragraph_index": 0,
+      "source_sha256": "a5491a78633ae2e9e74187c390f00a6cae67f4b1f3f285de6aeb12b88926009d",
+      "translation": "개요: SR-50은 러시아가 1990년에 도입한 120mm 단거리 채프탄이다. PK-10 기만체 살포체계에서 발사해 레이더 반사 물질을 전개하고 위협을 유인한다.",
+      "previous_translation_sha256": "af0fc402f191cbb214348ed0e589b81e7ddbcfc6e37b8061a8ed2cee2a8758f3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1228.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1230.txt",
@@ -480928,6 +481540,15 @@
       "previous_translation_sha256": "e5ceb3ce942fe66d5b5cd1e5bfc4bbe42991b2b84b12e443bfb4dc8fec396974",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1237.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1239.txt",
+      "paragraph_index": 2,
+      "source_sha256": "3a8bb397316b8c525d0a4a9c9c8fd5a9176f7d4fbe0466e9b90a64d7768c8ba6",
+      "translation": "기능: 레이더 경보 탐지에 따라 채프를 전개한다. 갑판 발사기에서 채프 로켓을 일제 발사하며, 방출된 채프가 레이더 반사 구름을 만들어 접근하는 레이더 유도 미사일을 유인한다.",
+      "previous_translation_sha256": "d4e18d9662b40591dcdaf8c37cf5eb0dfe999f130ba55ccaedf0085060b9f4b2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1239.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1243.txt",
@@ -481164,6 +481785,24 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1302.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1307.txt",
+      "paragraph_index": 0,
+      "source_sha256": "ada56e13335df83b8039f24caa4eb7d3907c723e9688ef7f7e18194ba541def7",
+      "translation": "개요: AS-17 KRYPTON D(K-31PD)는 공중발사 장거리 고속 초음속 대레이더 미사일이다. 액체연료 램제트로 추진하며 수동으로 방사원을 추적한다. 110kg 고폭폭풍·파편 탄두를 탑재한다.",
+      "previous_translation_sha256": "5d044d313202af56cab31394d182dd0a683364cfe7296e2fbb174ccc81a18bc5",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1307.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1308.txt",
+      "paragraph_index": 0,
+      "source_sha256": "cd6eb39baeed04c64c75a9679cb739a62a86b522c8f2eccccad53b1dc7b1c4fe",
+      "translation": "개요: AS-17 KRYPTON B(K-31AD)는 공중발사 중거리 고속 초음속 대함 미사일이다. 액체연료 램제트로 추진하며 능동 펄스 X 대역 레이더를 사용한다. 110kg 고폭탄두를 탑재한다.",
+      "previous_translation_sha256": "325b263b51721840e1b4238acbdaae5f1ccbac5f95e80013b6b3d38a43920526",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1308.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1308.txt",
       "paragraph_index": 1,
       "source_sha256": "3402e37f4d00ce62b930fb77f1999cf3abfce7e9a29f021ca31f4332fba4534a",
@@ -481171,6 +481810,15 @@
       "previous_translation_sha256": "f7023592d986486bab7dad2bf13de79edd3c9f8094d180fa5ade3cd011534f07",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1308.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1309.txt",
+      "paragraph_index": 0,
+      "source_sha256": "3ea0f4084f6b2b16235f723af680e7693524eeeb9c68efed1de5532232ae1fe8",
+      "translation": "개요: AS-17 KRYPTON A(K-31A)는 공중발사 중거리 고속 초음속 대함 미사일이다. 액체연료 램제트로 추진하며 능동 펄스 X 대역 레이더를 사용한다. 94kg 고폭탄두를 탑재한다.",
+      "previous_translation_sha256": "3cea8c915f35f546ad1c748069e88436783ab6b8ece14424fc9417b2139e7bd7",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1309.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1309.txt",
@@ -481606,6 +482254,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1458.txt",
+      "paragraph_index": 0,
+      "source_sha256": "e895139e07c6fe12721363784a4cfcb2dcd89f79b895129a86d3ed83d7259c29",
+      "translation": "개요: USET-80은 소련·러시아의 범용 전기추진 중어뢰로 1980년에 도입되었다. 음향·항적 유도로 대잠·대수상 임무를 수행한다.",
+      "previous_translation_sha256": "3ac9648c46aadec4eb9a50c27317e993c55c8d790d774cb45ad53967bc80fc5b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1458.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1458.txt",
       "paragraph_index": 1,
       "source_sha256": "57679b0ee00316488f52eee1bd0904222d1f5e574445ed88a5810ee3b1032aa1",
       "translation": "세부 사항: USET-80(Universalnaya Samonavodyashchayasya Elektricheskaya Torpeda, 1980)은 기드로프리보르가 개발하여 1980년에 실전배치했으며, 후속형 USET-80K는 1989년에 도입되었다. 직경은 533 mm, 길이는 7.9 m, 중량은 2,000 kg이며 300 kg 탄두를 탑재한다. 해수 활성화 은-아연 배터리(이후 일부 형식에서는 구리-마그네슘 배터리)가 공급하는 전력으로 전동기를 구동하며, 최대 속력은 50 kn, 운동학적 사거리는 약 25 km이다. 최대 1,000 m 수심에서 운용할 수 있다. 수동/능동 음향 센서와 수상 표적에 대한 항적유도를 사용한다. USET-80K는 개량된 ‘케라미카’ 음향 센서를 사용하지만 항적유도 능력은 없다.",
@@ -481693,6 +482350,15 @@
       "previous_translation_sha256": "2cb67a61c82255f7338a3fa0e330a9e08a4f1cc053e115d4814132ddb9267d40",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/facility_1580.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_155.txt",
+      "paragraph_index": 0,
+      "source_sha256": "6459b5104190719b90365b46c751d7df3242cd67db35ee68aecdddbe9c843872",
+      "translation": "개요: AGM-142A Raptor HAVE NAP은 고체연료 단·중거리 전자광학 유도 공대지 미사일이다. 방어망에서 떨어진 거리에서 대형 고가치 표적을 정밀 공격하도록 설계되었다.",
+      "previous_translation_sha256": "89e1e9eb13076b36619410872ddb76f44ca07e4541867fca206dbd1d58f246f2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_155.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1552.txt",
@@ -481909,6 +482575,15 @@
       "previous_translation_sha256": "35c3c5e375aa075a7260bcd0dd4972cefa3d458aaf0daf1b0023e2dbba421db5",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1618.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1619.txt",
+      "paragraph_index": 3,
+      "source_sha256": "f24523d7918a1372d62291aa3cab38a7d1d7c39fa007d5aab6d88b72975ce564",
+      "translation": "기능: 투입된 L4는 원형 탐색 패턴으로 이동하며 능동 소나로 잠수함을 찾는다. 표적을 포착하면 가속해 최대 5km 떨어진 수중 표적을 공격한다.",
+      "previous_translation_sha256": "0d59588b9ba6c4ab62f911cfae40d5a8559fca1afa8d11986023b766a6396636",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1619.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1621.txt",
@@ -482278,6 +482953,15 @@
       "previous_translation_sha256": "c6bf05447f75ee8153568a746034806eef466f09af4fcfb57895f794ff4f0358",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1710.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1818.txt",
+      "paragraph_index": 0,
+      "source_sha256": "d01e923267b92e5c117b93c5332d656d474e76b0218950d512079e6dead78185",
+      "translation": "개요: Philax Chaff는 1970년대 후반에 도입된 함정용 기만체계이다. 레이더 반사용 채프를 전개해 레이더 유도 미사일로부터 고속공격정을 보호한다.",
+      "previous_translation_sha256": "36977b2b16f652b07e9f4ed1952a26985b7ac0b2411e739e41cd2d451ae031ed",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1818.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1819.txt",
@@ -482650,12 +483334,30 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1900.txt",
+      "paragraph_index": 0,
+      "source_sha256": "2db83dae58c4024bfebdc9fac9b12f56fae9702947cdb5be96dba2dba9762170",
+      "translation": "개요: Alamo R-27T는 고체연료 중거리 공대공 미사일이다. 적외선 탐색기, 능동 레이더 근접신관·충격신관, 39kg 연속봉 탄두를 갖췄다.",
+      "previous_translation_sha256": "a84d430cd8e4813efcdcce0c80e86615d70314f68dddfbc2648ea8e8852ebdf9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1900.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1900.txt",
       "paragraph_index": 1,
       "source_sha256": "ff15e2ea347f13e92fddea79222fe02e2874cf888200a88b656e0437fa5cdda9",
       "translation": "세부 사항: 알라모 R-27T는 복합 유도방식으로 표적까지 유도된다. 초기 비행 단계에서는 무선으로 비행경로를 보정하는 관성유도를 사용한다. 이후 종말 단계에서 탐색기에 의한 유도로 전환한다. 이를 통해 발사 항공기로부터 먼 거리에서도 안정적으로 표적을 포착할 수 있다. 이 미사일은 탐색기와 근접신관의 작동에 유리한 조건을 조성하도록 특수한 경로를 따라 유도될 수 있다. 수동 전파방해물이 형성한 구름을 우회하고, 발사 플랫폼 레이더의 주엽 밖으로 이동하며, 저고도 표적에 위쪽에서 지정된 각도로 접근할 수 있다.",
       "previous_translation_sha256": "cb9fe8939b9d1bbddb6d362ac20a93dc32e7f94b1d797c82bdc400c4c05e0541",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1900.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1901.txt",
+      "paragraph_index": 0,
+      "source_sha256": "43f6a347a25bc20781c4a3f47d3eead198f68d14603e3d51c8d03f1abbc46e1e",
+      "translation": "개요: R-27R(NATO명 Alamo A)은 고체연료 공대공 미사일이다. 반능동 레이더 탐색기, 능동 레이더 근접신관·충격신관, 연속봉 탄두를 갖췄다.",
+      "previous_translation_sha256": "29c373a350d94fbf21850ccd5245d0e0a4f43652e3c7af3884cf7d7c70851cec",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1901.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1901.txt",
@@ -482764,6 +483466,15 @@
       "previous_translation_sha256": "89ee267817d0abc890252a72254dd499bd6294b0cd5a60e158e822f8fb8bafb1",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_330.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2012.txt",
+      "paragraph_index": 0,
+      "source_sha256": "d1a81fb0ca705f7b2cd41a21748c10a89339a7e47c3ed90f73f4e366db8b2158",
+      "translation": "개요: AN/ALE-39 기만체 살포체계(CMDS)는 미사일과 레이더 지향 대공포 위협으로부터 전술기·헬기를 보호하는 항공기 탑재 방어체계이다.",
+      "previous_translation_sha256": "48afc734b67ea162ae5fe5ac3044e9062adbed670e9d3f094506c1746470274f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2012.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2030.txt",
@@ -482937,6 +483648,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_2109.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_2135.txt",
+      "paragraph_index": 1,
+      "source_sha256": "8d9dd4288b437672df9c3efcc8ff887842186a13a0957b5adee18c4a8fba6b5f",
+      "translation": "상세: HY-2G는 HY-1에서 발전한 형식으로, 가장 큰 차이는 추진제 탑재량을 늘리기 위해 동체를 연장한 것이다. 관성유도와 모노펄스 능동 레이더를 결합해 유도한다.",
+      "previous_translation_sha256": "44c1b8d7a51a77ac9bd145a5f0d05293c75bdb0bd91d6a25298d96820afdb008",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2135.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_214.txt",
       "paragraph_index": 1,
       "source_sha256": "bea5cbb14df294a8c11b69cb4068655d062ff810fa4f70fbfa0653f4926f3453",
@@ -482989,6 +483709,15 @@
       "previous_translation_sha256": "5cc54f6671d2feabc4ac0e3e04e66a3af677588a3932831618f045a393b90e14",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_1137.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2157.txt",
+      "paragraph_index": 1,
+      "source_sha256": "9a0f2361a93e53e98efcc9210071fcff30b461694bcbb2d57b9bde497b2e64a4",
+      "translation": "상세: AA-1a Alkali는 복합 유도 방식으로 표적을 향한다. 초기에는 무선 항로 수정을 받는 관성유도를 사용하고 종말 단계에서 호밍으로 전환한다. 이에 따라 발사 항공기에서 먼 거리에서도 안정적인 표적 포착이 가능하다. 탐색기와 근접신관이 유리하게 작동하도록 특수 궤적으로 유도할 수 있다. 수동 기만체 구름을 우회하거나 발사 플랫폼 레이더의 주엽 밖으로 이동하고, 저고도 표적에 지정 각도로 위에서 접근할 수 있다. RS-2U는 이전 PC-2V보다 탄두가 크고 연료가 많다.",
+      "previous_translation_sha256": "8eed48c29ca6258da24d3afd9973a3db9e52f99ff21a80882a4694f4181910c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_127.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_216.txt",
@@ -483187,6 +483916,33 @@
       "previous_translation_sha256": "913e99959731d44498766ad244992c90a7f6cd18666a4316d7ea481d0972646d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_2214.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2215.txt",
+      "paragraph_index": 0,
+      "source_sha256": "c9a02cb47f9e346636d995fc4c42a4d90936d82ba7ffeca0cd501ee59bb34a2b",
+      "translation": "개요: L5 Mod 1은 프랑스가 약 1972년에 도입한 수상 발사형 대잠 중어뢰이다. 수상 전투함에서 발사해 잠수함과 수상함 모두를 공격하도록 설계되었다.",
+      "previous_translation_sha256": "9ceab5462dd498cdd70810d292f06442e749b97a835c4b4ace02c5d32ca76f58",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2215.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2226.txt",
+      "paragraph_index": 2,
+      "source_sha256": "bf630d0ccf4e781bd886ea06b620ae8349e67a2c62a1f32a3da6f9e4915b2db1",
+      "translation": "F17 Mod 1은 Mod 0의 추진 신뢰성과 유선유도 성능을 개선한 형식이며 전반적인 운용 방식과 구조는 유지했다.",
+      "previous_translation_sha256": "b757bbf06f2f29bbf433e4325588c05453e9b7efa0717e91926f79a36d5d7bdb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2226.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_2229.txt",
+      "paragraph_index": 0,
+      "source_sha256": "e1479db06ab5d4d637a7d20567a08e8a69cf70c809d92bf20cd45a3036cd49dc",
+      "translation": "개요: E18은 프랑스의 전기추진·수동 음향유도 대함 어뢰로 근거리 교전용이다. 533mm 어뢰발사관을 갖춘 재래식 잠수함용으로 1980년대에 수출되었다.",
+      "previous_translation_sha256": "8e52acc72e7e2e4630151671576a210cc2a3e8ce38272f6a4cf66425585411c7",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2229.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_223.txt",
@@ -483774,6 +484530,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_2422.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_2422.txt",
+      "paragraph_index": 2,
+      "source_sha256": "6f103bdaa26e52490e8dbdd686c92a6e9dfefc13f5a6e6299640913e983e28df",
+      "translation": "기능: 해저에 설치된 Mk 60은 음향 신호를 수동 감시한다. 적 잠수함 표적을 확인하면 작동하여 Mk 46 어뢰를 발사하고, 어뢰가 자율적으로 접촉 표적을 공격한다.",
+      "previous_translation_sha256": "6a22faf888341571a76c3b04eee50312b390b61b9e5dbeedc4c734f54a1d0821",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2422.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_2433.txt",
       "paragraph_index": 1,
       "source_sha256": "d1e55eaf7497a884a4febe06d48d056de70419cfaf95cd470ed45e62c68dff99",
@@ -484080,6 +484845,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_2743.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_276.txt",
+      "paragraph_index": 0,
+      "source_sha256": "c6287d559cf9b5a91cf149d202f304ea29ada3da53665a6c175a4f2a057011ac",
+      "translation": "개요: AS-17 KRYPTON C(K-31P)는 공중발사 장거리 고속 초음속 대레이더 미사일이다. 액체연료 램제트로 추진하며 수동으로 방사원을 추적한다. 87kg 고폭폭풍·파편 탄두를 탑재한다.",
+      "previous_translation_sha256": "4db95df69d5c37b3307c43be529d684b1e0169de3adad500c1bb2292607b1b03",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_276.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_277.txt",
       "paragraph_index": 1,
       "source_sha256": "bcc3874902923bbcf1c5ee04acd82831c71dcef0020928c163b810a3ce5477fb",
@@ -484114,6 +484888,15 @@
       "previous_translation_sha256": "2361a2690444a813442b59a73eccfde47389ecbd4627030b0c489ed30555bcac",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_2788.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_284.txt",
+      "paragraph_index": 0,
+      "source_sha256": "156672a06739d9dea087ba8cff1e70fd5a15571097c179759fde381492ce1d7f",
+      "translation": "개요: Tp 43X0는 스웨덴이 수출용으로 개발한 유선유도 대잠 경어뢰이다. 자국용 Tp 431의 수출형으로 추진·유도 능력이 같다.",
+      "previous_translation_sha256": "8188a6633a7208925327ffea94a294e04418a357015a94681b4ca2ac9112f9bd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_284.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_2850.txt",
@@ -484368,6 +485151,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3001.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3010.txt",
+      "paragraph_index": 1,
+      "source_sha256": "451292946df4d8e92ea937228f470c8bfedaf1940f14bff8f4ec806d0eb93801",
+      "translation": "상세: CBU-24(Cluster Bomb Unit-24)는 항공기에서 투하하는 무유도 집속탄이다. SUU-30 살포기에 테니스공 크기의 BLU-26 파편 자탄 665발을 탑재한다. 각 자탄은 폭발·충격파·파편으로 표적을 손상시키거나 파괴한다. 대부분 충격 시 폭발하지만 공중폭발 또는 고정·무작위 시간 지연 기폭으로 설정할 수도 있다. 지연 기능은 최초 공격 후에도 일정 시간 적의 지역 이용을 차단하고 잔해 처리와 사상자 수습을 방해한다. 대인용으로 설계되었지만 표적 지역의 구조물과 비장갑 차량에도 피해를 줄 수 있다.",
+      "previous_translation_sha256": "3075a185b2a8fbe8d3dea7f1d18fe67521ea67a150d5c01613adb5c0675df0da",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_1672.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3011.txt",
       "paragraph_index": 1,
       "source_sha256": "8a097bf6792348c355701874e8ab45c7e5240d5e14b3e87e3bb242158e8943dc",
@@ -484548,6 +485340,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1721.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_312.txt",
+      "paragraph_index": 0,
+      "source_sha256": "95a49dc3b9d79161c680f0f813b3f87d7501503aaeb461e7d219f2c4614bf483",
+      "translation": "개요: 72식은 일본이 1972년에 도입한 직주식 중어뢰이다. 잠수함·어뢰정 발사용으로 설계되었으며 유도장치 없이 2성분 추진제 기반의 고속 추진체계를 사용한다.",
+      "previous_translation_sha256": "fbd16dcbc9377904fe4e7e4e232b84f6c95097f972ae430ceaca843c5bec8870",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_312.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3126.txt",
       "paragraph_index": 1,
       "source_sha256": "d5e6374bc4b88a8f260e80a2db07a747190f4c4fbc5ba88061454fabbf051ae0",
@@ -484609,6 +485410,15 @@
       "previous_translation_sha256": "c1caee456160686328930001c79a4d8b10fcb1c5ce887e9911de04cd172b21bf",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_3167.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_317.txt",
+      "paragraph_index": 5,
+      "source_sha256": "ee82ffdd8dff2a6132e264850fc2680dc6f386f5a8f5e493f6e41f3846ed8c1f",
+      "translation": "성능: 도달 거리 항공기에 따라 다름(항공 투하) || 투하 고도 고고도부터 저고도까지 || 투하 방식 자유낙하·감속낙하·지상 안착 투하 || 정확도 탄도에 의존(폭격기 투하).",
+      "previous_translation_sha256": "961960da2947593be12c306b789f6ad1e66d25ec53104e6ac2ad16118e413380",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_317.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_3212.txt",
@@ -485016,6 +485826,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3679.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3734.txt",
+      "paragraph_index": 0,
+      "source_sha256": "d227a07a8b9bf5114583beba328a259dc2eb41ad641ede690d18c828fecf9633",
+      "translation": "개요: 9mm 권총탄은 자위용·법집행용·군용 보조화기에 널리 쓰이는 표준 권총 탄약이다. 저지력, 반동 제어, 탄창 용량 사이의 균형을 갖췄다.",
+      "previous_translation_sha256": "8cf404fc2be70600fc01e43194c0ddcacac214f08dbea2d6af406a7bb780007c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3734.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3760.txt",
       "paragraph_index": 0,
       "source_sha256": "634d15f9e60149553762c415e9bade857bfcd5200d7a4c5eb468c0bf2183dddd",
@@ -485124,6 +485943,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3839.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_386.txt",
+      "paragraph_index": 0,
+      "source_sha256": "27d2ff5a999ad4ffc0e342e976067d42594c5a5710f046c09be5851328087814",
+      "translation": "개요: L4는 프랑스가 1964년에 도입한 수상 발사형 대잠 중어뢰이다. Malafon 같은 함상 미사일 체계로 투입해 잠항 중인 잠수함을 공격했다.",
+      "previous_translation_sha256": "48b16e5bdc72c0a10d5879b22724a13c24947130663b3deb048fd283c28be020",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_386.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3860.txt",
       "paragraph_index": 1,
       "source_sha256": "0f2be15a814992581feec9543c4d7a57201dbe6bbe54000e691e1cc73e22f94f",
@@ -485214,6 +486042,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_3911.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_3911.txt",
+      "paragraph_index": 3,
+      "source_sha256": "4398d8b44d214ffc1af8c2d99e98e20dc5da5128833656f3858a2ad093da14b9",
+      "translation": "기능: 함정에서 발사된 뒤 유선유도 갱신과 음향 호밍으로 적 잠수함을 자율 탐지·공격한다. 시험 중에는 GPS·NavIC 지원으로 표적 지향과 회수 능력을 높인다.",
+      "previous_translation_sha256": "1cf118ff32a838dac66fa30b7858f9b739443410835b2943fc3115f24a8a8472",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3911.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3923.txt",
       "paragraph_index": 0,
       "source_sha256": "634d15f9e60149553762c415e9bade857bfcd5200d7a4c5eb468c0bf2183dddd",
@@ -485275,6 +486112,15 @@
       "previous_translation_sha256": "d292b32d6e5a839bc0f74b72cd553692226b3c51ba04dd2accf98c2fd96ba354",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_3971.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_3989.txt",
+      "paragraph_index": 3,
+      "source_sha256": "ac66c76016417203b089c033c412778a52b4af4ab4b336e9f8c76d78fb335c02",
+      "translation": "이 방식은 복잡한 표적획득체계나 유도탄 없이 저비용으로 타격하는 수단이다. 정밀도에 의존하지 않으며 비대칭전·대반란작전(COIN)·표적 지역 포화공격에 적합하다.",
+      "previous_translation_sha256": "dcfee236190622d73bf73dc03a0f19bed2cf7b4c911dc7d279dc20c4ecac1186",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_3989.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_403.txt",
@@ -485421,6 +486267,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_4405.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_444.txt",
+      "paragraph_index": 1,
+      "source_sha256": "839b1a6c4d82a72b27dfac59dfe8dcdea3c8866807e26dd93ab9966233be2f63",
+      "translation": "상세: AIM-54A Phoenix는 주로 소련 폭격기 대편대에 대응하도록 개발되었지만 전투기와 저고도 미사일에도 대응할 수 있다. AIM-54/AWG-9는 다중 표적 추적이 가능한 최초의 공대공 무장체계로, 최대 24개를 추적하고 Phoenix 6발을 거의 동시에 발사할 수 있었다. 장거리를 확보하기 위해 초기에는 반능동 레이더 모드로 비행하며 F-14의 AWG-9 또는 APG-71에서 간헐적인 중간 유도 갱신을 받는다. 이 단계에서 24,000~30,000m로 상승해 약 마하 5로 순항한다. 고고도에서 얻은 위치에너지는 이후 표적을 향해 고속 급강하할 때 운동에너지로 전환된다. 표적까지 약 7.5~9.7해리(14~18km)가 남으면 자체 레이더를 켜 종말 유도를 수행한다. 이때부터 발사 항공기와 완전히 독립하는 발사 후 망각 상태가 된다. 방해원 추적 모드도 갖췄다.",
+      "previous_translation_sha256": "777c55ff3f9f6ed40f7d1c785aabed537c70a98163a6fbf8a7633d5352990cfa",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_730.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_446.txt",
       "paragraph_index": 1,
       "source_sha256": "d62675e9c457eae0534fd7a1efb0410edd7387f29be15e815c355da19846e783",
@@ -485455,6 +486310,15 @@
       "previous_translation_sha256": "415aa7d7c88ed80838af5cb4aa05da2855b087f43361c554614b0c63834c1f56",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_4559.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_456.txt",
+      "paragraph_index": 2,
+      "source_sha256": "1db3f865efa112a5c51a26bfa93b2ad688f5df3392752540c9f6a1143ecf3950",
+      "translation": "기능: 112mm SRBOC 또는 동급 함정용 기만체 발사기에서 발사된다. 함정에서 떨어진 거리까지 비행한 뒤 채프를 방출한다. 레이더 반사 구름을 만들어 미사일을 함정에서 다른 곳으로 유인한다.",
+      "previous_translation_sha256": "369b269cfad6a541a3042c17701bab2333075f6d73c687dd0f701b5555a225fc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_456.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_4560.txt",
@@ -485518,6 +486382,15 @@
       "previous_translation_sha256": "df4f1f740bae8274e37f5b7088c22789073295635c2e7cc5f94cd9eb695355d1",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1045.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_470.txt",
+      "paragraph_index": 2,
+      "source_sha256": "b73fcc5e62c4f875d774220464e4dc9495c05d2acead304b2fb4aab0aebc44ba",
+      "translation": "기능: 레이더 위협을 탐지하면 130mm 기만체 발사관에서 발사된다. 낙하산 또는 날개를 전개하고 무선주파수 신호를 송신한다. 함정과 유사한 레이더 신호를 모사해 레이더 유도 미사일을 기만체 쪽으로 유인한다.",
+      "previous_translation_sha256": "c0821b1ee5d3fc82f6556fce9babb13854c668f4a16d3e792974a3bfb71e527e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_470.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_473.txt",
@@ -485754,6 +486627,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_117.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_516.txt",
+      "paragraph_index": 2,
+      "source_sha256": "0db26d82708ba475eeffd477058889145fead19a98fb6c6375ddd6a90ae95519",
+      "translation": "제원: 길이 3m || 직경 160mm || 날개폭 0.64m(640mm) || 중량 105kg || 탄두 11kg 고폭폭풍·파편형 || 유도 2중 대역 영상적외선(IIR), 발사 후 표적 포착(LOAL)·발사 전 표적 포착(LOBL) || 최대 고도 16km 초과.",
+      "previous_translation_sha256": "5338e893f130489a0a5078c813cc9eda9df29d702d1fade4c106de56f9c65361",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_516.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_52.txt",
       "paragraph_index": 1,
       "source_sha256": "51456ac45b86ed90bb3db64c7df76810955af4923880a53c9c823dc518dc53ef",
@@ -485779,6 +486661,24 @@
       "previous_translation_sha256": "476255812e6eed1eaa043054af6bcf4fda2d5aa58a5cf463e6ffd68daa0ec295",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_532.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_532.txt",
+      "paragraph_index": 3,
+      "source_sha256": "cb68844721b81e1d74f0d7f67bdf4db7876f59c85ab900b96d33d35e4f862db1",
+      "translation": "기능: Yu-4A는 잠수함 어뢰발사관에서 발사되어 수동 음향 호밍으로 수상함의 소음을 탐지하고 추적한다. 근·중거리 대함 교전에 최적화되었다.",
+      "previous_translation_sha256": "53bf182c8a6e316fffecf528872aa639d923047d652bdfc9ba5b47152dcbfca1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_532.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_533.txt",
+      "paragraph_index": 0,
+      "source_sha256": "b70169237b1d6331a062e3d6d9db3eaa97b7f6774c23100cfa224a4851988980",
+      "translation": "개요: Yu-5는 1989년에 처음 실전 배치된 중국의 대잠 중어뢰이다. 중국이 잠수함 발사 무기에 유선유도와 음향 호밍을 처음으로 결합한 사례이다.",
+      "previous_translation_sha256": "9f11606017dc83e5de7f8c20ce35e13f9699681fba00581244d243fa8ee9f381",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_533.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_541.txt",
@@ -485959,6 +486859,15 @@
       "previous_translation_sha256": "a5ff89d562c32d93d14b0587d355fc1b2019a7f1929285c8155aa943efee9837",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_588.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_589.txt",
+      "paragraph_index": 0,
+      "source_sha256": "dbffa7af96c53d9f865f4f200d375515e26ba14b0ed93c1e6cddf6de05ab4767",
+      "translation": "개요: RGM-84L Harpoon Block II는 수상 발사형 장거리 레이더 유도 대함·대수상 미사일이다. 고체연료·터보제트 추진 방식으로 설명되며 해면밀착비행을 한다. 221kg 탄두를 탑재한다.",
+      "previous_translation_sha256": "59af636fd02cc2cce6222e7183c12f000bc524c7432ed3ec62fdb37c3d1c2a7f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_589.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_589.txt",
@@ -487132,6 +488041,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_710.txt",
+      "paragraph_index": 0,
+      "source_sha256": "bc6bcc477d95f3b1f392fa7f45ddc7dc5d8caabbe7f3105fe90af896101b16ff",
+      "translation": "개요: Mk 37 Mod 2는 미국 해군의 잠수함 발사형 중어뢰로, Mod 1을 개량해 1967년에 도입되었다. 대잠전용 유선유도와 향상된 소나 능력을 갖췄다.",
+      "previous_translation_sha256": "cce6250bb06b7066ee5aeb54aa833ba81bd03d7e0b309eff895bde23402fe979",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_710.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_710.txt",
       "paragraph_index": 1,
       "source_sha256": "1ae650632bc2ac4dab3eadb0e2921a8fd828235b65c5b43167c2eadcac1574a8",
       "translation": "세부 사항: “Mark 37”은 미 해군의 제2차 세계대전 이후 음향유도 어뢰 계열을 나타내며, Mod 2는 1967년부터 시작된 Mod 1의 재생 개량형을 뜻한다. 길이는 약 4.09 m, 직경은 533 mm, 중량은 약 767 kg이며, 150 kg HBX-3 탄두를 탑재한다. Mod 2는 기존 자기변형식 변환기를 압전식 변환기로 교체하여 음향 표적포착 거리를 약 640 m에서 약 910 m로 늘렸으며, 전자장치는 반도체 부품으로 현대화했다. 추진은 계속 Mark 46 은아연 전지를 사용하는 전기추진 방식이며, 약 17 kn에서 약 21 km 또는 약 26 kn에서 약 10 km의 두 가지 속력·사거리 설정을 제공한다. 유도는 초기 자이로 기반 직진 항주, 중간 단계의 유선유도, 종말 단계의 능동/수동 소나 유도를 결합한다.",
@@ -487156,6 +488074,15 @@
       "previous_translation_sha256": "15712fae36fc84e48f58f77c54ba0c2d15e28350653a44fb2861f444b5fefaa0",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_716.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_718.txt",
+      "paragraph_index": 0,
+      "source_sha256": "a0bd8d44f9aacb3bd1c333aed008cf3bad9407eef7055f920a19020698415732",
+      "translation": "개요: AIM-120C-7 AMRAAM은 가시거리 밖 교전용 발사 후 망각 방식의 능동 레이더 유도 공대공 미사일이다. 유도·사거리·전자방해 대응(ECCM) 성능을 크게 개선했다.",
+      "previous_translation_sha256": "4f6246fd37d745802df471d0d8bbdbcf3f00efce5f4d6a91428d821bca230157",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_718.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_719.txt",
@@ -488256,6 +489183,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1113.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_88.txt",
+      "paragraph_index": 1,
+      "source_sha256": "158818c8833bf865b21caa78404d4d4ba627935904e1f92c50a05e206667cdfd",
+      "translation": "상세: GBU-24C/B Paveway III는 강화 표적을 정밀 폭격하는 무장이다. 저고도 투하용으로 개발되어 중간 비행 자동조종장치와 이전 Paveway I·II보다 민감한 탐색기를 사용한다. 일반 BLU-116/B 첨단 단일 관통탄(AUP)에 짐벌식 탐색기·컴퓨터 제어부(CCG)와 안정용 꼬리날개를 부착한 구성이다. 지상 또는 공중 레이저 표적지시기의 반사광을 추적하는 레이저 유도무기로 전환한다. 이전 Paveway I·II와 달리 마이크로프로세서로 조종면을 비례 제어하므로 작은 편향각으로 부드럽게 비행해 사거리가 크게 늘었다. 알려진 정확도는 원형공산오차(CEP) 1m이며, BLU-116/B 탄두는 철근콘크리트 8~12ft를 관통할 수 있다.",
+      "previous_translation_sha256": "edc4d7e4cf2d1c906fb561d69593fa77be41432816f8fcae46c4d54422a3b028",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_88.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_880.txt",
       "paragraph_index": 1,
       "source_sha256": "7e24c2380bfd2c5f5bd3d572b1e658cd0c55e89479c9808260b59d9c3fe0dff9",
@@ -488544,6 +489480,24 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_971.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_973.txt",
+      "paragraph_index": 1,
+      "source_sha256": "158818c8833bf865b21caa78404d4d4ba627935904e1f92c50a05e206667cdfd",
+      "translation": "상세: GBU-24C/B Paveway III는 강화 표적을 정밀 폭격하는 무장이다. 저고도 투하용으로 개발되어 중간 비행 자동조종장치와 이전 Paveway I·II보다 민감한 탐색기를 사용한다. 일반 BLU-116/B 첨단 단일 관통탄(AUP)에 짐벌식 탐색기·컴퓨터 제어부(CCG)와 안정용 꼬리날개를 부착한 구성이다. 지상 또는 공중 레이저 표적지시기의 반사광을 추적하는 레이저 유도무기로 전환한다. 이전 Paveway I·II와 달리 마이크로프로세서로 조종면을 비례 제어하므로 작은 편향각으로 부드럽게 비행해 사거리가 크게 늘었다. 알려진 정확도는 원형공산오차(CEP) 1m이며, BLU-116/B 탄두는 철근콘크리트 8~12ft를 관통할 수 있다.",
+      "previous_translation_sha256": "edc4d7e4cf2d1c906fb561d69593fa77be41432816f8fcae46c4d54422a3b028",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_88.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_978.txt",
+      "paragraph_index": 0,
+      "source_sha256": "d771b83b7fda07c6dfe2fdc094f42fdad99f783173afcdd6232aea202782f7b1",
+      "translation": "개요: AS-20 KAYAK(Kh-35U 3M24 URAN)은 공중발사 중거리 아음속 대함 미사일이다. 고체연료·터보제트 추진 방식으로 설명되며 능동 I/J 대역 레이더 탐색기를 사용한다. 145kg 고폭탄두를 탑재한다.",
+      "previous_translation_sha256": "0b9dfff5cdd16bdec558d9521756cfd4024297e9d597b9e322797725d435d250",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_978.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_983.txt",
       "paragraph_index": 1,
       "source_sha256": "1b18d03462fbb0e79010af6c9c9b0489c67f0a95dfad2fc80f7421169053adc5",
@@ -488551,6 +489505,15 @@
       "previous_translation_sha256": "4a3aebe3adf2f1fb5da3f58cc4094b8e3fbc4b4870809aa0531e7d641961b109",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_733.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_984.txt",
+      "paragraph_index": 0,
+      "source_sha256": "8862f4b8ee94d21e23e42923e9e79c4ee02ced3759c2e18096cc12f474f9b43e",
+      "translation": "개요: AS-18 KAZOO A(Kh-59M)는 2단 중거리 아음속 공대지 지상공격 미사일이다. 고체연료·터보제트 추진 방식으로 설명되며, 320kg 관통 고폭탄두 또는 280kg 집속탄두를 탑재한다.",
+      "previous_translation_sha256": "884f2e0a6afce6b45d4044dcd2fa573ec10990108af2e1944f44bd84c229dbff",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_984.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_994.txt",
@@ -488587,6 +489550,15 @@
       "previous_translation_sha256": "9a12cc7944d5b4370b3bf7a86df901ec068047e00337c242f163e8afc45f00ab",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_737.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_997.txt",
+      "paragraph_index": 3,
+      "source_sha256": "3f60b451b45d4f119aad92e54fb6567bdaeb6fb407b152849c2dd483c20b95fb",
+      "translation": "Styx는 오늘날 대체로 구식으로 평가되며 크고 느려 현대 전투함의 방어망을 돌파하기 어렵다. 그러나 높은 파괴력과 광범위한 배치 때문에 여전히 전략적 중요성을 유지한다.",
+      "previous_translation_sha256": "701041fb3529baf54e2231775172f48ade03adc6098e43974ad157c87eb24a8b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_997.txt"
     }
   ],
   "supplemental_entries": [
