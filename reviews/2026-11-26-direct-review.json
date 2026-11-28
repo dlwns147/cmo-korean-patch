@@ -10,8 +10,8 @@
     "changed_from_base": {
       "ko.tsv": 179,
       "scenario-ko.b64.tsv": 46632,
-      "db_files": 4385,
-      "db_paragraphs": 9069
+      "db_files": 4391,
+      "db_paragraphs": 9122
     },
     "source_recovery": {
       "matched": {
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 579,
+    "additional_whole_db_paragraph_reviews": 603,
     "supplemental_source_entries": 43,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -44,13 +44,13 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 143,
-      "pending_locations": 143,
-      "covered_associations": 2770,
+      "unique_pending_whole_paragraphs": 119,
+      "pending_locations": 119,
+      "covered_associations": 2807,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 1838,
+    "whole_db_paragraph_applications": 1891,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
@@ -400050,6 +400050,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_125.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_125.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -400059,10 +400068,28 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_129.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_129.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
       "previous_translation_sha256": "74c27b8152cebb95ecc822e79ccf22ddda93931e055441051b0300138545d73d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1291.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
@@ -400173,6 +400200,15 @@
       "previous_translation_sha256": "71e66ee333c9d453d08a24302cd516b28e8938c60d63fd1dd5714a6b28f93668",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1456.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1470.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_1470.txt",
@@ -400347,6 +400383,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_165.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_165.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -400371,6 +400416,15 @@
       "previous_translation_sha256": "80bf06fe99a4b3703b3a5faf0afba6a59af1078badbcef11b9e065a5f9a3ce98",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_170.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_170.txt",
@@ -400500,6 +400554,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_179.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_179.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -400563,10 +400626,28 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_1953.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1953.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
       "previous_translation_sha256": "74c27b8152cebb95ecc822e79ccf22ddda93931e055441051b0300138545d73d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1954.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
@@ -400923,6 +401004,15 @@
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_2885.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2885.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -400974,6 +401064,15 @@
       "previous_translation_sha256": "08af73d86c4f79452e9a61850c0e76e8f6b60771cfdd305465e612bc9174332a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1852.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2992.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_2992.txt",
@@ -402164,6 +402263,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1251.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/ship_445.txt",
+      "paragraph_index": 0,
+      "source_sha256": "93ab04ce01b8a7364ffa3638bf109c997a036d359a261520ed55e6fad9a80379",
+      "translation": "Dixmude는 원래 1940년 12월 18일 진수된 상선으로, 미 해군이 1941년 5월 20일 매입했다. 뉴욕의 Atlantic Basin Ironworks가 개조를 수행했으며, 비행갑판에는 승강기 1기와 유압식 캐터펄트 1기가 설치되었다. 영국 해군에서는 Biter라는 이름으로 선단 호위와 북아프리카 상륙작전에 참가했다. 1944년 8월 24일 비전투성 화재를 겪었고, 유럽에서 전쟁이 끝난 뒤에야 수리를 마쳤다. Biter는 프랑스에 양도되어 프랑스의 첫 전후 항공모함이 되었다. Bearn이 이미 항공기 수송함으로 전환되어 프랑스는 항공모함이 절실했지만, Dixmude는 1945~1947년 화물 수송함으로 사용되었다. 이후 미 해군의 잉여 Dauntless 급강하폭격기로 조종사 자격훈련을 실시하고 프랑스령 인도차이나에서 전투에 참가했다. 퇴역 후에는 툴롱에서 Corps Amphibie(해병대)의 숙영함으로 쓰이다가 1966년 6월 처분되었다.",
+      "previous_translation_sha256": "68474171f26385ed60c310d72c89a8994ce87417b3c55d9237adb3d2b858b924",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/ship_445.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Ship_50.txt",
       "paragraph_index": 1,
       "source_sha256": "13ad8cf347570acbc93354b342fff808173279e73975cb7ce07434ebb2bce6b2",
@@ -402569,6 +402677,15 @@
       "review_origin": "DB/Descriptions/CWDB/Weapon_117.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Weapon_1234.txt",
+      "paragraph_index": 2,
+      "source_sha256": "a5bec6ec6d5e69f6a02a1b084e595d0c3ab6a43b660f79724b190645171a0858",
+      "translation": "발사 전에 레이더의 표적획득 구역을 대·중·소 중 하나로 설정한다. 구역이 좁을수록 더 정확한 표적 정보가 필요하지만, 표적이 경보를 받고 대응할 수 있는 시간도 짧아진다. Harpoon은 발사 전에 거리·방위 발사(RBL) 모드와 방위 전용 모드 중 하나로 설정한다. RBL 모드에서 RGM-84C Harpoon은 발사 직후 낮은 순항고도로 하강한 뒤, 레이더 고도계와 관성항법 장치를 이용해 계산된 표적 위치 부근의 사전 지정 지점으로 비행한다. 이어 주파수 변경이 가능한 J 대역(10~20GHz) 능동 레이더 탐색기를 켜고 표적을 향해 유도된다. 방위 전용 모드에서는 표적 방위로 발사되며, 발사 직후 레이더 탐색기가 작동한다. 적합한 표적을 찾지 못하면 탐색 비행으로 전환하고, 끝내 표적을 포착하지 못하면 자폭한다.",
+      "previous_translation_sha256": "5307a2d23466e133f20d82b2b0da610ac92c855b663d3b41aae41f152eeebd18",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_1234.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Weapon_1288.txt",
       "paragraph_index": 1,
       "source_sha256": "ad6fec9d1fd7ab5d10ccda634eac53e2becff7eb5f42e68e3e37fd587c222c0a",
@@ -402893,6 +403010,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1006.txt",
+      "paragraph_index": 1,
+      "source_sha256": "1eb846a50d62cfd95c9a0b3a811e4471032b06404c34a47850a408c9430a1ac9",
+      "translation": "세부 사항: MQ-8B는 소음을 줄이고 양력과 성능을 높이기 위해 RQ-8A의 직경이 큰 3엽 로터 대신 4엽 주로터를 채택했다. 이 4엽 로터는 이미 Fire Scout 시제기에서 평가를 마쳤다. 이를 통해 총이륙중량이 500파운드 늘어난 3,150파운드(225kg 증가한 1,430kg)가 되었으며, 단거리 임무에서는 최대 700파운드(320kg)를 탑재할 수 있다. MQ-8B의 짧은 보조날개는 공력 성능을 높이는 동시에 무장 장착점으로 쓰인다. 탑재 예정 무장에는 Hellfire 미사일, Viper Strike 레이저 유도 활공무장, 특히 첨단 정밀타격 무기체계(APKWS) 포드가 포함된다. APKWS는 70mm(2.75인치) 접이식 날개 로켓에 레이저 유도를 적용한 무장으로, 육군은 현대 전장에 이상적이라고 평가했다. 육군은 Fire Scout로 야전 부대에 최대 200파운드(90kg)의 긴급 보급품을 운반하는 방안에도 관심을 보였다.",
+      "previous_translation_sha256": "65919847cbef34238b73f58d27363e91fa56f5e6751f9ac24a0593029e2a828b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1006.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1018.txt",
       "paragraph_index": 1,
       "source_sha256": "636cc7b718b3e11203cd225333a9fbcff0e26205066834b49aca083b0cc3fee9",
@@ -402956,6 +403082,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1022.txt",
+      "paragraph_index": 1,
+      "source_sha256": "fe06da9d2b691dfb5a5cf5c54e1ab1fcedbec7cd7c391e49f803b54ddd8126d4",
+      "translation": "세부 사항: Tornado ADV(방공형)는 영국·독일·이탈리아 3국 합작사 Panavia가 Tornado IDS를 바탕으로 개발한 요격 특화형이다. NATO와 수출 고객에게 긴 체공시간과 신속한 요격 능력을 제공하기 위해 설계되었으며, 연료 용량을 늘리도록 동체를 연장하고 전용 공중요격 레이더를 탑재했다. Turbo-Union RB199-34R Mk 104 터보팬 엔진 2기로 최고 마하 2.2까지 비행한다. 하드포인트는 8개(날개 아래 4개, 동체 아래 4개)이며, AIM-9H Sidewinder와 Skyflash 중거리 미사일을 탑재할 수 있고 27mm Mauser BK-27 기관포 1문을 갖추었다. 사우디아라비아는 Al Yamamah 사업으로 Tornado ADV를 도입했으며, 첫 기체는 1990년에 취역했다. British Aerospace의 지원을 받았고, 지역 영공 통제에 필요한 완전한 방공 능력을 유지했다.",
+      "previous_translation_sha256": "f0d7835b8d66e82162922991d9e1429c31fc48f6f67f358ffbfaabfdb241e29a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1022.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1024.txt",
       "paragraph_index": 2,
       "source_sha256": "29a3f8a9dbc833bb2c6e046fb3118d6912d66748ef4d30e66b37d316c1da9f94",
@@ -402990,6 +403125,15 @@
       "previous_translation_sha256": "0dec176865c643bf47550e647f15febe55d06493f6b18802453e12dcd96ab1cc",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1032.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1042.txt",
+      "paragraph_index": 1,
+      "source_sha256": "acdabb5e2af188f7f61f55eb8fba4bb032cb4df074e5d477e5e79ebce398679f",
+      "translation": "세부 사항: Tornado IDS는 Panavia Aircraft GmbH가 독일·영국·이탈리아 3국 공동사업으로 개발했다. 독일은 서로 다른 임무에 맞춰 공군형과 해군형을 모두 도입했다. 독일 해군 항공대(Marineflieger)형은 해상 타격에 특화되었으며, MFG 1과 MFG 2 항공단 소속으로 Jagel과 Eggebek 공군기지에서 운용되었다. Turbo-Union RB199-34R Mk103 애프터버너 터보팬 엔진 2기를 탑재해 마하 2.2까지 비행했으며, 전투행동반경은 약 1,390km였다. 외부 하드포인트는 9개로 AS.34 Kormoran 대함 미사일, AGM-88 HARM, GBU-16 Paveway II 레이저 유도폭탄, MW-1 자탄 살포 장치 등을 탑재했고 Mauser BK-27 기관포도 갖추었다. 항공전자 장비에는 지형추적 레이더, 항법 레이더, 내장 전자방해 장비(ECM), 레이더 경보 수신기(RWR)가 포함되었다. 해군 항공대형의 정확한 레이더 명칭은 공개되지 않았다.",
+      "previous_translation_sha256": "b8bd2f68e59888073d1a821d74fb7046a616c5cdfcc15271686ed923317d31b7",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1042.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1049.txt",
@@ -403305,6 +403449,15 @@
       "previous_translation_sha256": "295a8a1b0adb488ca600a0515b0fab007992746508ddb3c6716b378fff497e93",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1147.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1148.txt",
+      "paragraph_index": 1,
+      "source_sha256": "86615ea86965ae7d0439a853cfe20eccf834b4a211c1bb9ab3d14963abc30860",
+      "translation": "세부 사항: Sea Harrier FA.2는 British Aerospace가 영국 해군에 개선된 함대 방공 전투기를 제공하기 위해 개발한 Sea Harrier FRS.1의 개량형이다. 추력 편향 기능이 있는 Rolls-Royce Pegasus Mk 106 터보팬 엔진 1기를 사용하며 최고속도는 약 마하 0.95다. 하드포인트는 동체 아래 1개와 날개 아래 6개로 총 7개이며, 공대공 미사일, 폭탄, 로켓 포드, 기관포 포드, 외부 연료탱크를 탑재할 수 있다. 주무장은 가시거리 밖 교전용 AIM-120 AMRAAM과 근접전용 AIM-9L Sidewinder이며, 필요하면 30mm ADEN 기관포 포드 2개를 장착한다. Ferranti Blue Vixen 펄스 도플러 레이더와 내장 레이더 경보 수신기를 갖추었으며, 전자방해(ECM) 포드와 채프·플레어 발사기도 탑재할 수 있다. 수직·단거리 이착륙(V/STOL) 구성 덕분에 Invincible급 같은 소형 항공모함에서도 운용할 수 있었다.",
+      "previous_translation_sha256": "a32aabcf434616541b402fde92cb524a497c28cfbf456ee78961abcb8b12ad70",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1148.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1149.txt",
@@ -403641,6 +403794,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_148.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_148.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -403776,6 +403938,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_167.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_167.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -403845,6 +404016,15 @@
       "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1720.txt",
+      "paragraph_index": 1,
+      "source_sha256": "c09cb0904b7fb19fdc1837ca80649c81213b2c42599780c24defd34631d653b0",
+      "translation": "세부 사항: GR.9는 합동 개량·정비 사업(JUMP)에 따라 기존 GR.7 기체를 중기 성능개량한 기종으로, 2006년 실전 배치되었다. 약 21,750파운드의 추력을 내는 Rolls-Royce Pegasus Mk 105 터보팬 엔진을 유지해 완전한 수직·단거리 이착륙(V/STOL) 능력을 갖추었다. 하드포인트 7개와 복합재 구조를 유지하면서 MIL-STD-1760 무장 데이터 버스, 신형 임무 컴퓨터, 개량 GPS/INS, 디지털 조종석 체계를 통합했다. 레이더는 없으며 전방감시 적외선(FLIR) 장치와 필요에 따라 장착하는 외부 표적지시 포드에 의존했다. 방어 장비는 Zeus 전자방해 체계, Plessey 미사일 접근 경보 장치(MAWS), 레이더 경보 수신기, 채프·플레어 발사기로 구성되었다. 주력 공대지 무장은 Brimstone 대장갑 미사일, 주력 공대공 무장은 AIM-9 Sidewinder 단거리 적외선 유도 미사일이었다. 최고속도는 약 마하 0.9였다.",
+      "previous_translation_sha256": "61860e01484e98f4bbe231f870978035a5b53d5bee4272959ca9574aa33e2647",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1720.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1725.txt",
@@ -404730,10 +404910,28 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2474.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2474.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
       "previous_translation_sha256": "74c27b8152cebb95ecc822e79ccf22ddda93931e055441051b0300138545d73d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2475.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
@@ -404748,10 +404946,28 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2476.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2476.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
       "previous_translation_sha256": "74c27b8152cebb95ecc822e79ccf22ddda93931e055441051b0300138545d73d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2477.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
@@ -404964,6 +405180,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2716.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2716.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -404973,10 +405198,28 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2717.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2717.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
       "previous_translation_sha256": "74c27b8152cebb95ecc822e79ccf22ddda93931e055441051b0300138545d73d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2719.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
@@ -405351,6 +405594,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3009.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3009.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -405528,6 +405780,15 @@
       "previous_translation_sha256": "a4f0469821d266b51ecccc76e807fed1b54c932e9d5e4c3d0ed8382f9d969659",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_3206.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3210.txt",
+      "paragraph_index": 1,
+      "source_sha256": "7ae753464f4aa0b0991564c087fb719fde758f70c398aa4d8402029bf6a437a2",
+      "translation": "세부 사항: Su-30MKI Mk2는 Su-27UB 기체를 바탕으로 한 Su-30MKI의 발전형 생산 규격이다. AL-31FP 추력 편향 엔진과 기동성을 높이는 카나드, 다목적 무장 탑재용 하드포인트 12개를 갖추었다. N011M Bars 수동 전자주사 배열 레이더와 적외선 탐색·추적 장치(IRST)는 유지하면서, 인도산 무장을 지원하도록 임무 컴퓨터와 소프트웨어를 개선했다. R-73·R-77 공대공 미사일, Kh-31·Kh-29 공대지 미사일, KAB-500 유도폭탄을 운용할 수 있으며, 2016년에는 Astra Mk1과 BrahMos-A 통합 준비가 진행 중이었다. 추가 장비에는 헬멧 장착 조준기, 내장 레이더 경보 수신기(RWR), 전자전 장비, 프랑스·이스라엘제 항공전자 하위체계가 포함된다. HAL 제작 Mk2는 2015년 중반부터 인도되었고, 2016년까지 완전한 작전 운용에 들어갔다. 이 Su-30MKI 파생형의 NATO 식별명은 Flanker-H다.",
+      "previous_translation_sha256": "5a92096aa9f12913d39e064806ee471ef0b6158f45c110760b0577940b6b0824",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3210.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3222.txt",
@@ -405755,6 +406016,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_236.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3455.txt",
+      "paragraph_index": 1,
+      "source_sha256": "1eb846a50d62cfd95c9a0b3a811e4471032b06404c34a47850a408c9430a1ac9",
+      "translation": "세부 사항: MQ-8B는 소음을 줄이고 양력과 성능을 높이기 위해 RQ-8A의 직경이 큰 3엽 로터 대신 4엽 주로터를 채택했다. 이 4엽 로터는 이미 Fire Scout 시제기에서 평가를 마쳤다. 이를 통해 총이륙중량이 500파운드 늘어난 3,150파운드(225kg 증가한 1,430kg)가 되었으며, 단거리 임무에서는 최대 700파운드(320kg)를 탑재할 수 있다. MQ-8B의 짧은 보조날개는 공력 성능을 높이는 동시에 무장 장착점으로 쓰인다. 탑재 예정 무장에는 Hellfire 미사일, Viper Strike 레이저 유도 활공무장, 특히 첨단 정밀타격 무기체계(APKWS) 포드가 포함된다. APKWS는 70mm(2.75인치) 접이식 날개 로켓에 레이저 유도를 적용한 무장으로, 육군은 현대 전장에 이상적이라고 평가했다. 육군은 Fire Scout로 야전 부대에 최대 200파운드(90kg)의 긴급 보급품을 운반하는 방안에도 관심을 보였다.",
+      "previous_translation_sha256": "65919847cbef34238b73f58d27363e91fa56f5e6751f9ac24a0593029e2a828b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1006.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3457.txt",
       "paragraph_index": 1,
       "source_sha256": "103e8f7dc3aa436c613c2ba457ca6d3339513ab4cc8cbed3774664123bdd05cf",
@@ -405771,6 +406041,15 @@
       "previous_translation_sha256": "a580aa75c8dcde0000d2987113f32a8940cf13966727e842294f061726fc9a74",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_3457.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3458.txt",
+      "paragraph_index": 1,
+      "source_sha256": "1eb846a50d62cfd95c9a0b3a811e4471032b06404c34a47850a408c9430a1ac9",
+      "translation": "세부 사항: MQ-8B는 소음을 줄이고 양력과 성능을 높이기 위해 RQ-8A의 직경이 큰 3엽 로터 대신 4엽 주로터를 채택했다. 이 4엽 로터는 이미 Fire Scout 시제기에서 평가를 마쳤다. 이를 통해 총이륙중량이 500파운드 늘어난 3,150파운드(225kg 증가한 1,430kg)가 되었으며, 단거리 임무에서는 최대 700파운드(320kg)를 탑재할 수 있다. MQ-8B의 짧은 보조날개는 공력 성능을 높이는 동시에 무장 장착점으로 쓰인다. 탑재 예정 무장에는 Hellfire 미사일, Viper Strike 레이저 유도 활공무장, 특히 첨단 정밀타격 무기체계(APKWS) 포드가 포함된다. APKWS는 70mm(2.75인치) 접이식 날개 로켓에 레이저 유도를 적용한 무장으로, 육군은 현대 전장에 이상적이라고 평가했다. 육군은 Fire Scout로 야전 부대에 최대 200파운드(90kg)의 긴급 보급품을 운반하는 방안에도 관심을 보였다.",
+      "previous_translation_sha256": "65919847cbef34238b73f58d27363e91fa56f5e6751f9ac24a0593029e2a828b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1006.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_347.txt",
@@ -406044,6 +406323,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_358.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_358.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -406059,6 +406347,15 @@
       "previous_translation_sha256": "f33269b8bc40fe71485a63452796bdd3ed951c5ab01eb489b5cd17ea7a752487",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_36.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_360.txt",
+      "paragraph_index": 1,
+      "source_sha256": "72e273c44e69027046c6781b1a75b7a0c9d4db91576bc63178c5bcfc36ddd691",
+      "translation": "세부 사항: 2001년 당시 GR.1은 Turbo-Union RB199-34R Mk 103 터보팬 엔진 2기와 후퇴각을 25°~67°로 조절하는 가변후퇴익을 갖춰 고속 돌진과 지형을 엄폐물로 활용하는 저고도 비행이 가능했다. 통합 지형추적 레이더와 레이저 거리측정·표적탐지 장치(LRMTS)는 저고도 항법과 표적 획득을 지원했다. 표준 무장에는 BL755 집속탄, 1,000파운드 범용폭탄, JP233 활주로 무력화용 살포 장치, Paveway II 레이저 유도폭탄, 자위용 AIM-9L Sidewinder가 포함되었다. 방어 장비는 Sky Shadow 전자방해 포드, BOZ-107 채프·플레어 발사기, 내장 레이더 경보 수신기로 구성되었다. 2001년에는 중기 성능개량(MLU)에 따라 GR.1을 GR.4 규격으로 전환하는 작업이 진행 중이었다. 이 개량은 전방감시 적외선(FLIR) 장치, GPS, 광시야각 HUD, 야간투시경(NVG) 호환 기능, 첨단 데이터링크와 함께 Storm Shadow·Brimstone 운용 및 RAPTOR 포드 지원 등의 능력 향상을 포함했다.",
+      "previous_translation_sha256": "177d8998396a8e23784196d39fee6eddb7971229683a30b513905fad3071c4e3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_360.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3601.txt",
@@ -406214,6 +406511,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_3893.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3894.txt",
+      "paragraph_index": 1,
+      "source_sha256": "08527159383bbb035ac278e9c74e683e72625a7dcbb1bd43a67c0a4e49b836e0",
+      "translation": "세부 사항: 사우디아라비아의 Tornado IDS는 1980년대 Al Yamamah I 사업으로 도입되었으며, 2000년대 BAE Systems가 수행한 Tornado 유지지원 사업(TSP)을 통해 대대적인 현대화를 거쳤다. 2013년까지 표적 획득, 무장 통합, 전자장비가 개선된 기체들이 실전에서 운용되고 있었다. Turbo-Union RB199-34R Mk103 터보팬 엔진 2기, 최고속도 마하 2.2, 약 1,390km의 전투행동반경은 유지되었다. 외부 하드포인트는 9개로 GBU-24 Paveway III, GBU-12/16 레이저 유도폭탄, Brimstone 미사일, Storm Shadow 순항미사일, AIM-9 Sidewinder를 탑재할 수 있었으며 Mauser BK-27 기관포도 갖추었다. 항공전자 장비에는 지형추적 레이더, 개량 레이더 경보 수신기(RWR), 전자방해 장비(ECM), 디지털 조종석 화면, 향상된 항법·통신 체계가 포함되었다. 레이더 모델은 공개되지 않았지만 영국 공군 GR.4 규격에 준하는 기술을 적용했다.",
+      "previous_translation_sha256": "9827f92859b0ddd6cd7545df972291b03e98121c59cb67ae8304103097e753ac",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3894.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3897.txt",
       "paragraph_index": 1,
       "source_sha256": "423d6a1283debec61d7b72940a8f3491576405986b86c0cae8f8c4ddbd44d5ba",
@@ -406293,6 +406599,15 @@
       "previous_translation_sha256": "476a8f039b749e54d1522adaa980c04b78e85678e85baec4948c3611aa33de5a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1112.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_409.txt",
+      "paragraph_index": 1,
+      "source_sha256": "65f0afb700fcc7aa8b601ba7601651538308bf375c0971e77f738eaa24566a0f",
+      "translation": "세부 사항: Tornado IDS는 1985년 Al Yamamah I 협정으로 도입되어 1986년 사우디아라비아에서 취역했으며, 1990년대 초까지 48대가 인도되었다. 1995년 무렵에는 King Abdulaziz와 King Khalid 등의 기지에서 운용 체계가 정착되었고, 영국의 기술 지원을 받아 정비·유지되었다. Turbo-Union RB199-34R Mk103 터보팬 엔진 2기를 탑재했으며, 최고속도는 마하 2.2, 전투행동반경은 약 1,390km였다. 외부 하드포인트는 9개로, GBU-10/12 Paveway II 레이저 유도폭탄, Mk 80 계열 범용폭탄, JP233 활주로 무력화 무장, 자위용 AIM-9 Sidewinder를 탑재했고 Mauser BK-27 기관포를 내장했다. 지형추적 레이더, 내장 레이더 경보 수신기(RWR), 전자방해 장비(ECM)를 갖추고 레이저 표적지시와 연동할 수 있었다. 레이더는 영국 공군 GR.1 규격을 바탕으로 했지만 구체적인 모델은 공개되지 않았다.",
+      "previous_translation_sha256": "d97c58bd4b7bfd46b5514cfe2a08fad1abf597e664bc95de9350f3e8ff562c6b",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_409.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4125.txt",
@@ -407636,6 +407951,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_779.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_788.txt",
+      "paragraph_index": 1,
+      "source_sha256": "16032cfcf6216ea672f35fc97882de5722b85a3f2b59b9139d2cf424180f04dd",
+      "translation": "세부 사항: Sea Harrier FRS.1은 British Aerospace가 Invincible급 항공모함 운용에 맞춰 개발한 Harrier의 해군형이다. 추력 편향 노즐을 갖춘 Rolls-Royce Pegasus Mk 104 터보팬 엔진 1기를 사용해 수직·단거리 이착륙이 가능하다. 최고속도는 약 마하 0.95이며, 하드포인트는 날개 아래 4개와 동체 아래 1개로 총 5개다. 여기에 미사일, 폭탄, 기관포 포드, 외부 연료탱크를 탑재한다. 주무장은 AIM-9 Sidewinder 단거리 미사일과 30mm ADEN 기관포 포드 2개이며, 무유도폭탄과 로켓 포드도 운용할 수 있다. Ferranti Blue Fox 레이더와 레이더 경보 수신기를 갖추었으며, 외부 전자방해(ECM) 포드와 채프·플레어 발사기도 장착할 수 있었다. 경항공모함에서 출격해 해상 전투공중초계와 요격 임무를 수행하도록 특화되었다.",
+      "previous_translation_sha256": "ffa8f14ab61f68c28e4aba31672e0dc86e246ba2d8039f9d14bf3d3a818d148d",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_788.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_792.txt",
       "paragraph_index": 0,
       "source_sha256": "86b8b202119341342f3523ca3de873bf32f65d5a8d93c30037b0a08fb592ed43",
@@ -407643,6 +407967,15 @@
       "previous_translation_sha256": "63678bd0ef5930e61df440c91d50addd1e651d61e54624c9f72fa0b450645a7a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_792.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_793.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_793.txt",
@@ -407673,6 +408006,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_81.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_81.txt",
       "paragraph_index": 3,
       "source_sha256": "8a4a92e133f64181b7a38c6a906de6836d2e7af9d6675b07156505bd36646edf",
       "translation": "델타익은 빠르게 상승하는 요격기에 매우 적합했지만, 어떤 형태든 선회전투를 하면 속도가 급격히 떨어졌다. 그러나 기체의 낮은 하중 덕분에 전투하중을 탑재한 MiG-21bis도 235m/s(46,250ft/min)의 상승률을 낼 수 있었을 것으로 보이며,[1] 이는 이후 등장한 F-16A의 성능에 크게 뒤지지 않았다. 숙련된 조종사와 성능 좋은 미사일이 있다면 동시대 전투기를 상대로도 충분히 선전할 수 있었다. 허용 하중배수는 초기형의 +7G에서 최신형의 +8.5G로 증가했다. 지상지원 임무에서는 더 신형인 가변익 MiG-23과 MiG-27로 대체되었다. 그러나 소련이 새로운 미국 제공전투기에 맞서 기동 공중전을 벌이는 전투기로서 MiG-21을 최종적으로 대체한 것은 MiG-29가 등장한 뒤였다.",
@@ -407688,6 +408030,15 @@
       "previous_translation_sha256": "331295e87d87b019e5e83c1c3c089dc4043649f0e04bbba54e26b8ad4592528e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_818.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_82.txt",
+      "paragraph_index": 1,
+      "source_sha256": "b0475c72472d53ace02a85bf05bdeedded3bac78c22a84a11840eaad574b5f89",
+      "translation": "세부 사항: MiG-21은 전투기와 요격기의 특성을 한 기체에 성공적으로 결합한 최초의 소련 항공기였다. 비교적 출력이 낮은 애프터버너 터보제트 엔진으로 마하 2를 달성한 경전투기로, 미국의 Lockheed F-104 Starfighter·Northrop F-5 Freedom Fighter, 프랑스의 Dassault Mirage III와 비교할 수 있다. 기본 배치는 소련의 다른 여러 설계에도 활용되었다. 델타익 기종으로는 Su-9 요격기와 MiG 설계국의 고속 E-150 시제기가 있었으며, 성공적으로 양산된 전선 전투기 Su-7과 미코얀의 I-75 실험용 요격기는 비슷한 동체 형상에 후퇴익을 결합했다. 그러나 충격파 제어용 원뿔과 기수 흡입구를 갖춘 특유의 배치는 소련 밖에서는 널리 쓰이지 않았다. 특히 레이더를 설치할 공간이 매우 좁아 결국 추가 발전에 한계가 있음이 드러났다.",
+      "previous_translation_sha256": "cddb38992164e9edd5117690a3404129c2fcb64ead438a1731abefd1f8d68941",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_82.txt",
@@ -407760,6 +408111,15 @@
       "previous_translation_sha256": "b8bd99d867cf0af98887b178d3a84b0ebf51a45b48455f8acae49e710963364f",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4696.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_854.txt",
+      "paragraph_index": 1,
+      "source_sha256": "088fae61b9a60da710f23d986f3ee9ff198195d90cb6a5bd5fd4172f4819f554",
+      "translation": "세부 사항: Su-30MKI는 Su-27UB 기체를 바탕으로 인도의 요구에 맞춰 개발되었으며, 여러 국가의 항공전자 장비를 결합하고 다목적 임무 능력을 갖추었다. 2006년형은 AL-31FP 추력 편향 엔진과 카나드 전방 날개로 초기동 성능을 확보했으며, 장거리 탐지와 다중 표적 교전을 위한 N011M Bars 수동 전자주사 배열 레이더를 탑재했다. 외부 하드포인트는 12개로, R-73·R-77 공대공 미사일, Kh-29T/L·Kh-31A/P 공대지 미사일, KAB-500 유도폭탄을 탑재한다. 주요 장비로는 프랑스 Thales HUD, Sagem 관성항법 장치, 이스라엘제 전자전 장비, 러시아제 적외선 탐색·추적 장치(IRST), 내장 레이더 경보 수신기(RWR), 헬멧 장착 조준기가 있다. 2006년까지 HAL은 수호이가 공급한 기체와 조립 키트를 이용해 인도에서 MKI 면허생산을 시작했다. 이 Su-30MKI 파생형의 NATO 식별명은 Flanker-H다.",
+      "previous_translation_sha256": "da8e22c945a2c4a1b20c4305396a8a4cd16c008225d708e66aa23c19c7e1746e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_854.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_855.txt",
@@ -408471,6 +408831,15 @@
       "previous_translation_sha256": "19eb9444cd4a128473e3d5ee7d2b142e9cf2abaf7b526cb4bd3f7fedcc3b100f",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1989.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1990.txt",
+      "paragraph_index": 2,
+      "source_sha256": "78a5dcd871c4a3e6df3740b4868c8ed566229898645cef7511dbd8d6536b234e",
+      "translation": "참고: 소련군 BTR 차량화소총중대는 BTR 12대로 구성된다. 차량화소총소대 3개에 각각 3대씩, 기관총·대전차소대에 2대, 중대본부에 1대를 배치한다. 차량 탑재 무장 외에도 최대 7.62mm 구경의 소화기를 보유하며, 각 분대는 RPG-7 대전차 유탄발사기도 휴대한다. 기관총·대전차소대는 AT-7 SAXHORN 또는 AT-13 SAXHORN-2 대전차 유도미사일 3기를 갖춘다. BTR 계열 장갑차는 널리 수출되었으며 도입국에서 개조하기도 했다. 소련의 아프가니스탄 침공 당시 실전에 대거 투입되었다. 소련군에서 운용된 BTR-80은 수명주기 동안 여러 차례 개량과 현대화를 거쳤다. 구난차, 구급차, 여러 종류의 지휘·통신차량과 함께, 다른 형상의 포탑에 30mm 2A72 기관포를 장착한 BTR-80A 등의 파생형이 있다.",
+      "previous_translation_sha256": "a1e1a52fc4043523a4d209344b388bc7bc3467b69deb84527f01fb7384091b2a",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1990.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_2027.txt",
@@ -410363,6 +410732,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1334.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2e94855496b7ffae04deb9d6fa3379a3717c15ef98aad464ef99180e3b65fe09",
+      "translation": "캐나다의 혹독한 환경에서 운용하도록 설계된 이 함정들은 당시의 다른 군함들과 외형이 확연히 달랐다. 핵·생물·화학 공격 상황에 대응하기 위해 둥글게 처리한 선체, 끊김 없이 이어지는 주갑판, 오염물질을 씻어내는 사전 살수 체계를 적용했다. 함내 거주구역은 승조원의 안전을 위해 외부 오염과 차단할 수 있는 방호구역인 시타델의 일부였다. 동시대 다른 함정에서는 보기 어려운 혁신적인 요소로는 함장이 전투 중 함정을 지휘할 수 있도록 함교와 분리한 작전실, 독립된 함내 전화 체계 12개, 공조 설비, 최신 레이더·소나 기술 등이 있었다. 비교적 호화로운 승조원 거주구역 때문에 캐딜락이라는 별명으로 불리기도 했다.",
+      "previous_translation_sha256": "a197f947f6fc5a6bb34374c4c8395f7beb41e9b219909af531d303ef4064dc8e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1334.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_134.txt",
       "paragraph_index": 2,
       "source_sha256": "d5c6464f80e3844a88389e9428c4b9d79c57e33511c1042142d59557f9ac2d3a",
@@ -411560,6 +411938,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_2236.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2e94855496b7ffae04deb9d6fa3379a3717c15ef98aad464ef99180e3b65fe09",
+      "translation": "캐나다의 혹독한 환경에서 운용하도록 설계된 이 함정들은 당시의 다른 군함들과 외형이 확연히 달랐다. 핵·생물·화학 공격 상황에 대응하기 위해 둥글게 처리한 선체, 끊김 없이 이어지는 주갑판, 오염물질을 씻어내는 사전 살수 체계를 적용했다. 함내 거주구역은 승조원의 안전을 위해 외부 오염과 차단할 수 있는 방호구역인 시타델의 일부였다. 동시대 다른 함정에서는 보기 어려운 혁신적인 요소로는 함장이 전투 중 함정을 지휘할 수 있도록 함교와 분리한 작전실, 독립된 함내 전화 체계 12개, 공조 설비, 최신 레이더·소나 기술 등이 있었다. 비교적 호화로운 승조원 거주구역 때문에 캐딜락이라는 별명으로 불리기도 했다.",
+      "previous_translation_sha256": "a197f947f6fc5a6bb34374c4c8395f7beb41e9b219909af531d303ef4064dc8e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1334.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_2286.txt",
       "paragraph_index": 8,
       "source_sha256": "a8f745f3f2f4c2ffe95a3913c50b361b813743872ca4aaa27a40a0c76b19f78e",
@@ -412127,6 +412514,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_3074.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_3187.txt",
+      "paragraph_index": 1,
+      "source_sha256": "81b4cf95724214ad77fc3c2133c3f235565a11291f2e4a41c23b4381eaeb0fcc",
+      "translation": "세부 사항: Shandong은 이전 Liaoning(Type 001)급을 바탕으로 한다. Liaoning은 미완성 상태였던 소련 Kuznetsov급 항공모함 Varyag를 완성한 함정이다. Shandong은 스키점프대를 이용해 단거리 이륙하고 착함 제동장치로 회수하는 STOBAR 방식의 항공모함이다. 이 방식은 무장 탑재량과 출격률을 제한하며, 갑판 위에 충분한 상대풍을 만들기 위해 항공모함이 고속으로 항해할 수 있어야 한다. Kuznetsov와 달리 Shandong은 항공기 운용을 더욱 중시해 대함 미사일 발사기를 제거하고 격납고 공간을 확보했다. 함교 구조물을 줄이고 현측 돌출부인 스폰슨을 확대해 격납고와 갑판 공간을 늘렸으며, 함재기 수와 연료·탄약 적재량도 증가했다. 그러나 캐터펄트가 없어 함재기 J-15는 연료를 가득 실은 상태에서 외부 무장 2톤을 넘겨 탑재하고 이륙할 수 없다.",
+      "previous_translation_sha256": "80321745d2dbf03a9969259c1ae31d9a78bfed017db8c3a9b4d52d8843b79d94",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_3187.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/ship_3192.txt",
       "paragraph_index": 2,
       "source_sha256": "3f3f4c3914b62851e5261b1eae31cded669f6a0da405d6a56bd8476008e21bce",
@@ -412206,6 +412602,15 @@
       "previous_translation_sha256": "dcaf3fb6ee31cc4ee00c790fd0311db1bdc2ed9e97d02660914355e6e6508410",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_38.txt",
+      "paragraph_index": 2,
+      "source_sha256": "9d9fdd6aef2dea0bf9501f3b826ba20a1bacb1b7b19e1a270d111351429b3e26",
+      "translation": "현대식 가스터빈 엔진으로 추진하는 Udaloy II는 성능이 향상된 소나, 통합 방공 사격통제 체계, 첨단 회로를 적용한 여러 디지털 전자장비를 갖추었다. Udaloy I의 기존 MGK-355 Polinom 통합 소나 체계는 새로 설계된 후속 체계 Zvezda M-2로 교체되었다. Polinom의 NATO 식별명은 선체 장착부가 Horse Jaw, 예인부가 Horse Tail이다. Zvezda M-2는 제2수렴대에서 100km(62마일)가 넘는 탐지거리를 갖는다. 설계진은 Zvezda의 종합 성능을 미국 구축함의 AN/SQS-53과 동등한 수준으로 평가하지만, 미국제보다 훨씬 크고 무겁다. 선체 장착부의 길이만 거의 30m에 이른다. Polinom의 어뢰 접근 경보 기능도 후속 체계에서 유지·개선되었다.",
+      "previous_translation_sha256": "0088c3f82ebaa6733880895bbc0d97a84061372d0340cf5d92df4791a255e621",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_38.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_381.txt",
@@ -413142,6 +413547,15 @@
       "previous_translation_sha256": "9068606feba992ac5a5d6d638059596f0978dd30057c0389a7501aa4b0d1ea40",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_864.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_872.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2e94855496b7ffae04deb9d6fa3379a3717c15ef98aad464ef99180e3b65fe09",
+      "translation": "캐나다의 혹독한 환경에서 운용하도록 설계된 이 함정들은 당시의 다른 군함들과 외형이 확연히 달랐다. 핵·생물·화학 공격 상황에 대응하기 위해 둥글게 처리한 선체, 끊김 없이 이어지는 주갑판, 오염물질을 씻어내는 사전 살수 체계를 적용했다. 함내 거주구역은 승조원의 안전을 위해 외부 오염과 차단할 수 있는 방호구역인 시타델의 일부였다. 동시대 다른 함정에서는 보기 어려운 혁신적인 요소로는 함장이 전투 중 함정을 지휘할 수 있도록 함교와 분리한 작전실, 독립된 함내 전화 체계 12개, 공조 설비, 최신 레이더·소나 기술 등이 있었다. 비교적 호화로운 승조원 거주구역 때문에 캐딜락이라는 별명으로 불리기도 했다.",
+      "previous_translation_sha256": "a197f947f6fc5a6bb34374c4c8395f7beb41e9b219909af531d303ef4064dc8e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1334.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/ship_874.txt",
@@ -414323,6 +414737,24 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1183.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1185.txt",
+      "paragraph_index": 2,
+      "source_sha256": "f2ff57aff24e0b53e5efaf012ab1b738fbd8fc678abac4992ab7546536297ffb",
+      "translation": "발사 전에 레이더의 표적획득 구역을 대·중·소 중 하나로 설정한다. 구역이 좁을수록 더 정확한 표적 정보가 필요하지만, 표적이 경보를 받고 대응할 수 있는 시간도 짧아진다. Harpoon은 발사 전에 거리·방위 발사(RBL) 모드와 방위 전용 모드 중 하나로 설정한다. RBL 모드에서 UGM-84G Harpoon은 발사 직후 낮은 순항고도로 하강한 뒤, 레이더 고도계와 관성항법 장치를 이용해 계산된 표적 위치 부근의 사전 지정 지점으로 비행한다. 이어 주파수 변경이 가능한 J 대역(10~20GHz) 능동 레이더 탐색기를 켜고 표적을 향해 유도된다. 방위 전용 모드에서는 표적 방위로 발사되며, 발사 직후 레이더 탐색기가 작동한다. 적합한 표적을 찾지 못하면 탐색 비행으로 전환하고, 끝내 표적을 포착하지 못하면 자폭한다.",
+      "previous_translation_sha256": "611a0d7bc16fe426f6577bcb3d50c2d2c701c47a8d723453957d900202c30c50",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1185.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1189.txt",
+      "paragraph_index": 2,
+      "source_sha256": "cff7a17ad6eb51305216148cac890149075345f755605053bdbf26b570e4147b",
+      "translation": "발사 전에 레이더의 표적획득 구역을 대·중·소 중 하나로 설정한다. 구역이 좁을수록 더 정확한 표적 정보가 필요하지만, 표적이 경보를 받고 대응할 수 있는 시간도 짧아진다. Harpoon은 발사 전에 거리·방위 발사(RBL) 모드와 방위 전용 모드 중 하나로 설정한다. RBL 모드에서 UGM-84D Harpoon은 발사 직후 낮은 순항고도로 하강한 뒤, 레이더 고도계와 관성항법 장치를 이용해 계산된 표적 위치 부근의 사전 지정 지점으로 비행한다. 이어 주파수 변경이 가능한 J 대역(10~20GHz) 능동 레이더 탐색기를 켜고 표적을 향해 유도된다. 방위 전용 모드에서는 표적 방위로 발사되며, 발사 직후 레이더 탐색기가 작동한다. 적합한 표적을 찾지 못하면 탐색 비행으로 전환하고, 끝내 표적을 포착하지 못하면 자폭한다.",
+      "previous_translation_sha256": "b966dfd835125ec442c3998734e9b14683788ce1d95c55960018da6660fffa39",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1189.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_119.txt",
       "paragraph_index": 1,
       "source_sha256": "092a6c4374b9d39a134d7bff4c5da45b826a6c9d6f73f868e51096fdeb00f3b0",
@@ -414645,6 +415077,24 @@
       "previous_translation_sha256": "cc711c09fc1749a6dbdf08d7a35908c73eb02aeb596faa80033df8ead46b3e53",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1596.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1611.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7ba209486586591e1c1fac1c973776dc8facb6480f0f4ecc9f64b86cad263752",
+      "translation": "발사 전에 레이더의 표적획득 구역을 대·중·소 중 하나로 설정한다. 구역이 좁을수록 더 정확한 표적 정보가 필요하지만, 표적이 경보를 받고 대응할 수 있는 시간도 짧아진다. Harpoon은 발사 전에 거리·방위 발사(RBL) 모드와 방위 전용 모드 중 하나로 설정한다. RBL 모드에서 RGM-84D Harpoon은 발사 직후 낮은 순항고도로 하강한 뒤, 레이더 고도계와 관성항법 장치를 이용해 계산된 표적 위치 부근의 사전 지정 지점으로 비행한다. 이어 주파수 변경이 가능한 J 대역(10~20GHz) 능동 레이더 탐색기를 켜고 표적을 향해 유도된다. 방위 전용 모드에서는 표적 방위로 발사되며, 발사 직후 레이더 탐색기가 작동한다. 적합한 표적을 찾지 못하면 탐색 비행으로 전환하고, 끝내 표적을 포착하지 못하면 자폭한다.",
+      "previous_translation_sha256": "389a2f7c82f09fc597584d711e6dc1f9e81cfbc83f7268854d546b30202c5e56",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1611.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1612.txt",
+      "paragraph_index": 2,
+      "source_sha256": "a5bec6ec6d5e69f6a02a1b084e595d0c3ab6a43b660f79724b190645171a0858",
+      "translation": "발사 전에 레이더의 표적획득 구역을 대·중·소 중 하나로 설정한다. 구역이 좁을수록 더 정확한 표적 정보가 필요하지만, 표적이 경보를 받고 대응할 수 있는 시간도 짧아진다. Harpoon은 발사 전에 거리·방위 발사(RBL) 모드와 방위 전용 모드 중 하나로 설정한다. RBL 모드에서 RGM-84C Harpoon은 발사 직후 낮은 순항고도로 하강한 뒤, 레이더 고도계와 관성항법 장치를 이용해 계산된 표적 위치 부근의 사전 지정 지점으로 비행한다. 이어 주파수 변경이 가능한 J 대역(10~20GHz) 능동 레이더 탐색기를 켜고 표적을 향해 유도된다. 방위 전용 모드에서는 표적 방위로 발사되며, 발사 직후 레이더 탐색기가 작동한다. 적합한 표적을 찾지 못하면 탐색 비행으로 전환하고, 끝내 표적을 포착하지 못하면 자폭한다.",
+      "previous_translation_sha256": "5307a2d23466e133f20d82b2b0da610ac92c855b663d3b41aae41f152eeebd18",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Weapon_1234.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1618.txt",
@@ -415970,6 +416420,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_545.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_545.txt",
+      "paragraph_index": 2,
+      "source_sha256": "85f006c9513a23d85082ff9d7b800f65671ffdd190a6ae2cd390577e71d07f06",
+      "translation": "참고: AN/AAQ-28(V)3 ER의 최초 인도는 2001년에 시작되었다. Litening II는 모든 조명·기상 조건에서 전방감시 적외선(FLIR) 영상과 CCD 영상을 제공한다. 여러 잠재적 위협 체계의 최대 도달고도보다 높은 최대 50,000피트 고도에서도 표적을 획득할 수 있다. 이라크 자유 작전 당시 미 해병대 AV-8B 비행대대 한 곳은 이 포드를 사용해 확인된 표적 파괴율 70%를 달성했다고 주장했다. Litening은 제한적인 정찰과 전투피해평가도 수행하며, 가시거리 밖의 공중 표적을 식별할 수도 있다. 여러 Litening 모델이 미 해병대·미 공군과 이스라엘·스페인·이탈리아·호주·네덜란드·포르투갈·핀란드·덴마크에서 사용되고 있다. 모듈식 설계 덕분에 비교적 신속한 개량이 가능하다. AN/AAQ-28(V)3 ER는 A-10A, B53H, F-15E, F/A-18D에서 사용되었다. 2006년 봄까지 미군이 보유한 모든 AN/AAQ-28은 AN/AAQ-28 AT 규격으로 개량되었다.",
+      "previous_translation_sha256": "93c6fc25a5c7309f229303a7ebd666fbdc47b8b8fa224e659bcc2a6803e52103",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_545.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/weapon_551.txt",
       "paragraph_index": 1,
       "source_sha256": "ccb80e73f0e849dabe10690f99679275701f4cb6f3573867bf83c1980cbcb59c",
@@ -416031,6 +416490,15 @@
       "previous_translation_sha256": "e7d2dd7d56034620af4ad76d9b0a5db7fbce926e01dee2d2fbc0868b8a297e98",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_589.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_591.txt",
+      "paragraph_index": 2,
+      "source_sha256": "951be0fc1034c84f6e174871ab9788454152e99b8835b4ba35e7c4e8d7315852",
+      "translation": "발사 전에 레이더의 표적획득 구역을 대·중·소 중 하나로 설정한다. 구역이 좁을수록 더 정확한 표적 정보가 필요하지만, 표적이 경보를 받고 대응할 수 있는 시간도 짧아진다. Harpoon은 발사 전에 거리·방위 발사(RBL) 모드와 방위 전용 모드 중 하나로 설정한다. RBL 모드에서 RGM-84G Harpoon은 발사 직후 낮은 순항고도로 하강한 뒤, 레이더 고도계와 관성항법 장치를 이용해 계산된 표적 위치 부근의 사전 지정 지점으로 비행한다. 이어 주파수 변경이 가능한 J 대역(10~20GHz) 능동 레이더 탐색기를 켜고 표적을 향해 유도된다. 방위 전용 모드에서는 표적 방위로 발사되며, 발사 직후 레이더 탐색기가 작동한다. 적합한 표적을 찾지 못하면 탐색 비행으로 전환하고, 끝내 표적을 포착하지 못하면 자폭한다.",
+      "previous_translation_sha256": "a66cb9f52a1a854b0b6304bde987237cc5efa9d2588b87bf28418097fb88aff6",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_591.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_600.txt",
@@ -416130,6 +416598,15 @@
       "previous_translation_sha256": "3f299f40ddb6f66a15af63fba85f5a9093094c524e5747211f07c629f38a9840",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Weapon_793.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_669A.txt",
+      "paragraph_index": 5,
+      "source_sha256": "a1eabbce588551d856a8ed7c15658c593591006c544714db9a29efdbb5db404b",
+      "translation": "AS-2 공대지 미사일은 터보제트로 추진하며 표적에 저고도로 접근하는 초음속 순항미사일로, 사거리는 30~100해리다. Tu-16K-10(Badger-C)용 대함 무장으로 특별히 개발된 K-10S 미사일(제품 번호 352)은 1961년 10월 해당 항공기와 함께 무장 운용 승인을 받았다. K-10S 1발을 동체 중앙부 아래에 매달며, 2,200파운드 재래식 탄두 또는 핵탄두를 탑재한다. 미사일 중량은 약 9,120파운드다. 발사·상승 단계에서는 사전 설정된 자동조종 장치, 중간항로에서는 지령 보정을 받는 자동조종 장치, 종말 단계에서는 능동 레이더를 사용한다. 유도 체계는 초기 비행의 관성유도와 표적 부근의 능동 레이더 호밍을 결합한다. 핵탄두 탑재도 가능하다. 원형공산오차(CEP)는 대함 임무에서 150피트, 지상 표적 공격에서는 1~2해리다.",
+      "previous_translation_sha256": "83074c5c7d2bdb7feeff2faa9600d618f3a4034db2afd2bd94c2f984062ca578",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_669A.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_669A.txt",
