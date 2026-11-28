@@ -49,14 +49,14 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 49990,
+    "reviewed_source_entries": 57621,
     "review_outcomes": {
-      "modified": 46803,
-      "retained": 3187
+      "modified": 54433,
+      "retained": 3188
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 46632,
+      "scenario-ko.b64.tsv": 54262,
       "db_files": 6267,
       "db_paragraphs": 43560
     },
@@ -70,7 +70,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 50033,
+      "runtime_first_lookup_passed": 57664,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -93,7 +93,7 @@
     "reviewed_dictionary_db_coverage_audit": {
       "unique_pending_whole_paragraphs": 0,
       "pending_locations": 0,
-      "covered_associations": 3000,
+      "covered_associations": 10637,
       "unresolved_associations": 0,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
@@ -105,6 +105,10 @@
       "pending_locations": 0
     },
     "whole_db_paragraph_applications": 36413,
+    "whole_db_review_reused_in_dictionary": {
+      "entries": 7631,
+      "method": "Previously directly reviewed complete DB paragraphs reused only at identical source SHA-256 hashes; not newly translated prose"
+    },
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
