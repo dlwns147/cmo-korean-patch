@@ -59,11 +59,11 @@ ZIP 옆의 `.sha256` 파일은 다운로드 파일 검증용이며 ZIP 안의 `S
 | 항목 | 현재 검증 결과 |
 |---|---:|
 | 기존 UI·시나리오 사전 항목 | 64,976 |
-| 원문을 직접 읽고 검수한 기존 사전 항목 | 59,209 |
-| 번역 수정 / 기존 번역 유지 | 56,017 / 3,192 |
-| 이번 직접 검수에서 아직 다루지 않은 기존 사전 항목 | 5,767 |
+| 원문을 직접 읽고 검수한 기존 사전 항목 | 59,241 |
+| 번역 수정 / 기존 번역 유지 | 56,049 / 3,192 |
+| 이번 직접 검수에서 아직 다루지 않은 기존 사전 항목 | 5,735 |
 | 기존 사전에 없던 원문 보충 | 91 |
-| 실제 DLL 번역 조회 검사 | 59,300건 통과 |
+| 실제 DLL 번역 조회 검사 | 59,332건 통과 |
 | HTML 문맥 변환 검사 | 1,303건 통과 |
 
 별도로 DB 전체 원문 10,107개 문단을 검수하고, 문단 해시가 일치하는 36,413개 위치에 적용했다. 위 사전 항목과 중복될 수 있어 합산하지 않는다. 지도 지명, 미복구 원문, 시나리오의 추가 메시지·첨부 문서도 전체 검수 범위에 남아 있다. 사전 검수 비율이 프로젝트 전체 완료율을 뜻하지는 않는다.
@@ -143,9 +143,9 @@ The adjacent `.sha256` verifies the ZIP; `SHA256SUMS.txt` inside it verifies ind
 
 ### Translation review status — 2026-11-28
 
-**Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 59,209 of 64,976 existing UI/scenario dictionary entries: 56,017 revised and 3,192 retained. Another 5,767 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
+**Full direct review and Korean style unification are unfinished.** Since base commit `e5e47f8`, Codex has directly reviewed 59,241 of 64,976 existing UI/scenario dictionary entries: 56,049 revised and 3,192 retained. Another 5,735 existing entries remain outside this direct-review ledger. These figures can overlap earlier passes and must not be added to historical totals. Dictionary coverage is not a completion percentage for the entire project; map names, unrecovered sources, additional scenario messages and attachments remain in scope.
 
-There are 91 supplemental source entries and 10,107 separately reviewed whole DB paragraphs applied at 36,413 source-hash-matching locations. The DB count can overlap dictionary reviews. All 59,300 runtime lookup cases and 1,303 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
+There are 91 supplemental source entries and 10,107 separately reviewed whole DB paragraphs applied at 36,413 source-hash-matching locations. The DB count can overlap dictionary reviews. All 59,332 runtime lookup cases and 1,303 HTML context cases passed. Dictionary keys, DB paragraph structure and packaged file hashes are checked. Full in-game visual validation has not been performed.
 
 Current revisions are reviewed by Codex against local originals. The official Codex SDK with GPT-6 Astra at medium reasoning also generates whole-paragraph candidates; every candidate is directly compared with its full original and corrected before acceptance. Accepted translations are reused only for matching whole-source hashes. Numeric, URL and style checks supplement direct review. Earlier machine-translated drafts remain. Explanatory and briefing prose is being standardized to plain declarative Korean (~한다/~이다), including previously reviewed entries. Rewrites preserve permission, obligation and prohibition; endings are not replaced automatically. Short UI labels use natural noun phrases. This style pass is incomplete. English descriptive originals are used for local comparison. Bibliographic metadata and generic source descriptions are localized while author names, publication titles, article titles and URLs are preserved for traceability. Citation reviews are included in the paragraph counts and are not equivalent to newly translated descriptive paragraphs. See [the direct-review ledger](reviews/2026-11-26-direct-review.json) and [TRANSLATION-REVIEW.json](TRANSLATION-REVIEW.json).
 
@@ -172,7 +172,7 @@ Contact: **lsj000777@naver.com** · GitHub: **dlwns147**
 
 ### 문단 단위 브리핑 교정
 
-영어가 단어·음절별 HTML 태그로 분리된 일부 브리핑은 원문 HTML 전체의 SHA-256이 검수 기록과 일치할 때 한국어 문단으로 변환한다. 현재 1325개 문단·목록 항목이며 기존 사전 검수 건수에 더하지 않는다. 배포 사전에는 원문 해시·한국어·원문 출처 링크를 포함한다. 링크가 있는 문단은 원문 주소를 보존하고 검수한 한국어 이름에 연결한다. 바깥 문단·목록 태그는 보존하고 내부 글자별 서식은 재구성한다. 영어 원문 보호 영역과 해시가 다른 문단은 기존 처리를 유지한다. 이번 작업은 번역과 원문·출력 검증을 대상으로 하며, 실제 게임 화면 검수는 사용자 요청에 따라 범위에서 제외한다. 보조 모듈 빌드 및 연결은 [tools/add-context-support.ps1](tools/add-context-support.ps1), 검수 기록은 [reviews/context-blocks.json](reviews/context-blocks.json)에 있다.
+영어가 단어·음절별 HTML 태그로 분리된 일부 브리핑은 원문 HTML 전체의 SHA-256이 검수 기록과 일치할 때 한국어 문단으로 변환한다. 현재 1445개 문단·목록 항목이며 기존 사전 검수 건수에 더하지 않는다. 배포 사전에는 원문 해시·한국어·원문 출처 링크를 포함한다. 링크가 있는 문단은 원문 주소를 보존하고 검수한 한국어 이름에 연결한다. 바깥 문단·목록 태그는 보존하고 내부 글자별 서식은 재구성한다. 영어 원문 보호 영역과 해시가 다른 문단은 기존 처리를 유지한다. 이번 작업은 번역과 원문·출력 검증을 대상으로 하며, 실제 게임 화면 검수는 사용자 요청에 따라 범위에서 제외한다. 보조 모듈 빌드 및 연결은 [tools/add-context-support.ps1](tools/add-context-support.ps1), 검수 기록은 [reviews/context-blocks.json](reviews/context-blocks.json)에 있다.
 
 ### DB 전체 문단 추가 점검
 

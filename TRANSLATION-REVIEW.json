@@ -49,14 +49,14 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 59209,
+    "reviewed_source_entries": 59241,
     "review_outcomes": {
-      "modified": 56017,
+      "modified": 56049,
       "retained": 3192
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 55845,
+      "scenario-ko.b64.tsv": 55877,
       "db_files": 6267,
       "db_paragraphs": 43560
     },
@@ -70,7 +70,7 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 59300,
+      "runtime_first_lookup_passed": 59332,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
@@ -86,11 +86,11 @@
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
     "context_block_support": {
-      "reviewed_blocks": 1325,
+      "reviewed_blocks": 1445,
       "matching": "SHA-256 of exact original HTML block; unknown blocks retain existing behavior",
       "helper_sha256": "4ec8edc9340a5949e033ee432746e777e64b51575699ea204d540d3885a6c786",
       "reproduction_script": "tools/add-context-support.ps1",
-      "validation_cases": 18550,
+      "validation_cases": 20230,
       "link_preservation_cases": 5,
       "formatting": "Outer paragraph/list tags preserved; reviewed inner formatting replaced with Korean text",
       "in_game_visual_check": false
