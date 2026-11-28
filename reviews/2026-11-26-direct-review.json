@@ -37,11 +37,12 @@
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
     "context_block_support": {
-      "reviewed_blocks": 76,
+      "reviewed_blocks": 138,
       "matching": "SHA-256 of exact original HTML block; unknown blocks retain existing behavior",
-      "helper_sha256": "25cd7145c2053b690cc4784e1183ae147d2d3251593905fc3a3c917b36d103c0",
+      "helper_sha256": "e923ea0d03b63b3be21d74297923a92055817b6577f59e338b793a10f1d1f0e4",
       "reproduction_script": "tools/add-context-support.ps1",
-      "validation_cases": 1064,
+      "validation_cases": 1932,
+      "link_preservation_cases": 5,
       "formatting": "Outer paragraph/list tags preserved; reviewed inner formatting replaced with Korean text",
       "in_game_visual_check": false
     },

@@ -28,6 +28,11 @@ Write-Output 'Created isolated CMOKorean.dll with reviewed-block preprocessing'
 $rows=Get-Content -LiteralPath (Join-Path $PSScriptRoot '..\reviews\context-blocks.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $lines=@(foreach($row in $rows) {
   if ($row.source_sha256 -cnotmatch '^[0-9a-f]{64}$' -or [string]::IsNullOrWhiteSpace($row.translation)) { throw 'Invalid reviewed context block' }
-  $row.source_sha256+"`t"+[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($row.translation))
+  $line=$row.source_sha256+"`t"+[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($row.translation))
+  if ($row.links) {
+    $payload=(@($row.links | ForEach-Object {$_.url+"`t"+$_.label}) -join "`n")
+    $line+="`t"+[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($payload))
+  }
+  $line
 })
 [IO.File]::WriteAllText((Join-Path $OutputDirectory 'context-html.b64.tsv'),($lines -join "`r`n")+"`r`n",[Text.UTF8Encoding]::new($true))
