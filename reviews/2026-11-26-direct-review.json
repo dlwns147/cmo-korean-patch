@@ -2,16 +2,16 @@
   "summary": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 49941,
+    "reviewed_source_entries": 49990,
     "review_outcomes": {
-      "modified": 46755,
-      "retained": 3186
+      "modified": 46803,
+      "retained": 3187
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 46584,
-      "db_files": 4332,
-      "db_paragraphs": 8699
+      "scenario-ko.b64.tsv": 46632,
+      "db_files": 4363,
+      "db_paragraphs": 8776
     },
     "source_recovery": {
       "matched": {
@@ -23,12 +23,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 49983,
+      "runtime_first_lookup_passed": 50033,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 911
+      "html_context_lookup_passed": 936
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -36,21 +36,21 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 503,
-    "supplemental_source_entries": 42,
+    "additional_whole_db_paragraph_reviews": 515,
+    "supplemental_source_entries": 43,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 217,
-      "pending_locations": 217,
-      "covered_associations": 2648,
+      "unique_pending_whole_paragraphs": 207,
+      "pending_locations": 207,
+      "covered_associations": 2683,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 1468,
+    "whole_db_paragraph_applications": 1545,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
@@ -2714,7 +2714,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "26d48c2c5354b0bc33ad0f95be859909c0653f08acaeb5de9e37b68112b86f7a",
-      "translation": "전술지도에 ‘소해 완료’로 표시됩니다.",
+      "translation": " 구역을 통과하라: 전술지도의 ‘소해 완료(cleared)’ 구역.",
       "review": "direct-source-review",
       "batch": "revisions-005.tsv",
       "previous_translation_sha256": "76386e48fb46b98e83cfddfecf83515ad0522c6a7e1b16c94317254c415ba71d"
@@ -4098,7 +4098,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "44b8e0f1c783f9603e4cab2d99dd3b5dfef47b7b2d9f94503733df1c141a4773",
-      "translation": "USS 멤피스에는 UGM-84 1발과 Mk 48 9발이 남아 있으며, 토마호크 지상공격미사일(TLAM)은 모두 소진했습니다.",
+      "translation": "USS 멤피스에는 UGM-84 1발과 Mk 48 9발이 남아 있으며, 토마호크 지상공격미사일(TLAM)은 모두 소진했다.",
       "review": "direct-source-review",
       "batch": "revisions-007.tsv",
       "previous_translation_sha256": "5b6140a2cb598b00c74d6301c175ef0357d69c2ca4888568530755c0d1a36763"
@@ -13298,7 +13298,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "fcef6dc8bbd7f74b0c2b03a1dd1c515b24617c7cece22e42e1ae720b3a268b87",
-      "translation": "임무의 성격을 지켜라. 적 비행장을 향해 진출하지 마라. 그것은 이번 훈련의 목표가 아니다.",
+      "translation": "적 성격의 임무다. 적 비행장을 향해 진출하지 마라. 그것은 이번 훈련의 목표가 아니다.",
       "review": "direct-source-review",
       "batch": "revisions-023.tsv",
       "previous_translation_sha256": "3a1e0d4b52ef6ca69ca15e9a3bd6639d4de37497225aa3e685598694d0e41241"
@@ -21298,7 +21298,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "fb3f5799c4102de69051bd8c2852cc7ac85e542cc1b42b40f9c029c47cfa7363",
-      "translation": "아군은 오늘 오전 중 두 차례의 상륙을 준비하고 있습니다. 먼저 적의 주의를 끄는 요란한 상륙을 실시할 부대는 제8",
+      "translation": "아군은 오늘 오전 중 두 차례의 상륙을 준비하고 있다. 먼저 적의 주의를 끄는 요란한 상륙을 실시할 부대는 제8",
       "review": "direct-source-review",
       "batch": "revisions-053.tsv",
       "previous_translation_sha256": "e50212f26147bf3d6a65770a6b3180c2d242d891b9b3137ecf77152dad9b761f"
@@ -29506,7 +29506,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "6b34c0af174c575e9e62bfb91e391b5bee5941ddb659e04a25e9c4f4babffdcb",
-      "translation": "또는 가볍고 손쉬운 플레이를 좋아하는 이들을 위해.",
+      "translation": ". 짧고 손쉬운 플레이를 선호하는 사람에게도 권장하지 않는다.",
       "review": "direct-source-review",
       "batch": "revisions-1001.tsv",
       "previous_translation_sha256": "ff9e06c59403d33893c19a90e4049f9ea7affb1f79ad1375f710548e32204a95"
@@ -41090,7 +41090,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "8dfe59ef26a75abebfe1a4737a8116a093e053e168a7ef91cb7fb55a51face83",
-      "translation": "근위공수사단은 아직 전력을 대부분 유지하고 있다.",
+      "translation": "근위공수사단의 핵심 전투부대는 아직 대부분 건재하다.",
       "review": "direct-source-review",
       "batch": "revisions-1021.tsv",
       "previous_translation_sha256": "93f36f092791e2fcdb74f971cb92e78fb952c846593f8994cbf2172a17139946"
@@ -43498,7 +43498,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "94dfd7f918ed7a589cb70caabd71b06de8602bf9169e4799bcb03584bee17956",
-      "translation": "실제 플레이에는 거의 차이가 없다.",
+      "translation": "실제 플레이에는 거의 차이가 없으므로, ",
       "review": "direct-source-review",
       "batch": "revisions-1022.tsv",
       "previous_translation_sha256": "7add76f0c9e53e558ff37fbac5069050f43e5d99ff9cdf384078cf93ba7ef85f"
@@ -65554,7 +65554,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "dc8bba8e50b4265e8aa99817ab239cf10a3f7f7d3c9c579a6a465555f6e830ba",
-      "translation": "레이캬비크와 스나이펠스요쿨 반도 사이의 해병연대전투단.",
+      "translation": "해병연대전투단이 레이캬비크와 스나이펠스요쿨 반도 사이에 상륙한다.",
       "review": "direct-source-review",
       "batch": "revisions-1052.tsv",
       "previous_translation_sha256": "b6bf8204b5d808d1ad0ec672afaa5333bafb08e178bbf8d1049b9805240bf8ef"
@@ -127106,7 +127106,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "722691d42f492ef94613362dc9fa7cc4948bd14083d6f86078d9de174557a9ea",
-      "translation": "초보자에게 권장하지 않음",
+      "translation": "초보자에게는 권장하지 않는다",
       "review": "direct-source-review",
       "batch": "revisions-1129.tsv",
       "previous_translation_sha256": "14ec7c28d95c17dc1fbeaa297ba7ca788cf26decfd63c229b9003caee7f48f59"
@@ -206904,6 +206904,398 @@
       "previous_translation_sha256": "fb39a11c33e3209cb51ce9b8089274a283107c9f007cde652ef08040c25ef560"
     },
     {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f4cee5e36044a26288eaaf69c344e4c5c329b3acd9384baa44c91a7e23b23bc2",
+      "translation": "3) 주요 수상함을 탐지하면 식별하고, 가능할 때 보고하되 지정 위치를 유지하라. 또한 다음 지침을 따르라:",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "6b7ea99ac622b3982ca8e37aa51b17f1aa9e3c8c2467b201359b5f4554c6dfb6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f516c5bdf83a23d3d16f6cd9a39391c563337648cfcbab33285d3b7a5582e90a",
+      "translation": "2차 투입: SEAL 정찰 D팀 4명 — 유조선 식별 및 표적 지정",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "0f2a83626ef11e1d90516d7e4a59581c4973afbae152edda59da72bc80f3307d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c2df0b5780230498becc87c275353d6c5efa7945caebbbb6011e80808e8ee5fa",
+      "translation": "정보에 따르면 최근 도입한 프랑스제 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "e1c63c0c8bf2cc5f15ed38b7838d42302a19563caf2ef20a997704354e2f0b6b"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f653f62ee2794cd23e3c028ac6e469ec0e270fc1e3255ba3286520b150342046",
+      "translation": "비행대대 2개가 서카이야라에서 작전 가능한 상태일 수 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "6c32b3fbacae83529cd4976e132321db83994ab2f0dcc22350dc1ac3a8c6da4f"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f602eaa5d76fb1292c6245e7300ab4dcb444d6d13504f13d5118b7205ea2e4cf",
+      "translation": "오늘 임무에는 여러 공중 위협이 있으며, 모두 오슬로·가르데르모엔의 단일 비행장에서 출격한다. 레드랜드 영공은 SA-20이 방어하고 있으므로 진입하는 것은 현명하지 않다. 오늘의 임무는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "8aedb2df0d4f7262ac335e56af943103072368bebdb542c239ba400c82eed5fe"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8eda498562bff6e5eadac8ed40ca4c292549659f0841ced774beaebce2b33d5f",
+      "translation": "2. 이를 달성하려면 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "49a6b1d7dc1ea4b281418b844024c0b01cb85872a8382e25a310cc86909d5867"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f73250bb78640df403e9efd0b2b3708608bc725a6f643c2895a5e75685bf5c5e",
+      "translation": "현재 얀마옌으로 향하는 소련 수상전단을 차단하여 격멸하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "0f4de6ee093febded9331bf25239445ba2cc5c1771996ac2af44b7d15aecb61a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "62535b79e803dbaf05eceb96de3f473061ee4e6307945c8e062cdd40438a7098",
+      "translation": "B. 작전구역은 다음과 같다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "f7e89da69d51b4c9030b27df8cbdf1a5947319bd783a050b884668c1753b2590"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f45b68810ce8ea1d3d3e1ddde780ee0298b97215bf7151a660c4e3e83fecbff9",
+      "translation": " — 10시간 동안 유지하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1273.tsv",
+      "previous_translation_sha256": "226bfbd98c1f8c89eebc87ec19e645a3c6564650d9c9ee9fbe579fe63d9a2ce3"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "540bd225875b9135a1810bdf55e3925c9f55f0bc960b3e1d98e6e75c32054ead",
+      "translation": "는 하마단에 주둔하고 있으며, H-3 공격이 이루어진다면 가장 유력한 투입 전력이다. 공격을 수행하려면 공중급유가 필요하다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "a5a618e3d2369633318c56597c72bcced3022280c79bd59e74aab8fe7de64a6a"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f0bddccf622eca87f60b41da824bdfcdaa61a426af4d797baf458ec3ed023a1a",
+      "translation": "이란의 가장 강력한 항공전력은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "e920c6bb0a4b315a10d77990513ae59428057b28043d53ae81cffd1b473672a5"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "8e76b44015a81283cea21e4263b3ad5922f683cecf022dd97ea9e9f1a81eaba2",
+      "translation": "이며 오미디예에 주둔한다. 이 위험한 전투기를 격추하면 귀관과 부하들에게 특별한 보상이 주어질 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "3afd66b188cec52e15dd487975592d5e5b7613dfbdebad7cfa0258db8763ebf1"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "cee63dee649dada3866012bfe3b194435be0307731bdf84877a189814ac4dcb0",
+      "translation": "”(IJF)은 수마트라와 칼리만탄섬의 민족별 지역 통치기구를 축출하기 위해 해군 전력과 항공기를 준비하고 있다. 당장 위협받는 곳은 칼리만탄섬으로 판단되며, 현지 시각으로 오전 늦게 해군 전력이 그쪽으로 이동할 것이라는 정보가 있다. 켈롬포크 에남은 인도네시아가 보유한 줄도 몰랐던 여러 기종을 모종의 경로로 확보하고 기초 운용 훈련도 받았다. IJF의 전투서열은 아직 명확히 파악되지 않았다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "6b8ad09565be642cf41528ce7d575c2453a906e7d1f7e0ff21ba748c3b0ee04c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fa55d220a6ab1284cd3d5bbe7fe75f8f28ab4fa12e94e394db4cd8d68552898d",
+      "translation": "을 덴마크 해협으로 보내 해협 소탕에 착수하게 하라.",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "33bb05abd6e4afbf9758a70afe67d3f39ee7cc3647284ea1d829cee6ab372e11"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "3deea3e59edcb50a1fde91b1b486dfd2c92588d4b2c238e5a80f3497b1d88fbc",
+      "translation": "함은 다음 함정과 함께 북상할 것이다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "0a893668aa6cae07307111eebb8c8f3ff58fc50ae3833e6060f20781b28d80b0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fa4dd0a5e8a19a0b4663d3300467c2ef30262053acedb1c0c05a31e0755edae6",
+      "translation": ". 긴급 재보급이 필요해질 경우에 대비하기 위한 것이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "34553f5a6e732096c74ddb54ac1790081b2eb254038cfc701d2be5c1bec1cb72"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f85b1844df169378f5d400f821bbab0c8fefe185f0f551dee85c770e4f94e1c0",
+      "translation": "화물 수송 기능으로는 섬 안의 공항 간에 병력을 수송한 뒤 도착지에 부대를 생성할 수 없다. 이를 구현하려고 방대한 Lua 코드를 추가해도 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "b196ac56edba1763d756dff59e136ae973331a376793408fcd638dbc3382ba98"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4b7ef5592e145ac3e80669f1889b673e3cb63d64aceaeb137332b8c592c485df",
+      "translation": "함이 지난번 전략잠수함 방어해역에 진입했을 때는 답답하고 위험한 상황을 겪었지만, 이번에는 다를 것이다.”",
+      "review": "direct-source-review",
+      "batch": "revisions-1274.tsv",
+      "previous_translation_sha256": "bd54f1c7187d405e14dbdf253a4709bc2fecc44b789d31bf5b9593ef23b00e16"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fb33e361b5f5cfe247b589899d77e37b16bde23ea5eeec8732aafaea8de55b3b",
+      "translation": ": NK-11 미사일은 4발이 운용 가능한 것으로 보이며, 최대 6발일 가능성도 있다. 지상배치 미사일의 사거리는 800해리다. 잠수함발사탄도미사일(SLBM) 2발을 탑재한 잠수함은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1275.tsv",
+      "previous_translation_sha256": "c788aff890da1d834907bd4020c1e43030c4db1bbd7f5b6b7edea07ac2e45845"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fdba94031bf212ddd3812e8f3761f0a4266256e9a931f097821f9f8834c92c02",
+      "translation": "USS 데요: 토마호크 지상공격미사일(TLAM)은 4발만 사용 가능하며 사용이 허가되어 있다. RGM-84D는 8발 중 6발이 남아 있다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1275.tsv",
+      "previous_translation_sha256": "87dae5dc6a897b3bae3852948183bcf087df0dcb8ba314dfd296fe4e426ec245"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fdce748355dc0f2e3444c4c17ed44d1cdcba32bb3ff3b8fc9b477b0bc10c8db5",
+      "translation": ". 전체 작전 기간: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1275.tsv",
+      "previous_translation_sha256": "841529c50e3f80305e937c1870305b0c54bade6f4ccddb1d888bf8710f75faee"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fae62cbcaa067d5de42ac3b1a8314dce57ef3c04c5352b51fc0077da58c427c9",
+      "translation": "FFG-32 USS 존 L. 홀은 다음 전단에서 전방으로 이동 중이다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1275.tsv",
+      "previous_translation_sha256": "1ea2e401dbd43b80a27388a62d2bce9d716d52828f4222e8f02b2767653d4d25"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fcdfe8ce38e9186149d747f49655f04896bb33135c64bb5e3d115de875fa070e",
+      "translation": ". 말라카 해협의 통항 안전을 확인한 뒤 브루나이로 이동해 급유받을 예정이다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1275.tsv",
+      "previous_translation_sha256": "641541acfca32dd348facaaf281bcb9ddc0416583965833ce2ce199ff32df9c6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ecf48ae44492272cbe06996ee508990a72d8199e5a856ad5da95ff522f60781e",
+      "translation": "키프로스 기동전대: 공격원잠 2척은 재보급을 받지 않았다. ",
+      "review": "direct-source-review",
+      "batch": "revisions-1275.tsv",
+      "previous_translation_sha256": "b3e19c54c7bd9241d2198f4cc20cc23198aedfcc439c32b9eee3108bcbb91f22"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fde982ea656fc1023d9c1e977790d623dcdcb48f1cb2e07131d19181f1065dbb",
+      "translation": ". 이들이 해빙 아래로 이동하는 동안 적의 방해를 막아 줄 공격잠수함은 다음 3척이다: ",
+      "review": "direct-source-review",
+      "batch": "revisions-1276.tsv",
+      "previous_translation_sha256": "ba015b0d90191520eed1f6796e33b7b65b0f3776497b22f9c6b5fc3a416194a6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ff1a372a26545038ed2ea76ae40a476e5e2669719d3f893262ce0be71e1edd02",
+      "translation": "4발 사용 승인",
+      "review": "direct-source-review",
+      "batch": "revisions-1276.tsv",
+      "previous_translation_sha256": "b48b13d5c8001792284a7f92faf5cb6f7908871d2d6dc8d98a6d63fe832cf8d7"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fe1332100c6b00cff00d85d18560ea366f3f98f3718b5308f369f79435882fb8",
+      "translation": "72시간 동안 공격을 받은 아이슬란드의 소련 방어망은 완전히 무너지지는 않았지만 붕괴하기 시작했다. 군수·수송·지대공미사일·지대함미사일·항공·해상 전력 등 지원 요소 대부분은 대체로 무력화된 것으로 판단한다. 그러나 제76",
+      "review": "direct-source-review",
+      "batch": "revisions-1276.tsv",
+      "previous_translation_sha256": "f84e9ff3ca397d40e325d0c75a20298f440fd5b02489afee26e2ff49561d2899"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ec15877ee40ca0131a308d83cc5fef0d5055aec1ff82c3bc0b64240f9a85b77b",
+      "translation": "해병연대전투단으로, 아이슬란드 남부 해안의 케플라비크와 회르나피외르뒤르 사이에 상륙한다. 4시간 뒤에는 은밀한 강습을 실시할 제6",
+      "review": "direct-source-review",
+      "batch": "revisions-1276.tsv",
+      "previous_translation_sha256": "af40c92779037d9b7d054e2f5c4b4cd68b03d2dd1533e067860be307d0861e0e"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fecc7707e0873b048ce9c9ffe938f5b7aec110e3531d00f212ad88d511f152b3",
+      "translation": "도착 예정인 선박은 2척으로, 벌크선(",
+      "review": "direct-source-review",
+      "batch": "revisions-1276.tsv",
+      "previous_translation_sha256": "36704505ebb4a29534a69b8a6dab7eaadee8f3178f89f2ddb724fa3049693a21"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "fe04a740233d3ff394bf6fc7d98dccea8fdfca78f11c31ccbb81e00767615f36",
+      "translation": ")과 유조선(",
+      "review": "direct-source-review",
+      "batch": "revisions-1276.tsv",
+      "previous_translation_sha256": "21725f0f8cb483a0a39f59df9f78cd18e792cf720d86ee7e6317920a7b3c7cf0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "4e5a65f7139bd3088d3262b9d8e140239dd1e862b202fb2fb8cc9eb3bfac827d",
+      "translation": ")은 항구에서 뉴캐슬로 항해할 준비를 마쳤다.",
+      "review": "direct-source-review",
+      "batch": "revisions-1276.tsv",
+      "previous_translation_sha256": "6260692db1d9d6679c6f729f6f8f3d041d608d2d2a16cae78d7113f1fd7a0a0c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1fc2bedee7bcbfb0100f8e5a2ddc141bf4104f11ff84942098841b91bc41e2aa",
+      "translation": "물론 원하는 방식으로 진행해도 된다(예를 들어 전력을 골라서 투입해도 된다. ",
+      "review": "direct-source-review",
+      "batch": "revisions-1277.tsv",
+      "previous_translation_sha256": "05b104a4a233253991c5704787faa83ba444aa654cb0457ca0ce2712ab36c83d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "7147c3d878dada8b1df12daab74cc50e1f0c3860fe80524545aec781c528d09e",
+      "translation": " 원하지 않는다면 가용 전력을 전부 사용할 필요는 없다). 즐겁게 플레이하고 의견을 남겨 주기 바란다. 의견을 나눌 곳은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1277.tsv",
+      "previous_translation_sha256": "4eb4aa0c907654b2106dc5541dc36aecb3225d40978464cf4b9a9468b9066a7d"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "924ed9227c85fe0897d3be3ceef094d85dca85c8b7c36338127be232579c7829",
+      "translation": "귀관에게는 여러 전력이 주어진다. 다만 각 부대에는 이번 훈련에서 달성하려는 학습 목표와 그에 따른 지정 임무가 있어 완전히 자유롭게 운용할 수는 없다. 각 편대는 원하는 훈련에 맞는 최적의 무장 구성도 보고했다. 이를 바꿀 시간이 없으므로 주어진 무장을 기준으로 계획을 세워야 한다. 필요하다고 생각하는 전력만 골라 투입해도 된다. ",
+      "review": "direct-source-review",
+      "batch": "revisions-1277.tsv",
+      "previous_translation_sha256": "88a0d182124a4171f5f1b74cfb90c14a5a3be9bdc052cdc1c8a24f331e805b20"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "09c875d1639de31cc09f34bbb3c84acaa5d795ddb0510e380bc7764931d71641",
+      "translation": " 모든 전력을 사용할 필요는 없다. 가용 전력과 각 전력의 역할은 다음과 같다:",
+      "review": "direct-source-review",
+      "batch": "revisions-1277.tsv",
+      "previous_translation_sha256": "5a312b4859d594a8961d96f8745677779cb7f6f9596280e56231ba0a00370518"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d106a6f058371e8c097b23cfae8fd61a845065535d4c02795bbb2e9c01853a0e",
+      "translation": "이 시나리오는 결코 쉽거나 단순하지 않다. AI가 수행할 공격 임무 몇 개만 설정해서는 성공하기 어려울 것이다. 제대로 성공하려면 치밀한 계획과 세밀한 직접 통제가 많이 필요하다. 따라서 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1277.tsv",
+      "previous_translation_sha256": "326d7ea829694d8e094ccc0039d03f9234e145cb9cd77541754a7409218a6b61"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f1ccfeea78c8f1ef38417739fabeb9a9cfd1e84f13fe3d465ad8f81972f985c5",
+      "translation": "미 인도태평양사령부(USINDOPACOM)와 합동참모본부의 지시에 따라 중국군이 점령한 팔라완섬에 상륙강습을 실시하라. 팔라완 연안에는 기뢰 위협이 크므로 섬에 접근할 때는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1278.tsv",
+      "previous_translation_sha256": "f151461395522da8bba584122489a6225ba302d35fb6bfc288af03f694fefcc9"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "05df1addd225f619ee67823def47f6e7553792a7b601208e40eb909c38373d9f",
+      "translation": "반드시 다음과 같이 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1278.tsv",
+      "previous_translation_sha256": "5685366f16bc5840beebb7d8b6d201bd18c8e60a9d91bad1fc4ac90a03474001"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d9b2fe68b6c253e250b14667fe79d988b4d2ac568f7fd62357330b906c30a49d",
+      "translation": "표시",
+      "review": "direct-source-review",
+      "batch": "revisions-1278.tsv",
+      "previous_translation_sha256": "487749b84d4d7f4ffe8e0cb768e05a7c208979c4482b6886e6362a1f896e57a0"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "ffda5693c92d569186756164c206202e548033cf6a93641e069a07ab40fb97d6",
+      "translation": "정보 담당자들은 이 수치가 추정치일 뿐이라고 매우 조심스럽게 설명했다. 아군의 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "535237d2e6bf4fc317e398806d3138187eadd6e1bac08207b1e76bbb03bd3001"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "dc2fc19d8fce376c47641cf15f823a03ad10f2dc7da3f43230551f50706914f5",
+      "translation": "추정",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "6ac12a8f8e4e4c22657b2970d159ade8e0948d98f360febd53d416f3a029b913"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "103c8b58c553368b9e5968c032bf40e56cfbeec45cb2361750acbfe5cd2690c9",
+      "translation": " 격침 수와 적의 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "394c93c03776d8fb7f224800070250abffff4da0c462867ff6347f5af9eb845c"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "afdaaa03253f7be37a064081dbbe8592fdffdbe71757fe2fc7dc8e84984dca80",
+      "translation": " 가용 전력에 근거했으며, 다음과 같은 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "8630e19726dd63aba13dbc2f2d78d3f10eb3e841b6096abb5f95eccd6d446118"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "0e031e954a432055ace97e08d1a097013f562c021a1c3aa3ab4948dd56793b86",
+      "translation": "가능성",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "574cb77b1958918fd510feda945f8ab47a79a26dbc0f7ed192a798982f630cc4"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "1e7f4236276554a631153f34b2bc59d64e042718da02f90a399bddbd935b338c",
+      "translation": "을 반영했다: 대서양에서 아직 활동 중일 경우, 또는 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "529110d8bf9e396ecb4e5a37c6f5a1f5d2dfa5fcaa3eb88b4fe91c51f1936915"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "d57ff5d25c22942d321c319b5ed20a61527c07a44cc81ae4350ca617698e6a20",
+      "translation": " 항구에 남아 있을 경우다. 다만 탄도미사일 잠수함의 호위전력(",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "bdc8b09f2e21b75968488f3d15c2bb646dabba9c329d2eb4c321d4348968d2b8"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "c4773daf2e6a2e27ea8eda78dd9e3ab3793cbb122698d941f50dc6f74b91b72c",
+      "translation": "있을 수 있음",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "ff49bf3a48df74bd5f5a5c5290e7627c878ffeaa179681987041f8b588f9aa13"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "bf7383149a275dc76e7fe4493d964e976deddc0e20d0e6064ea5b636ed566846",
+      "translation": ")은 이 수치에 포함되지 않았다!",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "f9e4c43e8d90cfa6b4def5dd5ca0824b1954010f7096b1eedc0e59a3d681f7b6"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "585e0c3362143b2273148a7f2e595b074fc2df7967b0257980930ffc5c04ec5c",
+      "translation": "“공격원잠(SSN) 또는 순항미사일원잠(SSGN) 1~2척”이라는 표현은 CIA, NSA 등 정보를 제공하는 기관들의 ",
+      "review": "direct-source-review",
+      "batch": "revisions-1279.tsv",
+      "previous_translation_sha256": "d89c391aad1f1e815d347630599353e2d913015bc95a980e7ac90bb74528657e"
+    },
+    {
       "dictionary": "ko.tsv",
       "source_hash": "7fa94d58a367b9d8fc567572758e84eaf451d58fdbf66739372422ff8e937741",
       "translation": "카보베르데",
@@ -284674,7 +285066,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "9a40054bc96ca364897c55118d2fab913ea9186b4420d734079ea64e81422e91",
-      "translation": "핵추진 공격잠수함 1~2척이 귀관에게 위협이 될 만큼 가까이 있다는 것이다. 하지만 이 판단이 틀릴 수도 있다. 작전구역에 적 잠수함이 한 척도 없을 수도, 여섯 척이나 있을 수도 있다.",
+      "translation": "에 따르면 핵추진 공격잠수함 1~2척이 귀관에게 위협이 될 만큼 가까이 있다는 뜻이다. 하지만 이 판단이 틀릴 수도 있다. 작전구역에 적 잠수함이 한 척도 없을 수도, 여섯 척이나 있을 수도 있다.",
       "review": "direct-source-review",
       "batch": "revisions-613.tsv",
       "previous_translation_sha256": "33ab84ad0e3b2859d710ee10d375aacc105e9d64406cd49eaaf4a0d9b55c54d1"
@@ -317866,7 +318258,7 @@
     {
       "dictionary": "scenario-ko.b64.tsv",
       "source_hash": "340b7753f064360ba8623733f99dd4337a70d3a8564a855c69ba44f9b46559b4",
-      "translation": "모든 증원 병력은 섬에 공수 투하된다. 화물 운송 작전을 위해 제4상륙전대, 헌터, 포프에서 직접 화물을 탑재해야 한다.",
+      "translation": "모든 증원 병력을 섬에 공수 투하하도록 했다. 화물 수송 작전을 수행하려면 제4상륙전대, 헌터, 포프에서 직접 화물을 탑재해야 한다.",
       "review": "direct-source-review",
       "batch": "revisions-767.tsv",
       "previous_translation_sha256": "2f28eb088704e86823f89c8d7b54cb10f355579d6091b7463911d7601a54d4c5"
@@ -399684,6 +400076,33 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_1297.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1299.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1300.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_134.txt",
       "paragraph_index": 1,
       "source_sha256": "793c3b40c64c9cc7bdd4bfe6029e408de2f22c0551aadb3ee61ce0a8c338100b",
@@ -399781,6 +400200,24 @@
       "previous_translation_sha256": "71e66ee333c9d453d08a24302cd516b28e8938c60d63fd1dd5714a6b28f93668",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1456.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1560.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1573.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_163.txt",
@@ -400413,6 +400850,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1231.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_3553.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_47.txt",
       "paragraph_index": 1,
       "source_sha256": "311685709dacf87094efa6ee9d35e83cae2ea16c0c01c5a3668ac3252b1d8991",
@@ -400611,6 +401057,24 @@
       "review_origin": "DB/Descriptions/CWDB/Facility_1480.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Facility_391.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_402.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Facility_412.txt",
       "paragraph_index": 1,
       "source_sha256": "2be26342e552d1f09dc60687f1666747bd1a22c43146f5c598a7cdd264d294ae",
@@ -400663,6 +401127,33 @@
       "previous_translation_sha256": "b1eec4a6e270c86936b8e12d3e4239803404bc36d49718f56ed5dd99169dd5a2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1532.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_727.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_728.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_729.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Facility_755.txt",
@@ -400825,6 +401316,69 @@
       "previous_translation_sha256": "b1eec4a6e270c86936b8e12d3e4239803404bc36d49718f56ed5dd99169dd5a2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1532.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_921.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_922.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_923.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_924.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_925.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_926.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Facility_927.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Facility_928.txt",
@@ -401700,6 +402254,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_100.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1001.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5a0782636636f43acd7c37ca3cc221f897f0ac99e916fddf14ca47225df86191",
+      "translation": "세부 사항: 소련 지상군에 근접항공지원을 제공하기 위해 설계되었다. 개요",
+      "previous_translation_sha256": "95570bd2ac44835424f35a2af0c0e3102dcd2f4e187d72648a2b7a42455b62c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1001.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1002.txt",
       "paragraph_index": 3,
       "source_sha256": "1ae37ecc3ad44297be69ba551f29a4463d02ba3336c4ab1cdcbbc03adbafeacd",
@@ -401952,6 +402515,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1024.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1093.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1096.txt",
       "paragraph_index": 1,
       "source_sha256": "dcf2dee4497e7b465cb4d10fc0c299216ef6cc399a150cd83ea370a0ed546c24",
@@ -402013,6 +402585,24 @@
       "previous_translation_sha256": "dd82d20dd40b8fbf6b560971baf5d89c9f4ce629766e3db9ae3c5f21e8de1dc8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1123.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1130.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1133.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1147.txt",
@@ -402231,6 +402821,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1852.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_133.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5a0782636636f43acd7c37ca3cc221f897f0ac99e916fddf14ca47225df86191",
+      "translation": "세부 사항: 소련 지상군에 근접항공지원을 제공하기 위해 설계되었다. 개요",
+      "previous_translation_sha256": "95570bd2ac44835424f35a2af0c0e3102dcd2f4e187d72648a2b7a42455b62c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1001.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1346.txt",
       "paragraph_index": 3,
       "source_sha256": "1ae37ecc3ad44297be69ba551f29a4463d02ba3336c4ab1cdcbbc03adbafeacd",
@@ -402256,6 +402855,33 @@
       "previous_translation_sha256": "72099da1901f1bcd0d1a964a75ca6ec77a2ad0241029ebaa0c7134a8c61a64b6",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1349.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1350.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1351.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1352.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1353.txt",
@@ -402301,6 +402927,15 @@
       "previous_translation_sha256": "cf135a34222e6d292674a0ccdbe92ac476f7eccd5ddf4252ac0d8fac4c54df5d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_14.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1402.txt",
@@ -402447,6 +403082,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1024.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1713.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1725.txt",
       "paragraph_index": 2,
       "source_sha256": "f076b49c369275aaf25dd20d284b6444c36ee1252bb28282b1b94940c9d88c2a",
@@ -402537,6 +403181,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_175.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1823.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1835.txt",
       "paragraph_index": 1,
       "source_sha256": "e3172c34ae931bf45c7fd8a11b3b87ff0d9c5f3bbc59e4594cf40cc2febc787c",
@@ -402598,6 +403251,15 @@
       "previous_translation_sha256": "2b876f7d41beaddb8f11183cec3999d20823d46b12b132b1780c36fadeaa9ccb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1909.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1911.txt",
@@ -402706,6 +403368,15 @@
       "previous_translation_sha256": "43fade7bd90e493775279e63a973db90043d79b29580a77c828068b36610d8c1",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1986.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1987.txt",
+      "paragraph_index": 3,
+      "source_sha256": "f4b5907d5ae779ed276992cc3bdc9cc56b5546e1e0ac054d6fa48280651f673f",
+      "translation": "세부 사항: 링스는 다목적 쌍발 전장 헬기로, 해상전과 지상전에 특화된 파생형이 각각 개발되었다. 초기형과 후기형을 구분하는 특징 가운데 하나는 착륙장치다. 초기 링스는 스키드를 사용했지만 후기형에는 바퀴가 장착되었다. 초기형은 롤스로이스 젬 2 터보샤프트 엔진 2기로 블레이드 4개의 반강성 주로터를 구동했다. 로터는 완전히 새롭게 설계되었으며, 블레이드는 복합재로 만든 벌집형 샌드위치 구조를 사용했다. 함상 수납을 위해 로터 블레이드와 꼬리를 모두 접을 수 있다. 비행 중에는 조종을 단순화하도록 주로터 회전속도를 일정하게 유지하며, 로터에는 진동흡수장치도 적용되어 있다.",
+      "previous_translation_sha256": "0623fb597e9a6c27a992104af625bc0c39ba5040f178301368dd97c6235e8383",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1993.txt",
@@ -402843,6 +403514,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2061.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_207.txt",
       "paragraph_index": 1,
       "source_sha256": "b150c1ebd4b6c675ebd88a2743c3b6056491d491c00c3bc3cc05d8ccabea77b8",
@@ -402850,6 +403530,15 @@
       "previous_translation_sha256": "4f07a4e62b34a281c5b48111dadca341cd6adc454577b4334b5eaa9818ca8ee8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_207.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_210.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d7de3c647c16658841591a651063d1da140b13be1a569042fc523a18757da058",
+      "translation": "세부 사항: 플로거는 MiG-21을 대체하기 위해 개발되었으며, 전작보다 이착륙 성능, 항속거리, 무장 운용 능력이 향상되었다. 플로거 B는 초기 MiG-23보다 신뢰성과 기동성이 높고 무게는 가볍도록 설계되었다. 연료탱크 1개를 제거하고 공기역학적 특성을 개선했으며, 항공전자장비와 비행제어체계를 현대화하고 엔진 출력을 높여 이를 달성했다. 플로거 B에는 J밴드(10~15GHz) 사프이르-23D-III, 일명 하이 라크 2 레이더가 장착되었으며, 수출형은 성능을 낮추고 사프이르-23E로 재명명했다. 하이 라크 레이더는 하방 탐지·공격 능력을 제공했다. 고고도의 전투기급 표적에 대한 최대 탐지거리는 65km였으며 하방 탐지 모드에서는 25km로 줄었다. 플로거는 가시거리 밖 표적을 공격하는 미사일을 장착한 초기 항공기 중 하나이기도 하다.",
+      "previous_translation_sha256": "9d9d037d29d2963fa08862e5b23e3a76912281280bd90f4c99d45a0c7fc87e02",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1297.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2107.txt",
@@ -403012,6 +403701,33 @@
       "previous_translation_sha256": "c4b928d7ad1aae917fe9101a83b51932f5e2bf37198f348f5f5ff3c9c7ab79a0",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1246.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2264.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2265.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2266.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_227.txt",
@@ -403455,6 +404171,24 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2781.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2782.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2827.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
@@ -403687,6 +404421,15 @@
       "previous_translation_sha256": "80020414064adfbdff6bc9cd5498183844f3825b2c6558a4824965052b108005",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_3185.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3205.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5a0782636636f43acd7c37ca3cc221f897f0ac99e916fddf14ca47225df86191",
+      "translation": "세부 사항: 소련 지상군에 근접항공지원을 제공하기 위해 설계되었다. 개요",
+      "previous_translation_sha256": "95570bd2ac44835424f35a2af0c0e3102dcd2f4e187d72648a2b7a42455b62c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1001.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3222.txt",
@@ -404220,6 +404963,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_3801.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3809.txt",
+      "paragraph_index": 1,
+      "source_sha256": "d8d9f2fcb18efb0256fd7412145df3b835075950ccc4fd5f5a91ea4ad2033e70",
+      "translation": "세부 사항: 토네이도 ECR은 전자전에 중점을 둔 IDS 파생형으로, 1993년 독일 공군에 도입되었다. 2013년 실전 운용에 들어간 ASSTA 3.1 개량으로 링크 16 MIDS, MIL-STD-1553B 디지털 데이터버스, GPS/관성항법 통합, 야간투시경과 호환되는 조종석 다기능 디스플레이를 갖추었다. RB199-34R Mk 105 터보팬 엔진 2기를 사용하며 최고속도는 마하 2.2다. 외부 장착점은 날개 아래 4개와 동체 아래 5개, 총 9개이며, 최대 4발의 AGM-88B HARM과 자위용 AIM-9L 사이드와인더 등을 탑재할 수 있다. 방사원 위치탐지체계(ELS), ERWE II 레이더경보수신기, 허니웰 전방감시적외선장치(FLIR)를 설치하기 위해 내장 마우저 BK-27 기관포는 제거되었다. ASSTA 3.1 개량은 신형 HARM 파생형의 표적 획득 지원을 개선하고 GPS 유도무기 운용 능력을 추가했다.",
+      "previous_translation_sha256": "761f8a4e4024d9e6ae57ea3ee160f48a815d4fa104379f6d133a008cf291e5e4",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_3809.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3810.txt",
       "paragraph_index": 1,
       "source_sha256": "34a9b4bc3e94b86e768b6d3017266a5ae315c00128bcb2f43a6b82a02997bf27",
@@ -404391,6 +405143,33 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4225.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_424.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4262.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5a0782636636f43acd7c37ca3cc221f897f0ac99e916fddf14ca47225df86191",
+      "translation": "세부 사항: 소련 지상군에 근접항공지원을 제공하기 위해 설계되었다. 개요",
+      "previous_translation_sha256": "95570bd2ac44835424f35a2af0c0e3102dcd2f4e187d72648a2b7a42455b62c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1001.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_434.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5a0782636636f43acd7c37ca3cc221f897f0ac99e916fddf14ca47225df86191",
+      "translation": "세부 사항: 소련 지상군에 근접항공지원을 제공하기 위해 설계되었다. 개요",
+      "previous_translation_sha256": "95570bd2ac44835424f35a2af0c0e3102dcd2f4e187d72648a2b7a42455b62c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1001.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_436.txt",
       "paragraph_index": 1,
       "source_sha256": "54800d8640fad6302f95e3522b18fea1f56d564854e34e71f6630bd72fa55c7b",
@@ -404452,6 +405231,15 @@
       "previous_translation_sha256": "2025c1974f05782735b2d09466d7f7e8664f9e2c05551bf5a391fa18df027536",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4430.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5a0782636636f43acd7c37ca3cc221f897f0ac99e916fddf14ca47225df86191",
+      "translation": "세부 사항: 소련 지상군에 근접항공지원을 제공하기 위해 설계되었다. 개요",
+      "previous_translation_sha256": "95570bd2ac44835424f35a2af0c0e3102dcd2f4e187d72648a2b7a42455b62c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1001.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4443.txt",
@@ -404562,6 +405350,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1247.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_4600.txt",
+      "paragraph_index": 1,
+      "source_sha256": "5a0782636636f43acd7c37ca3cc221f897f0ac99e916fddf14ca47225df86191",
+      "translation": "세부 사항: 소련 지상군에 근접항공지원을 제공하기 위해 설계되었다. 개요",
+      "previous_translation_sha256": "95570bd2ac44835424f35a2af0c0e3102dcd2f4e187d72648a2b7a42455b62c1",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1001.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_4616.txt",
       "paragraph_index": 1,
       "source_sha256": "a69f9b15397f7f1d60a53c425f37b5ccc21730012359ada07b4b46263b4ca5de",
@@ -404596,6 +405393,15 @@
       "previous_translation_sha256": "c4b928d7ad1aae917fe9101a83b51932f5e2bf37198f348f5f5ff3c9c7ab79a0",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1246.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4622.txt",
+      "paragraph_index": 1,
+      "source_sha256": "40234cc8320bf045a214cbe331dfd23c14a774d1d0bdc8707c2d97f2a568c3f3",
+      "translation": "세부 사항: Su-33은 Su-27을 기반으로 한 함재기 구조를 유지하며, 확대된 날개와 접이식 구조, 강화된 착륙장치, 착함 후크, 공중급유 프로브를 갖춘다. AL-31F 엔진을 사용하며 최고속도는 마하 2.1을 넘는다. 무장 장착점은 12개이며 N001K 레이더, OLS-27 적외선 탐색·추적 장치, 내장 전자대항장비, 디지털 레이더경보수신기, 해군용 데이터링크를 운용한다. 2016년에는 소수의 Su-33에 게페스트 앤드 T의 SVP-24 조준체계를 장착하여 전산 탄도 계산과 실시간 항법으로 무유도폭탄의 명중률을 높였다. 무장은 R-27·R-73 공대공미사일, Kh-31 미사일, 그리고 SVP-24 체계로 운용 효과가 향상된 무유도폭탄과 로켓을 포함한다. 이 개량은 제공 임무에 더해 Su-33의 부차적인 타격 임무 능력을 높이려는 목적이었다. Su-33의 NATO 식별명은 플랭커 D다.",
+      "previous_translation_sha256": "c53dda18f56adf944de68c2b558cfbf8758228966d591a9b9859073efb9a8225",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4622.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_465.txt",
@@ -404650,6 +405456,15 @@
       "previous_translation_sha256": "b8bd99d867cf0af98887b178d3a84b0ebf51a45b48455f8acae49e710963364f",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4696.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_4741.txt",
+      "paragraph_index": 1,
+      "source_sha256": "c732ea9150bf9cf1fcda52f5d3058fea498a1286ddf08e0e6968099c3eddabcd",
+      "translation": "세부 사항: Su-35S는 Su-27을 대폭 현대화한 파생형으로, 강화된 기체 구조, 4중 디지털 플라이바이와이어 체계, 추력편향 기능이 있는 AL-41F1S 엔진 2기를 갖추며 최고속도는 마하 2.25다. 무장 장착점은 12개이며, 이르비스-E 수동전자주사배열(PESA) 레이더, OLS-35 적외선 탐색·추적 체계, L-265V 히비니-MV 내장 전자전체계를 탑재한다. R-77-1·R-73M 공대공미사일, Kh-31P·Kh-59MK 공대지미사일, KAB-500/1500 정밀유도폭탄 등 다양한 무장을 운용할 수 있다. 2019년에는 UPAB-1500B 활공폭탄의 통합이 시작되어, 방호된 지상 표적을 장거리에서 타격할 수 있는 스탠드오프 공격 능력을 갖추게 되었다. Su-35S의 NATO 식별명은 플랭커 M이다.",
+      "previous_translation_sha256": "12592bf47dbc57bc0606a6eab3aeae82f5db74cc2796593fc1adee3ddfd18c8e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4741.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4868.txt",
@@ -404713,6 +405528,15 @@
       "previous_translation_sha256": "08dfdaa7f4ef0562354c8dde7e404a3ac1a57fdc1c3d0367e453476ff5c85d8e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_5096.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_515.txt",
+      "paragraph_index": 3,
+      "source_sha256": "f4b5907d5ae779ed276992cc3bdc9cc56b5546e1e0ac054d6fa48280651f673f",
+      "translation": "세부 사항: 링스는 다목적 쌍발 전장 헬기로, 해상전과 지상전에 특화된 파생형이 각각 개발되었다. 초기형과 후기형을 구분하는 특징 가운데 하나는 착륙장치다. 초기 링스는 스키드를 사용했지만 후기형에는 바퀴가 장착되었다. 초기형은 롤스로이스 젬 2 터보샤프트 엔진 2기로 블레이드 4개의 반강성 주로터를 구동했다. 로터는 완전히 새롭게 설계되었으며, 블레이드는 복합재로 만든 벌집형 샌드위치 구조를 사용했다. 함상 수납을 위해 로터 블레이드와 꼬리를 모두 접을 수 있다. 비행 중에는 조종을 단순화하도록 주로터 회전속도를 일정하게 유지하며, 로터에는 진동흡수장치도 적용되어 있다.",
+      "previous_translation_sha256": "0623fb597e9a6c27a992104af625bc0c39ba5040f178301368dd97c6235e8383",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_516.txt",
@@ -404823,6 +405647,24 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2841.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_567.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_568.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_5689.txt",
       "paragraph_index": 6,
       "source_sha256": "f2be655ca5c281d40b552c7cf90dcd8760613227b1810564d20dc62b59335f93",
@@ -404830,6 +405672,15 @@
       "previous_translation_sha256": "2a6a8506a3944849985074ff572e84e01550685cf3039ebb74784a4356da9539",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1049.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_569.txt",
+      "paragraph_index": 2,
+      "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
+      "translation": "B-52는 1955년부터 미 공군에서 현역으로 운용되어 왔다. 2012년 기준 현역 85대와 예비 기체 9대가 있었다. 1992년 전략공군사령부(SAC)가 해체되고 소속 항공기가 항공전투사령부(ACC)로 편입될 때까지 SAC에서 운용되었다. 2010년에는 모든 B-52 스트래토포트리스가 ACC에서 신설 공군지구권타격사령부(AFGSC)로 이관되었다. 개발이 취소된 마하 3급 B-70 발키리, 가변익 B-1 랜서, 스텔스 B-2 스피릿 등 후대의 첨단 항공기가 등장했음에도, 높은 아음속 영역에서의 우수한 성능과 비교적 낮은 운용비 덕분에 B-52는 현역을 유지했다. 2005년에는 최초 운용국에서 50년간 연속 운용된 기록을 세웠으며, 2013~2015년 개량 후에는 2040년대까지 운용될 것으로 예상된다.",
+      "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_57.txt",
@@ -405678,6 +406529,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_954.txt",
+      "paragraph_index": 3,
+      "source_sha256": "f4b5907d5ae779ed276992cc3bdc9cc56b5546e1e0ac054d6fa48280651f673f",
+      "translation": "세부 사항: 링스는 다목적 쌍발 전장 헬기로, 해상전과 지상전에 특화된 파생형이 각각 개발되었다. 초기형과 후기형을 구분하는 특징 가운데 하나는 착륙장치다. 초기 링스는 스키드를 사용했지만 후기형에는 바퀴가 장착되었다. 초기형은 롤스로이스 젬 2 터보샤프트 엔진 2기로 블레이드 4개의 반강성 주로터를 구동했다. 로터는 완전히 새롭게 설계되었으며, 블레이드는 복합재로 만든 벌집형 샌드위치 구조를 사용했다. 함상 수납을 위해 로터 블레이드와 꼬리를 모두 접을 수 있다. 비행 중에는 조종을 단순화하도록 주로터 회전속도를 일정하게 유지하며, 로터에는 진동흡수장치도 적용되어 있다.",
+      "previous_translation_sha256": "0623fb597e9a6c27a992104af625bc0c39ba5040f178301368dd97c6235e8383",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1987.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_956.txt",
       "paragraph_index": 2,
       "source_sha256": "29a3f8a9dbc833bb2c6e046fb3118d6912d66748ef4d30e66b37d316c1da9f94",
@@ -405847,6 +406707,33 @@
       "previous_translation_sha256": "6021e17526032b5155ae4e078508a4db989d33fdd85f12a7afbf662b8318de46",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1480.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1395.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1396.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1397.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1457.txt",
@@ -406236,6 +407123,15 @@
       "review_origin": "DB/Descriptions/CWDB/Facility_291.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_252.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_279.txt",
       "paragraph_index": 2,
       "source_sha256": "cb52520dfd4dc9772fa6ea1470d93171b7491a9b306e1e552026ec375c317652",
@@ -406243,6 +407139,15 @@
       "previous_translation_sha256": "1aa473c6c8f5d0f3bf46b39d55a17e8f85be4a56d6606bc0887e30ff3c0a0bcc",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_2132.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_283.txt",
+      "paragraph_index": 2,
+      "source_sha256": "9df2bcda116001cb4879f18922d779ce30cd70191f5f77d859403c285334e78e",
+      "translation": "참고: SA-9 개스킨/9K31 스트렐라-1은 소련 차량화소총연대와 전차연대의 방공포대에서 ZSU-23-4 자주대공포를 보완하기 위해 1960년대 중반 도입되었다. 연대 방공포대는 SA-9 4대로 구성된 미사일소대와 ZSU-23-4 4대로 구성된 대공포소대로 편성된다. 공격작전에서 ZSU는 보통 차량화소총연대와 전차연대의 선두 부대 약 400m 뒤에서 운용되며, SA-9은 더 후방의 연대지휘소 주변에 전개한다. 방어작전에서는 육안 탐지를 어렵게 하도록 대체로 SA-9과 ZSU-23-4를 굴토 진지에 배치한다. ZSU-23-4는 전방 대대를, SA-9은 연대지휘소를 방공 지원한다. SA-9은 소련이 널리 수출했으며 중동과 아프리카에서 실전에 사용되었다.",
+      "previous_translation_sha256": "b80ace387374910b6738d9f02c4647e4a415646a13b92b2a2c60f512870caedd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_283.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_2916.txt",
@@ -406270,6 +407175,15 @@
       "previous_translation_sha256": "1aa473c6c8f5d0f3bf46b39d55a17e8f85be4a56d6606bc0887e30ff3c0a0bcc",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_2132.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_296.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_297.txt",
@@ -406308,6 +407222,24 @@
       "review_origin": "DB/Descriptions/CWDB/Facility_291.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Facility_349.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_351.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Facility_37.txt",
       "paragraph_index": 1,
       "source_sha256": "96c2b11229cb8da675cf0846c2575544d55dca9f968fcbe4e5e1f50d212292b1",
@@ -406315,6 +407247,60 @@
       "previous_translation_sha256": "26002ba31a247b2de96e025f81146bf1a1b6906b93e7f4e035bf65bc114bf1e9",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1487.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_370.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_371.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_373.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_375.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_378.txt",
+      "paragraph_index": 2,
+      "source_sha256": "ce2d4ea4d26bc04419537ef68da64d40022ff90d835ab16ab10a9c21959af2c5",
+      "translation": "일반적인 교전은 저출력 표적획득레이더(LOPAR) 또는 고출력 대체 포대 표적획득레이더(HIPAR AAR)의 최초 표적 탐지로 시작된다. 탐지 정보는 표적추적레이더(TTR)로 전달된다. 컴퓨터는 이 자료로 요격 지점을 계산하고 발사대에 있는 미사일의 자이로 설정을 갱신한다. 별도의 미사일추적레이더(MTR)도 발사 전부터 미사일을 추적한다. 발사된 MIM-14는 내장 자이로를 이용해 기체를 회전시켜 올바른 요격 자세를 취한다. 비행 중에는 지상 컴퓨터가 최신 표적·미사일 위치 정보를 받아 요격 정보를 계속 갱신하고, 지령 링크로 MIM-14에 전송한다. 이 링크는 미사일이 표적에 접근했을 때 탄두를 기폭하라는 명령을 보내는 데도 사용된다.",
+      "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_381.txt",
+      "paragraph_index": 2,
+      "source_sha256": "9df2bcda116001cb4879f18922d779ce30cd70191f5f77d859403c285334e78e",
+      "translation": "참고: SA-9 개스킨/9K31 스트렐라-1은 소련 차량화소총연대와 전차연대의 방공포대에서 ZSU-23-4 자주대공포를 보완하기 위해 1960년대 중반 도입되었다. 연대 방공포대는 SA-9 4대로 구성된 미사일소대와 ZSU-23-4 4대로 구성된 대공포소대로 편성된다. 공격작전에서 ZSU는 보통 차량화소총연대와 전차연대의 선두 부대 약 400m 뒤에서 운용되며, SA-9은 더 후방의 연대지휘소 주변에 전개한다. 방어작전에서는 육안 탐지를 어렵게 하도록 대체로 SA-9과 ZSU-23-4를 굴토 진지에 배치한다. ZSU-23-4는 전방 대대를, SA-9은 연대지휘소를 방공 지원한다. SA-9은 소련이 널리 수출했으며 중동과 아프리카에서 실전에 사용되었다.",
+      "previous_translation_sha256": "b80ace387374910b6738d9f02c4647e4a415646a13b92b2a2c60f512870caedd",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_283.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_383.txt",
@@ -408108,6 +409094,15 @@
       "review_origin": "DB/Descriptions/CWDB/ship_1044.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/ship_1718.txt",
+      "paragraph_index": 0,
+      "source_sha256": "f6ddd6c2cba044ff57ca6c1c4875a91e9f1ac26dbbe5578f66570c00040aee64",
+      "translation": "이 우수한 노르웨이 해군 함정들은 대다수 국가가 해군의 규모나 전력을 축소하던 1990년대 유럽의 흐름과는 달랐다. 오슬로급 호위함보다 크게 향상된 함급으로, 5척을 확보하면 최소 1척, 보통은 최소 2척을 항상 초계에 투입할 수 있다. 설계는 스페인의 알바로 데 바산급을 기반으로 하며 록히드 마틴이 지원했다. 원거리 평화유지작전 참가 능력도 설계 요건에 포함되어, 함내 공간이 넓고 냉방시설을 갖췄다. 제빙장치와 트리곤 헬기 강제착함장치를 갖추어 거친 북극권 기후에 최적화되어 있다. 손상에 대한 저항성도 우수하다. 함체는 핵·생물·화학(NBC) 위협에 대비해 밀폐할 수 있으며, 기관실 전체가 파괴되더라도 별도로 격리된 MTU 396-12V 디젤엔진 2기가 전력을 공급할 수 있다.",
+      "previous_translation_sha256": "ddc1ca8dee618e7699a676c3c7909ef04ab2d3feb2d83346e9b396fadbc15a00",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/ship_1718.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1724.txt",
       "paragraph_index": 0,
       "source_sha256": "e75cdcf3432ce28cb7da8a024f5899bc3e09abab324caea08b2a8a288209e106",
@@ -408232,6 +409227,15 @@
       "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/ship_1875.txt",
+      "paragraph_index": 0,
+      "source_sha256": "f6ddd6c2cba044ff57ca6c1c4875a91e9f1ac26dbbe5578f66570c00040aee64",
+      "translation": "이 우수한 노르웨이 해군 함정들은 대다수 국가가 해군의 규모나 전력을 축소하던 1990년대 유럽의 흐름과는 달랐다. 오슬로급 호위함보다 크게 향상된 함급으로, 5척을 확보하면 최소 1척, 보통은 최소 2척을 항상 초계에 투입할 수 있다. 설계는 스페인의 알바로 데 바산급을 기반으로 하며 록히드 마틴이 지원했다. 원거리 평화유지작전 참가 능력도 설계 요건에 포함되어, 함내 공간이 넓고 냉방시설을 갖췄다. 제빙장치와 트리곤 헬기 강제착함장치를 갖추어 거친 북극권 기후에 최적화되어 있다. 손상에 대한 저항성도 우수하다. 함체는 핵·생물·화학(NBC) 위협에 대비해 밀폐할 수 있으며, 기관실 전체가 파괴되더라도 별도로 격리된 MTU 396-12V 디젤엔진 2기가 전력을 공급할 수 있다.",
+      "previous_translation_sha256": "ddc1ca8dee618e7699a676c3c7909ef04ab2d3feb2d83346e9b396fadbc15a00",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/ship_1718.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1901.txt",
@@ -409296,6 +410300,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_1442.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/ship_630.txt",
+      "paragraph_index": 0,
+      "source_sha256": "f6ddd6c2cba044ff57ca6c1c4875a91e9f1ac26dbbe5578f66570c00040aee64",
+      "translation": "이 우수한 노르웨이 해군 함정들은 대다수 국가가 해군의 규모나 전력을 축소하던 1990년대 유럽의 흐름과는 달랐다. 오슬로급 호위함보다 크게 향상된 함급으로, 5척을 확보하면 최소 1척, 보통은 최소 2척을 항상 초계에 투입할 수 있다. 설계는 스페인의 알바로 데 바산급을 기반으로 하며 록히드 마틴이 지원했다. 원거리 평화유지작전 참가 능력도 설계 요건에 포함되어, 함내 공간이 넓고 냉방시설을 갖췄다. 제빙장치와 트리곤 헬기 강제착함장치를 갖추어 거친 북극권 기후에 최적화되어 있다. 손상에 대한 저항성도 우수하다. 함체는 핵·생물·화학(NBC) 위협에 대비해 밀폐할 수 있으며, 기관실 전체가 파괴되더라도 별도로 격리된 MTU 396-12V 디젤엔진 2기가 전력을 공급할 수 있다.",
+      "previous_translation_sha256": "ddc1ca8dee618e7699a676c3c7909ef04ab2d3feb2d83346e9b396fadbc15a00",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/ship_1718.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_649.txt",
       "paragraph_index": 4,
       "source_sha256": "2520120fda5f2f187837fbe4ff767430a34b12caec1ce8debdaa92c53b3319eb",
@@ -409837,6 +410850,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_138.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7a9a0b9e9b555a0f35bc73e2e8a8b241727b3da3e4fe51ccd73b62db8b84c04a",
+      "translation": "빅터 III급 — 프로젝트 671RTM",
+      "previous_translation_sha256": "8b1ffdfafe9d75d5e8d7693e7aeaadc9146ba06a0e1cbee9cde5aa9b5124201c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_138.txt",
       "paragraph_index": 3,
       "source_sha256": "f7036e51584a694da4e8e661358087120ae9e879d9deef8643cb6548c6f0532b",
       "translation": "소련의 사업명은 프로젝트 671RTM/RTMK 슈카(강꼬치고기)다. 1979년에 취역했으며 1991년까지 25척이 건조되었다. 이전 소련 잠수함보다 정숙성이 높았다. SS-N-21·SS-N-15 미사일과 53형 어뢰를 발사하는 발사관 4문, SS-N-16 미사일과 65형 어뢰를 발사하는 발사관 2문을 갖췄다. 발사관용 무장 24발 또는 기뢰 36발을 탑재할 수 있었다. 빅터 III급이 처음 등장했을 때 함미 수직타에 달린 독특한 포드 때문에 NATO 정보기관에서 한바탕 소동이 벌어졌다. 이 포드가 특수한 저소음 추진체계, 아마도 자기유체역학 추진장치를 담은 것이라는 추측이 곧바로 퍼졌다. 일종의 무기체계라는 설도 나왔다. 결국 이 포드는 감아 들일 수 있는 예인식 수동 소나 배열을 수용하는 유체역학적 형상의 덮개로 밝혀졌다. 이 체계는 이후 시에라급과 아쿨라급 공격원잠에도 도입되었다. 빅터 III급은 건조 기간 내내 개량되었으며 후기 건조함은 정숙성이 더 뛰어났다. 전장은 106m였고 21척이 퇴역·처분되었다.",
@@ -410116,6 +411138,15 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_364.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7a9a0b9e9b555a0f35bc73e2e8a8b241727b3da3e4fe51ccd73b62db8b84c04a",
+      "translation": "빅터 III급 — 프로젝트 671RTM",
+      "previous_translation_sha256": "8b1ffdfafe9d75d5e8d7693e7aeaadc9146ba06a0e1cbee9cde5aa9b5124201c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_364.txt",
       "paragraph_index": 3,
       "source_sha256": "f7036e51584a694da4e8e661358087120ae9e879d9deef8643cb6548c6f0532b",
       "translation": "소련의 사업명은 프로젝트 671RTM/RTMK 슈카(강꼬치고기)다. 1979년에 취역했으며 1991년까지 25척이 건조되었다. 이전 소련 잠수함보다 정숙성이 높았다. SS-N-21·SS-N-15 미사일과 53형 어뢰를 발사하는 발사관 4문, SS-N-16 미사일과 65형 어뢰를 발사하는 발사관 2문을 갖췄다. 발사관용 무장 24발 또는 기뢰 36발을 탑재할 수 있었다. 빅터 III급이 처음 등장했을 때 함미 수직타에 달린 독특한 포드 때문에 NATO 정보기관에서 한바탕 소동이 벌어졌다. 이 포드가 특수한 저소음 추진체계, 아마도 자기유체역학 추진장치를 담은 것이라는 추측이 곧바로 퍼졌다. 일종의 무기체계라는 설도 나왔다. 결국 이 포드는 감아 들일 수 있는 예인식 수동 소나 배열을 수용하는 유체역학적 형상의 덮개로 밝혀졌다. 이 체계는 이후 시에라급과 아쿨라급 공격원잠에도 도입되었다. 빅터 III급은 건조 기간 내내 개량되었으며 후기 건조함은 정숙성이 더 뛰어났다. 전장은 106m였고 21척이 퇴역·처분되었다.",
@@ -410125,10 +411156,28 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_365.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7a9a0b9e9b555a0f35bc73e2e8a8b241727b3da3e4fe51ccd73b62db8b84c04a",
+      "translation": "빅터 III급 — 프로젝트 671RTM",
+      "previous_translation_sha256": "8b1ffdfafe9d75d5e8d7693e7aeaadc9146ba06a0e1cbee9cde5aa9b5124201c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_365.txt",
       "paragraph_index": 3,
       "source_sha256": "f7036e51584a694da4e8e661358087120ae9e879d9deef8643cb6548c6f0532b",
       "translation": "소련의 사업명은 프로젝트 671RTM/RTMK 슈카(강꼬치고기)다. 1979년에 취역했으며 1991년까지 25척이 건조되었다. 이전 소련 잠수함보다 정숙성이 높았다. SS-N-21·SS-N-15 미사일과 53형 어뢰를 발사하는 발사관 4문, SS-N-16 미사일과 65형 어뢰를 발사하는 발사관 2문을 갖췄다. 발사관용 무장 24발 또는 기뢰 36발을 탑재할 수 있었다. 빅터 III급이 처음 등장했을 때 함미 수직타에 달린 독특한 포드 때문에 NATO 정보기관에서 한바탕 소동이 벌어졌다. 이 포드가 특수한 저소음 추진체계, 아마도 자기유체역학 추진장치를 담은 것이라는 추측이 곧바로 퍼졌다. 일종의 무기체계라는 설도 나왔다. 결국 이 포드는 감아 들일 수 있는 예인식 수동 소나 배열을 수용하는 유체역학적 형상의 덮개로 밝혀졌다. 이 체계는 이후 시에라급과 아쿨라급 공격원잠에도 도입되었다. 빅터 III급은 건조 기간 내내 개량되었으며 후기 건조함은 정숙성이 더 뛰어났다. 전장은 106m였고 21척이 퇴역·처분되었다.",
       "previous_translation_sha256": "4bf4c5f8f86567f551c5a5dab2cf05fae935f258dcb49df8d69e5346ba76b5f9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_386.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7a9a0b9e9b555a0f35bc73e2e8a8b241727b3da3e4fe51ccd73b62db8b84c04a",
+      "translation": "빅터 III급 — 프로젝트 671RTM",
+      "previous_translation_sha256": "8b1ffdfafe9d75d5e8d7693e7aeaadc9146ba06a0e1cbee9cde5aa9b5124201c",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
     },
@@ -410170,10 +411219,28 @@
     },
     {
       "path": "DB/Descriptions/DB3000/Submarine_452.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7a9a0b9e9b555a0f35bc73e2e8a8b241727b3da3e4fe51ccd73b62db8b84c04a",
+      "translation": "빅터 III급 — 프로젝트 671RTM",
+      "previous_translation_sha256": "8b1ffdfafe9d75d5e8d7693e7aeaadc9146ba06a0e1cbee9cde5aa9b5124201c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_452.txt",
       "paragraph_index": 3,
       "source_sha256": "f7036e51584a694da4e8e661358087120ae9e879d9deef8643cb6548c6f0532b",
       "translation": "소련의 사업명은 프로젝트 671RTM/RTMK 슈카(강꼬치고기)다. 1979년에 취역했으며 1991년까지 25척이 건조되었다. 이전 소련 잠수함보다 정숙성이 높았다. SS-N-21·SS-N-15 미사일과 53형 어뢰를 발사하는 발사관 4문, SS-N-16 미사일과 65형 어뢰를 발사하는 발사관 2문을 갖췄다. 발사관용 무장 24발 또는 기뢰 36발을 탑재할 수 있었다. 빅터 III급이 처음 등장했을 때 함미 수직타에 달린 독특한 포드 때문에 NATO 정보기관에서 한바탕 소동이 벌어졌다. 이 포드가 특수한 저소음 추진체계, 아마도 자기유체역학 추진장치를 담은 것이라는 추측이 곧바로 퍼졌다. 일종의 무기체계라는 설도 나왔다. 결국 이 포드는 감아 들일 수 있는 예인식 수동 소나 배열을 수용하는 유체역학적 형상의 덮개로 밝혀졌다. 이 체계는 이후 시에라급과 아쿨라급 공격원잠에도 도입되었다. 빅터 III급은 건조 기간 내내 개량되었으며 후기 건조함은 정숙성이 더 뛰어났다. 전장은 106m였고 21척이 퇴역·처분되었다.",
       "previous_translation_sha256": "4bf4c5f8f86567f551c5a5dab2cf05fae935f258dcb49df8d69e5346ba76b5f9",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Submarine_454.txt",
+      "paragraph_index": 2,
+      "source_sha256": "7a9a0b9e9b555a0f35bc73e2e8a8b241727b3da3e4fe51ccd73b62db8b84c04a",
+      "translation": "빅터 III급 — 프로젝트 671RTM",
+      "previous_translation_sha256": "8b1ffdfafe9d75d5e8d7693e7aeaadc9146ba06a0e1cbee9cde5aa9b5124201c",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Submarine_138.txt"
     },
@@ -412545,6 +413612,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_473.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_771.txt",
+      "paragraph_index": 2,
+      "source_sha256": "6c45d7f8ce3e1fb726d105f6735e15e69625a25c6429e42f2d4001eecb4908fe",
+      "translation": "참고: 라이트닝 II의 초도 인도는 2000년 2월 시작되었다. 라이트닝 II는 모든 조명·기상 조건에서 FLIR 및 CCD 영상을 제공한다. 최대 50,000피트 고도에서도 표적을 획득할 수 있어, 여러 잠재적 위협 체계의 최대 도달고도보다 높은 곳에서 운용할 수 있다. ‘이라크의 자유’ 작전 당시 미 해병대 AV-8B 비행대대 한 곳은 이 포드를 사용해 확인된 표적 격파율 70%를 기록했다고 보고했다. 라이트닝은 일부 정찰·전투피해평가 임무와 가시거리 밖의 공중 표적 식별도 수행할 수 있다. 여러 파생형이 미 해병대, 미 공군, 이스라엘, 스페인, 이탈리아, 호주, 네덜란드, 포르투갈, 핀란드, 덴마크에서 사용되고 있다. 모듈식 설계로 비교적 신속한 개량이 가능하다. 2006년 봄까지 미국이 보유한 모든 AN/AAQ-28은 AN/AAQ-28 AT 사양으로 개량되었다.",
+      "previous_translation_sha256": "4cd602320a04776943e1a28f5b00854677c03ffc97e275b94e78873fb93d0987",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_771.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_78.txt",
       "paragraph_index": 1,
       "source_sha256": "d0a8938d473bd5dc7d485fc6b0b520a2c3bacb5f76b684b536f9229baca2de48",
@@ -412588,6 +413664,15 @@
       "previous_translation_sha256": "a9e5257e4832c7452ddc46686df7531585afa931bc7d89ca48916d960241cc60",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_801.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_803.txt",
+      "paragraph_index": 2,
+      "source_sha256": "6c45d7f8ce3e1fb726d105f6735e15e69625a25c6429e42f2d4001eecb4908fe",
+      "translation": "참고: 라이트닝 II의 초도 인도는 2000년 2월 시작되었다. 라이트닝 II는 모든 조명·기상 조건에서 FLIR 및 CCD 영상을 제공한다. 최대 50,000피트 고도에서도 표적을 획득할 수 있어, 여러 잠재적 위협 체계의 최대 도달고도보다 높은 곳에서 운용할 수 있다. ‘이라크의 자유’ 작전 당시 미 해병대 AV-8B 비행대대 한 곳은 이 포드를 사용해 확인된 표적 격파율 70%를 기록했다고 보고했다. 라이트닝은 일부 정찰·전투피해평가 임무와 가시거리 밖의 공중 표적 식별도 수행할 수 있다. 여러 파생형이 미 해병대, 미 공군, 이스라엘, 스페인, 이탈리아, 호주, 네덜란드, 포르투갈, 핀란드, 덴마크에서 사용되고 있다. 모듈식 설계로 비교적 신속한 개량이 가능하다. 2006년 봄까지 미국이 보유한 모든 AN/AAQ-28은 AN/AAQ-28 AT 사양으로 개량되었다.",
+      "previous_translation_sha256": "4cd602320a04776943e1a28f5b00854677c03ffc97e275b94e78873fb93d0987",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_771.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_82.txt",
@@ -413103,6 +414188,13 @@
       "translation": "켜기",
       "review": "direct-original-html-node-review",
       "origin": "source-00699.xml"
+    },
+    {
+      "dictionary": "scenario-ko.b64.tsv",
+      "source_hash": "f4bf9f7fcbedaba0392f108c59d8f4a38b3838efb64877380171b54475c2ade8",
+      "translation": "된",
+      "review": "direct-original-html-node-review",
+      "origin": "source-00652.xml"
     }
   ]
 }

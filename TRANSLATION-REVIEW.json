@@ -49,16 +49,16 @@
   "incremental_direct_review": {
     "base_commit": "e5e47f8",
     "method": "Codex source-based review, including official Codex SDK gpt-6-astra medium candidates directly compared with full originals before acceptance; no blanket terminology replacement",
-    "reviewed_source_entries": 49941,
+    "reviewed_source_entries": 49990,
     "review_outcomes": {
-      "modified": 46755,
-      "retained": 3186
+      "modified": 46803,
+      "retained": 3187
     },
     "changed_from_base": {
       "ko.tsv": 179,
-      "scenario-ko.b64.tsv": 46584,
-      "db_files": 4332,
-      "db_paragraphs": 8699
+      "scenario-ko.b64.tsv": 46632,
+      "db_files": 4363,
+      "db_paragraphs": 8776
     },
     "source_recovery": {
       "matched": {
@@ -70,12 +70,12 @@
       "direct_candidate_hash_matches": 999
     },
     "validation": {
-      "runtime_first_lookup_passed": 49983,
+      "runtime_first_lookup_passed": 50033,
       "dictionary_keys_preserved": true,
       "database_paragraph_alignment_preserved": true,
       "in_game_visual_check": false,
       "scenario_context_priority_regression_passed": true,
-      "html_context_lookup_passed": 911
+      "html_context_lookup_passed": 936
     },
     "full_manual_review_complete": false,
     "runtime_change": {
@@ -83,21 +83,21 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 503,
-    "supplemental_source_entries": 42,
+    "additional_whole_db_paragraph_reviews": 515,
+    "supplemental_source_entries": 43,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
       "retroactive_review_complete": false,
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 217,
-      "pending_locations": 217,
-      "covered_associations": 2648,
+      "unique_pending_whole_paragraphs": 207,
+      "pending_locations": 207,
+      "covered_associations": 2683,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 1468,
+    "whole_db_paragraph_applications": 1545,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
