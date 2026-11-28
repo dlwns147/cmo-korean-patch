@@ -10,8 +10,8 @@
     "changed_from_base": {
       "ko.tsv": 179,
       "scenario-ko.b64.tsv": 46632,
-      "db_files": 4363,
-      "db_paragraphs": 8776
+      "db_files": 4370,
+      "db_paragraphs": 8868
     },
     "source_recovery": {
       "matched": {
@@ -36,7 +36,7 @@
       "dll_sha256": "57a7e6e6df17428f4dc614beaaea1c77bd3ae1b287437ea4cf1ea4a2d56cc0ce",
       "reproduction_script": "tools/fix-scenario-priority.py"
     },
-    "additional_whole_db_paragraph_reviews": 515,
+    "additional_whole_db_paragraph_reviews": 539,
     "supplemental_source_entries": 43,
     "style_policy": {
       "register": "plain declarative Korean (~한다/~이다)",
@@ -44,13 +44,13 @@
       "automatic_ending_substitution": false
     },
     "reviewed_dictionary_db_coverage_audit": {
-      "unique_pending_whole_paragraphs": 207,
-      "pending_locations": 207,
-      "covered_associations": 2683,
+      "unique_pending_whole_paragraphs": 183,
+      "pending_locations": 183,
+      "covered_associations": 2714,
       "unresolved_associations": 2,
       "scope": "DB origins associated with already reviewed dictionary entries; not all DB content"
     },
-    "whole_db_paragraph_applications": 1545,
+    "whole_db_paragraph_applications": 1637,
     "codex_sdk_review": {
       "sdk": "openai-codex 0.172.0",
       "model": "gpt-6-astra",
@@ -400274,11 +400274,29 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_1711.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_1712.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
       "translation": "코네티컷주 블룸필드의 카만 에어로스페이스가 제작한 SH-2G 슈퍼 시스프라이트는 원래 1950년대 중반에 해군용 함재 다목적 헬리콥터로 개발되었다. 주로터에 독특한 블레이드 플랩 설계를 적용하여 플랩의 공기역학적 작용만으로 조종사가 유압 보조 없이 비행할 수 있다. SH-2G는 미 해군의 경량 공중 다목적 체계(LAMPS) 요구에 대응하도록 특별히 구성되었다. LAMPS 개념은 레이더/전자지원수단(ESM)을 갖춘 헬리콥터를 사용하여 항공모함 및 수송선단 호위함의 탐색·공격 능력을 수평선 너머까지 확장한다.",
       "previous_translation_sha256": "745b8008510c1a041f09bdbdd979814de66e26b98f3e5efce2f703d532341d9e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_1712.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
     },
@@ -400472,6 +400490,51 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_17.txt"
     },
     {
+      "path": "DB/Descriptions/CWDB/Aircraft_2097.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2098.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2099.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2100.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2101.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
       "path": "DB/Descriptions/CWDB/Aircraft_2105.txt",
       "paragraph_index": 1,
       "source_sha256": "3d221e4218e3c971c44573b90f1e1b86715773627f8105992139e6bce0f5dba9",
@@ -400488,6 +400551,15 @@
       "previous_translation_sha256": "b842dd1eba50f96c9859597a24976e7dcc2abcc251ad6924c0288058d2647eff",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_124.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/aircraft_2289.txt",
+      "paragraph_index": 1,
+      "source_sha256": "4023509d244522f56e5875920356ea0ad629c068ae3f86b6972cddde8904ac48",
+      "translation": "세부 사항: 미라주 IIIE는 미라주 IIIC를 기반으로 한 델타익 항공기로, 항공전자장비 공간과 연료 용량을 늘리기 위해 전방 동체를 0.3m 연장했다. 미라주 III는 델타익 설계로 인해 몇 가지 운용상 제약이 있었다. 날개에 플랩을 설치할 수 없어 이착륙에 긴 활주로가 필요했다. 선회 중 에너지 손실이 커 공중전 기동 성능도 제한되었다. 또한 넓은 날개 면적에 따른 낮은 익면하중으로 저고도에서 버페팅에 시달렸다. 반면 직선비행에서는 높은 속도를 낼 수 있었다. 엔진 효율을 극대화하기 위해 가변 단면 공기흡입구 2개를 사용했으며, 각 흡입구에는 ‘생쥐’라는 별명의 가동식 반원뿔 충격파 제어 장치가 있어 고속비행 중 엔진으로 들어가는 공기의 속도를 낮췄다.",
+      "previous_translation_sha256": "20b678e51c77d0e2dffdee70abb2a8cb933873ca9fe3ee82a58429528a8120be",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/aircraft_2289.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_2351.txt",
@@ -400677,6 +400749,15 @@
       "previous_translation_sha256": "74c27b8152cebb95ecc822e79ccf22ddda93931e055441051b0300138545d73d",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_2905.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Aircraft_2988.txt",
@@ -400873,6 +400954,15 @@
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
       "translation": "코네티컷주 블룸필드의 카만 에어로스페이스가 제작한 SH-2G 슈퍼 시스프라이트는 원래 1950년대 중반에 해군용 함재 다목적 헬리콥터로 개발되었다. 주로터에 독특한 블레이드 플랩 설계를 적용하여 플랩의 공기역학적 작용만으로 조종사가 유압 보조 없이 비행할 수 있다. SH-2G는 미 해군의 경량 공중 다목적 체계(LAMPS) 요구에 대응하도록 특별히 구성되었다. LAMPS 개념은 레이더/전자지원수단(ESM)을 갖춘 헬리콥터를 사용하여 항공모함 및 수송선단 호위함의 탐색·공격 능력을 수평선 너머까지 확장한다.",
       "previous_translation_sha256": "745b8008510c1a041f09bdbdd979814de66e26b98f3e5efce2f703d532341d9e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Aircraft_576.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
     },
@@ -401082,6 +401172,15 @@
       "previous_translation_sha256": "c669c8fa747d55be7bcd76166966e07f2da728ad5b57414dbc28509749bc5e90",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_1901.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/facility_610.txt",
+      "paragraph_index": 0,
+      "source_sha256": "a07972176d90621f21f5c6dbfadd444c33f96fd88262022f81930698f1667d4a",
+      "translation": "MQ-8B는 미 육군과 미 해군이 공동 개발 중인 무인헬기다. 해군은 걸프전 시기의 RQ-2 파이오니어를 대체할 수직이착륙 무인기(VTUAV)로 선정했고, 육군은 정보·감시·정찰(ISR) 무인기 역할을 기대하고 있다. 최초 제식명은 RQ-8A였다. MQ-8은 슈바이처 330SP 민간 헬기를 기반으로 하며, 육군 표준 JP-5 또는 해군 표준 JP-8 연료로 운용할 수 있다. 기수에는 교체식 센서 터렛이 장착되고, 헬파이어와 바이퍼 스트라이크 미사일 등 다양한 무장이 검토되었다. 육군용 신호정보(SIGINT) 장비도 개발되었다. 총 탑재량은 해군형 500파운드, 육군형 700파운드다. 또는 200파운드 화물 포드를 이용해 SEAL 팀이나 포위된 병력에 보급품을 전달할 수 있다.",
+      "previous_translation_sha256": "35a6cc7da4eccc52695e55c6214676446a68b6d0ea6ec2ce53505c70609d382e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/facility_610.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Facility_632.txt",
@@ -401433,6 +401532,15 @@
       "previous_translation_sha256": "2ec2c02570ca260b2a74138da9e63e1bc193f8ff27084d0418f07e7a1d738a93",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Sensor_1111.txt"
+    },
+    {
+      "path": "DB/Descriptions/CWDB/Sensor_1112.txt",
+      "paragraph_index": 2,
+      "source_sha256": "b6da2ed3d0d183b0d2ec10c215ed5aba3e4c73cf17f970cc7f6fe4c4dc885363",
+      "translation": "안테나 체계는 한 쌍의 안테나로 구성된다. 전기기계식 주사 방식의 이른바 ‘루이스 스캐너’ 안테나 2개가 수직·수평 방향의 표적 탐색을 담당하며, 보통 포대의 P-12 스푼 레스트와 PRV-10 록 케이크 같은 고도측정레이더를 함께 운용한다. 이런 구성이 필요한 이유는 팬 송 레이더의 좁은 10° × 2° 감시 빔을 10° 범위 안에서만 움직일 수 있기 때문이다. 서로 직각으로 장착된 안테나는 십자형 빔을 형성하고 그 중심을 표적에 맞춰 고도와 방위를 측정한다. 빔은 담당 구역을 주사하면서 날개를 퍼덕이는 듯한 움직임을 보인다. 팬 송 A에는 추적용 협대역(2~4GHz) 안테나도 있었다. 팬 송 레이더에는 저고도 사각지대가 있었으며, 대공포로 이를 보완하지 않으면 공격 항공기가 침투로로 이용할 수 있었다.",
+      "previous_translation_sha256": "d44544eeaba22a01682a0cffa4116f1d61deeb709a30cc4af736351146604461",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Sensor_1112.txt"
     },
     {
       "path": "DB/Descriptions/CWDB/Sensor_1688.txt",
@@ -402533,6 +402641,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1096.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1097.txt",
+      "paragraph_index": 1,
+      "source_sha256": "6be22e63c6ff44814499c7a753ad47ca4e4fea7b47769d40e1e14b9543df07fd",
+      "translation": "세부 사항: GR.9A는 GR.7A 기체에 GR.9 통합 개량·정비계획(JUMP)의 전체 개량 패키지를 적용한 형식으로, 2008~2010년에 실전 배치되었다. 복합재 기체, 무장 장착점 7개, MIL-STD-1760 디지털 무장 데이터버스, 신형 임무 컴퓨터, GPS/관성항법, 개선된 조종석 체계를 유지했다. 약 23,800파운드힘의 추력을 내는 롤스로이스 페가수스 Mk 107 터보팬 엔진으로 고온·고지대 성능과 탑재 능력을 높였다. 탑재 레이더는 없으며 FLIR와, 장착한 경우 외부 표적지시 포드에 의존했다. 방어장비는 제우스 전자대항체계, 플레시 미사일 접근경보체계(MAWS), 레이더경보수신기, 채프·플레어 발사장치로 구성되었다. 최고속도는 약 마하 0.9였다.",
+      "previous_translation_sha256": "5b4c12f1252c069d00d96891b00cb41c980da77d2e1c05e9295658e83ae99092",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1097.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1107.txt",
       "paragraph_index": 4,
       "source_sha256": "ff10bd20be4c04635eb464cab5f400232428f6c952bc99984e3fadd47e0c728f",
@@ -402587,6 +402704,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1123.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1124.txt",
+      "paragraph_index": 1,
+      "source_sha256": "91b254a9d9db3d0563f9f5518585e4eb1ca86d34a0e3ef164d6465d3d9cce458",
+      "translation": "세부 사항: 이 GR.7 개량 사양은 1990년 도입된 기본형을 점진적으로 개선한 것으로, 1995년 실전 운용에 들어갔다. 약 21,750파운드힘의 추력을 내는 롤스로이스 페가수스 Mk 105 터보팬 엔진을 유지하며 수직·단거리이착륙(V/STOL)을 계속 지원했다. 외부 장착점 7개와 복합재 동체를 갖추고, 항공전자장비로 INS/GPS 항법체계, 기수의 전방감시적외선장치(FLIR), MIL-STD-1553 데이터버스를 탑재한다. 1995년 개량으로 마르코니 제우스 전자대항체계와 꼬리에 장착하는 플레시 미사일 접근경보체계(MAWS)를 추가하여 위협을 자동 탐지하게 했다. 내장 레이더경보수신기와 통합 채프·플레어 발사장치도 방어장비에 포함되며, 최고속도는 약 마하 0.9로 유지되었다.",
+      "previous_translation_sha256": "40a445f460047bddb2c523d2daf4770ecd52f83b83dd0e109430476c13a69494",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1124.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1130.txt",
       "paragraph_index": 2,
       "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
@@ -402603,6 +402729,24 @@
       "previous_translation_sha256": "6d56ac1cbd97b4839e37a011a313d517a537d307b296b45f34b19e432f4e3704",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1135.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1136.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1147.txt",
@@ -402965,6 +403109,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_125.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_1554.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_1566.txt",
       "paragraph_index": 1,
       "source_sha256": "d7ffe94b2538a0d75f9d6740836418dd8cdada575b671909219729dc78a927d7",
@@ -402999,6 +403152,15 @@
       "previous_translation_sha256": "716d4cfe5a58f187aba364a59e99108706587b6d289782271ba771036c695ca4",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1577.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1584.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_159.txt",
@@ -403053,6 +403215,15 @@
       "previous_translation_sha256": "08af73d86c4f79452e9a61850c0e76e8f6b60771cfdd305465e612bc9174332a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1852.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1699.txt",
+      "paragraph_index": 1,
+      "source_sha256": "560fdb728593e8865692396fd20172d45ad08bc2e382d7d5472f4eca56b31687",
+      "translation": "세부 사항: Su-30MKM은 Su-30MKI 기체를 기반으로 하며, AL-31FP 추력편향 엔진, 전방 카나드, 다양한 다목적 무장을 위한 외부 장착점 12개를 갖춘다. N011M 바르스 수동전자주사배열 레이더, 적외선 탐색·추적 장치, 내장 레이더경보수신기, 러시아 표준 전자대항체계를 탑재한다. 프랑스 탈레스의 전방시현기(HUD), 다모클레스 표적지시 포드, NAVFLIR, 시그마 95 항법체계와 남아프리카공화국의 MAW-300 미사일 접근경보장치 및 LWS-310 레이저 경보센서를 통합했다. R-77·R-73 공대공미사일, Kh-29T/L·Kh-31A/P 공대지미사일, KAB-500 유도폭탄을 탑재한다. 말레이시아는 2003년 계약에 따라 18대를 도입했으며, 인도는 2009년까지 완료되었고 완전작전능력은 2008년에 확보했다. 이 Su-30 파생형의 NATO 식별명은 플랭커 H다.",
+      "previous_translation_sha256": "c34f19e2b8a1a2c72d685ff4daa720754516c875e55ed4d7e608a8cb48060305",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1699.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_170.txt",
@@ -403179,6 +403350,15 @@
       "previous_translation_sha256": "c1f1c85db30d005542663945c07c7759b1ab8bcba589cd45b9c2e8243780f484",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_175.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_1806.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_1823.txt",
@@ -403404,6 +403584,15 @@
       "previous_translation_sha256": "40a987cf497c5e98d727f30d89ac42b6652e65b3d6ac3e05a738f8294119ea53",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1725.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2006.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2007.txt",
@@ -403667,6 +403856,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1893.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2170.txt",
+      "paragraph_index": 1,
+      "source_sha256": "80c1d593ca61925cfc9716f6946714f5e2b9e35fd37ca066c8e7505516ee2331",
+      "translation": "세부 사항: 토네이도 IDS는 1981년 독일 해군항공대에 도입되어 해상 차단 임무의 F-104G를 대체했으며, 야겔의 제1해군항공단(MFG 1)과 에게베크의 제2해군항공단(MFG 2)에 배치되었다. 1988년까지 제한적인 수명 중간 개량을 거쳐 무장체계 통합을 개선하고 수명을 연장했으며, 신형 무장을 지원하도록 임무 소프트웨어를 갱신했다. 터보유니언 RB199-34R Mk 103 터보팬 엔진 2기, 마하 2.2의 최고속도, 약 1,390km의 전투행동반경은 유지되었다. 외부 장착점 9개에는 이 시기에 도입된 AS.34 코르모란 2, AGM-88 HARM, MW-1 자탄 살포장치, GBU-16 페이브웨이 II 레이저유도폭탄을 탑재할 수 있었고 마우저 BK-27 기관포도 갖췄다. 항공전자장비로 내장 레이더경보수신기, 전자대항장비, 지형추적레이더, 항법체계가 있었으며 레이더의 제식명은 공개되지 않았다.",
+      "previous_translation_sha256": "529b1cb0d773725715183b367bcc47492fe5251806d0e9199063d014affd342c",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2170.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2178.txt",
       "paragraph_index": 2,
       "source_sha256": "db58d0f07103570c74498d24b0e909eabef6ebe564c761aa641ccd0583d51992",
@@ -403701,6 +403899,24 @@
       "previous_translation_sha256": "c4b928d7ad1aae917fe9101a83b51932f5e2bf37198f348f5f5ff3c9c7ab79a0",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1246.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2190.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2200.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2264.txt",
@@ -403766,6 +403982,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1002.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2347.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_236.txt",
       "paragraph_index": 2,
       "source_sha256": "877cd293c32c88fe267483168ace6de9717654b722f378526132abc362e81582",
@@ -403773,6 +403998,15 @@
       "previous_translation_sha256": "31795be24abf066b32a961f83a6138f7fa77235682b4c1cc38750691603071a3",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_236.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_237.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2377.txt",
@@ -403791,6 +404025,24 @@
       "previous_translation_sha256": "745b8008510c1a041f09bdbdd979814de66e26b98f3e5efce2f703d532341d9e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2389.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2399.txt",
+      "paragraph_index": 1,
+      "source_sha256": "f1078b1f0732e10d0632d1907d05ecd58d09ec9f86995f2dfb98cef5b789e44a",
+      "translation": "세부 사항: AV-8A 해리어는 영국 해리어 GR.1의 미국 전용 파생형으로, 원정작전의 근접항공지원 수요를 충족하기 위해 1970년대 초 미 해병대에 도입되었다. 롤스로이스 페가수스 Mk 103 추력편향 터보팬 엔진을 사용하며 최고속도는 약 마하 0.94다. 날개 아래 4개와 동체 아래 1개, 총 5개의 무장 장착점에 Mk 80 계열 폭탄, 로켓 포드, AIM-9 사이드와인더 미사일, 외부 연료탱크를 탑재할 수 있다. 최초 사양의 AV-8A에는 탑재 레이더, 레이더경보수신기, 내장 전자대항체계가 없었다. B61 핵폭탄 투하 인증을 받아 미 해병대 교리에 따른 전술핵 타격 능력을 갖췄다. 주로 전방 무장·급유 지점(FARP), 도로, 소규모 원정 비행장에서 운용되었다.",
+      "previous_translation_sha256": "dadec0e2f74ce3c9efafd68e95242a7c2895fd0c7287c7d4e07dd9ad17d4baf3",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2399.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_24.txt",
@@ -403908,6 +404160,15 @@
       "previous_translation_sha256": "40a987cf497c5e98d727f30d89ac42b6652e65b3d6ac3e05a738f8294119ea53",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1725.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2638.txt",
+      "paragraph_index": 1,
+      "source_sha256": "238d7e8b5388a1ee5f094f9fa68d52438dc89e2f676eae3f27279998916185b2",
+      "translation": "세부 사항: MiG-23MLD 플로거 K는 MiG-23ML의 수명 중간 개량형으로, 공중전 능력, 특히 높은 받음각에서의 조종성을 개선하기 위한 것이었다. 이를 위해 와류 발생기, 비행제어 제한장치, 자동 슬랫 전개 기능을 추가하여 높은 받음각에서 실속이 발생하는 시점을 늦췄다. 날개 회전축도 강화했다. 전투 생존성을 높이기 위해 하방 발사식 채프 발사장치 2개와 상방 발사식 1개를 추가했다. J밴드(10~15GHz) 사프이르-23MLA-II, 일명 N008 또는 하이 라크 2 레이더를 장착하여 기복이 심한 지형 상공에서 하방 탐지·공격 능력을 높였다. 고고도 표적에 대한 최대 탐지거리는 폭격기급 40.5해리, 전투기급 28해리로 늘었으며, 하방 탐지 모드에서는 각각 12.5해리와 8해리로 줄었다.",
+      "previous_translation_sha256": "2c34ed457186f56c6ec7fc7835881848c226fb92a254a983c504887664b4031f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_2638.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2674.txt",
@@ -404063,6 +404324,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1360.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_273.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2731.txt",
       "paragraph_index": 4,
       "source_sha256": "cc59ef3fea7f8314b5c0ce18773879823d959fa79c8002cccfdbba9764d98e71",
@@ -404171,6 +404441,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_278.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f63de0a007b3bf2efa9cec60ca43c9d747d5234b23f6df54a6abebcab213924e",
+      "translation": "미 공군 획득담당 차관보의 획득 부책임자 마크 D. ‘섁’ 섀클퍼드 중장은 F-35가 미국 최고의 지대공미사일 제압 항공기로 설계되었으며, 첨단 처리 능력, 합성개구레이더 통합 기술, 고급 표적 인식 기능으로 이 임무에 특화되어 있다고 밝혔다. 록히드 마틴에 따르면 F-35는 근거리·장거리 공대공 능력에서 F-22 랩터에 이어 두 번째 수준을 목표로 한다. 또한 록히드 마틴은 기지 운용의 유연성과 첨단 센서·정보 융합 측면에서 F-35가 F-22보다 유리하다고 설명했다. F-35의 항속거리가 F-15에 못 미치기는 하지만, 미 공군 F-15C/D의 제공 임무와 F-15E 스트라이크 이글의 지상공격 임무를 대체할 수 있다는 주장도 제시했다.",
+      "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2781.txt",
       "paragraph_index": 2,
       "source_sha256": "2af97b11256820fd5b3359eb44fec265630b60f63787aece51169bdfd293955e",
@@ -404189,11 +404468,47 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1093.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2791.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2792.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2794.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2827.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
       "translation": "코네티컷주 블룸필드의 카만 에어로스페이스가 제작한 SH-2G 슈퍼 시스프라이트는 원래 1950년대 중반에 해군용 함재 다목적 헬리콥터로 개발되었다. 주로터에 독특한 블레이드 플랩 설계를 적용하여 플랩의 공기역학적 작용만으로 조종사가 유압 보조 없이 비행할 수 있다. SH-2G는 미 해군의 경량 공중 다목적 체계(LAMPS) 요구에 대응하도록 특별히 구성되었다. LAMPS 개념은 레이더/전자지원수단(ESM)을 갖춘 헬리콥터를 사용하여 항공모함 및 수송선단 호위함의 탐색·공격 능력을 수평선 너머까지 확장한다.",
       "previous_translation_sha256": "745b8008510c1a041f09bdbdd979814de66e26b98f3e5efce2f703d532341d9e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2827.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
     },
@@ -404207,6 +404522,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_2829.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_2830.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
@@ -404214,6 +404538,24 @@
       "previous_translation_sha256": "745b8008510c1a041f09bdbdd979814de66e26b98f3e5efce2f703d532341d9e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2830.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_2831.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_2840.txt",
@@ -404277,6 +404619,15 @@
       "previous_translation_sha256": "796ea6e142881e413e3a9797c31397c48a87f7c98ff37e5a29d1243ad557c445",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2963.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3009.txt",
@@ -404376,6 +404727,15 @@
       "previous_translation_sha256": "906d03826f19eabc7a054665361871f5a942de63bcd9289edc228e25749abadc",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_311.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3165.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3167.txt",
@@ -404783,11 +405143,29 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3495.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f63de0a007b3bf2efa9cec60ca43c9d747d5234b23f6df54a6abebcab213924e",
+      "translation": "미 공군 획득담당 차관보의 획득 부책임자 마크 D. ‘섁’ 섀클퍼드 중장은 F-35가 미국 최고의 지대공미사일 제압 항공기로 설계되었으며, 첨단 처리 능력, 합성개구레이더 통합 기술, 고급 표적 인식 기능으로 이 임무에 특화되어 있다고 밝혔다. 록히드 마틴에 따르면 F-35는 근거리·장거리 공대공 능력에서 F-22 랩터에 이어 두 번째 수준을 목표로 한다. 또한 록히드 마틴은 기지 운용의 유연성과 첨단 센서·정보 융합 측면에서 F-35가 F-22보다 유리하다고 설명했다. F-35의 항속거리가 F-15에 못 미치기는 하지만, 미 공군 F-15C/D의 제공 임무와 F-15E 스트라이크 이글의 지상공격 임무를 대체할 수 있다는 주장도 제시했다.",
+      "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3496.txt",
       "paragraph_index": 1,
       "source_sha256": "46a812d27af9c3559266562ee27ba664ef0b5f468dee8b871394ffa0549fe6f3",
       "translation": "F-35는 합동타격전투기(JSF) 사업에서 선정된 설계인 X-35에서 파생되었다. 록히드 마틴이 주도하는 항공우주산업 컨소시엄이 설계와 제작을 진행하고 있다. 다른 주요 F-35 사업 참여 업체로는 노스럽 그러먼, 프랫 앤드 휘트니, BAE 시스템스가 있다. F-35는 2006년 12월 15일에 초도비행을 했다. 미국은 2,443대를 구매할 계획이다. F-35의 각 파생형은 향후 수십 년간 미 공군, 해병대, 해군의 유인 전술항공전력 대부분을 담당하도록 계획되었다. 미군용 F-35 인도는 2037년에 완료될 예정이다.",
       "previous_translation_sha256": "b385852f53bd69b964b0d7336603407b597e22978f9289491839b62468157cb2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3496.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f63de0a007b3bf2efa9cec60ca43c9d747d5234b23f6df54a6abebcab213924e",
+      "translation": "미 공군 획득담당 차관보의 획득 부책임자 마크 D. ‘섁’ 섀클퍼드 중장은 F-35가 미국 최고의 지대공미사일 제압 항공기로 설계되었으며, 첨단 처리 능력, 합성개구레이더 통합 기술, 고급 표적 인식 기능으로 이 임무에 특화되어 있다고 밝혔다. 록히드 마틴에 따르면 F-35는 근거리·장거리 공대공 능력에서 F-22 랩터에 이어 두 번째 수준을 목표로 한다. 또한 록히드 마틴은 기지 운용의 유연성과 첨단 센서·정보 융합 측면에서 F-35가 F-22보다 유리하다고 설명했다. F-35의 항속거리가 F-15에 못 미치기는 하지만, 미 공군 F-15C/D의 제공 임무와 F-15E 스트라이크 이글의 지상공격 임무를 대체할 수 있다는 주장도 제시했다.",
+      "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
@@ -404801,11 +405179,29 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_3497.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f63de0a007b3bf2efa9cec60ca43c9d747d5234b23f6df54a6abebcab213924e",
+      "translation": "미 공군 획득담당 차관보의 획득 부책임자 마크 D. ‘섁’ 섀클퍼드 중장은 F-35가 미국 최고의 지대공미사일 제압 항공기로 설계되었으며, 첨단 처리 능력, 합성개구레이더 통합 기술, 고급 표적 인식 기능으로 이 임무에 특화되어 있다고 밝혔다. 록히드 마틴에 따르면 F-35는 근거리·장거리 공대공 능력에서 F-22 랩터에 이어 두 번째 수준을 목표로 한다. 또한 록히드 마틴은 기지 운용의 유연성과 첨단 센서·정보 융합 측면에서 F-35가 F-22보다 유리하다고 설명했다. F-35의 항속거리가 F-15에 못 미치기는 하지만, 미 공군 F-15C/D의 제공 임무와 F-15E 스트라이크 이글의 지상공격 임무를 대체할 수 있다는 주장도 제시했다.",
+      "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_3498.txt",
       "paragraph_index": 1,
       "source_sha256": "46a812d27af9c3559266562ee27ba664ef0b5f468dee8b871394ffa0549fe6f3",
       "translation": "F-35는 합동타격전투기(JSF) 사업에서 선정된 설계인 X-35에서 파생되었다. 록히드 마틴이 주도하는 항공우주산업 컨소시엄이 설계와 제작을 진행하고 있다. 다른 주요 F-35 사업 참여 업체로는 노스럽 그러먼, 프랫 앤드 휘트니, BAE 시스템스가 있다. F-35는 2006년 12월 15일에 초도비행을 했다. 미국은 2,443대를 구매할 계획이다. F-35의 각 파생형은 향후 수십 년간 미 공군, 해병대, 해군의 유인 전술항공전력 대부분을 담당하도록 계획되었다. 미군용 F-35 인도는 2037년에 완료될 예정이다.",
       "previous_translation_sha256": "b385852f53bd69b964b0d7336603407b597e22978f9289491839b62468157cb2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3498.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f63de0a007b3bf2efa9cec60ca43c9d747d5234b23f6df54a6abebcab213924e",
+      "translation": "미 공군 획득담당 차관보의 획득 부책임자 마크 D. ‘섁’ 섀클퍼드 중장은 F-35가 미국 최고의 지대공미사일 제압 항공기로 설계되었으며, 첨단 처리 능력, 합성개구레이더 통합 기술, 고급 표적 인식 기능으로 이 임무에 특화되어 있다고 밝혔다. 록히드 마틴에 따르면 F-35는 근거리·장거리 공대공 능력에서 F-22 랩터에 이어 두 번째 수준을 목표로 한다. 또한 록히드 마틴은 기지 운용의 유연성과 첨단 센서·정보 융합 측면에서 F-35가 F-22보다 유리하다고 설명했다. F-35의 항속거리가 F-15에 못 미치기는 하지만, 미 공군 F-15C/D의 제공 임무와 F-15E 스트라이크 이글의 지상공격 임무를 대체할 수 있다는 주장도 제시했다.",
+      "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
@@ -404934,6 +405330,15 @@
       "previous_translation_sha256": "ec6e6d4039002dd73a43dde3fd7950f5bb1e775303932c1a80dc903f46cee2dd",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_2705.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_3713.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_3717.txt",
@@ -405422,6 +405827,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1246.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_4652.txt",
+      "paragraph_index": 1,
+      "source_sha256": "4eeba61b9ce3c70dbdeaa4b5f4ce23e8dfbf5d397ec938abf152ce5d9dc16a29",
+      "translation": "세부 사항: Su-30MKK는 Su-27UB 기체를 기반으로 하며, 지상·해상 타격에 중점을 둔 다목적 임무에 최적화되어 있다. AL-31F 엔진 2기로 추진되며 최고속도는 마하 2.0이다. 외부 장착점 12개에 R-77·R-73 공대공미사일, Kh-29T/L, Kh-31P/A, KAB-500L 폭탄과 YJ-91(Kh-31P의 면허생산 파생형) 등의 중국제 무장을 탑재할 수 있다. 대지·해상 공격 모드를 추가한 N001VEP 레이더와 적외선 탐색·추적 센서, 내장 레이더경보수신기, 전자대항체계, 헬멧 장착 조준기를 갖춘다. 2018년까지 Su-30MKK 부대는 중국 공군의 장거리 타격연대에 완전히 통합되었으며, 여러 기체가 적 방공망 제압용 YJ-91을 탑재하도록 개조되었다. 이 Su-30 파생형의 NATO 식별명은 플랭커 G다.",
+      "previous_translation_sha256": "0b9c9cfe11bd954b21381e50e5f63c89a31953dcfc4f6378e037762ad3d42cbe",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_4652.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_4663.txt",
       "paragraph_index": 3,
       "source_sha256": "1ae37ecc3ad44297be69ba551f29a4463d02ba3336c4ab1cdcbbc03adbafeacd",
@@ -405438,6 +405852,15 @@
       "previous_translation_sha256": "2a6a8506a3944849985074ff572e84e01550685cf3039ebb74784a4356da9539",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1049.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_467.txt",
+      "paragraph_index": 1,
+      "source_sha256": "91e64c979f77e979a4daa235bda5213ffc13bc0b2727b83b127435e3dae033df",
+      "translation": "세부 사항: Su-24M 펜서 D 공격기에서 파생된 Su-24MP는 1980년 시제기가 등장했고 1983년경 생산에 들어갔다. 약 10대만 제작되어 전선항공대에 배치되었으며, 일부는 동독과 우크라이나에서 운용되다가 1993년까지 러시아로 집결했다. MP형은 률카 AL-21F-3A 후기연소 터보팬 엔진 2기로 추진되며, 순항속도는 약 750노트이고 1990년대까지 운용되었다. 외형상 특징은 기수 아래의 큰 직사각형 안테나 페어링, 엔진 흡입구 뒤의 하키채 모양 안테나 2개, 전파 투과성 기수 패널이다. 때로는 동체 아래에 SPS-6 로스, 미모자 전파방해장치 또는 기만체 발사장치를 수용한 포드를 장착한다. 탑재 란디시 전자전체계는 레이더 탐지, 발신 위치 파악, 전파방해를 지원하며, 자위용 GSh-6-23 기관포와 최대 4발의 R-60 미사일도 유지한다.",
+      "previous_translation_sha256": "8f506ecd9fa627789ef5968952c0045dac6dc00c45b82aba64d8b5714acbc9aa",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_467.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4694.txt",
@@ -405465,6 +405888,15 @@
       "previous_translation_sha256": "12592bf47dbc57bc0606a6eab3aeae82f5db74cc2796593fc1adee3ddfd18c8e",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_4741.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_476.txt",
+      "paragraph_index": 1,
+      "source_sha256": "91e64c979f77e979a4daa235bda5213ffc13bc0b2727b83b127435e3dae033df",
+      "translation": "세부 사항: Su-24M 펜서 D 공격기에서 파생된 Su-24MP는 1980년 시제기가 등장했고 1983년경 생산에 들어갔다. 약 10대만 제작되어 전선항공대에 배치되었으며, 일부는 동독과 우크라이나에서 운용되다가 1993년까지 러시아로 집결했다. MP형은 률카 AL-21F-3A 후기연소 터보팬 엔진 2기로 추진되며, 순항속도는 약 750노트이고 1990년대까지 운용되었다. 외형상 특징은 기수 아래의 큰 직사각형 안테나 페어링, 엔진 흡입구 뒤의 하키채 모양 안테나 2개, 전파 투과성 기수 패널이다. 때로는 동체 아래에 SPS-6 로스, 미모자 전파방해장치 또는 기만체 발사장치를 수용한 포드를 장착한다. 탑재 란디시 전자전체계는 레이더 탐지, 발신 위치 파악, 전파방해를 지원하며, 자위용 GSh-6-23 기관포와 최대 4발의 R-60 미사일도 유지한다.",
+      "previous_translation_sha256": "8f506ecd9fa627789ef5968952c0045dac6dc00c45b82aba64d8b5714acbc9aa",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_467.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_4868.txt",
@@ -405575,6 +406007,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_534.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f63de0a007b3bf2efa9cec60ca43c9d747d5234b23f6df54a6abebcab213924e",
+      "translation": "미 공군 획득담당 차관보의 획득 부책임자 마크 D. ‘섁’ 섀클퍼드 중장은 F-35가 미국 최고의 지대공미사일 제압 항공기로 설계되었으며, 첨단 처리 능력, 합성개구레이더 통합 기술, 고급 표적 인식 기능으로 이 임무에 특화되어 있다고 밝혔다. 록히드 마틴에 따르면 F-35는 근거리·장거리 공대공 능력에서 F-22 랩터에 이어 두 번째 수준을 목표로 한다. 또한 록히드 마틴은 기지 운용의 유연성과 첨단 센서·정보 융합 측면에서 F-35가 F-22보다 유리하다고 설명했다. F-35의 항속거리가 F-15에 못 미치기는 하지만, 미 공군 F-15C/D의 제공 임무와 F-15E 스트라이크 이글의 지상공격 임무를 대체할 수 있다는 주장도 제시했다.",
+      "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_5357.txt",
       "paragraph_index": 1,
       "source_sha256": "448df4f75b2d66ec0c4a07764096d5a7fe4eccd5f761190e740eb567867e0fcc",
@@ -405582,6 +406023,15 @@
       "previous_translation_sha256": "63d0d8fc504456f5b49ad97c70c7ada141f0a25653fb94f6cd777bf0227cf630",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_5357.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_540.txt",
+      "paragraph_index": 1,
+      "source_sha256": "91b254a9d9db3d0563f9f5518585e4eb1ca86d34a0e3ef164d6465d3d9cce458",
+      "translation": "세부 사항: 이 GR.7 개량 사양은 1990년 도입된 기본형을 점진적으로 개선한 것으로, 1995년 실전 운용에 들어갔다. 약 21,750파운드힘의 추력을 내는 롤스로이스 페가수스 Mk 105 터보팬 엔진을 유지하며 수직·단거리이착륙(V/STOL)을 계속 지원했다. 외부 장착점 7개와 복합재 동체를 갖추고, 항공전자장비로 INS/GPS 항법체계, 기수의 전방감시적외선장치(FLIR), MIL-STD-1553 데이터버스를 탑재한다. 1995년 개량으로 마르코니 제우스 전자대항체계와 꼬리에 장착하는 플레시 미사일 접근경보체계(MAWS)를 추가하여 위협을 자동 탐지하게 했다. 내장 레이더경보수신기와 통합 채프·플레어 발사장치도 방어장비에 포함되며, 최고속도는 약 마하 0.9로 유지되었다.",
+      "previous_translation_sha256": "40a445f460047bddb2c523d2daf4770ecd52f83b83dd0e109430476c13a69494",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1124.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_544.txt",
@@ -405692,6 +406142,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_57.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_571.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_573.txt",
       "paragraph_index": 1,
       "source_sha256": "f3d78de34ab574149299f0e0a6920845e9a28642286dbe4001766c62df972848",
@@ -405710,11 +406169,29 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_576.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_577.txt",
       "paragraph_index": 3,
       "source_sha256": "54c69dcb6b0a87480bccadc9fd41ca35a1c08cfa2b253ae289f197f587aa182d",
       "translation": "코네티컷주 블룸필드의 카만 에어로스페이스가 제작한 SH-2G 슈퍼 시스프라이트는 원래 1950년대 중반에 해군용 함재 다목적 헬리콥터로 개발되었다. 주로터에 독특한 블레이드 플랩 설계를 적용하여 플랩의 공기역학적 작용만으로 조종사가 유압 보조 없이 비행할 수 있다. SH-2G는 미 해군의 경량 공중 다목적 체계(LAMPS) 요구에 대응하도록 특별히 구성되었다. LAMPS 개념은 레이더/전자지원수단(ESM)을 갖춘 헬리콥터를 사용하여 항공모함 및 수송선단 호위함의 탐색·공격 능력을 수평선 너머까지 확장한다.",
       "previous_translation_sha256": "745b8008510c1a041f09bdbdd979814de66e26b98f3e5efce2f703d532341d9e",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_577.txt",
+      "paragraph_index": 6,
+      "source_sha256": "70ed5722e36c3ed5211f110ef639ca7da6b6a029dc112fb2b64fe0b5ff6baded",
+      "translation": "SH-2G의 첫 해외 판매는 이집트가 헬기 10대를 주문한 1995년 3월 발표되었다. 전 기체는 SH-2F를 재제작한 것이었다. 첫 SH-2G(E)의 공식 출고식은 1997년 10월 21일 열렸으며 시험은 그보다 먼저 완료되었다. 최초 3대는 1998년 4월 이집트에 인도되기 전에 펜서콜라 해군항공기지에서 비행훈련에 사용될 예정이다. 이 헬기들은 호위함에서 운용된다. 다른 해외 고객은 호주(11대)와 뉴질랜드(4대)로, 치열한 경쟁 끝에 각각 1997년 1월과 3월 카만 헬기를 선정했다. 호주 인도는 2001년 시작될 예정이며, 뉴질랜드는 앤잭급과 리앤더급 호위함에서 운용할 슈퍼 시스프라이트를 2000년 6월부터 받을 예정이다. 임시 조치로 뉴질랜드 해군에는 1997~1998년에 SH-2F가 인도되었다.",
+      "previous_translation_sha256": "4288fe98b87719218ea9763fd01ba491b1247d6578f17257b5ea84b70fb59fe2",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1711.txt"
     },
@@ -405726,6 +406203,15 @@
       "previous_translation_sha256": "68c65a6cd09b3c6393a6816d149c5145ca105a04e7f8710859b1718e81ba9224",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1024.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_5831.txt",
+      "paragraph_index": 1,
+      "source_sha256": "71fc759524043f84835ed784fb29c9c9d806eb0f83900ae21bdc3cddbf259bea",
+      "translation": "세부 사항: 아르캉주(Archange, Avion de Renseignement à CHArge utile de Nouvelle GEnération)는 프랑스가 전략 전자기 정찰 능력을 현대화하기 위해 개발한 차세대 항공 정보수집체계다. 다소 팰컨 8X 3발 제트기를 기반으로 하며, 장시간 임무에 필요한 긴 체공시간과 고고도 성능을 제공한다. 넓은 주파수 대역의 레이더·통신 신호를 감청하고 발신 위치를 파악하며 분석할 수 있는 탈레스 CUGE(Capacité Universelle de Guerre Électronique) 체계를 탑재한다. 팰컨 8X는 프랫 앤드 휘트니 캐나다 PW307D 터보팬 엔진 3기로 추진되며 속도는 마하 0.90, 항속거리는 12,000km다. 자국 및 동맹국 정보체계와 연동하면서 안전거리를 둔 지속적인 감시를 수행할 수 있다.",
+      "previous_translation_sha256": "6aac78d4963e4d3f7cc5d10ef54660703cc55b794179d8aad5c804901e4f1534",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_5831.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Aircraft_5832.txt",
@@ -406025,6 +406511,15 @@
       "review_origin": "DB/Descriptions/CWDB/Aircraft_1766.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_698.txt",
+      "paragraph_index": 2,
+      "source_sha256": "4ded4c3dedb7cb3ca7c63c9f17b09704b119489b31259db54c7799d362d629fe",
+      "translation": "세부 사항: SH-60B는 UH-60A와 83%의 공통성을 유지했다. 주요 변경 사항은 부식 방지, 더 강력한 T700 엔진, 단단식 올레오 주착륙장치, 왼쪽 출입문을 고정 동체 구조로 대체한 것, 무장 파일런 2개 추가, 함상 착륙에 필요한 공간을 줄이기 위해 꼬리 착륙장치를 13피트(3.96m) 앞으로 옮긴 것이다. 이 밖에도 연료탱크 확대, 전동 로터 블레이드 접이장치, 수납용 접이식 수평안정판, 왼쪽의 25관식 공압 소노부이 발사장치가 적용되었다. 초기에는 기체 양쪽 주착륙장치의 짧은 날개형 페어링에 비상 부양장치도 설치되었다. 그러나 실용성이 떨어지고 비상 탈출을 방해할 가능성이 확인되어 이후 제거되었다.",
+      "previous_translation_sha256": "1bc6431ed3c10048bb0dda03fd61be7401ed99d9a22c320ef5c5c8a7714e36eb",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_1135.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_704.txt",
       "paragraph_index": 4,
       "source_sha256": "065a71823c30934682e9329a00e16dc967c40cdd2d21ffd4f6f688efd1038093",
@@ -406205,6 +406700,15 @@
       "review_origin": "DB/Descriptions/DB3000/Aircraft_1018.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Aircraft_776.txt",
+      "paragraph_index": 2,
+      "source_sha256": "e6dd86405744380472eded4c63c59d4d972b199c737ea2da8ceba3939fdc5ac7",
+      "translation": "세부 사항: 시 스탤리언의 동체 설계는 시코르스키 S-61R/졸리 그린 자이언트 계열과 유사하다. 조종석 뒤 동체 오른쪽에 승객 출입문이 있고, 뒤쪽에는 동력식 화물 램프가 있다. 동체는 수밀 구조지만 수륙양용 운용을 위한 것은 아니며 비상시에만 착수했다. 기계식 비행조종장치를 사용하고 독립된 유압계통 3개가 이를 지원한다. 승무원과 핵심 계통은 장갑으로 보호된다. CH-53A의 승무원은 조종사, 부조종사, 기상정비사, 공중관측원 등 4명이다. 병력 38명, 의료요원이 동승하는 들것 24개, 내부 화물 8,000파운드(3,600kg), 또는 단일 지점 슬링 후크에 매다는 외부 화물 13,000파운드(5,900kg)를 수송할 수 있다. 동체 양옆으로 사격하는 7.62mm M60 기관총 2정을 장비한다.",
+      "previous_translation_sha256": "5585697fd6c24d6e86d021111006fa719723c248d3b97eea5522108d461e9954",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Aircraft_2097.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Aircraft_779.txt",
       "paragraph_index": 0,
       "source_sha256": "e1f7fb05aa65be1807ba584540748f16f8c3a58482f3d952be1b2d1c04610785",
@@ -406282,6 +406786,15 @@
       "source_sha256": "46a812d27af9c3559266562ee27ba664ef0b5f468dee8b871394ffa0549fe6f3",
       "translation": "F-35는 합동타격전투기(JSF) 사업에서 선정된 설계인 X-35에서 파생되었다. 록히드 마틴이 주도하는 항공우주산업 컨소시엄이 설계와 제작을 진행하고 있다. 다른 주요 F-35 사업 참여 업체로는 노스럽 그러먼, 프랫 앤드 휘트니, BAE 시스템스가 있다. F-35는 2006년 12월 15일에 초도비행을 했다. 미국은 2,443대를 구매할 계획이다. F-35의 각 파생형은 향후 수십 년간 미 공군, 해병대, 해군의 유인 전술항공전력 대부분을 담당하도록 계획되었다. 미군용 F-35 인도는 2037년에 완료될 예정이다.",
       "previous_translation_sha256": "b385852f53bd69b964b0d7336603407b597e22978f9289491839b62468157cb2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Aircraft_824.txt",
+      "paragraph_index": 4,
+      "source_sha256": "f63de0a007b3bf2efa9cec60ca43c9d747d5234b23f6df54a6abebcab213924e",
+      "translation": "미 공군 획득담당 차관보의 획득 부책임자 마크 D. ‘섁’ 섀클퍼드 중장은 F-35가 미국 최고의 지대공미사일 제압 항공기로 설계되었으며, 첨단 처리 능력, 합성개구레이더 통합 기술, 고급 표적 인식 기능으로 이 임무에 특화되어 있다고 밝혔다. 록히드 마틴에 따르면 F-35는 근거리·장거리 공대공 능력에서 F-22 랩터에 이어 두 번째 수준을 목표로 한다. 또한 록히드 마틴은 기지 운용의 유연성과 첨단 센서·정보 융합 측면에서 F-35가 F-22보다 유리하다고 설명했다. F-35의 항속거리가 F-15에 못 미치기는 하지만, 미 공군 F-15C/D의 제공 임무와 F-15E 스트라이크 이글의 지상공격 임무를 대체할 수 있다는 주장도 제시했다.",
+      "previous_translation_sha256": "abf18f6d06326160e0b6c26305baa8aa07bd243acb68519e9994fc55c160d117",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Aircraft_278.txt"
     },
@@ -406662,6 +407175,15 @@
       "previous_translation_sha256": "eed69c4c960e594c3b5d9697212b90668b6d390b4b73f6598ad787a9cb3e4d28",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Facility_1170.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_1188.txt",
+      "paragraph_index": 1,
+      "source_sha256": "582b975e6c13c02f85061f30292a0c190e1d5f561b747c4cc2ca7cda882851b2",
+      "translation": "세부 사항: 지라프는 주파수 민첩성을 갖춘 저·중고도 펄스 도플러 대공수색레이더이자 전투통제소로, 이동식 또는 고정식 단·중거리 방공에 사용할 수 있다. 강한 클러터와 전자방해 환경에서도 저고도의 작은 레이더 반사면적을 가진 항공 표적을 탐지하도록 설계되었다. 방공지휘소 사양에서는 휴대용 무선통신을 통해 각 사격포대에 공중 상황 정보를 제공한다. 지라프는 지휘·통제·통신(C3) 체계가 통합된 민첩 다중빔(AMB) 방식을 사용한다. 따라서 방공체계의 지휘통제소 역할을 할 수 있으며, 더 넓은 구역을 감시하도록 센서망에 통합할 수도 있다. 높은 기동성을 위해 보통 험지 주행 차량에 탑재한 길이 6m의 단일 셸터에 수용된다.",
+      "previous_translation_sha256": "5e2ed9478aef872f66cfb3b179761704717a3e05d2de32e7abc6a197e2d1d863",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_1188.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_1234.txt",
@@ -407130,6 +407652,15 @@
       "previous_translation_sha256": "6e1eb389f63f579b1bc9126e7a6ec82b35c2ac057a471289d21f457fda9bfc6f",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Facility_391.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Facility_2624.txt",
+      "paragraph_index": 1,
+      "source_sha256": "e9f6a01745668aaaba584dc254f099447171216b7b5eb3729de266785e48a232",
+      "translation": "세부 사항: 애로 3 요격미사일은 독립형 전술탄도미사일 방어체계(ATBM)인 애로 무기체계(AWS)의 일부다. 모듈식 애로 방공체계는 다양한 탄두를 탑재하고 날아오는 전술탄도미사일을 넓은 구역에서 탐지·추적·요격·파괴하여 전략시설과 인구 밀집 지역을 보호한다. 애로 3의 대기권 밖 요격미사일은 애로 3·애로 2·패트리엇으로 구성된 다층 ATBM 체계의 상층 방어를 담당한다. 다층 방어와 짧은 비행시간을 결합하여 넓은 공간에서 여러 차례 요격 기회를 확보하므로, AWS의 방어망 돌파 허용률은 거의 0에 가깝다. 또한 애로 3의 고고도 요격 능력은 대량살상무기(WMD)를 탑재한 표적을 요격했을 때 발생하는 지상의 부수적 피해를 최소화한다.",
+      "previous_translation_sha256": "a227a53c9a6f300141b3afa2f6b8b92e39d1f76906d5e972f1bdc4972285bf91",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Facility_2624.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Facility_279.txt",
@@ -407681,6 +408212,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_1048.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_1112.txt",
+      "paragraph_index": 2,
+      "source_sha256": "b6da2ed3d0d183b0d2ec10c215ed5aba3e4c73cf17f970cc7f6fe4c4dc885363",
+      "translation": "안테나 체계는 한 쌍의 안테나로 구성된다. 전기기계식 주사 방식의 이른바 ‘루이스 스캐너’ 안테나 2개가 수직·수평 방향의 표적 탐색을 담당하며, 보통 포대의 P-12 스푼 레스트와 PRV-10 록 케이크 같은 고도측정레이더를 함께 운용한다. 이런 구성이 필요한 이유는 팬 송 레이더의 좁은 10° × 2° 감시 빔을 10° 범위 안에서만 움직일 수 있기 때문이다. 서로 직각으로 장착된 안테나는 십자형 빔을 형성하고 그 중심을 표적에 맞춰 고도와 방위를 측정한다. 빔은 담당 구역을 주사하면서 날개를 퍼덕이는 듯한 움직임을 보인다. 팬 송 A에는 추적용 협대역(2~4GHz) 안테나도 있었다. 팬 송 레이더에는 저고도 사각지대가 있었으며, 대공포로 이를 보완하지 않으면 공격 항공기가 침투로로 이용할 수 있었다.",
+      "previous_translation_sha256": "d44544eeaba22a01682a0cffa4116f1d61deeb709a30cc4af736351146604461",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Sensor_1112.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_1463.txt",
       "paragraph_index": 6,
       "source_sha256": "2550068bdd1fe08d635abf7eafc445f51ac616d08fb1ebc3a4071abf33d6b557",
@@ -407852,6 +408392,15 @@
       "review_origin": "DB/Descriptions/DB3000/Sensor_1673.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Sensor_4446.txt",
+      "paragraph_index": 2,
+      "source_sha256": "b6da2ed3d0d183b0d2ec10c215ed5aba3e4c73cf17f970cc7f6fe4c4dc885363",
+      "translation": "안테나 체계는 한 쌍의 안테나로 구성된다. 전기기계식 주사 방식의 이른바 ‘루이스 스캐너’ 안테나 2개가 수직·수평 방향의 표적 탐색을 담당하며, 보통 포대의 P-12 스푼 레스트와 PRV-10 록 케이크 같은 고도측정레이더를 함께 운용한다. 이런 구성이 필요한 이유는 팬 송 레이더의 좁은 10° × 2° 감시 빔을 10° 범위 안에서만 움직일 수 있기 때문이다. 서로 직각으로 장착된 안테나는 십자형 빔을 형성하고 그 중심을 표적에 맞춰 고도와 방위를 측정한다. 빔은 담당 구역을 주사하면서 날개를 퍼덕이는 듯한 움직임을 보인다. 팬 송 A에는 추적용 협대역(2~4GHz) 안테나도 있었다. 팬 송 레이더에는 저고도 사각지대가 있었으며, 대공포로 이를 보완하지 않으면 공격 항공기가 침투로로 이용할 수 있었다.",
+      "previous_translation_sha256": "d44544eeaba22a01682a0cffa4116f1d61deeb709a30cc4af736351146604461",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/CWDB/Sensor_1112.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Sensor_4497.txt",
       "paragraph_index": 1,
       "source_sha256": "e7b311ce54e6c33b864b66152a6e0b8d8a21e6e377f2765deac7ed52be813735",
@@ -407940,6 +408489,15 @@
       "previous_translation_sha256": "aa64ba8b20a53965ceb10f609241239829a33ec71764578635b02dd78f7d5a51",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Sensor_213.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Sensor_541.txt",
+      "paragraph_index": 1,
+      "source_sha256": "cb494ee67dc7f58882c5e886c1087b9fd534ba6543f12eac11110606b6ab4a47",
+      "translation": "세부 사항: 휴즈 AN/ASG-18 사격통제체계는 미 공군이 계획한 노스아메리칸 XF-108 레이피어 요격기와 록히드 YF-12를 위한 시제 항공기 탑재 사격통제 레이더 체계였다. 미국 최초의 펄스 도플러 레이더로 하방 탐지·공격 능력을 제공했으며, 최초의 탐색 중 추적(TWS) 레이더이기도 했다. 한 번에 표적 1개를 추적할 수 있었다[출처 필요]. 적외선 탐색·추적(IRST) 체계와 함께 사용되었다. 추정 탐지거리는 200~300마일(322~482km)이었고, 폭격기급 표적은 100마일(160km) 거리에서 안정적으로 탐지할 수 있었다. 장비는 매우 커서 무게가 2,100파운드(953kg)에 달했고 기수 대부분을 차지했다. 이 체계는 사거리가 역시 약 100마일인 휴즈 AIM-47 팰컨 미사일과 함께 운용할 예정이었다.",
+      "previous_translation_sha256": "a7b2205efdaf2745ad932bafaea3d3038bf9d5251a2edddd0ef5d2ab72aebe80",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Sensor_541.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Sensor_5696.txt",
@@ -408219,6 +408777,15 @@
       "previous_translation_sha256": "55c3dc5cdf4126f9e7038f3c96613bcd6eaf72734e1fe01f8c7ba4b070259bd8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1069.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1071.txt",
@@ -408590,6 +409157,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1203.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1205.txt",
       "paragraph_index": 8,
       "source_sha256": "3e672a6d3eb1efcde12c9b2abcc83d0b55100176d8700da39be7c371b93a5778",
@@ -408597,6 +409173,42 @@
       "previous_translation_sha256": "dcaf3fb6ee31cc4ee00c790fd0311db1bdc2ed9e97d02660914355e6e6508410",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1208.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1209.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1210.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1211.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1213.txt",
@@ -408777,6 +409389,33 @@
       "previous_translation_sha256": "36ced5fcf9e79bede43baa70cf0f16351c793301b064fbd3da7e681c1e353b5c",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1590.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1633.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1634.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1635.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1636.txt",
@@ -409058,6 +409697,33 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_891.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_1669.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1670.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1671.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_1674.txt",
       "paragraph_index": 2,
       "source_sha256": "2f67f40ec9b1558749d7f4078b4c2631ffab572c55efc6d63d12e497fb20959d",
@@ -409299,6 +409965,15 @@
       "previous_translation_sha256": "595da3e767e2beb7e9de4fc8bdb9b24f83f75003a4e16a8393deb66f49824c16",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_1682.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_1983.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_1984.txt",
@@ -409841,6 +410516,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_2295.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_271.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_2714.txt",
       "paragraph_index": 5,
       "source_sha256": "5a86a35b4f46631adb8b621cf80119d910f112c8cbbeb40d1191b57e6100a0a3",
@@ -410003,6 +410687,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_2834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_422.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_423.txt",
       "paragraph_index": 8,
       "source_sha256": "3e672a6d3eb1efcde12c9b2abcc83d0b55100176d8700da39be7c371b93a5778",
@@ -410136,6 +410829,15 @@
       "previous_translation_sha256": "f51707a300fb8926d5a5b303e2ce2c21b48ef4ba0d5ade30e57e72a2e6e4094a",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_1221.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_483.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_502.txt",
@@ -410399,6 +411101,33 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_669.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_671.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_672.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_673.txt",
       "paragraph_index": 2,
       "source_sha256": "46163f0604271c1dd5c62e103b97d50399f1d893d34490939adc9a5c2262255b",
@@ -410597,6 +411326,15 @@
       "review_origin": "DB/Descriptions/CWDB/Ship_1221.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_747.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_776.txt",
       "paragraph_index": 2,
       "source_sha256": "2f67f40ec9b1558749d7f4078b4c2631ffab572c55efc6d63d12e497fb20959d",
@@ -410640,6 +411378,24 @@
       "previous_translation_sha256": "43f4ea5a794b1c0477d58c495a9e1b37af6d58ad1818698da1391eb0d5e965fb",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/CWDB/Ship_834.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_778.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_779.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_792.txt",
@@ -410750,6 +411506,15 @@
       "review_origin": "DB/Descriptions/DB3000/Ship_1590.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Ship_898.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Ship_899.txt",
       "paragraph_index": 2,
       "source_sha256": "d5c6464f80e3844a88389e9428c4b9d79c57e33511c1042142d59557f9ac2d3a",
@@ -410757,6 +411522,33 @@
       "previous_translation_sha256": "55c3dc5cdf4126f9e7038f3c96613bcd6eaf72734e1fe01f8c7ba4b070259bd8",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Ship_106.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_900.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_903.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Ship_905.txt",
+      "paragraph_index": 4,
+      "source_sha256": "bb9dea97de1652697c9a8de1cb43f9e46df7742e088c45feb9e3806df4e64d1d",
+      "translation": "존 F. 케네디(CV-67)는 원래 네 번째 키티호크급 항공모함으로 건조될 예정이었으나, 건조 중 변경 사항이 너무 많아 별도 함급을 이루게 되었으며 흔히 단함급으로 분류된다. 케네디도 소나 배열을 수용하기 위해 닻 관련 설계를 비슷하게 변경했지만, 소나는 실제로 설치되지 않았다. 원자력 추진함으로 건조하려는 계획도 있었으나 의회가 승인하지 않아 재래식 추진 항공모함으로 건조되었다. 굴뚝도 달라서 배기가스가 비행갑판에서 멀어지도록 함외 방향으로 기울어져 있다. 함체 중앙부 갑판의 비스듬한 끝부분도 다른 키티호크급과 다르며 니미츠급에 더 가깝다. 케네디의 전장은 다른 키티호크급 항공모함보다 17피트(5.2m) 짧다.",
+      "previous_translation_sha256": "b93e3af4d96fc98e9bfdcfe6c7a916d7d7c3f2c939c8ad53c6f2146861dda386",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Ship_1069.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Ship_910.txt",
@@ -411731,6 +412523,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_1003.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_1032.txt",
+      "paragraph_index": 1,
+      "source_sha256": "9c986d8e8ae52f126afa64bfa61cf7d1ef50c57f308f9421bc38f956e2a331c6",
+      "translation": "세부 사항: 뒤랑달 폭탄은 비행장 사용을 저지하기 위한 무기다. 탄두, 점화장치, 고체연료 로켓, 낙하산의 네 주요 부분으로 구성된다. 투하 후 제동용 낙하산과 주낙하산이 전개되어 속도를 25m/s로 낮춘다. 폭탄의 각도가 30도에 이르면 낙하산을 분리하고 추력 92.4kN의 로켓 모터를 점화하여 250m/s까지 가속한 뒤 활주로 표면을 관통한다. 충돌 시 100kg의 주폭약이 폭발하여 관통력을 높인다. 관통 후에는 비행 전에 1초에서 수 시간 사이로 선택한 지연시간이 지나면 2차 폭약이 폭발한다. 활주로 표면에는 지름 5m, 깊이 2~3m의 구덩이가 생기며, 폭발 지점 주변 150~250m² 구역에서도 표면이 솟아오르고 갈라진다.",
+      "previous_translation_sha256": "ffe03a5771e6c56d916163d7a69e8eebccf2350d57bcb655d095fefccb0102fc",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1032.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_1050.txt",
       "paragraph_index": 1,
       "source_sha256": "7be2e9de5fb3e40324cac929eb8080ea67258bd140479a4f9b74b3611d2ad328",
@@ -412188,6 +412989,15 @@
       "previous_translation_sha256": "5e43871fb46a4f565ef32ba292ab749e28a095ca969a854921aa0fcce38a3627",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_1705.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_1728.txt",
+      "paragraph_index": 1,
+      "source_sha256": "65a40eb344d1decbf133625bc15754deb78e6a8f6d74ef2b6bf562e2290bf148",
+      "translation": "세부 사항: ‘Mark’ 표기는 미 해군 어뢰 계열에서의 형식을 나타낸다. Mk 14는 1931년부터 개발된 직경 21인치의 증기추진 설계다. 길이는 약 6.25m, 무게는 약 1,488kg이며, 접촉식·자기감응식 기폭장치를 함께 갖춘 292kg 토펙스 탄두를 탑재한다. 알코올과 공기를 사용하는 습식 가열 증기터빈으로 추진되며, 고속 설정은 46노트로 4,500야드, 저속 설정은 31노트로 9,000야드의 항주거리를 제공한다. 1938년 처음 배치되었지만 설정 심도보다 깊게 항주하는 문제, 기폭장치 결함, 자이로 오작동 등 심각한 신뢰성 문제가 있었고, 이는 1943~1944년의 개선 때까지 이어졌다. 개선 후에는 일본 선박을 격침하는 핵심 무기가 되었다. 미 해군에서 1970년대까지 사용되었으며 후속 어뢰 설계에도 영향을 미쳤다.",
+      "previous_translation_sha256": "051fcc20c30312c064109c072f9a8d2734ae086992b0e7533d357210f72f512f",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_1728.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_1734.txt",
@@ -412793,6 +413603,15 @@
       "review_origin": "DB/Descriptions/DB3000/Weapon_2960.txt"
     },
     {
+      "path": "DB/Descriptions/DB3000/Weapon_2965.txt",
+      "paragraph_index": 1,
+      "source_sha256": "34c53ebdf192bb5c040af5de211ff4ea8cb3a2a85e8bec8ac4cfe21013425480",
+      "translation": "세부 사항: ALQ-184(V)9는 ALQ-119(V)에 개조 키트를 적용하여 상위 두 주파수 대역의 아날로그 하드웨어 상당 부분을 새로운 삽입식 회로기판으로 교체한 장비다. ALQ-184(V)처럼 ALQ-119의 고정 안테나를 전자적으로 주사할 수 있는 안테나로 대체한다. 2~10GHz 범위에서 2개 또는 3개 대역으로 운용할 수 있다. 유효방사전력(ERP)은 기존 AN/ALQ-119보다 10dB 이상 높다. 높아진 ERP와 지향 방향을 바꿀 수 있는 안테나로 방사 에너지를 집중시켜 전파방해 효율을 높인다. ALQ-184(V)9는 연속파(CW), 펄스, 펄스 도플러 신호에 대해 100%의 탐지 확률을 제공한다. ALQ-184(V) 대비 개선 사항은 주기장에서의 재프로그래밍 능력과 변조 전파방해 기능의 추가다. ALE-50(V) 견인식 기만체 운용 능력도 갖춘다.",
+      "previous_translation_sha256": "da82ddae6410b9ad0deb488fdbb160b2dbc36d9efba78b49be00822b763c0df2",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_2965.txt"
+    },
+    {
       "path": "DB/Descriptions/DB3000/Weapon_3001.txt",
       "paragraph_index": 1,
       "source_sha256": "4e4976544f0567cc4d68c9810fd3705839dc76581d2ed0d5565adcc261dfe7a4",
@@ -413232,6 +414051,15 @@
       "previous_translation_sha256": "bdad02dba414898aa6043bda3d439189bcb2f112ae5abc1d526b21d276f3ccb1",
       "review": "direct-whole-paragraph-source-review",
       "review_origin": "DB/Descriptions/DB3000/Weapon_446.txt"
+    },
+    {
+      "path": "DB/Descriptions/DB3000/Weapon_452.txt",
+      "paragraph_index": 1,
+      "source_sha256": "ee9278626f700c131995196bf458654814e58377ea00aa5ee5c1d1aa97eafd2f",
+      "translation": "세부 사항: SLAM-ER은 사전 계획 표적과 기회표적을 주야간·전천후로 정밀 타격하도록 설계되었다. AGM-84K SLAM-ER은 항법과 제어에 GPS와 적외선 영상을 사용한다. AGM-84E에서 발전한 형식으로, 관통력을 높인 개량 탄두와 개선된 데이터링크 등 여러 변경 사항을 반영했다. 데이터링크는 AGM-84E보다 제어거리를 50% 늘리고 전파방해 저항성도 높였다. 비행 중 원격 제어할 수 있으며, 원래 표적이 이미 파괴되었거나 더 이상 위협으로 간주되지 않으면 발사 후 다른 표적으로 유도할 수 있다. 매우 정확한 무기로, 2009년 기준 미 해군이 사용하는 미사일 가운데 원형공산오차(CEP)가 가장 작았다.",
+      "previous_translation_sha256": "9458d580aadc8db15c393a5b5b9e40644faa73c6baf6fad18121403f8e519db4",
+      "review": "direct-whole-paragraph-source-review",
+      "review_origin": "DB/Descriptions/DB3000/Weapon_452.txt"
     },
     {
       "path": "DB/Descriptions/DB3000/Weapon_473.txt",
